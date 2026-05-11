@@ -177,3 +177,133 @@ def test_load_raw_state_mfi_median_default(tmp_path: Path) -> None:
     """When parameters omit state_mfi_median, loader falls back to a sane default."""
     result = load_raw_artifacts(tmp_path, {})
     assert result.state_mfi_median == pytest.approx(90116.0)
+
+
+# ---------------------------------------------------------------------------
+# S+5 additions — SNAP retailers + farmers markets in food_resources_raw
+# ---------------------------------------------------------------------------
+
+
+def test_load_raw_snap_retailers_populates_food_resources(tmp_path: Path) -> None:
+    payload = {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": {"type": "Point", "coordinates": [-75.5, 39.7]},
+                "properties": {
+                    "Record_ID": "DE001",
+                    "Store_Name": "Acme Grocery",
+                    "Store_Street_Address": "100 Main St",
+                    "City": "Wilmington",
+                    "State": "DE",
+                    "Zip_Code": "19801",
+                    "Store_Type": "Grocery Store",
+                },
+            },
+            {
+                "type": "Feature",
+                "geometry": {"type": "Point", "coordinates": [-75.4, 39.6]},
+                "properties": {
+                    "Record_ID": "DE002",
+                    "Store_Name": "QuickStop",
+                    "City": "Newark",
+                    "State": "DE",
+                    "Zip_Code": "19711",
+                    "Store_Type": "Convenience Store",
+                },
+            },
+        ],
+    }
+    (tmp_path / "snap-retailers-de.geojson").write_text(
+        json.dumps(payload), encoding="utf-8"
+    )
+
+    result = load_raw_artifacts(tmp_path, DEFAULT_PARAMETERS)
+    assert len(result.food_resources_raw) == 2
+    assert result.food_resources_raw[0].source == "snap-retailers"
+    assert result.food_resources_raw[0].name == "Acme Grocery"
+    assert result.food_resources_raw[0].category == "grocery-store"
+    assert result.food_resources_raw[1].category == "corner-store"
+    assert "snap-retailers" in result.manifest.sources
+
+
+def test_load_raw_snap_retailers_skips_features_missing_geometry(tmp_path: Path) -> None:
+    payload = {
+        "type": "FeatureCollection",
+        "features": [
+            {"type": "Feature", "geometry": None, "properties": {"Store_Name": "Bad", "Store_Type": "Grocery Store"}},
+            {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-75.5, 39.7]},
+             "properties": {"Store_Name": "Good", "Store_Type": "Grocery Store"}},
+        ],
+    }
+    (tmp_path / "snap-retailers-de.geojson").write_text(
+        json.dumps(payload), encoding="utf-8"
+    )
+    result = load_raw_artifacts(tmp_path, DEFAULT_PARAMETERS)
+    assert len(result.food_resources_raw) == 1
+    assert result.food_resources_raw[0].name == "Good"
+
+
+def test_load_raw_farmers_markets_populates_food_resources(tmp_path: Path) -> None:
+    payload = {
+        "markets": [
+            {
+                "listing_id": "fm-1",
+                "listing_name": "Wilmington Farmers Market",
+                "location_address": "200 Market St, Wilmington, DE",
+                "location_state": "Delaware",
+                "location_lat": 39.74,
+                "location_lon": -75.55,
+            }
+        ]
+    }
+    (tmp_path / "usda-farmers-markets-de.json").write_text(
+        json.dumps(payload), encoding="utf-8"
+    )
+    result = load_raw_artifacts(tmp_path, DEFAULT_PARAMETERS)
+    assert len(result.food_resources_raw) == 1
+    fr = result.food_resources_raw[0]
+    assert fr.source == "usda-farmers-markets"
+    assert fr.category == "farmers-market"
+    assert fr.lat == pytest.approx(39.74)
+    assert "usda-farmers-markets" in result.manifest.sources
+
+
+def test_load_raw_combines_snap_and_farmers_markets(tmp_path: Path) -> None:
+    (tmp_path / "snap-retailers-de.geojson").write_text(
+        json.dumps({
+            "type": "FeatureCollection",
+            "features": [{
+                "type": "Feature",
+                "geometry": {"type": "Point", "coordinates": [-75.5, 39.7]},
+                "properties": {"Store_Name": "S1", "Store_Type": "Grocery Store"},
+            }],
+        }),
+        encoding="utf-8",
+    )
+    (tmp_path / "usda-farmers-markets-de.json").write_text(
+        json.dumps({"markets": [{
+            "listing_name": "FM1",
+            "location_lat": 39.6,
+            "location_lon": -75.6,
+        }]}),
+        encoding="utf-8",
+    )
+    result = load_raw_artifacts(tmp_path, DEFAULT_PARAMETERS)
+    sources = {r.source for r in result.food_resources_raw}
+    assert sources == {"snap-retailers", "usda-farmers-markets"}
+    assert len(result.food_resources_raw) == 2
+
+
+def test_load_raw_farmers_markets_skips_markets_missing_coords(tmp_path: Path) -> None:
+    (tmp_path / "usda-farmers-markets-de.json").write_text(
+        json.dumps({"markets": [
+            {"listing_name": "No Coords", "location_lat": None, "location_lon": None},
+            {"listing_name": "Has Coords", "location_lat": 39.7, "location_lon": -75.5},
+        ]}),
+        encoding="utf-8",
+    )
+    result = load_raw_artifacts(tmp_path, DEFAULT_PARAMETERS)
+    assert len(result.food_resources_raw) == 1
+    assert result.food_resources_raw[0].name == "Has Coords"
