@@ -10,3 +10,20 @@ Thumbs.db
 dist/
 build/
 .cache/
+
+# Python (DGI ETL)
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+.python-version
+
+# ETL raw pulled artifacts (intermediate; not committed)
+# Keep the directory via .gitkeep; ignore the contents.
+etl/raw/*
+!etl/raw/.gitkeep
+
+# ETL geocoding disk cache (S+2)
+etl/cache/

@@ -1,0 +1,48 @@
+# DGI Food Access ETL parameters
+#
+# This file is the canonical source for every tunable knob in the pipeline.
+# Methodology v0.2.0 (definition-locked) fixes the values below; do NOT change
+# them without bumping the methodology version per CLAUDE.md.
+#
+# Values flow into datapackage.json's "etl_parameters" block at run time.
+
+# --- SB 254-effective tract computation (methodology §Q6) ---
+sb254_population_threshold: 0.5        # >50% of tract pop must be > distance from food
+sb254_urban_distance_mi: 0.5
+sb254_nonurban_distance_mi: 10.0
+
+# --- USDA LILA flag thresholds (for cross-reference layer) ---
+usda_lila_urban_distance_mi: 1.0
+usda_lila_nonurban_distance_mi: 10.0
+
+# --- Low-income definition (per SB 254) ---
+low_income_poverty_threshold: 0.20     # tract poverty rate >=20%
+low_income_mfi_threshold: 0.80         # tract median family income <=80% DE median
+
+# --- Vintage and release tracking ---
+mmg_release: "2025"                    # Map the Meal Gap release year (May annual)
+mmg_data_year: 2023                    # data year the release covers
+acs_vintage: "2019-2023 5-year"        # update when Census publishes new 5-year
+tiger_year: 2020                       # TIGER tract shapefile vintage
+
+# --- Geocoding (S+2 work; documented here for completeness) ---
+geocoder_primary: census
+geocoder_cross_check: nominatim
+geocoder_tie_break_distance_m: 200     # < this = high confidence; > = manual review
+
+# --- Output paths (relative to repo root) ---
+raw_dir: etl/raw
+output_dir: dgi-food-access/data
+schema_dir: etl/outputs/schema
+
+# --- Manual review pattern ---
+manual_reviews_file: etl/manual-reviews.yaml
+wilmington_zip_low: 19801
+wilmington_zip_high: 19810
+
+# --- Refresh cadence (CI-level; see .github/workflows/dgi-etl.yml) ---
+schedule_cron: "0 9 1-7 * 0"           # first Sunday of month at 09:00 UTC
+
+# --- Validation thresholds ---
+max_source_age_days: 30                # any source older than this fails deploy gate
+min_tracts_per_county_de: 1            # sanity floor
