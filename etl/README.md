@@ -6,12 +6,13 @@ Authoritative design: `2026-05-11-DGI-Bulk-ETL-Design.md` in the vault `07-Brief
 
 ## Status
 
-**S+3 (2026-05-11):** transforms layer complete. Population-weighted areal interpolation, SB 254-effective tract classification, food-resource universe merge, and the Frictionless datapackage writer all landed. `run_etl.py` orchestrates the full pipeline end-to-end and is exercised by a smoke-suite integration test (13 orchestrator tests).
+**S+4 (2026-05-11):** live-source orchestration in. The `run_etl.py` CLI now composes a full pipeline from disk (or fetches everything fresh with `--pull`) and writes the Frictionless datapackage + every dashboard data file to `dgi-food-access/data/`. Three TIGER/Census pullers added (tract polygons, block-group polygons, block-group population) for the SB 254-effective + apportionment stages. CI gained a `live-etl` job that runs the full pipeline on schedule or workflow_dispatch and uploads `dgi-food-access/data/` as an artifact (optionally committing back to `main` when `commit_data=true`). Test suite at 134 passed / 2 skipped.
 
 - **S+1:** scaffold + 5 source pullers (USDA LILA, FirstMap SD2, DART GTFS, Census ACS, MMG)
 - **S+2:** geocoding library (Census + Nominatim) + geocoding transform + manual-reviews second pass + DSB scaffold
-- **S+3 (here):** transforms (apportion / sb254-effective / merge food resources) + Frictionless datapackage writer + per-resource schemas + end-to-end orchestrator
-- **S+4 (next):** live-source orchestration + dashboard wire-up + methodology `publish: true` flip + first scheduled ETL run
+- **S+3:** transforms (apportion / sb254-effective / merge food resources) + Frictionless datapackage writer + per-resource schemas + end-to-end orchestrator
+- **S+4 (here):** TIGER tracts + TIGER BGs + Census ACS BG pullers; `etl/lib/load_raw.py` (disk → PipelineInputs); `run_etl.py` CLI flipped from scaffold to live orchestrator with `--pull` / `--strict` / `--dry-run`; `.github/workflows/dgi-etl.yml` `live-etl` job (schedule + workflow_dispatch); methodology version pin v0.2.0 → v0.2.1 (patch)
+- **S+5 (next):** TIGER county-polygon source for MMG apportionment GDF; SNAP retailers + farmers-market pullers (food-resource universe widens beyond DGI grantees); DSB canonical URL resolution; per-tract demographics join from `acs-tract-demographics.csv`
 
 ## Layout
 
@@ -21,14 +22,28 @@ etl/
 ├── requirements.txt         # canonical pinned deps (per design brief)
 ├── parameters.yaml          # ETL parameters (thresholds, vintages, cadence)
 ├── manual-reviews.yaml      # human-confirmed tract assignments (audit trail)
-├── run_etl.py               # top-level pipeline orchestrator (S+3 onward)
-├── sources/                 # per-source pullers
+├── run_etl.py               # top-level pipeline orchestrator + CLI (S+4 live)
+├── sources/                 # per-source pullers (9 at S+4)
 ├── transforms/              # geocode, apportion, sb254-effective, merge
 ├── outputs/                 # datapackage writer + per-resource schemas
-├── lib/                     # shared infra: fetch, atomic IO, manifest, validate
+├── lib/                     # shared infra: fetch, atomic IO, manifest, validate, load_raw
 ├── tests/                   # pytest smoke tests + fixtures
 └── raw/                     # pulled raw artifacts (gitignored)
 ```
+
+S+4 sources catalog (9 pullers):
+
+| Module | Output | Cadence | Notes |
+|---|---|---|---|
+| `etl/sources/usda_lila.py` | `usda-lila-raw.xlsx` | Annual | Food Access Research Atlas |
+| `etl/sources/firstmap_sd2.py` | `firstmap-sd2.geojson` | Per redistricting | SD2 boundary |
+| `etl/sources/dart_gtfs.py` | `dart-gtfs.zip` + `dart-stops.csv` | Quarterly | GTFS feed |
+| `etl/sources/census_acs.py` | `acs-tract-de.json` | Annual | Tract-level ACS5 (pop, MFI, poverty, race) |
+| `etl/sources/census_acs_bg.py` | `acs-bg-de.json` | Annual | **S+4** — BG-level pop for SB 254 weighting |
+| `etl/sources/mmg_food_insecurity.py` | `mmg-food-insecurity-counties.csv` | Annual | Map the Meal Gap county-level |
+| `etl/sources/dsb_grants.py` | `dsb-grants.json` | Per-cycle | DGI grantee roster (URL-configurable) |
+| `etl/sources/tiger_tracts.py` | `tiger-tracts-de.zip` | Annual | **S+4** — TIGER tract shapefile |
+| `etl/sources/tiger_bgs.py` | `tiger-bgs-de.zip` | Annual | **S+4** — TIGER block-group shapefile |
 
 `etl/lib/` is a documented extension of the brief's directory layout; the brief specifies data-flow modules (sources/transforms/outputs) and `lib/` carries shared infrastructure code those modules import.
 
@@ -46,19 +61,33 @@ python -m etl.sources.usda_lila --out etl/raw/
 
 # Full requirements (geopandas + tobler + pyproj + shapely; needed to run apportion + the geo path of run_etl)
 python -m pip install -r etl/requirements.txt
+
+# End-to-end live pipeline (pulls every source; writes dgi-food-access/data/)
+python -m etl.run_etl --pull --strict
+
+# Or: just compose from already-pulled raws in etl/raw/
+python -m etl.run_etl --raw-dir etl/raw --output-dir dgi-food-access/data
+
+# Inspect-only (no outputs written)
+python -m etl.run_etl --dry-run
 ```
 
 **Note on Windows + heavy geo deps:** `geopandas`, `tobler`, `pyproj`, and `shapely` carry GDAL native bindings that can be painful to install on Windows. The transforms in `etl/transforms/apportion.py` import these lazily; tests that need them use `pytest.importorskip` so the smoke suite still runs on a Windows dev box (apportion tests skip cleanly). GitHub Actions Linux runners handle the full requirements cleanly and run every test.
 
 ## Running in CI
 
-`.github/workflows/dgi-etl.yml` runs on:
+`.github/workflows/dgi-etl.yml` runs two jobs:
 
-- **Schedule:** first Sunday of each month at 09:00 UTC (data refresh)
-- **Manual dispatch:** any pusher to the repo via the Actions UI
-- **Pull requests** touching `etl/`: dry-run mode (smoke tests only, no committed outputs)
+1. **`smoke-tests`** — offline; full requirements install + pytest. Runs on every push, PR, schedule, and dispatch.
+2. **`live-etl`** — pulls every external source and runs the full pipeline. Triggered by the monthly schedule (`0 9 1-7 * 0`) and by `workflow_dispatch`. Uploads `dgi-food-access/data/` as an artifact every time. When `workflow_dispatch.commit_data == true`, commits `dgi-food-access/data/` back to `main` so the dashboard picks it up on the next Worker deploy.
 
-At S+3 the workflow still runs only the smoke-test job (with the full geo stack installed from `requirements.txt`, so every test — including the apportion suite — runs). Real data publication lands at S+4 when the live-source orchestration wires in and the methodology page flips `publish: true`.
+Trigger a live data refresh from the Actions tab → "DGI ETL" → "Run workflow":
+
+- `reason` (free text) — recorded in the commit message
+- `live_run` (default: `true`) — runs the `live-etl` job
+- `commit_data` (default: `false`) — commits refreshed data back to `main`
+
+`CENSUS_API_KEY` is read from repo secrets and passed to the Census pullers (keyless requests work for low volume; the key removes rate-limit friction on scheduled refreshes).
 
 ## Methodology equivalences (R cite ↔ Python)
 

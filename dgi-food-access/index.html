@@ -1061,8 +1061,8 @@
 
   <!-- ============ Footer ============ -->
   <footer class="footer">
-    <div>FIRST STATE LENS · BUILT BY FIRMSIDE AI · CIVIC ANALYTICS LAB · METHODOLOGY v0.2.0</div>
-    <div class="footer-build">SCAFFOLD v0.1.0 · PLACEHOLDER DATA · NOT FOR DISTRIBUTION</div>
+    <div id="footer-tagline">FIRST STATE LENS · BUILT BY FIRMSIDE AI · CIVIC ANALYTICS LAB · METHODOLOGY v0.2.1</div>
+    <div class="footer-build" id="footer-build">SCAFFOLD · PLACEHOLDER DATA · METHODOLOGY v0.2.1 · NOT FOR DISTRIBUTION</div>
   </footer>
 
 </div>
@@ -1219,6 +1219,46 @@
       }
     }
   });
+
+  // ===== Live-data footer overlay (S+4) =====
+  // Try to load data/manifest.json + data/datapackage.json from the
+  // colocated `data/` directory. When both load, the footer flips from
+  // "SCAFFOLD · PLACEHOLDER DATA" to "Data refreshed YYYY-MM-DD".
+  // Both files are optional: on 404 or parse error we keep the
+  // placeholder text. This keeps the dashboard deployable before the
+  // first live ETL run lands data/* files.
+  (async () => {
+    const tryFetch = async (path) => {
+      try {
+        const r = await fetch(path, { cache: "no-cache" });
+        if (!r.ok) return null;
+        return await r.json();
+      } catch { return null; }
+    };
+    const [manifest, datapackage] = await Promise.all([
+      tryFetch("data/manifest.json"),
+      tryFetch("data/datapackage.json"),
+    ]);
+    if (!manifest && !datapackage) return;
+
+    const footerBuild = document.getElementById("footer-build");
+    if (!footerBuild) return;
+
+    const dpVersion = datapackage?.version || "?";
+    const generatedAt = manifest?.generated_at;
+    const cycle5 = manifest?.cycle_5_status;
+
+    let asOf = "unknown";
+    if (generatedAt) {
+      // generated_at is ISO8601 UTC; render as YYYY-MM-DD
+      asOf = generatedAt.slice(0, 10);
+    }
+
+    const sourceCount = manifest?.sources ? Object.keys(manifest.sources).length : 0;
+
+    footerBuild.textContent =
+      `DATAPACKAGE v${dpVersion} · DATA AS OF ${asOf} · ${sourceCount} SOURCE(S) · CYCLE 5 ${cycle5 ?? "PENDING"}`;
+  })();
 </script>
 </body>
 </html>

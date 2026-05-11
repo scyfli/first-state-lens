@@ -3,11 +3,9 @@ name: DGI ETL
 # Triggers:
 #   - Schedule: first Sunday of each month at 09:00 UTC (data refresh)
 #   - Manual dispatch: any pusher can trigger via the Actions UI
-#   - Pull requests touching etl/: dry-run (smoke tests only; no published outputs)
-#
-# At S+1 this workflow only runs the smoke test suite. Real data publication
-# lands at S+4 when transforms are complete and the methodology page flips
-# `publish: true`. See etl/README.md for the sequencing.
+#   - Pull requests touching etl/: smoke tests only (no live network)
+#   - Pushes to main touching etl/: smoke tests + (when input.commit_data
+#     is true on dispatch) a live ETL run that commits data/* back
 
 on:
   schedule:
@@ -19,6 +17,16 @@ on:
         description: "Why is this run being triggered manually?"
         required: false
         default: "manual refresh"
+      live_run:
+        description: "Run the full live ETL (pulls every source from the network)?"
+        type: boolean
+        required: false
+        default: true
+      commit_data:
+        description: "If live_run, commit dgi-food-access/data/ outputs back to main?"
+        type: boolean
+        required: false
+        default: false
   pull_request:
     paths:
       - "etl/**"
@@ -69,17 +77,78 @@ jobs:
             assert 'tobler' in text, 'requirements.txt missing tobler (S+3 geo stack)'; \
             print('requirements.txt OK')"
 
-  # S+4 and onward will add a second job here that:
-  #   - runs each puller against live sources
-  #   - executes the full end-to-end pipeline (run_etl.py)
-  #   - validates the datapackage
-  #   - commits outputs back to main (only on schedule/workflow_dispatch, not PR)
-  #
-  # That job is intentionally NOT wired up at S+3 because:
-  #   1. The dashboard frontend doesn't consume the outputs yet
-  #   2. Live-source pullers + the orchestrator wire-up needs to ride a
-  #      methodology page flip to publish: true
-  #   3. Publishing data without a wired-up dashboard would surface
-  #      unreviewed methodology numbers prematurely
-  #
-  # See the design brief §"Refresh cadence" for the eventual full workflow.
+  live-etl:
+    # Live ETL hits every external source: USDA, Census, FirstMap, DART, MMG,
+    # DSB, TIGER. Skipped on PR (no network surface from forks) and skipped on
+    # push (only schedule and explicit workflow_dispatch trigger this).
+    name: Live ETL run + data publish
+    needs: smoke-tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    if: |
+      github.event_name == 'schedule' ||
+      (github.event_name == 'workflow_dispatch' &&
+       github.event.inputs.live_run == 'true')
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout (full history; we may commit back)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: etl/requirements.txt
+
+      - name: Install full ETL dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r etl/requirements.txt
+
+      - name: Run live ETL (--pull --strict)
+        env:
+          CENSUS_API_KEY: ${{ secrets.CENSUS_API_KEY }}
+        run: |
+          python -m etl.run_etl \
+            --pull \
+            --strict \
+            --raw-dir etl/raw \
+            --output-dir dgi-food-access/data
+
+      - name: Validate datapackage.json is well-formed
+        run: |
+          python -c "import json, pathlib; \
+            payload = json.loads(pathlib.Path('dgi-food-access/data/datapackage.json').read_text()); \
+            assert payload.get('name'), 'datapackage missing name'; \
+            assert payload.get('resources'), 'datapackage missing resources'; \
+            print(f\"datapackage version {payload.get('version')} ok with {len(payload['resources'])} resource(s)\")"
+
+      - name: Upload data artifact (always; cheap)
+        uses: actions/upload-artifact@v4
+        with:
+          name: dgi-food-access-data-${{ github.run_number }}
+          path: dgi-food-access/data/
+          if-no-files-found: error
+          retention-days: 90
+
+      - name: Commit data back to main (only when input.commit_data == true)
+        if: |
+          github.event_name == 'workflow_dispatch' &&
+          github.event.inputs.commit_data == 'true'
+        run: |
+          set -euxo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dgi-food-access/data/
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+            exit 0
+          fi
+          REASON="${{ github.event.inputs.reason }}"
+          git commit -m "DGI ETL live run: refresh data/* (workflow_dispatch: ${REASON})"
+          git push origin HEAD:main
