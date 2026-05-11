@@ -214,17 +214,34 @@ def load_raw_artifacts(raw_dir: Path, parameters: dict) -> LoadedRaw:
         if weights_bg_gdf is not None and bg_pop_lookup:
             weights_bg_gdf = _attach_bg_pop(weights_bg_gdf, bg_pop_lookup)
 
+        # Urban Areas (UAC10) cross-walk — methodology v0.3.0 refinement.
+        # Replaces the county-level urbanicity proxy (FIPS 10003 → urban,
+        # others → nonurban) with the canonical USDA LILA-aligned
+        # per-tract classification. Falls back to the proxy when the
+        # UAC zip is absent (graceful degradation).
+        urban_areas_gdf = _load_urban_areas_from_national_tiger(
+            raw_dir / "tiger-uac-us.zip", manifest, "tiger-uac", notes
+        )
+        urbanicity_lookup: Optional[dict[str, str]] = None
+        if target_tracts_gdf is not None and urban_areas_gdf is not None:
+            urbanicity_lookup = _compute_tract_urbanicity_lookup(
+                target_tracts_gdf, urban_areas_gdf, notes
+            )
+
         if target_tracts_gdf is not None:
             tracts = _build_tracts_from_gdfs(
                 target_tracts_gdf,
                 weights_bg_gdf,
                 notes,
                 demographics_lookup=demographics_lookup,
+                urbanicity_lookup=urbanicity_lookup,
             )
             with_demos = sum(1 for t in tracts if t.poverty_rate is not None or t.mfi is not None)
+            urban_count = sum(1 for t in tracts if t.urbanicity == "urban")
             notes.append(
                 f"tracts: {len(tracts)} tract(s) constructed from TIGER + BG join; "
-                f"{with_demos} with ACS demographics joined"
+                f"{with_demos} with ACS demographics joined; "
+                f"{urban_count} classified urban"
             )
 
         # MMG counties GDF (S+5): load national TIGER counties + clip to DE.
@@ -589,6 +606,124 @@ def _load_farmers_markets(path: Path) -> list[FoodResource]:
 # ---------------------------------------------------------------------------
 
 
+def _load_urban_areas_from_national_tiger(
+    zip_path: Path, manifest: Manifest, name: str, notes: list[str]
+) -> Optional[Any]:
+    """Load the national TIGER UAC10 zip → GeoDataFrame of all 2010 urban areas.
+
+    Methodology v0.3.0: we don't filter by state here. The downstream
+    spatial join in `_compute_tract_urbanicity_lookup` clips per-tract by
+    geometric intersection, so any UA polygon that touches a DE tract
+    counts (this matters for cross-state UAs around Wilmington).
+    """
+    if not zip_path.exists():
+        notes.append(
+            f"{name}: {zip_path.name} not present; "
+            "tract urbanicity will fall back to the county-level proxy"
+        )
+        return None
+    try:
+        import geopandas as gpd
+    except ImportError:
+        notes.append(f"{name}: geopandas unavailable; urban_areas_gdf=None")
+        return None
+    try:
+        gdf = gpd.read_file(f"zip://{zip_path.resolve().as_posix()}")
+    except Exception as exc:  # noqa: BLE001
+        notes.append(f"{name}: read_file failed ({exc})")
+        return None
+    _record_source(manifest, name, zip_path)
+    notes.append(f"{name}: read {len(gdf)} urban area(s) from {zip_path.name}")
+    return gdf
+
+
+def _compute_tract_urbanicity_lookup(
+    target_tracts_gdf: Any,
+    urban_areas_gdf: Any,
+    notes: list[str],
+) -> dict[str, str]:
+    """For each DE tract, classify `urban` if it intersects any UAC10 polygon.
+
+    Returns {tract_geoid: 'urban' | 'nonurban'} for every tract in the
+    target GDF. The classification follows USDA LILA's rule: a tract is
+    urban if any part of it falls within a 2010 Urban Area or Urban
+    Cluster (UATYP10 ∈ {'U', 'C'}); else nonurban.
+
+    A geopandas `sjoin(predicate='intersects')` does the heavy lifting.
+    Results align with the LILA Food Access Research Atlas urban/rural
+    test by construction (same UAC10 vintage).
+    """
+    geoid_col = None
+    for candidate in ("GEOID", "GEOID20", "GEOID10"):
+        if candidate in target_tracts_gdf.columns:
+            geoid_col = candidate
+            break
+    if geoid_col is None:
+        notes.append("tiger-uac: tract GDF has no GEOID column; cannot compute urbanicity lookup")
+        return {}
+
+    try:
+        import geopandas as gpd
+    except ImportError:  # pragma: no cover — already guarded upstream
+        return {}
+
+    # Match CRS before sjoin. TIGER ships in EPSG:4269 (NAD83); both layers
+    # share that vintage so reproject defensively to the tract CRS.
+    urban = urban_areas_gdf
+    if (
+        getattr(target_tracts_gdf, "crs", None) is not None
+        and getattr(urban, "crs", None) is not None
+        and target_tracts_gdf.crs != urban.crs
+    ):
+        urban = urban.to_crs(target_tracts_gdf.crs)
+
+    # LILA counts both Urbanized Areas (UATYP10='U') and Urban Clusters
+    # (UATYP10='C') as "urban". If the column is absent (some TIGER vintages
+    # rename it), fall back to "every UA polygon counts".
+    if "UATYP10" in urban.columns:
+        urban = urban[urban["UATYP10"].isin(("U", "C"))]
+
+    try:
+        joined = gpd.sjoin(
+            target_tracts_gdf[[geoid_col, "geometry"]],
+            urban[["geometry"]],
+            how="left",
+            predicate="intersects",
+        )
+    except Exception as exc:  # noqa: BLE001
+        notes.append(f"tiger-uac: sjoin failed ({exc}); falling back to county proxy")
+        return {}
+
+    # A tract is `urban` if it has at least one matching UA row.
+    # index_right is NaN when no UA polygon intersected.
+    urban_geoids = {
+        str(row[geoid_col])
+        for _, row in joined.iterrows()
+        if _sjoin_has_match(row)
+    }
+    out: dict[str, str] = {}
+    for _, row in target_tracts_gdf.iterrows():
+        gid = str(row[geoid_col])
+        out[gid] = "urban" if gid in urban_geoids else "nonurban"
+
+    urban_count = sum(1 for v in out.values() if v == "urban")
+    notes.append(
+        f"tiger-uac: urbanicity lookup built — {urban_count}/{len(out)} "
+        f"tract(s) classified urban (UAC10 intersect)"
+    )
+    return out
+
+
+def _sjoin_has_match(row: Any) -> bool:
+    """Return True when an sjoin row's index_right column is a real match."""
+    try:
+        val = row["index_right"]
+    except (KeyError, TypeError):
+        return False
+    # NaN check that works for both numpy floats and None.
+    return val == val and val is not None
+
+
 def _load_de_counties_from_national_tiger(
     zip_path: Path, manifest: Manifest, name: str, notes: list[str]
 ) -> Optional[Any]:
@@ -676,6 +811,7 @@ def _build_tracts_from_gdfs(
     weights_bg_gdf: Optional[Any],
     notes: list[str],
     demographics_lookup: Optional[dict[str, dict[str, Optional[float]]]] = None,
+    urbanicity_lookup: Optional[dict[str, str]] = None,
 ) -> list[TractInput]:
     """Construct TractInput records (with BG centroids + pop + demographics) from GDFs.
 
@@ -687,8 +823,14 @@ def _build_tracts_from_gdfs(
     `poverty_rate` and `mfi` are joined from the ACS tract demographics.
     Tracts not present in the lookup keep poverty_rate=None and mfi=None,
     which the SB 254 stage flags as "income data missing".
+
+    When `urbanicity_lookup` is supplied (methodology v0.3.0), each
+    tract's `urbanicity` is read from the UAC10 cross-walk. When absent,
+    the function falls back to the county-level proxy (FIPS 10003 →
+    urban; others → nonurban) documented as a v0.2.x caveat.
     """
     demographics_lookup = demographics_lookup or {}
+    urbanicity_lookup = urbanicity_lookup or {}
     geoid_col = None
     for candidate in ("GEOID", "GEOID20", "GEOID10"):
         if candidate in target_tracts_gdf.columns:
@@ -724,12 +866,15 @@ def _build_tracts_from_gdfs(
                     )
                 )
 
-    # Urbanicity approximation: New Castle County (FIPS 003) = urban; Kent (001) + Sussex (005) = nonurban.
-    # Methodology v0.2.1 caveat: tract-level urbanicity should ideally come from Census Urbanized Areas
-    # (UAC) shapefile cross-walk; pending that data join, this county-level approximation matches the
-    # USDA Food Access Atlas methodology distinction in spirit (DE has only 1 major urban area).
+    # Urbanicity classification:
+    #   - Methodology v0.3.0 (preferred): per-tract UAC10 cross-walk via
+    #     `urbanicity_lookup`. Aligns with USDA LILA's own urban/rural test.
+    #   - Methodology v0.2.x fallback (when UAC zip absent): county-level
+    #     proxy — New Castle (FIPS 10003) → urban; Kent + Sussex → nonurban.
+    #     Documented as a caveat in methodology v0.2.1.
     def _urbanicity(tract_geoid: str) -> str:
-        # 11-char GEOID: state(2) + county(3) + tract(6); New Castle = "10003..."
+        if tract_geoid in urbanicity_lookup:
+            return urbanicity_lookup[tract_geoid]
         return "urban" if tract_geoid.startswith("10003") else "nonurban"
 
     tracts: list[TractInput] = []
