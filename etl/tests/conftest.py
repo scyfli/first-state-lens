@@ -38,3 +38,50 @@ def fixture_mmg_csv() -> bytes:
 @pytest.fixture
 def fixture_acs_json() -> bytes:
     return (FIXTURES / "acs-toy.json").read_bytes()
+
+
+@pytest.fixture
+def fixture_census_hit() -> bytes:
+    return (FIXTURES / "census-geocode-hit.json").read_bytes()
+
+
+@pytest.fixture
+def fixture_census_miss() -> bytes:
+    return (FIXTURES / "census-geocode-miss.json").read_bytes()
+
+
+@pytest.fixture
+def fixture_nominatim_hit() -> bytes:
+    return (FIXTURES / "nominatim-hit.json").read_bytes()
+
+
+@pytest.fixture
+def fixture_nominatim_miss() -> bytes:
+    return (FIXTURES / "nominatim-miss.json").read_bytes()
+
+
+@pytest.fixture
+def fixture_nominatim_disagree() -> bytes:
+    return (FIXTURES / "nominatim-disagree.json").read_bytes()
+
+
+@pytest.fixture
+def fixture_dsb_page_pending() -> str:
+    return (FIXTURES / "dsb-page-pending.html").read_text(encoding="utf-8")
+
+
+@pytest.fixture
+def fixture_dsb_page_published() -> str:
+    return (FIXTURES / "dsb-page-published.html").read_text(encoding="utf-8")
+
+
+@pytest.fixture(autouse=True)
+def _reset_nominatim_rate_limit():
+    """Reset Nominatim rate-limit state between tests so a slow sleep
+    isn't carried across unrelated tests. Auto-applied."""
+    try:
+        from etl.lib.geocode import _reset_rate_limit_state_for_tests
+        _reset_rate_limit_state_for_tests()
+    except ImportError:
+        pass
+    yield

@@ -1,0 +1,24 @@
+[
+  {
+    "place_id": 12345678,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0",
+    "lat": "39.74455",
+    "lon": "-75.54551",
+    "display_name": "123, North Market Street, Wilmington, New Castle County, Delaware, 19801, United States",
+    "boundingbox": ["39.74", "39.75", "-75.55", "-75.54"],
+    "class": "place",
+    "type": "house",
+    "addresstype": "house",
+    "address": {
+      "house_number": "123",
+      "road": "North Market Street",
+      "city": "Wilmington",
+      "county": "New Castle County",
+      "state": "Delaware",
+      "ISO3166-2-lvl4": "US-DE",
+      "postcode": "19801",
+      "country": "United States",
+      "country_code": "us"
+    }
+  }
+]
