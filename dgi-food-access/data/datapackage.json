@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-11T18:45:11Z",
+  "created": "2026-05-11T19:20:23Z",
   "cycle_5_status": "pending",
   "description": "Tract-level food-access dataset for Delaware's DGI program tracking. Covers DGI grant deployments (Cycles 1-5), Map the Meal Gap food insecurity apportioned to tracts via population-weighted areal interpolation, USDA LILA tracts, computed SB 254-effective tracts, the merged food-resource universe (SNAP retailers + farmers markets + DGI grantees), and supporting ACS demographics + DPH health overlays. Methodology v0.2.0 (definition-locked).",
   "etl_parameters": {
@@ -69,33 +69,33 @@
       "title": "USDA LILA food-desert tracts (DE)"
     },
     {
-      "bytes": 152702,
+      "bytes": 161831,
       "description": "Computed tract layer per methodology v0.2.0 Q6. Properties: tract_geoid, sb254_effective (bool), urbanicity, distance_threshold_mi, population_total, population_underserved, underserved_share, low_income (bool), low_income_reason, poverty_rate, mfi, mfi_ratio_to_state. See etl_parameters block for thresholds in effect.",
       "format": "geojson",
       "name": "sb254-effective-tracts",
       "path": "sb254-effective-tracts.geojson",
       "present": true,
-      "sha256": "d805d448cb8c34befb083c721f31de66e70d099355dd1410b0b3aac8453196c7",
+      "sha256": "efee3bedf879404aa91fba5509dc2065ba7ef0f115c86a4067a3f35ef0055e58",
       "title": "SB 254-effective tracts (state-statute interpretation)"
     },
     {
-      "bytes": 124,
+      "bytes": 237,
       "description": "Map the Meal Gap county-level food-insecurity count, apportioned to Delaware Census tracts via population-weighted areal interpolation per methodology Q3. Properties: tract_geoid, food_insecurity_count_apportioned, food_insecurity_rate (intensive, county-level \u2014 repeated on every tract in the same county).",
       "format": "geojson",
       "name": "food-insecurity-tracts",
       "path": "food-insecurity-tracts.geojson",
       "present": true,
-      "sha256": "e5de13cf6cd6b3e60bf94054155e6f2eec0153f23d4cc9ebb69251dd36d9242a",
+      "sha256": "8509c9afacf2a392c71b8c7251e2fc2970eccc7ae89187f16d3d5b8e4c478b06",
       "title": "Food insecurity apportioned to tracts (MMG)"
     },
     {
-      "bytes": 52,
+      "bytes": 381783,
       "description": "Deduplicated point set of SNAP retailers + DE farmers markets + DCFFP grantees + DGI grantees (methodology Q6 'food resource' set). Properties: name, sources (list of contributing pullers), categories, address, contributor_count. Dedupe within 30m + name similarity per etl.transforms.merge_food_resources.",
       "format": "geojson",
       "name": "snap-retailers",
       "path": "snap-retailers.geojson",
       "present": true,
-      "sha256": "b3049ad7a1062091e169bd352424d59721a26b8b6229942aef26d11b0c6a96e1",
+      "sha256": "7ccbbed76207a525ae7d93f87dd02cd1e7336e0889838086e5adeff8e213c0ad",
       "title": "Merged food-resource universe"
     },
     {
@@ -162,20 +162,20 @@
       "title": "ETL parameters in effect for this build"
     },
     {
-      "bytes": 2417,
+      "bytes": 3211,
       "description": "Per-source last_fetched + sha256, plus cycle_5_status. Lighter than datapackage.json for fast freshness checks.",
       "format": "json",
       "name": "manifest",
       "path": "manifest.json",
       "present": true,
-      "sha256": "4d8a193a634fcca4021e7f6e0a32feaa6ec66d424df3e4eae22334d61750e4cd",
+      "sha256": "08fa62beded4adcaa494db16d49526633e122f19ae88fedabcae29f3bafba5df",
       "title": "Manifest (lightweight freshness cousin)"
     }
   ],
   "sources": [
     {
       "http_status": 200,
-      "last_fetched": "2026-05-11T18:45:11Z",
+      "last_fetched": "2026-05-11T19:20:21Z",
       "name": "dsb-grants",
       "path": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/dsb-grants.json",
       "raw_path": "etl/raw/dsb-grants.json",
@@ -184,7 +184,16 @@
     },
     {
       "http_status": 200,
-      "last_fetched": "2026-05-11T18:44:54Z",
+      "last_fetched": "2026-05-11T19:20:20Z",
+      "name": "snap-retailers",
+      "path": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/snap-retailers-de.geojson",
+      "raw_path": "etl/raw/snap-retailers-de.geojson",
+      "sha256": "9ea1ef59fa9244243288bacb8205ce846e88f9c9b4ce4bd9371664c089ec018a",
+      "warnings": []
+    },
+    {
+      "http_status": 200,
+      "last_fetched": "2026-05-11T19:20:13Z",
       "name": "firstmap-sd2",
       "path": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/firstmap-sd2.geojson",
       "raw_path": "etl/raw/firstmap-sd2.geojson",
@@ -193,7 +202,7 @@
     },
     {
       "http_status": 200,
-      "last_fetched": "2026-05-11T18:45:02Z",
+      "last_fetched": "2026-05-11T19:20:16Z",
       "name": "acs-tract-demographics",
       "path": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/acs-tract-de.json",
       "raw_path": "etl/raw/acs-tract-de.json",
@@ -202,7 +211,7 @@
     },
     {
       "http_status": 200,
-      "last_fetched": "2026-05-11T18:45:09Z",
+      "last_fetched": "2026-05-11T19:20:19Z",
       "name": "tiger-tracts",
       "path": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/tiger-tracts-de.zip",
       "raw_path": "etl/raw/tiger-tracts-de.zip",
@@ -211,7 +220,7 @@
     },
     {
       "http_status": 200,
-      "last_fetched": "2026-05-11T18:45:10Z",
+      "last_fetched": "2026-05-11T19:20:19Z",
       "name": "tiger-bgs",
       "path": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/tiger-bgs-de.zip",
       "raw_path": "etl/raw/tiger-bgs-de.zip",
@@ -220,11 +229,20 @@
     },
     {
       "http_status": 200,
-      "last_fetched": "2026-05-11T18:45:05Z",
+      "last_fetched": "2026-05-11T19:20:17Z",
       "name": "acs-bg-population",
       "path": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/acs-bg-de.json",
       "raw_path": "etl/raw/acs-bg-de.json",
       "sha256": "79dd72f46e7310774a668cc925a0b56745aa07f442bf1afa0ed5cd84682744b9",
+      "warnings": []
+    },
+    {
+      "http_status": 200,
+      "last_fetched": "2026-05-11T19:20:20Z",
+      "name": "tiger-counties",
+      "path": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/tiger-counties-us.zip",
+      "raw_path": "etl/raw/tiger-counties-us.zip",
+      "sha256": "a490d33145b8cd308b0b53113d4bb31575b84a2b4cf6ec28fa5855be37559d8d",
       "warnings": []
     }
   ],

@@ -1,5 +1,5 @@
 {
   "type": "FeatureCollection",
   "features": [],
-  "note": "MMG apportionment skipped: geo inputs missing at run time."
+  "note": "MMG apportionment skipped: counties GDF missing required columns ['FIPS', 'food_insecure_count'] (MMG food-insecurity CSV was not joined \u2014 see carried open question)."
 }
