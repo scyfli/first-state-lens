@@ -141,6 +141,8 @@ def load_raw_artifacts(raw_dir: Path, parameters: dict) -> LoadedRaw:
         notes.append("mmg-counties: not present; food-insecurity-tracts.geojson will be empty")
 
     # --- Pass-through layers (load as bytes when present) ---
+    # LILA: pre-clipped geojson takes precedence; if absent, we try to build
+    # from the raw xlsx + TIGER geometry below (inside the geo-stack block).
     lila_geojson = _load_passthrough(raw_dir / "usda-lila-de-clipped.geojson", manifest, "usda-lila-clipped", notes)
     sd2_geojson = _load_passthrough(raw_dir / "firstmap-sd2.geojson", manifest, "firstmap-sd2", notes)
     dart_routes_geojson = _load_passthrough(raw_dir / "dart-routes.geojson", manifest, "dart-routes", notes)
@@ -223,6 +225,19 @@ def load_raw_artifacts(raw_dir: Path, parameters: dict) -> LoadedRaw:
         mmg_counties_gdf = _load_de_counties_from_national_tiger(
             raw_dir / "tiger-counties-us.zip", manifest, "tiger-counties", notes
         )
+
+        # USDA LILA (S+6 transform): if the pre-clipped geojson wasn't found
+        # above AND the raw xlsx + TIGER tract geometry are both available,
+        # build the clipped geojson inline. openpyxl is the workbook reader;
+        # absent → skip with a diagnostic note.
+        lila_xlsx_path = raw_dir / "usda-lila-raw.xlsx"
+        if lila_geojson is None and lila_xlsx_path.exists() and target_tracts_gdf is not None:
+            built = _build_lila_geojson_from_xlsx(
+                lila_xlsx_path, target_tracts_gdf, notes
+            )
+            if built is not None:
+                lila_geojson = built
+                _record_source(manifest, "usda-lila-xlsx", lila_xlsx_path)
 
     state_mfi_median = float(parameters.get("state_mfi_median", 90116.0))
     notes.append(f"state_mfi_median: {state_mfi_median} (from parameters.yaml; ACS B19113 DE statewide)")
@@ -721,6 +736,232 @@ def _build_tracts_from_gdfs(
             )
         )
     return tracts
+
+
+# ---------------------------------------------------------------------------
+# USDA LILA xlsx → DE-clipped GeoJSON (S+6 transform)
+# ---------------------------------------------------------------------------
+
+
+# Columns we surface from the USDA Food Access Research Atlas workbook.
+# Names match the published 2019 release. The transform is defensive:
+# columns missing from the workbook are skipped with a note rather than
+# raising — USDA has renamed columns between vintages.
+#
+# Reference: USDA ERS Food Access Research Atlas Documentation,
+# https://www.ers.usda.gov/data-products/food-access-research-atlas/documentation/
+_LILA_REQUIRED_COL = "CensusTract"
+_LILA_FLAG_COLS = (
+    "LILATracts_1And10",
+    "LILATracts_halfAnd10",
+    "LILATracts_1And20",
+    "LILATracts_Vehicle",
+    "LowIncomeTracts",
+    "LATracts1",
+    "LATracts_half",
+    "LATracts10",
+    "LATracts20",
+    "LATracts_Vehicle",
+)
+_LILA_NUMERIC_COLS = (
+    "PovertyRate",
+    "MedianFamilyIncome",
+    "Urban",
+    "POP2010",
+    "OHU2010",
+)
+
+
+def _build_lila_geojson_from_xlsx(
+    xlsx_path: Path,
+    target_tracts_gdf: Any,
+    notes: list[str],
+) -> Optional[bytes]:
+    """Parse USDA LILA xlsx, filter to DE, join TIGER geometry → GeoJSON bytes.
+
+    Returns None when:
+      - openpyxl is unavailable
+      - the workbook has no recognizable data sheet
+      - the header row lacks `CensusTract`
+      - zero DE tracts match the TIGER geometry
+
+    On success, writes a diagnostic note recording the join coverage and
+    returns the serialized GeoJSON bytes (UTF-8). The output is a
+    FeatureCollection whose features carry the LILA flags + selected
+    numeric columns as properties.
+    """
+    try:
+        import openpyxl  # type: ignore  noqa: F401
+    except ImportError:
+        notes.append("usda-lila-xlsx: openpyxl not installed; skipping LILA transform")
+        return None
+
+    try:
+        records = _read_lila_xlsx(xlsx_path)
+    except Exception as exc:  # noqa: BLE001
+        notes.append(f"usda-lila-xlsx: workbook read failed ({type(exc).__name__}: {exc})")
+        return None
+
+    if not records:
+        notes.append(f"usda-lila-xlsx: {xlsx_path.name} parsed but no DE tracts found")
+        return None
+
+    geoid_col = None
+    for candidate in ("GEOID", "GEOID20", "GEOID10"):
+        if candidate in target_tracts_gdf.columns:
+            geoid_col = candidate
+            break
+    if geoid_col is None:
+        notes.append("usda-lila-xlsx: target_tracts_gdf has no GEOID column; skipping LILA join")
+        return None
+
+    features: list[dict] = []
+    join_hits = 0
+    for _, row in target_tracts_gdf.iterrows():
+        tract_geoid = str(row[geoid_col])
+        attrs = records.get(tract_geoid)
+        if attrs is None:
+            continue
+        geom = row.geometry
+        if geom is None:
+            continue
+        try:
+            geometry = json.loads(_shapely_to_geojson(geom))
+        except Exception:  # noqa: BLE001
+            continue
+        join_hits += 1
+        features.append(
+            {
+                "type": "Feature",
+                "geometry": geometry,
+                "properties": {"tract_geoid": tract_geoid, **attrs},
+            }
+        )
+
+    if join_hits == 0:
+        notes.append(
+            f"usda-lila-xlsx: {len(records)} DE record(s) in workbook but "
+            "zero matched TIGER GEOIDs; check FIPS column formatting"
+        )
+        return None
+
+    notes.append(
+        f"usda-lila-xlsx: built FeatureCollection — "
+        f"{join_hits} tracts joined / {len(records)} DE records in workbook"
+    )
+    payload = {"type": "FeatureCollection", "features": features}
+    return (json.dumps(payload, indent=2) + "\n").encode("utf-8")
+
+
+def _shapely_to_geojson(geom: Any) -> str:
+    """Serialize a shapely geometry to a GeoJSON-geometry JSON string.
+
+    geopandas attaches `__geo_interface__` to shapely geoms; we json-dump
+    that. Kept as a tiny helper so we can swap to shapely.to_geojson if
+    we ever need GeoJSON-spec validation.
+    """
+    return json.dumps(geom.__geo_interface__)
+
+
+def _read_lila_xlsx(xlsx_path: Path) -> dict[str, dict[str, Any]]:
+    """Open the LILA workbook, find the data sheet, return {geoid: attrs} for DE.
+
+    The workbook ships with a "Read Me" tab plus the data tab. We pick the
+    first sheet whose header row contains `CensusTract`. The header row is
+    not guaranteed to be row 1 — some vintages prepend a title row — so we
+    scan the first 8 rows for the marker.
+
+    Filters to Delaware (FIPS prefix "10") and only retains columns named
+    in `_LILA_FLAG_COLS` / `_LILA_NUMERIC_COLS` (missing columns are
+    silently skipped). Returns an empty dict when nothing matches.
+    """
+    import openpyxl  # type: ignore
+
+    wb = openpyxl.load_workbook(xlsx_path, data_only=True, read_only=True)
+    try:
+        for sheet in wb.worksheets:
+            data_row_offset, header = _find_lila_header(sheet)
+            if header is None:
+                continue
+            tract_idx = header.index(_LILA_REQUIRED_COL)
+            flag_lookup = {col: header.index(col) for col in _LILA_FLAG_COLS if col in header}
+            numeric_lookup = {col: header.index(col) for col in _LILA_NUMERIC_COLS if col in header}
+            out: dict[str, dict[str, Any]] = {}
+            for row in sheet.iter_rows(min_row=data_row_offset + 1, values_only=True):
+                if row is None or len(row) <= tract_idx:
+                    continue
+                raw_tract = row[tract_idx]
+                geoid = _normalize_lila_tract(raw_tract)
+                if geoid is None or not geoid.startswith("10"):
+                    continue
+                attrs: dict[str, Any] = {}
+                for col, idx in flag_lookup.items():
+                    if idx < len(row):
+                        attrs[col] = _coerce_lila_flag(row[idx])
+                for col, idx in numeric_lookup.items():
+                    if idx < len(row):
+                        attrs[col] = _coerce_lila_numeric(row[idx])
+                out[geoid] = attrs
+            if out:
+                return out
+        return {}
+    finally:
+        wb.close()
+
+
+def _find_lila_header(sheet: Any, scan_rows: int = 8) -> tuple[int, Optional[list[str]]]:
+    """Return (1-indexed header row, header values) for the first row containing CensusTract.
+
+    Returns (0, None) when no such row is found in the first `scan_rows`.
+    """
+    for i, row in enumerate(sheet.iter_rows(max_row=scan_rows, values_only=True), start=1):
+        if row is None:
+            continue
+        values = [str(c).strip() if c is not None else "" for c in row]
+        if _LILA_REQUIRED_COL in values:
+            return i, values
+    return 0, None
+
+
+def _normalize_lila_tract(value: Any) -> Optional[str]:
+    """USDA's CensusTract column may be int or string; normalize to 11-char FIPS."""
+    if value is None:
+        return None
+    if isinstance(value, float):
+        # Tract FIPS shouldn't have decimals, but openpyxl can promote ints
+        # when a column has any blank cells. Trust the int conversion.
+        try:
+            value = int(value)
+        except (TypeError, ValueError):
+            return None
+    s = str(value).strip()
+    if not s:
+        return None
+    # Zero-pad to 11; longer values get truncated to 11 (defensive).
+    s = s.zfill(11)
+    if len(s) > 11:
+        return None
+    return s
+
+
+def _coerce_lila_flag(value: Any) -> int:
+    """Coerce LILA flag cells to 0/1. Empty / non-numeric → 0."""
+    if value is None or value == "":
+        return 0
+    try:
+        return 1 if int(float(value)) >= 1 else 0
+    except (TypeError, ValueError):
+        return 0
+
+
+def _coerce_lila_numeric(value: Any) -> Optional[float]:
+    """Coerce numeric LILA columns to float. Empty / non-numeric → None."""
+    if value is None or value == "":
+        return None
+    try:
+        return float(value)
+    except (TypeError, ValueError):
+        return None
 
 
 # ---------------------------------------------------------------------------
