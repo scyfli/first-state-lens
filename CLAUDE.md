@@ -2,6 +2,14 @@
 
 > Public frontend repo for First State Lens dashboards. The analytical CMS, methodology source-of-truth, briefs, and source registry live in a separate **private** vault repo (`scyfli/first-state-lens-vault`). That repo's CLAUDE.md is the master operating agreement; this file is the deploy-and-frontend addendum.
 
+## Where the audit trail lives
+
+The vault is the single source of truth for *why*. Session-by-session reasoning, ratified decisions, methodology revisions, distribution sequence, FOIA queue, and stakeholder context all live in the vault under `11-Sessions/` (handoff trio), `07-Briefs/`, `05-Methodology/`, and `04-Sources/`. This repo carries the *what*: runnable code, the static HTML dashboards, and the ETL pipeline.
+
+When working in this repo, descriptive commit messages and PR descriptions are the audit trail surface. They should reference the vault brief / methodology version / session log that motivated the change, e.g. *"per design brief 2026-05-11-DGI-Bulk-ETL-Design (vault session-13)."* The vault's hardened handoff discipline (session-state-check + CONTEXT.md regeneration + worktree merge-back) does NOT replicate here — it would double maintenance overhead with no audit-trail gain.
+
+Anyone resuming work in this repo without vault access should treat the PR history + commit log as authoritative. Anyone with vault access should always read the vault's CONTEXT.md first.
+
 ## What this repo is
 
 Cloudflare Pages-deployed monorepo:
