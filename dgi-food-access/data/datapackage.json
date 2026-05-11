@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-11T19:20:23Z",
+  "created": "2026-05-11T20:50:07Z",
   "cycle_5_status": "pending",
   "description": "Tract-level food-access dataset for Delaware's DGI program tracking. Covers DGI grant deployments (Cycles 1-5), Map the Meal Gap food insecurity apportioned to tracts via population-weighted areal interpolation, USDA LILA tracts, computed SB 254-effective tracts, the merged food-resource universe (SNAP retailers + farmers markets + DGI grantees), and supporting ACS demographics + DPH health overlays. Methodology v0.2.0 (definition-locked).",
   "etl_parameters": {
@@ -59,13 +59,13 @@
       "title": "DGI grantees as geocoded points"
     },
     {
-      "bytes": 105,
+      "bytes": 5958601,
       "description": "Pass-through of the USDA Food Access Research Atlas tract-level shapefile, clipped to Delaware. LILA flag fields preserved from USDA: LILATracts_1And10, LILATracts_Vehicle, lapophalfshare, etc. Methodology v0.2.0 uses this as the federal-definition layer.",
       "format": "geojson",
       "name": "usda-lila-tracts",
       "path": "usda-lila-tracts.geojson",
       "present": true,
-      "sha256": "aeb18fab7cc3cc136e08d1e0f2a3d920cf7bd441ccaa7fad42a9d4f8b0f1df58",
+      "sha256": "682e33710d2e1a593dc3b7b305af9bc0636a229ef73b6780185408e8915f0873",
       "title": "USDA LILA food-desert tracts (DE)"
     },
     {
@@ -109,13 +109,13 @@
       "title": "Senate District 2 boundary (FirstMap 2022 plan)"
     },
     {
-      "bytes": 102,
+      "bytes": 10639817,
       "description": "LineString features derived from DART GTFS shapes.txt + routes.txt. Properties: route_id, route_short_name, route_long_name, route_type.",
       "format": "geojson",
       "name": "dart-routes",
       "path": "dart-routes.geojson",
       "present": true,
-      "sha256": "7c4afd20bbe974d28c675311c7bd391f716baa4f5a2295340ff5c0cb6419d2fe",
+      "sha256": "eb28f02f516d621c83086ac480be1e962bd53d31ce3535e9fb74aa684f438c4e",
       "title": "DART First State transit routes"
     },
     {
@@ -162,29 +162,29 @@
       "title": "ETL parameters in effect for this build"
     },
     {
-      "bytes": 3211,
+      "bytes": 3975,
       "description": "Per-source last_fetched + sha256, plus cycle_5_status. Lighter than datapackage.json for fast freshness checks.",
       "format": "json",
       "name": "manifest",
       "path": "manifest.json",
       "present": true,
-      "sha256": "08fa62beded4adcaa494db16d49526633e122f19ae88fedabcae29f3bafba5df",
+      "sha256": "40e25720a5152956fbcd5b04d67905c7ef36a3d8503e29329245dd66e4eabf25",
       "title": "Manifest (lightweight freshness cousin)"
     }
   ],
   "sources": [
     {
       "http_status": 200,
-      "last_fetched": "2026-05-11T19:20:21Z",
+      "last_fetched": "2026-05-11T20:49:23Z",
       "name": "dsb-grants",
       "path": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/dsb-grants.json",
       "raw_path": "etl/raw/dsb-grants.json",
-      "sha256": "c8d0f7c820e11dbd0c7a5defc459e4771e0e35ff7ae78403b1f452d11cc153c9",
+      "sha256": "5bdc68f35fb0fb645fb40eddd9bd2b4560d390602b285a35d117d80f51c2940b",
       "warnings": []
     },
     {
       "http_status": 200,
-      "last_fetched": "2026-05-11T19:20:20Z",
+      "last_fetched": "2026-05-11T20:49:22Z",
       "name": "snap-retailers",
       "path": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/snap-retailers-de.geojson",
       "raw_path": "etl/raw/snap-retailers-de.geojson",
@@ -193,7 +193,7 @@
     },
     {
       "http_status": 200,
-      "last_fetched": "2026-05-11T19:20:13Z",
+      "last_fetched": "2026-05-11T20:49:17Z",
       "name": "firstmap-sd2",
       "path": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/firstmap-sd2.geojson",
       "raw_path": "etl/raw/firstmap-sd2.geojson",
@@ -202,7 +202,16 @@
     },
     {
       "http_status": 200,
-      "last_fetched": "2026-05-11T19:20:16Z",
+      "last_fetched": "2026-05-11T20:49:18Z",
+      "name": "dart-gtfs-zip",
+      "path": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/dart-gtfs.zip",
+      "raw_path": "etl/raw/dart-gtfs.zip",
+      "sha256": "922c88e5e85465317ec06919466083d998f6dbc7687fbefa772b73ea3b3200c6",
+      "warnings": []
+    },
+    {
+      "http_status": 200,
+      "last_fetched": "2026-05-11T20:49:18Z",
       "name": "acs-tract-demographics",
       "path": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/acs-tract-de.json",
       "raw_path": "etl/raw/acs-tract-de.json",
@@ -211,7 +220,7 @@
     },
     {
       "http_status": 200,
-      "last_fetched": "2026-05-11T19:20:19Z",
+      "last_fetched": "2026-05-11T20:49:22Z",
       "name": "tiger-tracts",
       "path": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/tiger-tracts-de.zip",
       "raw_path": "etl/raw/tiger-tracts-de.zip",
@@ -220,7 +229,7 @@
     },
     {
       "http_status": 200,
-      "last_fetched": "2026-05-11T19:20:19Z",
+      "last_fetched": "2026-05-11T20:49:22Z",
       "name": "tiger-bgs",
       "path": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/tiger-bgs-de.zip",
       "raw_path": "etl/raw/tiger-bgs-de.zip",
@@ -229,7 +238,7 @@
     },
     {
       "http_status": 200,
-      "last_fetched": "2026-05-11T19:20:17Z",
+      "last_fetched": "2026-05-11T20:49:20Z",
       "name": "acs-bg-population",
       "path": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/acs-bg-de.json",
       "raw_path": "etl/raw/acs-bg-de.json",
@@ -238,11 +247,20 @@
     },
     {
       "http_status": 200,
-      "last_fetched": "2026-05-11T19:20:20Z",
+      "last_fetched": "2026-05-11T20:49:22Z",
       "name": "tiger-counties",
       "path": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/tiger-counties-us.zip",
       "raw_path": "etl/raw/tiger-counties-us.zip",
       "sha256": "a490d33145b8cd308b0b53113d4bb31575b84a2b4cf6ec28fa5855be37559d8d",
+      "warnings": []
+    },
+    {
+      "http_status": 200,
+      "last_fetched": "2026-05-11T20:49:21Z",
+      "name": "usda-lila-xlsx",
+      "path": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/usda-lila-raw.xlsx",
+      "raw_path": "etl/raw/usda-lila-raw.xlsx",
+      "sha256": "4faf369a75c0cd45e8707bd23c95f48ad055df3a643f59c3223a52490792daa8",
       "warnings": []
     }
   ],

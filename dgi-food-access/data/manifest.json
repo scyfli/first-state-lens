@@ -1,11 +1,11 @@
 {
   "cycle_5_status": "pending",
   "etl_version": "0.1.0",
-  "generated_at": "2026-05-11T19:20:23Z",
+  "generated_at": "2026-05-11T20:50:07Z",
   "sources": {
     "acs-bg-population": {
       "http_status": 200,
-      "last_fetched": "2026-05-11T19:20:17Z",
+      "last_fetched": "2026-05-11T20:49:20Z",
       "raw_path": "etl/raw/acs-bg-de.json",
       "sha256": "79dd72f46e7310774a668cc925a0b56745aa07f442bf1afa0ed5cd84682744b9",
       "size_bytes": 67485,
@@ -14,25 +14,34 @@
     },
     "acs-tract-demographics": {
       "http_status": 200,
-      "last_fetched": "2026-05-11T19:20:16Z",
+      "last_fetched": "2026-05-11T20:49:18Z",
       "raw_path": "etl/raw/acs-tract-de.json",
       "sha256": "3b0e19e46378fcd9f13df517783601a0bcad1183bd38eae120a42410c6290aad",
       "size_bytes": 36372,
       "url": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/acs-tract-de.json",
       "warnings": []
     },
+    "dart-gtfs-zip": {
+      "http_status": 200,
+      "last_fetched": "2026-05-11T20:49:18Z",
+      "raw_path": "etl/raw/dart-gtfs.zip",
+      "sha256": "922c88e5e85465317ec06919466083d998f6dbc7687fbefa772b73ea3b3200c6",
+      "size_bytes": 2792275,
+      "url": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/dart-gtfs.zip",
+      "warnings": []
+    },
     "dsb-grants": {
       "http_status": 200,
-      "last_fetched": "2026-05-11T19:20:21Z",
+      "last_fetched": "2026-05-11T20:49:23Z",
       "raw_path": "etl/raw/dsb-grants.json",
-      "sha256": "c8d0f7c820e11dbd0c7a5defc459e4771e0e35ff7ae78403b1f452d11cc153c9",
+      "sha256": "5bdc68f35fb0fb645fb40eddd9bd2b4560d390602b285a35d117d80f51c2940b",
       "size_bytes": 292,
       "url": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/dsb-grants.json",
       "warnings": []
     },
     "firstmap-sd2": {
       "http_status": 200,
-      "last_fetched": "2026-05-11T19:20:13Z",
+      "last_fetched": "2026-05-11T20:49:17Z",
       "raw_path": "etl/raw/firstmap-sd2.geojson",
       "sha256": "eb87ff05c9f9abc37a916e1a1153527d29123a1ffa47754772189f96eb81c0d3",
       "size_bytes": 80250,
@@ -41,7 +50,7 @@
     },
     "snap-retailers": {
       "http_status": 200,
-      "last_fetched": "2026-05-11T19:20:20Z",
+      "last_fetched": "2026-05-11T20:49:22Z",
       "raw_path": "etl/raw/snap-retailers-de.geojson",
       "sha256": "9ea1ef59fa9244243288bacb8205ce846e88f9c9b4ce4bd9371664c089ec018a",
       "size_bytes": 278502,
@@ -50,7 +59,7 @@
     },
     "tiger-bgs": {
       "http_status": 200,
-      "last_fetched": "2026-05-11T19:20:19Z",
+      "last_fetched": "2026-05-11T20:49:22Z",
       "raw_path": "etl/raw/tiger-bgs-de.zip",
       "sha256": "48fe4c7542072f19ad3b1c6e32e585ef2359d1d16f34889af1be268c052428a0",
       "size_bytes": 1787085,
@@ -59,7 +68,7 @@
     },
     "tiger-counties": {
       "http_status": 200,
-      "last_fetched": "2026-05-11T19:20:20Z",
+      "last_fetched": "2026-05-11T20:49:22Z",
       "raw_path": "etl/raw/tiger-counties-us.zip",
       "sha256": "a490d33145b8cd308b0b53113d4bb31575b84a2b4cf6ec28fa5855be37559d8d",
       "size_bytes": 80644766,
@@ -68,11 +77,20 @@
     },
     "tiger-tracts": {
       "http_status": 200,
-      "last_fetched": "2026-05-11T19:20:19Z",
+      "last_fetched": "2026-05-11T20:49:22Z",
       "raw_path": "etl/raw/tiger-tracts-de.zip",
       "sha256": "35c70303411e99e75d3de2e81fe7afeb4da468a112c46c557266cfdf41b33fb1",
       "size_bytes": 1082789,
       "url": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/tiger-tracts-de.zip",
+      "warnings": []
+    },
+    "usda-lila-xlsx": {
+      "http_status": 200,
+      "last_fetched": "2026-05-11T20:49:21Z",
+      "raw_path": "etl/raw/usda-lila-raw.xlsx",
+      "sha256": "4faf369a75c0cd45e8707bd23c95f48ad055df3a643f59c3223a52490792daa8",
+      "size_bytes": 85803176,
+      "url": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/usda-lila-raw.xlsx",
       "warnings": []
     }
   }
