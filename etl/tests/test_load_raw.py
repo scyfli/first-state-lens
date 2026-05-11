@@ -22,8 +22,13 @@ import pytest
 from etl.lib.load_raw import (
     LoadedRaw,
     _acs_tract_json_to_csv,
+    _build_lila_geojson_from_xlsx,
     _build_tracts_from_gdfs,
+    _coerce_lila_flag,
+    _coerce_lila_numeric,
     _load_acs_tract_demographics,
+    _normalize_lila_tract,
+    _read_lila_xlsx,
     load_raw_artifacts,
 )
 
@@ -485,3 +490,216 @@ def test_build_tracts_from_gdfs_without_demographics_defaults_to_none() -> None:
     assert len(tracts) == 1
     assert tracts[0].poverty_rate is None
     assert tracts[0].mfi is None
+
+
+# ---------------------------------------------------------------------------
+# S+6 — USDA LILA xlsx → DE-clipped GeoJSON transform
+# ---------------------------------------------------------------------------
+
+
+def test_normalize_lila_tract_zero_pads_and_handles_types() -> None:
+    """USDA's CensusTract column may be int or string; normalize to 11 chars."""
+    assert _normalize_lila_tract("10001040100") == "10001040100"
+    assert _normalize_lila_tract(10001040100) == "10001040100"
+    assert _normalize_lila_tract(10001040100.0) == "10001040100"
+    # Leading-zero state (e.g., Alabama "01") survives zero-padding.
+    assert _normalize_lila_tract("1001040100") == "01001040100"
+    assert _normalize_lila_tract(None) is None
+    assert _normalize_lila_tract("") is None
+    # Anything longer than 11 chars is rejected as malformed.
+    assert _normalize_lila_tract("123456789012") is None
+
+
+def test_coerce_lila_flag_handles_xlsx_cell_variants() -> None:
+    """LILA flags arrive as ints, floats, strings, or blank cells."""
+    assert _coerce_lila_flag(1) == 1
+    assert _coerce_lila_flag(0) == 0
+    assert _coerce_lila_flag(1.0) == 1
+    assert _coerce_lila_flag("1") == 1
+    assert _coerce_lila_flag("0") == 0
+    assert _coerce_lila_flag(None) == 0
+    assert _coerce_lila_flag("") == 0
+    assert _coerce_lila_flag("NA") == 0
+
+
+def test_coerce_lila_numeric_returns_none_for_blanks() -> None:
+    assert _coerce_lila_numeric(0.123) == pytest.approx(0.123)
+    assert _coerce_lila_numeric("15.5") == pytest.approx(15.5)
+    assert _coerce_lila_numeric(None) is None
+    assert _coerce_lila_numeric("") is None
+    assert _coerce_lila_numeric("not a number") is None
+
+
+def _write_lila_xlsx(
+    path: Path,
+    rows: list[dict],
+    *,
+    sheet_name: str = "Food Access Research Atlas",
+    header_offset: int = 0,
+) -> Path:
+    """Build a LILA-shaped xlsx fixture programmatically.
+
+    `header_offset` lets a test simulate USDA workbooks that prepend
+    title rows above the header. The header row is written at
+    `header_offset + 1` (openpyxl is 1-indexed).
+    """
+    openpyxl = pytest.importorskip("openpyxl")
+    wb = openpyxl.Workbook()
+    # Replace the default sheet rather than appending — keeps the workbook tidy.
+    ws = wb.active
+    ws.title = sheet_name
+    # Optional title row before the header.
+    for i in range(header_offset):
+        ws.cell(row=i + 1, column=1, value=f"Title row {i + 1}")
+    # Header: a stable subset of LILA columns.
+    header = [
+        "CensusTract",
+        "State",
+        "County",
+        "LILATracts_1And10",
+        "LILATracts_halfAnd10",
+        "LowIncomeTracts",
+        "PovertyRate",
+        "MedianFamilyIncome",
+    ]
+    for col_idx, name in enumerate(header, start=1):
+        ws.cell(row=header_offset + 1, column=col_idx, value=name)
+    for row_idx, record in enumerate(rows, start=header_offset + 2):
+        for col_idx, name in enumerate(header, start=1):
+            ws.cell(row=row_idx, column=col_idx, value=record.get(name))
+    wb.save(path)
+    return path
+
+
+def test_read_lila_xlsx_filters_to_de_tracts(tmp_path: Path) -> None:
+    """The reader keeps DE tracts (FIPS prefix '10') and drops others."""
+    pytest.importorskip("openpyxl")
+    xlsx = _write_lila_xlsx(
+        tmp_path / "lila.xlsx",
+        [
+            {"CensusTract": "10001040100", "State": "Delaware", "County": "Kent",
+             "LILATracts_1And10": 1, "LowIncomeTracts": 1,
+             "PovertyRate": 21.5, "MedianFamilyIncome": 55000},
+            {"CensusTract": "10003010100", "State": "Delaware", "County": "New Castle",
+             "LILATracts_1And10": 0, "LowIncomeTracts": 0,
+             "PovertyRate": 9.0, "MedianFamilyIncome": 95000},
+            # Non-DE row that must be filtered out.
+            {"CensusTract": "01001020100", "State": "Alabama", "County": "Autauga",
+             "LILATracts_1And10": 1, "LowIncomeTracts": 1,
+             "PovertyRate": 30.0, "MedianFamilyIncome": 40000},
+        ],
+    )
+    out = _read_lila_xlsx(xlsx)
+    assert set(out.keys()) == {"10001040100", "10003010100"}
+    assert out["10001040100"]["LILATracts_1And10"] == 1
+    assert out["10001040100"]["LowIncomeTracts"] == 1
+    assert out["10001040100"]["PovertyRate"] == pytest.approx(21.5)
+    assert out["10003010100"]["LILATracts_1And10"] == 0
+
+
+def test_read_lila_xlsx_finds_header_below_title_rows(tmp_path: Path) -> None:
+    """USDA workbooks sometimes prepend metadata rows above the header."""
+    pytest.importorskip("openpyxl")
+    xlsx = _write_lila_xlsx(
+        tmp_path / "lila.xlsx",
+        [{"CensusTract": "10005030100", "LILATracts_1And10": 1, "PovertyRate": 18.0}],
+        header_offset=3,
+    )
+    out = _read_lila_xlsx(xlsx)
+    assert "10005030100" in out
+    assert out["10005030100"]["LILATracts_1And10"] == 1
+
+
+def test_read_lila_xlsx_handles_integer_census_tract(tmp_path: Path) -> None:
+    """When CensusTract is stored as an integer (no leading zero), zero-pad."""
+    pytest.importorskip("openpyxl")
+    xlsx = _write_lila_xlsx(
+        tmp_path / "lila.xlsx",
+        [{"CensusTract": 10001040100, "LILATracts_1And10": 1}],
+    )
+    out = _read_lila_xlsx(xlsx)
+    assert "10001040100" in out
+
+
+def test_build_lila_geojson_joins_tiger_geometry(tmp_path: Path) -> None:
+    """End-to-end: xlsx + TIGER GDF → FeatureCollection bytes with LILA props."""
+    pytest.importorskip("openpyxl")
+    gpd = pytest.importorskip("geopandas")
+    from shapely.geometry import Polygon
+
+    xlsx = _write_lila_xlsx(
+        tmp_path / "usda-lila-raw.xlsx",
+        [
+            {"CensusTract": "10001040100", "LILATracts_1And10": 1, "LowIncomeTracts": 1,
+             "PovertyRate": 21.5, "MedianFamilyIncome": 55000},
+            {"CensusTract": "10003010100", "LILATracts_1And10": 0, "LowIncomeTracts": 0,
+             "PovertyRate": 9.0, "MedianFamilyIncome": 95000},
+        ],
+    )
+    tract_gdf = gpd.GeoDataFrame(
+        {
+            "GEOID": ["10001040100", "10003010100"],
+            "geometry": [
+                Polygon([(0, 0), (1, 0), (1, 1), (0, 1)]),
+                Polygon([(2, 0), (3, 0), (3, 1), (2, 1)]),
+            ],
+        },
+        crs="EPSG:4326",
+    )
+    notes: list[str] = []
+    out = _build_lila_geojson_from_xlsx(xlsx, tract_gdf, notes)
+    assert out is not None
+    payload = json.loads(out.decode("utf-8"))
+    assert payload["type"] == "FeatureCollection"
+    assert len(payload["features"]) == 2
+    by_geoid = {f["properties"]["tract_geoid"]: f for f in payload["features"]}
+    assert by_geoid["10001040100"]["properties"]["LILATracts_1And10"] == 1
+    assert by_geoid["10001040100"]["geometry"]["type"] == "Polygon"
+    # Diagnostic note reports join coverage.
+    join_notes = [n for n in notes if "joined" in n]
+    assert any("2 tracts joined" in n for n in join_notes)
+
+
+def test_build_lila_geojson_returns_none_when_no_join_hits(tmp_path: Path) -> None:
+    """Workbook has DE tracts but the TIGER GDF lacks matching GEOIDs → None."""
+    pytest.importorskip("openpyxl")
+    gpd = pytest.importorskip("geopandas")
+    from shapely.geometry import Polygon
+
+    xlsx = _write_lila_xlsx(
+        tmp_path / "lila.xlsx",
+        [{"CensusTract": "10001040100", "LILATracts_1And10": 1}],
+    )
+    tract_gdf = gpd.GeoDataFrame(
+        {
+            "GEOID": ["99999999999"],  # No match
+            "geometry": [Polygon([(0, 0), (1, 0), (1, 1), (0, 1)])],
+        },
+        crs="EPSG:4326",
+    )
+    notes: list[str] = []
+    out = _build_lila_geojson_from_xlsx(xlsx, tract_gdf, notes)
+    assert out is None
+    assert any("zero matched TIGER GEOIDs" in n for n in notes)
+
+
+def test_load_raw_skips_lila_build_when_xlsx_missing(tmp_path: Path) -> None:
+    """If no xlsx and no pre-clipped geojson, lila_geojson stays None cleanly."""
+    result = load_raw_artifacts(tmp_path, DEFAULT_PARAMETERS)
+    assert result.lila_geojson is None
+    # No noise about the LILA xlsx if it wasn't requested
+    assert not any("usda-lila-xlsx" in n for n in result.notes)
+
+
+def test_load_raw_pre_clipped_lila_takes_precedence_over_xlsx_build(tmp_path: Path) -> None:
+    """When the operator pre-runs the transform, the prebuilt geojson wins."""
+    pre = b'{"type":"FeatureCollection","features":[{"prebuilt":true}]}'
+    (tmp_path / "usda-lila-de-clipped.geojson").write_bytes(pre)
+    # Also drop an xlsx alongside; the prebuilt path must take precedence.
+    pytest.importorskip("openpyxl")
+    _write_lila_xlsx(
+        tmp_path / "usda-lila-raw.xlsx",
+        [{"CensusTract": "10001040100", "LILATracts_1And10": 1}],
+    )
+    result = load_raw_artifacts(tmp_path, DEFAULT_PARAMETERS)
+    assert result.lila_geojson == pre

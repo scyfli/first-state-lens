@@ -23,3 +23,10 @@ geopandas>=0.14,<2
 shapely>=2.0,<3
 tobler>=0.11,<1
 pyproj>=3.6,<4
+
+# --- XLSX parsing (S+6 LILA transform) ---
+# USDA Food Access Research Atlas ships as .xlsx. openpyxl is the canonical
+# pure-Python reader (no native deps). The LILA transform in
+# `etl/lib/load_raw.py:_build_lila_geojson_from_xlsx` reads this workbook and
+# clips to Delaware tracts via the TIGER tract geometry.
+openpyxl>=3.1,<4
