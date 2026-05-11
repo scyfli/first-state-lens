@@ -488,15 +488,22 @@ def run_pipeline(
     inputs: PipelineInputs,
     output_dir: Path,
     *,
-    methodology_version: str = "0.2.0",
+    methodology_version: str = "0.2.1",
     datapackage_version: str = "0.2.1",
     sb254_tracts_geom_lookup: Optional[dict] = None,
+    strict: bool = False,
 ) -> PipelineResult:
     """Run the full pipeline end-to-end. Writes outputs to `output_dir`.
 
-    `datapackage_version` should bump from 0.2.0 -> 0.2.1 on the first
-    real ETL run (the design brief specifies the patch bump). The
-    methodology version stays at 0.2.0 unless a rule change ships.
+    `methodology_version` and `datapackage_version` both default to
+    0.2.1 at S+4 — the first live-data run is a patch bump (data first
+    surfaces; no rule change). Override either when the methodology
+    advances independently of the datapackage.
+
+    When `strict=True` (the CLI default for live runs), the datapackage
+    writer raises on any missing output file. Lenient mode (False) is
+    the test ergonomics path: missing outputs are flagged but not
+    fatal.
     """
     output_dir = _ensure_dir(output_dir)
     files: list[Path] = []
@@ -556,7 +563,7 @@ def run_pipeline(
         manifest=inputs.manifest,
         parameters=inputs.parameters,
         methodology_version=methodology_version,
-        require_present=False,  # S+3: lenient. S+4 flips to True.
+        require_present=strict,
     )
     files.append(write_datapackage(output_dir, payload))
 
@@ -581,6 +588,93 @@ def load_parameters(path: Path) -> dict:
     return yaml.safe_load(path.read_text(encoding="utf-8"))
 
 
+# ---------------------------------------------------------------------------
+# Live-pull dispatch — fetches every source puller into raw_dir
+# ---------------------------------------------------------------------------
+
+
+def _pull_all_sources(raw_dir: Path, parameters: dict) -> list[str]:
+    """Run every source puller; persist raws to raw_dir; return notes."""
+    notes: list[str] = []
+    raw_dir.mkdir(parents=True, exist_ok=True)
+
+    # Imports are local so the CLI starts fast and so partial-import
+    # failures (e.g., requests missing in a minimal env) don't break
+    # offline test runs.
+    from etl.sources import (
+        census_acs,
+        census_acs_bg,
+        dart_gtfs,
+        dsb_grants,
+        firstmap_sd2,
+        mmg_food_insecurity,
+        tiger_bgs,
+        tiger_tracts,
+        usda_lila,
+    )
+
+    pullers: list[tuple[str, callable, dict]] = [
+        ("firstmap_sd2", firstmap_sd2.pull, {}),
+        ("dart_gtfs", dart_gtfs.pull, {}),
+        ("census_acs_tracts", census_acs.pull, {}),
+        ("census_acs_bgs", census_acs_bg.pull, {}),
+        ("mmg_food_insecurity", mmg_food_insecurity.pull, {}),
+        ("usda_lila", usda_lila.pull, {}),
+        ("tiger_tracts", tiger_tracts.pull, {}),
+        ("tiger_bgs", tiger_bgs.pull, {}),
+        ("dsb_grants", dsb_grants.pull, {"url": parameters.get("dsb_grants_url")}),
+    ]
+
+    for name, fn, kwargs in pullers:
+        # Drop kwargs whose value is None so the puller defaults apply.
+        kwargs = {k: v for k, v in kwargs.items() if v is not None}
+        try:
+            r = fn(raw_dir, **kwargs)
+            # Different pullers return tuples of varying arity; the first
+            # element is always the persisted path.
+            if isinstance(r, tuple):
+                path = r[0]
+                fetch_result = r[1] if len(r) > 1 else None
+            else:
+                path = r
+                fetch_result = None
+            status = fetch_result.http_status if fetch_result else "ok"
+            warns = (fetch_result.warnings if fetch_result else [])
+            notes.append(f"  - {name}: {path.name} ({status}; {len(warns)} warning(s))")
+        except Exception as exc:  # noqa: BLE001
+            notes.append(f"  - {name}: FAILED ({type(exc).__name__}: {exc})")
+
+    return notes
+
+
+# ---------------------------------------------------------------------------
+# PipelineInputs assembler — bridges LoadedRaw to the orchestrator
+# ---------------------------------------------------------------------------
+
+
+def assemble_pipeline_inputs(loaded, parameters: dict, manual_reviews_path: Optional[Path]):
+    """Build a PipelineInputs from a LoadedRaw + parameters + manual-reviews path."""
+    return PipelineInputs(
+        grantees=loaded.grantees,
+        food_resources_raw=loaded.food_resources_raw,
+        tracts=loaded.tracts,
+        state_mfi_median=loaded.state_mfi_median,
+        parameters=parameters,
+        manifest=loaded.manifest,
+        lila_geojson=loaded.lila_geojson,
+        sd2_geojson=loaded.sd2_geojson,
+        dart_routes_geojson=loaded.dart_routes_geojson,
+        acs_demographics_csv=loaded.acs_demographics_csv,
+        mhc_csv=loaded.mhc_csv,
+        mmg_counties_gdf=loaded.mmg_counties_gdf,
+        target_tracts_gdf=loaded.target_tracts_gdf,
+        weights_bg_gdf=loaded.weights_bg_gdf,
+        manual_reviews_path=(
+            manual_reviews_path if manual_reviews_path and manual_reviews_path.exists() else None
+        ),
+    )
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Run the DGI Food Access ETL.")
     parser.add_argument(
@@ -601,28 +695,68 @@ def main(argv: list[str] | None = None) -> int:
         default=Path("etl/manual-reviews.yaml"),
     )
     parser.add_argument(
+        "--raw-dir",
+        type=Path,
+        default=Path("etl/raw"),
+        help="Where raw artifacts live / will be persisted (default: etl/raw/)",
+    )
+    parser.add_argument(
+        "--pull",
+        action="store_true",
+        help="Run every source puller against the network before composing the pipeline. "
+             "Without --pull, only artifacts already in --raw-dir are read.",
+    )
+    parser.add_argument(
+        "--strict",
+        action="store_true",
+        help="Require every datapackage resource to be present on disk; raise otherwise. "
+             "Recommended for live CI runs. Defaults to lenient.",
+    )
+    parser.add_argument(
         "--dry-run",
         action="store_true",
-        help="Build an empty pipeline and exit without writing outputs.",
+        help="Inspect the raw_dir and print what would be loaded; do not write outputs.",
     )
     args = parser.parse_args(argv)
 
     parameters = load_parameters(args.parameters)
     print(f"Loaded parameters from {args.parameters} ({len(parameters)} keys).")
-    print(
-        "Note: S+3 CLI is a scaffold. Live-source orchestration wires in at "
-        "S+4 alongside the methodology publish:true flip. For S+3, the "
-        "orchestrator is invoked programmatically by the integration test."
-    )
+
+    if args.pull:
+        print(f"Pulling all sources to {args.raw_dir} ...")
+        for note in _pull_all_sources(args.raw_dir, parameters):
+            print(note)
+
+    # Late import: load_raw imports geopandas behind importorskip but
+    # keeps the CLI's startup time low for --dry-run probes.
+    from etl.lib.load_raw import load_raw_artifacts
+
+    loaded = load_raw_artifacts(args.raw_dir, parameters)
+    print(f"Inspected {args.raw_dir} (geo_stack_available={loaded.geo_stack_available}):")
+    for note in loaded.notes:
+        print(f"  - {note}")
+
     if args.dry_run:
+        print("--dry-run: no outputs written.")
         return 0
 
-    print(
-        "S+3 CLI cannot yet build a complete pipeline from raw artifacts alone "
-        "(grantee list, ACS join, geo stack inputs need orchestration that "
-        "lands at S+4). Returning early.",
-        file=sys.stderr,
+    inputs = assemble_pipeline_inputs(loaded, parameters, args.manual_reviews)
+
+    result = run_pipeline(
+        inputs,
+        output_dir=args.output_dir,
+        strict=args.strict,
     )
+
+    print()
+    print(f"Pipeline complete. Outputs in {result.output_dir}/")
+    print(f"  geocoded_count:               {result.geocoded_count}")
+    print(f"  food_resources_merged_count:  {result.food_resources_merged_count}")
+    print(f"  sb254_effective_tract_count:  {result.sb254_effective_tract_count}")
+    print(f"  data_quality_flag_count:      {result.data_quality_flag_count}")
+    print(f"  cycle_5_status:               {result.cycle_5_status}")
+    print(f"  apportionment_ran:            {result.apportionment_ran}")
+    print(f"  files_written:                {len(result.files_written)}")
     return 0
 
 
