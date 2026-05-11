@@ -6,9 +6,12 @@ Authoritative design: `2026-05-11-DGI-Bulk-ETL-Design.md` in the vault `07-Brief
 
 ## Status
 
-**S+1 (this session, 2026-05-11):** skeleton + first source pullers (USDA LILA, FirstMap SD2, DART GTFS, Census ACS, MMG). Pullers download raw artifacts to `etl/raw/` (gitignored). Smoke tests use fixtures, not live network.
+**S+3 (2026-05-11):** transforms layer complete. Population-weighted areal interpolation, SB 254-effective tract classification, food-resource universe merge, and the Frictionless datapackage writer all landed. `run_etl.py` orchestrates the full pipeline end-to-end and is exercised by a smoke-suite integration test (13 orchestrator tests).
 
-Subsequent sessions: S+2 geocoding + DSB scraper; S+3 transforms + apportionment; S+4 dashboard wire-up + methodology `publish: true` flip.
+- **S+1:** scaffold + 5 source pullers (USDA LILA, FirstMap SD2, DART GTFS, Census ACS, MMG)
+- **S+2:** geocoding library (Census + Nominatim) + geocoding transform + manual-reviews second pass + DSB scaffold
+- **S+3 (here):** transforms (apportion / sb254-effective / merge food resources) + Frictionless datapackage writer + per-resource schemas + end-to-end orchestrator
+- **S+4 (next):** live-source orchestration + dashboard wire-up + methodology `publish: true` flip + first scheduled ETL run
 
 ## Layout
 
@@ -32,20 +35,20 @@ etl/
 ## Local quickstart
 
 ```bash
-# S+1 lightweight install (no geo libs needed for pullers yet)
+# Lightweight install (everything except the geo stack)
 python -m pip install requests pyyaml tenacity frictionless pytest
 
-# Run smoke tests (offline; uses fixtures)
+# Run smoke tests (offline; uses fixtures + skips geo-only tests when geopandas absent)
 python -m pytest etl/tests/ -v
 
 # Pull a single source live (requires network)
 python -m etl.sources.usda_lila --out etl/raw/
 
-# Full requirements (needed for transforms in S+3 onward)
+# Full requirements (geopandas + tobler + pyproj + shapely; needed to run apportion + the geo path of run_etl)
 python -m pip install -r etl/requirements.txt
 ```
 
-**Note on Windows + heavy geo deps:** `geopandas`, `tobler`, `pyproj`, and `shapely` carry GDAL native bindings that can be painful to install on Windows. For S+1 these aren't required (pullers use only `requests` + stdlib). GitHub Actions Linux runners handle the full requirements cleanly; local dev on Windows can stay on the lightweight subset until transforms work begins.
+**Note on Windows + heavy geo deps:** `geopandas`, `tobler`, `pyproj`, and `shapely` carry GDAL native bindings that can be painful to install on Windows. The transforms in `etl/transforms/apportion.py` import these lazily; tests that need them use `pytest.importorskip` so the smoke suite still runs on a Windows dev box (apportion tests skip cleanly). GitHub Actions Linux runners handle the full requirements cleanly and run every test.
 
 ## Running in CI
 
@@ -55,28 +58,29 @@ python -m pip install -r etl/requirements.txt
 - **Manual dispatch:** any pusher to the repo via the Actions UI
 - **Pull requests** touching `etl/`: dry-run mode (smoke tests only, no committed outputs)
 
-At S+1 the workflow only runs smoke tests. Real data publication lands at S+4 when transforms are complete and the methodology page flips `publish: true`.
+At S+3 the workflow still runs only the smoke-test job (with the full geo stack installed from `requirements.txt`, so every test — including the apportion suite — runs). Real data publication lands at S+4 when the live-source orchestration wires in and the methodology page flips `publish: true`.
 
 ## Methodology equivalences (R cite ↔ Python)
 
 | Methodology cite (R) | Python equivalent | Used in |
 |---|---|---|
-| `tidycensus::interpolate_pw(extensive=TRUE)` | `tobler.area_interpolate(extensive=True)` | S+3 transform |
-| `areal::aw_interpolate(weight="sum")` | `tobler.area_interpolate(extensive=True)` | S+3 transform |
+| `tidycensus::interpolate_pw(extensive=TRUE)` | in-module population-weighted overlay built on `geopandas.overlay` (see [`apportion.py`](transforms/apportion.py)) | S+3 transform |
+| `areal::aw_interpolate(weight="sum")` | same as above | S+3 transform |
 | `tidycensus::get_acs(geography="tract")` | direct Census API via `requests` | S+1 puller (`census_acs.py`) |
 | `sf::st_intersection`, `sf::st_distance` | `geopandas.GeoSeries.intersection / .distance` | S+3 transform |
 
-The methodology page is not amended; this bridge lives in the design brief and this README.
+`tobler.area_interpolate` is the PySAL implementation cited in the design brief; it does *area-weighted* (not population-weighted) interpolation. We import `tobler` for future refactors but the population-weighted variant lands in-module so the formula matches `tidycensus::interpolate_pw(extensive=TRUE)` exactly. The methodology page is not amended; this bridge lives in the design brief and this README.
 
 ## Open implementation questions (carried from design brief)
 
-1. DPH My Healthy Community access pattern (S+2, pilot pull required)
-2. DCFFP grantee list URL stability (S+2)
-3. DSB grantee page parse strategy (S+2; tolerant parser + snapshot diff)
-4. Census ACS vintage selection (S+1 puller will document the chosen vintage)
+1. DPH My Healthy Community access pattern (S+4, pilot pull required)
+2. DCFFP grantee list URL stability (S+4)
+3. DSB grantee canonical URL (open since session-15; scaffold ships configurable)
+4. Census ACS vintage selection (live puller documents the chosen vintage at run time)
 5. Manual review volume threshold (revisit if `pending-manual-review` >20/cycle)
 6. R2 migration trigger (output >100MB or refresh cadence demands cache invalidation)
 7. DART GTFS canonical URL (S+1 puller verifies)
+8. Block-group population pull (S+4) — `etl.transforms.sb254_effective` accepts block-group inputs but no puller produces them yet; live wire-in at S+4
 
 ---
 

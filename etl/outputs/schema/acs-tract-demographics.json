@@ -1,0 +1,70 @@
+{
+  "$schema": "https://specs.frictionlessdata.io/schemas/table-schema.json",
+  "name": "acs-tract-demographics",
+  "title": "ACS tract-level demographics (DE)",
+  "description": "One row per Delaware Census tract. Variables drawn from ACS 5-year (vintage in etl_parameters.acs_vintage). All counts are persons.",
+  "fields": [
+    {
+      "name": "tract_geoid",
+      "type": "string",
+      "constraints": {"required": true, "pattern": "^[0-9]{11}$"},
+      "description": "11-character Census tract GEOID."
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "description": "Census tract human-readable name."
+    },
+    {
+      "name": "population_total",
+      "type": "integer",
+      "description": "ACS B01003_001E — total population."
+    },
+    {
+      "name": "median_household_income",
+      "type": "number",
+      "description": "ACS B19013_001E — median household income (USD). May be null for low-population tracts."
+    },
+    {
+      "name": "median_family_income",
+      "type": "number",
+      "description": "ACS B19113_001E — median family income (USD). Used in the SB 254 low-income MFI test."
+    },
+    {
+      "name": "poverty_denominator",
+      "type": "integer",
+      "description": "ACS B17001_001E — persons for whom poverty status is determined."
+    },
+    {
+      "name": "poverty_numerator",
+      "type": "integer",
+      "description": "ACS B17001_002E — persons in poverty."
+    },
+    {
+      "name": "poverty_rate",
+      "type": "number",
+      "description": "Computed: poverty_numerator / poverty_denominator. 0..1 scale. Used in the SB 254 low-income poverty test."
+    },
+    {
+      "name": "race_white_nh",
+      "type": "integer",
+      "description": "ACS B03002_003E — not Hispanic, White alone."
+    },
+    {
+      "name": "race_black_nh",
+      "type": "integer",
+      "description": "ACS B03002_004E — not Hispanic, Black alone."
+    },
+    {
+      "name": "race_asian_nh",
+      "type": "integer",
+      "description": "ACS B03002_006E — not Hispanic, Asian alone."
+    },
+    {
+      "name": "ethnicity_hispanic",
+      "type": "integer",
+      "description": "ACS B03002_012E — Hispanic or Latino (any race)."
+    }
+  ],
+  "primaryKey": ["tract_geoid"]
+}

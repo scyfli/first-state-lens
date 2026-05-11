@@ -1,0 +1,86 @@
+{
+  "$schema": "https://specs.frictionlessdata.io/schemas/table-schema.json",
+  "name": "dgi-grants",
+  "title": "DGI grant ledger (Cycles 1-5)",
+  "description": "One row per DGI grant award. Cycle 5 may carry a single synthetic placeholder row when DSB has not yet published awardees (see methodology v0.2.0 Q1).",
+  "fields": [
+    {
+      "name": "cycle",
+      "type": "integer",
+      "constraints": {"required": true, "minimum": 1},
+      "description": "DGI funding cycle number (1-5 at methodology v0.2.0)."
+    },
+    {
+      "name": "grantee",
+      "type": "string",
+      "constraints": {"required": true},
+      "description": "Awardee name as published by DSB. '(pending publication)' for Cycle 5 placeholder rows."
+    },
+    {
+      "name": "amount_usd",
+      "type": "number",
+      "constraints": {"required": true, "minimum": 0},
+      "description": "Grant amount in USD."
+    },
+    {
+      "name": "awarded_date",
+      "type": "date",
+      "description": "DSB award date. May be empty for placeholder rows."
+    },
+    {
+      "name": "storefront_address",
+      "type": "string",
+      "description": "Storefront / service-area address as published. Empty when only an aggregate is published (placeholder)."
+    },
+    {
+      "name": "category",
+      "type": "string",
+      "constraints": {
+        "enum": [
+          "supermarket",
+          "corner-store",
+          "specialty-grocer",
+          "farmers-market",
+          "food-pantry",
+          "food-bank",
+          "other"
+        ]
+      },
+      "description": "Food-resource category per methodology v0.2.0."
+    },
+    {
+      "name": "geocoding_confidence",
+      "type": "string",
+      "constraints": {
+        "enum": ["high", "medium", "manual", "pending-disbursement"]
+      },
+      "description": "Per methodology Q5: high (geocoders agree), medium (disagree), manual (override or geocoder failure), pending-disbursement (no address published yet)."
+    },
+    {
+      "name": "tract_geoid",
+      "type": "string",
+      "description": "11-character Census tract GEOID (state+county+tract). Empty when geocoding_confidence is pending-disbursement."
+    },
+    {
+      "name": "lat",
+      "type": "number",
+      "description": "Latitude (WGS84). Empty for pending-disbursement rows."
+    },
+    {
+      "name": "lon",
+      "type": "number",
+      "description": "Longitude (WGS84). Empty for pending-disbursement rows."
+    },
+    {
+      "name": "wilmington_manual_reviewed",
+      "type": "boolean",
+      "description": "True when the tract assignment came from etl/manual-reviews.yaml. See methodology Q5."
+    },
+    {
+      "name": "notes",
+      "type": "string",
+      "description": "Free-form note (e.g., 'Cycle 5 placeholder: amount=aggregate, geography pending')."
+    }
+  ],
+  "primaryKey": ["cycle", "grantee"]
+}
