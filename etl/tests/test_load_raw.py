@@ -22,10 +22,13 @@ import pytest
 from etl.lib.load_raw import (
     LoadedRaw,
     _acs_tract_json_to_csv,
+    _build_dart_routes_geojson_from_gtfs,
     _build_lila_geojson_from_xlsx,
+    _build_shape_lines,
     _build_tracts_from_gdfs,
     _coerce_lila_flag,
     _coerce_lila_numeric,
+    _gtfs_routes_by_shape,
     _load_acs_tract_demographics,
     _normalize_lila_tract,
     _read_lila_xlsx,
@@ -703,3 +706,225 @@ def test_load_raw_pre_clipped_lila_takes_precedence_over_xlsx_build(tmp_path: Pa
     )
     result = load_raw_artifacts(tmp_path, DEFAULT_PARAMETERS)
     assert result.lila_geojson == pre
+
+
+# ---------------------------------------------------------------------------
+# S+6 — DART GTFS shapes.txt → dart-routes.geojson transform
+# ---------------------------------------------------------------------------
+
+
+def _write_gtfs_zip(
+    path: Path,
+    *,
+    shapes_rows: list[dict],
+    trips_rows: list[dict] | None = None,
+    routes_rows: list[dict] | None = None,
+    omit_shapes: bool = False,
+) -> Path:
+    """Build a synthetic GTFS zip fixture in `path`."""
+    import zipfile
+
+    def _to_csv(headers: list[str], rows: list[dict]) -> str:
+        out = [",".join(headers)]
+        for r in rows:
+            out.append(",".join(str(r.get(h, "")) for h in headers))
+        return "\n".join(out) + "\n"
+
+    with zipfile.ZipFile(path, "w") as zf:
+        if not omit_shapes:
+            zf.writestr(
+                "shapes.txt",
+                _to_csv(
+                    ["shape_id", "shape_pt_lat", "shape_pt_lon", "shape_pt_sequence"],
+                    shapes_rows,
+                ),
+            )
+        if trips_rows is not None:
+            zf.writestr(
+                "trips.txt",
+                _to_csv(["route_id", "service_id", "trip_id", "shape_id"], trips_rows),
+            )
+        if routes_rows is not None:
+            zf.writestr(
+                "routes.txt",
+                _to_csv(
+                    ["route_id", "agency_id", "route_short_name", "route_long_name", "route_type"],
+                    routes_rows,
+                ),
+            )
+    return path
+
+
+def test_build_shape_lines_groups_and_sorts_by_sequence() -> None:
+    csv_text = (
+        "shape_id,shape_pt_lat,shape_pt_lon,shape_pt_sequence\n"
+        # Deliberately scrambled sequence order to exercise the sort.
+        "1,39.71,-75.51,2\n"
+        "1,39.70,-75.50,1\n"
+        "1,39.72,-75.52,3\n"
+        "2,39.60,-75.60,1\n"
+        "2,39.61,-75.61,2\n"
+    )
+    out = _build_shape_lines(csv_text)
+    assert set(out.keys()) == {"1", "2"}
+    # Coordinates in [lon, lat] order, sorted by sequence
+    assert out["1"] == [[-75.50, 39.70], [-75.51, 39.71], [-75.52, 39.72]]
+    assert out["2"] == [[-75.60, 39.60], [-75.61, 39.61]]
+
+
+def test_build_shape_lines_skips_malformed_rows() -> None:
+    csv_text = (
+        "shape_id,shape_pt_lat,shape_pt_lon,shape_pt_sequence\n"
+        "1,39.70,-75.50,1\n"
+        "1,not_a_number,-75.51,2\n"        # bad lat
+        "1,39.71,-75.51,not_a_seq\n"        # bad seq
+        "1,39.72,-75.52,3\n"
+    )
+    out = _build_shape_lines(csv_text)
+    assert out == {"1": [[-75.50, 39.70], [-75.52, 39.72]]}
+
+
+def test_gtfs_routes_by_shape_dedupes_and_preserves_order() -> None:
+    trips_csv = (
+        "route_id,service_id,trip_id,shape_id\n"
+        "R1,wd,T1,1\n"
+        "R1,wk,T2,1\n"          # duplicate route on same shape — dedupe
+        "R2,wd,T3,1\n"          # second route shares the shape
+        "R1,wd,T4,2\n"
+    )
+    routes_csv = (
+        "route_id,agency_id,route_short_name,route_long_name,route_type\n"
+        "R1,DART,1,Wilmington Loop,3\n"
+        "R2,DART,2,New Castle Express,3\n"
+    )
+    out = _gtfs_routes_by_shape(trips_csv, routes_csv)
+    assert out["1"]["short_names"] == ["1", "2"]
+    assert out["1"]["long_names"] == ["Wilmington Loop", "New Castle Express"]
+    assert out["2"]["short_names"] == ["1"]
+
+
+def test_gtfs_routes_by_shape_returns_empty_when_files_missing() -> None:
+    assert _gtfs_routes_by_shape("", "anything") == {}
+    assert _gtfs_routes_by_shape("anything", "") == {}
+
+
+def test_build_dart_routes_geojson_full_pipeline(tmp_path: Path) -> None:
+    """Synthesize zip → parse → emit GeoJSON with route joins."""
+    zip_path = _write_gtfs_zip(
+        tmp_path / "dart-gtfs.zip",
+        shapes_rows=[
+            {"shape_id": "1", "shape_pt_lat": 39.70, "shape_pt_lon": -75.50, "shape_pt_sequence": 1},
+            {"shape_id": "1", "shape_pt_lat": 39.71, "shape_pt_lon": -75.51, "shape_pt_sequence": 2},
+            {"shape_id": "1", "shape_pt_lat": 39.72, "shape_pt_lon": -75.52, "shape_pt_sequence": 3},
+            {"shape_id": "2", "shape_pt_lat": 39.60, "shape_pt_lon": -75.60, "shape_pt_sequence": 1},
+            {"shape_id": "2", "shape_pt_lat": 39.61, "shape_pt_lon": -75.61, "shape_pt_sequence": 2},
+        ],
+        trips_rows=[
+            {"route_id": "R1", "service_id": "wd", "trip_id": "T1", "shape_id": "1"},
+            {"route_id": "R2", "service_id": "wd", "trip_id": "T2", "shape_id": "2"},
+        ],
+        routes_rows=[
+            {"route_id": "R1", "agency_id": "DART", "route_short_name": "1", "route_long_name": "Loop A", "route_type": 3},
+            {"route_id": "R2", "agency_id": "DART", "route_short_name": "2", "route_long_name": "Loop B", "route_type": 3},
+        ],
+    )
+    notes: list[str] = []
+    out = _build_dart_routes_geojson_from_gtfs(zip_path, notes)
+    assert out is not None
+    payload = json.loads(out.decode("utf-8"))
+    assert payload["type"] == "FeatureCollection"
+    assert len(payload["features"]) == 2
+    by_shape = {f["properties"]["shape_id"]: f for f in payload["features"]}
+    assert by_shape["1"]["geometry"]["type"] == "LineString"
+    assert by_shape["1"]["geometry"]["coordinates"][0] == [-75.50, 39.70]
+    assert by_shape["1"]["properties"]["route_short_names"] == ["1"]
+    assert by_shape["1"]["properties"]["route_long_names"] == ["Loop A"]
+    assert any("2 LineString(s)" in n for n in notes)
+
+
+def test_build_dart_routes_geojson_skips_short_shapes(tmp_path: Path) -> None:
+    """A shape with only one point can't be a LineString — drop it."""
+    zip_path = _write_gtfs_zip(
+        tmp_path / "dart-gtfs.zip",
+        shapes_rows=[
+            {"shape_id": "1", "shape_pt_lat": 39.70, "shape_pt_lon": -75.50, "shape_pt_sequence": 1},  # singleton
+            {"shape_id": "2", "shape_pt_lat": 39.60, "shape_pt_lon": -75.60, "shape_pt_sequence": 1},
+            {"shape_id": "2", "shape_pt_lat": 39.61, "shape_pt_lon": -75.61, "shape_pt_sequence": 2},
+        ],
+    )
+    out = _build_dart_routes_geojson_from_gtfs(zip_path, [])
+    payload = json.loads(out.decode("utf-8"))
+    assert [f["properties"]["shape_id"] for f in payload["features"]] == ["2"]
+
+
+def test_build_dart_routes_geojson_works_without_trips_or_routes(tmp_path: Path) -> None:
+    """Shapes alone produce LineStrings; route names default to empty lists."""
+    zip_path = _write_gtfs_zip(
+        tmp_path / "dart-gtfs.zip",
+        shapes_rows=[
+            {"shape_id": "1", "shape_pt_lat": 39.70, "shape_pt_lon": -75.50, "shape_pt_sequence": 1},
+            {"shape_id": "1", "shape_pt_lat": 39.71, "shape_pt_lon": -75.51, "shape_pt_sequence": 2},
+        ],
+    )
+    out = _build_dart_routes_geojson_from_gtfs(zip_path, [])
+    payload = json.loads(out.decode("utf-8"))
+    feature = payload["features"][0]
+    assert feature["properties"]["route_short_names"] == []
+    assert feature["properties"]["route_long_names"] == []
+
+
+def test_build_dart_routes_geojson_returns_none_when_shapes_missing(tmp_path: Path) -> None:
+    """Zip with no shapes.txt → None and a diagnostic note."""
+    zip_path = _write_gtfs_zip(
+        tmp_path / "dart-gtfs.zip",
+        shapes_rows=[],
+        omit_shapes=True,
+    )
+    notes: list[str] = []
+    out = _build_dart_routes_geojson_from_gtfs(zip_path, notes)
+    assert out is None
+    assert any("missing shapes.txt" in n for n in notes)
+
+
+def test_build_dart_routes_geojson_returns_none_for_corrupt_zip(tmp_path: Path) -> None:
+    bad_zip = tmp_path / "dart-gtfs.zip"
+    bad_zip.write_bytes(b"this is not a zip")
+    notes: list[str] = []
+    out = _build_dart_routes_geojson_from_gtfs(bad_zip, notes)
+    assert out is None
+    assert any("read failed" in n for n in notes)
+
+
+def test_load_raw_builds_dart_routes_from_gtfs_zip(tmp_path: Path) -> None:
+    """End-to-end through load_raw: zip in raw_dir → dart_routes_geojson populated."""
+    _write_gtfs_zip(
+        tmp_path / "dart-gtfs.zip",
+        shapes_rows=[
+            {"shape_id": "1", "shape_pt_lat": 39.70, "shape_pt_lon": -75.50, "shape_pt_sequence": 1},
+            {"shape_id": "1", "shape_pt_lat": 39.71, "shape_pt_lon": -75.51, "shape_pt_sequence": 2},
+        ],
+    )
+    result = load_raw_artifacts(tmp_path, DEFAULT_PARAMETERS)
+    assert result.dart_routes_geojson is not None
+    payload = json.loads(result.dart_routes_geojson.decode("utf-8"))
+    assert payload["type"] == "FeatureCollection"
+    assert len(payload["features"]) == 1
+    assert "dart-gtfs-zip" in result.manifest.sources
+
+
+def test_load_raw_pre_built_dart_geojson_takes_precedence(tmp_path: Path) -> None:
+    """When the operator pre-runs the transform, the prebuilt geojson wins."""
+    pre = b'{"type":"FeatureCollection","features":[{"prebuilt":true}]}'
+    (tmp_path / "dart-routes.geojson").write_bytes(pre)
+    _write_gtfs_zip(
+        tmp_path / "dart-gtfs.zip",
+        shapes_rows=[
+            {"shape_id": "1", "shape_pt_lat": 39.70, "shape_pt_lon": -75.50, "shape_pt_sequence": 1},
+            {"shape_id": "1", "shape_pt_lat": 39.71, "shape_pt_lon": -75.51, "shape_pt_sequence": 2},
+        ],
+    )
+    result = load_raw_artifacts(tmp_path, DEFAULT_PARAMETERS)
+    assert result.dart_routes_geojson == pre
+    # The "dart-gtfs-zip" source should NOT have been recorded; the
+    # pre-built path took precedence and we never opened the zip.
+    assert "dart-gtfs-zip" not in result.manifest.sources

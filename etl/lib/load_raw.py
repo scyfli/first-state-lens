@@ -33,6 +33,7 @@ from __future__ import annotations
 import dataclasses
 import datetime
 import hashlib
+import io
 import json
 from pathlib import Path
 from typing import Any, Optional
@@ -145,7 +146,16 @@ def load_raw_artifacts(raw_dir: Path, parameters: dict) -> LoadedRaw:
     # from the raw xlsx + TIGER geometry below (inside the geo-stack block).
     lila_geojson = _load_passthrough(raw_dir / "usda-lila-de-clipped.geojson", manifest, "usda-lila-clipped", notes)
     sd2_geojson = _load_passthrough(raw_dir / "firstmap-sd2.geojson", manifest, "firstmap-sd2", notes)
+    # DART routes: pre-built geojson takes precedence; if absent, build LineStrings
+    # from the GTFS zip's shapes.txt (no geopandas required — plain CSV → GeoJSON).
     dart_routes_geojson = _load_passthrough(raw_dir / "dart-routes.geojson", manifest, "dart-routes", notes)
+    if dart_routes_geojson is None:
+        gtfs_zip = raw_dir / "dart-gtfs.zip"
+        if gtfs_zip.exists():
+            built = _build_dart_routes_geojson_from_gtfs(gtfs_zip, notes)
+            if built is not None:
+                dart_routes_geojson = built
+                _record_source(manifest, "dart-gtfs-zip", gtfs_zip)
     mhc_csv = _load_passthrough(raw_dir / "mhc-tract-de.csv", manifest, "mhc-tract", notes)
 
     # --- ACS tract demographics: convert JSON → CSV inline + build per-tract lookup ---
@@ -962,6 +972,161 @@ def _coerce_lila_numeric(value: Any) -> Optional[float]:
         return float(value)
     except (TypeError, ValueError):
         return None
+
+
+# ---------------------------------------------------------------------------
+# DART GTFS shapes.txt → dart-routes.geojson (S+6 transform)
+# ---------------------------------------------------------------------------
+
+
+# GTFS shapes.txt is a flat CSV: one row per (shape_id, sequence) point.
+# Reconstructing LineStrings is plain CSV grouping — no geopandas needed.
+# We also join trips.txt + routes.txt so each LineString carries the route
+# short_name / long_name properties the dashboard map uses for labels.
+#
+# GTFS reference: https://gtfs.org/schedule/reference/
+
+
+def _build_dart_routes_geojson_from_gtfs(
+    zip_path: Path, notes: list[str]
+) -> Optional[bytes]:
+    """Read DART GTFS zip, reconstruct LineStrings from shapes.txt → GeoJSON bytes.
+
+    Returns None when:
+      - zip is unreadable or missing `shapes.txt`
+      - shapes.txt has no usable rows
+
+    On success, writes a diagnostic note recording the line count and
+    returns the serialized GeoJSON bytes (UTF-8). Each Feature is a
+    LineString with properties: `shape_id`, `route_short_names`,
+    `route_long_names`. Trips/routes joins are best-effort — if those
+    files are missing or malformed, the LineStrings still emit with
+    empty route lists.
+    """
+    import zipfile
+
+    try:
+        with zipfile.ZipFile(zip_path) as zf:
+            names = set(zf.namelist())
+            if "shapes.txt" not in names:
+                notes.append(f"dart-gtfs-zip: {zip_path.name} missing shapes.txt; skipping LineString build")
+                return None
+            shapes_csv = zf.read("shapes.txt").decode("utf-8-sig")
+            trips_csv = zf.read("trips.txt").decode("utf-8-sig") if "trips.txt" in names else ""
+            routes_csv = zf.read("routes.txt").decode("utf-8-sig") if "routes.txt" in names else ""
+    except (zipfile.BadZipFile, KeyError, OSError) as exc:
+        notes.append(f"dart-gtfs-zip: read failed ({type(exc).__name__}: {exc})")
+        return None
+
+    shape_lines = _build_shape_lines(shapes_csv)
+    if not shape_lines:
+        notes.append(f"dart-gtfs-zip: {zip_path.name} shapes.txt had no usable rows")
+        return None
+
+    routes_by_shape = _gtfs_routes_by_shape(trips_csv, routes_csv)
+
+    features: list[dict] = []
+    for shape_id, coords in shape_lines.items():
+        # GTFS allows a shape with a single point, but a LineString needs ≥2.
+        if len(coords) < 2:
+            continue
+        route_meta = routes_by_shape.get(shape_id, {"short_names": [], "long_names": []})
+        features.append(
+            {
+                "type": "Feature",
+                "geometry": {"type": "LineString", "coordinates": coords},
+                "properties": {
+                    "shape_id": shape_id,
+                    "route_short_names": route_meta["short_names"],
+                    "route_long_names": route_meta["long_names"],
+                },
+            }
+        )
+
+    if not features:
+        notes.append(f"dart-gtfs-zip: {zip_path.name} produced 0 LineStrings (all shapes had <2 points)")
+        return None
+
+    notes.append(
+        f"dart-gtfs-zip: built FeatureCollection — {len(features)} LineString(s) "
+        f"from {len(shape_lines)} shape(s) in shapes.txt"
+    )
+    payload = {"type": "FeatureCollection", "features": features}
+    return (json.dumps(payload, indent=2) + "\n").encode("utf-8")
+
+
+def _build_shape_lines(shapes_csv: str) -> dict[str, list[list[float]]]:
+    """Parse GTFS shapes.txt → {shape_id: [[lon, lat], ...]} sorted by sequence.
+
+    Tolerates rows with malformed coords or sequence numbers; skips them.
+    """
+    import csv
+
+    grouped: dict[str, list[tuple[int, float, float]]] = {}
+    reader = csv.DictReader(io.StringIO(shapes_csv))
+    for row in reader:
+        try:
+            shape_id = str(row["shape_id"])
+            seq = int(row["shape_pt_sequence"])
+            lat = float(row["shape_pt_lat"])
+            lon = float(row["shape_pt_lon"])
+        except (KeyError, ValueError, TypeError):
+            continue
+        grouped.setdefault(shape_id, []).append((seq, lon, lat))
+
+    out: dict[str, list[list[float]]] = {}
+    for shape_id, rows in grouped.items():
+        rows.sort(key=lambda r: r[0])
+        out[shape_id] = [[lon, lat] for _, lon, lat in rows]
+    return out
+
+
+def _gtfs_routes_by_shape(
+    trips_csv: str, routes_csv: str
+) -> dict[str, dict[str, list[str]]]:
+    """Build {shape_id: {short_names, long_names}} from trips.txt + routes.txt.
+
+    Multiple routes can share a shape; the lists are deduped while
+    preserving first-seen order. Returns {} when either file is missing,
+    malformed, or empty — the caller falls back to empty route lists.
+    """
+    import csv
+
+    if not trips_csv or not routes_csv:
+        return {}
+
+    routes_by_id: dict[str, dict[str, str]] = {}
+    try:
+        for row in csv.DictReader(io.StringIO(routes_csv)):
+            rid = str(row.get("route_id") or "")
+            if not rid:
+                continue
+            routes_by_id[rid] = {
+                "short_name": str(row.get("route_short_name") or ""),
+                "long_name": str(row.get("route_long_name") or ""),
+            }
+    except (csv.Error, ValueError):
+        return {}
+
+    by_shape: dict[str, dict[str, list[str]]] = {}
+    try:
+        for row in csv.DictReader(io.StringIO(trips_csv)):
+            shape_id = str(row.get("shape_id") or "")
+            route_id = str(row.get("route_id") or "")
+            if not shape_id or not route_id:
+                continue
+            route = routes_by_id.get(route_id)
+            if route is None:
+                continue
+            entry = by_shape.setdefault(shape_id, {"short_names": [], "long_names": []})
+            if route["short_name"] and route["short_name"] not in entry["short_names"]:
+                entry["short_names"].append(route["short_name"])
+            if route["long_name"] and route["long_name"] not in entry["long_names"]:
+                entry["long_names"].append(route["long_name"])
+    except (csv.Error, ValueError):
+        return {}
+
+    return by_shape
 
 
 # ---------------------------------------------------------------------------
