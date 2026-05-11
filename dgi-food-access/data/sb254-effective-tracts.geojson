@@ -1,0 +1,6293 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003016612",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 6803,
+        "population_underserved": 6803,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003016808",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 6955,
+        "population_underserved": 6955,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003016610",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 7033,
+        "population_underserved": 7033,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003014811",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 6739,
+        "population_underserved": 6739,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003014301",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 1621,
+        "population_underserved": 1621,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003014812",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 4820,
+        "population_underserved": 4820,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003013906",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 4136,
+        "population_underserved": 4136,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003013905",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 4105,
+        "population_underserved": 4105,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003010105",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 2555,
+        "population_underserved": 2555,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003010703",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 1834,
+        "population_underserved": 1834,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003015200",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 6079,
+        "population_underserved": 6079,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003010106",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 1681,
+        "population_underserved": 1681,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003016307",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 2257,
+        "population_underserved": 2257,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003016609",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 4955,
+        "population_underserved": 4955,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003016611",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 9519,
+        "population_underserved": 9519,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003016308",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 4073,
+        "population_underserved": 4073,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003014813",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 5634,
+        "population_underserved": 5634,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003013507",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 1635,
+        "population_underserved": 1635,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003013508",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 6400,
+        "population_underserved": 6400,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003014302",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 5071,
+        "population_underserved": 5071,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003010704",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 3962,
+        "population_underserved": 3962,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003000500",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 3150,
+        "population_underserved": 3150,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003000601",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 2398,
+        "population_underserved": 2398,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003000602",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 2815,
+        "population_underserved": 2815,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003001100",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 3221,
+        "population_underserved": 3221,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003001300",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 3763,
+        "population_underserved": 3763,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003001500",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 2109,
+        "population_underserved": 2109,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003001600",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 2483,
+        "population_underserved": 2483,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003002300",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 2421,
+        "population_underserved": 2421,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003002400",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 4512,
+        "population_underserved": 4512,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003000400",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 2962,
+        "population_underserved": 2962,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003002600",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 4310,
+        "population_underserved": 4310,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003002700",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 2997,
+        "population_underserved": 2997,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003010200",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 2149,
+        "population_underserved": 2149,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003012900",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 4560,
+        "population_underserved": 4560,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003016401",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 6806,
+        "population_underserved": 6806,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003001200",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 1779,
+        "population_underserved": 1779,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003010400",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 4902,
+        "population_underserved": 4902,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003010900",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 2664,
+        "population_underserved": 2664,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003011100",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 2671,
+        "population_underserved": 2671,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003013800",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 6027,
+        "population_underserved": 6027,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003015000",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 5510,
+        "population_underserved": 5510,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005051101",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 929,
+        "population_underserved": 929,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003013610",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 5227,
+        "population_underserved": 5227,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003011900",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 3150,
+        "population_underserved": 3150,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003013613",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 5948,
+        "population_underserved": 5948,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003014705",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 5916,
+        "population_underserved": 5916,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003013700",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 3901,
+        "population_underserved": 3901,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003014502",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 7426,
+        "population_underserved": 7426,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003012400",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 4493,
+        "population_underserved": 4493,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003014404",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 4169,
+        "population_underserved": 4169,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003012000",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 3958,
+        "population_underserved": 3958,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003012700",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 4320,
+        "population_underserved": 4320,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005050601",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 5598,
+        "population_underserved": 5598,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003002500",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 3678,
+        "population_underserved": 3678,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003011201",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 2684,
+        "population_underserved": 2684,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003011202",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 4029,
+        "population_underserved": 4029,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003011205",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 2127,
+        "population_underserved": 2127,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003014402",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 2889,
+        "population_underserved": 2889,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003011700",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 4234,
+        "population_underserved": 4234,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003014803",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 4034,
+        "population_underserved": 4034,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003010300",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 3585,
+        "population_underserved": 3585,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003011206",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 4185,
+        "population_underserved": 4185,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003011300",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 2580,
+        "population_underserved": 2580,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003013611",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 5880,
+        "population_underserved": 5880,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003002900",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 3305,
+        "population_underserved": 3305,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003002100",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 1237,
+        "population_underserved": 1237,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003014909",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 6619,
+        "population_underserved": 6619,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003015502",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 2327,
+        "population_underserved": 2327,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005050103",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 5262,
+        "population_underserved": 5262,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005050304",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 4410,
+        "population_underserved": 4410,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005050710",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 2412,
+        "population_underserved": 2412,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005050303",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 3299,
+        "population_underserved": 3299,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005050711",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 1138,
+        "population_underserved": 1138,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005051313",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 2961,
+        "population_underserved": 2961,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005051314",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 2863,
+        "population_underserved": 2863,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005051310",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 2200,
+        "population_underserved": 2200,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001040100",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 7503,
+        "population_underserved": 7503,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001040201",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 5280,
+        "population_underserved": 5280,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001041500",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 4283,
+        "population_underserved": 4283,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001042000",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 2985,
+        "population_underserved": 2985,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001041200",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 4138,
+        "population_underserved": 4138,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001041000",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 7265,
+        "population_underserved": 7265,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001041300",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 2034,
+        "population_underserved": 2034,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001041400",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 4141,
+        "population_underserved": 4141,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003003002",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 3059,
+        "population_underserved": 3059,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005050501",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 4363,
+        "population_underserved": 4363,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005051302",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 5420,
+        "population_underserved": 5420,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005050403",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 3257,
+        "population_underserved": 3257,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005050302",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 5945,
+        "population_underserved": 5945,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005050801",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 4142,
+        "population_underserved": 4142,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005050401",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 3533,
+        "population_underserved": 3533,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005050101",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 4485,
+        "population_underserved": 4485,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005051702",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 7067,
+        "population_underserved": 7067,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005051900",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 4541,
+        "population_underserved": 4541,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005050200",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 4279,
+        "population_underserved": 4279,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005051400",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 3763,
+        "population_underserved": 3763,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005050701",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 4681,
+        "population_underserved": 4681,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003014904",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 5748,
+        "population_underserved": 5748,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005051701",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 4528,
+        "population_underserved": 4528,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005051802",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 4062,
+        "population_underserved": 4062,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005051801",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 6057,
+        "population_underserved": 6057,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003001400",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 2251,
+        "population_underserved": 2251,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003012200",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 4576,
+        "population_underserved": 4576,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005051102",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 1088,
+        "population_underserved": 1088,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003002200",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 3247,
+        "population_underserved": 3247,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003013612",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 5588,
+        "population_underserved": 5588,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003011000",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 3353,
+        "population_underserved": 3353,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003016901",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 2440,
+        "population_underserved": 2440,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003014706",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 3195,
+        "population_underserved": 3195,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003011800",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 4350,
+        "population_underserved": 4350,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003013501",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 6957,
+        "population_underserved": 6957,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003013604",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 4156,
+        "population_underserved": 4156,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003000900",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 2377,
+        "population_underserved": 2377,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005990000",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001042801",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 2028,
+        "population_underserved": 2028,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003000200",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 4992,
+        "population_underserved": 4992,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003013901",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 3171,
+        "population_underserved": 3171,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003012100",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 3010,
+        "population_underserved": 3010,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003013300",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 1918,
+        "population_underserved": 1918,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003012600",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 2902,
+        "population_underserved": 2902,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003013100",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 2292,
+        "population_underserved": 2292,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003013200",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 2751,
+        "population_underserved": 2751,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003013000",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 1902,
+        "population_underserved": 1902,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003013400",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 2329,
+        "population_underserved": 2329,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001040204",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 6356,
+        "population_underserved": 6356,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001040206",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 8647,
+        "population_underserved": 8647,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001042203",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 6217,
+        "population_underserved": 6217,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001042204",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 4952,
+        "population_underserved": 4952,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001042205",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 2815,
+        "population_underserved": 2815,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001042802",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 5777,
+        "population_underserved": 5777,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001042207",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 2536,
+        "population_underserved": 2536,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001041803",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 4477,
+        "population_underserved": 4477,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001040205",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 5170,
+        "population_underserved": 5170,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001042206",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 2605,
+        "population_underserved": 2605,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001041804",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 5911,
+        "population_underserved": 5911,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001042208",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 4243,
+        "population_underserved": 4243,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001041101",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 3026,
+        "population_underserved": 3026,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005051009",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 2375,
+        "population_underserved": 2375,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001980000",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 53,
+        "population_underserved": 53,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003010800",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 4885,
+        "population_underserved": 4885,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005050408",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 4233,
+        "population_underserved": 4233,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003010502",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 5803,
+        "population_underserved": 5803,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003013505",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 3738,
+        "population_underserved": 3738,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003013506",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 4440,
+        "population_underserved": 4440,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003990100",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003013614",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 3182,
+        "population_underserved": 3182,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003013615",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 4125,
+        "population_underserved": 4125,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003016404",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 3133,
+        "population_underserved": 3133,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003016608",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 7361,
+        "population_underserved": 7361,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003014809",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 8352,
+        "population_underserved": 8352,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001040900",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 2177,
+        "population_underserved": 2177,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001042500",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 4383,
+        "population_underserved": 4383,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001043000",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 6000,
+        "population_underserved": 6000,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001040203",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 5133,
+        "population_underserved": 5133,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001041702",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 4456,
+        "population_underserved": 4456,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001042900",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 5359,
+        "population_underserved": 5359,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001041701",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 6325,
+        "population_underserved": 6325,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001042100",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 4506,
+        "population_underserved": 4506,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001043100",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 2451,
+        "population_underserved": 2451,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001040700",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 5328,
+        "population_underserved": 5328,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001041600",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 2352,
+        "population_underserved": 2352,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001041802",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 5805,
+        "population_underserved": 5805,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001041900",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 4963,
+        "population_underserved": 4963,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003011204",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 3321,
+        "population_underserved": 3321,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003013607",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 5650,
+        "population_underserved": 5650,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003014903",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 7556,
+        "population_underserved": 7556,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003980100",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001040502",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 2754,
+        "population_underserved": 2754,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001043202",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 3826,
+        "population_underserved": 3826,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001040501",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 4697,
+        "population_underserved": 4697,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001990000",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001043400",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 5660,
+        "population_underserved": 5660,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10001043300",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 6426,
+        "population_underserved": 6426,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005051201",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 1376,
+        "population_underserved": 1376,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003015802",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 2245,
+        "population_underserved": 2245,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003014907",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 5401,
+        "population_underserved": 5401,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003011203",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 4822,
+        "population_underserved": 4822,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005050703",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 1862,
+        "population_underserved": 1862,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005051204",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 696,
+        "population_underserved": 696,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005051202",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 1042,
+        "population_underserved": 1042,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005980000",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005051309",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 1347,
+        "population_underserved": 1347,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005051312",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 2410,
+        "population_underserved": 2410,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005051311",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 1659,
+        "population_underserved": 1659,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005051501",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 2865,
+        "population_underserved": 2865,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005050708",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 3911,
+        "population_underserved": 3911,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005051307",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 3260,
+        "population_underserved": 3260,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005051308",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 3922,
+        "population_underserved": 3922,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005050905",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 3425,
+        "population_underserved": 3425,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005050707",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 2392,
+        "population_underserved": 2392,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005050806",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 4507,
+        "population_underserved": 4507,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005051017",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 4005,
+        "population_underserved": 4005,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005050904",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 2561,
+        "population_underserved": 2561,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005051012",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 2045,
+        "population_underserved": 2045,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005051016",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 2218,
+        "population_underserved": 2218,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005050604",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 5345,
+        "population_underserved": 5345,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005050603",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 3551,
+        "population_underserved": 3551,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005050804",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 4141,
+        "population_underserved": 4141,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005051015",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 2091,
+        "population_underserved": 2091,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005050808",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 3968,
+        "population_underserved": 3968,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005051014",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 1917,
+        "population_underserved": 1917,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005050709",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 1737,
+        "population_underserved": 1737,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005051203",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 679,
+        "population_underserved": 679,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005050706",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 1618,
+        "population_underserved": 1618,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005050407",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 6148,
+        "population_underserved": 6148,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005050104",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 5368,
+        "population_underserved": 5368,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005050503",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 6184,
+        "population_underserved": 6184,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005051205",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 746,
+        "population_underserved": 746,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003013608",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 2028,
+        "population_underserved": 2028,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005051010",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 3181,
+        "population_underserved": 3181,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005050505",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 2416,
+        "population_underserved": 2416,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003014906",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 5407,
+        "population_underserved": 5407,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003014810",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 7039,
+        "population_underserved": 7039,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003013903",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 5314,
+        "population_underserved": 5314,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003014908",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 2506,
+        "population_underserved": 2506,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003016806",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 5791,
+        "population_underserved": 5791,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003016805",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 1805,
+        "population_underserved": 1805,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003016306",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 4570,
+        "population_underserved": 4570,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003016309",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 4311,
+        "population_underserved": 4311,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003016613",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 5543,
+        "population_underserved": 5543,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003016807",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 1611,
+        "population_underserved": 1611,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003014814",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 4053,
+        "population_underserved": 4053,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003016614",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 6868,
+        "population_underserved": 6868,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003001902",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 2187,
+        "population_underserved": 2187,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005051011",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 3861,
+        "population_underserved": 3861,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005051502",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 3446,
+        "population_underserved": 3446,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005050903",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 1978,
+        "population_underserved": 1978,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005050506",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 3290,
+        "population_underserved": 3290,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005050807",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 1587,
+        "population_underserved": 1587,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005050805",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 3812,
+        "population_underserved": 3812,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005051013",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 4347,
+        "population_underserved": 4347,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005051008",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 4460,
+        "population_underserved": 4460,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003002800",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 2373,
+        "population_underserved": 2373,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003010104",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 4087,
+        "population_underserved": 4087,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003016904",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 3632,
+        "population_underserved": 3632,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003014000",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 4612,
+        "population_underserved": 4612,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003015100",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 3280,
+        "population_underserved": 3280,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003015400",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 2877,
+        "population_underserved": 2877,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003015600",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 2490,
+        "population_underserved": 2490,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003015900",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 3414,
+        "population_underserved": 3414,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003016000",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 2852,
+        "population_underserved": 2852,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003016100",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 1965,
+        "population_underserved": 1965,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003016200",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 2783,
+        "population_underserved": 2783,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003000300",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 3498,
+        "population_underserved": 3498,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003016301",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 7357,
+        "population_underserved": 7357,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003014100",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 4891,
+        "population_underserved": 4891,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003014200",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 1594,
+        "population_underserved": 1594,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003014403",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 3655,
+        "population_underserved": 3655,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003014501",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 2171,
+        "population_underserved": 2171,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003014702",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 1937,
+        "population_underserved": 1937,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003014703",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 5172,
+        "population_underserved": 5172,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003014808",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 6605,
+        "population_underserved": 6605,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003011400",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 3549,
+        "population_underserved": 3549,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003012500",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 4979,
+        "population_underserved": 4979,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003012300",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 3133,
+        "population_underserved": 3133,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003011500",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 3073,
+        "population_underserved": 3073,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10003011600",
+        "sb254_effective": false,
+        "urbanicity": "urban",
+        "distance_threshold_mi": 0.5,
+        "population_total": 3463,
+        "population_underserved": 3463,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005051103",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 1080,
+        "population_underserved": 1080,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005050405",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 4964,
+        "population_underserved": 4964,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005050105",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 6294,
+        "population_underserved": 6294,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "tract_geoid": "10005050406",
+        "sb254_effective": false,
+        "urbanicity": "nonurban",
+        "distance_threshold_mi": 10.0,
+        "population_total": 5196,
+        "population_underserved": 5196,
+        "underserved_share": 1.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
+      }
+    }
+  ]
+}

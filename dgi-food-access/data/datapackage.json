@@ -1,0 +1,233 @@
+{
+  "created": "2026-05-11T18:45:11Z",
+  "cycle_5_status": "pending",
+  "description": "Tract-level food-access dataset for Delaware's DGI program tracking. Covers DGI grant deployments (Cycles 1-5), Map the Meal Gap food insecurity apportioned to tracts via population-weighted areal interpolation, USDA LILA tracts, computed SB 254-effective tracts, the merged food-resource universe (SNAP retailers + farmers markets + DGI grantees), and supporting ACS demographics + DPH health overlays. Methodology v0.2.0 (definition-locked).",
+  "etl_parameters": {
+    "acs_vintage": "2019-2023 5-year",
+    "geocoder_cross_check": "nominatim",
+    "geocoder_primary": "census",
+    "geocoder_tie_break_distance_m": 200,
+    "low_income_mfi_threshold": 0.8,
+    "low_income_poverty_threshold": 0.2,
+    "manual_reviews_file": "etl/manual-reviews.yaml",
+    "max_source_age_days": 30,
+    "min_tracts_per_county_de": 1,
+    "mmg_data_year": 2023,
+    "mmg_release": "2025",
+    "output_dir": "dgi-food-access/data",
+    "raw_dir": "etl/raw",
+    "sb254_nonurban_distance_mi": 10.0,
+    "sb254_population_threshold": 0.5,
+    "sb254_urban_distance_mi": 0.5,
+    "schedule_cron": "0 9 1-7 * 0",
+    "schema_dir": "etl/outputs/schema",
+    "tiger_year": 2020,
+    "usda_lila_nonurban_distance_mi": 10.0,
+    "usda_lila_urban_distance_mi": 1.0,
+    "wilmington_zip_high": 19810,
+    "wilmington_zip_low": 19801
+  },
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0"
+    }
+  ],
+  "methodology_version": "0.2.1",
+  "name": "first-state-lens-dgi-food-access",
+  "resources": [
+    {
+      "bytes": 140,
+      "description": "One row per DGI grant award. See schema/dgi-grants.json. Cycle 5 rows may carry a synthetic placeholder when DSB has not yet published awardees (methodology v0.2.0 Q1).",
+      "format": "csv",
+      "name": "dgi-grants",
+      "path": "dgi-grants.csv",
+      "present": true,
+      "schema": "../../etl/outputs/schema/dgi-grants.json",
+      "sha256": "6621591aa75a75a46cd103f25df5be0de2453d411502dfe79329dc48ad2d156b",
+      "title": "DGI grant ledger (Cycles 1-5)"
+    },
+    {
+      "bytes": 52,
+      "description": "GeoJSON Point features for every DGI grantee whose storefront address has been geocoded. Properties mirror the tabular dgi-grants ledger: cycle, grantee, amount_usd, category, tract_geoid, geocoding_confidence, wilmington_manual_reviewed. Pending-disbursement rows are excluded (no geometry).",
+      "format": "geojson",
+      "name": "dgi-grants-geocoded",
+      "path": "dgi-grants-geocoded.geojson",
+      "present": true,
+      "sha256": "b3049ad7a1062091e169bd352424d59721a26b8b6229942aef26d11b0c6a96e1",
+      "title": "DGI grantees as geocoded points"
+    },
+    {
+      "bytes": 105,
+      "description": "Pass-through of the USDA Food Access Research Atlas tract-level shapefile, clipped to Delaware. LILA flag fields preserved from USDA: LILATracts_1And10, LILATracts_Vehicle, lapophalfshare, etc. Methodology v0.2.0 uses this as the federal-definition layer.",
+      "format": "geojson",
+      "name": "usda-lila-tracts",
+      "path": "usda-lila-tracts.geojson",
+      "present": true,
+      "sha256": "aeb18fab7cc3cc136e08d1e0f2a3d920cf7bd441ccaa7fad42a9d4f8b0f1df58",
+      "title": "USDA LILA food-desert tracts (DE)"
+    },
+    {
+      "bytes": 152702,
+      "description": "Computed tract layer per methodology v0.2.0 Q6. Properties: tract_geoid, sb254_effective (bool), urbanicity, distance_threshold_mi, population_total, population_underserved, underserved_share, low_income (bool), low_income_reason, poverty_rate, mfi, mfi_ratio_to_state. See etl_parameters block for thresholds in effect.",
+      "format": "geojson",
+      "name": "sb254-effective-tracts",
+      "path": "sb254-effective-tracts.geojson",
+      "present": true,
+      "sha256": "d805d448cb8c34befb083c721f31de66e70d099355dd1410b0b3aac8453196c7",
+      "title": "SB 254-effective tracts (state-statute interpretation)"
+    },
+    {
+      "bytes": 124,
+      "description": "Map the Meal Gap county-level food-insecurity count, apportioned to Delaware Census tracts via population-weighted areal interpolation per methodology Q3. Properties: tract_geoid, food_insecurity_count_apportioned, food_insecurity_rate (intensive, county-level \u2014 repeated on every tract in the same county).",
+      "format": "geojson",
+      "name": "food-insecurity-tracts",
+      "path": "food-insecurity-tracts.geojson",
+      "present": true,
+      "sha256": "e5de13cf6cd6b3e60bf94054155e6f2eec0153f23d4cc9ebb69251dd36d9242a",
+      "title": "Food insecurity apportioned to tracts (MMG)"
+    },
+    {
+      "bytes": 52,
+      "description": "Deduplicated point set of SNAP retailers + DE farmers markets + DCFFP grantees + DGI grantees (methodology Q6 'food resource' set). Properties: name, sources (list of contributing pullers), categories, address, contributor_count. Dedupe within 30m + name similarity per etl.transforms.merge_food_resources.",
+      "format": "geojson",
+      "name": "snap-retailers",
+      "path": "snap-retailers.geojson",
+      "present": true,
+      "sha256": "b3049ad7a1062091e169bd352424d59721a26b8b6229942aef26d11b0c6a96e1",
+      "title": "Merged food-resource universe"
+    },
+    {
+      "bytes": 80250,
+      "description": "Single-feature polygon of Sen. Brown's district. Extracted from the FirstMap statewide senate-districts dataset (2022 redistricting plan, valid through 2032).",
+      "format": "geojson",
+      "name": "senate-district-2",
+      "path": "senate-district-2.geojson",
+      "present": true,
+      "sha256": "eb87ff05c9f9abc37a916e1a1153527d29123a1ffa47754772189f96eb81c0d3",
+      "title": "Senate District 2 boundary (FirstMap 2022 plan)"
+    },
+    {
+      "bytes": 102,
+      "description": "LineString features derived from DART GTFS shapes.txt + routes.txt. Properties: route_id, route_short_name, route_long_name, route_type.",
+      "format": "geojson",
+      "name": "dart-routes",
+      "path": "dart-routes.geojson",
+      "present": true,
+      "sha256": "7c4afd20bbe974d28c675311c7bd391f716baa4f5a2295340ff5c0cb6419d2fe",
+      "title": "DART First State transit routes"
+    },
+    {
+      "bytes": 31369,
+      "description": "ACS 5-year tract-level demographics. See schema/acs-tract-demographics.json. Used downstream to compute the SB 254 low-income tract flag.",
+      "format": "csv",
+      "name": "acs-tract-demographics",
+      "path": "acs-tract-demographics.csv",
+      "present": true,
+      "schema": "../../etl/outputs/schema/acs-tract-demographics.json",
+      "sha256": "ffa195d56d5eb540caed79fdd7b5cd7b2ab1b414895d5df4fb48c215f2a0af02",
+      "title": "ACS tract-level demographics (DE)"
+    },
+    {
+      "bytes": 0,
+      "description": "Tract-level health indicators (food insecurity, diabetes, obesity, SNAP household share). See schema/mhc-tract-health.json.",
+      "format": "csv",
+      "name": "mhc-tract-health",
+      "path": "mhc-tract-health.csv",
+      "present": true,
+      "schema": "../../etl/outputs/schema/mhc-tract-health.json",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "title": "DPH My Healthy Community health overlay"
+    },
+    {
+      "bytes": 24,
+      "description": "Audit-trail rows for every flagged record. See schema/data-quality-flags.json.",
+      "format": "csv",
+      "name": "data-quality-flags",
+      "path": "data-quality-flags.csv",
+      "present": true,
+      "schema": "../../etl/outputs/schema/data-quality-flags.json",
+      "sha256": "9cc7714e3b41b5c19c9f74c14881be3eb2221820521a5c6dc4da06e84aaa816c",
+      "title": "Data quality flags"
+    },
+    {
+      "bytes": 890,
+      "description": "Mirror of etl/parameters.yaml at run time, plus cycle_5_status and methodology_version. Carries the rules that produced the rest of the package.",
+      "format": "json",
+      "name": "etl-parameters",
+      "path": "etl-parameters.json",
+      "present": true,
+      "sha256": "a512012a2ab218a0f896b4e4d8be36738c99d4d34818e1c9a9ce38528adecc68",
+      "title": "ETL parameters in effect for this build"
+    },
+    {
+      "bytes": 2417,
+      "description": "Per-source last_fetched + sha256, plus cycle_5_status. Lighter than datapackage.json for fast freshness checks.",
+      "format": "json",
+      "name": "manifest",
+      "path": "manifest.json",
+      "present": true,
+      "sha256": "4d8a193a634fcca4021e7f6e0a32feaa6ec66d424df3e4eae22334d61750e4cd",
+      "title": "Manifest (lightweight freshness cousin)"
+    }
+  ],
+  "sources": [
+    {
+      "http_status": 200,
+      "last_fetched": "2026-05-11T18:45:11Z",
+      "name": "dsb-grants",
+      "path": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/dsb-grants.json",
+      "raw_path": "etl/raw/dsb-grants.json",
+      "sha256": "c8d0f7c820e11dbd0c7a5defc459e4771e0e35ff7ae78403b1f452d11cc153c9",
+      "warnings": []
+    },
+    {
+      "http_status": 200,
+      "last_fetched": "2026-05-11T18:44:54Z",
+      "name": "firstmap-sd2",
+      "path": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/firstmap-sd2.geojson",
+      "raw_path": "etl/raw/firstmap-sd2.geojson",
+      "sha256": "eb87ff05c9f9abc37a916e1a1153527d29123a1ffa47754772189f96eb81c0d3",
+      "warnings": []
+    },
+    {
+      "http_status": 200,
+      "last_fetched": "2026-05-11T18:45:02Z",
+      "name": "acs-tract-demographics",
+      "path": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/acs-tract-de.json",
+      "raw_path": "etl/raw/acs-tract-de.json",
+      "sha256": "3b0e19e46378fcd9f13df517783601a0bcad1183bd38eae120a42410c6290aad",
+      "warnings": []
+    },
+    {
+      "http_status": 200,
+      "last_fetched": "2026-05-11T18:45:09Z",
+      "name": "tiger-tracts",
+      "path": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/tiger-tracts-de.zip",
+      "raw_path": "etl/raw/tiger-tracts-de.zip",
+      "sha256": "35c70303411e99e75d3de2e81fe7afeb4da468a112c46c557266cfdf41b33fb1",
+      "warnings": []
+    },
+    {
+      "http_status": 200,
+      "last_fetched": "2026-05-11T18:45:10Z",
+      "name": "tiger-bgs",
+      "path": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/tiger-bgs-de.zip",
+      "raw_path": "etl/raw/tiger-bgs-de.zip",
+      "sha256": "48fe4c7542072f19ad3b1c6e32e585ef2359d1d16f34889af1be268c052428a0",
+      "warnings": []
+    },
+    {
+      "http_status": 200,
+      "last_fetched": "2026-05-11T18:45:05Z",
+      "name": "acs-bg-population",
+      "path": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/acs-bg-de.json",
+      "raw_path": "etl/raw/acs-bg-de.json",
+      "sha256": "79dd72f46e7310774a668cc925a0b56745aa07f442bf1afa0ed5cd84682744b9",
+      "warnings": []
+    }
+  ],
+  "title": "First State Lens \u2014 DGI Food Access Bulk Data",
+  "version": "0.2.1"
+}
