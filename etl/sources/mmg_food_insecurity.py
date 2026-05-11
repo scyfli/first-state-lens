@@ -36,16 +36,28 @@ from etl.lib.fetch import FetchResult, fetch
 from etl.lib.validate import validate_csv
 
 
-# Placeholder URL for the MMG county-level file. As of 2026-05-11 the
-# canonical link lives on the Feeding America research page; the actual
-# file URL is form-gated (download triggers an email harvest). For S+1
-# we ship the URL skeleton; S+2 will either:
-#   (a) Coordinate with Feeding America for a stable direct URL, or
+# Canonical-URL open question — CARRIED THROUGH SESSION-18.
+#
+# The placeholder URL below points at a Tableau viz, which returns the
+# Tableau HTML loader page on a direct HTTP GET (not CSV). The S+4
+# live-etl run (session-18) confirmed this empirically — the puller's
+# validate_csv() correctly rejected the HTML response with header
+# starting `<!DOCTYPE html>...`. So the placeholder URL was always
+# wrong; this is not URL drift but an unresolved canonical source.
+#
+# Resolution paths (carried alongside DSB canonical URL):
+#   (a) Coordinate with Feeding America for a stable direct download URL.
+#       Their public site is form-gated; the data is research-use under
+#       attribution. Email feedingamerica.org research contact.
 #   (b) Pull the file manually once per release and check it into a
 #       separate "vendor data" repo we control, then point the puller
-#       at that mirror.
-# Either way the design brief notes this as a session-surfaceable open
-# question, not an implementation blocker.
+#       at that mirror via parameters.yaml: mmg_food_insecurity_url.
+#   (c) Rely on the apportionment-stage skip when MMG fails; the
+#       dashboard renders without the food-insecurity-tracts layer
+#       (acceptable until (a) or (b) lands).
+#
+# Until then, the live-etl logs MMG as FAILED and the pipeline emits
+# an empty food-insecurity-tracts.geojson with a manifest note.
 DEFAULT_MMG_URL = (
     "https://public.tableau.com/views/MaptheMealGap2024/"
     "OverallCountyandCongressionalDistrict.csv"

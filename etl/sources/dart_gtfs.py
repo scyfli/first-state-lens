@@ -35,11 +35,20 @@ from etl.lib.atomic_io import atomic_write_bytes
 from etl.lib.fetch import FetchResult, fetch
 
 
-# Public DART GTFS feed mirror on the Delaware open data portal. The URL
-# below points at the DART GTFS published bundle. If DART moves the feed,
-# override via --url at the command line or via parameters.yaml.
+# Public DART GTFS feed. The canonical URL is published in the DART
+# developer information / RiderInfo section; transit.land's feed-registry
+# is the de-facto canonical pointer when DART rotates the path. If DART
+# moves the feed again, override via --url at the command line or via
+# parameters.yaml.
+#
+# Drift history:
+#   - S+1 (session-14): `https://www.dartfirststate.com/information/routes/gtfs_data/dartfirststate_de_us.zip`
+#   - session-18 patch: 404'd on the live-etl run; DART rotated the path
+#     to /RiderInfo/Routes/... (and dropped the www. prefix in some
+#     contexts; the apex host still serves both). transit.land's feed
+#     registry confirms the new URL.
 DEFAULT_DART_GTFS_URL = (
-    "https://www.dartfirststate.com/information/routes/gtfs_data/dartfirststate_de_us.zip"
+    "https://dartfirststate.com/RiderInfo/Routes/gtfs_data/dartfirststate_de_us.zip"
 )
 
 OUTPUT_ZIP_FILENAME = "dart-gtfs.zip"
