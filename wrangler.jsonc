@@ -1,0 +1,28 @@
+{
+  // Cloudflare Worker configuration for `first-state-lens` — static-assets only.
+  //
+  // Before this file existed, the Worker was configured via Cloudflare's
+  // dashboard at session-12 (2026-05-11) with no Wrangler config in the repo,
+  // which made Workers Builds run framework autoconfig on every deploy. Adding
+  // etl/requirements.txt at session-14 caused autoconfig to mis-detect a
+  // Python project and the deploy failed. Pinning the config here bypasses
+  // autoconfig entirely.
+  //
+  // The Worker is static-assets-only: no `main` (no Worker script), no
+  // `build` (no build command). Cloudflare serves files from the repo root
+  // exactly as they are. The companion `.assetsignore` keeps non-public
+  // files (etl/, .github/, *.md, _headers, etc.) from being uploaded.
+  //
+  // _headers is consumed by the platform for edge-layer response headers
+  // (HSTS, X-Robots-Tag noindex, X-Frame-Options DENY, etc.) and is
+  // intentionally listed in .assetsignore so it isn't served as a public
+  // file at /_headers.
+
+  "$schema": "https://raw.githubusercontent.com/cloudflare/workers-sdk/main/packages/wrangler/config-schema.json",
+  "name": "first-state-lens",
+  "compatibility_date": "2026-05-11",
+  "assets": {
+    "directory": "./",
+    "not_found_handling": "404-page"
+  }
+}
