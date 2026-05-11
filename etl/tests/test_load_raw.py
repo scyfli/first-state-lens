@@ -22,6 +22,8 @@ import pytest
 from etl.lib.load_raw import (
     LoadedRaw,
     _acs_tract_json_to_csv,
+    _build_tracts_from_gdfs,
+    _load_acs_tract_demographics,
     load_raw_artifacts,
 )
 
@@ -307,3 +309,179 @@ def test_load_raw_farmers_markets_skips_markets_missing_coords(tmp_path: Path) -
     result = load_raw_artifacts(tmp_path, DEFAULT_PARAMETERS)
     assert len(result.food_resources_raw) == 1
     assert result.food_resources_raw[0].name == "Has Coords"
+
+
+# ---------------------------------------------------------------------------
+# S+6 — ACS tract demographics → TractInput.poverty_rate + .mfi
+# ---------------------------------------------------------------------------
+
+
+def _acs_demographics_payload(rows: list[list]) -> bytes:
+    """Helper: build a Census-API-shaped JSON payload from row tuples.
+
+    Each input row is [B17001_001E, B17001_002E, B19113_001E, state, county, tract].
+    """
+    header = ["NAME", "B17001_001E", "B17001_002E", "B19113_001E", "state", "county", "tract"]
+    payload = [header]
+    for r in rows:
+        # Slot in a NAME column up front to match real Census API layout.
+        payload.append(["Tract X", *r])
+    return json.dumps(payload).encode("utf-8")
+
+
+def test_load_acs_tract_demographics_computes_poverty_rate_and_mfi() -> None:
+    raw = _acs_demographics_payload([
+        # denom, numer, mfi, state, county, tract
+        ["1000", "250", "75000", "10", "001", "040100"],
+        ["2000", "100", "120000", "10", "003", "010100"],
+    ])
+    lookup = _load_acs_tract_demographics(raw)
+    assert lookup["10001040100"]["poverty_rate"] == pytest.approx(0.25)
+    assert lookup["10001040100"]["mfi"] == pytest.approx(75000.0)
+    assert lookup["10003010100"]["poverty_rate"] == pytest.approx(0.05)
+    assert lookup["10003010100"]["mfi"] == pytest.approx(120000.0)
+
+
+def test_load_acs_tract_demographics_handles_sentinels() -> None:
+    raw = _acs_demographics_payload([
+        # Census "no sample" sentinel for MFI; poverty data intact.
+        ["1000", "200", "-666666666", "10", "001", "040100"],
+        # Sentinel poverty denominator → poverty_rate None; MFI intact.
+        ["-999999999", "100", "85000", "10", "003", "010100"],
+        # Both ranges of sentinels.
+        ["-222222222", "-555555555", "-333333333", "10", "005", "030100"],
+    ])
+    lookup = _load_acs_tract_demographics(raw)
+    assert lookup["10001040100"]["poverty_rate"] == pytest.approx(0.20)
+    assert lookup["10001040100"]["mfi"] is None
+    assert lookup["10003010100"]["poverty_rate"] is None
+    assert lookup["10003010100"]["mfi"] == pytest.approx(85000.0)
+    assert lookup["10005030100"]["poverty_rate"] is None
+    assert lookup["10005030100"]["mfi"] is None
+
+
+def test_load_acs_tract_demographics_handles_zero_denominator() -> None:
+    raw = _acs_demographics_payload([
+        ["0", "0", "75000", "10", "001", "040100"],
+    ])
+    lookup = _load_acs_tract_demographics(raw)
+    assert lookup["10001040100"]["poverty_rate"] is None
+    assert lookup["10001040100"]["mfi"] == pytest.approx(75000.0)
+
+
+def test_load_acs_tract_demographics_handles_zero_mfi() -> None:
+    """An MFI of 0 is not meaningful — should coerce to None."""
+    raw = _acs_demographics_payload([
+        ["1000", "100", "0", "10", "001", "040100"],
+    ])
+    lookup = _load_acs_tract_demographics(raw)
+    assert lookup["10001040100"]["poverty_rate"] == pytest.approx(0.1)
+    assert lookup["10001040100"]["mfi"] is None
+
+
+def test_load_acs_tract_demographics_handles_empty_payload() -> None:
+    assert _load_acs_tract_demographics(b"") == {}
+    assert _load_acs_tract_demographics(b"[]") == {}
+    assert _load_acs_tract_demographics(b"not json") == {}
+
+
+def test_load_acs_tract_demographics_handles_missing_column() -> None:
+    """Without the required Census variables, return {} cleanly."""
+    payload = json.dumps([
+        ["NAME", "B01003_001E", "state", "county", "tract"],
+        ["Tract 1", "1234", "10", "001", "040100"],
+    ]).encode("utf-8")
+    assert _load_acs_tract_demographics(payload) == {}
+
+
+def test_load_acs_tract_demographics_skips_malformed_rows() -> None:
+    """Rows that can't form a valid 11-char GEOID are skipped."""
+    raw = _acs_demographics_payload([
+        ["1000", "100", "75000", "10", "001", "040100"],   # OK
+        ["1000", "100", "75000", "999", "001", "040100"],  # 3-char state -> 12 chars, skipped
+    ])
+    lookup = _load_acs_tract_demographics(raw)
+    assert "10001040100" in lookup
+    assert len(lookup) == 1
+
+
+def test_load_raw_populates_demographics_lookup_note(tmp_path: Path) -> None:
+    """When acs-tract-de.json is present, the loader notes how many demos joined."""
+    raw = _acs_demographics_payload([
+        ["1000", "250", "75000", "10", "001", "040100"],
+        ["2000", "100", "120000", "10", "003", "010100"],
+    ])
+    (tmp_path / "acs-tract-de.json").write_bytes(raw)
+    result = load_raw_artifacts(tmp_path, DEFAULT_PARAMETERS)
+    assert result.acs_demographics_csv is not None
+    # Loader's notes should mention the demographics record count
+    demo_notes = [n for n in result.notes if "tract demographics records loaded" in n]
+    assert len(demo_notes) == 1
+    assert "2 tract demographics records" in demo_notes[0]
+
+
+# ---------------------------------------------------------------------------
+# Geo-stack integration: TractInput.poverty_rate + .mfi populated end-to-end
+# ---------------------------------------------------------------------------
+
+
+def test_build_tracts_from_gdfs_joins_demographics() -> None:
+    """End-to-end: TIGER + BG GDFs + demographics_lookup → TractInputs with demos."""
+    gpd = pytest.importorskip("geopandas")
+    from shapely.geometry import Point, Polygon
+
+    # Two tract polygons. One has demographics; the other doesn't (lookup miss).
+    tract_gdf = gpd.GeoDataFrame(
+        {
+            "GEOID": ["10001040100", "10003010100"],
+            "geometry": [
+                Polygon([(0, 0), (1, 0), (1, 1), (0, 1)]),
+                Polygon([(2, 0), (3, 0), (3, 1), (2, 1)]),
+            ],
+        },
+        crs="EPSG:4326",
+    )
+    # One block group per tract; centroid inside the polygon.
+    bg_gdf = gpd.GeoDataFrame(
+        {
+            "GEOID": ["100010401001", "100030101001"],
+            "POP": [500, 800],
+            "geometry": [Point(0.5, 0.5), Point(2.5, 0.5)],
+        },
+        crs="EPSG:4326",
+    )
+    demographics = {
+        "10001040100": {"poverty_rate": 0.25, "mfi": 60000.0},
+        # 10003010100 deliberately absent — should yield None/None.
+    }
+
+    notes: list[str] = []
+    tracts = _build_tracts_from_gdfs(
+        tract_gdf, bg_gdf, notes, demographics_lookup=demographics
+    )
+    by_geoid = {t.tract_geoid: t for t in tracts}
+    assert by_geoid["10001040100"].poverty_rate == pytest.approx(0.25)
+    assert by_geoid["10001040100"].mfi == pytest.approx(60000.0)
+    assert by_geoid["10003010100"].poverty_rate is None
+    assert by_geoid["10003010100"].mfi is None
+    # Both tracts get urbanicity classified (10001 starts with non-10003 → nonurban)
+    assert by_geoid["10001040100"].urbanicity == "nonurban"
+    assert by_geoid["10003010100"].urbanicity == "urban"
+
+
+def test_build_tracts_from_gdfs_without_demographics_defaults_to_none() -> None:
+    """Backward compat: no demographics_lookup → poverty_rate=mfi=None on all tracts."""
+    gpd = pytest.importorskip("geopandas")
+    from shapely.geometry import Polygon
+
+    tract_gdf = gpd.GeoDataFrame(
+        {
+            "GEOID": ["10003010100"],
+            "geometry": [Polygon([(0, 0), (1, 0), (1, 1), (0, 1)])],
+        },
+        crs="EPSG:4326",
+    )
+    tracts = _build_tracts_from_gdfs(tract_gdf, None, [])
+    assert len(tracts) == 1
+    assert tracts[0].poverty_rate is None
+    assert tracts[0].mfi is None

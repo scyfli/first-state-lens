@@ -249,6 +249,39 @@ def test_run_pipeline_skips_apportionment_when_geo_inputs_missing(tmp_path: Path
     assert "MMG apportionment skipped" in payload.get("note", "")
 
 
+class _FakeGdfMissingColumns:
+    """Minimal fake of a GeoDataFrame for the apportionment column-check gate.
+
+    Surfaced after S+5: the tiger_counties puller populates `mmg_counties_gdf`
+    with bare TIGER county geometry (`GEOID`, `STATEFP`, etc.), but the
+    `food_insecure_count` column is meant to be joined from the MMG CSV.
+    When the MMG CSV is missing (carried open question), the join doesn't
+    happen and the apportion stage used to raise KeyError. The gate added
+    in this commit returns False with a clear note instead.
+    """
+
+    columns = ["GEOID", "STATEFP", "COUNTYFP", "geometry"]
+
+
+def test_run_pipeline_skips_apportionment_when_mmg_csv_not_joined(tmp_path: Path):
+    """S+5 regression: TIGER counties present but MMG CSV missing → skip cleanly."""
+    inputs = _toy_inputs()
+    # Populate all three required geo inputs so we get past the None-check,
+    # but mmg_counties_gdf lacks the FIPS + food_insecure_count columns
+    # because the MMG CSV merge never happened.
+    inputs.mmg_counties_gdf = _FakeGdfMissingColumns()
+    inputs.target_tracts_gdf = _FakeGdfMissingColumns()
+    inputs.weights_bg_gdf = _FakeGdfMissingColumns()
+
+    result = run_pipeline(inputs, tmp_path)
+    assert result.apportionment_ran is False
+    payload = json.loads((tmp_path / "food-insecurity-tracts.geojson").read_text(encoding="utf-8"))
+    assert payload["features"] == []
+    assert "MMG apportionment skipped" in payload.get("note", "")
+    assert "FIPS" in payload["note"]
+    assert "food_insecure_count" in payload["note"]
+
+
 def test_run_pipeline_passthrough_uses_provided_content(tmp_path: Path):
     inputs = _toy_inputs()
     inputs.lila_geojson = b'{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"X":1},"geometry":null}]}'
