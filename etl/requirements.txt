@@ -1,0 +1,25 @@
+# DGI Food Access ETL — canonical Python dependencies
+# Per design brief (07-Briefs/2026-05-11-DGI-Bulk-ETL-Design.md, §"Cost / dependency footprint")
+#
+# S+1 (pullers) needs only the "lightweight" subset:
+#   requests, pyyaml, tenacity, frictionless, pytest
+#
+# S+3 (transforms) adds the geo stack:
+#   geopandas, shapely, tobler, pyproj
+#
+# Local dev on Windows: install the lightweight subset only until transforms work begins;
+# geopandas + pyproj + tobler carry GDAL native bindings that are painful to install on
+# Windows but install cleanly on GitHub Actions Linux runners.
+
+# --- Lightweight subset (S+1) ---
+requests>=2.31,<3
+pyyaml>=6.0,<7
+tenacity>=8.2,<10
+frictionless>=5.16,<6
+pytest>=8.0,<9
+
+# --- Geo stack (S+3 transforms) ---
+geopandas>=0.14,<2
+shapely>=2.0,<3
+tobler>=0.11,<1
+pyproj>=3.6,<4

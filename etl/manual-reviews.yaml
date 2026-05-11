@@ -1,0 +1,32 @@
+# Wilmington corner-store / specialty-grocer manual tract assignments
+#
+# This file is the audit trail for any DGI grantee in zip codes 19801–19810
+# (Wilmington) categorized as "corner-store" or "specialty-grocer" where the
+# Census and Nominatim geocoders disagree on the tract assignment, OR where
+# both fail.
+#
+# Each entry is a human-confirmed tract assignment with reviewer attribution
+# and a free-form note explaining the call.
+#
+# The ETL second pass reads this file, looks up each (grantee, cycle) against
+# the geocoded set, and overwrites tract_geoid with the manual assignment.
+# geocoding_confidence is set to "manual" so the override is visible in the
+# data lineage.
+#
+# Reviewer signoff: Mark Sanders for v1 cadence. Partnership data via DSB
+# would absorb this manual-review work in a future iteration.
+#
+# Format (one block per reviewed grantee):
+#
+# - grantee: "<grantee name verbatim from DSB roster>"
+#   cycle: <int>
+#   storefront_address: "<full address as given in DSB roster>"
+#   confirmed_tract_geoid: "<11-char Census GEOID>"
+#   reviewed_by: "<reviewer name>"
+#   reviewed_at: "<YYYY-MM-DD>"
+#   notes: "<why this tract; which geocoder said what; what tipped the call>"
+#
+# No reviews yet. First reviews land when S+2 geocoding lands and the DSB
+# scraper surfaces real grantees with a Wilmington corner-store category.
+
+reviews: []

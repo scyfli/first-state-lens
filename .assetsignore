@@ -1,0 +1,33 @@
+# Files in the repo root that should NOT be uploaded as public static assets.
+# Pattern syntax is .gitignore-style. See:
+#   https://developers.cloudflare.com/workers/static-assets/binding/#ignoring-assets
+#
+# Things Cloudflare already excludes by default (no need to list):
+#   - .git/
+#   - node_modules/
+#   - hidden files and directories (anything starting with a dot — but we
+#     list .github and .gitignore explicitly for clarity)
+#
+# What we exclude:
+
+# Repo metadata / version control
+.git
+.github
+.gitignore
+.gitattributes
+
+# Cloudflare config (NOT served as a public file)
+wrangler.jsonc
+.assetsignore
+_headers
+_redirects
+_routes.json
+
+# Docs / licenses — accessible on GitHub, not via firststatelens.com
+README.md
+CLAUDE.md
+LICENSE
+
+# DGI ETL pipeline — Python code lives in the repo as a trust signal
+# (auditable via GitHub) but is NOT served via the dashboard domain.
+etl
