@@ -1,0 +1,81 @@
+name: DGI ETL
+
+# Triggers:
+#   - Schedule: first Sunday of each month at 09:00 UTC (data refresh)
+#   - Manual dispatch: any pusher can trigger via the Actions UI
+#   - Pull requests touching etl/: dry-run (smoke tests only; no published outputs)
+#
+# At S+1 this workflow only runs the smoke test suite. Real data publication
+# lands at S+4 when transforms are complete and the methodology page flips
+# `publish: true`. See etl/README.md for the sequencing.
+
+on:
+  schedule:
+    # 09:00 UTC, first Sunday of the month.
+    - cron: "0 9 1-7 * 0"
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: "Why is this run being triggered manually?"
+        required: false
+        default: "manual refresh"
+  pull_request:
+    paths:
+      - "etl/**"
+      - ".github/workflows/dgi-etl.yml"
+  push:
+    branches: [main]
+    paths:
+      - "etl/**"
+      - ".github/workflows/dgi-etl.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  smoke-tests:
+    name: Smoke tests (offline)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: etl/requirements.txt
+
+      - name: Install lightweight S+1 dependencies
+        # The geo stack (geopandas/tobler/pyproj) is not needed for S+1
+        # pullers; install only what the pullers + tests use.
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install requests pyyaml tenacity frictionless pytest
+
+      - name: Run smoke tests
+        run: python -m pytest etl/tests/ -v
+
+      - name: Lint requirements.txt parses
+        run: |
+          python -c "import re, pathlib; \
+            text = pathlib.Path('etl/requirements.txt').read_text(); \
+            assert 'requests' in text, 'requirements.txt missing requests'; \
+            print('requirements.txt OK')"
+
+  # S+4 and onward will add a second job here that:
+  #   - installs the full geo stack
+  #   - runs each puller against live sources
+  #   - executes transforms
+  #   - validates the datapackage
+  #   - commits outputs back to main (only on schedule/workflow_dispatch, not PR)
+  #
+  # That job is intentionally NOT wired up at S+1 because:
+  #   1. The dashboard frontend doesn't consume the outputs yet
+  #   2. Transforms aren't implemented yet (S+3)
+  #   3. Publishing data without a wired-up dashboard would surface unreviewed
+  #      methodology numbers prematurely
+  #
+  # See the design brief §"Refresh cadence" for the eventual full workflow.
