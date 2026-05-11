@@ -1,0 +1,35 @@
+{
+  "$schema": "https://specs.frictionlessdata.io/schemas/table-schema.json",
+  "name": "mhc-tract-health",
+  "title": "DPH My Healthy Community tract-level health overlay",
+  "description": "Tract-level health indicators from DE Division of Public Health's My Healthy Community portal. Methodology v0.2.0 cites this for food insecurity, diabetes, and obesity overlays.",
+  "fields": [
+    {
+      "name": "tract_geoid",
+      "type": "string",
+      "constraints": {"required": true, "pattern": "^[0-9]{11}$"},
+      "description": "11-character Census tract GEOID."
+    },
+    {
+      "name": "food_insecurity_rate",
+      "type": "number",
+      "description": "DPH MHC food-insecurity rate, 0..1 scale. Cross-reference for the apportioned MMG layer."
+    },
+    {
+      "name": "diabetes_rate",
+      "type": "number",
+      "description": "DPH MHC diabetes prevalence, 0..1 scale."
+    },
+    {
+      "name": "obesity_rate",
+      "type": "number",
+      "description": "DPH MHC adult obesity prevalence, 0..1 scale."
+    },
+    {
+      "name": "snap_household_share",
+      "type": "number",
+      "description": "Share of households receiving SNAP benefits, 0..1 scale (when published)."
+    }
+  ],
+  "primaryKey": ["tract_geoid"]
+}

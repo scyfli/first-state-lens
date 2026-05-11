@@ -1,0 +1,38 @@
+{
+  "$schema": "https://specs.frictionlessdata.io/schemas/table-schema.json",
+  "name": "data-quality-flags",
+  "title": "Data quality flags surfaced by the ETL",
+  "description": "Audit-trail rows: every flagged record from any transform. Methodology Q5 mandates Wilmington corner-store grantees with geocoder disagreement land here as pending-manual-review.",
+  "fields": [
+    {
+      "name": "cycle",
+      "type": "integer",
+      "description": "DGI cycle of the flagged record (when applicable)."
+    },
+    {
+      "name": "grantee",
+      "type": "string",
+      "description": "DGI grantee name of the flagged record (when applicable)."
+    },
+    {
+      "name": "flag",
+      "type": "string",
+      "constraints": {
+        "enum": [
+          "pending-manual-review",
+          "requires-manual-tract-assignment",
+          "geocoder-failed",
+          "ambiguous-tract",
+          "missing-storefront-address",
+          "other"
+        ]
+      },
+      "description": "Flag category."
+    },
+    {
+      "name": "note",
+      "type": "string",
+      "description": "Free-form explanation. Carries the distance disagreement in meters when relevant."
+    }
+  ]
+}

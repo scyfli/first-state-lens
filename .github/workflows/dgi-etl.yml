@@ -48,12 +48,15 @@ jobs:
           cache: pip
           cache-dependency-path: etl/requirements.txt
 
-      - name: Install lightweight S+1 dependencies
-        # The geo stack (geopandas/tobler/pyproj) is not needed for S+1
-        # pullers; install only what the pullers + tests use.
+      - name: Install full ETL dependencies (lightweight + geo stack)
+        # S+3 added the geo stack (geopandas, shapely, tobler, pyproj) for
+        # transforms. Tests that require it use pytest.importorskip(), so
+        # this install must succeed for transform tests to run. Linux GDAL
+        # wheels install cleanly; Windows local dev still relies on the
+        # importorskip path when geo isn't installed.
         run: |
           python -m pip install --upgrade pip
-          python -m pip install requests pyyaml tenacity frictionless pytest
+          python -m pip install -r etl/requirements.txt
 
       - name: Run smoke tests
         run: python -m pytest etl/tests/ -v
@@ -63,19 +66,20 @@ jobs:
           python -c "import re, pathlib; \
             text = pathlib.Path('etl/requirements.txt').read_text(); \
             assert 'requests' in text, 'requirements.txt missing requests'; \
+            assert 'tobler' in text, 'requirements.txt missing tobler (S+3 geo stack)'; \
             print('requirements.txt OK')"
 
   # S+4 and onward will add a second job here that:
-  #   - installs the full geo stack
   #   - runs each puller against live sources
-  #   - executes transforms
+  #   - executes the full end-to-end pipeline (run_etl.py)
   #   - validates the datapackage
   #   - commits outputs back to main (only on schedule/workflow_dispatch, not PR)
   #
-  # That job is intentionally NOT wired up at S+1 because:
+  # That job is intentionally NOT wired up at S+3 because:
   #   1. The dashboard frontend doesn't consume the outputs yet
-  #   2. Transforms aren't implemented yet (S+3)
-  #   3. Publishing data without a wired-up dashboard would surface unreviewed
-  #      methodology numbers prematurely
+  #   2. Live-source pullers + the orchestrator wire-up needs to ride a
+  #      methodology page flip to publish: true
+  #   3. Publishing data without a wired-up dashboard would surface
+  #      unreviewed methodology numbers prematurely
   #
   # See the design brief §"Refresh cadence" for the eventual full workflow.
