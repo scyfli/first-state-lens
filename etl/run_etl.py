@@ -608,8 +608,11 @@ def _pull_all_sources(raw_dir: Path, parameters: dict) -> list[str]:
         dsb_grants,
         firstmap_sd2,
         mmg_food_insecurity,
+        snap_retailers,
         tiger_bgs,
+        tiger_counties,
         tiger_tracts,
+        usda_farmers_markets,
         usda_lila,
     )
 
@@ -622,6 +625,10 @@ def _pull_all_sources(raw_dir: Path, parameters: dict) -> list[str]:
         ("usda_lila", usda_lila.pull, {}),
         ("tiger_tracts", tiger_tracts.pull, {}),
         ("tiger_bgs", tiger_bgs.pull, {}),
+        ("tiger_counties", tiger_counties.pull, {}),  # S+5
+        ("snap_retailers", snap_retailers.pull, {}),  # S+5
+        ("usda_farmers_markets", usda_farmers_markets.pull,  # S+5 (scaffold)
+         {"url": parameters.get("usda_farmers_markets_url")}),
         ("dsb_grants", dsb_grants.pull, {"url": parameters.get("dsb_grants_url")}),
     ]
 

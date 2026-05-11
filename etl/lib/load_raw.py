@@ -105,6 +105,33 @@ def load_raw_artifacts(raw_dir: Path, parameters: dict) -> LoadedRaw:
     else:
         notes.append("dsb-grants: etl/raw/dsb-grants.json not present; running with zero grantees")
 
+    # --- SNAP retailers (S+5) ---
+    food_resources_raw: list[FoodResource] = []
+    snap_path = raw_dir / "snap-retailers-de.geojson"
+    if snap_path.exists():
+        try:
+            snap_resources = _load_snap_retailers(snap_path)
+            food_resources_raw.extend(snap_resources)
+            _record_source(manifest, "snap-retailers", snap_path)
+            notes.append(f"snap-retailers: {len(snap_resources)} retailer(s) loaded")
+        except Exception as exc:  # noqa: BLE001
+            notes.append(f"snap-retailers: load failed ({exc}); skipping")
+    else:
+        notes.append("snap-retailers: snap-retailers-de.geojson not present; food universe excludes SNAP retailers")
+
+    # --- USDA farmers markets (S+5; scaffold path) ---
+    fm_path = raw_dir / "usda-farmers-markets-de.json"
+    if fm_path.exists():
+        try:
+            fm_resources = _load_farmers_markets(fm_path)
+            food_resources_raw.extend(fm_resources)
+            _record_source(manifest, "usda-farmers-markets", fm_path)
+            notes.append(f"usda-farmers-markets: {len(fm_resources)} market(s) loaded")
+        except Exception as exc:  # noqa: BLE001
+            notes.append(f"usda-farmers-markets: load failed ({exc}); skipping")
+    else:
+        notes.append("usda-farmers-markets: usda-farmers-markets-de.json not present; food universe excludes farmers markets")
+
     # --- MMG county data (CSV pass-through path; geo-stack-only for apportion) ---
     mmg_path = raw_dir / "mmg-food-insecurity-counties.csv"
     if mmg_path.exists():
@@ -169,11 +196,14 @@ def load_raw_artifacts(raw_dir: Path, parameters: dict) -> LoadedRaw:
             tracts = _build_tracts_from_gdfs(target_tracts_gdf, weights_bg_gdf, notes)
             notes.append(f"tracts: {len(tracts)} tract(s) constructed from TIGER + BG join")
 
-        # MMG counties GDF: derive from TIGER counties or a county-FIPS join.
-        # At S+4 we leave this as None — the puller writes CSV; geo-join
-        # to county polygons is a follow-on (needs a TIGER county pull).
-        # The apportionment stage cleanly skips when this is None.
-        notes.append("mmg-counties-gdf: not yet wired (needs TIGER county-polygon source); apportionment stage will skip")
+        # MMG counties GDF (S+5): load national TIGER counties + clip to DE.
+        # Joined to mmg-food-insecurity-counties.csv downstream by FIPS.
+        # The apportionment stage cleanly skips when mmg_counties_gdf is
+        # None OR when mmg-food-insecurity-counties.csv is absent (still
+        # gated by the canonical-URL open question).
+        mmg_counties_gdf = _load_de_counties_from_national_tiger(
+            raw_dir / "tiger-counties-us.zip", manifest, "tiger-counties", notes
+        )
 
     state_mfi_median = float(parameters.get("state_mfi_median", 90116.0))
     notes.append(f"state_mfi_median: {state_mfi_median} (from parameters.yaml; ACS B19113 DE statewide)")
@@ -191,7 +221,7 @@ def load_raw_artifacts(raw_dir: Path, parameters: dict) -> LoadedRaw:
 
     return LoadedRaw(
         grantees=grantees,
-        food_resources_raw=[],  # SNAP / farmers-market pullers land in a future sprint
+        food_resources_raw=food_resources_raw,
         tracts=tracts,
         state_mfi_median=state_mfi_median,
         manifest=manifest,
@@ -323,8 +353,130 @@ def _mtime_iso(path: Path) -> str:
 
 
 # ---------------------------------------------------------------------------
+# SNAP retailers + farmers markets → food_resources_raw (S+5)
+# ---------------------------------------------------------------------------
+
+
+def _load_snap_retailers(path: Path) -> list[FoodResource]:
+    """Read snap-retailers-de.geojson and produce FoodResource records."""
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    features = payload.get("features") or []
+    out: list[FoodResource] = []
+    for f in features:
+        props = f.get("properties") or {}
+        geom = f.get("geometry") or {}
+        coords = geom.get("coordinates") or []
+        if not coords or len(coords) < 2:
+            continue
+        lon, lat = float(coords[0]), float(coords[1])
+        name = props.get("Store_Name") or ""
+        if not name:
+            continue
+        store_type = props.get("Store_Type") or ""
+        out.append(
+            FoodResource(
+                source="snap-retailers",
+                name=str(name),
+                lat=lat,
+                lon=lon,
+                category=_snap_store_type_to_category(store_type),
+                address=_compose_snap_address(props),
+                external_id=str(props.get("Record_ID") or "") or None,
+            )
+        )
+    return out
+
+
+_SNAP_STORE_TYPE_MAP = {
+    "Supermarket": "supermarket",
+    "Super Store": "supermarket",
+    "Grocery Store": "grocery-store",
+    "Specialty Store": "specialty-grocer",
+    "Convenience Store": "corner-store",
+    "Combination Grocery/Other": "grocery-store",
+    "Farmers Market": "farmers-market",
+    "Wholesaler": "wholesaler",
+    "Bakery": "specialty-grocer",
+    "Delivery Route": "other",
+    "Military Commissary": "other",
+}
+
+
+def _snap_store_type_to_category(store_type: str) -> str:
+    """Map USDA SNAP Store_Type values to methodology v0.2.0 categories.
+
+    Unknown values fall through to 'other' which is excluded from the
+    food-resource universe by the merge stage (food resources must be
+    a recognized category to count toward SB 254 access).
+    """
+    return _SNAP_STORE_TYPE_MAP.get(store_type or "", "other")
+
+
+def _compose_snap_address(props: dict) -> Optional[str]:
+    parts = [
+        props.get("Store_Street_Address"),
+        props.get("City"),
+        props.get("State"),
+        props.get("Zip_Code"),
+    ]
+    cleaned = [str(p).strip() for p in parts if p]
+    return ", ".join(cleaned) if cleaned else None
+
+
+def _load_farmers_markets(path: Path) -> list[FoodResource]:
+    """Read usda-farmers-markets-de.json and produce FoodResource records."""
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    markets = payload.get("markets") or []
+    out: list[FoodResource] = []
+    for m in markets:
+        lat = m.get("location_lat")
+        lon = m.get("location_lon")
+        name = m.get("listing_name") or ""
+        if not name or lat is None or lon is None:
+            continue
+        out.append(
+            FoodResource(
+                source="usda-farmers-markets",
+                name=str(name),
+                lat=float(lat),
+                lon=float(lon),
+                category="farmers-market",
+                address=m.get("location_address"),
+                external_id=str(m.get("listing_id") or "") or None,
+            )
+        )
+    return out
+
+
+# ---------------------------------------------------------------------------
 # Geo-stack helpers (guarded by ImportError in the caller)
 # ---------------------------------------------------------------------------
+
+
+def _load_de_counties_from_national_tiger(
+    zip_path: Path, manifest: Manifest, name: str, notes: list[str]
+) -> Optional[Any]:
+    """Load the national TIGER counties zip and clip to Delaware (STATEFP='10')."""
+    if not zip_path.exists():
+        notes.append(f"{name}: {zip_path.name} not present; mmg_counties_gdf=None (apportionment skipped)")
+        return None
+    try:
+        import geopandas as gpd
+    except ImportError:
+        notes.append(f"{name}: geopandas unavailable; mmg_counties_gdf=None")
+        return None
+    try:
+        gdf = gpd.read_file(f"zip://{zip_path.resolve().as_posix()}")
+    except Exception as exc:  # noqa: BLE001
+        notes.append(f"{name}: read_file failed ({exc})")
+        return None
+    if "STATEFP" not in gdf.columns:
+        notes.append(f"{name}: STATEFP column missing in TIGER county shapefile")
+        return None
+    de = gdf[gdf["STATEFP"] == "10"].copy()
+    _record_source(manifest, name, zip_path)
+    notes.append(f"{name}: clipped national counties to DE ({len(de)} feature(s))")
+    return de
 
 
 def _load_tiger_zip(

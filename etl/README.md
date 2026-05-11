@@ -6,13 +6,14 @@ Authoritative design: `2026-05-11-DGI-Bulk-ETL-Design.md` in the vault `07-Brief
 
 ## Status
 
-**S+4 (2026-05-11):** live-source orchestration in. The `run_etl.py` CLI now composes a full pipeline from disk (or fetches everything fresh with `--pull`) and writes the Frictionless datapackage + every dashboard data file to `dgi-food-access/data/`. Three TIGER/Census pullers added (tract polygons, block-group polygons, block-group population) for the SB 254-effective + apportionment stages. CI gained a `live-etl` job that runs the full pipeline on schedule or workflow_dispatch and uploads `dgi-food-access/data/` as an artifact (optionally committing back to `main` when `commit_data=true`). Test suite at 134 passed / 2 skipped.
+**S+5 (2026-05-11):** food-resource universe broadens + MMG apportionment unblocked. Three new pullers (TIGER counties → `mmg_counties_gdf` for the long-promised apportionment stage; SNAP retailers via FNS ArcGIS Hub; USDA farmers markets as a scaffold mirroring the DSB pattern). `etl/lib/load_raw.py` now feeds `food_resources_raw` from SNAP + farmers-markets outputs, so the merge stage's dedupe operates on real data instead of an empty list. Test suite at 156 passed / 2 skipped. Methodology unchanged at v0.2.1.
 
 - **S+1:** scaffold + 5 source pullers (USDA LILA, FirstMap SD2, DART GTFS, Census ACS, MMG)
 - **S+2:** geocoding library (Census + Nominatim) + geocoding transform + manual-reviews second pass + DSB scaffold
 - **S+3:** transforms (apportion / sb254-effective / merge food resources) + Frictionless datapackage writer + per-resource schemas + end-to-end orchestrator
-- **S+4 (here):** TIGER tracts + TIGER BGs + Census ACS BG pullers; `etl/lib/load_raw.py` (disk → PipelineInputs); `run_etl.py` CLI flipped from scaffold to live orchestrator with `--pull` / `--strict` / `--dry-run`; `.github/workflows/dgi-etl.yml` `live-etl` job (schedule + workflow_dispatch); methodology version pin v0.2.0 → v0.2.1 (patch)
-- **S+5 (next):** TIGER county-polygon source for MMG apportionment GDF; SNAP retailers + farmers-market pullers (food-resource universe widens beyond DGI grantees); DSB canonical URL resolution; per-tract demographics join from `acs-tract-demographics.csv`
+- **S+4:** TIGER tracts + TIGER BGs + Census ACS BG pullers; `etl/lib/load_raw.py` (disk → PipelineInputs); `run_etl.py` CLI flipped from scaffold to live orchestrator with `--pull` / `--strict` / `--dry-run`; `.github/workflows/dgi-etl.yml` `live-etl` job (schedule + workflow_dispatch); methodology version pin v0.2.0 → v0.2.1 (patch)
+- **S+5 (here):** TIGER counties (`tiger_counties.py`, clipped to DE STATEFP=10) → `mmg_counties_gdf` populated; SNAP retailers (`snap_retailers.py`, ArcGIS query w/ pagination) → `food_resources_raw`; USDA farmers markets (`usda_farmers_markets.py` scaffold; canonical URL is a carried open question alongside DSB/MMG) → `food_resources_raw`. **session-18 Phase A** also patched DART GTFS URL drift (rotated path) + FirstMap SD2 URL drift (service retired → new `enterprise.firstmap.delaware.gov` Political Boundaries layer). MMG canonical URL documented as a carried open question.
+- **S+6 (next):** per-tract demographics join (`acs-tract-demographics.csv` → TractInput poverty_rate + mfi) to certify SB 254 low-income tracts; USDA LILA xlsx → GeoJSON transform; DART GTFS shapes.txt → `dart-routes.geojson` transform; dashboard chart-data wire-up to `data/dgi-grants.csv` once DSB scraper has live data; MMG canonical CSV URL resolution; USDA AMS farmers-markets canonical URL resolution; methodology subdomain (`methodology.firststatelens.com`) via Quartz
 
 ## Layout
 
@@ -31,19 +32,22 @@ etl/
 └── raw/                     # pulled raw artifacts (gitignored)
 ```
 
-S+4 sources catalog (9 pullers):
+S+5 sources catalog (12 pullers):
 
 | Module | Output | Cadence | Notes |
 |---|---|---|---|
 | `etl/sources/usda_lila.py` | `usda-lila-raw.xlsx` | Annual | Food Access Research Atlas |
-| `etl/sources/firstmap_sd2.py` | `firstmap-sd2.geojson` | Per redistricting | SD2 boundary |
-| `etl/sources/dart_gtfs.py` | `dart-gtfs.zip` + `dart-stops.csv` | Quarterly | GTFS feed |
+| `etl/sources/firstmap_sd2.py` | `firstmap-sd2.geojson` | Per redistricting | SD2 boundary (URL patched session-18: enterprise.firstmap.delaware.gov) |
+| `etl/sources/dart_gtfs.py` | `dart-gtfs.zip` + `dart-stops.csv` | Quarterly | GTFS feed (URL patched session-18: /RiderInfo/Routes/ path) |
 | `etl/sources/census_acs.py` | `acs-tract-de.json` | Annual | Tract-level ACS5 (pop, MFI, poverty, race) |
-| `etl/sources/census_acs_bg.py` | `acs-bg-de.json` | Annual | **S+4** — BG-level pop for SB 254 weighting |
-| `etl/sources/mmg_food_insecurity.py` | `mmg-food-insecurity-counties.csv` | Annual | Map the Meal Gap county-level |
-| `etl/sources/dsb_grants.py` | `dsb-grants.json` | Per-cycle | DGI grantee roster (URL-configurable) |
-| `etl/sources/tiger_tracts.py` | `tiger-tracts-de.zip` | Annual | **S+4** — TIGER tract shapefile |
-| `etl/sources/tiger_bgs.py` | `tiger-bgs-de.zip` | Annual | **S+4** — TIGER block-group shapefile |
+| `etl/sources/census_acs_bg.py` | `acs-bg-de.json` | Annual | S+4 — BG-level pop for SB 254 weighting |
+| `etl/sources/mmg_food_insecurity.py` | `mmg-food-insecurity-counties.csv` | Annual | Map the Meal Gap (canonical URL is a carried open question) |
+| `etl/sources/dsb_grants.py` | `dsb-grants.json` | Per-cycle | DGI grantee roster (URL-configurable; canonical is carried open question) |
+| `etl/sources/tiger_tracts.py` | `tiger-tracts-de.zip` | Annual | S+4 — TIGER tract shapefile |
+| `etl/sources/tiger_bgs.py` | `tiger-bgs-de.zip` | Annual | S+4 — TIGER block-group shapefile |
+| `etl/sources/tiger_counties.py` | `tiger-counties-us.zip` | Annual | **S+5** — national TIGER counties; clipped to DE downstream → `mmg_counties_gdf` |
+| `etl/sources/snap_retailers.py` | `snap-retailers-de.geojson` | Weekly | **S+5** — USDA FNS ArcGIS Hub w/ pagination |
+| `etl/sources/usda_farmers_markets.py` | `usda-farmers-markets-de.json` | Quarterly | **S+5 scaffold** — USDA AMS endpoints have access friction (carried open question) |
 
 `etl/lib/` is a documented extension of the brief's directory layout; the brief specifies data-flow modules (sources/transforms/outputs) and `lib/` carries shared infrastructure code those modules import.
 
