@@ -1,0 +1,12 @@
+node_modules/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+.env
+.env.local
+.wrangler/
+dist/
+build/
+.cache/

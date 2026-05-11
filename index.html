@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex, nofollow" />
+<title>First State Lens — Civic Outcomes Atlas · Delaware</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --slate-950: #020617;
+    --slate-900: #0f172a;
+    --slate-800: #1e293b;
+    --slate-700: #334155;
+    --slate-500: #64748b;
+    --slate-400: #94a3b8;
+    --slate-300: #cbd5e1;
+
+    --indigo-400: #818cf8;
+    --indigo-500: #6366f1;
+    --violet-400: #a78bfa;
+    --emerald-400: #34d399;
+    --emerald-500: #10b981;
+    --amber-400: #fbbf24;
+    --amber-500: #f59e0b;
+
+    --surface-base: #030712;
+    --surface-elevated: rgba(15, 23, 42, 0.7);
+    --text-primary: rgba(248, 250, 252, 0.95);
+    --text-secondary: rgba(148, 163, 184, 0.85);
+    --text-tertiary: rgba(100, 116, 139, 0.7);
+    --border-subtle: rgba(148, 163, 184, 0.08);
+    --border-default: rgba(148, 163, 184, 0.14);
+    --border-strong: rgba(148, 163, 184, 0.22);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background: var(--surface-base);
+    color: var(--text-primary);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background:
+      radial-gradient(ellipse 800px 500px at 15% 20%, rgba(99, 102, 241, 0.06), transparent 50%),
+      radial-gradient(ellipse 600px 400px at 85% 80%, rgba(52, 211, 153, 0.04), transparent 50%),
+      radial-gradient(ellipse 500px 300px at 50% 50%, rgba(245, 158, 11, 0.025), transparent 60%);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  body::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(148, 163, 184, 0.025) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(148, 163, 184, 0.025) 1px, transparent 1px);
+    background-size: 48px 48px;
+    pointer-events: none;
+    z-index: 0;
+    mask-image: radial-gradient(ellipse at center, black 30%, transparent 90%);
+    -webkit-mask-image: radial-gradient(ellipse at center, black 30%, transparent 90%);
+  }
+
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 24px 32px 64px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 0;
+    border-bottom: 1px solid var(--border-subtle);
+    margin-bottom: 56px;
+  }
+  .brand { display: flex; align-items: center; gap: 14px; }
+  .brand-mark {
+    width: 36px; height: 36px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, var(--indigo-500), var(--violet-400));
+    display: grid; place-items: center;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 18px;
+    box-shadow: 0 0 24px rgba(99, 102, 241, 0.25);
+  }
+  .brand-text { display: flex; flex-direction: column; line-height: 1.15; }
+  .brand-name {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600; font-size: 15px;
+    letter-spacing: 0.01em;
+  }
+  .brand-tagline {
+    font-size: 11px;
+    color: var(--text-tertiary);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  .topbar-meta {
+    display: flex; align-items: center; gap: 18px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--text-tertiary);
+    letter-spacing: 0.04em;
+  }
+  .pulse-dot {
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    background: var(--amber-400);
+    box-shadow: 0 0 8px var(--amber-400);
+    animation: pulse 2s ease-in-out infinite;
+    display: inline-block;
+    margin-right: 6px;
+    vertical-align: middle;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.4; transform: scale(0.85); }
+  }
+
+  .hero {
+    margin-bottom: 56px;
+  }
+  .hero-eyebrow {
+    display: inline-flex; align-items: center; gap: 10px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--amber-400);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 6px 12px;
+    border-radius: 999px;
+    border: 1px solid rgba(251, 191, 36, 0.25);
+    background: rgba(251, 191, 36, 0.05);
+    margin-bottom: 18px;
+  }
+  .hero-eyebrow::before {
+    content: '';
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--amber-400);
+    box-shadow: 0 0 6px var(--amber-400);
+  }
+  .hero-h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: clamp(32px, 5vw, 52px);
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    line-height: 1.05;
+    margin-bottom: 18px;
+    max-width: 860px;
+  }
+  .hero-h1 .accent {
+    background: linear-gradient(135deg, var(--indigo-400), var(--violet-400));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .hero-sub {
+    font-size: 17px;
+    color: var(--text-secondary);
+    line-height: 1.55;
+    max-width: 720px;
+  }
+
+  .dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    gap: 20px;
+    margin-bottom: 56px;
+  }
+  @media (max-width: 800px) {
+    .dashboard-grid { grid-template-columns: 1fr; }
+  }
+  .dashboard-card {
+    background: var(--surface-elevated);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid var(--border-default);
+    border-radius: 16px;
+    padding: 28px 28px 24px;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    transition: border-color 200ms ease, transform 200ms ease;
+    position: relative;
+    overflow: hidden;
+  }
+  .dashboard-card:hover {
+    border-color: var(--border-strong);
+    transform: translateY(-2px);
+  }
+  .dashboard-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--card-accent, var(--indigo-400)), transparent);
+    opacity: 0.6;
+  }
+  .dashboard-card[data-accent="indigo"] { --card-accent: var(--indigo-400); }
+  .dashboard-card[data-accent="emerald"] { --card-accent: var(--emerald-400); }
+
+  .card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .card-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    color: var(--text-primary);
+  }
+  .card-status {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--card-accent, var(--indigo-400));
+    padding: 4px 10px;
+    border-radius: 999px;
+    border: 1px solid var(--card-accent, var(--indigo-400));
+    opacity: 0.85;
+  }
+  .card-tagline {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.04em;
+    color: var(--text-tertiary);
+  }
+  .card-description {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.55;
+  }
+  .card-meta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 14px;
+    border-top: 1px solid var(--border-subtle);
+    margin-top: 4px;
+  }
+  .card-meta-pill {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.04em;
+    color: var(--text-secondary);
+    background: rgba(15, 23, 42, 0.6);
+    border: 1px solid var(--border-default);
+    padding: 4px 10px;
+    border-radius: 999px;
+  }
+  .card-enter {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--card-accent, var(--indigo-400));
+    margin-top: 4px;
+  }
+  .card-enter::after {
+    content: '→';
+    transition: transform 200ms ease;
+  }
+  .dashboard-card:hover .card-enter::after {
+    transform: translateX(4px);
+  }
+
+  .about {
+    background: var(--surface-elevated);
+    border: 1px solid var(--border-default);
+    border-radius: 14px;
+    padding: 28px;
+    margin-bottom: 40px;
+  }
+  .about-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 14px;
+  }
+  .about-body {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.65;
+    max-width: 800px;
+  }
+  .about-body a {
+    color: var(--indigo-400);
+    text-decoration: none;
+    border-bottom: 1px dotted rgba(129, 140, 248, 0.3);
+  }
+  .about-body a:hover { border-bottom-style: solid; }
+
+  .footer {
+    margin-top: 48px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border-subtle);
+    display: flex; align-items: center; justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+    font-size: 11px;
+    color: var(--text-tertiary);
+    font-family: 'JetBrains Mono', monospace;
+    letter-spacing: 0.04em;
+  }
+  .footer-build {
+    padding: 4px 10px;
+    border: 1px solid var(--border-default);
+    border-radius: 999px;
+    color: var(--amber-400);
+    font-size: 10px;
+  }
+
+  @media (max-width: 600px) {
+    .container { padding: 18px 18px 48px; }
+    .topbar { flex-direction: column; align-items: flex-start; gap: 10px; }
+    .topbar-meta { gap: 12px; flex-wrap: wrap; font-size: 10px; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark">FS</div>
+      <div class="brand-text">
+        <div class="brand-name">First State Lens</div>
+        <div class="brand-tagline">Civic Outcomes Atlas · Delaware</div>
+      </div>
+    </div>
+    <div class="topbar-meta">
+      <span><span class="pulse-dot"></span>SOFT-LAUNCH PREVIEW</span>
+      <span>2026.05.11</span>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-eyebrow">FirmSide AI · Civic Analytics Lab</div>
+    <h1 class="hero-h1">
+      Tracking the gap between Delaware <span class="accent">legislative intent</span> and on-the-ground reality.
+    </h1>
+    <p class="hero-sub">
+      A suite of dashboards measuring Delaware's signature programs against the promises that authorized them.
+      Every published number traces to a public source via versioned methodology. The dashboards are password-gated
+      during the soft-launch period.
+    </p>
+  </section>
+
+  <section class="dashboard-grid">
+    <a href="/clean-slate/" class="dashboard-card" data-accent="indigo">
+      <div class="card-header">
+        <div class="card-title">Clean Slate Tracker</div>
+        <div class="card-status">Live</div>
+      </div>
+      <div class="card-tagline">SB 111 / SB 112 · Automatic expungement</div>
+      <div class="card-description">
+        Delaware's 2021 Clean Slate Act promised automatic expungement for ~594,537 eligible cases. Twenty-one months
+        into automated processing, about 3.2% have been cleared. The dashboard tracks throughput against the statutory
+        promise.
+      </div>
+      <div class="card-meta-row">
+        <span class="card-meta-pill">methodology v0.2.0</span>
+        <span class="card-meta-pill">throughput-gap headline</span>
+        <span class="card-meta-pill">~19k cleared / 47-yr projection</span>
+      </div>
+      <span class="card-enter">Enter dashboard</span>
+    </a>
+
+    <a href="/dgi-food-access/" class="dashboard-card" data-accent="emerald">
+      <div class="card-header">
+        <div class="card-title">DGI Food Access Tracker</div>
+        <div class="card-status">Scaffold</div>
+      </div>
+      <div class="card-tagline">SB 254 · Delaware Grocery Initiative</div>
+      <div class="card-description">
+        The Delaware Grocery Initiative has deployed ~$2.15M across five award cycles to fight food deserts.
+        125,370 Delawareans remain food insecure. The dashboard tests DSB's claim that "food access is not determined by zip code"
+        — both USDA LILA and SB 254 statutory definitions ship as filterable layers.
+      </div>
+      <div class="card-meta-row">
+        <span class="card-meta-pill">methodology v0.2.0</span>
+        <span class="card-meta-pill">scaffold v0.1.0</span>
+        <span class="card-meta-pill">Cycle 5 pending May 2026</span>
+      </div>
+      <span class="card-enter">Enter dashboard</span>
+    </a>
+  </section>
+
+  <section class="about">
+    <div class="about-title">About this site</div>
+    <div class="about-body">
+      First State Lens is a Delaware civic outcomes platform. Each dashboard tracks a specific legislative initiative
+      against measurable real-world results, with every published number sealed to a methodology version and a public
+      source. The analytical CMS — methodology source-of-truth, source registry, lineage graph, briefs — is maintained
+      in a separate private workspace; published methodology is mirrored to a public Quartz site
+      (<span style="font-family: 'JetBrains Mono', monospace;">methodology.firststatelens.com</span>, forthcoming).
+      Built by FirmSide AI · Civic Analytics Lab. The brand is deliberately decoupled from any single stakeholder.
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div>FIRST STATE LENS · BUILT BY FIRMSIDE AI · CIVIC ANALYTICS LAB</div>
+    <div class="footer-build">SOFT-LAUNCH PREVIEW · NOT FOR PUBLIC DISTRIBUTION</div>
+  </footer>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex, nofollow" />
+<title>Clean Slate Implementation Tracker — First State Lens</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    /* Slate scale */
+    --slate-950: #020617;
+    --slate-900: #0f172a;
+    --slate-800: #1e293b;
+    --slate-700: #334155;
+    --slate-500: #64748b;
+    --slate-400: #94a3b8;
+    --slate-300: #cbd5e1;
+    --slate-100: #f1f5f9;
+
+    /* Accents */
+    --indigo-400: #818cf8;
+    --indigo-500: #6366f1;
+    --violet-400: #a78bfa;
+    --cyan-400: #22d3ee;
+    --emerald-400: #34d399;
+    --amber-400: #fbbf24;
+    --amber-500: #f59e0b;
+    --rose-400: #fb7185;
+    --rose-500: #f43f5e;
+
+    /* Semantic */
+    --surface-base: #030712;
+    --surface-raised: #0f172a;
+    --surface-elevated: rgba(15, 23, 42, 0.7);
+    --surface-glass: rgba(15, 23, 42, 0.4);
+
+    --text-primary: rgba(248, 250, 252, 0.95);
+    --text-secondary: rgba(148, 163, 184, 0.85);
+    --text-tertiary: rgba(100, 116, 139, 0.7);
+
+    --border-subtle: rgba(148, 163, 184, 0.08);
+    --border-default: rgba(148, 163, 184, 0.14);
+    --border-strong: rgba(148, 163, 184, 0.22);
+    --border-accent: rgba(129, 140, 248, 0.3);
+
+    --accent-primary: var(--indigo-400);
+    --accent-warning: var(--amber-400);
+    --accent-danger: var(--rose-400);
+    --accent-success: var(--emerald-400);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background: var(--surface-base);
+    color: var(--text-primary);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  /* Atmospheric background */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background:
+      radial-gradient(ellipse 800px 500px at 15% 20%, rgba(99, 102, 241, 0.06), transparent 50%),
+      radial-gradient(ellipse 600px 400px at 85% 80%, rgba(244, 63, 94, 0.04), transparent 50%),
+      radial-gradient(ellipse 500px 300px at 50% 50%, rgba(245, 158, 11, 0.025), transparent 60%);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  body::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(148, 163, 184, 0.025) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(148, 163, 184, 0.025) 1px, transparent 1px);
+    background-size: 48px 48px;
+    pointer-events: none;
+    z-index: 0;
+    mask-image: radial-gradient(ellipse at center, black 30%, transparent 90%);
+    -webkit-mask-image: radial-gradient(ellipse at center, black 30%, transparent 90%);
+  }
+
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 24px 32px 64px;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* ===== Header ===== */
+  .topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 0;
+    border-bottom: 1px solid var(--border-subtle);
+    margin-bottom: 32px;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .brand-mark {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, var(--indigo-500), var(--violet-400));
+    display: grid;
+    place-items: center;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 18px;
+    box-shadow: 0 0 24px rgba(99, 102, 241, 0.25);
+  }
+  .brand-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.15;
+  }
+  .brand-name {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.01em;
+  }
+  .brand-tagline {
+    font-size: 11px;
+    color: var(--text-tertiary);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  .topbar-meta {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--text-tertiary);
+    letter-spacing: 0.04em;
+  }
+  .meta-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .pulse-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--accent-danger);
+    box-shadow: 0 0 8px var(--accent-danger);
+    animation: pulse 2s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.4; transform: scale(0.85); }
+  }
+
+  /* ===== Title block ===== */
+  .title-block {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-bottom: 40px;
+  }
+  .title-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--accent-warning);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    align-self: flex-start;
+    padding: 6px 12px;
+    border-radius: 999px;
+    border: 1px solid rgba(251, 191, 36, 0.25);
+    background: rgba(251, 191, 36, 0.05);
+  }
+  .title-eyebrow::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--accent-warning);
+    box-shadow: 0 0 6px var(--accent-warning);
+  }
+  .title-h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: clamp(28px, 4.5vw, 44px);
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    max-width: 920px;
+  }
+  .title-h1 .highlight {
+    color: var(--accent-warning);
+  }
+  .title-sub {
+    font-size: 16px;
+    color: var(--text-secondary);
+    max-width: 780px;
+    line-height: 1.55;
+  }
+
+  /* ===== KPI Grid ===== */
+  .kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 16px;
+    margin-bottom: 40px;
+  }
+  .kpi-card {
+    background: var(--surface-elevated);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid var(--border-default);
+    border-radius: 14px;
+    padding: 22px 22px 20px;
+    position: relative;
+    overflow: hidden;
+    transition: border-color 200ms ease;
+  }
+  .kpi-card:hover {
+    border-color: var(--border-strong);
+  }
+  .kpi-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--accent-color, var(--indigo-400)), transparent);
+    opacity: 0.5;
+  }
+  .kpi-card[data-tone="danger"] { --accent-color: var(--rose-400); }
+  .kpi-card[data-tone="warning"] { --accent-color: var(--amber-400); }
+  .kpi-card[data-tone="info"] { --accent-color: var(--indigo-400); }
+  .kpi-card[data-tone="neutral"] { --accent-color: var(--slate-400); }
+
+  .kpi-label {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-tertiary);
+    margin-bottom: 10px;
+  }
+  .kpi-value {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    line-height: 1;
+    color: var(--text-primary);
+  }
+  .kpi-value-tone-danger { color: var(--accent-danger); }
+  .kpi-value-tone-warning { color: var(--accent-warning); }
+  .kpi-unit {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-secondary);
+    margin-left: 4px;
+  }
+  .kpi-context {
+    margin-top: 12px;
+    font-size: 12px;
+    color: var(--text-secondary);
+    line-height: 1.45;
+  }
+  .kpi-context strong {
+    color: var(--text-primary);
+    font-weight: 500;
+  }
+  .kpi-source {
+    margin-top: 10px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: var(--text-tertiary);
+    letter-spacing: 0.04em;
+  }
+
+  /* ===== Section header ===== */
+  .section {
+    margin-bottom: 40px;
+  }
+  .section-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 18px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border-subtle);
+  }
+  .section-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+  .section-meta {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-tertiary);
+  }
+
+  /* ===== Panels ===== */
+  .panel {
+    background: var(--surface-elevated);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid var(--border-default);
+    border-radius: 14px;
+    padding: 24px;
+  }
+  .panel-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+  .panel-sub {
+    font-size: 12px;
+    color: var(--text-tertiary);
+    margin-bottom: 20px;
+  }
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  .grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+
+  @media (max-width: 880px) {
+    .grid-2, .grid-3 { grid-template-columns: 1fr; }
+  }
+
+  /* ===== The Gap visualization ===== */
+  .gap-viz {
+    background: var(--surface-elevated);
+    border: 1px solid var(--border-default);
+    border-radius: 14px;
+    padding: 28px;
+    margin-bottom: 16px;
+  }
+  .gap-row {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 18px;
+  }
+  .gap-row:last-child { margin-bottom: 0; }
+  .gap-row-label {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    font-size: 13px;
+    color: var(--text-secondary);
+  }
+  .gap-row-label .num {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    color: var(--text-primary);
+    font-size: 16px;
+  }
+  .gap-bar {
+    height: 14px;
+    background: rgba(148, 163, 184, 0.08);
+    border-radius: 7px;
+    overflow: hidden;
+    position: relative;
+  }
+  .gap-bar-fill {
+    height: 100%;
+    border-radius: 7px;
+    background: linear-gradient(90deg, var(--bar-color, var(--indigo-400)), var(--bar-color-2, var(--violet-400)));
+    transition: width 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 0 12px rgba(129, 140, 248, 0.2);
+  }
+  .gap-bar-fill.danger {
+    background: linear-gradient(90deg, var(--rose-500), var(--rose-400));
+    box-shadow: 0 0 12px rgba(244, 63, 94, 0.2);
+  }
+  .gap-bar-fill.warn {
+    background: linear-gradient(90deg, var(--amber-500), var(--amber-400));
+    box-shadow: 0 0 12px rgba(245, 158, 11, 0.2);
+  }
+  .gap-bar-fill.success {
+    background: linear-gradient(90deg, #10b981, var(--emerald-400));
+    box-shadow: 0 0 12px rgba(52, 211, 153, 0.2);
+  }
+
+  /* ===== Math grid ===== */
+  .math-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+  @media (max-width: 880px) {
+    .math-grid { grid-template-columns: 1fr; }
+  }
+  .math-card {
+    background: var(--surface-elevated);
+    border: 1px solid var(--border-default);
+    border-radius: 14px;
+    padding: 22px;
+    position: relative;
+  }
+  .math-card[data-state="current"] { border-color: rgba(244, 63, 94, 0.3); }
+  .math-card[data-state="goal"] { border-color: rgba(251, 191, 36, 0.3); }
+  .math-card[data-state="promised"] { border-color: rgba(52, 211, 153, 0.3); }
+  .math-state {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+  .math-state-current { color: var(--accent-danger); }
+  .math-state-goal { color: var(--accent-warning); }
+  .math-state-promised { color: var(--accent-success); }
+  .math-headline {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 14px;
+    line-height: 1.25;
+  }
+  .math-stat-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    font-size: 13px;
+    border-bottom: 1px solid var(--border-subtle);
+  }
+  .math-stat-row:last-of-type { border-bottom: none; }
+  .math-stat-label { color: var(--text-secondary); }
+  .math-stat-value {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 500;
+    color: var(--text-primary);
+  }
+  .math-conclusion {
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px solid var(--border-subtle);
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--text-secondary);
+  }
+  .math-conclusion strong {
+    color: var(--text-primary);
+    font-weight: 600;
+  }
+
+  /* ===== Quotes panel ===== */
+  .quote-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 14px;
+  }
+  .quote-card {
+    background: var(--surface-elevated);
+    border: 1px solid var(--border-default);
+    border-radius: 12px;
+    padding: 20px 22px;
+    position: relative;
+  }
+  .quote-card::before {
+    content: '"';
+    position: absolute;
+    top: -2px;
+    left: 14px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 56px;
+    line-height: 1;
+    color: var(--accent-primary);
+    opacity: 0.4;
+    font-weight: 700;
+  }
+  .quote-text {
+    font-size: 14px;
+    line-height: 1.55;
+    font-style: italic;
+    color: var(--text-primary);
+    margin-bottom: 14px;
+    margin-top: 6px;
+  }
+  .quote-attribution {
+    font-size: 11px;
+    color: var(--text-tertiary);
+    line-height: 1.4;
+  }
+  .quote-attribution strong {
+    color: var(--text-secondary);
+    font-weight: 500;
+  }
+
+  /* ===== Sources table ===== */
+  .source-table {
+    background: var(--surface-elevated);
+    border: 1px solid var(--border-default);
+    border-radius: 14px;
+    overflow: hidden;
+  }
+  .source-table table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+  }
+  .source-table th {
+    text-align: left;
+    padding: 14px 18px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-tertiary);
+    background: rgba(15, 23, 42, 0.4);
+    border-bottom: 1px solid var(--border-default);
+    font-weight: 500;
+  }
+  .source-table td {
+    padding: 14px 18px;
+    border-bottom: 1px solid var(--border-subtle);
+    color: var(--text-secondary);
+    vertical-align: top;
+  }
+  .source-table tr:last-child td {
+    border-bottom: none;
+  }
+  .source-table .src-name {
+    color: var(--text-primary);
+    font-weight: 500;
+  }
+  .source-table .src-meta {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--text-tertiary);
+  }
+  .source-table a {
+    color: var(--accent-primary);
+    text-decoration: none;
+    border-bottom: 1px dotted rgba(129, 140, 248, 0.3);
+  }
+  .source-table a:hover { border-bottom-style: solid; }
+
+  /* ===== Chart wrapper ===== */
+  .chart-wrap {
+    position: relative;
+    height: 280px;
+  }
+
+  /* ===== Footer ===== */
+  .footer {
+    margin-top: 56px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border-subtle);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+    font-size: 11px;
+    color: var(--text-tertiary);
+    font-family: 'JetBrains Mono', monospace;
+    letter-spacing: 0.04em;
+  }
+  .footer-build {
+    padding: 4px 10px;
+    border: 1px solid var(--border-default);
+    border-radius: 999px;
+    color: var(--accent-warning);
+    font-size: 10px;
+  }
+
+  @media (max-width: 600px) {
+    .container { padding: 18px 18px 48px; }
+    .topbar { flex-direction: column; align-items: flex-start; gap: 10px; }
+    .topbar-meta { gap: 12px; flex-wrap: wrap; font-size: 10px; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+</style>
+</head>
+<body class="fsl-locked">
+<style>
+  body.fsl-locked > *:not(#fsl-gate) { display: none !important; }
+  #fsl-gate {
+    position: fixed; inset: 0;
+    background: #030712; color: #e2e8f0;
+    display: flex; align-items: center; justify-content: center;
+    z-index: 999999;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+  #fsl-gate-card {
+    width: 100%; max-width: 380px;
+    margin: 16px;
+    padding: 32px;
+    background: #0f172a;
+    border: 1px solid rgba(148, 163, 184, 0.14);
+    border-radius: 12px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+  }
+  #fsl-gate h1 {
+    font-size: 16px; font-weight: 600;
+    margin: 0 0 6px;
+    color: rgba(248, 250, 252, 0.95);
+    letter-spacing: -0.01em;
+  }
+  #fsl-gate p {
+    font-size: 13px; line-height: 1.5;
+    color: rgba(148, 163, 184, 0.85);
+    margin: 0 0 20px;
+  }
+  #fsl-gate input {
+    width: 100%;
+    padding: 10px 12px;
+    background: #020617;
+    color: rgba(248, 250, 252, 0.95);
+    border: 1px solid rgba(148, 163, 184, 0.22);
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    letter-spacing: 0.05em;
+  }
+  #fsl-gate input:focus {
+    outline: none;
+    border-color: #818cf8;
+    box-shadow: 0 0 0 3px rgba(129, 140, 248, 0.15);
+  }
+  #fsl-gate button {
+    margin-top: 12px; width: 100%;
+    padding: 10px;
+    background: #6366f1; color: white;
+    border: none; border-radius: 6px;
+    font-size: 14px; font-weight: 500;
+    cursor: pointer;
+    font-family: inherit;
+    transition: background 0.15s;
+  }
+  #fsl-gate button:hover { background: #818cf8; }
+  #fsl-gate-error {
+    color: #f43f5e;
+    font-size: 12px;
+    margin-top: 10px;
+    min-height: 16px;
+  }
+  #fsl-gate-footer {
+    margin-top: 20px;
+    padding-top: 16px;
+    border-top: 1px solid rgba(148, 163, 184, 0.08);
+    font-size: 11px;
+    color: rgba(100, 116, 139, 0.7);
+    letter-spacing: 0.02em;
+  }
+</style>
+<div id="fsl-gate" role="dialog" aria-label="Password required">
+  <div id="fsl-gate-card">
+    <h1>First State Lens · Preview</h1>
+    <p>This is a soft-launch preview of the Clean Slate Implementation Tracker. Enter the password shared with you.</p>
+    <form id="fsl-gate-form">
+      <input type="password" id="fsl-gate-input" autocomplete="current-password" autofocus aria-label="Password" />
+      <button type="submit">Enter</button>
+      <div id="fsl-gate-error" role="alert" aria-live="polite"></div>
+    </form>
+    <div id="fsl-gate-footer">FirmSide AI · Civic Analytics Lab</div>
+  </div>
+</div>
+<script>
+(function () {
+  const HASH = "d0d8fe50ff3e014e5f506e172aad30d91aceff9ad41630e0133618a05ea37682";
+  const STORAGE_KEY = "fsl-gate-2026-05";
+  const body = document.body;
+  const gate = document.getElementById("fsl-gate");
+  if (sessionStorage.getItem(STORAGE_KEY) === HASH) {
+    body.classList.remove("fsl-locked");
+    gate.remove();
+    return;
+  }
+  async function sha256(text) {
+    const buf = new TextEncoder().encode(text);
+    const digest = await crypto.subtle.digest("SHA-256", buf);
+    return Array.from(new Uint8Array(digest)).map(b => b.toString(16).padStart(2, "0")).join("");
+  }
+  const form = document.getElementById("fsl-gate-form");
+  const input = document.getElementById("fsl-gate-input");
+  const err = document.getElementById("fsl-gate-error");
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    err.textContent = "";
+    const hash = await sha256(input.value);
+    if (hash === HASH) {
+      sessionStorage.setItem(STORAGE_KEY, HASH);
+      body.classList.remove("fsl-locked");
+      gate.remove();
+    } else {
+      err.textContent = "Incorrect password.";
+      input.value = "";
+      input.focus();
+    }
+  });
+})();
+</script>
+<div class="container">
+
+  <!-- ============ Top bar ============ -->
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark">FS</div>
+      <div class="brand-text">
+        <div class="brand-name">First State Lens</div>
+        <div class="brand-tagline">Civic Outcomes Atlas · Delaware</div>
+      </div>
+    </div>
+    <div class="topbar-meta">
+      <div class="meta-item">
+        <span class="pulse-dot"></span>
+        <span>SOFT-LAUNCH PREVIEW</span>
+      </div>
+      <div class="meta-item">
+        <span>UPDATED 2026.05.10</span>
+      </div>
+      <div class="meta-item">
+        <span>BUILD 0.1.0</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ Title block ============ -->
+  <section class="title-block">
+    <div class="title-eyebrow">Implementation Tracker · SB 111 / SB 112 · 21 months in</div>
+    <h1 class="title-h1">
+      Delaware's Clean Slate Act promised automatic expungement for nearly 600,000 cases.
+      In 21 months, <span class="highlight">3.2% have been cleared.</span>
+    </h1>
+    <p class="title-sub">
+      The 2021 Clean Slate Act was supposed to clear 594,537 eligible cases for 290,980 Delawareans through an automated monthly process beginning August 1, 2024. As of May 2026, fewer than 19,000 cases have been cleared. Governor Meyer has called the rollout "reprehensible." This dashboard tracks the gap between what the legislature promised and what the state has delivered.
+    </p>
+  </section>
+
+  <!-- ============ KPI strip ============ -->
+  <section class="kpi-grid">
+    <div class="kpi-card" data-tone="info">
+      <div class="kpi-label">Cases Identified as Eligible</div>
+      <div class="kpi-value">594,537</div>
+      <div class="kpi-context">Adult and juvenile records meeting <strong>mandatory expungement</strong> criteria, identified by DELJIS at the time of bill passage.</div>
+      <div class="kpi-source">SOURCE · DELJIS / SB 111 FISCAL NOTE</div>
+    </div>
+    <div class="kpi-card" data-tone="danger">
+      <div class="kpi-label">Cases Cleared (May 2026)</div>
+      <div class="kpi-value kpi-value-tone-danger">~19,000<span class="kpi-unit">/ 3.2%</span></div>
+      <div class="kpi-context">Cleared since automated process began <strong>August 1, 2024</strong>. November 2024 baseline: 805 records (ACLU-DE).</div>
+      <div class="kpi-source">SOURCE · WHYY · DELAWARE PUBLIC MEDIA · MAY 4 2026</div>
+    </div>
+    <div class="kpi-card" data-tone="warning">
+      <div class="kpi-label">Adults Carrying Eligible Records</div>
+      <div class="kpi-value">290,980</div>
+      <div class="kpi-context">Roughly <strong>1 in 3 working-age Delawareans</strong>. Records affect access to jobs, housing, education, and federal employment.</div>
+      <div class="kpi-source">SOURCE · DELJIS / SB 111 FISCAL NOTE</div>
+    </div>
+    <div class="kpi-card" data-tone="danger">
+      <div class="kpi-label">Projected Backlog at Current Pace</div>
+      <div class="kpi-value kpi-value-tone-danger">47<span class="kpi-unit">years</span></div>
+      <div class="kpi-context">At ~1,000 cases/month current throughput, the eligible backlog clears in <strong>~2073</strong>. ACLU-DE estimates "20+ years" assuming further acceleration.</div>
+      <div class="kpi-source">CALCULATED · 575,537 ÷ 1,011 ÷ 12</div>
+    </div>
+  </section>
+
+  <!-- ============ The Gap ============ -->
+  <section class="section">
+    <div class="section-header">
+      <div class="section-title">The Promise vs. The Reality</div>
+      <div class="section-meta">Proportional</div>
+    </div>
+    <div class="gap-viz">
+      <div class="gap-row">
+        <div class="gap-row-label">
+          <span>Eligible cases identified by DELJIS</span>
+          <span class="num">594,537</span>
+        </div>
+        <div class="gap-bar"><div class="gap-bar-fill" style="width: 100%"></div></div>
+      </div>
+      <div class="gap-row">
+        <div class="gap-row-label">
+          <span>Cases cleared since August 2024</span>
+          <span class="num">~19,000 <span style="color: var(--text-tertiary); font-weight: 400; font-size: 13px;">(3.2%)</span></span>
+        </div>
+        <div class="gap-bar"><div class="gap-bar-fill danger" style="width: 3.2%"></div></div>
+      </div>
+      <div class="gap-row">
+        <div class="gap-row-label">
+          <span>Pennsylvania's first-year throughput, normalized to Delaware's population</span>
+          <span class="num">~2.6M <span style="color: var(--text-tertiary); font-weight: 400; font-size: 13px;">equivalent</span></span>
+        </div>
+        <div class="gap-bar"><div class="gap-bar-fill success" style="width: 100%; background: linear-gradient(90deg, #10b981, #34d399); opacity: 0.8;"></div></div>
+      </div>
+      <div style="margin-top: 18px; padding-top: 18px; border-top: 1px solid var(--border-subtle); font-size: 12px; color: var(--text-tertiary); line-height: 1.55;">
+        <strong style="color: var(--text-secondary);">Methodology note:</strong> Pennsylvania cleared 34M cases in its first year. Adjusted for population (DE ~1M, PA ~13M), that's an equivalent of ~2.6M cases per year — roughly <strong style="color: var(--text-primary);">217× Delaware's per-capita pace</strong>. Caveats: PA seals records rather than destroys them, and PA had a longer runway. The directional gap is what matters.
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Throughput chart ============ -->
+  <section class="section">
+    <div class="section-header">
+      <div class="section-title">Throughput Trajectory</div>
+      <div class="section-meta">Cumulative · Aug 2024 → May 2026</div>
+    </div>
+    <div class="grid-2">
+      <div class="panel">
+        <div class="panel-title">Cumulative cases cleared</div>
+        <div class="panel-sub">Two confirmed data points; linear interpolation between. Trendline projects forward at observed monthly rate (~1,000/month).</div>
+        <div class="chart-wrap"><canvas id="cumChart"></canvas></div>
+      </div>
+      <div class="panel">
+        <div class="panel-title">Required vs. actual monthly pace</div>
+        <div class="panel-sub">To clear the eligible backlog within the 22-month statutory implementation window: ~27,000 cases/month. Actual: ~1,000.</div>
+        <div class="chart-wrap"><canvas id="paceChart"></canvas></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ The Math ============ -->
+  <section class="section">
+    <div class="section-header">
+      <div class="section-title">What Would It Take?</div>
+      <div class="section-meta">Backlog scenarios</div>
+    </div>
+    <div class="math-grid">
+      <div class="math-card" data-state="current">
+        <div class="math-state math-state-current">Current pace</div>
+        <div class="math-headline">~1,000 cases per month</div>
+        <div class="math-stat-row"><span class="math-stat-label">Cases cleared</span><span class="math-stat-value">~19,000</span></div>
+        <div class="math-stat-row"><span class="math-stat-label">Remaining</span><span class="math-stat-value">575,537</span></div>
+        <div class="math-stat-row"><span class="math-stat-label">Years to backlog clear</span><span class="math-stat-value">~47.5</span></div>
+        <div class="math-conclusion">At present throughput the eligible backlog clears in <strong>~2073</strong>, before any new eligible cases are added.</div>
+      </div>
+      <div class="math-card" data-state="goal">
+        <div class="math-state math-state-goal">Five-year clear</div>
+        <div class="math-headline">~9,600 cases per month</div>
+        <div class="math-stat-row"><span class="math-stat-label">Required throughput</span><span class="math-stat-value">9.6× current</span></div>
+        <div class="math-stat-row"><span class="math-stat-label">Pennsylvania-equivalent</span><span class="math-stat-value">0.04×</span></div>
+        <div class="math-stat-row"><span class="math-stat-label">Backlog cleared by</span><span class="math-stat-value">2031</span></div>
+        <div class="math-conclusion">A reasonable interim target. Still far below PA's per-capita rate, but achievable with full automation as the law originally intended.</div>
+      </div>
+      <div class="math-card" data-state="promised">
+        <div class="math-state math-state-promised">Statutory promise</div>
+        <div class="math-headline">~27,000 cases per month</div>
+        <div class="math-stat-row"><span class="math-stat-label">22-month window</span><span class="math-stat-value">Aug 24 → Jun 26</span></div>
+        <div class="math-stat-row"><span class="math-stat-label">Required throughput</span><span class="math-stat-value">27× current</span></div>
+        <div class="math-stat-row"><span class="math-stat-label">Status</span><span class="math-stat-value" style="color: var(--accent-danger);">Missed</span></div>
+        <div class="math-conclusion">SB 111's fiscal note assumed full processing within the 22-month implementation window. That window closes in <strong>~7 weeks</strong>.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Quotes ============ -->
+  <section class="section">
+    <div class="section-header">
+      <div class="section-title">On the Record</div>
+      <div class="section-meta">Recent statements</div>
+    </div>
+    <div class="quote-grid">
+      <div class="quote-card">
+        <div class="quote-text">It's reprehensible that in 2021 we passed a law to automatically expunge records, and here we are in 2026 talking about how it still hasn't gotten done.</div>
+        <div class="quote-attribution"><strong>Gov. Matt Meyer</strong> · Ask Governor Meyer (WHYY) · May 4, 2026</div>
+      </div>
+      <div class="quote-card">
+        <div class="quote-text">If SBI continues at its current review rate, it could take Delaware over 20 years to get through the backlog.</div>
+        <div class="quote-attribution"><strong>John Reynolds</strong>, Deputy Policy &amp; Advocacy Director · ACLU of Delaware</div>
+      </div>
+      <div class="quote-card">
+        <div class="quote-text">SBI will continue to evaluate each record for accuracy, and we are working with all parties involved to create a more efficient process.</div>
+        <div class="quote-attribution"><strong>Lt. Tyler Wright</strong>, State Bureau of Identification · Statement to Spotlight Delaware</div>
+      </div>
+      <div class="quote-card">
+        <div class="quote-text">That kind of coordination doesn't just happen on its own. It requires clear ownership and leadership. This leadership needs to come from the governor's office.</div>
+        <div class="quote-attribution"><strong>Matthew Rosen</strong>, Director of Research, Office of Gov. Meyer</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Sources ============ -->
+  <section class="section">
+    <div class="section-header">
+      <div class="section-title">Methodology &amp; Sources</div>
+      <div class="section-meta">Public, citable</div>
+    </div>
+    <div class="source-table">
+      <table>
+        <thead>
+          <tr>
+            <th>Source</th>
+            <th>Used For</th>
+            <th>Verified</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="src-name">DELJIS / SB 111 fiscal note</span><br><span class="src-meta">legis.delaware.gov</span></td>
+            <td>Eligible-case totals (594,537 / 290,980 adults)</td>
+            <td><span class="src-meta">2026.05.10</span></td>
+          </tr>
+          <tr>
+            <td><span class="src-name">WHYY · "It's reprehensible"</span><br><span class="src-meta">whyy.org · May 4, 2026</span></td>
+            <td>~19,000 cleared count, governor remarks</td>
+            <td><span class="src-meta">2026.05.10</span></td>
+          </tr>
+          <tr>
+            <td><span class="src-name">Spotlight Delaware</span><br><span class="src-meta">spotlightdelaware.org · May 7, 2026</span></td>
+            <td>SBI manual review process, agency statements</td>
+            <td><span class="src-meta">2026.05.10</span></td>
+          </tr>
+          <tr>
+            <td><span class="src-name">ACLU of Delaware · Clean Slate Hub</span><br><span class="src-meta">aclu-de.org/csde</span></td>
+            <td>805-case baseline (Nov 2024), 20-year projection</td>
+            <td><span class="src-meta">2026.05.10</span></td>
+          </tr>
+          <tr>
+            <td><span class="src-name">Office of Defense Services</span><br><span class="src-meta">ods.delaware.gov/expungements</span></td>
+            <td>Discretionary expungement context, fees</td>
+            <td><span class="src-meta">2026.05.10</span></td>
+          </tr>
+          <tr>
+            <td><span class="src-name">Clean Slate Initiative · DE summary</span><br><span class="src-meta">cleanslatecop.search.org</span></td>
+            <td>Implementation timeline, Pennsylvania benchmark</td>
+            <td><span class="src-meta">2026.05.10</span></td>
+          </tr>
+          <tr>
+            <td><span class="src-name">BJS · NCHIP Award (DELJIS-CJIS)</span><br><span class="src-meta">bjs.ojp.gov</span></td>
+            <td>Technical implementation context, system architecture</td>
+            <td><span class="src-meta">2026.05.10</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div style="margin-top: 16px; font-size: 12px; color: var(--text-tertiary); line-height: 1.55; max-width: 900px;">
+      <strong style="color: var(--text-secondary);">Calculation notes:</strong> Monthly throughput (~1,000) derived from delta between November 2024 (805 cleared) and May 2026 (~19,000 cleared). Years-to-clear assumes constant rate and no additional eligible cases entering the system. PA per-capita comparison uses 2024 Census population estimates. All figures rounded for legibility; underlying calculations preserved in <code style="font-family: 'JetBrains Mono', monospace; font-size: 11px; padding: 2px 6px; background: rgba(15, 23, 42, 0.6); border-radius: 4px; color: var(--text-secondary);">/methodology/clean-slate-kpis.md</code>.
+    </div>
+  </section>
+
+  <!-- ============ Footer ============ -->
+  <footer class="footer">
+    <div>FIRST STATE LENS · BUILT BY FIRMSIDE AI · CIVIC ANALYTICS LAB</div>
+    <div class="footer-build">SOFT-LAUNCH PREVIEW · NOT FOR PUBLIC DISTRIBUTION</div>
+  </footer>
+
+</div>
+
+<script>
+  // Shared chart styling
+  const TEXT_PRIMARY = 'rgba(248, 250, 252, 0.95)';
+  const TEXT_SECONDARY = 'rgba(148, 163, 184, 0.7)';
+  const TEXT_TERTIARY = 'rgba(100, 116, 139, 0.5)';
+  const GRID_COLOR = 'rgba(148, 163, 184, 0.06)';
+  const FONT_FAMILY = "'Inter', system-ui, sans-serif";
+  const MONO_FAMILY = "'JetBrains Mono', monospace";
+
+  Chart.defaults.font.family = FONT_FAMILY;
+  Chart.defaults.color = TEXT_SECONDARY;
+  Chart.defaults.borderColor = GRID_COLOR;
+
+  // ===== Cumulative chart =====
+  const cumCtx = document.getElementById('cumChart').getContext('2d');
+  const gradAccent = cumCtx.createLinearGradient(0, 0, 0, 280);
+  gradAccent.addColorStop(0, 'rgba(129, 140, 248, 0.35)');
+  gradAccent.addColorStop(1, 'rgba(129, 140, 248, 0)');
+
+  const months = ['Aug \'24', 'Oct \'24', 'Dec \'24', 'Feb \'25', 'Apr \'25', 'Jun \'25', 'Aug \'25', 'Oct \'25', 'Dec \'25', 'Feb \'26', 'May \'26', 'Aug \'26', 'Dec \'26'];
+  // Two confirmed points: Nov 2024 = 805, May 2026 = 19,000
+  // Linear interpolation between, then projection
+  const cumActual = [0, 200, 805, 2700, 4600, 6500, 8400, 10300, 12200, 14400, 19000, null, null];
+  const cumProjected = [null, null, null, null, null, null, null, null, null, null, 19000, 22000, 26000];
+  const cumPromised = [0, 54000, 108000, 162000, 216000, 270000, 324000, 378000, 432000, 486000, 540000, 594537, 594537];
+
+  new Chart(cumCtx, {
+    type: 'line',
+    data: {
+      labels: months,
+      datasets: [
+        {
+          label: 'Statutory pace (linear to 22-month deadline)',
+          data: cumPromised,
+          borderColor: 'rgba(52, 211, 153, 0.5)',
+          borderDash: [4, 4],
+          borderWidth: 1.5,
+          backgroundColor: 'transparent',
+          pointRadius: 0,
+          tension: 0
+        },
+        {
+          label: 'Cleared (actual)',
+          data: cumActual,
+          borderColor: 'rgba(129, 140, 248, 1)',
+          borderWidth: 2.5,
+          backgroundColor: gradAccent,
+          fill: true,
+          pointRadius: 3,
+          pointBackgroundColor: 'rgba(129, 140, 248, 1)',
+          pointBorderColor: '#0f172a',
+          pointBorderWidth: 2,
+          tension: 0.25
+        },
+        {
+          label: 'Projected at current pace',
+          data: cumProjected,
+          borderColor: 'rgba(251, 113, 133, 0.8)',
+          borderDash: [3, 3],
+          borderWidth: 2,
+          backgroundColor: 'transparent',
+          pointRadius: 2,
+          pointBackgroundColor: 'rgba(251, 113, 133, 1)',
+          tension: 0.2
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: { boxWidth: 10, boxHeight: 10, padding: 14, font: { size: 11 }, usePointStyle: true, pointStyle: 'rectRounded' }
+        },
+        tooltip: {
+          backgroundColor: 'rgba(2, 6, 23, 0.95)',
+          borderColor: 'rgba(148, 163, 184, 0.2)',
+          borderWidth: 1,
+          padding: 12,
+          titleFont: { family: MONO_FAMILY, size: 11 },
+          bodyFont: { size: 12 },
+          callbacks: {
+            label: (ctx) => `${ctx.dataset.label}: ${ctx.parsed.y === null ? '—' : ctx.parsed.y.toLocaleString()}`
+          }
+        }
+      },
+      scales: {
+        x: {
+          grid: { color: GRID_COLOR },
+          ticks: { font: { family: MONO_FAMILY, size: 10 }, color: TEXT_TERTIARY }
+        },
+        y: {
+          grid: { color: GRID_COLOR },
+          ticks: {
+            font: { family: MONO_FAMILY, size: 10 },
+            color: TEXT_TERTIARY,
+            callback: (v) => v >= 1000 ? (v/1000) + 'k' : v
+          }
+        }
+      }
+    }
+  });
+
+  // ===== Pace chart =====
+  const paceCtx = document.getElementById('paceChart').getContext('2d');
+  new Chart(paceCtx, {
+    type: 'bar',
+    data: {
+      labels: ['Actual\n(observed)', 'Five-year\ngoal', 'Statutory\n(22-month)', 'PA-equivalent\nper capita'],
+      datasets: [{
+        label: 'Cases per month',
+        data: [1011, 9600, 27000, 217000],
+        backgroundColor: [
+          'rgba(251, 113, 133, 0.6)',
+          'rgba(251, 191, 36, 0.6)',
+          'rgba(52, 211, 153, 0.5)',
+          'rgba(129, 140, 248, 0.4)'
+        ],
+        borderColor: [
+          'rgba(251, 113, 133, 1)',
+          'rgba(251, 191, 36, 1)',
+          'rgba(52, 211, 153, 1)',
+          'rgba(129, 140, 248, 1)'
+        ],
+        borderWidth: 1.5,
+        borderRadius: 4
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      indexAxis: 'y',
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: 'rgba(2, 6, 23, 0.95)',
+          borderColor: 'rgba(148, 163, 184, 0.2)',
+          borderWidth: 1,
+          padding: 12,
+          callbacks: {
+            label: (ctx) => `${ctx.parsed.x.toLocaleString()} cases/month`
+          }
+        }
+      },
+      scales: {
+        x: {
+          type: 'logarithmic',
+          grid: { color: GRID_COLOR },
+          ticks: {
+            font: { family: MONO_FAMILY, size: 10 },
+            color: TEXT_TERTIARY,
+            callback: (v) => {
+              if (v === 1000 || v === 10000 || v === 100000 || v === 1000000) {
+                return v >= 1000 ? (v/1000) + 'k' : v;
+              }
+              return '';
+            }
+          }
+        },
+        y: {
+          grid: { display: false },
+          ticks: { font: { family: MONO_FAMILY, size: 10 }, color: TEXT_TERTIARY }
+        }
+      }
+    }
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+# Cloudflare Pages headers configuration
+# Applied at the edge; in addition to inline <meta> tags in HTML.
+
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  X-Robots-Tag: noindex, nofollow
+  Permissions-Policy: interest-cohort=(), browsing-topics=()
