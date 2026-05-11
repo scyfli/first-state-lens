@@ -1,0 +1,18 @@
+{
+  "result": {
+    "input": {
+      "address": {
+        "address": "9999 Nonexistent Way, Nowhere, DE 99999"
+      },
+      "benchmark": {
+        "id": "4",
+        "benchmarkName": "Public_AR_Current"
+      },
+      "vintage": {
+        "id": "4",
+        "vintageName": "Current_Current"
+      }
+    },
+    "addressMatches": []
+  }
+}

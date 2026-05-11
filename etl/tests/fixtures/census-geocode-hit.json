@@ -1,0 +1,59 @@
+{
+  "result": {
+    "input": {
+      "address": {
+        "address": "123 N Market St, Wilmington, DE 19801"
+      },
+      "benchmark": {
+        "isDefault": false,
+        "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+        "id": "4",
+        "benchmarkName": "Public_AR_Current"
+      },
+      "vintage": {
+        "isDefault": false,
+        "vintageDescription": "Current Vintage - Current Benchmark",
+        "id": "4",
+        "vintageName": "Current_Current"
+      }
+    },
+    "addressMatches": [
+      {
+        "matchedAddress": "123 N MARKET ST, WILMINGTON, DE, 19801",
+        "coordinates": {
+          "x": -75.5455,
+          "y": 39.7445
+        },
+        "tigerLine": {
+          "side": "L",
+          "tigerLineId": "126123456"
+        },
+        "addressComponents": {
+          "fromAddress": "100",
+          "toAddress": "199",
+          "preQualifier": "",
+          "preDirection": "N",
+          "preType": "",
+          "streetName": "MARKET",
+          "suffixType": "ST",
+          "suffixDirection": "",
+          "suffixQualifier": "",
+          "city": "WILMINGTON",
+          "state": "DE",
+          "zip": "19801"
+        },
+        "geographies": {
+          "Census Tracts": [
+            {
+              "GEOID": "10003001100",
+              "STATE": "10",
+              "COUNTY": "003",
+              "TRACT": "001100",
+              "NAME": "Census Tract 11"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
