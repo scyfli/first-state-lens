@@ -28,6 +28,7 @@ from etl.lib.load_raw import (
     _build_tracts_from_gdfs,
     _coerce_lila_flag,
     _coerce_lila_numeric,
+    _compute_tract_urbanicity_lookup,
     _gtfs_routes_by_shape,
     _load_acs_tract_demographics,
     _normalize_lila_tract,
@@ -928,3 +929,125 @@ def test_load_raw_pre_built_dart_geojson_takes_precedence(tmp_path: Path) -> Non
     # The "dart-gtfs-zip" source should NOT have been recorded; the
     # pre-built path took precedence and we never opened the zip.
     assert "dart-gtfs-zip" not in result.manifest.sources
+
+
+# ---------------------------------------------------------------------------
+# Methodology v0.3.0 — UAC urbanicity refinement
+# ---------------------------------------------------------------------------
+
+
+def test_build_tracts_falls_back_to_county_proxy_without_urbanicity_lookup() -> None:
+    """When no UAC lookup is supplied, the legacy county-level proxy applies."""
+    gpd = pytest.importorskip("geopandas")
+    from shapely.geometry import Polygon
+
+    tract_gdf = gpd.GeoDataFrame(
+        {
+            "GEOID": ["10003010100", "10001040100", "10005030100"],
+            "geometry": [
+                Polygon([(0, 0), (1, 0), (1, 1), (0, 1)]),
+                Polygon([(2, 0), (3, 0), (3, 1), (2, 1)]),
+                Polygon([(4, 0), (5, 0), (5, 1), (4, 1)]),
+            ],
+        },
+        crs="EPSG:4326",
+    )
+    tracts = _build_tracts_from_gdfs(tract_gdf, None, [])
+    by_geoid = {t.tract_geoid: t for t in tracts}
+    # Proxy: New Castle (10003) → urban; Kent (10001) + Sussex (10005) → nonurban.
+    assert by_geoid["10003010100"].urbanicity == "urban"
+    assert by_geoid["10001040100"].urbanicity == "nonurban"
+    assert by_geoid["10005030100"].urbanicity == "nonurban"
+
+
+def test_build_tracts_uses_urbanicity_lookup_when_supplied() -> None:
+    """v0.3.0: lookup overrides the proxy on a per-tract basis."""
+    gpd = pytest.importorskip("geopandas")
+    from shapely.geometry import Polygon
+
+    tract_gdf = gpd.GeoDataFrame(
+        {
+            "GEOID": ["10003010100", "10001040100"],
+            "geometry": [
+                Polygon([(0, 0), (1, 0), (1, 1), (0, 1)]),
+                Polygon([(2, 0), (3, 0), (3, 1), (2, 1)]),
+            ],
+        },
+        crs="EPSG:4326",
+    )
+    # Deliberately invert the proxy: a New Castle tract is marked nonurban
+    # (e.g., south of the C&D canal) and a Kent tract is urban (inside the
+    # Dover urbanized area). The lookup must win over the proxy.
+    urbanicity_lookup = {
+        "10003010100": "nonurban",
+        "10001040100": "urban",
+    }
+    tracts = _build_tracts_from_gdfs(
+        tract_gdf, None, [], urbanicity_lookup=urbanicity_lookup
+    )
+    by_geoid = {t.tract_geoid: t for t in tracts}
+    assert by_geoid["10003010100"].urbanicity == "nonurban"
+    assert by_geoid["10001040100"].urbanicity == "urban"
+
+
+def test_compute_tract_urbanicity_lookup_classifies_by_intersection(tmp_path: Path) -> None:
+    """sjoin-based urban detection: tract intersects an urban polygon → urban."""
+    gpd = pytest.importorskip("geopandas")
+    from shapely.geometry import Polygon
+
+    tract_gdf = gpd.GeoDataFrame(
+        {
+            "GEOID": ["10003010100", "10001040100", "10005030100"],
+            "geometry": [
+                # Inside the urban polygon
+                Polygon([(0, 0), (1, 0), (1, 1), (0, 1)]),
+                # Touches the urban cluster polygon (edge intersect counts)
+                Polygon([(3, 0), (4, 0), (4, 1), (3, 1)]),
+                # Far away — no urban overlap → nonurban
+                Polygon([(10, 10), (11, 10), (11, 11), (10, 11)]),
+            ],
+        },
+        crs="EPSG:4326",
+    )
+    urban_gdf = gpd.GeoDataFrame(
+        {
+            "UATYP10": ["U", "C"],
+            "geometry": [
+                # Urbanized Area covering the first tract
+                Polygon([(-1, -1), (2, -1), (2, 2), (-1, 2)]),
+                # Urban Cluster touching the second tract
+                Polygon([(4, 0), (5, 0), (5, 1), (4, 1)]),
+            ],
+        },
+        crs="EPSG:4326",
+    )
+    notes: list[str] = []
+    lookup = _compute_tract_urbanicity_lookup(tract_gdf, urban_gdf, notes)
+    assert lookup["10003010100"] == "urban"
+    assert lookup["10001040100"] == "urban"
+    assert lookup["10005030100"] == "nonurban"
+    assert any("2/3" in n and "urban" in n for n in notes)
+
+
+def test_compute_tract_urbanicity_lookup_drops_non_urban_uatyp(tmp_path: Path) -> None:
+    """Polygons with unknown UATYP10 should be ignored, not counted as urban."""
+    gpd = pytest.importorskip("geopandas")
+    from shapely.geometry import Polygon
+
+    tract_gdf = gpd.GeoDataFrame(
+        {
+            "GEOID": ["10003010100"],
+            "geometry": [Polygon([(0, 0), (1, 0), (1, 1), (0, 1)])],
+        },
+        crs="EPSG:4326",
+    )
+    # UATYP10 value 'X' is unknown — methodology says only 'U' and 'C' count.
+    urban_gdf = gpd.GeoDataFrame(
+        {
+            "UATYP10": ["X"],
+            "geometry": [Polygon([(-1, -1), (2, -1), (2, 2), (-1, 2)])],
+        },
+        crs="EPSG:4326",
+    )
+    lookup = _compute_tract_urbanicity_lookup(tract_gdf, urban_gdf, [])
+    assert lookup["10003010100"] == "nonurban"

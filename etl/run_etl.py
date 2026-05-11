@@ -626,6 +626,7 @@ def _pull_all_sources(raw_dir: Path, parameters: dict) -> list[str]:
     from etl.sources import (
         census_acs,
         census_acs_bg,
+        census_uac,
         dart_gtfs,
         dsb_grants,
         firstmap_sd2,
@@ -648,6 +649,7 @@ def _pull_all_sources(raw_dir: Path, parameters: dict) -> list[str]:
         ("tiger_tracts", tiger_tracts.pull, {}),
         ("tiger_bgs", tiger_bgs.pull, {}),
         ("tiger_counties", tiger_counties.pull, {}),  # S+5
+        ("census_uac", census_uac.pull, {}),  # methodology v0.3.0
         ("snap_retailers", snap_retailers.pull, {}),  # S+5
         ("usda_farmers_markets", usda_farmers_markets.pull,  # S+5 (scaffold)
          {"url": parameters.get("usda_farmers_markets_url")}),
