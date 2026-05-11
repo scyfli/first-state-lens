@@ -146,18 +146,28 @@ def load_raw_artifacts(raw_dir: Path, parameters: dict) -> LoadedRaw:
     dart_routes_geojson = _load_passthrough(raw_dir / "dart-routes.geojson", manifest, "dart-routes", notes)
     mhc_csv = _load_passthrough(raw_dir / "mhc-tract-de.csv", manifest, "mhc-tract", notes)
 
-    # --- ACS tract demographics: convert JSON → CSV inline ---
+    # --- ACS tract demographics: convert JSON → CSV inline + build per-tract lookup ---
+    # Single read; feeds both the CSV pass-through (consumer-facing output)
+    # and the demographics_lookup (poverty_rate + mfi joined into TractInput
+    # for SB 254 low-income certification).
     acs_tract_path = raw_dir / "acs-tract-de.json"
     acs_demographics_csv: Optional[bytes] = None
+    demographics_lookup: dict[str, dict[str, Optional[float]]] = {}
     if acs_tract_path.exists():
         try:
-            acs_demographics_csv = _acs_tract_json_to_csv(acs_tract_path.read_bytes())
+            acs_raw = acs_tract_path.read_bytes()
+            acs_demographics_csv = _acs_tract_json_to_csv(acs_raw)
+            demographics_lookup = _load_acs_tract_demographics(acs_raw)
             _record_source(manifest, "acs-tract-demographics", acs_tract_path)
-            notes.append(f"acs-tract-demographics: converted {acs_tract_path.name} → {len(acs_demographics_csv)} bytes CSV")
+            notes.append(
+                f"acs-tract-demographics: converted {acs_tract_path.name} → "
+                f"{len(acs_demographics_csv)} bytes CSV; "
+                f"{len(demographics_lookup)} tract demographics records loaded"
+            )
         except Exception as exc:  # noqa: BLE001
             notes.append(f"acs-tract-demographics: convert failed ({exc})")
     else:
-        notes.append("acs-tract-demographics: acs-tract-de.json not present; CSV pass-through empty")
+        notes.append("acs-tract-demographics: acs-tract-de.json not present; CSV pass-through empty; SB 254 stage will flag tracts as income data missing")
 
     # --- Geo-stack reads (TIGER + BG join) ---
     tracts: list[TractInput] = []
@@ -193,8 +203,17 @@ def load_raw_artifacts(raw_dir: Path, parameters: dict) -> LoadedRaw:
             weights_bg_gdf = _attach_bg_pop(weights_bg_gdf, bg_pop_lookup)
 
         if target_tracts_gdf is not None:
-            tracts = _build_tracts_from_gdfs(target_tracts_gdf, weights_bg_gdf, notes)
-            notes.append(f"tracts: {len(tracts)} tract(s) constructed from TIGER + BG join")
+            tracts = _build_tracts_from_gdfs(
+                target_tracts_gdf,
+                weights_bg_gdf,
+                notes,
+                demographics_lookup=demographics_lookup,
+            )
+            with_demos = sum(1 for t in tracts if t.poverty_rate is not None or t.mfi is not None)
+            notes.append(
+                f"tracts: {len(tracts)} tract(s) constructed from TIGER + BG join; "
+                f"{with_demos} with ACS demographics joined"
+            )
 
         # MMG counties GDF (S+5): load national TIGER counties + clip to DE.
         # Joined to mmg-food-insecurity-counties.csv downstream by FIPS.
@@ -305,6 +324,98 @@ def _csv_cell(value: Any) -> str:
     if "," in s or '"' in s or "\n" in s:
         return '"' + s.replace('"', '""') + '"'
     return s
+
+
+# ---------------------------------------------------------------------------
+# ACS tract demographics → per-tract lookup (S+6)
+# ---------------------------------------------------------------------------
+
+
+# Census API sentinel values for missing/null data. Treat as None on read.
+# Documented at https://www.census.gov/programs-surveys/acs/library/handbooks/jam-values.html
+# Key sentinels: -666666666 (no sample), -999999999 (estimate unavailable),
+# -222222222 (median falls outside published range), -888888888 (estimate
+# not applicable), -333333333 (median falls below published range).
+_ACS_SENTINELS = {
+    -666666666,
+    -999999999,
+    -222222222,
+    -888888888,
+    -333333333,
+    -555555555,
+}
+
+
+def _coerce_acs_value(raw: Any) -> Optional[float]:
+    """Coerce a Census ACS cell to float, returning None for sentinels/junk."""
+    if raw is None:
+        return None
+    try:
+        val = float(raw)
+    except (TypeError, ValueError):
+        return None
+    if int(val) in _ACS_SENTINELS:
+        return None
+    return val
+
+
+def _load_acs_tract_demographics(raw: bytes) -> dict[str, dict[str, Optional[float]]]:
+    """Parse the Census ACS tract-level JSON and return a per-tract lookup.
+
+    Returns a dict keyed by tract GEOID (state+county+tract, 11 chars) with
+    values containing computed `poverty_rate` (0..1 fraction) and `mfi`
+    (median family income in USD).
+
+    `poverty_rate` is computed as B17001_002E / B17001_001E (numerator /
+    denominator). Returns None when the denominator is missing, zero, or
+    sentinel-valued. `mfi` is read from B19113_001E and returns None for
+    Census sentinel values. The downstream SB 254 stage treats None as
+    "income data missing" and uses the other rule (whichever has data) or
+    flags the tract as not low-income when both are None.
+
+    Defensive against:
+      - Empty payloads (returns {}).
+      - Missing required columns (returns {} and lets caller warn).
+      - Per-row coercion failures (skips the row).
+    """
+    if not raw:
+        return {}
+    try:
+        payload = json.loads(raw.decode("utf-8"))
+    except (ValueError, UnicodeDecodeError):
+        return {}
+    if not payload:
+        return {}
+    header, *rows = payload
+    required = ("state", "county", "tract", "B17001_001E", "B17001_002E", "B19113_001E")
+    try:
+        idx = {col: header.index(col) for col in required}
+    except ValueError:
+        # Missing required column — bail; downstream stays None on poverty/mfi.
+        return {}
+
+    out: dict[str, dict[str, Optional[float]]] = {}
+    for row in rows:
+        try:
+            geoid = f"{row[idx['state']]}{row[idx['county']]}{row[idx['tract']]}"
+        except (IndexError, TypeError):
+            continue
+        if len(geoid) != 11:
+            continue
+
+        pov_denom = _coerce_acs_value(row[idx["B17001_001E"]])
+        pov_numer = _coerce_acs_value(row[idx["B17001_002E"]])
+        if pov_denom is not None and pov_denom > 0 and pov_numer is not None:
+            poverty_rate: Optional[float] = pov_numer / pov_denom
+        else:
+            poverty_rate = None
+
+        mfi_raw = _coerce_acs_value(row[idx["B19113_001E"]])
+        # MFI of 0 is not meaningful; treat as missing.
+        mfi: Optional[float] = mfi_raw if (mfi_raw is not None and mfi_raw > 0) else None
+
+        out[geoid] = {"poverty_rate": poverty_rate, "mfi": mfi}
+    return out
 
 
 # ---------------------------------------------------------------------------
@@ -539,13 +650,20 @@ def _build_tracts_from_gdfs(
     target_tracts_gdf: Any,
     weights_bg_gdf: Optional[Any],
     notes: list[str],
+    demographics_lookup: Optional[dict[str, dict[str, Optional[float]]]] = None,
 ) -> list[TractInput]:
-    """Construct TractInput records (with BG centroids + pop) from GDFs.
+    """Construct TractInput records (with BG centroids + pop + demographics) from GDFs.
 
     This is the SB 254-effective input shape. Without BG pop we still
     emit tracts with empty BG tuples — the SB 254 stage will then
     report population_total=0 for those tracts and skip them.
+
+    When `demographics_lookup` is supplied (S+6), each tract's
+    `poverty_rate` and `mfi` are joined from the ACS tract demographics.
+    Tracts not present in the lookup keep poverty_rate=None and mfi=None,
+    which the SB 254 stage flags as "income data missing".
     """
+    demographics_lookup = demographics_lookup or {}
     geoid_col = None
     for candidate in ("GEOID", "GEOID20", "GEOID10"):
         if candidate in target_tracts_gdf.columns:
@@ -592,16 +710,14 @@ def _build_tracts_from_gdfs(
     tracts: list[TractInput] = []
     for _, row in target_tracts_gdf.iterrows():
         tract_geoid = str(row[geoid_col])
-        # Demographics (poverty, MFI) are not joined here at S+4 — they'd
-        # come from acs-tract-demographics.csv. We default to None so
-        # the SB 254 stage flags tracts as "income data missing".
+        demos = demographics_lookup.get(tract_geoid, {})
         tracts.append(
             TractInput(
                 tract_geoid=tract_geoid,
                 urbanicity=_urbanicity(tract_geoid),
                 block_groups=tuple(bg_by_tract.get(tract_geoid, [])),
-                poverty_rate=None,
-                mfi=None,
+                poverty_rate=demos.get("poverty_rate"),
+                mfi=demos.get("mfi"),
             )
         )
     return tracts

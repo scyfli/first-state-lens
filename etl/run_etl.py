@@ -256,6 +256,28 @@ def _stage_apportion_mmg(
         )
         return False, None
 
+    # Defense-in-depth: confirm the source GDF carries the required join + value
+    # columns before invoking the interpolator. S+5 added a TIGER-counties
+    # puller that populates `mmg_counties_gdf` with bare county geometry, but
+    # the `food_insecure_count` column comes from the MMG food-insecurity CSV
+    # merge — which is gated on the MMG canonical URL (carried open question).
+    # When the MMG CSV is missing/invalid the column never gets joined; skip
+    # cleanly here instead of letting pandas raise KeyError mid-apportionment.
+    required_cols = {inputs.mmg_source_id_col, *inputs.mmg_extensive_variables}
+    source_cols = set(inputs.mmg_counties_gdf.columns)
+    missing_cols = required_cols - source_cols
+    if missing_cols:
+        target = output_dir / "food-insecurity-tracts.geojson"
+        _write_empty_feature_collection(
+            target,
+            (
+                "MMG apportionment skipped: counties GDF missing required "
+                f"columns {sorted(missing_cols)} (MMG food-insecurity CSV "
+                "was not joined — see carried open question)."
+            ),
+        )
+        return False, None
+
     # Local import to keep apportion module loading until we know we need it.
     from etl.transforms.apportion import population_weighted_interpolate
 
