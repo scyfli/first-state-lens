@@ -30,13 +30,23 @@ from etl.lib.fetch import FetchResult, fetch
 from etl.lib.validate import validate_geojson
 
 
-# DE FirstMap "Delaware Senate Districts 2022" Feature Service. The 2022 plan
-# is the active redistricting in effect at methodology v0.2.0 close.
-# Service ID is documented in parameters.yaml if it needs to be overridden.
+# DE FirstMap "DE Political Boundaries" Feature Service, layer 1 (Senate
+# Districts). The post-2020-census redistricting plan is the active
+# layer (reapportionment effective for 2032 general election per the
+# layer metadata). DISTRICT is a string field so the query value is
+# single-quoted ('2', not 2).
+#
+# Drift history:
+#   - S+1 (session-14): `services1.arcgis.com/PlW5JOTYJBLn5Bvc/.../Delaware_Senate_Districts_2022/FeatureServer/0/query?where=DISTRICT%3D2`
+#   - session-18 patch: that service returns 400 Invalid URL on the live
+#     run — the service path was retired in favor of the consolidated
+#     `enterprise.firstmap.delaware.gov` Political Boundaries
+#     FeatureServer. The new URL queries layer 1 ("Senate Districts")
+#     with the now-string-typed DISTRICT field.
 DEFAULT_SD2_QUERY_URL = (
-    "https://services1.arcgis.com/PlW5JOTYJBLn5Bvc/arcgis/rest/services/"
-    "Delaware_Senate_Districts_2022/FeatureServer/0/query"
-    "?where=DISTRICT%3D2"
+    "https://enterprise.firstmap.delaware.gov/arcgis/rest/services/"
+    "Boundaries/DE_Political_Boundaries/FeatureServer/1/query"
+    "?where=DISTRICT%3D%272%27"
     "&outFields=*"
     "&outSR=4326"
     "&f=geojson"
