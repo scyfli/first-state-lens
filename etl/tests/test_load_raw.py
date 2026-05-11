@@ -31,10 +31,12 @@ from etl.lib.load_raw import (
     _compute_tract_urbanicity_lookup,
     _gtfs_routes_by_shape,
     _load_acs_tract_demographics,
+    _load_lila_urban_lookup_from_xlsx,
     _normalize_lila_tract,
     _read_lila_xlsx,
     load_raw_artifacts,
 )
+from etl.lib.manifest import Manifest
 
 
 DEFAULT_PARAMETERS = {
@@ -555,7 +557,9 @@ def _write_lila_xlsx(
     # Optional title row before the header.
     for i in range(header_offset):
         ws.cell(row=i + 1, column=1, value=f"Title row {i + 1}")
-    # Header: a stable subset of LILA columns.
+    # Header: a stable subset of LILA columns. `Urban` is included
+    # (methodology v0.3.1 reads it); records that don't set it leave the
+    # cell blank, which the reader coerces to None.
     header = [
         "CensusTract",
         "State",
@@ -565,6 +569,7 @@ def _write_lila_xlsx(
         "LowIncomeTracts",
         "PovertyRate",
         "MedianFamilyIncome",
+        "Urban",
     ]
     for col_idx, name in enumerate(header, start=1):
         ws.cell(row=header_offset + 1, column=col_idx, value=name)
@@ -1051,3 +1056,117 @@ def test_compute_tract_urbanicity_lookup_drops_non_urban_uatyp(tmp_path: Path) -
     )
     lookup = _compute_tract_urbanicity_lookup(tract_gdf, urban_gdf, [])
     assert lookup["10003010100"] == "nonurban"
+
+
+# ---------------------------------------------------------------------------
+# Methodology v0.3.1 — LILA xlsx Urban column urbanicity (closes v0.3.0
+# over-permissive sjoin caveat). Reads USDA's authoritative per-tract
+# classification directly from the workbook instead of reconstructing it
+# via a UAC10 spatial join.
+# ---------------------------------------------------------------------------
+
+
+def test_load_lila_urban_lookup_classifies_urban_tracts(tmp_path: Path) -> None:
+    """Urban=1 → 'urban'; Urban=0 → 'nonurban'; Urban=None → omitted."""
+    pytest.importorskip("openpyxl")
+    xlsx = _write_lila_xlsx(
+        tmp_path / "usda-lila-raw.xlsx",
+        [
+            {"CensusTract": "10003010100", "Urban": 1, "LILATracts_1And10": 0},
+            {"CensusTract": "10001040100", "Urban": 0, "LILATracts_1And10": 1},
+            # Urban column blank — record present but classification missing.
+            {"CensusTract": "10005030100", "LILATracts_1And10": 1},
+        ],
+    )
+    manifest = Manifest(etl_version="test")
+    notes: list[str] = []
+    lookup = _load_lila_urban_lookup_from_xlsx(xlsx, manifest, notes)
+    assert lookup == {
+        "10003010100": "urban",
+        "10001040100": "nonurban",
+    }
+    # The xlsx is registered in the manifest when the lookup succeeds —
+    # the LILA file is a load-bearing input even when the inline geojson
+    # build doesn't run.
+    assert "usda-lila-xlsx" in manifest.sources
+    # Diagnostic note reports the urban share.
+    assert any("1/2" in n and "urban" in n for n in notes)
+
+
+def test_load_lila_urban_lookup_skips_non_de_rows(tmp_path: Path) -> None:
+    """The FIPS-prefix '10' filter inherited from _read_lila_xlsx still applies."""
+    pytest.importorskip("openpyxl")
+    xlsx = _write_lila_xlsx(
+        tmp_path / "usda-lila-raw.xlsx",
+        [
+            {"CensusTract": "10003010100", "Urban": 1},
+            # Alabama row — must not appear in the DE lookup.
+            {"CensusTract": "01001020100", "Urban": 1},
+        ],
+    )
+    manifest = Manifest(etl_version="test")
+    lookup = _load_lila_urban_lookup_from_xlsx(xlsx, manifest, [])
+    assert set(lookup) == {"10003010100"}
+
+
+def test_load_lila_urban_lookup_returns_empty_when_no_urban_column(tmp_path: Path) -> None:
+    """Workbook without an Urban column → empty dict + diagnostic note."""
+    pytest.importorskip("openpyxl")
+    openpyxl = pytest.importorskip("openpyxl")
+
+    # Write a minimal workbook by hand that lacks the Urban column entirely
+    # (the standard _write_lila_xlsx fixture always includes it).
+    wb = openpyxl.Workbook()
+    ws = wb.active
+    ws.title = "Food Access Research Atlas"
+    ws.append(["CensusTract", "LILATracts_1And10", "PovertyRate"])
+    ws.append(["10003010100", 1, 18.0])
+    xlsx = tmp_path / "no-urban-col.xlsx"
+    wb.save(xlsx)
+
+    manifest = Manifest(etl_version="test")
+    notes: list[str] = []
+    lookup = _load_lila_urban_lookup_from_xlsx(xlsx, manifest, notes)
+    assert lookup == {}
+    # Without a successful classification, the source is NOT recorded in
+    # the manifest — the file was inspected but contributed nothing.
+    assert "usda-lila-xlsx" not in manifest.sources
+    assert any("no rows carry an Urban column value" in n for n in notes)
+
+
+def test_load_lila_urban_lookup_returns_empty_when_xlsx_unreadable(tmp_path: Path) -> None:
+    """A corrupt workbook surfaces a diagnostic note and falls through cleanly."""
+    pytest.importorskip("openpyxl")
+    xlsx = tmp_path / "corrupt.xlsx"
+    xlsx.write_bytes(b"not actually a workbook")
+    manifest = Manifest(etl_version="test")
+    notes: list[str] = []
+    lookup = _load_lila_urban_lookup_from_xlsx(xlsx, manifest, notes)
+    assert lookup == {}
+    assert any("workbook read failed" in n for n in notes)
+
+
+def test_load_raw_runs_lila_urban_lookup_outside_geo_stack(tmp_path: Path) -> None:
+    """The Tier 1 LILA-Urban lookup runs even when geopandas is absent.
+
+    The lookup is plain-tabular (xlsx-only), so it executes outside the
+    geo-stack block. Tract construction still requires geopandas; this
+    test asserts only on the lookup's manifest + diagnostic side effects.
+    """
+    pytest.importorskip("openpyxl")
+    _write_lila_xlsx(
+        tmp_path / "usda-lila-raw.xlsx",
+        [
+            {"CensusTract": "10003010100", "Urban": 0, "LILATracts_1And10": 0},
+            {"CensusTract": "10001040100", "Urban": 1, "LILATracts_1And10": 1},
+            {"CensusTract": "10005030100", "Urban": 1, "LILATracts_1And10": 0},
+        ],
+    )
+    result = load_raw_artifacts(tmp_path, DEFAULT_PARAMETERS)
+    # Diagnostic note reports the urban share built from the lookup.
+    lila_notes = [n for n in result.notes if "usda-lila-urban" in n]
+    assert any("2/3" in n and "urban" in n for n in lila_notes), lila_notes
+    # The xlsx is recorded in the manifest as a load-bearing urbanicity
+    # input — preserves the audit trail even when the inline LILA geojson
+    # build doesn't run (no TIGER tracts on disk).
+    assert "usda-lila-xlsx" in result.manifest.sources

@@ -181,6 +181,21 @@ def load_raw_artifacts(raw_dir: Path, parameters: dict) -> LoadedRaw:
     else:
         notes.append("acs-tract-demographics: acs-tract-de.json not present; CSV pass-through empty; SB 254 stage will flag tracts as income data missing")
 
+    # --- Urbanicity Tier 1 — LILA xlsx `Urban` column (methodology v0.3.1) ---
+    # Computed outside the geo-stack block because the lookup only needs
+    # openpyxl (the xlsx is plain-tabular). The result is then preferred
+    # over the v0.3.0 UAC10 sjoin Tier 2 (computed inside the geo-stack
+    # block, where the spatial join lives) and the v0.2.x county proxy
+    # Tier 3 (fallback inside `_build_tracts_from_gdfs`).
+    lila_xlsx_path = raw_dir / "usda-lila-raw.xlsx"
+    urbanicity_lookup: Optional[dict[str, str]] = None
+    if lila_xlsx_path.exists():
+        candidate = _load_lila_urban_lookup_from_xlsx(
+            lila_xlsx_path, manifest, notes
+        )
+        if candidate:
+            urbanicity_lookup = candidate
+
     # --- Geo-stack reads (TIGER + BG join) ---
     tracts: list[TractInput] = []
     target_tracts_gdf = None
@@ -214,16 +229,18 @@ def load_raw_artifacts(raw_dir: Path, parameters: dict) -> LoadedRaw:
         if weights_bg_gdf is not None and bg_pop_lookup:
             weights_bg_gdf = _attach_bg_pop(weights_bg_gdf, bg_pop_lookup)
 
-        # Urban Areas (UAC10) cross-walk — methodology v0.3.0 refinement.
-        # Replaces the county-level urbanicity proxy (FIPS 10003 → urban,
-        # others → nonurban) with the canonical USDA LILA-aligned
-        # per-tract classification. Falls back to the proxy when the
-        # UAC zip is absent (graceful degradation).
+        # Urbanicity Tier 2 — UAC10 sjoin (v0.3.0 implementation; fallback
+        # when Tier 1 LILA-Urban returned empty). The UAC zip is always
+        # loaded (so the manifest stays stable across runs) but the sjoin
+        # itself is only computed when needed.
         urban_areas_gdf = _load_urban_areas_from_national_tiger(
             raw_dir / "tiger-uac-us.zip", manifest, "tiger-uac", notes
         )
-        urbanicity_lookup: Optional[dict[str, str]] = None
-        if target_tracts_gdf is not None and urban_areas_gdf is not None:
+        if (
+            not urbanicity_lookup
+            and target_tracts_gdf is not None
+            and urban_areas_gdf is not None
+        ):
             urbanicity_lookup = _compute_tract_urbanicity_lookup(
                 target_tracts_gdf, urban_areas_gdf, notes
             )
@@ -256,8 +273,8 @@ def load_raw_artifacts(raw_dir: Path, parameters: dict) -> LoadedRaw:
         # USDA LILA (S+6 transform): if the pre-clipped geojson wasn't found
         # above AND the raw xlsx + TIGER tract geometry are both available,
         # build the clipped geojson inline. openpyxl is the workbook reader;
-        # absent → skip with a diagnostic note.
-        lila_xlsx_path = raw_dir / "usda-lila-raw.xlsx"
+        # absent → skip with a diagnostic note. The xlsx path was resolved
+        # earlier (urbanicity Tier 1).
         if lila_geojson is None and lila_xlsx_path.exists() and target_tracts_gdf is not None:
             built = _build_lila_geojson_from_xlsx(
                 lila_xlsx_path, target_tracts_gdf, notes
@@ -635,6 +652,65 @@ def _load_urban_areas_from_national_tiger(
     _record_source(manifest, name, zip_path)
     notes.append(f"{name}: read {len(gdf)} urban area(s) from {zip_path.name}")
     return gdf
+
+
+def _load_lila_urban_lookup_from_xlsx(
+    xlsx_path: Path, manifest: Manifest, notes: list[str]
+) -> dict[str, str]:
+    """Build a {geoid: 'urban'|'nonurban'} lookup from the LILA xlsx `Urban` column.
+
+    Methodology v0.3.1: the LILA workbook carries USDA's authoritative
+    per-tract urban/nonurban classification (majority population in a
+    2010 urban area). Preferred over the v0.3.0 UAC10 `intersects` sjoin,
+    which is more permissive (any-touch counts).
+
+    Returns {} (silently) when openpyxl is unavailable, the workbook is
+    unreadable, no DE rows are found, or no row carries an Urban column
+    value — the caller falls through to the UAC sjoin (Tier 2) or the
+    county proxy (Tier 3) in that order.
+    """
+    try:
+        import openpyxl  # type: ignore  noqa: F401
+    except ImportError:
+        notes.append(
+            "usda-lila-urban: openpyxl not installed; skipping LILA-Urban lookup"
+        )
+        return {}
+    try:
+        records = _read_lila_xlsx(xlsx_path)
+    except Exception as exc:  # noqa: BLE001
+        notes.append(
+            f"usda-lila-urban: workbook read failed ({type(exc).__name__}: {exc})"
+        )
+        return {}
+    if not records:
+        return {}
+
+    lookup: dict[str, str] = {}
+    for geoid, attrs in records.items():
+        urban_val = attrs.get("Urban")
+        if urban_val is None:
+            continue
+        # USDA LILA Urban column is binary: 1 = majority-population in urban
+        # area, 0 = nonurban. Coerce defensively (xlsx cells sometimes
+        # arrive as float 1.0 / 0.0).
+        lookup[geoid] = "urban" if urban_val >= 1.0 else "nonurban"
+
+    if not lookup:
+        notes.append(
+            f"usda-lila-urban: {xlsx_path.name} parsed but no rows carry "
+            "an Urban column value; falling through to UAC sjoin"
+        )
+        return {}
+
+    _record_source(manifest, "usda-lila-xlsx", xlsx_path)
+    urban_count = sum(1 for v in lookup.values() if v == "urban")
+    notes.append(
+        f"usda-lila-urban: built lookup from {xlsx_path.name} — "
+        f"{urban_count}/{len(lookup)} tract(s) classified urban "
+        "(LILA Urban column; majority-population test)"
+    )
+    return lookup
 
 
 def _compute_tract_urbanicity_lookup(
