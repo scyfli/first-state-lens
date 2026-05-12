@@ -1,11 +1,11 @@
 {
   "cycle_5_status": "pending",
   "etl_version": "0.1.0",
-  "generated_at": "2026-05-12T13:41:18Z",
+  "generated_at": "2026-05-12T13:49:06Z",
   "sources": {
     "dart-gtfs-zip": {
       "http_status": 200,
-      "last_fetched": "2026-05-12T13:39:40Z",
+      "last_fetched": "2026-05-12T13:47:33Z",
       "raw_path": "etl/raw/dart-gtfs.zip",
       "sha256": "922c88e5e85465317ec06919466083d998f6dbc7687fbefa772b73ea3b3200c6",
       "size_bytes": 2792275,
@@ -14,7 +14,7 @@
     },
     "dsb-grants": {
       "http_status": 200,
-      "last_fetched": "2026-05-12T13:39:55Z",
+      "last_fetched": "2026-05-12T13:47:43Z",
       "raw_path": "etl/raw/dsb-grants.json",
       "sha256": "5bdc68f35fb0fb645fb40eddd9bd2b4560d390602b285a35d117d80f51c2940b",
       "size_bytes": 292,
@@ -23,7 +23,7 @@
     },
     "firstmap-sd2": {
       "http_status": 200,
-      "last_fetched": "2026-05-12T13:39:34Z",
+      "last_fetched": "2026-05-12T13:47:31Z",
       "raw_path": "etl/raw/firstmap-sd2.geojson",
       "sha256": "eb87ff05c9f9abc37a916e1a1153527d29123a1ffa47754772189f96eb81c0d3",
       "size_bytes": 80250,
@@ -32,7 +32,7 @@
     },
     "snap-retailers": {
       "http_status": 200,
-      "last_fetched": "2026-05-12T13:39:52Z",
+      "last_fetched": "2026-05-12T13:47:42Z",
       "raw_path": "etl/raw/snap-retailers-de.geojson",
       "sha256": "9ea1ef59fa9244243288bacb8205ce846e88f9c9b4ce4bd9371664c089ec018a",
       "size_bytes": 278502,
@@ -41,7 +41,7 @@
     },
     "tiger-bgs": {
       "http_status": 200,
-      "last_fetched": "2026-05-12T13:39:51Z",
+      "last_fetched": "2026-05-12T13:47:39Z",
       "raw_path": "etl/raw/tiger-bgs-de.zip",
       "sha256": "48fe4c7542072f19ad3b1c6e32e585ef2359d1d16f34889af1be268c052428a0",
       "size_bytes": 1787085,
@@ -50,7 +50,7 @@
     },
     "tiger-counties": {
       "http_status": 200,
-      "last_fetched": "2026-05-12T13:39:52Z",
+      "last_fetched": "2026-05-12T13:47:40Z",
       "raw_path": "etl/raw/tiger-counties-us.zip",
       "sha256": "a490d33145b8cd308b0b53113d4bb31575b84a2b4cf6ec28fa5855be37559d8d",
       "size_bytes": 80644766,
@@ -59,7 +59,7 @@
     },
     "tiger-tracts": {
       "http_status": 200,
-      "last_fetched": "2026-05-12T13:39:51Z",
+      "last_fetched": "2026-05-12T13:47:39Z",
       "raw_path": "etl/raw/tiger-tracts-de.zip",
       "sha256": "35c70303411e99e75d3de2e81fe7afeb4da468a112c46c557266cfdf41b33fb1",
       "size_bytes": 1082789,
@@ -68,7 +68,7 @@
     },
     "tiger-uac": {
       "http_status": 200,
-      "last_fetched": "2026-05-12T13:39:52Z",
+      "last_fetched": "2026-05-12T13:47:41Z",
       "raw_path": "etl/raw/tiger-uac-us.zip",
       "sha256": "abd567130074fe0897c60765ef5b61c4891f9439cb8af1e27520a9187b93bbdc",
       "size_bytes": 86095712,
@@ -77,7 +77,7 @@
     },
     "usda-lila-xlsx": {
       "http_status": 200,
-      "last_fetched": "2026-05-12T13:39:47Z",
+      "last_fetched": "2026-05-12T13:47:38Z",
       "raw_path": "etl/raw/usda-lila-raw.xlsx",
       "sha256": "4faf369a75c0cd45e8707bd23c95f48ad055df3a643f59c3223a52490792daa8",
       "size_bytes": 85803176,
