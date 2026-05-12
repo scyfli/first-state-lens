@@ -303,8 +303,10 @@ def test_run_pipeline_parameters_dump_includes_methodology_version(tmp_path: Pat
     inputs = _toy_inputs()
     run_pipeline(inputs, tmp_path)
     payload = json.loads((tmp_path / "etl-parameters.json").read_text(encoding="utf-8"))
-    # S+4 patch bump: first live-data run; no methodology rule change.
-    assert payload["methodology_version"] == "0.2.1"
+    # Default in run_pipeline() MUST track the vault methodology version
+    # (05-Methodology/DGI-Food-Access-KPI-Definitions.md frontmatter).
+    # Bump this assertion in tandem with every methodology version change.
+    assert payload["methodology_version"] == "0.3.2"
     assert payload["cycle_5_status"] == "pending"
     assert payload["sb254_urban_distance_mi"] == 0.5
 
