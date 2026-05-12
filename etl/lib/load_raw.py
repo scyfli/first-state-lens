@@ -283,8 +283,35 @@ def load_raw_artifacts(raw_dir: Path, parameters: dict) -> LoadedRaw:
                 lila_geojson = built
                 _record_source(manifest, "usda-lila-xlsx", lila_xlsx_path)
 
-    state_mfi_median = float(parameters.get("state_mfi_median", 90116.0))
-    notes.append(f"state_mfi_median: {state_mfi_median} (from parameters.yaml; ACS B19113 DE statewide)")
+    # state_mfi_median — three-tier cascade (methodology v0.3.2 patch):
+    #   Tier 1: live ACS5 B19113 statewide pull (acs-state-mfi-de.json)
+    #   Tier 2: parameters.yaml state_mfi_median (frozen-vintage fallback)
+    #   Tier 3: hardcoded 90116.0 (ACS 2019-2023 5-year B19113 DE statewide)
+    # The cascade preserves graceful degradation: a fresh ACS run shifts
+    # the threshold automatically; absent the live pull, the parameter
+    # holds the line; absent both, the hardcoded value matches what v0.3.1
+    # used. The manifest records `acs-state-mfi` whenever Tier 1 succeeds.
+    state_mfi_path = raw_dir / "acs-state-mfi-de.json"
+    state_mfi_from_acs = _load_state_mfi_from_acs_json(state_mfi_path)
+    if state_mfi_from_acs is not None:
+        state_mfi_median = state_mfi_from_acs
+        _record_source(manifest, "acs-state-mfi", state_mfi_path)
+        notes.append(
+            f"state_mfi_median: {state_mfi_median} "
+            f"(Tier 1 — live ACS B19113 statewide from acs-state-mfi-de.json)"
+        )
+    elif "state_mfi_median" in parameters:
+        state_mfi_median = float(parameters["state_mfi_median"])
+        notes.append(
+            f"state_mfi_median: {state_mfi_median} "
+            f"(Tier 2 — parameters.yaml fallback; vintage frozen)"
+        )
+    else:
+        state_mfi_median = 90116.0
+        notes.append(
+            f"state_mfi_median: {state_mfi_median} "
+            f"(Tier 3 — hardcoded fallback; ACS 2019-2023 5-year B19113 DE statewide)"
+        )
 
     # cycle_5_status: read from DSB output if present, else 'pending'
     cycle_5_status = "pending"
@@ -480,6 +507,46 @@ def _load_acs_tract_demographics(raw: bytes) -> dict[str, dict[str, Optional[flo
 # ---------------------------------------------------------------------------
 # Pass-through bytes loader
 # ---------------------------------------------------------------------------
+
+
+def _load_state_mfi_from_acs_json(path: Path) -> Optional[float]:
+    """Parse Census ACS5 state-level B19113 JSON; return float or None.
+
+    The Census API returns a 2-row matrix: header row + Delaware row.
+    Example:
+        [["NAME","B19113_001E","state"], ["Delaware","90116","10"]]
+
+    Returns None for any of: missing file, malformed JSON, unexpected
+    shape, missing B19113_001E column, null/sentinel estimate. The
+    caller treats None as "tier-1 missed; try tier 2."
+    """
+    if not path.exists():
+        return None
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return None
+    if not isinstance(payload, list) or len(payload) < 2:
+        return None
+    header, row = payload[0], payload[1]
+    if not isinstance(header, list) or "B19113_001E" not in header:
+        return None
+    idx = header.index("B19113_001E")
+    if not isinstance(row, list) or idx >= len(row):
+        return None
+    raw = row[idx]
+    if raw is None:
+        return None
+    try:
+        value = float(raw)
+    except (TypeError, ValueError):
+        return None
+    # Census sentinels for "data not available" — negative values per the
+    # ACS conventions. A real MFI is positive (and well above zero for any
+    # populated state).
+    if value <= 0:
+        return None
+    return value
 
 
 def _load_passthrough(
