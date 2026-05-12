@@ -510,17 +510,24 @@ def run_pipeline(
     inputs: PipelineInputs,
     output_dir: Path,
     *,
-    methodology_version: str = "0.2.1",
+    methodology_version: str = "0.3.2",
     datapackage_version: str = "0.2.1",
     sb254_tracts_geom_lookup: Optional[dict] = None,
     strict: bool = False,
 ) -> PipelineResult:
     """Run the full pipeline end-to-end. Writes outputs to `output_dir`.
 
-    `methodology_version` and `datapackage_version` both default to
-    0.2.1 at S+4 — the first live-data run is a patch bump (data first
-    surfaces; no rule change). Override either when the methodology
-    advances independently of the datapackage.
+    `methodology_version` MUST be bumped in tandem with every change
+    to `05-Methodology/DGI-Food-Access-KPI-Definitions.md` in the vault
+    (the audit-trail source of truth). The CLI does not currently expose
+    `--methodology-version`, so the default here is what production
+    `etl-parameters.json` stamps. Drift between this default and the
+    vault methodology version is the bug pattern surfaced in session-24
+    (production stamped `0.2.1` for v0.2.2/v0.3.0/v0.3.1/v0.3.2 runs).
+
+    `datapackage_version` tracks the Frictionless tabular schemas
+    independently; it does not need to advance every time the
+    methodology rules change.
 
     When `strict=True` (the CLI default for live runs), the datapackage
     writer raises on any missing output file. Lenient mode (False) is
