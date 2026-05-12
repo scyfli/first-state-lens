@@ -32,6 +32,7 @@ from etl.lib.load_raw import (
     _gtfs_routes_by_shape,
     _load_acs_tract_demographics,
     _load_lila_urban_lookup_from_xlsx,
+    _load_state_mfi_from_acs_json,
     _normalize_lila_tract,
     _read_lila_xlsx,
     load_raw_artifacts,
@@ -190,6 +191,87 @@ def test_load_raw_state_mfi_median_default(tmp_path: Path) -> None:
     """When parameters omit state_mfi_median, loader falls back to a sane default."""
     result = load_raw_artifacts(tmp_path, {})
     assert result.state_mfi_median == pytest.approx(90116.0)
+
+
+# ---------------------------------------------------------------------------
+# v0.3.2 — live state_mfi_median from ACS B19113 statewide (Tier 1 cascade)
+# ---------------------------------------------------------------------------
+
+
+def _write_acs_state_mfi_json(path: Path, estimate: object) -> None:
+    """Write a Census-API-shaped state-level B19113 response."""
+    payload = [
+        ["NAME", "B19113_001E", "state"],
+        ["Delaware", estimate, "10"],
+    ]
+    path.write_text(json.dumps(payload), encoding="utf-8")
+
+
+def test_load_state_mfi_from_acs_json_happy_path(tmp_path: Path) -> None:
+    path = tmp_path / "acs-state-mfi-de.json"
+    _write_acs_state_mfi_json(path, "92500")
+    assert _load_state_mfi_from_acs_json(path) == pytest.approx(92500.0)
+
+
+def test_load_state_mfi_from_acs_json_missing_file(tmp_path: Path) -> None:
+    assert _load_state_mfi_from_acs_json(tmp_path / "nope.json") is None
+
+
+def test_load_state_mfi_from_acs_json_malformed_json(tmp_path: Path) -> None:
+    path = tmp_path / "bad.json"
+    path.write_text("not json at all", encoding="utf-8")
+    assert _load_state_mfi_from_acs_json(path) is None
+
+
+def test_load_state_mfi_from_acs_json_missing_column(tmp_path: Path) -> None:
+    path = tmp_path / "acs-state-mfi-de.json"
+    path.write_text(
+        json.dumps([["NAME", "state"], ["Delaware", "10"]]), encoding="utf-8"
+    )
+    assert _load_state_mfi_from_acs_json(path) is None
+
+
+def test_load_state_mfi_from_acs_json_null_estimate(tmp_path: Path) -> None:
+    path = tmp_path / "acs-state-mfi-de.json"
+    _write_acs_state_mfi_json(path, None)
+    assert _load_state_mfi_from_acs_json(path) is None
+
+
+def test_load_state_mfi_from_acs_json_negative_sentinel(tmp_path: Path) -> None:
+    """Census uses negative values as 'data not available' sentinels."""
+    path = tmp_path / "acs-state-mfi-de.json"
+    _write_acs_state_mfi_json(path, "-666666666")
+    assert _load_state_mfi_from_acs_json(path) is None
+
+
+def test_load_state_mfi_from_acs_json_non_numeric(tmp_path: Path) -> None:
+    path = tmp_path / "acs-state-mfi-de.json"
+    _write_acs_state_mfi_json(path, "not-a-number")
+    assert _load_state_mfi_from_acs_json(path) is None
+
+
+def test_load_raw_state_mfi_tier1_live_acs_wins_over_parameters(tmp_path: Path) -> None:
+    """Tier 1 (live ACS) takes precedence over Tier 2 (parameters)."""
+    _write_acs_state_mfi_json(tmp_path / "acs-state-mfi-de.json", "93750")
+    result = load_raw_artifacts(tmp_path, {"state_mfi_median": 88000.0})
+    assert result.state_mfi_median == pytest.approx(93750.0)
+    assert "acs-state-mfi" in result.manifest.sources
+
+
+def test_load_raw_state_mfi_tier1_malformed_falls_back_to_parameters(tmp_path: Path) -> None:
+    """Tier 1 malformed -> Tier 2 (parameters); manifest does NOT record acs-state-mfi."""
+    (tmp_path / "acs-state-mfi-de.json").write_text("garbage", encoding="utf-8")
+    result = load_raw_artifacts(tmp_path, {"state_mfi_median": 88000.0})
+    assert result.state_mfi_median == pytest.approx(88000.0)
+    assert "acs-state-mfi" not in result.manifest.sources
+
+
+def test_load_raw_state_mfi_tier1_malformed_no_params_falls_back_to_default(tmp_path: Path) -> None:
+    """Tier 1 malformed + no Tier 2 -> Tier 3 (hardcoded 90116)."""
+    (tmp_path / "acs-state-mfi-de.json").write_text("garbage", encoding="utf-8")
+    result = load_raw_artifacts(tmp_path, {})
+    assert result.state_mfi_median == pytest.approx(90116.0)
+    assert "acs-state-mfi" not in result.manifest.sources
 
 
 # ---------------------------------------------------------------------------

@@ -626,6 +626,7 @@ def _pull_all_sources(raw_dir: Path, parameters: dict) -> list[str]:
     from etl.sources import (
         census_acs,
         census_acs_bg,
+        census_acs_state,
         census_uac,
         dart_gtfs,
         dsb_grants,
@@ -644,6 +645,7 @@ def _pull_all_sources(raw_dir: Path, parameters: dict) -> list[str]:
         ("dart_gtfs", dart_gtfs.pull, {}),
         ("census_acs_tracts", census_acs.pull, {}),
         ("census_acs_bgs", census_acs_bg.pull, {}),
+        ("census_acs_state", census_acs_state.pull, {}),  # methodology v0.3.2
         ("mmg_food_insecurity", mmg_food_insecurity.pull, {}),
         ("usda_lila", usda_lila.pull, {}),
         ("tiger_tracts", tiger_tracts.pull, {}),
