@@ -22,7 +22,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.04389453527765503,
         "mfi": 171014.0,
-        "mfi_ratio_to_state": 1.897709618713658
+        "mfi_ratio_to_state": 1.6730157798452343
       }
     },
     {
@@ -46,7 +46,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.011825785982117105,
         "mfi": 150634.0,
-        "mfi_ratio_to_state": 1.6715566603044965
+        "mfi_ratio_to_state": 1.4736399299543137
       }
     },
     {
@@ -70,7 +70,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.116366258111031,
         "mfi": 92642.0,
-        "mfi_ratio_to_state": 1.0280305384171513
+        "mfi_ratio_to_state": 0.9063090032185798
       }
     },
     {
@@ -94,7 +94,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.030357142857142857,
         "mfi": 149137.0,
-        "mfi_ratio_to_state": 1.654944737893382
+        "mfi_ratio_to_state": 1.4589949031002065
       }
     },
     {
@@ -118,7 +118,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.003701418877236274,
         "mfi": 142486.0,
-        "mfi_ratio_to_state": 1.5811398641750634
+        "mfi_ratio_to_state": 1.3939287216662264
       }
     },
     {
@@ -142,7 +142,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.05560165975103734,
         "mfi": 135771.0,
-        "mfi_ratio_to_state": 1.5066247947090416
+        "mfi_ratio_to_state": 1.328236433539753
       }
     },
     {
@@ -166,7 +166,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.0014506769825918763,
         "mfi": 162856.0,
-        "mfi_ratio_to_state": 1.8071818544986462
+        "mfi_ratio_to_state": 1.5932067423864449
       }
     },
     {
@@ -190,7 +190,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.051112741501589634,
         "mfi": 90870.0,
-        "mfi_ratio_to_state": 1.0083669936526256
+        "mfi_ratio_to_state": 0.888973674170164
       }
     },
     {
@@ -214,7 +214,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.08535630383711824,
         "mfi": 102778.0,
-        "mfi_ratio_to_state": 1.1405077899596077
+        "mfi_ratio_to_state": 1.0054686506422486
       }
     },
     {
@@ -238,7 +238,7 @@
         "low_income_reason": "poverty>=0.20",
         "poverty_rate": 0.29720853858784896,
         "mfi": 88617.0,
-        "mfi_ratio_to_state": 0.9833658839717697
+        "mfi_ratio_to_state": 0.8669327620109765
       }
     },
     {
@@ -262,7 +262,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.07818707114481763,
         "mfi": 96379.0,
-        "mfi_ratio_to_state": 1.0694993119978695
+        "mfi_ratio_to_state": 0.942867764309962
       }
     },
     {
@@ -286,7 +286,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.1124330755502677,
         "mfi": 86713.0,
-        "mfi_ratio_to_state": 0.9622375604776067
+        "mfi_ratio_to_state": 0.8483060879092927
       }
     },
     {
@@ -310,7 +310,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.03515798842901647,
         "mfi": 113583.0,
-        "mfi_ratio_to_state": 1.2604088064272716
+        "mfi_ratio_to_state": 1.111173069585889
       }
     },
     {
@@ -334,7 +334,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.05059704513256426,
         "mfi": 168750.0,
-        "mfi_ratio_to_state": 1.8725864441386657
+        "mfi_ratio_to_state": 1.6508672555982742
       }
     },
     {
@@ -358,7 +358,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.018150939390722855,
         "mfi": 156797.0,
-        "mfi_ratio_to_state": 1.73994629144658
+        "mfi_ratio_to_state": 1.5339320478580303
       }
     },
     {
@@ -382,7 +382,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.16056960471397005,
         "mfi": 88854.0,
-        "mfi_ratio_to_state": 0.9859958275999823
+        "mfi_ratio_to_state": 0.8692513133566167
       }
     },
     {
@@ -406,7 +406,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.058217962371317,
         "mfi": 93153.0,
-        "mfi_ratio_to_state": 1.033701007590217
+        "mfi_ratio_to_state": 0.9113080738414581
       }
     },
     {
@@ -430,7 +430,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.037920489296636085,
         "mfi": 136563.0,
-        "mfi_ratio_to_state": 1.5154134670868658
+        "mfi_ratio_to_state": 1.3359845038593607
       }
     },
     {
@@ -454,7 +454,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.0040625,
         "mfi": 223636.0,
-        "mfi_ratio_to_state": 2.4816458786453017
+        "mfi_ratio_to_state": 2.18781244191393
       }
     },
     {
@@ -478,7 +478,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.08693733451015004,
         "mfi": 181607.0,
-        "mfi_ratio_to_state": 2.015258111767056
+        "mfi_ratio_to_state": 1.77664622036999
       }
     },
     {
@@ -502,7 +502,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.08909641595153962,
         "mfi": 82673.0,
-        "mfi_ratio_to_state": 0.9174064539038572
+        "mfi_ratio_to_state": 0.8087831029456364
       }
     },
     {
@@ -526,7 +526,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.12317460317460317,
         "mfi": 105434.0,
-        "mfi_ratio_to_state": 1.1699809134892805
+        "mfi_ratio_to_state": 1.0314520783807315
       }
     },
     {
@@ -550,7 +550,7 @@
         "low_income_reason": "poverty>=0.20",
         "poverty_rate": 0.3183209444687363,
         "mfi": 55625.0,
-        "mfi_ratio_to_state": 0.6172599760308936
+        "mfi_ratio_to_state": 0.5441747620305423
       }
     },
     {
@@ -574,7 +574,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.12113676731793961,
         "mfi": 110759.0,
-        "mfi_ratio_to_state": 1.2290714190598784
+        "mfi_ratio_to_state": 1.0835461117796104
       }
     },
     {
@@ -598,7 +598,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.1914349632470438,
         "mfi": 226250.0,
-        "mfi_ratio_to_state": 2.5106529362155445
+        "mfi_ratio_to_state": 2.213384987135464
       }
     },
     {
@@ -622,7 +622,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.032420940738772254,
         "mfi": 247500.0,
-        "mfi_ratio_to_state": 2.746460118070043
+        "mfi_ratio_to_state": 2.421271974877469
       }
     },
     {
@@ -646,7 +646,7 @@
         "low_income_reason": "poverty>=0.20",
         "poverty_rate": 0.3029871977240398,
         "mfi": 78229.0,
-        "mfi_ratio_to_state": 0.8680922366727329
+        "mfi_ratio_to_state": 0.7653078194856142
       }
     },
     {
@@ -670,7 +670,7 @@
         "low_income_reason": "poverty>=0.20",
         "poverty_rate": 0.31143552311435524,
         "mfi": 54643.0,
-        "mfi_ratio_to_state": 0.6063629100270762
+        "mfi_ratio_to_state": 0.5345679374675941
       }
     },
     {
@@ -694,7 +694,7 @@
         "low_income_reason": "poverty>=0.20",
         "poverty_rate": 0.2505175983436853,
         "mfi": 53496.0,
-        "mfi_ratio_to_state": 0.5936348706112122
+        "mfi_ratio_to_state": 0.5233469315880609
       }
     },
     {
@@ -718,7 +718,7 @@
         "low_income_reason": "poverty>=0.20",
         "poverty_rate": 0.25280512937943667,
         "mfi": 49025.0,
-        "mfi_ratio_to_state": 0.5440210395490257
+        "mfi_ratio_to_state": 0.4796075093671431
       }
     },
     {
@@ -742,7 +742,7 @@
         "low_income_reason": "poverty>=0.20",
         "poverty_rate": 0.2597535934291581,
         "mfi": 152656.0,
-        "mfi_ratio_to_state": 1.693994407208487
+        "mfi_ratio_to_state": 1.4934209882702825
       }
     },
     {
@@ -766,7 +766,7 @@
         "low_income_reason": "poverty>=0.20",
         "poverty_rate": 0.2803337306317044,
         "mfi": 59938.0,
-        "mfi_ratio_to_state": 0.6651205113409383
+        "mfi_ratio_to_state": 0.5863684833543666
       }
     },
     {
@@ -790,7 +790,7 @@
         "low_income_reason": "mfi_ratio<=0.80",
         "poverty_rate": 0.15615615615615616,
         "mfi": 70797.0,
-        "mfi_ratio_to_state": 0.7856207554707266
+        "mfi_ratio_to_state": 0.6926011798197986
       }
     },
     {
@@ -814,7 +814,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.03147017379051198,
         "mfi": 130179.0,
-        "mfi_ratio_to_state": 1.4445714412534956
+        "mfi_ratio_to_state": 1.2735303612831275
       }
     },
     {
@@ -838,7 +838,7 @@
         "low_income_reason": "poverty>=0.20",
         "poverty_rate": 0.20463576158940397,
         "mfi": 75972.0,
-        "mfi_ratio_to_state": 0.8430467397576457
+        "mfi_ratio_to_state": 0.7432277756581458
       }
     },
     {
@@ -862,7 +862,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.07030445653772614,
         "mfi": 170215.0,
-        "mfi_ratio_to_state": 1.8888432686759289
+        "mfi_ratio_to_state": 1.6651992291061348
       }
     },
     {
@@ -886,7 +886,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.015348288075560802,
         "mfi": 167625.0,
-        "mfi_ratio_to_state": 1.8601025345110747
+        "mfi_ratio_to_state": 1.6398614738942858
       }
     },
     {
@@ -910,7 +910,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.09651639344262294,
         "mfi": 108690.0,
-        "mfi_ratio_to_state": 1.2061121221536686
+        "mfi_ratio_to_state": 1.0633052563613419
       }
     },
     {
@@ -934,7 +934,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.06343843843843844,
         "mfi": 126188.0,
-        "mfi_ratio_to_state": 1.400284078299081
+        "mfi_ratio_to_state": 1.2344867392559113
       }
     },
     {
@@ -958,7 +958,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.04033169996230682,
         "mfi": 127375.0,
-        "mfi_ratio_to_state": 1.4134559900572596
+        "mfi_ratio_to_state": 1.246099061818253
       }
     },
     {
@@ -982,7 +982,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.04328636903751485,
         "mfi": 97309.0,
-        "mfi_ratio_to_state": 1.0798193439566781
+        "mfi_ratio_to_state": 0.951965877185259
       }
     },
     {
@@ -1006,7 +1006,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.14791288566243194,
         "mfi": 102111.0,
-        "mfi_ratio_to_state": 1.1331062186515157
+        "mfi_ratio_to_state": 0.9989434449564171
       }
     },
     {
@@ -1030,7 +1030,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.04039301310043668,
         "mfi": 183750.0,
-        "mfi_ratio_to_state": 2.039038572506547
+        "mfi_ratio_to_state": 1.7976110116514543
       }
     },
     {
@@ -1054,7 +1054,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.03877630553390491,
         "mfi": 160329.0,
-        "mfi_ratio_to_state": 1.779140219272937
+        "mfi_ratio_to_state": 1.568485310950019
       }
     },
     {
@@ -1078,7 +1078,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.13333333333333333,
         "mfi": 241250.0,
-        "mfi_ratio_to_state": 2.677105064583426
+        "mfi_ratio_to_state": 2.360128743188644
       }
     },
     {
@@ -1102,7 +1102,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.029607568325157672,
         "mfi": 164464.0,
-        "mfi_ratio_to_state": 1.825025522659683
+        "mfi_ratio_to_state": 1.6089376730353457
       }
     },
     {
@@ -1126,7 +1126,7 @@
         "low_income_reason": "mfi_ratio<=0.80",
         "poverty_rate": 0.16900205058099796,
         "mfi": 71476.0,
-        "mfi_ratio_to_state": 0.7931554884815127
+        "mfi_ratio_to_state": 0.6992437805104726
       }
     },
     {
@@ -1150,7 +1150,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.12791591899512944,
         "mfi": 91492.0,
-        "mfi_ratio_to_state": 1.0152692085756136
+        "mfi_ratio_to_state": 0.8950586485878359
       }
     },
     {
@@ -1174,7 +1174,7 @@
         "low_income_reason": "poverty>=0.20",
         "poverty_rate": 0.6288617886178862,
         "mfi": 111111.0,
-        "mfi_ratio_to_state": 1.2329774956722446
+        "mfi_ratio_to_state": 1.0869896985883252
       }
     },
     {
@@ -1198,7 +1198,7 @@
         "low_income_reason": "poverty>=0.20",
         "poverty_rate": 0.20066889632107024,
         "mfi": 93565.0,
-        "mfi_ratio_to_state": 1.038272892716055
+        "mfi_ratio_to_state": 0.9153386356743853
       }
     },
     {
@@ -1222,7 +1222,7 @@
         "low_income_reason": "poverty>=0.20",
         "poverty_rate": 0.21372031662269128,
         "mfi": 96220.0,
-        "mfi_ratio_to_state": 1.06773491943717
+        "mfi_ratio_to_state": 0.9413122804957983
       }
     },
     {
@@ -1246,7 +1246,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.06956741715153049,
         "mfi": 82500.0,
-        "mfi_ratio_to_state": 0.9154867060233477
+        "mfi_ratio_to_state": 0.8070906582924896
       }
     },
     {
@@ -1270,7 +1270,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.12384259259259259,
         "mfi": 90850.0,
-        "mfi_ratio_to_state": 1.0081450574814683
+        "mfi_ratio_to_state": 0.8887780158287598
       }
     },
     {
@@ -1290,11 +1290,11 @@
         "population_total": 5598,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": false,
-        "low_income_reason": null,
+        "low_income": true,
+        "low_income_reason": "mfi_ratio<=0.80",
         "poverty_rate": 0.10356045544912344,
         "mfi": 80545.0,
-        "mfi_ratio_to_state": 0.8937924452927338
+        "mfi_ratio_to_state": 0.7879650554202252
       }
     },
     {
@@ -1318,7 +1318,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.13104948341489941,
         "mfi": 87833.0,
-        "mfi_ratio_to_state": 0.9746659860624084
+        "mfi_ratio_to_state": 0.8592629550279303
       }
     },
     {
@@ -1342,7 +1342,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.03858921161825726,
         "mfi": 176250.0,
-        "mfi_ratio_to_state": 1.9558125083226063
+        "mfi_ratio_to_state": 1.7242391336248644
       }
     },
     {
@@ -1366,7 +1366,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.013899230578307272,
         "mfi": 157096.0,
-        "mfi_ratio_to_state": 1.7432642372053797
+        "mfi_ratio_to_state": 1.5368571400620237
       }
     },
     {
@@ -1390,7 +1390,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.07287259050305595,
         "mfi": 150286.0,
-        "mfi_ratio_to_state": 1.6676949709263615
+        "mfi_ratio_to_state": 1.47023547481388
       }
     },
     {
@@ -1414,7 +1414,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.19937150837988826,
         "mfi": 134792.0,
-        "mfi_ratio_to_state": 1.4957610191308979
+        "mfi_ratio_to_state": 1.3186589577280154
       }
     },
     {
@@ -1438,7 +1438,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.015362798392814937,
         "mfi": 250001.0,
-        "mfi_ratio_to_state": 2.7742132362732477
+        "mfi_ratio_to_state": 2.445739050470069
       }
     },
     {
@@ -1462,7 +1462,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.11604010025062657,
         "mfi": 126250.0,
-        "mfi_ratio_to_state": 1.4009720804296684
+        "mfi_ratio_to_state": 1.2350932801142644
       }
     },
     {
@@ -1486,7 +1486,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.08619246861924686,
         "mfi": 125887.0,
-        "mfi_ratio_to_state": 1.3969439389231657
+        "mfi_ratio_to_state": 1.2315420812177775
       }
     },
     {
@@ -1510,7 +1510,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.022238336959149143,
         "mfi": 169107.0,
-        "mfi_ratio_to_state": 1.8765480047938212
+        "mfi_ratio_to_state": 1.65435975699234
       }
     },
     {
@@ -1534,7 +1534,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.018025078369905956,
         "mfi": 147171.0,
-        "mfi_ratio_to_state": 1.6331284122686316
+        "mfi_ratio_to_state": 1.4397616881401696
       }
     },
     {
@@ -1558,7 +1558,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.043478260869565216,
         "mfi": 138129.0,
-        "mfi_ratio_to_state": 1.5327910692884725
+        "mfi_ratio_to_state": 1.3513045519913127
       }
     },
     {
@@ -1626,11 +1626,11 @@
         "population_total": 6619,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": false,
-        "low_income_reason": null,
+        "low_income": true,
+        "low_income_reason": "mfi_ratio<=0.80",
         "poverty_rate": 0.12010877776099109,
         "mfi": 77396.0,
-        "mfi_ratio_to_state": 0.8588485951440366
+        "mfi_ratio_to_state": 0.7571586495661277
       }
     },
     {
@@ -1650,11 +1650,11 @@
         "population_total": 2327,
         "population_underserved": 793,
         "underserved_share": 0.3407821229050279,
-        "low_income": false,
-        "low_income_reason": null,
+        "low_income": true,
+        "low_income_reason": "mfi_ratio<=0.80",
         "poverty_rate": 0.11731843575418995,
         "mfi": 77589.0,
-        "mfi_ratio_to_state": 0.8609902791957034
+        "mfi_ratio_to_state": 0.7590467525606786
       }
     },
     {
@@ -1678,7 +1678,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.09483086278981376,
         "mfi": 94837.0,
-        "mfi_ratio_to_state": 1.0523880332016513
+        "mfi_ratio_to_state": 0.9277825061876951
       }
     },
     {
@@ -1702,7 +1702,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.17357453629493932,
         "mfi": 85817.0,
-        "mfi_ratio_to_state": 0.9522948200097652
+        "mfi_ratio_to_state": 0.8395405942143829
       }
     },
     {
@@ -1726,7 +1726,7 @@
         "low_income_reason": "mfi_ratio<=0.80",
         "poverty_rate": 0.08569051580698835,
         "mfi": 58750.0,
-        "mfi_ratio_to_state": 0.6519375027742021
+        "mfi_ratio_to_state": 0.5747463778749548
       }
     },
     {
@@ -1750,7 +1750,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.04313000616142945,
         "mfi": 89621.0,
-        "mfi_ratio_to_state": 0.9945070797638599
+        "mfi_ratio_to_state": 0.8767548107494693
       }
     },
     {
@@ -1774,7 +1774,7 @@
         "low_income_reason": "mfi_ratio<=0.80",
         "poverty_rate": 0.13268892794376097,
         "mfi": 58542.0,
-        "mfi_ratio_to_state": 0.6496293665941675
+        "mfi_ratio_to_state": 0.5727115311243507
       }
     },
     {
@@ -1798,7 +1798,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.11726934775261913,
         "mfi": 90293.0,
-        "mfi_ratio_to_state": 1.001964135114741
+        "mfi_ratio_to_state": 0.8833289310206517
       }
     },
     {
@@ -1822,7 +1822,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.04750261962975899,
         "mfi": 100368.0,
-        "mfi_ratio_to_state": 1.113764481335168
+        "mfi_ratio_to_state": 0.9818918205030376
       }
     },
     {
@@ -1846,7 +1846,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.02590909090909091,
         "mfi": 124005.0,
-        "mfi_ratio_to_state": 1.3760597452172756
+        "mfi_ratio_to_state": 1.2131306312916386
       }
     },
     {
@@ -1870,7 +1870,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.11856014987287569,
         "mfi": 88426.0,
-        "mfi_ratio_to_state": 0.9812463935372187
+        "mfi_ratio_to_state": 0.8650642248505659
       }
     },
     {
@@ -1894,7 +1894,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.07163214896446893,
         "mfi": 93144.0,
-        "mfi_ratio_to_state": 1.0336011363131963
+        "mfi_ratio_to_state": 0.9112200275878262
       }
     },
     {
@@ -1914,11 +1914,11 @@
         "population_total": 4283,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": false,
-        "low_income_reason": null,
+        "low_income": true,
+        "low_income_reason": "mfi_ratio<=0.80",
         "poverty_rate": 0.19589073079617092,
         "mfi": 80455.0,
-        "mfi_ratio_to_state": 0.8927937325225265
+        "mfi_ratio_to_state": 0.7870845928839061
       }
     },
     {
@@ -1942,7 +1942,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.07169179229480736,
         "mfi": 100175.0,
-        "mfi_ratio_to_state": 1.1116227972835013
+        "mfi_ratio_to_state": 0.9800037175084867
       }
     },
     {
@@ -1962,11 +1962,11 @@
         "population_total": 4138,
         "population_underserved": 1665,
         "underserved_share": 0.402368293861769,
-        "low_income": false,
-        "low_income_reason": null,
+        "low_income": true,
+        "low_income_reason": "mfi_ratio<=0.80",
         "poverty_rate": 0.1125370187561698,
         "mfi": 79844.0,
-        "mfi_ratio_to_state": 0.8860135824936748
+        "mfi_ratio_to_state": 0.7811072305540065
       }
     },
     {
@@ -1990,7 +1990,7 @@
         "low_income_reason": "mfi_ratio<=0.80",
         "poverty_rate": 0.14355673709248637,
         "mfi": 67750.0,
-        "mfi_ratio_to_state": 0.751808779794931
+        "mfi_ratio_to_state": 0.6627926315068627
       }
     },
     {
@@ -2014,7 +2014,7 @@
         "low_income_reason": "poverty>=0.20",
         "poverty_rate": 0.35169699950811606,
         "mfi": 34788.0,
-        "mfi_ratio_to_state": 0.38603577611079054
+        "mfi_ratio_to_state": 0.34032811903853494
       }
     },
     {
@@ -2038,7 +2038,7 @@
         "low_income_reason": "poverty>=0.20",
         "poverty_rate": 0.24134445286833459,
         "mfi": 69102.0,
-        "mfi_ratio_to_state": 0.7668116649651561
+        "mfi_ratio_to_state": 0.6760191353857893
       }
     },
     {
@@ -2062,7 +2062,7 @@
         "low_income_reason": "poverty>=0.20",
         "poverty_rate": 0.4887052341597796,
         "mfi": 45800.0,
-        "mfi_ratio_to_state": 0.5082338319499312
+        "mfi_ratio_to_state": 0.4480576018157094
       }
     },
     {
@@ -2086,7 +2086,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.09073987901349465,
         "mfi": 93631.0,
-        "mfi_ratio_to_state": 1.0390052820808735
+        "mfi_ratio_to_state": 0.9159843082010194
       }
     },
     {
@@ -2110,7 +2110,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.07495835646862854,
         "mfi": 108942.0,
-        "mfi_ratio_to_state": 1.208908517910249
+        "mfi_ratio_to_state": 1.0657705514630353
       }
     },
     {
@@ -2134,7 +2134,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.08833487226839028,
         "mfi": 83207.0,
-        "mfi_ratio_to_state": 0.9233321496737539
+        "mfi_ratio_to_state": 0.8140071806611295
       }
     },
     {
@@ -2158,7 +2158,7 @@
         "low_income_reason": "poverty>=0.20",
         "poverty_rate": 0.229933819786187,
         "mfi": 79044.0,
-        "mfi_ratio_to_state": 0.8771361356473878
+        "mfi_ratio_to_state": 0.773280896897837
       }
     },
     {
@@ -2182,7 +2182,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.04606060606060606,
         "mfi": 92531.0,
-        "mfi_ratio_to_state": 1.0267987926672288
+        "mfi_ratio_to_state": 0.9052230994237862
       }
     },
     {
@@ -2202,11 +2202,11 @@
         "population_total": 3533,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": false,
-        "low_income_reason": null,
+        "low_income": true,
+        "low_income_reason": "mfi_ratio<=0.80",
         "poverty_rate": 0.13954146617605434,
         "mfi": 81000.0,
-        "mfi_ratio_to_state": 0.8988414931865596
+        "mfi_ratio_to_state": 0.7924162826871717
       }
     },
     {
@@ -2230,7 +2230,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.045888232621535664,
         "mfi": 96990.0,
-        "mfi_ratio_to_state": 1.076279462026721
+        "mfi_ratio_to_state": 0.9488451266398614
       }
     },
     {
@@ -2254,7 +2254,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.14366595895258316,
         "mfi": 82991.0,
-        "mfi_ratio_to_state": 0.9209352390252563
+        "mfi_ratio_to_state": 0.8118940705739638
       }
     },
     {
@@ -2278,7 +2278,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.09732524162733198,
         "mfi": 82762.0,
-        "mfi_ratio_to_state": 0.9183940698655066
+        "mfi_ratio_to_state": 0.8096537825648852
       }
     },
     {
@@ -2302,7 +2302,7 @@
         "low_income_reason": "mfi_ratio<=0.80",
         "poverty_rate": 0.14120541205412054,
         "mfi": 65700.0,
-        "mfi_ratio_to_state": 0.7290603222513206
+        "mfi_ratio_to_state": 0.6427376515129282
       }
     },
     {
@@ -2326,7 +2326,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.046368265880461,
         "mfi": 99040.0,
-        "mfi_ratio_to_state": 1.0990279195703316
+        "mfi_ratio_to_state": 0.9689001066337961
       }
     },
     {
@@ -2350,7 +2350,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.10399478940512376,
         "mfi": 91875.0,
-        "mfi_ratio_to_state": 1.0195192862532736
+        "mfi_ratio_to_state": 0.8988055058257272
       }
     },
     {
@@ -2374,7 +2374,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.04952414522382799,
         "mfi": 100489.0,
-        "mfi_ratio_to_state": 1.1151071951706688
+        "mfi_ratio_to_state": 0.9830755534685333
       }
     },
     {
@@ -2398,7 +2398,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.07857459052678176,
         "mfi": 90556.0,
-        "mfi_ratio_to_state": 1.004882595765458
+        "mfi_ratio_to_state": 0.8859018382101175
       }
     },
     {
@@ -2422,7 +2422,7 @@
         "low_income_reason": "poverty>=0.20",
         "poverty_rate": 0.21769211761798862,
         "mfi": 68083.0,
-        "mfi_ratio_to_state": 0.7555040170446979
+        "mfi_ratio_to_state": 0.6660503428912433
       }
     },
     {
@@ -2446,7 +2446,7 @@
         "low_income_reason": "poverty>=0.20",
         "poverty_rate": 0.2617671345995045,
         "mfi": 59700.0,
-        "mfi_ratio_to_state": 0.6624794709041679
+        "mfi_ratio_to_state": 0.5840401490916561
       }
     },
     {
@@ -2470,7 +2470,7 @@
         "low_income_reason": "poverty>=0.20",
         "poverty_rate": 0.34219269102990035,
         "mfi": 62224.0,
-        "mfi_ratio_to_state": 0.6904878157042035
+        "mfi_ratio_to_state": 0.6087322317768712
       }
     },
     {
@@ -2494,7 +2494,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.0596752961825362,
         "mfi": 86836.0,
-        "mfi_ratio_to_state": 0.9636024679302233
+        "mfi_ratio_to_state": 0.8495093867089288
       }
     },
     {
@@ -2518,7 +2518,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.06066176470588235,
         "mfi": 123958.0,
-        "mfi_ratio_to_state": 1.375538195215056
+        "mfi_ratio_to_state": 1.2126708341893386
       }
     },
     {
@@ -2542,7 +2542,7 @@
         "low_income_reason": "poverty>=0.20",
         "poverty_rate": 0.3600258314497901,
         "mfi": 41714.0,
-        "mfi_ratio_to_state": 0.4628922721825203
+        "mfi_ratio_to_state": 0.40808460266682317
       }
     },
     {
@@ -2566,7 +2566,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.013546112451289664,
         "mfi": 163938.0,
-        "mfi_ratio_to_state": 1.8191886013582494
+        "mfi_ratio_to_state": 1.6037918586564142
       }
     },
     {
@@ -2590,7 +2590,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.012824336415150612,
         "mfi": 161827.0,
-        "mfi_ratio_to_state": 1.7957632384926094
+        "mfi_ratio_to_state": 1.5831401207211966
       }
     },
     {
@@ -2614,7 +2614,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.13278688524590163,
         "mfi": 116678.0,
-        "mfi_ratio_to_state": 1.2947534289138445
+        "mfi_ratio_to_state": 1.1414511979181952
       }
     },
     {
@@ -2638,7 +2638,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.09113844213181961,
         "mfi": 125240.0,
-        "mfi_ratio_to_state": 1.389764303786231
+        "mfi_ratio_to_state": 1.2252125338733504
       }
     },
     {
@@ -2662,7 +2662,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.054110543427775194,
         "mfi": 218958.0,
-        "mfi_ratio_to_state": 2.4297350082116385
+        "mfi_ratio_to_state": 2.142047955859478
       }
     },
     {
@@ -2686,7 +2686,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.016659024912119822,
         "mfi": 166372.0,
-        "mfi_ratio_to_state": 1.8461982333880775
+        "mfi_ratio_to_state": 1.6276034788053102
       }
     },
     {
@@ -2710,7 +2710,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.025759416767922236,
         "mfi": 139438.0,
-        "mfi_ratio_to_state": 1.5473167916907098
+        "mfi_ratio_to_state": 1.3641103904362202
       }
     },
     {
@@ -2734,7 +2734,7 @@
         "low_income_reason": "poverty>=0.20",
         "poverty_rate": 0.24704391891891891,
         "mfi": 62917.0,
-        "mfi_ratio_to_state": 0.6981779040347996
+        "mfi_ratio_to_state": 0.6155117933065282
       }
     },
     {
@@ -2782,7 +2782,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.03186646433990895,
         "mfi": 90833.0,
-        "mfi_ratio_to_state": 1.0079564117359847
+        "mfi_ratio_to_state": 0.8886117062385662
       }
     },
     {
@@ -2806,7 +2806,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.08774038461538461,
         "mfi": 100868.0,
-        "mfi_ratio_to_state": 1.1193128856140975
+        "mfi_ratio_to_state": 0.9867832790381436
       }
     },
     {
@@ -2826,11 +2826,11 @@
         "population_total": 3171,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": false,
-        "low_income_reason": null,
+        "low_income": true,
+        "low_income_reason": "mfi_ratio<=0.80",
         "poverty_rate": 0.050141911069063384,
         "mfi": 72146.0,
-        "mfi_ratio_to_state": 0.8005903502152781
+        "mfi_ratio_to_state": 0.7057983349475146
       }
     },
     {
@@ -2854,7 +2854,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.0435226113566814,
         "mfi": 117401.0,
-        "mfi_ratio_to_state": 1.3027764215011763
+        "mfi_ratio_to_state": 1.1485242469599586
       }
     },
     {
@@ -2878,7 +2878,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.0026068821689259644,
         "mfi": 90450.0,
-        "mfi_ratio_to_state": 1.0037063340583248
+        "mfi_ratio_to_state": 0.884864849000675
       }
     },
     {
@@ -2902,7 +2902,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.023095484315753187,
         "mfi": 109464.0,
-        "mfi_ratio_to_state": 1.2147010519774513
+        "mfi_ratio_to_state": 1.0708772341736859
       }
     },
     {
@@ -2926,7 +2926,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.02537182852143482,
         "mfi": 91414.0,
-        "mfi_ratio_to_state": 1.0144036575081006
+        "mfi_ratio_to_state": 0.8942955810563594
       }
     },
     {
@@ -2950,7 +2950,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.10245151847786316,
         "mfi": 85938.0,
-        "mfi_ratio_to_state": 0.9536375338452661
+        "mfi_ratio_to_state": 0.8407243271798785
       }
     },
     {
@@ -2974,7 +2974,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.028916929547844375,
         "mfi": 94082.0,
-        "mfi_ratio_to_state": 1.0440099427404679
+        "mfi_ratio_to_state": 0.920396403799685
       }
     },
     {
@@ -2998,7 +2998,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.07516198704103672,
         "mfi": 126864.0,
-        "mfi_ratio_to_state": 1.4077855208841936
+        "mfi_ratio_to_state": 1.2410999911953746
       }
     },
     {
@@ -3022,7 +3022,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.03953337653920933,
         "mfi": 120328.0,
-        "mfi_ratio_to_state": 1.3352567801500288
+        "mfi_ratio_to_state": 1.177158845224469
       }
     },
     {
@@ -3046,7 +3046,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.01191881047911258,
         "mfi": 102325.0,
-        "mfi_ratio_to_state": 1.1354809356828977
+        "mfi_ratio_to_state": 1.0010369892094424
       }
     },
     {
@@ -3070,7 +3070,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.05999667608442746,
         "mfi": 118422.0,
-        "mfi_ratio_to_state": 1.31410626303875
+        "mfi_ratio_to_state": 1.158512605288645
       }
     },
     {
@@ -3094,7 +3094,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.016558966074313407,
         "mfi": 124764.0,
-        "mfi_ratio_to_state": 1.3844822229126903
+        "mfi_ratio_to_state": 1.2205558653479294
       }
     },
     {
@@ -3118,7 +3118,7 @@
         "low_income_reason": "poverty>=0.20",
         "poverty_rate": 0.23374777975133215,
         "mfi": 58783.0,
-        "mfi_ratio_to_state": 0.6523036974566114
+        "mfi_ratio_to_state": 0.5750692141382717
       }
     },
     {
@@ -3142,7 +3142,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.10628353816859962,
         "mfi": 104375.0,
-        "mfi_ratio_to_state": 1.158229393226508
+        "mfi_ratio_to_state": 1.021091969203377
       }
     },
     {
@@ -3166,7 +3166,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.07379636937647988,
         "mfi": 102981.0,
-        "mfi_ratio_to_state": 1.142760442096853
+        "mfi_ratio_to_state": 1.0074545828075014
       }
     },
     {
@@ -3190,7 +3190,7 @@
         "low_income_reason": "poverty>=0.20",
         "poverty_rate": 0.21956667411212866,
         "mfi": 68580.0,
-        "mfi_ratio_to_state": 0.7610191308979537
+        "mfi_ratio_to_state": 0.6709124526751387
       }
     },
     {
@@ -3214,7 +3214,7 @@
         "low_income_reason": "mfi_ratio<=0.80",
         "poverty_rate": 0.0885880077369439,
         "mfi": 66777.0,
-        "mfi_ratio_to_state": 0.7410115850681344
+        "mfi_ratio_to_state": 0.6532738531975465
       }
     },
     {
@@ -3238,7 +3238,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.08214971209213053,
         "mfi": 84097.0,
-        "mfi_ratio_to_state": 0.9332083092902481
+        "mfi_ratio_to_state": 0.8227139768536182
       }
     },
     {
@@ -3258,11 +3258,11 @@
         "population_total": 5911,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": false,
-        "low_income_reason": null,
+        "low_income": true,
+        "low_income_reason": "mfi_ratio<=0.80",
         "poverty_rate": 0.1091185924547454,
         "mfi": 78589.0,
-        "mfi_ratio_to_state": 0.872087087753562
+        "mfi_ratio_to_state": 0.7688296696308905
       }
     },
     {
@@ -3286,7 +3286,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.115720009427292,
         "mfi": 125562.0,
-        "mfi_ratio_to_state": 1.3933374761418615
+        "mfi_ratio_to_state": 1.2283626331699586
       }
     },
     {
@@ -3306,11 +3306,11 @@
         "population_total": 3026,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": false,
-        "low_income_reason": null,
+        "low_income": true,
+        "low_income_reason": "mfi_ratio<=0.80",
         "poverty_rate": 0.024447421299397188,
         "mfi": 74750.0,
-        "mfi_ratio_to_state": 0.8294864396999423
+        "mfi_ratio_to_state": 0.7312730509983467
       }
     },
     {
@@ -3334,7 +3334,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.03368421052631579,
         "mfi": 184247.0,
-        "mfi_ratio_to_state": 2.044553686359803
+        "mfi_ratio_to_state": 1.8024731214353495
       }
     },
     {
@@ -3382,7 +3382,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.04821084208270838,
         "mfi": 123500.0,
-        "mfi_ratio_to_state": 1.370455856895557
+        "mfi_ratio_to_state": 1.2081902581711814
       }
     },
     {
@@ -3406,7 +3406,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.15793234873749404,
         "mfi": 87222.0,
-        "mfi_ratio_to_state": 0.9678858360335567
+        "mfi_ratio_to_state": 0.8532855926980307
       }
     },
     {
@@ -3430,7 +3430,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.12325622461592796,
         "mfi": 118292.0,
-        "mfi_ratio_to_state": 1.3126636779262284
+        "mfi_ratio_to_state": 1.1572408260695175
       }
     },
     {
@@ -3454,7 +3454,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.04628143392188336,
         "mfi": 200096.0,
-        "mfi_ratio_to_state": 2.2204270051933066
+        "mfi_ratio_to_state": 1.9575225740811395
       }
     },
     {
@@ -3478,7 +3478,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.005855855855855856,
         "mfi": 177615.0,
-        "mfi_ratio_to_state": 1.9709596520040835
+        "mfi_ratio_to_state": 1.7375928154257037
       }
     },
     {
@@ -3526,7 +3526,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.1,
         "mfi": 81985.0,
-        "mfi_ratio_to_state": 0.9097718496160504
+        "mfi_ratio_to_state": 0.8020524560013305
       }
     },
     {
@@ -3546,11 +3546,11 @@
         "population_total": 4125,
         "population_underserved": 1471,
         "underserved_share": 0.3566060606060606,
-        "low_income": false,
-        "low_income_reason": null,
+        "low_income": true,
+        "low_income_reason": "mfi_ratio<=0.80",
         "poverty_rate": 0.05987878787878788,
         "mfi": 79088.0,
-        "mfi_ratio_to_state": 0.8776243952239337
+        "mfi_ratio_to_state": 0.7737113452489264
       }
     },
     {
@@ -3574,7 +3574,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.064297253634895,
         "mfi": 94688.0,
-        "mfi_ratio_to_state": 1.0507346087265304
+        "mfi_ratio_to_state": 0.9263248515442335
       }
     },
     {
@@ -3598,7 +3598,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.031245754652900422,
         "mfi": 122798.0,
-        "mfi_ratio_to_state": 1.36266589728794
+        "mfi_ratio_to_state": 1.2013226503878927
       }
     },
     {
@@ -3622,7 +3622,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.09382566585956416,
         "mfi": 142617.0,
-        "mfi_ratio_to_state": 1.5825935460961427
+        "mfi_ratio_to_state": 1.3952102838024243
       }
     },
     {
@@ -3646,7 +3646,7 @@
         "low_income_reason": "mfi_ratio<=0.80",
         "poverty_rate": 0.19625073227885179,
         "mfi": 48308.0,
-        "mfi_ratio_to_state": 0.536064627813041
+        "mfi_ratio_to_state": 0.4725931578278011
       }
     },
     {
@@ -3670,7 +3670,7 @@
         "low_income_reason": "poverty>=0.20",
         "poverty_rate": 0.24976851851851853,
         "mfi": 56708.0,
-        "mfi_ratio_to_state": 0.6292778196990545
+        "mfi_ratio_to_state": 0.5547696612175819
       }
     },
     {
@@ -3694,7 +3694,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.10333333333333333,
         "mfi": 91972.0,
-        "mfi_ratio_to_state": 1.020595676683386
+        "mfi_ratio_to_state": 0.8997544487815377
       }
     },
     {
@@ -3718,7 +3718,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.14358075199688292,
         "mfi": 101742.0,
-        "mfi_ratio_to_state": 1.129011496293666
+        "mfi_ratio_to_state": 0.9953335485575089
       }
     },
     {
@@ -3742,7 +3742,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.10366539239937037,
         "mfi": 99750.0,
-        "mfi_ratio_to_state": 1.1069066536464114
+        "mfi_ratio_to_state": 0.9758459777536466
       }
     },
     {
@@ -3766,7 +3766,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.11626168224299066,
         "mfi": 83235.0,
-        "mfi_ratio_to_state": 0.9236428603133738
+        "mfi_ratio_to_state": 0.8142811023390955
       }
     },
     {
@@ -3780,17 +3780,17 @@
       },
       "properties": {
         "tract_geoid": "10001041701",
-        "sb254_effective": false,
+        "sb254_effective": true,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
         "population_total": 6325,
         "population_underserved": 3546,
         "underserved_share": 0.5606324110671936,
-        "low_income": false,
-        "low_income_reason": null,
+        "low_income": true,
+        "low_income_reason": "mfi_ratio<=0.80",
         "poverty_rate": 0.06967537608867776,
         "mfi": 81283.0,
-        "mfi_ratio_to_state": 0.9019818900084335
+        "mfi_ratio_to_state": 0.7951848482180417
       }
     },
     {
@@ -3814,7 +3814,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.13459399332591768,
         "mfi": 106016.0,
-        "mfi_ratio_to_state": 1.1764392560699544
+        "mfi_ratio_to_state": 1.037145736115595
       }
     },
     {
@@ -3838,7 +3838,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.07878539187525646,
         "mfi": 112532.0,
-        "mfi_ratio_to_state": 1.248746060632962
+        "mfi_ratio_to_state": 1.1008912237450963
       }
     },
     {
@@ -3862,7 +3862,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.12490257209664848,
         "mfi": 105000.0,
-        "mfi_ratio_to_state": 1.1651648985751697
+        "mfi_ratio_to_state": 1.0272062923722596
       }
     },
     {
@@ -3886,7 +3886,7 @@
         "low_income_reason": "poverty>=0.20",
         "poverty_rate": 0.22491496598639457,
         "mfi": 62083.0,
-        "mfi_ratio_to_state": 0.6889231656975454
+        "mfi_ratio_to_state": 0.6073528404699713
       }
     },
     {
@@ -3910,7 +3910,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.03221360895779501,
         "mfi": 87560.0,
-        "mfi_ratio_to_state": 0.971636557326113
+        "mfi_ratio_to_state": 0.8565922186677624
       }
     },
     {
@@ -3934,7 +3934,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.08034257748776509,
         "mfi": 93242.0,
-        "mfi_ratio_to_state": 1.0346886235518664
+        "mfi_ratio_to_state": 0.9121787534607069
       }
     },
     {
@@ -3958,7 +3958,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.055236945366737095,
         "mfi": 104909.0,
-        "mfi_ratio_to_state": 1.1641550889964047
+        "mfi_ratio_to_state": 1.0263160469188704
       }
     },
     {
@@ -3982,7 +3982,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.09065883648375848,
         "mfi": 110359.0,
-        "mfi_ratio_to_state": 1.2246326956367348
+        "mfi_ratio_to_state": 1.0796329449515256
       }
     },
     {
@@ -4006,7 +4006,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.1548438327157226,
         "mfi": 83941.0,
-        "mfi_ratio_to_state": 0.9314772071552222
+        "mfi_ratio_to_state": 0.8211878417906652
       }
     },
     {
@@ -4054,7 +4054,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.070079883805374,
         "mfi": 102639.0,
-        "mfi_ratio_to_state": 1.1389653335700654
+        "mfi_ratio_to_state": 1.004108825169489
       }
     },
     {
@@ -4078,7 +4078,7 @@
         "low_income_reason": "mfi_ratio<=0.80",
         "poverty_rate": 0.1501841136244082,
         "mfi": 65250.0,
-        "mfi_ratio_to_state": 0.7240667584002841
+        "mfi_ratio_to_state": 0.6383353388313328
       }
     },
     {
@@ -4102,7 +4102,7 @@
         "low_income_reason": "mfi_ratio<=0.80",
         "poverty_rate": 0.1790692687111302,
         "mfi": 64219.0,
-        "mfi_ratio_to_state": 0.7126259487771317
+        "mfi_ratio_to_state": 0.6282491513319441
       }
     },
     {
@@ -4150,7 +4150,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.062309758281110114,
         "mfi": 105139.0,
-        "mfi_ratio_to_state": 1.1667073549647122
+        "mfi_ratio_to_state": 1.028566117845019
       }
     },
     {
@@ -4174,7 +4174,7 @@
         "low_income_reason": "poverty>=0.20",
         "poverty_rate": 0.252262443438914,
         "mfi": 55417.0,
-        "mfi_ratio_to_state": 0.6149518398508589
+        "mfi_ratio_to_state": 0.5421399152799382
       }
     },
     {
@@ -4198,7 +4198,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.07630813953488372,
         "mfi": 132708.0,
-        "mfi_ratio_to_state": 1.4726352700963203
+        "mfi_ratio_to_state": 1.2982713585536936
       }
     },
     {
@@ -4222,7 +4222,7 @@
         "low_income_reason": "mfi_ratio<=0.80",
         "poverty_rate": 0.040979955456570155,
         "mfi": 68580.0,
-        "mfi_ratio_to_state": 0.7610191308979537
+        "mfi_ratio_to_state": 0.6709124526751387
       }
     },
     {
@@ -4242,11 +4242,11 @@
         "population_total": 5401,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": false,
-        "low_income_reason": null,
+        "low_income": true,
+        "low_income_reason": "mfi_ratio<=0.80",
         "poverty_rate": 0.0648182840014987,
         "mfi": 79369.0,
-        "mfi_ratio_to_state": 0.880742598428692
+        "mfi_ratio_to_state": 0.7764603449456559
       }
     },
     {
@@ -4270,7 +4270,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.10244711737868105,
         "mfi": 90150.0,
-        "mfi_ratio_to_state": 1.0003772914909672
+        "mfi_ratio_to_state": 0.8819299738796115
       }
     },
     {
@@ -4294,7 +4294,7 @@
         "low_income_reason": "mfi_ratio<=0.80",
         "poverty_rate": 0.17624932831810855,
         "mfi": 65795.0,
-        "mfi_ratio_to_state": 0.7301145190643171
+        "mfi_ratio_to_state": 0.6436670286345982
       }
     },
     {
@@ -4318,7 +4318,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.03318903318903319,
         "mfi": 128750.0,
-        "mfi_ratio_to_state": 1.4287141018243152
+        "mfi_ratio_to_state": 1.2595505727897944
       }
     },
     {
@@ -4342,7 +4342,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.012670565302144249,
         "mfi": 211563.0,
-        "mfi_ratio_to_state": 2.347674108926273
+        "mfi_ratio_to_state": 2.0697032841252603
       }
     },
     {
@@ -4390,7 +4390,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.06310319227913883,
         "mfi": 96042.0,
-        "mfi_ratio_to_state": 1.065759687513871
+        "mfi_ratio_to_state": 0.9395709212573005
       }
     },
     {
@@ -4414,7 +4414,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.06099585062240664,
         "mfi": 146875.0,
-        "mfi_ratio_to_state": 1.6298437569355053
+        "mfi_ratio_to_state": 1.4368659446873868
       }
     },
     {
@@ -4438,7 +4438,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.11512959614225438,
         "mfi": 132083.0,
-        "mfi_ratio_to_state": 1.4656997647476586
+        "mfi_ratio_to_state": 1.292157035384811
       }
     },
     {
@@ -4462,7 +4462,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.10366492146596859,
         "mfi": 98490.0,
-        "mfi_ratio_to_state": 1.0929246748635093
+        "mfi_ratio_to_state": 0.9635195022451795
       }
     },
     {
@@ -4486,7 +4486,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.08488877524929686,
         "mfi": 91542.0,
-        "mfi_ratio_to_state": 1.0158240490035066
+        "mfi_ratio_to_state": 0.8955477944413465
       }
     },
     {
@@ -4510,7 +4510,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.19417177914110428,
         "mfi": 104418.0,
-        "mfi_ratio_to_state": 1.158706555994496
+        "mfi_ratio_to_state": 1.0215126346373962
       }
     },
     {
@@ -4534,7 +4534,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.04895461499235084,
         "mfi": 95938.0,
-        "mfi_ratio_to_state": 1.0646056194238538
+        "mfi_ratio_to_state": 0.9385534978819985
       }
     },
     {
@@ -4558,7 +4558,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.06715328467153285,
         "mfi": 96010.0,
-        "mfi_ratio_to_state": 1.0654045896400195
+        "mfi_ratio_to_state": 0.9392578679110537
       }
     },
     {
@@ -4578,11 +4578,11 @@
         "population_total": 2392,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": false,
-        "low_income_reason": null,
+        "low_income": true,
+        "low_income_reason": "mfi_ratio<=0.80",
         "poverty_rate": 0.033444816053511704,
         "mfi": 79390.0,
-        "mfi_ratio_to_state": 0.880975631408407
+        "mfi_ratio_to_state": 0.7766657862041303
       }
     },
     {
@@ -4606,7 +4606,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.1275793210561349,
         "mfi": 89643.0,
-        "mfi_ratio_to_state": 0.9947512095521328
+        "mfi_ratio_to_state": 0.8769700349250139
       }
     },
     {
@@ -4630,7 +4630,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.07116104868913857,
         "mfi": 127125.0,
-        "mfi_ratio_to_state": 1.4106817879177949
+        "mfi_ratio_to_state": 1.2436533325507
       }
     },
     {
@@ -4654,7 +4654,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.1333862643906312,
         "mfi": 128788.0,
-        "mfi_ratio_to_state": 1.429135780549514
+        "mfi_ratio_to_state": 1.2599223236384625
       }
     },
     {
@@ -4678,7 +4678,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.10904645476772616,
         "mfi": 101172.0,
-        "mfi_ratio_to_state": 1.1226863154156865
+        "mfi_ratio_to_state": 0.989757285827488
       }
     },
     {
@@ -4702,7 +4702,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.09062218214607755,
         "mfi": 146630.0,
-        "mfi_ratio_to_state": 1.6271250388388299
+        "mfi_ratio_to_state": 1.434469130005185
       }
     },
     {
@@ -4726,7 +4726,7 @@
         "low_income_reason": "poverty>=0.20",
         "poverty_rate": 0.27913938260056126,
         "mfi": 80559.0,
-        "mfi_ratio_to_state": 0.8939478006125439
+        "mfi_ratio_to_state": 0.7881020162592082
       }
     },
     {
@@ -4750,7 +4750,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.030596788851863073,
         "mfi": 84792.0,
-        "mfi_ratio_to_state": 0.94092059123796
+        "mfi_ratio_to_state": 0.8295131042174155
       }
     },
     {
@@ -4774,7 +4774,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.039649720262709805,
         "mfi": 115188.0,
-        "mfi_ratio_to_state": 1.278219184162635
+        "mfi_ratio_to_state": 1.1268746514835795
       }
     },
     {
@@ -4798,7 +4798,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.036824485891917745,
         "mfi": 128115.0,
-        "mfi_ratio_to_state": 1.421667628390075
+        "mfi_ratio_to_state": 1.2533384204502098
       }
     },
     {
@@ -4822,7 +4822,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.05569556451612903,
         "mfi": 129397.0,
-        "mfi_ratio_to_state": 1.43589373696125
+        "mfi_ratio_to_state": 1.2658801201342216
       }
     },
     {
@@ -4846,7 +4846,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.03547209181011998,
         "mfi": 103000.0,
-        "mfi_ratio_to_state": 1.1429712814594524
+        "mfi_ratio_to_state": 1.0076404582318357
       }
     },
     {
@@ -4870,7 +4870,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.039723661485319514,
         "mfi": 134821.0,
-        "mfi_ratio_to_state": 1.4960828265790758
+        "mfi_ratio_to_state": 1.3189426623230516
       }
     },
     {
@@ -4894,7 +4894,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.041237113402061855,
         "mfi": 127500.0,
-        "mfi_ratio_to_state": 1.4148430911269918
+        "mfi_ratio_to_state": 1.2473219264520294
       }
     },
     {
@@ -4918,7 +4918,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.07911001236093942,
         "mfi": 111154.0,
-        "mfi_ratio_to_state": 1.2334546584402326
+        "mfi_ratio_to_state": 1.0874103640223443
       }
     },
     {
@@ -4942,7 +4942,7 @@
         "low_income_reason": "poverty>=0.20",
         "poverty_rate": 0.305724126619649,
         "mfi": 74485.0,
-        "mfi_ratio_to_state": 0.8265457854321098
+        "mfi_ratio_to_state": 0.7286805779747405
       }
     },
     {
@@ -4966,7 +4966,7 @@
         "low_income_reason": "poverty>=0.20",
         "poverty_rate": 0.2438324727481354,
         "mfi": 70234.0,
-        "mfi_ratio_to_state": 0.7793732522526521
+        "mfi_ratio_to_state": 0.6870933975092693
       }
     },
     {
@@ -4990,7 +4990,7 @@
         "low_income_reason": "mfi_ratio<=0.80",
         "poverty_rate": 0.15369059656218403,
         "mfi": 46929.0,
-        "mfi_ratio_to_state": 0.5207621288117538
+        "mfi_ratio_to_state": 0.45910251518797873
       }
     },
     {
@@ -5014,7 +5014,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.022788203753351208,
         "mfi": 124375.0,
-        "mfi_ratio_to_state": 1.3801655643836832
+        "mfi_ratio_to_state": 1.216750310607617
       }
     },
     {
@@ -5038,7 +5038,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.07847976307996052,
         "mfi": 113929.0,
-        "mfi_ratio_to_state": 1.2642483021882907
+        "mfi_ratio_to_state": 1.1145579588921826
       }
     },
     {
@@ -5062,7 +5062,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.08330713612071676,
         "mfi": 108519.0,
-        "mfi_ratio_to_state": 1.2042145678902747
+        "mfi_ratio_to_state": 1.0616323775423355
       }
     },
     {
@@ -5082,11 +5082,11 @@
         "population_total": 2416,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": false,
-        "low_income_reason": null,
+        "low_income": true,
+        "low_income_reason": "mfi_ratio<=0.80",
         "poverty_rate": 0.08543096872616324,
         "mfi": 73750.0,
-        "mfi_ratio_to_state": 0.8183896311420835
+        "mfi_ratio_to_state": 0.7214901339281347
       }
     },
     {
@@ -5110,7 +5110,7 @@
         "low_income_reason": "mfi_ratio<=0.80",
         "poverty_rate": 0.16922507860181246,
         "mfi": 59469.0,
-        "mfi_ratio_to_state": 0.6599161081273026
+        "mfi_ratio_to_state": 0.5817802952484372
       }
     },
     {
@@ -5134,7 +5134,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.058756090570364,
         "mfi": 125777.0,
-        "mfi_ratio_to_state": 1.3957232899818013
+        "mfi_ratio_to_state": 1.2304659603400543
       }
     },
     {
@@ -5158,7 +5158,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.08355287918705306,
         "mfi": 139091.0,
-        "mfi_ratio_to_state": 1.5434661991211327
+        "mfi_ratio_to_state": 1.3607157182128566
       }
     },
     {
@@ -5182,7 +5182,7 @@
         "low_income_reason": "mfi_ratio<=0.80",
         "poverty_rate": 0.1831604150039904,
         "mfi": 41196.0,
-        "mfi_ratio_to_state": 0.45714412534954946
+        "mfi_ratio_to_state": 0.4030170516244534
       }
     },
     {
@@ -5206,7 +5206,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.051130434782608696,
         "mfi": 139625.0,
-        "mfi_ratio_to_state": 1.5493918948910292
+        "mfi_ratio_to_state": 1.36593979592835
       }
     },
     {
@@ -5230,7 +5230,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.06537396121883657,
         "mfi": 129569.0,
-        "mfi_ratio_to_state": 1.4378023880332016
+        "mfi_ratio_to_state": 1.2675627818702981
       }
     },
     {
@@ -5254,7 +5254,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.08496138119036802,
         "mfi": 119951.0,
-        "mfi_ratio_to_state": 1.331073283323716
+        "mfi_ratio_to_state": 1.1734706854889991
       }
     },
     {
@@ -5278,7 +5278,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.1268847135235444,
         "mfi": 91477.0,
-        "mfi_ratio_to_state": 1.0151027564472457
+        "mfi_ratio_to_state": 0.8949119048317827
       }
     },
     {
@@ -5302,7 +5302,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.05159660833483673,
         "mfi": 144813.0,
-        "mfi_ratio_to_state": 1.6069621376892005
+        "mfi_ratio_to_state": 1.4166935696886098
       }
     },
     {
@@ -5326,7 +5326,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.06905210295040803,
         "mfi": 158646.0,
-        "mfi_ratio_to_state": 1.7604642904700607
+        "mfi_ratio_to_state": 1.5520206615208523
       }
     },
     {
@@ -5350,7 +5350,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.0537873180360227,
         "mfi": 112129.0,
-        "mfi_ratio_to_state": 1.2442740467841449
+        "mfi_ratio_to_state": 1.096948708165801
       }
     },
     {
@@ -5374,7 +5374,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.005906406179009541,
         "mfi": 152847.0,
-        "mfi_ratio_to_state": 1.6961138976430379
+        "mfi_ratio_to_state": 1.4952895254306928
       }
     },
     {
@@ -5398,7 +5398,7 @@
         "low_income_reason": "poverty>=0.20",
         "poverty_rate": 0.2299219825608077,
         "mfi": 52298.0,
-        "mfi_ratio_to_state": 0.5803408939588974
+        "mfi_ratio_to_state": 0.511626996937947
       }
     },
     {
@@ -5422,7 +5422,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.06785806785806786,
         "mfi": 135298.0,
-        "mfi_ratio_to_state": 1.5013760042611746
+        "mfi_ratio_to_state": 1.3236091137655426
       }
     },
     {
@@ -5446,7 +5446,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.09154723603392804,
         "mfi": 95915.0,
-        "mfi_ratio_to_state": 1.064350392827023
+        "mfi_ratio_to_state": 0.9383284907893836
       }
     },
     {
@@ -5470,7 +5470,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.025966850828729283,
         "mfi": 152460.0,
-        "mfi_ratio_to_state": 1.6918194327311464
+        "mfi_ratio_to_state": 1.4915035365245208
       }
     },
     {
@@ -5490,11 +5490,11 @@
         "population_total": 3290,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": false,
-        "low_income_reason": null,
+        "low_income": true,
+        "low_income_reason": "mfi_ratio<=0.80",
         "poverty_rate": 0.08328267477203648,
         "mfi": 79231.0,
-        "mfi_ratio_to_state": 0.8792112388477074
+        "mfi_ratio_to_state": 0.7751103023899666
       }
     },
     {
@@ -5518,7 +5518,7 @@
         "low_income_reason": "poverty>=0.20",
         "poverty_rate": 0.21172022684310018,
         "mfi": 78269.0,
-        "mfi_ratio_to_state": 0.8685361090150473
+        "mfi_ratio_to_state": 0.7656991361684227
       }
     },
     {
@@ -5542,7 +5542,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.10614818707304256,
         "mfi": 113650.0,
-        "mfi_ratio_to_state": 1.261152292600648
+        "mfi_ratio_to_state": 1.1118285250295934
       }
     },
     {
@@ -5566,7 +5566,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.07165898617511521,
         "mfi": 100720.0,
-        "mfi_ratio_to_state": 1.1176705579475343
+        "mfi_ratio_to_state": 0.9853354073117522
       }
     },
     {
@@ -5590,7 +5590,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.032511210762331835,
         "mfi": 145987.0,
-        "mfi_ratio_to_state": 1.6199897909361267
+        "mfi_ratio_to_state": 1.4281787143290385
       }
     },
     {
@@ -5628,17 +5628,17 @@
       },
       "properties": {
         "tract_geoid": "10003010104",
-        "sb254_effective": false,
+        "sb254_effective": true,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
         "population_total": 4087,
         "population_underserved": 2639,
         "underserved_share": 0.6457058967457793,
-        "low_income": false,
-        "low_income_reason": null,
+        "low_income": true,
+        "low_income_reason": "mfi_ratio<=0.80",
         "poverty_rate": 0.12356251529239051,
         "mfi": 75164.0,
-        "mfi_ratio_to_state": 0.8340805184428958
+        "mfi_ratio_to_state": 0.7353231786654144
       }
     },
     {
@@ -5662,7 +5662,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.08823529411764706,
         "mfi": 85329.0,
-        "mfi_ratio_to_state": 0.9468795774335301
+        "mfi_ratio_to_state": 0.8347665306841194
       }
     },
     {
@@ -5686,7 +5686,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.1500983176753332,
         "mfi": 112938.0,
-        "mfi_ratio_to_state": 1.2532513649074526
+        "mfi_ratio_to_state": 1.1048630880756023
       }
     },
     {
@@ -5710,7 +5710,7 @@
         "low_income_reason": "mfi_ratio<=0.80",
         "poverty_rate": 0.15457317073170732,
         "mfi": 69122.0,
-        "mfi_ratio_to_state": 0.7670336011363132
+        "mfi_ratio_to_state": 0.6762147937271936
       }
     },
     {
@@ -5734,7 +5734,7 @@
         "low_income_reason": "mfi_ratio<=0.80",
         "poverty_rate": 0.14668057003823426,
         "mfi": 66295.0,
-        "mfi_ratio_to_state": 0.7356629233432465
+        "mfi_ratio_to_state": 0.6485584871697042
       }
     },
     {
@@ -5758,7 +5758,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.060950832994717596,
         "mfi": 90278.0,
-        "mfi_ratio_to_state": 1.001797682986373
+        "mfi_ratio_to_state": 0.8831821872645985
       }
     },
     {
@@ -5782,7 +5782,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.07205623901581722,
         "mfi": 87044.0,
-        "mfi_ratio_to_state": 0.9659106041102579
+        "mfi_ratio_to_state": 0.851544233459533
       }
     },
     {
@@ -5802,11 +5802,11 @@
         "population_total": 2852,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": false,
-        "low_income_reason": null,
+        "low_income": true,
+        "low_income_reason": "mfi_ratio<=0.80",
         "poverty_rate": 0.1640953716690042,
         "mfi": 76681.0,
-        "mfi_ratio_to_state": 0.8509143770251676
+        "mfi_ratio_to_state": 0.750163863860926
       }
     },
     {
@@ -5830,7 +5830,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.02544529262086514,
         "mfi": 99219.0,
-        "mfi_ratio_to_state": 1.1010142483021883
+        "mfi_ratio_to_state": 0.970651248789364
       }
     },
     {
@@ -5854,7 +5854,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.04886812791951132,
         "mfi": 109293.0,
-        "mfi_ratio_to_state": 1.2128034977140574
+        "mfi_ratio_to_state": 1.0692043553546797
       }
     },
     {
@@ -5878,7 +5878,7 @@
         "low_income_reason": "poverty>=0.20",
         "poverty_rate": 0.28673527730131504,
         "mfi": 68372.0,
-        "mfi_ratio_to_state": 0.7587109947179191
+        "mfi_ratio_to_state": 0.6688776059245346
       }
     },
     {
@@ -5902,7 +5902,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.10407301457567089,
         "mfi": 95875.0,
-        "mfi_ratio_to_state": 1.0639065204847087
+        "mfi_ratio_to_state": 0.9379371741065751
       }
     },
     {
@@ -5926,7 +5926,7 @@
         "low_income_reason": "mfi_ratio<=0.80",
         "poverty_rate": 0.16868957004731536,
         "mfi": 68182.0,
-        "mfi_ratio_to_state": 0.756602601091926
+        "mfi_ratio_to_state": 0.6670188516811943
       }
     },
     {
@@ -5950,7 +5950,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.006273525721455458,
         "mfi": 90865.0,
-        "mfi_ratio_to_state": 1.0083115096098363
+        "mfi_ratio_to_state": 0.888924759584813
       }
     },
     {
@@ -5974,7 +5974,7 @@
         "low_income_reason": "poverty>=0.20",
         "poverty_rate": 0.2537313432835821,
         "mfi": 131192.0,
-        "mfi_ratio_to_state": 1.4558125083226063
+        "mfi_ratio_to_state": 1.2834404562752522
       }
     },
     {
@@ -5998,7 +5998,7 @@
         "low_income_reason": "poverty>=0.20",
         "poverty_rate": 0.7323813910640258,
         "mfi": 42250.0,
-        "mfi_ratio_to_state": 0.4688401615695326
+        "mfi_ratio_to_state": 0.4133282462164568
       }
     },
     {
@@ -6022,7 +6022,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.1357769747031492,
         "mfi": 99276.0,
-        "mfi_ratio_to_state": 1.1016467663899863
+        "mfi_ratio_to_state": 0.9712088750623661
       }
     },
     {
@@ -6042,11 +6042,11 @@
         "population_total": 5172,
         "population_underserved": 2092,
         "underserved_share": 0.40448569218870845,
-        "low_income": false,
-        "low_income_reason": null,
+        "low_income": true,
+        "low_income_reason": "mfi_ratio<=0.80",
         "poverty_rate": 0.11407579273008507,
         "mfi": 75329.0,
-        "mfi_ratio_to_state": 0.8359114918549425
+        "mfi_ratio_to_state": 0.7369373599819994
       }
     },
     {
@@ -6070,7 +6070,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.042694928084784256,
         "mfi": 97023.0,
-        "mfi_ratio_to_state": 1.0766456567091305
+        "mfi_ratio_to_state": 0.9491679629031785
       }
     },
     {
@@ -6094,7 +6094,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.013214593507612756,
         "mfi": 181019.0,
-        "mfi_ratio_to_state": 2.008733188335035
+        "mfi_ratio_to_state": 1.7708938651327053
       }
     },
     {
@@ -6118,7 +6118,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.09198634263908416,
         "mfi": 97294.0,
-        "mfi_ratio_to_state": 1.0796528918283101
+        "mfi_ratio_to_state": 0.9518191334292059
       }
     },
     {
@@ -6142,7 +6142,7 @@
         "low_income_reason": "poverty>=0.20",
         "poverty_rate": 0.2052345994254708,
         "mfi": 84400.0,
-        "mfi_ratio_to_state": 0.9365706422832794
+        "mfi_ratio_to_state": 0.8256782007258925
       }
     },
     {
@@ -6166,7 +6166,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.014056881333769205,
         "mfi": 139568.0,
-        "mfi_ratio_to_state": 1.5487593768032313
+        "mfi_ratio_to_state": 1.3653821696553479
       }
     },
     {
@@ -6190,7 +6190,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.028015334709525212,
         "mfi": 147000.0,
-        "mfi_ratio_to_state": 1.6312308580052377
+        "mfi_ratio_to_state": 1.4380888093211635
       }
     },
     {
@@ -6214,7 +6214,7 @@
         "low_income_reason": null,
         "poverty_rate": 0.05462962962962963,
         "mfi": 170750.0,
-        "mfi_ratio_to_state": 1.8947800612543833
+        "mfi_ratio_to_state": 1.6704330897386983
       }
     },
     {
@@ -6238,7 +6238,7 @@
         "low_income_reason": "mfi_ratio<=0.80",
         "poverty_rate": 0.09897959183673469,
         "mfi": 64387.0,
-        "mfi_ratio_to_state": 0.714490212614852
+        "mfi_ratio_to_state": 0.6298926813997398
       }
     },
     {
@@ -6252,17 +6252,17 @@
       },
       "properties": {
         "tract_geoid": "10005050105",
-        "sb254_effective": false,
+        "sb254_effective": true,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
         "population_total": 6294,
         "population_underserved": 6294,
         "underserved_share": 1.0,
-        "low_income": false,
-        "low_income_reason": null,
+        "low_income": true,
+        "low_income_reason": "mfi_ratio<=0.80",
         "poverty_rate": 0.0996186844613918,
         "mfi": 78710.0,
-        "mfi_ratio_to_state": 0.873429801589063
+        "mfi_ratio_to_state": 0.7700134025963862
       }
     },
     {
@@ -6286,7 +6286,7 @@
         "low_income_reason": "poverty>=0.20",
         "poverty_rate": 0.2537917087967644,
         "mfi": 54471.0,
-        "mfi_ratio_to_state": 0.6044542589551245
+        "mfi_ratio_to_state": 0.5328852757315177
       }
     }
   ]
