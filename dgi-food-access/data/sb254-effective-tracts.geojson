@@ -15,14 +15,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 6803,
-        "population_underserved": 6803,
-        "underserved_share": 1.0,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.04389453527765503,
-        "mfi": 171014.0,
-        "mfi_ratio_to_state": 1.6730157798452343
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -39,14 +39,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 6955,
-        "population_underserved": 6955,
-        "underserved_share": 1.0,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.011825785982117105,
-        "mfi": 150634.0,
-        "mfi_ratio_to_state": 1.4736399299543137
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -63,14 +63,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 7033,
-        "population_underserved": 4875,
-        "underserved_share": 0.6931608133086876,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.116366258111031,
-        "mfi": 92642.0,
-        "mfi_ratio_to_state": 0.9063090032185798
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -87,14 +87,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 6739,
-        "population_underserved": 3926,
-        "underserved_share": 0.5825790176584063,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.030357142857142857,
-        "mfi": 149137.0,
-        "mfi_ratio_to_state": 1.4589949031002065
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -111,14 +111,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 1621,
-        "population_underserved": 1621,
-        "underserved_share": 1.0,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.003701418877236274,
-        "mfi": 142486.0,
-        "mfi_ratio_to_state": 1.3939287216662264
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -135,14 +135,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 4820,
-        "population_underserved": 2484,
-        "underserved_share": 0.5153526970954356,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.05560165975103734,
-        "mfi": 135771.0,
-        "mfi_ratio_to_state": 1.328236433539753
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -159,14 +159,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 4136,
-        "population_underserved": 914,
-        "underserved_share": 0.22098646034816247,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.0014506769825918763,
-        "mfi": 162856.0,
-        "mfi_ratio_to_state": 1.5932067423864449
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -183,14 +183,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 4105,
-        "population_underserved": 4105,
-        "underserved_share": 1.0,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.051112741501589634,
-        "mfi": 90870.0,
-        "mfi_ratio_to_state": 0.888973674170164
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -207,14 +207,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 2555,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.08535630383711824,
-        "mfi": 102778.0,
-        "mfi_ratio_to_state": 1.0054686506422486
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -231,14 +231,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 1834,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "poverty>=0.20",
-        "poverty_rate": 0.29720853858784896,
-        "mfi": 88617.0,
-        "mfi_ratio_to_state": 0.8669327620109765
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -255,14 +255,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 6079,
-        "population_underserved": 1929,
-        "underserved_share": 0.31732192794867575,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.07818707114481763,
-        "mfi": 96379.0,
-        "mfi_ratio_to_state": 0.942867764309962
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -279,14 +279,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 1681,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.1124330755502677,
-        "mfi": 86713.0,
-        "mfi_ratio_to_state": 0.8483060879092927
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -303,14 +303,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 2257,
-        "population_underserved": 2257,
-        "underserved_share": 1.0,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.03515798842901647,
-        "mfi": 113583.0,
-        "mfi_ratio_to_state": 1.111173069585889
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -327,14 +327,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 4955,
-        "population_underserved": 4955,
-        "underserved_share": 1.0,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.05059704513256426,
-        "mfi": 168750.0,
-        "mfi_ratio_to_state": 1.6508672555982742
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -351,14 +351,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 9519,
-        "population_underserved": 9519,
-        "underserved_share": 1.0,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.018150939390722855,
-        "mfi": 156797.0,
-        "mfi_ratio_to_state": 1.5339320478580303
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -375,14 +375,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 4073,
-        "population_underserved": 1212,
-        "underserved_share": 0.2975693591946968,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.16056960471397005,
-        "mfi": 88854.0,
-        "mfi_ratio_to_state": 0.8692513133566167
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -399,14 +399,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 5634,
-        "population_underserved": 1812,
-        "underserved_share": 0.32161874334398294,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.058217962371317,
-        "mfi": 93153.0,
-        "mfi_ratio_to_state": 0.9113080738414581
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -423,14 +423,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 1635,
-        "population_underserved": 1635,
-        "underserved_share": 1.0,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.037920489296636085,
-        "mfi": 136563.0,
-        "mfi_ratio_to_state": 1.3359845038593607
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -447,14 +447,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 6400,
-        "population_underserved": 2774,
-        "underserved_share": 0.4334375,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.0040625,
-        "mfi": 223636.0,
-        "mfi_ratio_to_state": 2.18781244191393
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -471,14 +471,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 5071,
-        "population_underserved": 776,
-        "underserved_share": 0.15302701636758037,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.08693733451015004,
-        "mfi": 181607.0,
-        "mfi_ratio_to_state": 1.77664622036999
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -495,14 +495,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 3962,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.08909641595153962,
-        "mfi": 82673.0,
-        "mfi_ratio_to_state": 0.8087831029456364
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -519,14 +519,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 3150,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.12317460317460317,
-        "mfi": 105434.0,
-        "mfi_ratio_to_state": 1.0314520783807315
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -543,14 +543,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 2398,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "poverty>=0.20",
-        "poverty_rate": 0.3183209444687363,
-        "mfi": 55625.0,
-        "mfi_ratio_to_state": 0.5441747620305423
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -567,14 +567,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 2815,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.12113676731793961,
-        "mfi": 110759.0,
-        "mfi_ratio_to_state": 1.0835461117796104
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -591,14 +591,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 3221,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.1914349632470438,
-        "mfi": 226250.0,
-        "mfi_ratio_to_state": 2.213384987135464
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -615,14 +615,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 3763,
-        "population_underserved": 1165,
-        "underserved_share": 0.3095934095136859,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.032420940738772254,
-        "mfi": 247500.0,
-        "mfi_ratio_to_state": 2.421271974877469
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -639,14 +639,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 2109,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "poverty>=0.20",
-        "poverty_rate": 0.3029871977240398,
-        "mfi": 78229.0,
-        "mfi_ratio_to_state": 0.7653078194856142
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -663,14 +663,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 2483,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "poverty>=0.20",
-        "poverty_rate": 0.31143552311435524,
-        "mfi": 54643.0,
-        "mfi_ratio_to_state": 0.5345679374675941
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -687,14 +687,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 2421,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "poverty>=0.20",
-        "poverty_rate": 0.2505175983436853,
-        "mfi": 53496.0,
-        "mfi_ratio_to_state": 0.5233469315880609
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -711,14 +711,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 4512,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "poverty>=0.20",
-        "poverty_rate": 0.25280512937943667,
-        "mfi": 49025.0,
-        "mfi_ratio_to_state": 0.4796075093671431
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -735,14 +735,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 2962,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "poverty>=0.20",
-        "poverty_rate": 0.2597535934291581,
-        "mfi": 152656.0,
-        "mfi_ratio_to_state": 1.4934209882702825
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -759,14 +759,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 4310,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "poverty>=0.20",
-        "poverty_rate": 0.2803337306317044,
-        "mfi": 59938.0,
-        "mfi_ratio_to_state": 0.5863684833543666
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -783,14 +783,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 2997,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "mfi_ratio<=0.80",
-        "poverty_rate": 0.15615615615615616,
-        "mfi": 70797.0,
-        "mfi_ratio_to_state": 0.6926011798197986
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -807,14 +807,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 2149,
-        "population_underserved": 2149,
-        "underserved_share": 1.0,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.03147017379051198,
-        "mfi": 130179.0,
-        "mfi_ratio_to_state": 1.2735303612831275
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -831,14 +831,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 4560,
-        "population_underserved": 1626,
-        "underserved_share": 0.35657894736842105,
-        "low_income": true,
-        "low_income_reason": "poverty>=0.20",
-        "poverty_rate": 0.20463576158940397,
-        "mfi": 75972.0,
-        "mfi_ratio_to_state": 0.7432277756581458
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -855,14 +855,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 6806,
-        "population_underserved": 6806,
-        "underserved_share": 1.0,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.07030445653772614,
-        "mfi": 170215.0,
-        "mfi_ratio_to_state": 1.6651992291061348
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -879,14 +879,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 1779,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.015348288075560802,
-        "mfi": 167625.0,
-        "mfi_ratio_to_state": 1.6398614738942858
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -903,14 +903,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 4902,
-        "population_underserved": 3364,
-        "underserved_share": 0.6862505099959201,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.09651639344262294,
-        "mfi": 108690.0,
-        "mfi_ratio_to_state": 1.0633052563613419
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -927,14 +927,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 2664,
-        "population_underserved": 2664,
-        "underserved_share": 1.0,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.06343843843843844,
-        "mfi": 126188.0,
-        "mfi_ratio_to_state": 1.2344867392559113
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -951,14 +951,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 2671,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.04033169996230682,
-        "mfi": 127375.0,
-        "mfi_ratio_to_state": 1.246099061818253
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -975,14 +975,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 6027,
-        "population_underserved": 6027,
-        "underserved_share": 1.0,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.04328636903751485,
-        "mfi": 97309.0,
-        "mfi_ratio_to_state": 0.951965877185259
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -999,14 +999,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 5510,
-        "population_underserved": 765,
-        "underserved_share": 0.13883847549909256,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.14791288566243194,
-        "mfi": 102111.0,
-        "mfi_ratio_to_state": 0.9989434449564171
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -1023,14 +1023,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 929,
-        "population_underserved": 496,
-        "underserved_share": 0.5339074273412271,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.04039301310043668,
-        "mfi": 183750.0,
-        "mfi_ratio_to_state": 1.7976110116514543
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -1047,14 +1047,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 5227,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.03877630553390491,
-        "mfi": 160329.0,
-        "mfi_ratio_to_state": 1.568485310950019
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -1071,14 +1071,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 3150,
-        "population_underserved": 3150,
-        "underserved_share": 1.0,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.13333333333333333,
-        "mfi": 241250.0,
-        "mfi_ratio_to_state": 2.360128743188644
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -1095,14 +1095,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 5948,
-        "population_underserved": 5948,
-        "underserved_share": 1.0,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.029607568325157672,
-        "mfi": 164464.0,
-        "mfi_ratio_to_state": 1.6089376730353457
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -1119,14 +1119,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 5916,
-        "population_underserved": 2746,
-        "underserved_share": 0.46416497633536175,
-        "low_income": true,
-        "low_income_reason": "mfi_ratio<=0.80",
-        "poverty_rate": 0.16900205058099796,
-        "mfi": 71476.0,
-        "mfi_ratio_to_state": 0.6992437805104726
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -1143,14 +1143,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 3901,
-        "population_underserved": 693,
-        "underserved_share": 0.1776467572417329,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.12791591899512944,
-        "mfi": 91492.0,
-        "mfi_ratio_to_state": 0.8950586485878359
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -1167,14 +1167,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 7426,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "poverty>=0.20",
-        "poverty_rate": 0.6288617886178862,
-        "mfi": 111111.0,
-        "mfi_ratio_to_state": 1.0869896985883252
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -1191,14 +1191,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 4493,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "poverty>=0.20",
-        "poverty_rate": 0.20066889632107024,
-        "mfi": 93565.0,
-        "mfi_ratio_to_state": 0.9153386356743853
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -1212,17 +1212,17 @@
       },
       "properties": {
         "tract_geoid": "10003014404",
-        "sb254_effective": true,
+        "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 4169,
-        "population_underserved": 4169,
-        "underserved_share": 1.0,
-        "low_income": true,
-        "low_income_reason": "poverty>=0.20",
-        "poverty_rate": 0.21372031662269128,
-        "mfi": 96220.0,
-        "mfi_ratio_to_state": 0.9413122804957983
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -1239,14 +1239,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 3958,
-        "population_underserved": 786,
-        "underserved_share": 0.19858514401212735,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.06956741715153049,
-        "mfi": 82500.0,
-        "mfi_ratio_to_state": 0.8070906582924896
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -1263,14 +1263,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 4320,
-        "population_underserved": 1083,
-        "underserved_share": 0.25069444444444444,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.12384259259259259,
-        "mfi": 90850.0,
-        "mfi_ratio_to_state": 0.8887780158287598
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -1287,14 +1287,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 5598,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "mfi_ratio<=0.80",
-        "poverty_rate": 0.10356045544912344,
-        "mfi": 80545.0,
-        "mfi_ratio_to_state": 0.7879650554202252
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -1311,14 +1311,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 3678,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.13104948341489941,
-        "mfi": 87833.0,
-        "mfi_ratio_to_state": 0.8592629550279303
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -1335,14 +1335,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 2684,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.03858921161825726,
-        "mfi": 176250.0,
-        "mfi_ratio_to_state": 1.7242391336248644
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -1359,14 +1359,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 4029,
-        "population_underserved": 2602,
-        "underserved_share": 0.6458178207992058,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.013899230578307272,
-        "mfi": 157096.0,
-        "mfi_ratio_to_state": 1.5368571400620237
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -1383,14 +1383,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 2127,
-        "population_underserved": 801,
-        "underserved_share": 0.3765867418899859,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.07287259050305595,
-        "mfi": 150286.0,
-        "mfi_ratio_to_state": 1.47023547481388
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -1407,14 +1407,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 2889,
-        "population_underserved": 2377,
-        "underserved_share": 0.8227760470751125,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.19937150837988826,
-        "mfi": 134792.0,
-        "mfi_ratio_to_state": 1.3186589577280154
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -1431,14 +1431,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 4234,
-        "population_underserved": 4234,
-        "underserved_share": 1.0,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.015362798392814937,
-        "mfi": 250001.0,
-        "mfi_ratio_to_state": 2.445739050470069
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -1455,14 +1455,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 4034,
-        "population_underserved": 4034,
-        "underserved_share": 1.0,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.11604010025062657,
-        "mfi": 126250.0,
-        "mfi_ratio_to_state": 1.2350932801142644
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -1479,14 +1479,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 3585,
-        "population_underserved": 1103,
-        "underserved_share": 0.30767085076708506,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.08619246861924686,
-        "mfi": 125887.0,
-        "mfi_ratio_to_state": 1.2315420812177775
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -1503,14 +1503,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 4185,
-        "population_underserved": 4185,
-        "underserved_share": 1.0,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.022238336959149143,
-        "mfi": 169107.0,
-        "mfi_ratio_to_state": 1.65435975699234
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -1527,14 +1527,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 2580,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.018025078369905956,
-        "mfi": 147171.0,
-        "mfi_ratio_to_state": 1.4397616881401696
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -1551,14 +1551,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 5880,
-        "population_underserved": 2275,
-        "underserved_share": 0.3869047619047619,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.043478260869565216,
-        "mfi": 138129.0,
-        "mfi_ratio_to_state": 1.3513045519913127
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -1575,12 +1575,12 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 3305,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "poverty>=0.20",
-        "poverty_rate": 0.41482602118003026,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
         "mfi": null,
         "mfi_ratio_to_state": null
       }
@@ -1599,12 +1599,12 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 1237,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "poverty>=0.20",
-        "poverty_rate": 0.40177849636216656,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
         "mfi": null,
         "mfi_ratio_to_state": null
       }
@@ -1623,14 +1623,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 6619,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "mfi_ratio<=0.80",
-        "poverty_rate": 0.12010877776099109,
-        "mfi": 77396.0,
-        "mfi_ratio_to_state": 0.7571586495661277
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -1647,14 +1647,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 2327,
-        "population_underserved": 793,
-        "underserved_share": 0.3407821229050279,
-        "low_income": true,
-        "low_income_reason": "mfi_ratio<=0.80",
-        "poverty_rate": 0.11731843575418995,
-        "mfi": 77589.0,
-        "mfi_ratio_to_state": 0.7590467525606786
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -1671,14 +1671,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 5262,
-        "population_underserved": 5262,
-        "underserved_share": 1.0,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.09483086278981376,
-        "mfi": 94837.0,
-        "mfi_ratio_to_state": 0.9277825061876951
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -1695,14 +1695,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 4410,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.17357453629493932,
-        "mfi": 85817.0,
-        "mfi_ratio_to_state": 0.8395405942143829
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -1719,14 +1719,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 2412,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "mfi_ratio<=0.80",
-        "poverty_rate": 0.08569051580698835,
-        "mfi": 58750.0,
-        "mfi_ratio_to_state": 0.5747463778749548
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -1743,14 +1743,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 3299,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.04313000616142945,
-        "mfi": 89621.0,
-        "mfi_ratio_to_state": 0.8767548107494693
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -1767,14 +1767,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 1138,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "mfi_ratio<=0.80",
-        "poverty_rate": 0.13268892794376097,
-        "mfi": 58542.0,
-        "mfi_ratio_to_state": 0.5727115311243507
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -1791,14 +1791,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 2961,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.11726934775261913,
-        "mfi": 90293.0,
-        "mfi_ratio_to_state": 0.8833289310206517
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -1815,14 +1815,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 2863,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.04750261962975899,
-        "mfi": 100368.0,
-        "mfi_ratio_to_state": 0.9818918205030376
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -1839,14 +1839,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 2200,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.02590909090909091,
-        "mfi": 124005.0,
-        "mfi_ratio_to_state": 1.2131306312916386
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -1863,14 +1863,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 7503,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.11856014987287569,
-        "mfi": 88426.0,
-        "mfi_ratio_to_state": 0.8650642248505659
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -1887,14 +1887,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 5280,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.07163214896446893,
-        "mfi": 93144.0,
-        "mfi_ratio_to_state": 0.9112200275878262
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -1911,14 +1911,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 4283,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "mfi_ratio<=0.80",
-        "poverty_rate": 0.19589073079617092,
-        "mfi": 80455.0,
-        "mfi_ratio_to_state": 0.7870845928839061
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -1935,14 +1935,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 2985,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.07169179229480736,
-        "mfi": 100175.0,
-        "mfi_ratio_to_state": 0.9800037175084867
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -1959,14 +1959,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 4138,
-        "population_underserved": 1665,
-        "underserved_share": 0.402368293861769,
-        "low_income": true,
-        "low_income_reason": "mfi_ratio<=0.80",
-        "poverty_rate": 0.1125370187561698,
-        "mfi": 79844.0,
-        "mfi_ratio_to_state": 0.7811072305540065
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -1980,17 +1980,17 @@
       },
       "properties": {
         "tract_geoid": "10001041000",
-        "sb254_effective": true,
+        "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 7265,
-        "population_underserved": 5255,
-        "underserved_share": 0.723331039229181,
-        "low_income": true,
-        "low_income_reason": "mfi_ratio<=0.80",
-        "poverty_rate": 0.14355673709248637,
-        "mfi": 67750.0,
-        "mfi_ratio_to_state": 0.6627926315068627
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2007,14 +2007,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 2034,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "poverty>=0.20",
-        "poverty_rate": 0.35169699950811606,
-        "mfi": 34788.0,
-        "mfi_ratio_to_state": 0.34032811903853494
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2028,17 +2028,17 @@
       },
       "properties": {
         "tract_geoid": "10001041400",
-        "sb254_effective": true,
+        "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 4141,
-        "population_underserved": 2526,
-        "underserved_share": 0.6099975851243661,
-        "low_income": true,
-        "low_income_reason": "poverty>=0.20",
-        "poverty_rate": 0.24134445286833459,
-        "mfi": 69102.0,
-        "mfi_ratio_to_state": 0.6760191353857893
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2055,14 +2055,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 3059,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "poverty>=0.20",
-        "poverty_rate": 0.4887052341597796,
-        "mfi": 45800.0,
-        "mfi_ratio_to_state": 0.4480576018157094
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2079,14 +2079,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 4363,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.09073987901349465,
-        "mfi": 93631.0,
-        "mfi_ratio_to_state": 0.9159843082010194
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2103,14 +2103,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 5420,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.07495835646862854,
-        "mfi": 108942.0,
-        "mfi_ratio_to_state": 1.0657705514630353
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2127,14 +2127,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 3257,
-        "population_underserved": 3257,
-        "underserved_share": 1.0,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.08833487226839028,
-        "mfi": 83207.0,
-        "mfi_ratio_to_state": 0.8140071806611295
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2151,14 +2151,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 5945,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "poverty>=0.20",
-        "poverty_rate": 0.229933819786187,
-        "mfi": 79044.0,
-        "mfi_ratio_to_state": 0.773280896897837
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2175,14 +2175,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 4142,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.04606060606060606,
-        "mfi": 92531.0,
-        "mfi_ratio_to_state": 0.9052230994237862
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2199,14 +2199,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 3533,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "mfi_ratio<=0.80",
-        "poverty_rate": 0.13954146617605434,
-        "mfi": 81000.0,
-        "mfi_ratio_to_state": 0.7924162826871717
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2223,14 +2223,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 4485,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.045888232621535664,
-        "mfi": 96990.0,
-        "mfi_ratio_to_state": 0.9488451266398614
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2247,14 +2247,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 7067,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.14366595895258316,
-        "mfi": 82991.0,
-        "mfi_ratio_to_state": 0.8118940705739638
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2271,14 +2271,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 4541,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.09732524162733198,
-        "mfi": 82762.0,
-        "mfi_ratio_to_state": 0.8096537825648852
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2295,14 +2295,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 4279,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "mfi_ratio<=0.80",
-        "poverty_rate": 0.14120541205412054,
-        "mfi": 65700.0,
-        "mfi_ratio_to_state": 0.6427376515129282
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2319,14 +2319,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 3763,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.046368265880461,
-        "mfi": 99040.0,
-        "mfi_ratio_to_state": 0.9689001066337961
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2343,14 +2343,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 4681,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.10399478940512376,
-        "mfi": 91875.0,
-        "mfi_ratio_to_state": 0.8988055058257272
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2367,14 +2367,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 5748,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.04952414522382799,
-        "mfi": 100489.0,
-        "mfi_ratio_to_state": 0.9830755534685333
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2391,14 +2391,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 4528,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.07857459052678176,
-        "mfi": 90556.0,
-        "mfi_ratio_to_state": 0.8859018382101175
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2412,17 +2412,17 @@
       },
       "properties": {
         "tract_geoid": "10005051802",
-        "sb254_effective": true,
+        "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 4062,
-        "population_underserved": 4062,
-        "underserved_share": 1.0,
-        "low_income": true,
-        "low_income_reason": "poverty>=0.20",
-        "poverty_rate": 0.21769211761798862,
-        "mfi": 68083.0,
-        "mfi_ratio_to_state": 0.6660503428912433
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2439,14 +2439,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 6057,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "poverty>=0.20",
-        "poverty_rate": 0.2617671345995045,
-        "mfi": 59700.0,
-        "mfi_ratio_to_state": 0.5840401490916561
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2463,14 +2463,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 2251,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "poverty>=0.20",
-        "poverty_rate": 0.34219269102990035,
-        "mfi": 62224.0,
-        "mfi_ratio_to_state": 0.6087322317768712
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2487,14 +2487,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 4576,
-        "population_underserved": 941,
-        "underserved_share": 0.2056381118881119,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.0596752961825362,
-        "mfi": 86836.0,
-        "mfi_ratio_to_state": 0.8495093867089288
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2511,14 +2511,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 1088,
-        "population_underserved": 244,
-        "underserved_share": 0.22426470588235295,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.06066176470588235,
-        "mfi": 123958.0,
-        "mfi_ratio_to_state": 1.2126708341893386
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2535,14 +2535,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 3247,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "poverty>=0.20",
-        "poverty_rate": 0.3600258314497901,
-        "mfi": 41714.0,
-        "mfi_ratio_to_state": 0.40808460266682317
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2559,14 +2559,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 5588,
-        "population_underserved": 5588,
-        "underserved_share": 1.0,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.013546112451289664,
-        "mfi": 163938.0,
-        "mfi_ratio_to_state": 1.6037918586564142
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2583,14 +2583,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 3353,
-        "population_underserved": 3353,
-        "underserved_share": 1.0,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.012824336415150612,
-        "mfi": 161827.0,
-        "mfi_ratio_to_state": 1.5831401207211966
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2607,14 +2607,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 2440,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.13278688524590163,
-        "mfi": 116678.0,
-        "mfi_ratio_to_state": 1.1414511979181952
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2631,14 +2631,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 3195,
-        "population_underserved": 1129,
-        "underserved_share": 0.3533646322378717,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.09113844213181961,
-        "mfi": 125240.0,
-        "mfi_ratio_to_state": 1.2252125338733504
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2655,14 +2655,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 4350,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.054110543427775194,
-        "mfi": 218958.0,
-        "mfi_ratio_to_state": 2.142047955859478
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2679,14 +2679,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 6957,
-        "population_underserved": 6957,
-        "underserved_share": 1.0,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.016659024912119822,
-        "mfi": 166372.0,
-        "mfi_ratio_to_state": 1.6276034788053102
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2703,14 +2703,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 4156,
-        "population_underserved": 2416,
-        "underserved_share": 0.5813282001924928,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.025759416767922236,
-        "mfi": 139438.0,
-        "mfi_ratio_to_state": 1.3641103904362202
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2727,14 +2727,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 2377,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "poverty>=0.20",
-        "poverty_rate": 0.24704391891891891,
-        "mfi": 62917.0,
-        "mfi_ratio_to_state": 0.6155117933065282
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2775,14 +2775,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 2028,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.03186646433990895,
-        "mfi": 90833.0,
-        "mfi_ratio_to_state": 0.8886117062385662
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2799,14 +2799,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 4992,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.08774038461538461,
-        "mfi": 100868.0,
-        "mfi_ratio_to_state": 0.9867832790381436
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2823,14 +2823,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 3171,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "mfi_ratio<=0.80",
-        "poverty_rate": 0.050141911069063384,
-        "mfi": 72146.0,
-        "mfi_ratio_to_state": 0.7057983349475146
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2847,14 +2847,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 3010,
-        "population_underserved": 813,
-        "underserved_share": 0.2700996677740864,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.0435226113566814,
-        "mfi": 117401.0,
-        "mfi_ratio_to_state": 1.1485242469599586
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2871,14 +2871,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 1918,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.0026068821689259644,
-        "mfi": 90450.0,
-        "mfi_ratio_to_state": 0.884864849000675
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2895,14 +2895,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 2902,
-        "population_underserved": 877,
-        "underserved_share": 0.3022053756030324,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.023095484315753187,
-        "mfi": 109464.0,
-        "mfi_ratio_to_state": 1.0708772341736859
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2919,14 +2919,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 2292,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.02537182852143482,
-        "mfi": 91414.0,
-        "mfi_ratio_to_state": 0.8942955810563594
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2943,14 +2943,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 2751,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.10245151847786316,
-        "mfi": 85938.0,
-        "mfi_ratio_to_state": 0.8407243271798785
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2967,14 +2967,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 1902,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.028916929547844375,
-        "mfi": 94082.0,
-        "mfi_ratio_to_state": 0.920396403799685
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -2991,14 +2991,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 2329,
-        "population_underserved": 1576,
-        "underserved_share": 0.6766852726492056,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.07516198704103672,
-        "mfi": 126864.0,
-        "mfi_ratio_to_state": 1.2410999911953746
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3015,14 +3015,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 6356,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.03953337653920933,
-        "mfi": 120328.0,
-        "mfi_ratio_to_state": 1.177158845224469
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3039,14 +3039,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 8647,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.01191881047911258,
-        "mfi": 102325.0,
-        "mfi_ratio_to_state": 1.0010369892094424
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3063,14 +3063,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 6217,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.05999667608442746,
-        "mfi": 118422.0,
-        "mfi_ratio_to_state": 1.158512605288645
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3087,14 +3087,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 4952,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.016558966074313407,
-        "mfi": 124764.0,
-        "mfi_ratio_to_state": 1.2205558653479294
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3111,14 +3111,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 2815,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "poverty>=0.20",
-        "poverty_rate": 0.23374777975133215,
-        "mfi": 58783.0,
-        "mfi_ratio_to_state": 0.5750692141382717
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3135,14 +3135,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 5777,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.10628353816859962,
-        "mfi": 104375.0,
-        "mfi_ratio_to_state": 1.021091969203377
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3159,14 +3159,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 2536,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.07379636937647988,
-        "mfi": 102981.0,
-        "mfi_ratio_to_state": 1.0074545828075014
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3183,14 +3183,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 4477,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "poverty>=0.20",
-        "poverty_rate": 0.21956667411212866,
-        "mfi": 68580.0,
-        "mfi_ratio_to_state": 0.6709124526751387
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3207,14 +3207,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 5170,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "mfi_ratio<=0.80",
-        "poverty_rate": 0.0885880077369439,
-        "mfi": 66777.0,
-        "mfi_ratio_to_state": 0.6532738531975465
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3231,14 +3231,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 2605,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.08214971209213053,
-        "mfi": 84097.0,
-        "mfi_ratio_to_state": 0.8227139768536182
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3255,14 +3255,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 5911,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "mfi_ratio<=0.80",
-        "poverty_rate": 0.1091185924547454,
-        "mfi": 78589.0,
-        "mfi_ratio_to_state": 0.7688296696308905
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3279,14 +3279,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 4243,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.115720009427292,
-        "mfi": 125562.0,
-        "mfi_ratio_to_state": 1.2283626331699586
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3303,14 +3303,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 3026,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "mfi_ratio<=0.80",
-        "poverty_rate": 0.024447421299397188,
-        "mfi": 74750.0,
-        "mfi_ratio_to_state": 0.7312730509983467
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3327,14 +3327,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 2375,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.03368421052631579,
-        "mfi": 184247.0,
-        "mfi_ratio_to_state": 1.8024731214353495
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3351,7 +3351,7 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 53,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
@@ -3375,14 +3375,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 4885,
-        "population_underserved": 2492,
-        "underserved_share": 0.5101330603889458,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.04821084208270838,
-        "mfi": 123500.0,
-        "mfi_ratio_to_state": 1.2081902581711814
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3399,14 +3399,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 4233,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.15793234873749404,
-        "mfi": 87222.0,
-        "mfi_ratio_to_state": 0.8532855926980307
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3423,14 +3423,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 5803,
-        "population_underserved": 1476,
-        "underserved_share": 0.25435119765638464,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.12325622461592796,
-        "mfi": 118292.0,
-        "mfi_ratio_to_state": 1.1572408260695175
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3447,14 +3447,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 3738,
-        "population_underserved": 3738,
-        "underserved_share": 1.0,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.04628143392188336,
-        "mfi": 200096.0,
-        "mfi_ratio_to_state": 1.9575225740811395
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3471,14 +3471,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 4440,
-        "population_underserved": 4440,
-        "underserved_share": 1.0,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.005855855855855856,
-        "mfi": 177615.0,
-        "mfi_ratio_to_state": 1.7375928154257037
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3519,14 +3519,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 3182,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.1,
-        "mfi": 81985.0,
-        "mfi_ratio_to_state": 0.8020524560013305
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3543,14 +3543,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 4125,
-        "population_underserved": 1471,
-        "underserved_share": 0.3566060606060606,
-        "low_income": true,
-        "low_income_reason": "mfi_ratio<=0.80",
-        "poverty_rate": 0.05987878787878788,
-        "mfi": 79088.0,
-        "mfi_ratio_to_state": 0.7737113452489264
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3567,14 +3567,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 3133,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.064297253634895,
-        "mfi": 94688.0,
-        "mfi_ratio_to_state": 0.9263248515442335
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3591,14 +3591,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 7361,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.031245754652900422,
-        "mfi": 122798.0,
-        "mfi_ratio_to_state": 1.2013226503878927
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3615,14 +3615,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 8352,
-        "population_underserved": 7665,
-        "underserved_share": 0.9177442528735632,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.09382566585956416,
-        "mfi": 142617.0,
-        "mfi_ratio_to_state": 1.3952102838024243
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3639,14 +3639,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 2177,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "mfi_ratio<=0.80",
-        "poverty_rate": 0.19625073227885179,
-        "mfi": 48308.0,
-        "mfi_ratio_to_state": 0.4725931578278011
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3663,14 +3663,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 4383,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "poverty>=0.20",
-        "poverty_rate": 0.24976851851851853,
-        "mfi": 56708.0,
-        "mfi_ratio_to_state": 0.5547696612175819
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3687,14 +3687,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 6000,
-        "population_underserved": 6000,
-        "underserved_share": 1.0,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.10333333333333333,
-        "mfi": 91972.0,
-        "mfi_ratio_to_state": 0.8997544487815377
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3711,14 +3711,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 5133,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.14358075199688292,
-        "mfi": 101742.0,
-        "mfi_ratio_to_state": 0.9953335485575089
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3735,14 +3735,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 4456,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.10366539239937037,
-        "mfi": 99750.0,
-        "mfi_ratio_to_state": 0.9758459777536466
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3759,14 +3759,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 5359,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.11626168224299066,
-        "mfi": 83235.0,
-        "mfi_ratio_to_state": 0.8142811023390955
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3780,17 +3780,17 @@
       },
       "properties": {
         "tract_geoid": "10001041701",
-        "sb254_effective": true,
+        "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 6325,
-        "population_underserved": 3546,
-        "underserved_share": 0.5606324110671936,
-        "low_income": true,
-        "low_income_reason": "mfi_ratio<=0.80",
-        "poverty_rate": 0.06967537608867776,
-        "mfi": 81283.0,
-        "mfi_ratio_to_state": 0.7951848482180417
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3807,14 +3807,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 4506,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.13459399332591768,
-        "mfi": 106016.0,
-        "mfi_ratio_to_state": 1.037145736115595
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3831,14 +3831,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 2451,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.07878539187525646,
-        "mfi": 112532.0,
-        "mfi_ratio_to_state": 1.1008912237450963
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3855,14 +3855,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 5328,
-        "population_underserved": 2104,
-        "underserved_share": 0.3948948948948949,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.12490257209664848,
-        "mfi": 105000.0,
-        "mfi_ratio_to_state": 1.0272062923722596
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3879,14 +3879,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 2352,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "poverty>=0.20",
-        "poverty_rate": 0.22491496598639457,
-        "mfi": 62083.0,
-        "mfi_ratio_to_state": 0.6073528404699713
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3903,14 +3903,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 5805,
-        "population_underserved": 5805,
-        "underserved_share": 1.0,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.03221360895779501,
-        "mfi": 87560.0,
-        "mfi_ratio_to_state": 0.8565922186677624
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3927,14 +3927,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 4963,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.08034257748776509,
-        "mfi": 93242.0,
-        "mfi_ratio_to_state": 0.9121787534607069
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3951,14 +3951,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 3321,
-        "population_underserved": 983,
-        "underserved_share": 0.29599518217404397,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.055236945366737095,
-        "mfi": 104909.0,
-        "mfi_ratio_to_state": 1.0263160469188704
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3975,14 +3975,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 5650,
-        "population_underserved": 5026,
-        "underserved_share": 0.8895575221238938,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.09065883648375848,
-        "mfi": 110359.0,
-        "mfi_ratio_to_state": 1.0796329449515256
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -3999,14 +3999,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 7556,
-        "population_underserved": 2476,
-        "underserved_share": 0.3276866066701959,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.1548438327157226,
-        "mfi": 83941.0,
-        "mfi_ratio_to_state": 0.8211878417906652
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -4047,14 +4047,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 2754,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.070079883805374,
-        "mfi": 102639.0,
-        "mfi_ratio_to_state": 1.004108825169489
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -4071,14 +4071,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 3826,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "mfi_ratio<=0.80",
-        "poverty_rate": 0.1501841136244082,
-        "mfi": 65250.0,
-        "mfi_ratio_to_state": 0.6383353388313328
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -4095,14 +4095,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 4697,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "mfi_ratio<=0.80",
-        "poverty_rate": 0.1790692687111302,
-        "mfi": 64219.0,
-        "mfi_ratio_to_state": 0.6282491513319441
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -4143,14 +4143,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 5660,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.062309758281110114,
-        "mfi": 105139.0,
-        "mfi_ratio_to_state": 1.028566117845019
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -4167,14 +4167,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 6426,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "poverty>=0.20",
-        "poverty_rate": 0.252262443438914,
-        "mfi": 55417.0,
-        "mfi_ratio_to_state": 0.5421399152799382
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -4191,14 +4191,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 1376,
-        "population_underserved": 747,
-        "underserved_share": 0.5428779069767442,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.07630813953488372,
-        "mfi": 132708.0,
-        "mfi_ratio_to_state": 1.2982713585536936
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -4215,14 +4215,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 2245,
-        "population_underserved": 673,
-        "underserved_share": 0.29977728285077954,
-        "low_income": true,
-        "low_income_reason": "mfi_ratio<=0.80",
-        "poverty_rate": 0.040979955456570155,
-        "mfi": 68580.0,
-        "mfi_ratio_to_state": 0.6709124526751387
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -4239,14 +4239,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 5401,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "mfi_ratio<=0.80",
-        "poverty_rate": 0.0648182840014987,
-        "mfi": 79369.0,
-        "mfi_ratio_to_state": 0.7764603449456559
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -4263,14 +4263,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 4822,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.10244711737868105,
-        "mfi": 90150.0,
-        "mfi_ratio_to_state": 0.8819299738796115
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -4284,17 +4284,17 @@
       },
       "properties": {
         "tract_geoid": "10005050703",
-        "sb254_effective": true,
+        "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 1862,
-        "population_underserved": 1862,
-        "underserved_share": 1.0,
-        "low_income": true,
-        "low_income_reason": "mfi_ratio<=0.80",
-        "poverty_rate": 0.17624932831810855,
-        "mfi": 65795.0,
-        "mfi_ratio_to_state": 0.6436670286345982
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -4311,14 +4311,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 696,
-        "population_underserved": 379,
-        "underserved_share": 0.5445402298850575,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.03318903318903319,
-        "mfi": 128750.0,
-        "mfi_ratio_to_state": 1.2595505727897944
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -4335,14 +4335,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 1042,
-        "population_underserved": 1042,
-        "underserved_share": 1.0,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.012670565302144249,
-        "mfi": 211563.0,
-        "mfi_ratio_to_state": 2.0697032841252603
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -4383,14 +4383,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 1347,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.06310319227913883,
-        "mfi": 96042.0,
-        "mfi_ratio_to_state": 0.9395709212573005
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -4407,14 +4407,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 2410,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.06099585062240664,
-        "mfi": 146875.0,
-        "mfi_ratio_to_state": 1.4368659446873868
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -4431,14 +4431,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 1659,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.11512959614225438,
-        "mfi": 132083.0,
-        "mfi_ratio_to_state": 1.292157035384811
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -4455,14 +4455,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 2865,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.10366492146596859,
-        "mfi": 98490.0,
-        "mfi_ratio_to_state": 0.9635195022451795
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -4479,14 +4479,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 3911,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.08488877524929686,
-        "mfi": 91542.0,
-        "mfi_ratio_to_state": 0.8955477944413465
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -4503,14 +4503,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 3260,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.19417177914110428,
-        "mfi": 104418.0,
-        "mfi_ratio_to_state": 1.0215126346373962
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -4527,14 +4527,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 3922,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.04895461499235084,
-        "mfi": 95938.0,
-        "mfi_ratio_to_state": 0.9385534978819985
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -4551,14 +4551,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 3425,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.06715328467153285,
-        "mfi": 96010.0,
-        "mfi_ratio_to_state": 0.9392578679110537
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -4575,14 +4575,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 2392,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "mfi_ratio<=0.80",
-        "poverty_rate": 0.033444816053511704,
-        "mfi": 79390.0,
-        "mfi_ratio_to_state": 0.7766657862041303
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -4599,14 +4599,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 4507,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.1275793210561349,
-        "mfi": 89643.0,
-        "mfi_ratio_to_state": 0.8769700349250139
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -4623,14 +4623,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 4005,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.07116104868913857,
-        "mfi": 127125.0,
-        "mfi_ratio_to_state": 1.2436533325507
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -4647,14 +4647,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 2561,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.1333862643906312,
-        "mfi": 128788.0,
-        "mfi_ratio_to_state": 1.2599223236384625
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -4671,14 +4671,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 2045,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.10904645476772616,
-        "mfi": 101172.0,
-        "mfi_ratio_to_state": 0.989757285827488
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -4695,14 +4695,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 2218,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.09062218214607755,
-        "mfi": 146630.0,
-        "mfi_ratio_to_state": 1.434469130005185
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -4719,14 +4719,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 5345,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "poverty>=0.20",
-        "poverty_rate": 0.27913938260056126,
-        "mfi": 80559.0,
-        "mfi_ratio_to_state": 0.7881020162592082
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -4743,14 +4743,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 3551,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.030596788851863073,
-        "mfi": 84792.0,
-        "mfi_ratio_to_state": 0.8295131042174155
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -4767,14 +4767,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 4141,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.039649720262709805,
-        "mfi": 115188.0,
-        "mfi_ratio_to_state": 1.1268746514835795
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -4791,14 +4791,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 2091,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.036824485891917745,
-        "mfi": 128115.0,
-        "mfi_ratio_to_state": 1.2533384204502098
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -4815,14 +4815,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 3968,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.05569556451612903,
-        "mfi": 129397.0,
-        "mfi_ratio_to_state": 1.2658801201342216
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -4839,14 +4839,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 1917,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.03547209181011998,
-        "mfi": 103000.0,
-        "mfi_ratio_to_state": 1.0076404582318357
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -4863,14 +4863,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 1737,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.039723661485319514,
-        "mfi": 134821.0,
-        "mfi_ratio_to_state": 1.3189426623230516
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -4887,14 +4887,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 679,
-        "population_underserved": 147,
-        "underserved_share": 0.21649484536082475,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.041237113402061855,
-        "mfi": 127500.0,
-        "mfi_ratio_to_state": 1.2473219264520294
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -4911,14 +4911,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 1618,
-        "population_underserved": 1618,
-        "underserved_share": 1.0,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.07911001236093942,
-        "mfi": 111154.0,
-        "mfi_ratio_to_state": 1.0874103640223443
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -4935,14 +4935,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 6148,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "poverty>=0.20",
-        "poverty_rate": 0.305724126619649,
-        "mfi": 74485.0,
-        "mfi_ratio_to_state": 0.7286805779747405
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -4956,17 +4956,17 @@
       },
       "properties": {
         "tract_geoid": "10005050104",
-        "sb254_effective": true,
+        "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 5368,
-        "population_underserved": 4177,
-        "underserved_share": 0.7781296572280179,
-        "low_income": true,
-        "low_income_reason": "poverty>=0.20",
-        "poverty_rate": 0.2438324727481354,
-        "mfi": 70234.0,
-        "mfi_ratio_to_state": 0.6870933975092693
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -4983,14 +4983,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 6184,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "mfi_ratio<=0.80",
-        "poverty_rate": 0.15369059656218403,
-        "mfi": 46929.0,
-        "mfi_ratio_to_state": 0.45910251518797873
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5007,14 +5007,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 746,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.022788203753351208,
-        "mfi": 124375.0,
-        "mfi_ratio_to_state": 1.216750310607617
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5031,14 +5031,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 2028,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.07847976307996052,
-        "mfi": 113929.0,
-        "mfi_ratio_to_state": 1.1145579588921826
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5055,14 +5055,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 3181,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.08330713612071676,
-        "mfi": 108519.0,
-        "mfi_ratio_to_state": 1.0616323775423355
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5079,14 +5079,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 2416,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "mfi_ratio<=0.80",
-        "poverty_rate": 0.08543096872616324,
-        "mfi": 73750.0,
-        "mfi_ratio_to_state": 0.7214901339281347
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5103,14 +5103,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 5407,
-        "population_underserved": 1463,
-        "underserved_share": 0.27057518032180505,
-        "low_income": true,
-        "low_income_reason": "mfi_ratio<=0.80",
-        "poverty_rate": 0.16922507860181246,
-        "mfi": 59469.0,
-        "mfi_ratio_to_state": 0.5817802952484372
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5127,14 +5127,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 7039,
-        "population_underserved": 7039,
-        "underserved_share": 1.0,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.058756090570364,
-        "mfi": 125777.0,
-        "mfi_ratio_to_state": 1.2304659603400543
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5151,14 +5151,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 5314,
-        "population_underserved": 5314,
-        "underserved_share": 1.0,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.08355287918705306,
-        "mfi": 139091.0,
-        "mfi_ratio_to_state": 1.3607157182128566
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5175,14 +5175,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 2506,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "mfi_ratio<=0.80",
-        "poverty_rate": 0.1831604150039904,
-        "mfi": 41196.0,
-        "mfi_ratio_to_state": 0.4030170516244534
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5199,14 +5199,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 5791,
-        "population_underserved": 5791,
-        "underserved_share": 1.0,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.051130434782608696,
-        "mfi": 139625.0,
-        "mfi_ratio_to_state": 1.36593979592835
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5223,14 +5223,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 1805,
-        "population_underserved": 1805,
-        "underserved_share": 1.0,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.06537396121883657,
-        "mfi": 129569.0,
-        "mfi_ratio_to_state": 1.2675627818702981
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5247,14 +5247,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 4570,
-        "population_underserved": 881,
-        "underserved_share": 0.19277899343544858,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.08496138119036802,
-        "mfi": 119951.0,
-        "mfi_ratio_to_state": 1.1734706854889991
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5271,14 +5271,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 4311,
-        "population_underserved": 2575,
-        "underserved_share": 0.597309209000232,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.1268847135235444,
-        "mfi": 91477.0,
-        "mfi_ratio_to_state": 0.8949119048317827
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5295,14 +5295,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 5543,
-        "population_underserved": 3445,
-        "underserved_share": 0.621504600396897,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.05159660833483673,
-        "mfi": 144813.0,
-        "mfi_ratio_to_state": 1.4166935696886098
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5319,14 +5319,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 1611,
-        "population_underserved": 1611,
-        "underserved_share": 1.0,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.06905210295040803,
-        "mfi": 158646.0,
-        "mfi_ratio_to_state": 1.5520206615208523
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5343,14 +5343,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 4053,
-        "population_underserved": 4053,
-        "underserved_share": 1.0,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.0537873180360227,
-        "mfi": 112129.0,
-        "mfi_ratio_to_state": 1.096948708165801
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5367,14 +5367,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 6868,
-        "population_underserved": 931,
-        "underserved_share": 0.13555620267909144,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.005906406179009541,
-        "mfi": 152847.0,
-        "mfi_ratio_to_state": 1.4952895254306928
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5391,14 +5391,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 2187,
-        "population_underserved": 683,
-        "underserved_share": 0.3122999542752629,
-        "low_income": true,
-        "low_income_reason": "poverty>=0.20",
-        "poverty_rate": 0.2299219825608077,
-        "mfi": 52298.0,
-        "mfi_ratio_to_state": 0.511626996937947
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5415,14 +5415,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 3861,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.06785806785806786,
-        "mfi": 135298.0,
-        "mfi_ratio_to_state": 1.3236091137655426
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5439,14 +5439,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 3446,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.09154723603392804,
-        "mfi": 95915.0,
-        "mfi_ratio_to_state": 0.9383284907893836
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5463,14 +5463,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 1978,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.025966850828729283,
-        "mfi": 152460.0,
-        "mfi_ratio_to_state": 1.4915035365245208
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5487,14 +5487,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 3290,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "mfi_ratio<=0.80",
-        "poverty_rate": 0.08328267477203648,
-        "mfi": 79231.0,
-        "mfi_ratio_to_state": 0.7751103023899666
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5511,14 +5511,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 1587,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "poverty>=0.20",
-        "poverty_rate": 0.21172022684310018,
-        "mfi": 78269.0,
-        "mfi_ratio_to_state": 0.7656991361684227
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5535,14 +5535,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 3812,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.10614818707304256,
-        "mfi": 113650.0,
-        "mfi_ratio_to_state": 1.1118285250295934
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5559,14 +5559,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 4347,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.07165898617511521,
-        "mfi": 100720.0,
-        "mfi_ratio_to_state": 0.9853354073117522
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5583,14 +5583,14 @@
         "sb254_effective": false,
         "urbanicity": "nonurban",
         "distance_threshold_mi": 10.0,
-        "population_total": 4460,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.032511210762331835,
-        "mfi": 145987.0,
-        "mfi_ratio_to_state": 1.4281787143290385
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5607,12 +5607,12 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 2373,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "poverty>=0.20",
-        "poverty_rate": 0.2891822827938671,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
         "mfi": null,
         "mfi_ratio_to_state": null
       }
@@ -5628,17 +5628,17 @@
       },
       "properties": {
         "tract_geoid": "10003010104",
-        "sb254_effective": true,
+        "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 4087,
-        "population_underserved": 2639,
-        "underserved_share": 0.6457058967457793,
-        "low_income": true,
-        "low_income_reason": "mfi_ratio<=0.80",
-        "poverty_rate": 0.12356251529239051,
-        "mfi": 75164.0,
-        "mfi_ratio_to_state": 0.7353231786654144
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5655,14 +5655,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 3632,
-        "population_underserved": 3632,
-        "underserved_share": 1.0,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.08823529411764706,
-        "mfi": 85329.0,
-        "mfi_ratio_to_state": 0.8347665306841194
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5679,14 +5679,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 4612,
-        "population_underserved": 645,
-        "underserved_share": 0.1398525585429315,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.1500983176753332,
-        "mfi": 112938.0,
-        "mfi_ratio_to_state": 1.1048630880756023
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5703,14 +5703,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 3280,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "mfi_ratio<=0.80",
-        "poverty_rate": 0.15457317073170732,
-        "mfi": 69122.0,
-        "mfi_ratio_to_state": 0.6762147937271936
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5727,14 +5727,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 2877,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "mfi_ratio<=0.80",
-        "poverty_rate": 0.14668057003823426,
-        "mfi": 66295.0,
-        "mfi_ratio_to_state": 0.6485584871697042
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5751,14 +5751,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 2490,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.060950832994717596,
-        "mfi": 90278.0,
-        "mfi_ratio_to_state": 0.8831821872645985
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5775,14 +5775,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 3414,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.07205623901581722,
-        "mfi": 87044.0,
-        "mfi_ratio_to_state": 0.851544233459533
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5799,14 +5799,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 2852,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "mfi_ratio<=0.80",
-        "poverty_rate": 0.1640953716690042,
-        "mfi": 76681.0,
-        "mfi_ratio_to_state": 0.750163863860926
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5823,14 +5823,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 1965,
-        "population_underserved": 1003,
-        "underserved_share": 0.5104325699745547,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.02544529262086514,
-        "mfi": 99219.0,
-        "mfi_ratio_to_state": 0.970651248789364
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5847,14 +5847,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 2783,
-        "population_underserved": 1321,
-        "underserved_share": 0.4746676248652533,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.04886812791951132,
-        "mfi": 109293.0,
-        "mfi_ratio_to_state": 1.0692043553546797
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5871,14 +5871,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 3498,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "poverty>=0.20",
-        "poverty_rate": 0.28673527730131504,
-        "mfi": 68372.0,
-        "mfi_ratio_to_state": 0.6688776059245346
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5895,14 +5895,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 7357,
-        "population_underserved": 3874,
-        "underserved_share": 0.5265733315210004,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.10407301457567089,
-        "mfi": 95875.0,
-        "mfi_ratio_to_state": 0.9379371741065751
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5919,14 +5919,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 4891,
-        "population_underserved": 2346,
-        "underserved_share": 0.4796565119607442,
-        "low_income": true,
-        "low_income_reason": "mfi_ratio<=0.80",
-        "poverty_rate": 0.16868957004731536,
-        "mfi": 68182.0,
-        "mfi_ratio_to_state": 0.6670188516811943
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5943,14 +5943,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 1594,
-        "population_underserved": 1594,
-        "underserved_share": 1.0,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.006273525721455458,
-        "mfi": 90865.0,
-        "mfi_ratio_to_state": 0.888924759584813
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5967,14 +5967,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 3655,
-        "population_underserved": 1272,
-        "underserved_share": 0.34801641586867305,
-        "low_income": true,
-        "low_income_reason": "poverty>=0.20",
-        "poverty_rate": 0.2537313432835821,
-        "mfi": 131192.0,
-        "mfi_ratio_to_state": 1.2834404562752522
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -5991,14 +5991,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 2171,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "poverty>=0.20",
-        "poverty_rate": 0.7323813910640258,
-        "mfi": 42250.0,
-        "mfi_ratio_to_state": 0.4133282462164568
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -6015,14 +6015,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 1937,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.1357769747031492,
-        "mfi": 99276.0,
-        "mfi_ratio_to_state": 0.9712088750623661
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -6039,14 +6039,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 5172,
-        "population_underserved": 2092,
-        "underserved_share": 0.40448569218870845,
-        "low_income": true,
-        "low_income_reason": "mfi_ratio<=0.80",
-        "poverty_rate": 0.11407579273008507,
-        "mfi": 75329.0,
-        "mfi_ratio_to_state": 0.7369373599819994
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -6063,14 +6063,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 6605,
-        "population_underserved": 1992,
-        "underserved_share": 0.3015897047691143,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.042694928084784256,
-        "mfi": 97023.0,
-        "mfi_ratio_to_state": 0.9491679629031785
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -6087,14 +6087,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 3549,
-        "population_underserved": 2693,
-        "underserved_share": 0.7588052972668358,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.013214593507612756,
-        "mfi": 181019.0,
-        "mfi_ratio_to_state": 1.7708938651327053
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -6111,14 +6111,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 4979,
-        "population_underserved": 1180,
-        "underserved_share": 0.23699538059851374,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.09198634263908416,
-        "mfi": 97294.0,
-        "mfi_ratio_to_state": 0.9518191334292059
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -6135,14 +6135,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 3133,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
-        "low_income": true,
-        "low_income_reason": "poverty>=0.20",
-        "poverty_rate": 0.2052345994254708,
-        "mfi": 84400.0,
-        "mfi_ratio_to_state": 0.8256782007258925
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -6159,14 +6159,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 3073,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.014056881333769205,
-        "mfi": 139568.0,
-        "mfi_ratio_to_state": 1.3653821696553479
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -6183,14 +6183,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 3463,
+        "population_total": 0,
         "population_underserved": 0,
         "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.028015334709525212,
-        "mfi": 147000.0,
-        "mfi_ratio_to_state": 1.4380888093211635
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -6207,14 +6207,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 1080,
-        "population_underserved": 339,
-        "underserved_share": 0.3138888888888889,
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
         "low_income": false,
         "low_income_reason": null,
-        "poverty_rate": 0.05462962962962963,
-        "mfi": 170750.0,
-        "mfi_ratio_to_state": 1.6704330897386983
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -6228,17 +6228,17 @@
       },
       "properties": {
         "tract_geoid": "10005050405",
-        "sb254_effective": true,
+        "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 4964,
-        "population_underserved": 2539,
-        "underserved_share": 0.5114826752618856,
-        "low_income": true,
-        "low_income_reason": "mfi_ratio<=0.80",
-        "poverty_rate": 0.09897959183673469,
-        "mfi": 64387.0,
-        "mfi_ratio_to_state": 0.6298926813997398
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -6252,17 +6252,17 @@
       },
       "properties": {
         "tract_geoid": "10005050105",
-        "sb254_effective": true,
+        "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 6294,
-        "population_underserved": 6294,
-        "underserved_share": 1.0,
-        "low_income": true,
-        "low_income_reason": "mfi_ratio<=0.80",
-        "poverty_rate": 0.0996186844613918,
-        "mfi": 78710.0,
-        "mfi_ratio_to_state": 0.7700134025963862
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     },
     {
@@ -6279,14 +6279,14 @@
         "sb254_effective": false,
         "urbanicity": "urban",
         "distance_threshold_mi": 0.5,
-        "population_total": 5196,
-        "population_underserved": 1570,
-        "underserved_share": 0.30215550423402615,
-        "low_income": true,
-        "low_income_reason": "poverty>=0.20",
-        "poverty_rate": 0.2537917087967644,
-        "mfi": 54471.0,
-        "mfi_ratio_to_state": 0.5328852757315177
+        "population_total": 0,
+        "population_underserved": 0,
+        "underserved_share": 0.0,
+        "low_income": false,
+        "low_income_reason": null,
+        "poverty_rate": null,
+        "mfi": null,
+        "mfi_ratio_to_state": null
       }
     }
   ]

@@ -9,7 +9,7 @@
   "low_income_poverty_threshold": 0.2,
   "manual_reviews_file": "etl/manual-reviews.yaml",
   "max_source_age_days": 30,
-  "methodology_version": "0.2.1",
+  "methodology_version": "0.3.2",
   "min_tracts_per_county_de": 1,
   "mmg_data_year": 2023,
   "mmg_release": "2025",
