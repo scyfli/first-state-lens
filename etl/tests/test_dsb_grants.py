@@ -210,11 +210,15 @@ def test_parse_docx_extracts_awardees_with_and_without_region() -> None:
     }
     by_name = {g.grantee: g for g in result.grantees}
     assert by_name["Bellevue Community Center"].amount_usd == 22203.0
-    assert by_name["Bellevue Community Center"].category == "NCC"
-    assert by_name["Bennett Orchards"].category is None  # no region published
     assert by_name["La Red Health Center"].amount_usd == 28500.0
     assert by_name["Midas Harvest Urban Farm"].amount_usd == 30748.0
     assert all(g.cycle == 5 for g in result.grantees)
+    # category is the business-type field — must stay None (not the region),
+    # so load_raw applies its default instead of a polluted value.
+    assert all(g.category is None for g in result.grantees)
+    # the region is preserved in the audit trail (raw_context) when present.
+    assert "[NCC]" in by_name["Bellevue Community Center"].raw_context
+    assert by_name["Bennett Orchards"].raw_context.startswith("Installing")
 
 
 def test_parse_docx_handles_corrupt_bytes() -> None:

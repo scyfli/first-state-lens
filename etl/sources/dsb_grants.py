@@ -278,14 +278,21 @@ def _parse_docx_grantee_line(text: str) -> Optional[GranteeRecord]:
     if not name:
         return None
     desc = text[amount_m.end():].lstrip(" -–—").strip()
+    # NOTE: `category` is a business-type field (supermarket / corner-store /
+    # farmers-market) consumed by geocoding + the food-resource merge — do NOT
+    # put the region here. Leave it None (load_raw applies the business-type
+    # default) and keep the region/description in raw_context for the audit
+    # trail. (The parens may be a region OR an acronym like "(HOPP)", so it is
+    # not a reliable region field anyway.)
+    audit = f"[{region}] {desc}" if region else desc
     return GranteeRecord(
         cycle=5,
         grantee=name,
         storefront_address=None,  # DSB publishes region only, not street address
         amount_usd=float(amount_m.group(1).replace(",", "")),
         awarded_date="2026-05",
-        category=region,  # region: NCC / Kent / Sussex / Statewide (or None)
-        raw_context=(desc[:200] if desc else text[:200]),
+        category=None,
+        raw_context=(audit[:200] if audit else text[:200]),
     )
 
 
