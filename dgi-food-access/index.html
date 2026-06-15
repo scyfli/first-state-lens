@@ -774,7 +774,7 @@
     <div class="title-eyebrow">DGI Food Access · SB 254 · Cycles 1–5</div>
     <h1 class="title-h1">
       The Delaware Grocery Initiative has deployed <span class="highlight-emerald">~$2.15M</span>
-      across five award cycles to fight food deserts. <span class="highlight">125,370 Delawareans</span> remain food insecure.
+      across its award cycles to fight food deserts, with <span class="highlight-emerald">$712,500</span> more just awarded in Cycle 5. <span class="highlight">125,370 Delawareans</span> remain food insecure.
     </h1>
     <p class="title-sub">
       SB 254 (2024) created the Delaware Grocery Initiative to expand healthy-food access in food deserts, with awards
@@ -790,14 +790,14 @@
     <div class="kpi-card" data-tone="info">
       <div class="kpi-label">DGI Dollars Deployed (Cycles 1–4 + 2025)</div>
       <div class="kpi-value">~$2.15M</div>
-      <div class="kpi-context">39 projects through Cycle 4 (~$1.9M) plus 22 organizations in the July 2025 round (~$250K). <strong>Cycle 5 ($700K) pending</strong>.</div>
+      <div class="kpi-context">39 projects through Cycle 4 (~$1.9M) plus 22 organizations in the July 2025 round (~$250K). <strong>Cycle 5 ($712,500) now awarded</strong>, disbursing to 28 organizations.</div>
       <div class="kpi-source">SOURCE · DSB / news.delaware.gov</div>
     </div>
-    <div class="kpi-card" data-tone="pending">
-      <div class="kpi-label">Cycle 5 (Pending)</div>
-      <div class="kpi-value kpi-value-tone-warning">$700K</div>
-      <div class="kpi-context">Applications closed <strong>2026-03-20</strong>; awardee list expected May 2026. The dashboard ingests Cycle 5 as a <strong>pending-disbursement placeholder</strong> until DSB publishes.</div>
-      <div class="kpi-source">SOURCE · DSB · NEWS.DELAWARE.GOV · FEB 4 2026</div>
+    <div class="kpi-card" data-tone="info">
+      <div class="kpi-label">Cycle 5 (Awarded)</div>
+      <div class="kpi-value">$712,500<span class="kpi-unit">/ 28 orgs</span></div>
+      <div class="kpi-context">Awarded <strong>May 2026</strong> to 28 organizations across New Castle, Kent &amp; Sussex. The dashboard ingests the awardee list as <strong>pending-disbursement</strong> until DSB confirms each disbursement.</div>
+      <div class="kpi-source">SOURCE · DSB WINNER SUMMARY · MAY 2026</div>
     </div>
     <div class="kpi-card" data-tone="danger">
       <div class="kpi-label">Delawareans Food Insecure</div>
@@ -891,7 +891,8 @@
     const DE_BOUNDS = [[-75.80, 38.43], [-74.96, 39.86]];
     const PALETTE = {
       effective: 'rgba(52,211,153,0.55)', effLine: 'rgba(52,211,153,0.95)',
-      lowincome: 'rgba(251,191,36,0.45)', lila: 'rgba(34,211,238,0.16)', lilaLine: 'rgba(34,211,238,0.4)',
+      lowincome: 'rgba(251,191,36,0.45)', other: 'rgba(100,116,139,0.22)',
+      lila: 'rgba(34,211,238,0.16)', lilaLine: 'rgba(34,211,238,0.45)',
       snap: 'rgba(167,139,250,0.7)', dart: 'rgba(148,163,184,0.45)', sd2: 'rgba(248,250,252,0.7)'
     };
     let built = false, map = null;
@@ -925,31 +926,23 @@
           getJSON('dart-routes.geojson'), getJSON('snap-retailers.geojson'),
           getJSON('sb254-effective-tracts.geojson'),
         ]);
-        // Join SB 254 tract flags onto the LILA polygons by tract_geoid. The
-        // sb254-effective-tracts geometry is point-only and currently [0,0]
-        // (an ETL geometry gap); the LILA polygons carry the real tract
-        // geometry. All 10 SB 254-effective tracts fall within the LILA set,
-        // so the headline layer renders fully.
-        const flag = {};
-        sb254.features.forEach(f => { flag[String(f.properties.tract_geoid)] = f.properties; });
-        lila.features.forEach(f => {
-          const s = flag[String(f.properties.tract_geoid)] || {};
-          f.properties._eff = !!s.sb254_effective;
-          f.properties._low = !!s.low_income;
-          f.properties._mfi = (s.mfi != null) ? s.mfi : null;
-          f.properties._pov = (s.poverty_rate != null) ? s.poverty_rate : null;
-          f.properties._urb = s.urbanicity || null;
-        });
-
+        // SB 254 tracts now carry real polygon geometry (all 262), so render
+        // them directly — fill by status (effective / low-income / other). The
+        // USDA LILA polygons (federal food-desert definition) overlay as a thin
+        // cyan outline for cross-reference.
         map.addSource('sd2', { type: 'geojson', data: sd2 });
         map.addLayer({ id: 'sd2', type: 'line', source: 'sd2',
           paint: { 'line-color': PALETTE.sd2, 'line-width': 2, 'line-dasharray': [2, 1] } });
 
+        map.addSource('sb254', { type: 'geojson', data: sb254 });
+        map.addLayer({ id: 'sb254-fill', type: 'fill', source: 'sb254',
+          paint: { 'fill-color': ['case', ['get', 'sb254_effective'], PALETTE.effective, ['get', 'low_income'], PALETTE.lowincome, PALETTE.other] } });
+        map.addLayer({ id: 'sb254-line', type: 'line', source: 'sb254',
+          paint: { 'line-color': ['case', ['get', 'sb254_effective'], PALETTE.effLine, 'rgba(148,163,184,0.22)'], 'line-width': ['case', ['get', 'sb254_effective'], 1.4, 0.3] } });
+
         map.addSource('lila', { type: 'geojson', data: lila });
-        map.addLayer({ id: 'lila-fill', type: 'fill', source: 'lila',
-          paint: { 'fill-color': ['case', ['get', '_eff'], PALETTE.effective, ['get', '_low'], PALETTE.lowincome, PALETTE.lila] } });
         map.addLayer({ id: 'lila', type: 'line', source: 'lila',
-          paint: { 'line-color': ['case', ['get', '_eff'], PALETTE.effLine, PALETTE.lilaLine], 'line-width': ['case', ['get', '_eff'], 1.4, 0.5] } });
+          paint: { 'line-color': PALETTE.lilaLine, 'line-width': 0.7 } });
 
         map.addSource('dart', { type: 'geojson', data: dart });
         map.addLayer({ id: 'dart', type: 'line', source: 'dart', layout: { visibility: 'none' },
@@ -975,14 +968,13 @@
       const pct = v => (v * 100).toFixed(1) + '%';
       const usd = v => '$' + Math.round(v).toLocaleString();
       const defs = {
-        'lila-fill': p => popupHTML([
+        'sb254-fill': p => popupHTML([
           ['Tract', p.tract_geoid],
-          ['SB 254-effective', p._eff ? 'yes' : 'no'],
-          ['Low income', p._low ? 'yes' : 'no'],
-          ['USDA LILA (1 &amp; 10 mi)', p.LILATracts_1And10 ? 'yes' : 'no'],
-          ['Median family income', p._mfi != null ? usd(p._mfi) : (p.MedianFamilyIncome != null ? usd(p.MedianFamilyIncome) : null)],
-          ['Poverty rate', p._pov != null ? pct(p._pov) : (p.PovertyRate != null ? p.PovertyRate.toFixed(1) + '%' : null)],
-          ['Urbanicity', p._urb]]),
+          ['SB 254-effective', p.sb254_effective ? 'yes' : 'no'],
+          ['Low income', p.low_income ? 'yes' : 'no'],
+          ['Median family income', p.mfi != null ? usd(p.mfi) : null],
+          ['Poverty rate', p.poverty_rate != null ? pct(p.poverty_rate) : null],
+          ['Urbanicity', p.urbanicity]]),
         snap: p => popupHTML([['Retailer', p.name], ['Address', p.address], ['Type', (p.categories || []).join(', ')]]),
         dart: p => popupHTML([['Route', (p.route_short_names || []).join(', ')], ['Name', (p.route_long_names || []).join(', ')]]),
         sd2: p => popupHTML([['Senate District', p.DISTRICT], ['Senator', p.NAME]]),
@@ -998,7 +990,7 @@
       });
     }
     function wireToggles() {
-      const groups = { tracts: ['lila-fill', 'lila'], snap: ['snap'], dart: ['dart'], sd2: ['sd2'] };
+      const groups = { tracts: ['sb254-fill', 'sb254-line', 'lila'], snap: ['snap'], dart: ['dart'], sd2: ['sd2'] };
       document.querySelectorAll('#fsl-map-legend input[data-layer]').forEach(cb => {
         cb.addEventListener('change', () => (groups[cb.dataset.layer] || []).forEach(id => {
           if (map.getLayer(id)) map.setLayoutProperty(id, 'visibility', cb.checked ? 'visible' : 'none');
@@ -1021,12 +1013,12 @@
     <div class="grid-2">
       <div class="panel">
         <div class="panel-title">Dollars awarded by cycle</div>
-        <div class="panel-sub">Cycle 5 shown as <em>pending</em>; bar height reflects allocated funding ($700K) but exact deployment per grantee is unknown until DSB publishes the awardee list.</div>
+        <div class="panel-sub">Cycle 5 awarded May 2026: <strong>$712,500</strong> across 28 organizations (DSB Winner Summary). Per-grantee disbursement is tracked as DSB confirms it.</div>
         <div class="chart-wrap"><canvas id="cycleChart"></canvas></div>
       </div>
       <div class="panel">
         <div class="panel-title">Cumulative deployed dollars</div>
-        <div class="panel-sub">Sum across cycles. The slope flattens between Cycle 4 (2024) and the 2025 round (smaller pool) and reaccelerates with Cycle 5 once awarded.</div>
+        <div class="panel-sub">Sum across cycles. Disbursed funding tops out at $2.15M; the dashed segment shows Cycle 5's $712,500 award climbing toward ~$2.86M as it disburses.</div>
         <div class="chart-wrap"><canvas id="cumChart"></canvas></div>
       </div>
     </div>
@@ -1225,17 +1217,17 @@
   new Chart(cycleCtx, {
     type: 'bar',
     data: {
-      labels: ['Cycle 1', 'Cycle 2', 'Cycle 3', 'Cycle 4', '2025 round', 'Cycle 5 (pending)'],
+      labels: ['Cycle 1', 'Cycle 2', 'Cycle 3', 'Cycle 4', '2025 round', 'Cycle 5'],
       datasets: [{
         label: 'Dollars awarded',
-        data: [475000, 475000, 475000, 475000, 250000, 700000],
+        data: [475000, 475000, 475000, 475000, 250000, 712500],
         backgroundColor: [
           'rgba(52, 211, 153, 0.5)',
           'rgba(52, 211, 153, 0.5)',
           'rgba(52, 211, 153, 0.5)',
           'rgba(52, 211, 153, 0.5)',
           'rgba(34, 211, 238, 0.5)',
-          'rgba(251, 191, 36, 0.35)'
+          'rgba(52, 211, 153, 0.5)'
         ],
         borderColor: [
           'rgba(52, 211, 153, 1)',
@@ -1243,7 +1235,7 @@
           'rgba(52, 211, 153, 1)',
           'rgba(52, 211, 153, 1)',
           'rgba(34, 211, 238, 1)',
-          'rgba(251, 191, 36, 1)'
+          'rgba(52, 211, 153, 1)'
         ],
         borderWidth: 1.5,
         borderRadius: 4
@@ -1287,9 +1279,11 @@
   gradAccent.addColorStop(0, 'rgba(52, 211, 153, 0.35)');
   gradAccent.addColorStop(1, 'rgba(52, 211, 153, 0)');
 
-  const cumLabels = ['Cycle 1', 'Cycle 2', 'Cycle 3', 'Cycle 4', '2025 round', 'Cycle 5 pending'];
+  const cumLabels = ['Cycle 1', 'Cycle 2', 'Cycle 3', 'Cycle 4', '2025 round', 'Cycle 5'];
+  // Deployed (disbursed) line tops out at $2.15M; Cycle 5 is awarded but not yet
+  // disbursed, shown as the dashed projection to ~$2.86M.
   const cumActual = [475000, 950000, 1425000, 1900000, 2150000, null];
-  const cumProjected = [null, null, null, null, 2150000, 2850000];
+  const cumProjected = [null, null, null, null, 2150000, 2862500];
 
   new Chart(cumCtx, {
     type: 'line',
