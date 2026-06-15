@@ -1,0 +1,53 @@
+name: Accessibility (axe-core WCAG 2.2 AA)
+
+# Enforces the project's stated accessibility floor (README: "Accessibility
+# floor: WCAG 2.2 AA"). Audits each dashboard with axe-core, bypassing the
+# client-side soft-launch gate via sessionStorage so the REAL content is
+# tested. Fails the build on any serious/critical violation.
+
+on:
+  pull_request:
+    paths:
+      - "index.html"
+      - "clean-slate/**"
+      - "dgi-food-access/**"
+      - "scripts/a11y-audit.js"
+      - ".github/workflows/a11y.yml"
+  push:
+    branches: [main]
+    paths:
+      - "index.html"
+      - "clean-slate/**"
+      - "dgi-food-access/**"
+      - "scripts/a11y-audit.js"
+      - ".github/workflows/a11y.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  axe:
+    name: axe-core WCAG 2.2 AA
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install audit dependencies (isolated; not committed)
+        run: |
+          mkdir -p .ci
+          cd .ci
+          echo '{"name":"fsl-a11y-ci","private":true,"version":"0.0.0"}' > package.json
+          npm install --no-audit --no-fund puppeteer@23 @axe-core/puppeteer@4
+
+      - name: Run axe-core audit (gate-bypassed, all dashboards)
+        env:
+          NODE_PATH: .ci/node_modules
+        run: node scripts/a11y-audit.js
