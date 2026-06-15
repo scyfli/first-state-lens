@@ -46,3 +46,9 @@ schedule_cron: "0 9 1-7 * 0"           # first Sunday of month at 09:00 UTC
 # --- Validation thresholds ---
 max_source_age_days: 30                # any source older than this fails deploy gate
 min_tracts_per_county_de: 1            # sanity floor
+
+# --- Source URL pins (override puller defaults) ---
+# DSB Cycle 5 (2026) awardee "Winner Summary" .docx — the canonical grantee list
+# (resolves the carried "DSB canonical URL" open question, sessions 15-26). This
+# URL is cycle-specific; update it when a new cycle's winner summary publishes.
+dsb_grants_url: "https://business.delaware.gov/wp-content/uploads/sites/118/2026/05/Winner-Summary-for-DGI-webpage_webview.docx"

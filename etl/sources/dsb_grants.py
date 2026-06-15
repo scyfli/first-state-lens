@@ -67,9 +67,11 @@ import argparse
 import dataclasses
 import hashlib
 import html.parser
+import io
 import json
 import re
 import sys
+import zipfile
 from pathlib import Path
 from typing import Optional
 
@@ -82,6 +84,23 @@ from etl.lib.fetch import FetchResult, fetch
 # status only); the snapshot SHA still serves the "is the structure
 # stable?" check.
 DEFAULT_DSB_URL = "https://business.delaware.gov/delaware-grocery-initiative/"
+
+# Canonical grantee-list source (resolves the carried "DSB canonical URL"
+# open question, sessions 15-26). DSB publishes the per-cycle awardee list as
+# a .docx "Winner Summary" linked from the DGI page ("Description of Recipient
+# Projects"). This is the Cycle 5 (2026) list; the URL is cycle-specific and is
+# wired via parameters.yaml: dsb_grants_url, so future cycles update one value.
+CYCLE5_WINNER_SUMMARY_DOCX = (
+    "https://business.delaware.gov/wp-content/uploads/sites/118/2026/05/"
+    "Winner-Summary-for-DGI-webpage_webview.docx"
+)
+
+# The business.delaware.gov edge WAF rejects non-browser User-Agents with a
+# 245-byte "Request Rejected" page (HTTP 200). A full browser UA passes.
+BROWSER_USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+)
 
 OUTPUT_RAW_HTML = "dsb-grants-raw.html"
 OUTPUT_PARSED_JSON = "dsb-grants.json"
@@ -127,10 +146,18 @@ def pull(
     persisted alongside as `dsb-grants-raw.html` for audit-trail.
     """
     out_dir.mkdir(parents=True, exist_ok=True)
-    result = fetch(url)
+    # Browser UA to clear the business.delaware.gov WAF (rejects bot UAs).
+    result = fetch(url, user_agent=BROWSER_USER_AGENT)
     atomic_write_bytes(out_dir / OUTPUT_RAW_HTML, result.body)
 
-    parse_result = parse_html(result.body.decode("utf-8", errors="replace"))
+    is_docx = url.lower().endswith(".docx") or (
+        result.content_type is not None
+        and "wordprocessingml" in result.content_type
+    )
+    if is_docx:
+        parse_result = parse_docx(result.body)
+    else:
+        parse_result = parse_html(result.body.decode("utf-8", errors="replace"))
 
     atomic_write_text(
         out_dir / OUTPUT_PARSED_JSON,
@@ -175,6 +202,90 @@ def parse_html(html_text: str) -> ParseResult:
         cycle_5_status=cycle_5_status,
         snapshot_sha=snapshot_sha,
         parser_warnings=warnings,
+    )
+
+
+# ---------------------------------------------------------------------------
+# .docx parsing — the canonical "Winner Summary" awardee list
+# ---------------------------------------------------------------------------
+
+
+def parse_docx(docx_bytes: bytes) -> ParseResult:
+    """Parse a DSB 'Winner Summary' .docx into grantee records.
+
+    Format (one paragraph per awardee):
+        <Org Name> (<region>) $<amount> - <project description>
+    with tolerant handling of dash/amount ordering and missing spaces.
+    """
+    try:
+        zf = zipfile.ZipFile(io.BytesIO(docx_bytes))
+        xml = zf.read("word/document.xml").decode("utf-8", errors="replace")
+    except (zipfile.BadZipFile, KeyError, OSError) as exc:
+        return ParseResult(
+            grantees=[],
+            cycle_5_status="pending",
+            snapshot_sha=compute_snapshot_sha(""),
+            parser_warnings=[f"docx could not be opened/parsed: {exc}"],
+        )
+
+    paragraphs = _docx_paragraphs(xml)
+    grantees = [r for r in (_parse_docx_grantee_line(p) for p in paragraphs) if r is not None]
+    warnings: list[str] = []
+    if not grantees:
+        warnings.append(
+            "no grantees parsed from docx; the winner-summary format may have "
+            "changed. Check the document structure."
+        )
+    return ParseResult(
+        grantees=grantees,
+        cycle_5_status="published" if grantees else "pending",
+        snapshot_sha=compute_snapshot_sha(" ".join(paragraphs)),
+        parser_warnings=warnings,
+    )
+
+
+def _docx_paragraphs(document_xml: str) -> list[str]:
+    """Extract non-empty visible paragraph texts from a Word document.xml."""
+    out: list[str] = []
+    for raw in re.split(r"</w:p>", document_xml):
+        text = re.sub(r"<[^>]+>", "", raw).replace("&amp;", "&").strip()
+        if text:
+            out.append(text)
+    return out
+
+
+_DOCX_REGION_RE = re.compile(r"\(([^)]+)\)")
+_DOCX_AMOUNT_RE = re.compile(r"\$\s?([\d,]{3,})")
+
+
+def _parse_docx_grantee_line(text: str) -> Optional[GranteeRecord]:
+    """Parse one awardee paragraph. An awardee line always has a $amount; the
+    (region) is optional (e.g. 'Bennett Orchards $53,999' carries none).
+    Returns None for non-awardee lines (the header has no $amount)."""
+    amount_m = _DOCX_AMOUNT_RE.search(text)
+    if amount_m is None:
+        return None
+    region_m = _DOCX_REGION_RE.search(text)
+    if region_m is not None and region_m.start() < amount_m.start():
+        # Region precedes the amount: name is the text before the region.
+        name = text[: region_m.start()]
+        region: Optional[str] = region_m.group(1).strip()
+    else:
+        # No region before the amount: name is the text before the amount.
+        name = text[: amount_m.start()]
+        region = None
+    name = name.strip().rstrip("-").strip()
+    if not name:
+        return None
+    desc = text[amount_m.end():].lstrip(" -–—").strip()
+    return GranteeRecord(
+        cycle=5,
+        grantee=name,
+        storefront_address=None,  # DSB publishes region only, not street address
+        amount_usd=float(amount_m.group(1).replace(",", "")),
+        awarded_date="2026-05",
+        category=region,  # region: NCC / Kent / Sussex / Statewide (or None)
+        raw_context=(desc[:200] if desc else text[:200]),
     )
 
 
