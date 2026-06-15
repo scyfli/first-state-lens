@@ -1,5 +1,5 @@
 {
-  "created": "2026-06-15T17:14:45Z",
+  "created": "2026-06-15T17:26:01Z",
   "cycle_5_status": "published",
   "description": "Tract-level food-access dataset for Delaware's DGI program tracking. Covers DGI grant deployments (Cycles 1-5), Map the Meal Gap food insecurity apportioned to tracts via population-weighted areal interpolation, USDA LILA tracts, computed SB 254-effective tracts, the merged food-resource universe (SNAP retailers + farmers markets + DGI grantees), and supporting ACS demographics + DPH health overlays. Methodology v0.2.0 (definition-locked).",
   "etl_parameters": {
@@ -39,14 +39,14 @@
   "name": "first-state-lens-dgi-food-access",
   "resources": [
     {
-      "bytes": 2328,
+      "bytes": 2462,
       "description": "One row per DGI grant award. See schema/dgi-grants.json. Cycle 5 rows may carry a synthetic placeholder when DSB has not yet published awardees (methodology v0.2.0 Q1).",
       "format": "csv",
       "name": "dgi-grants",
       "path": "dgi-grants.csv",
       "present": true,
       "schema": "../../etl/outputs/schema/dgi-grants.json",
-      "sha256": "b222fe835a3f82d1359dc978242b32ab01119cbd55744a893114f5a4106fb27f",
+      "sha256": "61a063654add67c44d18f7ce149680a9c5ce86b9e845e9b572766539c294339b",
       "title": "DGI grant ledger (Cycles 1-5)"
     },
     {
@@ -169,23 +169,23 @@
       "name": "manifest",
       "path": "manifest.json",
       "present": true,
-      "sha256": "9c1e752c8b8b547d4498aec8aea74f3ff67dc08bf64ab0a788c2370e02a762dc",
+      "sha256": "e34fa769836fa574ae38711c5536e99e04da85610fdbc6d806926cc256391e00",
       "title": "Manifest (lightweight freshness cousin)"
     }
   ],
   "sources": [
     {
       "http_status": 200,
-      "last_fetched": "2026-06-15T17:13:29Z",
+      "last_fetched": "2026-06-15T17:24:32Z",
       "name": "dsb-grants",
       "path": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/dsb-grants.json",
       "raw_path": "etl/raw/dsb-grants.json",
-      "sha256": "105519b13ee3a48089e62abb7df0259791b65bce2913c97b7aeb4f9d7a7b7fa2",
+      "sha256": "d173d14de8d5fe4464ce433ebc976b680df82faa65c28bd205c197dfda847089",
       "warnings": []
     },
     {
       "http_status": 200,
-      "last_fetched": "2026-06-15T17:13:28Z",
+      "last_fetched": "2026-06-15T17:24:31Z",
       "name": "snap-retailers",
       "path": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/snap-retailers-de.geojson",
       "raw_path": "etl/raw/snap-retailers-de.geojson",
@@ -194,7 +194,7 @@
     },
     {
       "http_status": 200,
-      "last_fetched": "2026-06-15T17:13:15Z",
+      "last_fetched": "2026-06-15T17:24:18Z",
       "name": "firstmap-sd2",
       "path": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/firstmap-sd2.geojson",
       "raw_path": "etl/raw/firstmap-sd2.geojson",
@@ -203,7 +203,7 @@
     },
     {
       "http_status": 200,
-      "last_fetched": "2026-06-15T17:13:17Z",
+      "last_fetched": "2026-06-15T17:24:21Z",
       "name": "dart-gtfs-zip",
       "path": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/dart-gtfs.zip",
       "raw_path": "etl/raw/dart-gtfs.zip",
@@ -212,7 +212,7 @@
     },
     {
       "http_status": 200,
-      "last_fetched": "2026-06-15T17:13:19Z",
+      "last_fetched": "2026-06-15T17:24:22Z",
       "name": "acs-tract-demographics",
       "path": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/acs-tract-de.json",
       "raw_path": "etl/raw/acs-tract-de.json",
@@ -221,7 +221,7 @@
     },
     {
       "http_status": 200,
-      "last_fetched": "2026-06-15T17:13:24Z",
+      "last_fetched": "2026-06-15T17:24:29Z",
       "name": "usda-lila-xlsx",
       "path": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/usda-lila-raw.xlsx",
       "raw_path": "etl/raw/usda-lila-raw.xlsx",
@@ -230,7 +230,7 @@
     },
     {
       "http_status": 200,
-      "last_fetched": "2026-06-15T17:13:24Z",
+      "last_fetched": "2026-06-15T17:24:30Z",
       "name": "tiger-tracts",
       "path": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/tiger-tracts-de.zip",
       "raw_path": "etl/raw/tiger-tracts-de.zip",
@@ -239,7 +239,7 @@
     },
     {
       "http_status": 200,
-      "last_fetched": "2026-06-15T17:13:25Z",
+      "last_fetched": "2026-06-15T17:24:30Z",
       "name": "tiger-bgs",
       "path": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/tiger-bgs-de.zip",
       "raw_path": "etl/raw/tiger-bgs-de.zip",
@@ -248,7 +248,7 @@
     },
     {
       "http_status": 200,
-      "last_fetched": "2026-06-15T17:13:21Z",
+      "last_fetched": "2026-06-15T17:24:25Z",
       "name": "acs-bg-population",
       "path": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/acs-bg-de.json",
       "raw_path": "etl/raw/acs-bg-de.json",
@@ -257,7 +257,7 @@
     },
     {
       "http_status": 200,
-      "last_fetched": "2026-06-15T17:13:27Z",
+      "last_fetched": "2026-06-15T17:24:31Z",
       "name": "tiger-uac",
       "path": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/tiger-uac-us.zip",
       "raw_path": "etl/raw/tiger-uac-us.zip",
@@ -266,7 +266,7 @@
     },
     {
       "http_status": 200,
-      "last_fetched": "2026-06-15T17:13:25Z",
+      "last_fetched": "2026-06-15T17:24:31Z",
       "name": "tiger-counties",
       "path": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/tiger-counties-us.zip",
       "raw_path": "etl/raw/tiger-counties-us.zip",
@@ -275,7 +275,7 @@
     },
     {
       "http_status": 200,
-      "last_fetched": "2026-06-15T17:13:22Z",
+      "last_fetched": "2026-06-15T17:24:25Z",
       "name": "acs-state-mfi",
       "path": "file:///home/runner/work/first-state-lens/first-state-lens/etl/raw/acs-state-mfi-de.json",
       "raw_path": "etl/raw/acs-state-mfi-de.json",
