@@ -8,3 +8,6 @@
   Strict-Transport-Security: max-age=31536000; includeSubDomains
   X-Robots-Tag: noindex, nofollow
   Permissions-Policy: interest-cohort=(), browsing-topics=()
+  # Always revalidate so a new deploy shows immediately — no stale cached HTML/CSS/JS.
+  # (Gated preview; freshness matters more than caching. Revisit when public.)
+  Cache-Control: no-cache
