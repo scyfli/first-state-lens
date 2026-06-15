@@ -337,3 +337,84 @@ def test_run_pipeline_applies_manual_reviews_when_yaml_present(tmp_path: Path):
     text = (tmp_path / "dgi-grants.csv").read_text(encoding="utf-8")
     # The override tract should now appear for the Acme row.
     assert "10003099999" in text
+
+
+# ---------------------------------------------------------------------------
+# _pull_all_sources — CENSUS_API_KEY threading (regression: session-26)
+#
+# Root cause that survived 25 sessions: the orchestrated --pull path called the
+# three ACS pullers with empty kwargs, so a configured CENSUS_API_KEY env/secret
+# was never applied. Requests went out unauthenticated, Census returned an HTML
+# rate-limit page at HTTP 200, and every ACS-derived value (low_income,
+# sb254_effective, mfi, poverty_rate) silently zeroed in production.
+# ---------------------------------------------------------------------------
+
+_ALL_SOURCE_MODULES = {
+    "firstmap_sd2": "firstmap_sd2",
+    "dart_gtfs": "dart_gtfs",
+    "census_acs_tracts": "census_acs",
+    "census_acs_bgs": "census_acs_bg",
+    "census_acs_state": "census_acs_state",
+    "mmg_food_insecurity": "mmg_food_insecurity",
+    "usda_lila": "usda_lila",
+    "tiger_tracts": "tiger_tracts",
+    "tiger_bgs": "tiger_bgs",
+    "tiger_counties": "tiger_counties",
+    "census_uac": "census_uac",
+    "snap_retailers": "snap_retailers",
+    "usda_farmers_markets": "usda_farmers_markets",
+    "dsb_grants": "dsb_grants",
+}
+
+
+def _patch_all_pullers(monkeypatch, tmp_path) -> dict[str, dict]:
+    """Replace every source puller with a recorder stub (no network).
+
+    Returns the dict that maps source name -> the kwargs it was called with
+    (after _pull_all_sources drops None-valued kwargs).
+    """
+    import importlib
+
+    recorded: dict[str, dict] = {}
+
+    def make_stub(name):
+        def _stub(raw_dir, **kwargs):
+            recorded[name] = kwargs
+            return (Path(raw_dir) / f"{name}.json", None)
+
+        return _stub
+
+    for source_name, mod_name in _ALL_SOURCE_MODULES.items():
+        mod = importlib.import_module(f"etl.sources.{mod_name}")
+        monkeypatch.setattr(mod, "pull", make_stub(source_name))
+    return recorded
+
+
+def test_pull_all_sources_threads_census_api_key(tmp_path: Path, monkeypatch):
+    from etl import run_etl
+
+    recorded = _patch_all_pullers(monkeypatch, tmp_path)
+    monkeypatch.setenv("CENSUS_API_KEY", "testkey-abc123")
+
+    run_etl._pull_all_sources(tmp_path, {})
+
+    # All three ACS pullers must receive the env key.
+    assert recorded["census_acs_tracts"].get("api_key") == "testkey-abc123"
+    assert recorded["census_acs_bgs"].get("api_key") == "testkey-abc123"
+    assert recorded["census_acs_state"].get("api_key") == "testkey-abc123"
+    # A non-ACS puller must NOT be handed an api_key.
+    assert "api_key" not in recorded["tiger_tracts"]
+
+
+def test_pull_all_sources_omits_api_key_when_env_unset(tmp_path: Path, monkeypatch):
+    from etl import run_etl
+
+    recorded = _patch_all_pullers(monkeypatch, tmp_path)
+    monkeypatch.delenv("CENSUS_API_KEY", raising=False)
+
+    run_etl._pull_all_sources(tmp_path, {})
+
+    # None is dropped before the call, so the puller's keyless default applies.
+    assert "api_key" not in recorded["census_acs_tracts"]
+    assert "api_key" not in recorded["census_acs_bgs"]
+    assert "api_key" not in recorded["census_acs_state"]
