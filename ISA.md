@@ -261,6 +261,17 @@ proven repeatable for Waves 2 and 3.
   States, and data.gov/FEC keys via a Desktop file. Census threaded into the childcare
   puller. Plural + FEC are Wave 2 (Votes, federal campaign finance). The keys file is on the
   Desktop — reminded Mark to delete it once Wave 1 verifies. No key is committed to git.
+- 2026-06-15 D15 (pre-index visual readability pass — Mark's gate before indexing):
+  Every chart bar now COLOR-ENCODES, never decorates: Federal award-type bars = distinct
+  categorical hues (nominal); Spending dept/category bars = harmonious palette cycled by
+  rank so adjacent bars differ; Childcare STARS = ordinal gold ramp (deeper gold = more
+  stars), grey for "Not Participating" (never red — not a low rating). KPI cards gained a
+  themed top-accent stripe. Schools (41 LEAs) + Water (165 systems) dense tables gained
+  neutral in-cell magnitude bars (percentages on a true 0–100 scale; counts to column max)
+  for scannability. Discipline held: color is ALWAYS supplementary (every bar/cell keeps
+  its label + value, WCAG 1.4.1) and never encodes good/bad (neutrality firewall intact).
+  CSS/JS-only; verified via node --check + HTTP serve; commit 4e890ea. Final visual
+  confirmation is Mark's Chrome pass (Interceptor absent in WSL).
 
 ## Changelog
 
