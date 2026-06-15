@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex, nofollow" />
+<title>Childcare Access in Delaware — First State Lens</title>
+<meta name="description" content="Licensed childcare providers, capacity, and quality across Delaware, with children-per-slot by county. Public data, sourced, nonpartisan." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.min.js"></script>
+<link rel="stylesheet" href="/assets/fsl.css" />
+<style>
+  /* Childcare accent: violet (families / early childhood). */
+  :root { --accent-primary: var(--violet-400); }
+  .title-eyebrow { color: var(--violet-400); border-color: rgba(167,139,250,0.25); background: rgba(167,139,250,0.05); }
+  .title-eyebrow::before { background: var(--violet-400); box-shadow: 0 0 6px var(--violet-400); }
+  .neutrality { border-left-color: var(--violet-400); }
+  .bar-fill { background: linear-gradient(90deg, var(--violet-400), var(--indigo-500)); }
+  #fsl-gate-form button { background: var(--violet-400); }
+  #cc-map { width: 100%; height: 460px; border-radius: 14px; border: 1px solid var(--border-default); overflow: hidden; }
+  #cc-map .maplibregl-popup-content { background: rgba(2,6,23,0.96); color: var(--text-primary); border: 1px solid var(--border-strong); border-radius: 10px; font-family: 'Inter', sans-serif; font-size: 13px; }
+  #cc-map .maplibregl-popup-content strong { color: var(--violet-400); }
+  #cc-map .maplibregl-popup-tip { display: none; }
+  #cc-map .maplibregl-ctrl-attrib a { text-decoration: underline; }
+</style>
+</head>
+<body class="fsl-locked">
+
+<div id="fsl-gate" role="dialog" aria-label="Password required" aria-modal="true">
+  <div id="fsl-gate-card">
+    <h1>First State Lens · Childcare Access in Delaware</h1>
+    <p>This is a soft-launch preview of the FirmSide AI Civic Analytics Lab. Enter the password shared with you.</p>
+    <form id="fsl-gate-form">
+      <input type="password" id="fsl-gate-input" autocomplete="current-password" autofocus aria-label="Password" />
+      <button type="submit">Enter</button>
+      <div id="fsl-gate-error" role="alert" aria-live="polite"></div>
+    </form>
+    <div id="fsl-gate-footer">FirmSide AI · Civic Analytics Lab</div>
+  </div>
+</div>
+<script>
+(function () {
+  const HASH = "da30814cf1aeff6892250b88f97de6798faf45b0a5bb843502098cfa0adcdc06";
+  const STORAGE_KEY = "fsl-gate-2026-06";
+  const body = document.body;
+  const gate = document.getElementById("fsl-gate");
+  if (sessionStorage.getItem(STORAGE_KEY) === HASH) { body.classList.remove("fsl-locked"); gate.remove(); return; }
+  async function sha256(text) {
+    const buf = new TextEncoder().encode(text);
+    const digest = await crypto.subtle.digest("SHA-256", buf);
+    return Array.from(new Uint8Array(digest)).map(b => b.toString(16).padStart(2, "0")).join("");
+  }
+  const form = document.getElementById("fsl-gate-form");
+  const input = document.getElementById("fsl-gate-input");
+  const err = document.getElementById("fsl-gate-error");
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault(); err.textContent = "";
+    const hash = await sha256(input.value);
+    if (hash === HASH) { sessionStorage.setItem(STORAGE_KEY, HASH); body.classList.remove("fsl-locked"); gate.remove(); }
+    else { err.textContent = "Incorrect password."; input.value = ""; input.focus(); }
+  });
+})();
+</script>
+
+<div class="container">
+
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark">FS</div>
+      <div class="brand-text">
+        <div class="brand-name">First State Lens</div>
+        <div class="brand-tagline">Civic Analytics Lab · Delaware</div>
+      </div>
+    </div>
+    <div class="topbar-meta">
+      <div class="meta-item"><span class="pulse-dot"></span><span>LIVE DATA</span></div>
+      <div class="meta-item"><span id="meta-providers">— PROVIDERS</span></div>
+    </div>
+  </header>
+
+  <main>
+  <div class="title-block">
+    <span class="title-eyebrow">Childcare Access · Delaware</span>
+    <h1 class="title-h1">Childcare access across <span class="highlight">Delaware</span></h1>
+    <p class="title-sub">Every licensed childcare provider in the state, their capacity and quality rating, and how many young children there are for each licensed slot — county by county. Built from Delaware's licensing data and Census population counts.</p>
+  </div>
+
+  <p class="neutrality">
+    <strong>How to read this.</strong> "Children per licensed slot" compares the number of children under six in a county (US Census) to the total licensed capacity of childcare providers there (Delaware Office of Child Care Licensing). A higher number means more young children for each available slot. It is a measure of <strong>supply against population</strong>, not a waitlist — not every family uses formal care, and licensed capacity is not the same as current enrollment. The STARS rating is Delaware's voluntary quality program; "Not Participating" means a provider has not enrolled in it, not that it is low quality. First State Lens adds no judgment. We show you the data; you decide.
+  </p>
+
+  <section class="kpi-grid" aria-label="Headline figures">
+    <div class="kpi-card">
+      <div class="kpi-label">Licensed Providers</div>
+      <div class="kpi-value" id="kpi-providers">—</div>
+      <div class="kpi-context">Distinct licensed childcare providers statewide (deduplicated across age-group listings).</div>
+      <div class="kpi-source">SOURCE · DE OFFICE OF CHILD CARE LICENSING</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Total Licensed Capacity</div>
+      <div class="kpi-value" id="kpi-capacity">—</div>
+      <div class="kpi-context">Combined licensed slots across all providers.</div>
+      <div class="kpi-source">SOURCE · DE OFFICE OF CHILD CARE LICENSING</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Children Under 6</div>
+      <div class="kpi-value" id="kpi-children">—</div>
+      <div class="kpi-context">Statewide population under age six.</div>
+      <div class="kpi-source" id="kpi-children-src">SOURCE · US CENSUS ACS B09001</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Children per Slot</div>
+      <div class="kpi-value" id="kpi-ratio">—</div>
+      <div class="kpi-context">Statewide. Higher means more young children for each licensed slot.</div>
+      <div class="kpi-source">CALCULATED · UNDER-6 ÷ CAPACITY</div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="county-title">
+    <div class="section-head">
+      <h2 class="section-title" id="county-title">Access by county</h2>
+      <span class="section-meta">CHILDREN UNDER 6 PER LICENSED SLOT</span>
+    </div>
+    <div class="panel">
+      <table class="data-table">
+        <caption>Licensed childcare supply against the under-6 population, by Delaware county. Higher children-per-slot indicates tighter supply.</caption>
+        <thead><tr><th scope="col">County</th><th scope="col" class="num">Providers</th><th scope="col" class="num">Licensed capacity</th><th scope="col" class="num">Children under 6</th><th scope="col" class="num">Children per slot</th></tr></thead>
+        <tbody id="county-body"><tr><td colspan="5">Loading…</td></tr></tbody>
+      </table>
+      <p class="kpi-source" style="margin-top:16px;">SOURCE · FIRSTMAP DE_CHILDCARECENTERS · US CENSUS ACS 5-YEAR B09001</p>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="map-title">
+    <div class="section-head">
+      <h2 class="section-title" id="map-title">Every licensed provider</h2>
+      <span class="section-meta">LIVE · MAPLIBRE + GEOJSON</span>
+    </div>
+    <div id="cc-map" role="region" aria-label="Map of Delaware licensed childcare providers. Pan and zoom; select a point for the provider's name, capacity, and STARS rating."></div>
+    <p class="kpi-source" style="margin-top:12px;">SOURCE · FIRSTMAP DE_CHILDCARECENTERS · POINTS COLORED BY LICENSED CAPACITY</p>
+  </section>
+
+  <section class="section" aria-labelledby="stars-title">
+    <div class="section-head">
+      <h2 class="section-title" id="stars-title">Quality ratings (Delaware STARS)</h2>
+      <span class="section-meta">PROVIDER COUNT BY RATING</span>
+    </div>
+    <div class="panel">
+      <div id="stars-bars" role="img" aria-label="Bar chart of provider counts by Delaware STARS quality rating"></div>
+      <p class="kpi-source" style="margin-top:18px;">SOURCE · FIRSTMAP DE_CHILDCARECENTERS · STARLEVEL · "NOT PARTICIPATING" = NOT ENROLLED IN STARS, NOT A LOW RATING</p>
+    </div>
+  </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-build" id="footer-build">DATA: not yet loaded</div>
+    <div class="footer-links">
+      <a href="https://firstmap.delaware.gov/">FirstMap (provider source)</a>
+      <a href="https://education.delaware.gov/families/birth-age-5/occl/">DE Office of Child Care Licensing</a>
+      <a href="/">First State Lens home</a>
+    </div>
+    <div>First State Lens is a FirmSide AI Civic Analytics Lab project. Nonpartisan. Every figure links to its public source. We show you the data; you decide.</div>
+  </footer>
+
+</div>
+
+<script>
+(function () {
+  const fmtInt = (n) => Number(n).toLocaleString("en-US");
+  const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+  async function load() {
+    let s;
+    try {
+      const r = await fetch("./data/childcare-summary.json", { cache: "no-cache" });
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      s = await r.json();
+    } catch (e) {
+      document.getElementById("footer-build").textContent = "DATA: unavailable (" + e.message + ")";
+      return;
+    }
+
+    document.getElementById("meta-providers").textContent = fmtInt(s.total_providers) + " PROVIDERS";
+    document.getElementById("kpi-providers").textContent = fmtInt(s.total_providers);
+    document.getElementById("kpi-capacity").textContent = fmtInt(s.total_capacity);
+    document.getElementById("kpi-children").textContent = fmtInt(s.total_children_under_6);
+    document.getElementById("kpi-ratio").textContent = s.statewide_children_per_slot;
+    document.getElementById("kpi-children-src").textContent = "SOURCE · US CENSUS ACS " + (s.acs_vintage || "");
+
+    document.getElementById("county-body").innerHTML = s.by_county.map((c) =>
+      `<tr><td><strong>${esc(c.county)}</strong></td><td class="num">${fmtInt(c.providers)}</td><td class="num">${fmtInt(c.capacity)}</td><td class="num">${fmtInt(c.children_under_6)}</td><td class="num"><strong>${c.children_per_slot ?? "—"}</strong></td></tr>`).join("");
+
+    const sd = s.stars_distribution || [];
+    const max = Math.max(1, ...sd.map((x) => x.count));
+    document.getElementById("stars-bars").innerHTML = sd.map((x) =>
+      `<div class="bar-row"><span class="bar-label">${esc(x.label)}</span><span class="bar-track"><span class="bar-fill" style="width:${(x.count / max * 100).toFixed(1)}%"></span></span><span class="bar-value">${fmtInt(x.count)}</span></div>`).join("");
+
+    const asOf = (s.generated_at || "").slice(0, 10);
+    document.getElementById("footer-build").textContent =
+      `${fmtInt(s.total_providers)} PROVIDERS · ${fmtInt(s.total_capacity)} SLOTS · DATA AS OF ${asOf} · SOURCES: DE OCCL + US CENSUS`;
+
+    buildMap();
+  }
+
+  function buildMap() {
+    if (typeof maplibregl === "undefined") return;
+    const map = new maplibregl.Map({
+      container: "cc-map",
+      style: {
+        version: 8,
+        sources: { carto: { type: "raster", tiles: ["https://a.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png"], tileSize: 256, attribution: "© OpenStreetMap © CARTO" } },
+        layers: [{ id: "carto", type: "raster", source: "carto" }],
+      },
+      center: [-75.5, 39.1], zoom: 7.4,
+    });
+    map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
+    map.on("load", async () => {
+      try {
+        const g = await (await fetch("./data/providers.geojson", { cache: "no-cache" })).json();
+        map.addSource("providers", { type: "geojson", data: g });
+        map.addLayer({
+          id: "providers", type: "circle", source: "providers",
+          paint: {
+            "circle-radius": ["interpolate", ["linear"], ["get", "capacity"], 0, 3, 50, 5, 200, 9],
+            "circle-color": "#a78bfa", "circle-opacity": 0.7,
+            "circle-stroke-width": 1, "circle-stroke-color": "rgba(167,139,250,0.4)",
+          },
+        });
+        map.on("click", "providers", (e) => {
+          const p = e.features[0].properties;
+          new maplibregl.Popup({ closeButton: true })
+            .setLngLat(e.lngLat)
+            .setHTML(`<strong>${esc(p.name)}</strong><br>${esc(p.city)}, ${esc(p.county)} County<br>Capacity: ${esc(p.capacity)} · STARS: ${esc(p.stars)}`)
+            .addTo(map);
+        });
+        map.on("mouseenter", "providers", () => { map.getCanvas().style.cursor = "pointer"; });
+        map.on("mouseleave", "providers", () => { map.getCanvas().style.cursor = ""; });
+      } catch (_) { /* map is enhancement; page works without it */ }
+    });
+  }
+
+  load();
+})();
+</script>
+</body>
+</html>

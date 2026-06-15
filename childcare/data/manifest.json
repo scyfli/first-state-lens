@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-06-15T19:24:54Z",
+  "dashboard": "childcare-access",
+  "sources": {
+    "providers": {
+      "name": "FirstMap DE_ChildCareCenters (DSCYF/OCCL)",
+      "url": "https://firstmap.delaware.gov/",
+      "license": "DE open data"
+    },
+    "population": {
+      "name": "US Census ACS 5-year B09001",
+      "vintage": "2019-2023 5-year",
+      "license": "US public domain"
+    }
+  },
+  "row_counts": {
+    "providers": 1198,
+    "mapped_points": 1198,
+    "total_capacity": 66850,
+    "total_children_under_6": 66258
+  }
+}
