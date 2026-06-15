@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex, nofollow" />
+<title>How Your Delaware Legislator Votes — First State Lens</title>
+<meta name="description" content="The recorded voting record of every Delaware legislator this session — votes cast, yes, no, and participation. Public data, sourced, nonpartisan." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/fsl.css" />
+<style>
+  /* Votes accent: teal (civic / participation) — deliberately NOT party red/blue. */
+  :root { --accent-primary: #2dd4bf; }
+  .title-eyebrow { color: #2dd4bf; border-color: rgba(45,212,191,0.25); background: rgba(45,212,191,0.05); }
+  .title-eyebrow::before { background: #2dd4bf; box-shadow: 0 0 6px #2dd4bf; }
+  .neutrality { border-left-color: #2dd4bf; }
+  #fsl-gate-form button { background: #2dd4bf; }
+  .ctrl { display:flex; gap:12px; align-items:center; flex-wrap:wrap; margin-bottom:14px; }
+  .ctrl input, .ctrl select { background:var(--surface-base); color:var(--text-primary); border:1px solid var(--border-strong); border-radius:8px; padding:8px 11px; font-size:13px; }
+  .ctrl input { min-width:240px; }
+  .ctrl label { font-family:'JetBrains Mono',monospace; font-size:11px; color:var(--text-tertiary); letter-spacing:.05em; text-transform:uppercase; }
+  .count-note { font-size:12px; color:var(--text-tertiary); margin-left:auto; }
+</style>
+</head>
+<body class="fsl-locked">
+
+<div id="fsl-gate" role="dialog" aria-label="Password required" aria-modal="true">
+  <div id="fsl-gate-card">
+    <h1>First State Lens · How Your Delaware Legislator Votes</h1>
+    <p>This is a soft-launch preview of the FirmSide AI Civic Analytics Lab. Enter the password shared with you.</p>
+    <form id="fsl-gate-form">
+      <input type="password" id="fsl-gate-input" autocomplete="current-password" autofocus aria-label="Password" />
+      <button type="submit">Enter</button>
+      <div id="fsl-gate-error" role="alert" aria-live="polite"></div>
+    </form>
+    <div id="fsl-gate-footer">FirmSide AI · Civic Analytics Lab</div>
+  </div>
+</div>
+<script>
+(function () {
+  const HASH = "da30814cf1aeff6892250b88f97de6798faf45b0a5bb843502098cfa0adcdc06";
+  const STORAGE_KEY = "fsl-gate-2026-06";
+  const body = document.body;
+  const gate = document.getElementById("fsl-gate");
+  if (sessionStorage.getItem(STORAGE_KEY) === HASH) { body.classList.remove("fsl-locked"); gate.remove(); return; }
+  async function sha256(text) {
+    const buf = new TextEncoder().encode(text);
+    const digest = await crypto.subtle.digest("SHA-256", buf);
+    return Array.from(new Uint8Array(digest)).map(b => b.toString(16).padStart(2, "0")).join("");
+  }
+  const form = document.getElementById("fsl-gate-form");
+  const input = document.getElementById("fsl-gate-input");
+  const err = document.getElementById("fsl-gate-error");
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault(); err.textContent = "";
+    const hash = await sha256(input.value);
+    if (hash === HASH) { sessionStorage.setItem(STORAGE_KEY, HASH); body.classList.remove("fsl-locked"); gate.remove(); }
+    else { err.textContent = "Incorrect password."; input.value = ""; input.focus(); }
+  });
+})();
+</script>
+
+<div class="container">
+
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark">FS</div>
+      <div class="brand-text">
+        <div class="brand-name">First State Lens</div>
+        <div class="brand-tagline">Civic Analytics Lab · Delaware</div>
+      </div>
+    </div>
+    <div class="topbar-meta">
+      <div class="meta-item"><span class="pulse-dot"></span><span>LIVE DATA</span></div>
+      <div class="meta-item"><span id="meta-session">SESSION —</span></div>
+    </div>
+  </header>
+
+  <main>
+  <div class="title-block">
+    <span class="title-eyebrow">Legislative Votes · Delaware</span>
+    <h1 class="title-h1">How your <span class="highlight">legislator</span> votes</h1>
+    <p class="title-sub">The recorded voting record of every member of the Delaware General Assembly this session — how many roll-call votes they cast, how they split yes and no, and how often they participated. Find your senator and representative and see the record.</p>
+  </div>
+
+  <p class="neutrality">
+    <strong>How to read this.</strong> These counts cover <strong>recorded roll-call votes</strong> in the current legislative session, taken from the public Open States record of the Delaware General Assembly. Voice votes and bills that never came to a recorded vote are not included, so totals reflect recorded floor activity, not every action a legislator took. "Participation" is the share of a member's recorded votes that were a clear yes or no rather than absent or not voting. First State Lens does not score legislators, rank them, or label any vote good or bad, and it uses no party colors — it shows the record and links to the official source. We show you the data; you decide.
+  </p>
+
+  <section class="kpi-grid" aria-label="Session figures">
+    <div class="kpi-card">
+      <div class="kpi-label">Legislators</div>
+      <div class="kpi-value" id="kpi-legs">—</div>
+      <div class="kpi-context">Members who cast at least one recorded vote this session (Senate and House).</div>
+      <div class="kpi-source">SOURCE · OPEN STATES</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Recorded Vote Events</div>
+      <div class="kpi-value" id="kpi-events">—</div>
+      <div class="kpi-context">Distinct roll-call votes recorded across both chambers this session.</div>
+      <div class="kpi-source">SOURCE · OPEN STATES</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Bills With Recorded Votes</div>
+      <div class="kpi-value" id="kpi-bills">—</div>
+      <div class="kpi-context" id="kpi-bills-ctx">Bills that reached at least one recorded roll-call vote.</div>
+      <div class="kpi-source">SOURCE · OPEN STATES</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Session</div>
+      <div class="kpi-value" id="kpi-session" style="font-size:24px;">—</div>
+      <div class="kpi-context">Delaware General Assembly session number.</div>
+      <div class="kpi-source">SOURCE · LEGIS.DELAWARE.GOV</div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="leg-title">
+    <div class="section-head">
+      <h2 class="section-title" id="leg-title">Find your legislator</h2>
+      <span class="section-meta">RECORDED VOTES · THIS SESSION</span>
+    </div>
+    <div class="panel">
+      <div class="ctrl">
+        <label for="filter">Search</label>
+        <input id="filter" type="search" placeholder="Name, district, party, or chamber…" aria-label="Filter legislators" />
+        <label for="sortby">Sort</label>
+        <select id="sortby" aria-label="Sort legislators by">
+          <option value="default">Chamber, district</option>
+          <option value="name">Name (A–Z)</option>
+          <option value="total">Votes recorded</option>
+          <option value="participation_pct">Participation</option>
+        </select>
+        <span class="count-note" id="count-note"></span>
+      </div>
+      <table class="data-table">
+        <caption>Every Delaware legislator's recorded roll-call votes this session. Participation is the share of recorded votes cast as a clear yes or no.</caption>
+        <thead><tr>
+          <th scope="col">Legislator</th>
+          <th scope="col">Chamber</th>
+          <th scope="col">Party</th>
+          <th scope="col" class="num">District</th>
+          <th scope="col" class="num">Votes recorded</th>
+          <th scope="col" class="num">Yes</th>
+          <th scope="col" class="num">No</th>
+          <th scope="col" class="num">Participation</th>
+        </tr></thead>
+        <tbody id="leg-body"><tr><td colspan="8">Loading…</td></tr></tbody>
+      </table>
+      <p class="kpi-source" id="leg-src" style="margin-top:16px;">SOURCE · OPEN STATES v3 · DELAWARE GENERAL ASSEMBLY · OFFICIAL RECORD AT LEGIS.DELAWARE.GOV</p>
+    </div>
+  </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-build" id="footer-build">DATA: not yet loaded</div>
+    <div class="footer-links">
+      <a href="https://legis.delaware.gov/">legis.delaware.gov (official source)</a>
+      <a href="https://openstates.org/de/">Open States — Delaware</a>
+      <a href="/">First State Lens home</a>
+    </div>
+    <div>First State Lens is a FirmSide AI Civic Analytics Lab project. Nonpartisan. Every figure links to its public source. We show you the data; you decide.</div>
+  </footer>
+
+</div>
+
+<script>
+(function () {
+  const fmtInt = (n) => Number(n).toLocaleString("en-US");
+  const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  let DATA = null;
+
+  const distKey = (d) => { const n = parseInt(d, 10); return isNaN(n) ? [1, String(d)] : [0, n]; };
+
+  function render() {
+    const q = (document.getElementById("filter").value || "").trim().toLowerCase();
+    const sortKey = document.getElementById("sortby").value;
+    let rows = DATA.legislators.slice();
+    if (q) rows = rows.filter((L) =>
+      (L.name + " " + L.chamber + " " + L.party + " district " + L.district).toLowerCase().includes(q));
+    if (sortKey === "name") rows.sort((a, b) => a.name.localeCompare(b.name));
+    else if (sortKey === "total" || sortKey === "participation_pct")
+      rows.sort((a, b) => (b[sortKey] ?? -1) - (a[sortKey] ?? -1));
+    else rows.sort((a, b) => {
+      if (a.chamber !== b.chamber) return a.chamber.localeCompare(b.chamber);
+      const ak = distKey(a.district), bk = distKey(b.district);
+      return ak[0] - bk[0] || (ak[0] === 0 ? ak[1] - bk[1] : String(ak[1]).localeCompare(bk[1]));
+    });
+
+    document.getElementById("count-note").textContent = `${rows.length} of ${DATA.legislators.length} shown`;
+    document.getElementById("leg-body").innerHTML = rows.length ? rows.map((L) =>
+      `<tr>`
+      + `<td><strong>${esc(L.name)}</strong></td>`
+      + `<td>${esc(L.chamber)}</td>`
+      + `<td>${esc(L.party)}</td>`
+      + `<td class="num">${esc(L.district)}</td>`
+      + `<td class="num">${fmtInt(L.total)}</td>`
+      + `<td class="num">${fmtInt(L.yes)}</td>`
+      + `<td class="num">${fmtInt(L.no)}</td>`
+      + `<td class="num dbar"><span class="dbf" style="width:${Math.max(2, L.participation_pct || 0).toFixed(0)}%"></span><span class="dbv">${L.participation_pct == null ? "—" : L.participation_pct + "%"}</span></td>`
+      + `</tr>`).join("") : `<tr><td colspan="8">No legislators match.</td></tr>`;
+  }
+
+  async function load() {
+    try {
+      const r = await fetch("./data/votes-summary.json", { cache: "no-cache" });
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      DATA = await r.json();
+    } catch (e) {
+      document.getElementById("footer-build").textContent = "DATA: unavailable (" + e.message + ")";
+      return;
+    }
+    document.getElementById("meta-session").textContent = "SESSION " + DATA.session;
+    document.getElementById("kpi-legs").textContent = fmtInt(DATA.legislator_count);
+    document.getElementById("kpi-events").textContent = fmtInt(DATA.vote_events);
+    document.getElementById("kpi-bills").textContent = fmtInt(DATA.bills_with_recorded_votes);
+    document.getElementById("kpi-bills-ctx").textContent =
+      `${fmtInt(DATA.bills_with_recorded_votes)} of ${fmtInt(DATA.bills_in_session)} bills reached a recorded roll-call vote.`;
+    document.getElementById("kpi-session").textContent = DATA.session + "th GA";
+
+    render();
+    document.getElementById("filter").addEventListener("input", render);
+    document.getElementById("sortby").addEventListener("change", render);
+
+    const asOf = (DATA.generated_at || "").slice(0, 10);
+    document.getElementById("footer-build").textContent =
+      `SESSION ${DATA.session} · ${fmtInt(DATA.legislator_count)} LEGISLATORS · ${fmtInt(DATA.vote_events)} RECORDED VOTES · DATA AS OF ${asOf} · SOURCE: OPEN STATES`;
+  }
+  load();
+})();
+</script>
+</body>
+</html>

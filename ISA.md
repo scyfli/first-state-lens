@@ -4,7 +4,7 @@ task: Reframe FSL as a public civic-data utility and build an 8-dashboard citize
 slug: fsl-civic-suite
 effort: E5
 phase: build
-progress: 53/120
+progress: 57/120
 mode: build
 started: 2026-06-15
 updated: 2026-06-15
@@ -165,7 +165,7 @@ proven repeatable for Waves 2 and 3.
 - [DEFERRED-VERIFY] ISC-43: water/ route 200 — verified local HTTP serve; pushed to origin/main → gated preview; a11y registered in ROUTES (CI).
 
 ### Wave 2 / Wave 3 (criteria expand at build)
-- [ ] ISC-44: Legislator Votes built on Open States (free key) + LegiScan fallback, per-member votes, sponsors, attendance.
+- [x] ISC-44: Legislator Votes (Wave 2 #1) built on Open States v3 (free key). etl/sources/openstates_de.py aggregates the current session's recorded roll-call votes per legislator (member-votes are self-describing — voter.id/party/chamber/district/option — no roster join). Verified: session 153, 65 legislators (21 Senate / 41 House), 1,592 vote events / 925 bills; per-legislator yes/no/participation. votes/index.html = "find your legislator" filter + sortable table, NO party colors, no scoring (most-charged dashboard → strictest neutrality). Pushed. (Sponsorships/attendance detail = v1.1.)
 - [ ] ISC-45: Federal campaign finance built on FEC (free key), DE candidate committees.
 - [ ] ISC-46: Reassessment ships Kent-only, transparently labeled, NCC/Sussex flagged as access-pending.
 - [ ] ISC-47: Anti: Reassessment never publishes Sussex data without a written county exception.
@@ -272,6 +272,13 @@ proven repeatable for Waves 2 and 3.
   its label + value, WCAG 1.4.1) and never encodes good/bad (neutrality firewall intact).
   CSS/JS-only; verified via node --check + HTTP serve; commit 4e890ea. Final visual
   confirmation is Mark's Chrome pass (Interceptor absent in WSL).
+- 2026-06-15 D16 (Wave 2 started — Votes shipped): Open States DE coverage validated before
+  building (recent unvoted bills show 0 votes, but 925/1,239 session-153 bills DO carry
+  per-member votes — coverage is real). Built on Open States v3 (key from the keys file).
+  **CI wiring owed:** OPENSTATES_API_KEY (and FEC_API_KEY for the next dashboard) must be
+  added as repo secrets + the ETL workflow extended to run these pullers, the same way
+  CENSUS_API_KEY is wired — until then the votes data is the committed static snapshot.
+  Next Wave-2 dashboard: Federal campaign finance (FEC, key in hand).
 
 ## Changelog
 

@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-15T20:49:17Z",
+  "dashboard": "votes",
+  "session": "153",
+  "sources": {
+    "openstates": {
+      "name": "Open States v3 (Plural Policy)",
+      "endpoint": "https://v3.openstates.org/bills?jurisdiction=Delaware&session=153&include=votes",
+      "license": "Public domain dedication (attribution requested)",
+      "official": "https://legis.delaware.gov/",
+      "note": "Counts cover recorded roll-call votes in the current session. Voice votes and bills not brought to a recorded vote are not included. For the authoritative record, see legis.delaware.gov."
+    }
+  },
+  "row_counts": {
+    "legislators": 65,
+    "vote_events": 1592,
+    "bills_with_votes": 925
+  }
+}
