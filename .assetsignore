@@ -31,3 +31,7 @@ LICENSE
 # DGI ETL pipeline — Python code lives in the repo as a trust signal
 # (auditable via GitHub) but is NOT served via the dashboard domain.
 etl
+
+# CI tooling — the a11y audit script + its isolated deps are not public assets.
+scripts
+.ci
