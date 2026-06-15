@@ -132,11 +132,27 @@ def test_census_acs_pull_includes_api_key_when_provided(tmp_path: Path) -> None:
 
     def capturing_fetch(url: str, **kwargs: Any) -> FetchResult:
         captured["url"] = url
-        return _make_fetch_result(url, b"[]")
+        # Valid minimal Census shape (header + one data row) so the
+        # source-boundary validate_census_json guard passes.
+        return _make_fetch_result(url, b'[["NAME"],["Delaware"]]')
 
     with patch.object(census_acs, "fetch", side_effect=capturing_fetch):
         census_acs.pull(tmp_path, api_key="testkey123")
     assert "key=testkey123" in captured["url"]
+
+
+def test_census_acs_pull_raises_on_html_rate_limit_page(tmp_path: Path) -> None:
+    """Regression (session-26): an HTML rate-limit page at HTTP 200 must raise
+    at the source boundary, not be persisted and silently zero the build."""
+    from etl.lib.validate import ValidationError
+
+    html = b"<!DOCTYPE html><html><head><script>AwsWAF captcha</script></head></html>"
+    fake_result = _make_fetch_result(census_acs.build_url("2023"), html)
+    with patch.object(census_acs, "fetch", return_value=fake_result):
+        with pytest.raises(ValidationError, match="not valid JSON"):
+            census_acs.pull(tmp_path)
+    # And nothing was written to disk.
+    assert not (tmp_path / census_acs.OUTPUT_FILENAME).exists()
 
 
 # ---------------------------------------------------------------------------

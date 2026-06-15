@@ -29,6 +29,7 @@ from pathlib import Path
 
 from etl.lib.atomic_io import atomic_write_bytes
 from etl.lib.fetch import FetchResult, fetch
+from etl.lib.validate import validate_census_json
 
 
 DELAWARE_STATE_FIPS = "10"
@@ -61,6 +62,9 @@ def pull(
     if api_key:
         url = f"{url}&key={api_key}"
     result = fetch(url)
+    # Fail loud on an HTML rate-limit/WAF page returned at HTTP 200, before we
+    # persist it and silently fall back to the hardcoded state-MFI parameter.
+    validate_census_json(result.body)
     target = out_dir / OUTPUT_FILENAME
     atomic_write_bytes(target, result.body)
     return target, result

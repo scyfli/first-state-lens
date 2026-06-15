@@ -64,6 +64,47 @@ def validate_geojson(payload: bytes, *, require_features: bool = True) -> dict:
     return doc
 
 
+def validate_census_json(payload: bytes) -> list:
+    """Assert `payload` is a well-formed Census API response and return it.
+
+    Census returns a JSON array-of-arrays: ``[[header...], [row...], ...]``.
+    When the unauthenticated per-IP quota is exhausted (or a WAF challenges the
+    request) the API returns an **HTML rate-limit/captcha page at HTTP 200** —
+    not a 4xx. Writing that HTML to disk raw is the silent-zero trap that hid a
+    month-long production regression: the file is present and non-empty, so
+    ``--strict`` passes, but the downstream JSON load fails and every
+    ACS-derived value zeroes. This guard runs at the source boundary so the
+    bad payload raises here (surfacing as a per-source FAILED note in the
+    orchestrator) instead of being persisted and silently zeroing the build.
+
+    Raises ValidationError on: non-JSON (HTML), non-list root, empty list, a
+    non-list header row, or a header with zero data rows.
+    """
+    try:
+        doc = json.loads(payload.decode("utf-8"))
+    except (UnicodeDecodeError, json.JSONDecodeError) as exc:
+        preview = payload[:120].decode("utf-8", "replace").replace("\n", " ").strip()
+        raise ValidationError(
+            "Census payload is not valid JSON (likely an HTML rate-limit/WAF "
+            f"page returned at HTTP 200): {exc}; first bytes: {preview!r}"
+        ) from exc
+
+    if not isinstance(doc, list) or not doc:
+        raise ValidationError(
+            f"Census payload must be a non-empty JSON list; got "
+            f"{type(doc).__name__} of length {len(doc) if hasattr(doc, '__len__') else '?'}"
+        )
+    if not isinstance(doc[0], list):
+        raise ValidationError(
+            f"Census payload first row (header) must be a list; got {type(doc[0]).__name__}"
+        )
+    if len(doc) < 2:
+        raise ValidationError(
+            "Census payload has a header row but zero data rows"
+        )
+    return doc
+
+
 def validate_csv(payload: bytes, *, required_columns: Iterable[str] = ()) -> int:
     """Parse `payload` as CSV. Return the row count (excluding header).
 
