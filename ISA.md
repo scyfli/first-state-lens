@@ -232,6 +232,20 @@ proven repeatable for Waves 2 and 3.
   live-data-verified before the next. Federal Dollars shipped + verified this turn as the
   template; Spending/Water/Schools clone the pure-API pattern; Childcare waits on the
   Census key. One verified dashboard beats five stubs (the Incomplete-Work failure class).
+- 2026-06-15 D12 (Water groundwork, probed live this turn — built next):
+  ECHO is rate-limited (300/hr; we hit the throttle during probing) → confirms the data
+  MUST be pre-baked by ETL, never client-fetched. Backbone = EPA Envirofacts efservice
+  (keyless, no aggressive limit). Confirmed live: `data.epa.gov/efservice/WATER_SYSTEM/
+  STATE_CODE/DE/COUNT/JSON` = 1,344 systems; `.../VIOLATION/STATE_CODE/DE/.../JSON` returns
+  rows with `pwsid, pws_name(via WATER_SYSTEM join), pws_type_code, violation_code,
+  violation_category_code (MCL/...), is_health_based_ind (Y/N), contaminant_code,
+  compliance_status_code (R=returned-to-compliance vs open), viol_measure, unit_of_measure`.
+  OPEN before build (the accuracy gate): (1) confirm compliance_status_code value set so
+  "current/open" vs "resolved" is labeled correctly — do NOT call resolved violations
+  "current" on a health page; (2) get VIOLATION COUNT for DE to avoid silent truncation
+  (show "N of M"); (3) join VIOLATION→WATER_SYSTEM on pwsid for system names; (4) lead-line
+  layer = system-level only, link out to per-utility ArcGIS maps. Build Water as a careful
+  next step, not a rushed clone.
 
 ## Changelog
 
