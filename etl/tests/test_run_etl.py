@@ -12,6 +12,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+import pytest
+
 from etl.lib.manifest import Manifest, SourceEntry
 from etl.run_etl import PipelineInputs, run_pipeline
 from etl.transforms.geocode import GeocoderPair, GranteeInput
@@ -481,3 +483,49 @@ def test_main_omits_methodology_version_when_flag_absent(tmp_path: Path, monkeyp
     assert rc == 0
     # Unset flag must NOT override; run_pipeline rides its signature default.
     assert "methodology_version" not in captured
+
+
+# ---------------------------------------------------------------------------
+# SB 254 tract geometry lookup (session-26 — fixes the [0,0] null-island gap)
+# ---------------------------------------------------------------------------
+
+
+def test_build_tract_geom_lookup_maps_geoid_to_real_geometry():
+    gpd = pytest.importorskip("geopandas")
+    from shapely.geometry import Polygon
+
+    from etl.run_etl import _build_tract_geom_lookup
+
+    gdf = gpd.GeoDataFrame(
+        {"GEOID": ["10003012345"]},
+        geometry=[Polygon([(-75.5, 39.7), (-75.4, 39.7), (-75.4, 39.8), (-75.5, 39.8)])],
+        crs="EPSG:4326",
+    )
+    lookup = _build_tract_geom_lookup(gdf)
+    assert lookup is not None
+    assert lookup["10003012345"]["type"] == "Polygon"
+    # Real coordinates, NOT the [0,0] null-island fallback.
+    assert lookup["10003012345"]["coordinates"][0][0] != [0, 0]
+
+
+def test_build_tract_geom_lookup_reprojects_to_wgs84():
+    gpd = pytest.importorskip("geopandas")
+    from shapely.geometry import Polygon
+
+    from etl.run_etl import _build_tract_geom_lookup
+
+    # A Web-Mercator (EPSG:3857) polygon must come back in lng/lat degrees.
+    gdf = gpd.GeoDataFrame(
+        {"GEOID": ["10003099999"]},
+        geometry=[Polygon([(-8.4e6, 4.8e6), (-8.3e6, 4.8e6), (-8.3e6, 4.9e6), (-8.4e6, 4.9e6)])],
+        crs="EPSG:3857",
+    )
+    lookup = _build_tract_geom_lookup(gdf)
+    lng, lat = lookup["10003099999"]["coordinates"][0][0]
+    assert -76 < lng < -74 and 38 < lat < 41
+
+
+def test_build_tract_geom_lookup_none_when_gdf_absent():
+    from etl.run_etl import _build_tract_geom_lookup
+
+    assert _build_tract_geom_lookup(None) is None

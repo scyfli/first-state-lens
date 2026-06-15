@@ -419,6 +419,39 @@ def _write_food_resources_geojson(output_dir: Path, merged: list) -> Path:
     )
 
 
+def _build_tract_geom_lookup(target_tracts_gdf) -> Optional[dict]:
+    """Map tract_geoid -> GeoJSON geometry from the TIGER tract GeoDataFrame.
+
+    Without this, _write_sb254_geojson falls back to Point [0,0] for every
+    tract (the geometry gap that left all 262 SB 254 tracts at null island).
+    TIGER carries the real polygon for every Delaware tract; reproject to
+    WGS84 and emit it so the SB 254 layer renders as actual tracts.
+    Returns None if the geo stack / gdf is unavailable so the [0,0] fallback
+    (diagnostic-only, exercised by offline tests) is preserved.
+    """
+    if target_tracts_gdf is None:
+        return None
+    try:
+        from shapely.geometry import mapping  # noqa: PLC0415
+
+        gdf = target_tracts_gdf
+        geoid_col = next(
+            (c for c in ("GEOID", "geoid", "tract_geoid", "GEOID20", "GEOID10") if c in gdf.columns),
+            None,
+        )
+        if geoid_col is None:
+            return None
+        if gdf.crs is not None and str(gdf.crs).upper() not in ("EPSG:4326", "OGC:CRS84"):
+            gdf = gdf.to_crs(4326)
+        lookup: dict = {}
+        for geoid, geom in zip(gdf[geoid_col].astype(str), gdf.geometry):
+            if geom is not None and not geom.is_empty:
+                lookup[str(geoid)] = mapping(geom)
+        return lookup or None
+    except Exception:  # noqa: BLE001 — geometry is best-effort; fall back to [0,0]
+        return None
+
+
 def _write_sb254_geojson(
     output_dir: Path,
     sb254_results: list,
@@ -555,7 +588,12 @@ def run_pipeline(
     files.append(_write_dgi_grants_csv(output_dir, geocoded))
     files.append(_write_dgi_grants_geocoded_geojson(output_dir, geocoded))
     files.append(_write_food_resources_geojson(output_dir, merged_food))
-    files.append(_write_sb254_geojson(output_dir, sb254_results, sb254_tracts_geom_lookup))
+    # Build the tract geometry lookup from TIGER polygons when not supplied,
+    # so SB 254 tracts render as real polygons instead of Point [0,0].
+    geom_lookup = sb254_tracts_geom_lookup
+    if geom_lookup is None:
+        geom_lookup = _build_tract_geom_lookup(inputs.target_tracts_gdf)
+    files.append(_write_sb254_geojson(output_dir, sb254_results, geom_lookup))
     files.append(_write_data_quality_flags(output_dir, flags))
     files.append(
         _write_parameters_dump(output_dir, inputs.parameters, inputs.manifest, methodology_version)
