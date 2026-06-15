@@ -35,6 +35,7 @@ from pathlib import Path
 
 from etl.lib.atomic_io import atomic_write_bytes
 from etl.lib.fetch import FetchResult, fetch
+from etl.lib.validate import validate_census_json
 
 
 # State FIPS code for Delaware. Hard-coded; Delaware is the scope of FSL.
@@ -87,6 +88,9 @@ def pull(
     if api_key:
         url = f"{url}&key={api_key}"
     result = fetch(url)
+    # Fail loud on an HTML rate-limit/WAF page returned at HTTP 200, before we
+    # persist it and silently zero every ACS-derived value downstream.
+    validate_census_json(result.body)
     target = out_dir / OUTPUT_FILENAME
     atomic_write_bytes(target, result.body)
     return target, result

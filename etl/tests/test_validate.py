@@ -10,9 +10,45 @@ from etl.lib.manifest import Manifest, SourceEntry
 from etl.lib.validate import (
     ValidationError,
     assert_fresh,
+    validate_census_json,
     validate_csv,
     validate_geojson,
 )
+
+
+# ---------------------------------------------------------------------------
+# validate_census_json — the source-boundary guard against HTML-at-200 that
+# silently zeroed production for a month (session-26).
+# ---------------------------------------------------------------------------
+
+
+def test_validate_census_json_happy_path() -> None:
+    payload = b'[["NAME","B19113_001E","state"],["Delaware","102219","10"]]'
+    doc = validate_census_json(payload)
+    assert doc[0][0] == "NAME"
+    assert doc[1][0] == "Delaware"
+
+
+def test_validate_census_json_rejects_html_rate_limit_page() -> None:
+    # The exact failure mode: Census returns an HTML WAF/captcha page at 200.
+    html = b"<!DOCTYPE html><html lang=en><head><script>captcha</script></head></html>"
+    with pytest.raises(ValidationError, match="not valid JSON"):
+        validate_census_json(html)
+
+
+def test_validate_census_json_rejects_empty_list() -> None:
+    with pytest.raises(ValidationError, match="non-empty JSON list"):
+        validate_census_json(b"[]")
+
+
+def test_validate_census_json_rejects_header_only() -> None:
+    with pytest.raises(ValidationError, match="zero data rows"):
+        validate_census_json(b'[["NAME","B19113_001E"]]')
+
+
+def test_validate_census_json_rejects_non_list_root() -> None:
+    with pytest.raises(ValidationError, match="non-empty JSON list"):
+        validate_census_json(b'{"error": "bad request"}')
 
 
 def test_validate_geojson_happy_path(fixture_sd2_geojson: bytes) -> None:
