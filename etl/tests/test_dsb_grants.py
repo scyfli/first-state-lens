@@ -165,3 +165,60 @@ def test_pull_writes_raw_html_and_parsed_json(
     assert any("cycle_5_status=pending" in w for w in fetch_result.warnings)
     assert any("grantee_count=0" in w for w in fetch_result.warnings)
     assert parse_result.cycle_5_status == "pending"
+
+
+# ---------------------------------------------------------------------------
+# .docx winner-summary parsing (session-26 — DSB canonical source)
+# ---------------------------------------------------------------------------
+
+
+def _make_docx(paragraphs: list[str]) -> bytes:
+    """Build a minimal .docx (zip with word/document.xml) from paragraph texts."""
+    import io
+    import zipfile
+
+    body = "".join(
+        "<w:p><w:r><w:t>" + p.replace("&", "&amp;") + "</w:t></w:r></w:p>"
+        for p in paragraphs
+    )
+    doc = (
+        '<?xml version="1.0"?>'
+        '<w:document xmlns:w="x"><w:body>' + body + "</w:body></w:document>"
+    )
+    buf = io.BytesIO()
+    with zipfile.ZipFile(buf, "w") as zf:
+        zf.writestr("word/document.xml", doc)
+    return buf.getvalue()
+
+
+def test_parse_docx_extracts_awardees_with_and_without_region() -> None:
+    docx = _make_docx([
+        "2026 Awardees of the Delaware Grocery Initiative",  # header, no $ -> skipped
+        "Bellevue Community Center (NCC) $22,203  - Restoring cold storage.",
+        "Bennett Orchards $53,999 - Installing wind machines.",  # NO region parens
+        "La Red Health Center (Kent/Sussex) - $28,500 Integrating food.",  # dash before $
+        "Midas Harvest Urban Farm (NCC / Kent)$30,748 - CSA scaling.",  # no space before $
+    ])
+    result = dsb_grants.parse_docx(docx)
+    assert result.cycle_5_status == "published"
+    names = {g.grantee for g in result.grantees}
+    assert names == {
+        "Bellevue Community Center",
+        "Bennett Orchards",
+        "La Red Health Center",
+        "Midas Harvest Urban Farm",
+    }
+    by_name = {g.grantee: g for g in result.grantees}
+    assert by_name["Bellevue Community Center"].amount_usd == 22203.0
+    assert by_name["Bellevue Community Center"].category == "NCC"
+    assert by_name["Bennett Orchards"].category is None  # no region published
+    assert by_name["La Red Health Center"].amount_usd == 28500.0
+    assert by_name["Midas Harvest Urban Farm"].amount_usd == 30748.0
+    assert all(g.cycle == 5 for g in result.grantees)
+
+
+def test_parse_docx_handles_corrupt_bytes() -> None:
+    result = dsb_grants.parse_docx(b"not a zip file")
+    assert result.grantees == []
+    assert result.cycle_5_status == "pending"
+    assert any("docx" in w for w in result.parser_warnings)
