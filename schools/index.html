@@ -181,13 +181,21 @@
         return asc ? av - bv : bv - av;
       });
     }
+    const maxEnroll = Math.max(1, ...DATA.districts.map((x) => x.enrollment || 0));
+    // Percentage bars use a true 0–100 scale (no distortion); enrollment scales to the max.
+    const dbp = (v) => v === null || v === undefined
+      ? `<td class="num">—</td>`
+      : `<td class="num dbar"><span class="dbf" style="width:${Math.max(2, Math.min(100, v)).toFixed(0)}%"></span><span class="dbv">${Number(v).toFixed(1)}%</span></td>`;
+    const dbe = (v) => v === null || v === undefined
+      ? `<td class="num">—</td>`
+      : `<td class="num dbar"><span class="dbf" style="width:${Math.max(2, v / maxEnroll * 100).toFixed(0)}%"></span><span class="dbv">${Number(v).toLocaleString("en-US")}</span></td>`;
     document.getElementById("dist-body").innerHTML = rows.map((d) =>
       `<tr><td><strong>${esc(d.district)}</strong></td>`
-      + `<td class="num">${intf(d.enrollment)}</td>`
-      + `<td class="num">${pct(d.ela_proficient)}</td>`
-      + `<td class="num">${pct(d.math_proficient)}</td>`
-      + `<td class="num">${pct(d.chronic_absenteeism)}</td>`
-      + `<td class="num">${pct(d.grad_rate)}</td></tr>`).join("");
+      + dbe(d.enrollment)
+      + dbp(d.ela_proficient)
+      + dbp(d.math_proficient)
+      + dbp(d.chronic_absenteeism)
+      + dbp(d.grad_rate) + `</tr>`).join("");
   }
 
   async function load() {

@@ -174,12 +174,15 @@
     return "$" + n.toFixed(0);
   };
 
+  // Harmonious distinct palette cycled by rank so adjacent bars are always
+  // differentiable and the eye can track each bar to its value.
+  const PALETTE = ["#fbbf24", "#38bdf8", "#a78bfa", "#34d399", "#818cf8", "#fb7185", "#22d3ee", "#f472b6"];
   const bars = (el, arr) => {
     const max = Math.max(1, ...arr.map((r) => r.total));
-    document.getElementById(el).innerHTML = arr.map((r) =>
+    document.getElementById(el).innerHTML = arr.map((r, i) =>
       `<div class="bar-row">
          <span class="bar-label">${esc(r.label)}</span>
-         <span class="bar-track"><span class="bar-fill" style="width:${(r.total / max * 100).toFixed(1)}%"></span></span>
+         <span class="bar-track"><span class="bar-fill" style="width:${(r.total / max * 100).toFixed(1)}%;background:${PALETTE[i % PALETTE.length]}"></span></span>
          <span class="bar-value">${fmtShort(r.total)}</span>
        </div>`).join("");
   };

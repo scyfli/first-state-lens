@@ -192,13 +192,16 @@
       : "Violations with no return-to-compliance date recorded.";
 
     const echoBase = (s.source && s.source.echo_detail) || "https://echo.epa.gov/detailed-facility-report?fid=";
-    document.getElementById("sys-body").innerHTML = (s.systems || []).map((r) =>
-      `<tr>`
-      + `<td><strong>${esc(r.name)}</strong></td>`
+    const sys = s.systems || [];
+    const maxViol = Math.max(1, ...sys.map((r) => r.violations || 0));
+    const maxHB = Math.max(1, ...sys.map((r) => r.health_based || 0));
+    const db = (v, mx) => `<td class="num dbar"><span class="dbf" style="width:${Math.max(v > 0 ? 6 : 0, v / mx * 100).toFixed(0)}%"></span><span class="dbv">${fmtInt(v)}</span></td>`;
+    document.getElementById("sys-body").innerHTML = sys.map((r) =>
+      `<tr><td><strong>${esc(r.name)}</strong></td>`
       + `<td>${esc(r.city || "—")}</td>`
       + `<td class="num">${fmtInt(r.population)}</td>`
-      + `<td class="num">${fmtInt(r.violations)}</td>`
-      + `<td class="num">${fmtInt(r.health_based)}</td>`
+      + db(r.violations, maxViol)
+      + db(r.health_based, maxHB)
       + `<td class="num">${fmtInt(r.open)}</td>`
       + `<td><a href="${echoBase}${encodeURIComponent(r.pwsid)}" target="_blank" rel="noopener">view</a></td>`
       + `</tr>`).join("");

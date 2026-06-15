@@ -195,8 +195,20 @@
 
     const sd = s.stars_distribution || [];
     const max = Math.max(1, ...sd.map((x) => x.count));
+    // Color encodes the rating: deeper gold = more stars; grey = not enrolled in STARS
+    // (not a low rating). Ordinal, so the hue carries meaning.
+    const starColor = (label) => {
+      const l = (label || "").toLowerCase();
+      if (l.includes("five")) return "#f59e0b";
+      if (l.includes("four")) return "#fbbf24";
+      if (l.includes("three")) return "#fcd34d";
+      if (l.includes("two")) return "#fde68a";
+      if (l.includes("one")) return "#fef08a";
+      if (l.includes("starting")) return "#c7d2fe";
+      return "#64748b"; // Not Participating / Unrated — neutral, never red
+    };
     document.getElementById("stars-bars").innerHTML = sd.map((x) =>
-      `<div class="bar-row"><span class="bar-label">${esc(x.label)}</span><span class="bar-track"><span class="bar-fill" style="width:${(x.count / max * 100).toFixed(1)}%"></span></span><span class="bar-value">${fmtInt(x.count)}</span></div>`).join("");
+      `<div class="bar-row"><span class="bar-label">${esc(x.label)}</span><span class="bar-track"><span class="bar-fill" style="width:${(x.count / max * 100).toFixed(1)}%;background:${starColor(x.label)}"></span></span><span class="bar-value">${fmtInt(x.count)}</span></div>`).join("");
 
     const asOf = (s.generated_at || "").slice(0, 10);
     document.getElementById("footer-build").textContent =

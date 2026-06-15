@@ -204,10 +204,12 @@
       ["Other", c.other || 0],
     ];
     const max = Math.max(1, ...buckets.map((b) => b[1]));
-    document.getElementById("bd-bars").innerHTML = buckets.map(([label, val]) =>
+    // One distinct hue per award type — color encodes the category, not magnitude.
+    const CAT = ["#38bdf8", "#a78bfa", "#fbbf24", "#34d399", "#fb7185"];
+    document.getElementById("bd-bars").innerHTML = buckets.map(([label, val], i) =>
       `<div class="bar-row">
          <span class="bar-label">${esc(label)}</span>
-         <span class="bar-track"><span class="bar-fill" style="width:${(val / max * 100).toFixed(1)}%"></span></span>
+         <span class="bar-track"><span class="bar-fill" style="width:${(val / max * 100).toFixed(1)}%;background:${CAT[i % CAT.length]}"></span></span>
          <span class="bar-value">${fmtInt(val)}</span>
        </div>`).join("");
 
