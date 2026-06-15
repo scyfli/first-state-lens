@@ -770,6 +770,14 @@ def main(argv: list[str] | None = None) -> int:
         action="store_true",
         help="Inspect the raw_dir and print what would be loaded; do not write outputs.",
     )
+    parser.add_argument(
+        "--methodology-version",
+        default=None,
+        help="Override the methodology version stamped into outputs. When "
+             "omitted, falls through to run_pipeline's signature default. "
+             "Exposing this lets the CI workflow be the single source-of-truth "
+             "call site, eliminating the stamp-drift class (session-24/25).",
+    )
     args = parser.parse_args(argv)
 
     parameters = load_parameters(args.parameters)
@@ -795,10 +803,18 @@ def main(argv: list[str] | None = None) -> int:
 
     inputs = assemble_pipeline_inputs(loaded, parameters, args.manual_reviews)
 
+    # Only forward methodology_version when explicitly set, so an unset flag
+    # falls through to run_pipeline's signature default rather than overriding
+    # it with None.
+    pipeline_kwargs: dict = {}
+    if args.methodology_version is not None:
+        pipeline_kwargs["methodology_version"] = args.methodology_version
+
     result = run_pipeline(
         inputs,
         output_dir=args.output_dir,
         strict=args.strict,
+        **pipeline_kwargs,
     )
 
     print()

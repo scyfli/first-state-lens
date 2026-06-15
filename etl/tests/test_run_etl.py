@@ -418,3 +418,66 @@ def test_pull_all_sources_omits_api_key_when_env_unset(tmp_path: Path, monkeypat
     assert "api_key" not in recorded["census_acs_tracts"]
     assert "api_key" not in recorded["census_acs_bgs"]
     assert "api_key" not in recorded["census_acs_state"]
+
+
+# ---------------------------------------------------------------------------
+# main() --methodology-version flag (drift-class fix, session-26)
+# ---------------------------------------------------------------------------
+
+
+def _stub_main_pipeline(monkeypatch, captured: dict):
+    """Stub out parameters/load/assemble/run_pipeline so main() can be driven
+    without network or the geo stack; record run_pipeline's kwargs."""
+    import types
+
+    import etl.lib.load_raw as load_raw_mod
+    from etl import run_etl
+
+    monkeypatch.setattr(run_etl, "load_parameters", lambda p: {})
+    monkeypatch.setattr(
+        load_raw_mod,
+        "load_raw_artifacts",
+        lambda raw_dir, params: types.SimpleNamespace(geo_stack_available=False, notes=[]),
+    )
+    monkeypatch.setattr(
+        run_etl, "assemble_pipeline_inputs", lambda loaded, params, mr: object()
+    )
+
+    def fake_run_pipeline(inputs, *, output_dir, strict, **kwargs):
+        captured.update(kwargs)
+        captured["called"] = True
+        return types.SimpleNamespace(
+            output_dir=output_dir,
+            geocoded_count=0,
+            food_resources_merged_count=0,
+            sb254_effective_tract_count=0,
+            data_quality_flag_count=0,
+            cycle_5_status="pending",
+            apportionment_ran=False,
+            files_written=[],
+        )
+
+    monkeypatch.setattr(run_etl, "run_pipeline", fake_run_pipeline)
+    return run_etl
+
+
+def test_main_threads_methodology_version_flag(tmp_path: Path, monkeypatch):
+    captured: dict = {}
+    run_etl = _stub_main_pipeline(monkeypatch, captured)
+
+    rc = run_etl.main(["--output-dir", str(tmp_path), "--methodology-version", "9.9.9"])
+
+    assert rc == 0
+    assert captured["called"] is True
+    assert captured.get("methodology_version") == "9.9.9"
+
+
+def test_main_omits_methodology_version_when_flag_absent(tmp_path: Path, monkeypatch):
+    captured: dict = {}
+    run_etl = _stub_main_pipeline(monkeypatch, captured)
+
+    rc = run_etl.main(["--output-dir", str(tmp_path)])
+
+    assert rc == 0
+    # Unset flag must NOT override; run_pipeline rides its signature default.
+    assert "methodology_version" not in captured
