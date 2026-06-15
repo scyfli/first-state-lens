@@ -1,6 +1,7 @@
 {
   "acs_vintage": "2019-2023 5-year",
   "cycle_5_status": "published",
+  "dsb_grants_url": "https://business.delaware.gov/wp-content/uploads/sites/118/2026/05/Winner-Summary-for-DGI-webpage_webview.docx",
   "etl_version": "0.1.0",
   "geocoder_cross_check": "nominatim",
   "geocoder_primary": "census",
