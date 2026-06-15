@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-06-15T19:43:01Z",
+  "dashboard": "schools",
+  "vintages": {
+    "proficiency": "2025",
+    "chronic_absenteeism": "2025",
+    "enrollment": "2025",
+    "graduation": "2023"
+  },
+  "sources": {
+    "name": "Delaware Report Card (data.delaware.gov / DOE)",
+    "datasets": {
+      "assessment": "ms6b-mt82",
+      "attendance": "crb4-kdc7",
+      "graduation": "t7e6-zcnn",
+      "enrollment": "6i7v-xnmf"
+    },
+    "license": "Delaware Open Data Portal \u2014 open data",
+    "url": "https://reportcard.doe.k12.de.us/",
+    "note": "Proficiency = Smarter Balanced Summative (statewide 3-8 test), All Students, REPORTED only."
+  },
+  "row_counts": {
+    "districts": 41
+  }
+}

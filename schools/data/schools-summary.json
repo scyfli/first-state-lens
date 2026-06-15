@@ -1,0 +1,402 @@
+{
+  "generated_at": "2026-06-15T19:43:01Z",
+  "vintages": {
+    "proficiency": "2025",
+    "chronic_absenteeism": "2025",
+    "enrollment": "2025",
+    "graduation": "2023"
+  },
+  "assessment": "Smarter Balanced Summative Assessment",
+  "state": {
+    "districtcode": "0",
+    "district": "State of Delaware",
+    "enrollment": 152122,
+    "ela_proficient": 41.21,
+    "math_proficient": 33.82,
+    "chronic_absenteeism": 17.13,
+    "grad_rate": 88.9
+  },
+  "districts": [
+    {
+      "districtcode": "9605",
+      "district": "Academia Antonia Alonso",
+      "enrollment": 971,
+      "ela_proficient": 22.24,
+      "math_proficient": 14.73,
+      "chronic_absenteeism": 15.14,
+      "grad_rate": null
+    },
+    {
+      "districtcode": "85",
+      "district": "Academy of Dover Charter School",
+      "enrollment": 461,
+      "ela_proficient": 32.43,
+      "math_proficient": 22.78,
+      "chronic_absenteeism": 1.08,
+      "grad_rate": null
+    },
+    {
+      "districtcode": "29",
+      "district": "Appoquinimink School District",
+      "enrollment": 14387,
+      "ela_proficient": 51.92,
+      "math_proficient": 45.24,
+      "chronic_absenteeism": 14.08,
+      "grad_rate": 95.42
+    },
+    {
+      "districtcode": "69",
+      "district": "ASPIRA Delaware",
+      "enrollment": 1529,
+      "ela_proficient": 34.4,
+      "math_proficient": 18.4,
+      "chronic_absenteeism": 14.45,
+      "grad_rate": null
+    },
+    {
+      "districtcode": "31",
+      "district": "Brandywine School District",
+      "enrollment": 11651,
+      "ela_proficient": 45.2,
+      "math_proficient": 37.22,
+      "chronic_absenteeism": 15.73,
+      "grad_rate": 90.86
+    },
+    {
+      "districtcode": "9615",
+      "district": "Bryan Allen Stevenson School of Excellence",
+      "enrollment": 231,
+      "ela_proficient": 24.03,
+      "math_proficient": 8.59,
+      "chronic_absenteeism": null,
+      "grad_rate": null
+    },
+    {
+      "districtcode": "10",
+      "district": "Caesar Rodney School District",
+      "enrollment": 9371,
+      "ela_proficient": 47.97,
+      "math_proficient": 37.61,
+      "chronic_absenteeism": 17.96,
+      "grad_rate": 89.34
+    },
+    {
+      "districtcode": "74",
+      "district": "Campus Community School",
+      "enrollment": 411,
+      "ela_proficient": 43.43,
+      "math_proficient": 29.56,
+      "chronic_absenteeism": 15.09,
+      "grad_rate": null
+    },
+    {
+      "districtcode": "17",
+      "district": "Cape Henlopen School District",
+      "enrollment": 7256,
+      "ela_proficient": 57.94,
+      "math_proficient": 51.96,
+      "chronic_absenteeism": 15.6,
+      "grad_rate": 89.08
+    },
+    {
+      "districtcode": "13",
+      "district": "Capital School District",
+      "enrollment": 7937,
+      "ela_proficient": 24.5,
+      "math_proficient": 18.07,
+      "chronic_absenteeism": 26.13,
+      "grad_rate": 88.11
+    },
+    {
+      "districtcode": "80",
+      "district": "Charter School of New Castle",
+      "enrollment": 844,
+      "ela_proficient": 36.02,
+      "math_proficient": 25.94,
+      "chronic_absenteeism": null,
+      "grad_rate": null
+    },
+    {
+      "districtcode": "33",
+      "district": "Christina School District",
+      "enrollment": 15173,
+      "ela_proficient": 33.81,
+      "math_proficient": 27.26,
+      "chronic_absenteeism": 19.87,
+      "grad_rate": 73.22
+    },
+    {
+      "districtcode": "34",
+      "district": "Colonial School District",
+      "enrollment": 10323,
+      "ela_proficient": 23.7,
+      "math_proficient": 18.23,
+      "chronic_absenteeism": 24.87,
+      "grad_rate": 83.33
+    },
+    {
+      "districtcode": "37",
+      "district": "Delmar School District",
+      "enrollment": 1534,
+      "ela_proficient": 37.83,
+      "math_proficient": 27.01,
+      "chronic_absenteeism": 22.03,
+      "grad_rate": 93.84
+    },
+    {
+      "districtcode": "9604",
+      "district": "Early College High School at Del State",
+      "enrollment": 650,
+      "ela_proficient": 28.57,
+      "math_proficient": 11.98,
+      "chronic_absenteeism": 2.15,
+      "grad_rate": null
+    },
+    {
+      "districtcode": "72",
+      "district": "East Side Charter School",
+      "enrollment": 484,
+      "ela_proficient": 27.93,
+      "math_proficient": 22.57,
+      "chronic_absenteeism": 35.12,
+      "grad_rate": null
+    },
+    {
+      "districtcode": "76",
+      "district": "Edison (Thomas A.) Charter School",
+      "enrollment": 588,
+      "ela_proficient": 16.35,
+      "math_proficient": 6.7,
+      "chronic_absenteeism": 2.55,
+      "grad_rate": null
+    },
+    {
+      "districtcode": "9607",
+      "district": "First State Military Academy",
+      "enrollment": 443,
+      "ela_proficient": null,
+      "math_proficient": null,
+      "chronic_absenteeism": 24.6,
+      "grad_rate": null
+    },
+    {
+      "districtcode": "9606",
+      "district": "First State Montessori Academy",
+      "enrollment": 660,
+      "ela_proficient": 63.53,
+      "math_proficient": 42.03,
+      "chronic_absenteeism": 5.0,
+      "grad_rate": null
+    },
+    {
+      "districtcode": "9612",
+      "district": "Freire Charter School Wilmington",
+      "enrollment": 522,
+      "ela_proficient": null,
+      "math_proficient": null,
+      "chronic_absenteeism": 36.59,
+      "grad_rate": null
+    },
+    {
+      "districtcode": "92",
+      "district": "Gateway Charter School",
+      "enrollment": 217,
+      "ela_proficient": 13.33,
+      "math_proficient": 3.36,
+      "chronic_absenteeism": 15.21,
+      "grad_rate": null
+    },
+    {
+      "districtcode": "9611",
+      "district": "Great Oaks Charter School",
+      "enrollment": 184,
+      "ela_proficient": null,
+      "math_proficient": null,
+      "chronic_absenteeism": 54.89,
+      "grad_rate": null
+    },
+    {
+      "districtcode": "36",
+      "district": "Indian River School District",
+      "enrollment": 11824,
+      "ela_proficient": 40.74,
+      "math_proficient": 38.0,
+      "chronic_absenteeism": 20.2,
+      "grad_rate": 81.96
+    },
+    {
+      "districtcode": "82",
+      "district": "Kuumba Academy Charter School",
+      "enrollment": 642,
+      "ela_proficient": 26.2,
+      "math_proficient": 11.83,
+      "chronic_absenteeism": null,
+      "grad_rate": null
+    },
+    {
+      "districtcode": "15",
+      "district": "Lake Forest School District",
+      "enrollment": 4292,
+      "ela_proficient": 40.57,
+      "math_proficient": 33.67,
+      "chronic_absenteeism": 21.31,
+      "grad_rate": 90.36
+    },
+    {
+      "districtcode": "16",
+      "district": "Laurel School District",
+      "enrollment": 2814,
+      "ela_proficient": 30.29,
+      "math_proficient": 21.87,
+      "chronic_absenteeism": 18.74,
+      "grad_rate": 79.46
+    },
+    {
+      "districtcode": "18",
+      "district": "Milford School District",
+      "enrollment": 4942,
+      "ela_proficient": 32.56,
+      "math_proficient": 23.8,
+      "chronic_absenteeism": 16.76,
+      "grad_rate": 83.77
+    },
+    {
+      "districtcode": "88",
+      "district": "MOT Charter School",
+      "enrollment": 1414,
+      "ela_proficient": 68.35,
+      "math_proficient": 65.27,
+      "chronic_absenteeism": 6.58,
+      "grad_rate": null
+    },
+    {
+      "districtcode": "38",
+      "district": "New Castle County Vocational-Technical School District",
+      "enrollment": 4916,
+      "ela_proficient": null,
+      "math_proficient": null,
+      "chronic_absenteeism": 9.35,
+      "grad_rate": 97.47
+    },
+    {
+      "districtcode": "89",
+      "district": "Newark Charter School",
+      "enrollment": 3115,
+      "ela_proficient": 76.05,
+      "math_proficient": 70.71,
+      "chronic_absenteeism": 6.97,
+      "grad_rate": null
+    },
+    {
+      "districtcode": "86",
+      "district": "Odyssey Charter School",
+      "enrollment": 2375,
+      "ela_proficient": 46.57,
+      "math_proficient": 41.65,
+      "chronic_absenteeism": 7.92,
+      "grad_rate": null
+    },
+    {
+      "districtcode": "39",
+      "district": "POLYTECH School District",
+      "enrollment": 1250,
+      "ela_proficient": null,
+      "math_proficient": null,
+      "chronic_absenteeism": 11.34,
+      "grad_rate": 98.08
+    },
+    {
+      "districtcode": "71",
+      "district": "Positive Outcomes Charter School",
+      "enrollment": 137,
+      "ela_proficient": null,
+      "math_proficient": null,
+      "chronic_absenteeism": 44.09,
+      "grad_rate": null
+    },
+    {
+      "districtcode": "87",
+      "district": "Providence Creek Academy Charter School",
+      "enrollment": 781,
+      "ela_proficient": 54.1,
+      "math_proficient": 43.33,
+      "chronic_absenteeism": 7.68,
+      "grad_rate": null
+    },
+    {
+      "districtcode": "32",
+      "district": "Red Clay Consolidated School District",
+      "enrollment": 17930,
+      "ela_proficient": 40.34,
+      "math_proficient": 32.62,
+      "chronic_absenteeism": 16.85,
+      "grad_rate": 92.2
+    },
+    {
+      "districtcode": "23",
+      "district": "Seaford School District",
+      "enrollment": 4022,
+      "ela_proficient": 40.35,
+      "math_proficient": 34.65,
+      "chronic_absenteeism": 8.73,
+      "grad_rate": 74.0
+    },
+    {
+      "districtcode": "24",
+      "district": "Smyrna School District",
+      "enrollment": 6263,
+      "ela_proficient": 42.47,
+      "math_proficient": 33.32,
+      "chronic_absenteeism": 12.13,
+      "grad_rate": 93.39
+    },
+    {
+      "districtcode": "77",
+      "district": "Sussex Academy",
+      "enrollment": 1190,
+      "ela_proficient": 69.55,
+      "math_proficient": 54.61,
+      "chronic_absenteeism": 3.53,
+      "grad_rate": null
+    },
+    {
+      "districtcode": "9614",
+      "district": "Sussex Montessori School",
+      "enrollment": 391,
+      "ela_proficient": 17.31,
+      "math_proficient": 11.54,
+      "chronic_absenteeism": 15.68,
+      "grad_rate": null
+    },
+    {
+      "districtcode": "40",
+      "district": "Sussex Technical School District",
+      "enrollment": 1358,
+      "ela_proficient": null,
+      "math_proficient": null,
+      "chronic_absenteeism": 6.25,
+      "grad_rate": 95.65
+    },
+    {
+      "districtcode": "35",
+      "district": "Woodbridge School District",
+      "enrollment": 2860,
+      "ela_proficient": 36.63,
+      "math_proficient": 27.49,
+      "chronic_absenteeism": 5.19,
+      "grad_rate": 87.57
+    }
+  ],
+  "source": {
+    "name": "Delaware Report Card (data.delaware.gov / DOE)",
+    "datasets": {
+      "assessment": "ms6b-mt82",
+      "attendance": "crb4-kdc7",
+      "graduation": "t7e6-zcnn",
+      "enrollment": "6i7v-xnmf"
+    },
+    "license": "Delaware Open Data Portal \u2014 open data",
+    "url": "https://reportcard.doe.k12.de.us/",
+    "note": "Proficiency = Smarter Balanced Summative (statewide 3-8 test), All Students, REPORTED only."
+  }
+}

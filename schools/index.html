@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex, nofollow" />
+<title>Delaware School Report Card — First State Lens</title>
+<meta name="description" content="Proficiency, graduation, chronic absenteeism, and enrollment for every Delaware school district. Public DOE data, sourced, nonpartisan." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/fsl.css" />
+<style>
+  /* Schools accent: indigo (education). */
+  :root { --accent-primary: var(--indigo-400); }
+  .title-eyebrow { color: var(--indigo-400); border-color: rgba(129,140,248,0.25); background: rgba(129,140,248,0.05); }
+  .title-eyebrow::before { background: var(--indigo-400); box-shadow: 0 0 6px var(--indigo-400); }
+  .neutrality { border-left-color: var(--indigo-400); }
+  #fsl-gate-form button { background: var(--indigo-400); }
+  .ctrl { display:flex; gap:10px; align-items:center; flex-wrap:wrap; margin-bottom:14px; }
+  .ctrl label { font-family:'JetBrains Mono',monospace; font-size:11px; color:var(--text-tertiary); letter-spacing:.05em; text-transform:uppercase; }
+  .ctrl select { background:var(--surface-base); color:var(--text-primary); border:1px solid var(--border-strong); border-radius:8px; padding:7px 10px; font-size:13px; }
+</style>
+</head>
+<body class="fsl-locked">
+
+<div id="fsl-gate" role="dialog" aria-label="Password required" aria-modal="true">
+  <div id="fsl-gate-card">
+    <h1>First State Lens · Delaware School Report Card</h1>
+    <p>This is a soft-launch preview of the FirmSide AI Civic Analytics Lab. Enter the password shared with you.</p>
+    <form id="fsl-gate-form">
+      <input type="password" id="fsl-gate-input" autocomplete="current-password" autofocus aria-label="Password" />
+      <button type="submit">Enter</button>
+      <div id="fsl-gate-error" role="alert" aria-live="polite"></div>
+    </form>
+    <div id="fsl-gate-footer">FirmSide AI · Civic Analytics Lab</div>
+  </div>
+</div>
+<script>
+(function () {
+  const HASH = "da30814cf1aeff6892250b88f97de6798faf45b0a5bb843502098cfa0adcdc06";
+  const STORAGE_KEY = "fsl-gate-2026-06";
+  const body = document.body;
+  const gate = document.getElementById("fsl-gate");
+  if (sessionStorage.getItem(STORAGE_KEY) === HASH) { body.classList.remove("fsl-locked"); gate.remove(); return; }
+  async function sha256(text) {
+    const buf = new TextEncoder().encode(text);
+    const digest = await crypto.subtle.digest("SHA-256", buf);
+    return Array.from(new Uint8Array(digest)).map(b => b.toString(16).padStart(2, "0")).join("");
+  }
+  const form = document.getElementById("fsl-gate-form");
+  const input = document.getElementById("fsl-gate-input");
+  const err = document.getElementById("fsl-gate-error");
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault(); err.textContent = "";
+    const hash = await sha256(input.value);
+    if (hash === HASH) { sessionStorage.setItem(STORAGE_KEY, HASH); body.classList.remove("fsl-locked"); gate.remove(); }
+    else { err.textContent = "Incorrect password."; input.value = ""; input.focus(); }
+  });
+})();
+</script>
+
+<div class="container">
+
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark">FS</div>
+      <div class="brand-text">
+        <div class="brand-name">First State Lens</div>
+        <div class="brand-tagline">Civic Analytics Lab · Delaware</div>
+      </div>
+    </div>
+    <div class="topbar-meta">
+      <div class="meta-item"><span class="pulse-dot"></span><span>LIVE DATA</span></div>
+      <div class="meta-item"><span id="meta-districts">— LEAs</span></div>
+    </div>
+  </header>
+
+  <main>
+  <div class="title-block">
+    <span class="title-eyebrow">School Report Card · Delaware</span>
+    <h1 class="title-h1">How Delaware's <span class="highlight">schools</span> are doing</h1>
+    <p class="title-sub">Proficiency, graduation, chronic absenteeism, and enrollment for the state and every school district and charter network. Built directly from the Delaware Department of Education's public report-card data.</p>
+  </div>
+
+  <p class="neutrality">
+    <strong>How to read this.</strong> Proficiency is the share of students scoring at or above standard on the <strong>Smarter Balanced Summative Assessment</strong>, Delaware's statewide test for grades 3 through 8 — one comparable measure across districts, not the SAT or the alternate assessment. Figures cover <strong>all students</strong>. Each measure shows its own school year (graduation data lags about two years behind the others), and where a district's count is too small to report it is shown as "—" rather than zero, never invented. A higher graduation or proficiency number, or a lower chronic-absenteeism number, is generally considered better, but First State Lens draws no conclusions about any school or district. We show you the data; you decide.
+  </p>
+
+  <section class="kpi-grid" aria-label="Statewide figures">
+    <div class="kpi-card">
+      <div class="kpi-label">ELA Proficiency · Statewide</div>
+      <div class="kpi-value" id="kpi-ela">—</div>
+      <div class="kpi-context">Students at or above standard in English/Language Arts (Smarter Balanced, grades 3–8).</div>
+      <div class="kpi-source" id="kpi-ela-src">SOURCE · DE DOE REPORT CARD</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Math Proficiency · Statewide</div>
+      <div class="kpi-value" id="kpi-math">—</div>
+      <div class="kpi-context">Students at or above standard in Mathematics (Smarter Balanced, grades 3–8).</div>
+      <div class="kpi-source" id="kpi-math-src">SOURCE · DE DOE REPORT CARD</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Chronic Absenteeism · Statewide</div>
+      <div class="kpi-value" id="kpi-chronic">—</div>
+      <div class="kpi-context">Share of students absent 10% or more of enrolled days. Lower is generally better.</div>
+      <div class="kpi-source" id="kpi-chronic-src">SOURCE · DE DOE REPORT CARD</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Graduation Rate · Statewide</div>
+      <div class="kpi-value" id="kpi-grad">—</div>
+      <div class="kpi-context">Four-year cohort graduation rate, all students.</div>
+      <div class="kpi-source" id="kpi-grad-src">SOURCE · DE DOE REPORT CARD</div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="dist-title">
+    <div class="section-head">
+      <h2 class="section-title" id="dist-title">Every district and charter network</h2>
+      <span class="section-meta" id="dist-meta">DE DOE REPORT CARD</span>
+    </div>
+    <div class="panel">
+      <div class="ctrl">
+        <label for="sortby">Sort by</label>
+        <select id="sortby" aria-label="Sort districts by">
+          <option value="name">Name (A–Z)</option>
+          <option value="ela_proficient">ELA proficiency</option>
+          <option value="math_proficient">Math proficiency</option>
+          <option value="grad_rate">Graduation rate</option>
+          <option value="chronic_abseteeism">Chronic absenteeism</option>
+          <option value="enrollment">Enrollment</option>
+        </select>
+      </div>
+      <table class="data-table">
+        <caption id="dist-cap">Delaware school districts and charter networks. Proficiency and chronic absenteeism are the most recent year; graduation lags. "—" means too few students to report.</caption>
+        <thead><tr>
+          <th scope="col">District / charter network</th>
+          <th scope="col" class="num">Enrollment</th>
+          <th scope="col" class="num">ELA %</th>
+          <th scope="col" class="num">Math %</th>
+          <th scope="col" class="num">Chronic abs. %</th>
+          <th scope="col" class="num">Grad %</th>
+        </tr></thead>
+        <tbody id="dist-body"><tr><td colspan="6">Loading…</td></tr></tbody>
+      </table>
+      <p class="kpi-source" id="dist-src" style="margin-top:16px;">SOURCE · DATA.DELAWARE.GOV · ms6b-mt82 / crb4-kdc7 / t7e6-zcnn / 6i7v-xnmf · REPORTED ROWS ONLY</p>
+    </div>
+  </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-build" id="footer-build">DATA: not yet loaded</div>
+    <div class="footer-links">
+      <a href="https://reportcard.doe.k12.de.us/">Delaware Report Card (primary source)</a>
+      <a href="/">First State Lens home</a>
+    </div>
+    <div>First State Lens is a FirmSide AI Civic Analytics Lab project. Nonpartisan. Every figure links to its public source. We show you the data; you decide.</div>
+  </footer>
+
+</div>
+
+<script>
+(function () {
+  const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const pct = (v) => v === null || v === undefined ? "—" : Number(v).toFixed(1) + "%";
+  const intf = (v) => v === null || v === undefined ? "—" : Number(v).toLocaleString("en-US");
+  let DATA = null;
+
+  function renderTable() {
+    const sortKey = document.getElementById("sortby").value;
+    const rows = DATA.districts.slice();
+    if (sortKey === "name") {
+      rows.sort((a, b) => a.district.localeCompare(b.district));
+    } else {
+      const k = sortKey === "chronic_abseteeism" ? "chronic_absenteeism" : sortKey;
+      const asc = k === "chronic_absenteeism"; // lower chronic-abs first
+      rows.sort((a, b) => {
+        const av = a[k], bv = b[k];
+        if (av === null || av === undefined) return 1;
+        if (bv === null || bv === undefined) return -1;
+        return asc ? av - bv : bv - av;
+      });
+    }
+    document.getElementById("dist-body").innerHTML = rows.map((d) =>
+      `<tr><td><strong>${esc(d.district)}</strong></td>`
+      + `<td class="num">${intf(d.enrollment)}</td>`
+      + `<td class="num">${pct(d.ela_proficient)}</td>`
+      + `<td class="num">${pct(d.math_proficient)}</td>`
+      + `<td class="num">${pct(d.chronic_absenteeism)}</td>`
+      + `<td class="num">${pct(d.grad_rate)}</td></tr>`).join("");
+  }
+
+  async function load() {
+    try {
+      const r = await fetch("./data/schools-summary.json", { cache: "no-cache" });
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      DATA = await r.json();
+    } catch (e) {
+      document.getElementById("footer-build").textContent = "DATA: unavailable (" + e.message + ")";
+      return;
+    }
+    const v = DATA.vintages, st = DATA.state;
+    document.getElementById("meta-districts").textContent = DATA.districts.length + " LEAs";
+    document.getElementById("kpi-ela").textContent = pct(st.ela_proficient);
+    document.getElementById("kpi-math").textContent = pct(st.math_proficient);
+    document.getElementById("kpi-chronic").textContent = pct(st.chronic_absenteeism);
+    document.getElementById("kpi-grad").textContent = pct(st.grad_rate);
+    document.getElementById("kpi-ela-src").textContent = "SOURCE · DE DOE · SMARTER BALANCED FY" + v.proficiency;
+    document.getElementById("kpi-math-src").textContent = "SOURCE · DE DOE · SMARTER BALANCED FY" + v.proficiency;
+    document.getElementById("kpi-chronic-src").textContent = "SOURCE · DE DOE · FY" + v.chronic_absenteeism;
+    document.getElementById("kpi-grad-src").textContent = "SOURCE · DE DOE · 4-YEAR COHORT FY" + v.graduation;
+    document.getElementById("dist-meta").textContent =
+      "PROFICIENCY FY" + v.proficiency + " · CHRONIC FY" + v.chronic_absenteeism + " · GRAD FY" + v.graduation;
+
+    renderTable();
+    document.getElementById("sortby").addEventListener("change", renderTable);
+
+    const asOf = (DATA.generated_at || "").slice(0, 10);
+    document.getElementById("footer-build").textContent =
+      `${DATA.districts.length} DISTRICTS/CHARTERS · PROFICIENCY FY${v.proficiency} · GRAD FY${v.graduation} · DATA AS OF ${asOf} · SOURCE: DE DOE REPORT CARD`;
+  }
+  load();
+})();
+</script>
+</body>
+</html>
