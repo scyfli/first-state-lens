@@ -294,30 +294,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.233315,
-          38.458794
-        ]
-      },
-      "properties": {
-        "name": "Family Dollar 2909",
-        "address": "38223 Dupont Blvd, Selbyville, DE, 19975",
-        "categories": [
-          "other"
-        ],
-        "sources": [
-          "snap-retailers"
-        ],
-        "external_ids": [
-          "898857"
-        ],
-        "contributor_count": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -75.222115,
           38.459988
         ]
@@ -1221,6 +1197,30 @@
         ],
         "external_ids": [
           "695765"
+        ],
+        "contributor_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2845,
+          38.570473
+        ]
+      },
+      "properties": {
+        "name": "Weis Markets 130",
+        "address": "30250 Commerce Dr, Millsboro, DE, 19966",
+        "categories": [
+          "supermarket"
+        ],
+        "sources": [
+          "snap-retailers"
+        ],
+        "external_ids": [
+          "1699935"
         ],
         "contributor_count": 1
       }
@@ -3582,30 +3582,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.595688,
-          38.736282
-        ]
-      },
-      "properties": {
-        "name": "Bridgeville Grocery Store LLC 3025001966",
-        "address": "603 S Main St, Bridgeville, DE, 19933",
-        "categories": [
-          "corner-store"
-        ],
-        "sources": [
-          "snap-retailers"
-        ],
-        "external_ids": [
-          "1541882"
-        ],
-        "contributor_count": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -75.140968,
           38.737354
         ]
@@ -4365,30 +4341,6 @@
         ],
         "external_ids": [
           "345183"
-        ],
-        "contributor_count": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.421906,
-          38.910286
-        ]
-      },
-      "properties": {
-        "name": "Country Corners Market - Milford 8",
-        "address": "508 SE 2nd St, Milford, DE, 19963",
-        "categories": [
-          "corner-store"
-        ],
-        "sources": [
-          "snap-retailers"
-        ],
-        "external_ids": [
-          "1275079"
         ],
         "contributor_count": 1
       }
@@ -6950,7 +6902,7 @@
         "name": "One Stop",
         "address": "780 Walker Rd, Dover, DE, 19904",
         "categories": [
-          "other"
+          "corner-store"
         ],
         "sources": [
           "snap-retailers"
@@ -7197,30 +7149,6 @@
         ],
         "external_ids": [
           "964090"
-        ],
-        "contributor_count": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.550224,
-          39.195923
-        ]
-      },
-      "properties": {
-        "name": "Sam's Club 6330",
-        "address": "1572 N Dupont Hwy, Dover, DE, 19901",
-        "categories": [
-          "supermarket"
-        ],
-        "sources": [
-          "snap-retailers"
-        ],
-        "external_ids": [
-          "883736"
         ],
         "contributor_count": 1
       }
@@ -7926,6 +7854,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -75.607941,
+          39.33252
+        ]
+      },
+      "properties": {
+        "name": "Huck And Buck Farm FFAB",
+        "address": "765 Smyrna Landing Rd, Smyrna, DE, 19977",
+        "categories": [
+          "other"
+        ],
+        "sources": [
+          "snap-retailers"
+        ],
+        "external_ids": [
+          "1692830"
+        ],
+        "contributor_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -75.761612,
           39.343613
         ]
@@ -8397,30 +8349,6 @@
         ],
         "external_ids": [
           "464923"
-        ],
-        "contributor_count": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.717506,
-          39.452419
-        ]
-      },
-      "properties": {
-        "name": "Family Dollar 1111",
-        "address": "301 N Broad St, Middletown, DE, 19709",
-        "categories": [
-          "other"
-        ],
-        "sources": [
-          "snap-retailers"
-        ],
-        "external_ids": [
-          "898864"
         ],
         "contributor_count": 1
       }
@@ -9750,30 +9678,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.644379,
-          39.642036
-        ]
-      },
-      "properties": {
-        "name": "La Estrella Tienda Mexicana",
-        "address": "795 Pulaski Hwy, Bear, DE, 19701",
-        "categories": [
-          "grocery-store"
-        ],
-        "sources": [
-          "snap-retailers"
-        ],
-        "external_ids": [
-          "1044755"
-        ],
-        "contributor_count": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -75.663956,
           39.642105
         ]
@@ -9789,6 +9693,30 @@
         ],
         "external_ids": [
           "1349155"
+        ],
+        "contributor_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.644722,
+          39.642273
+        ]
+      },
+      "properties": {
+        "name": "La Estrella Tienda Mexicana",
+        "address": "795 Pulaski Hwy, Bear, DE, 19701",
+        "categories": [
+          "grocery-store"
+        ],
+        "sources": [
+          "snap-retailers"
+        ],
+        "external_ids": [
+          "1044755"
         ],
         "contributor_count": 1
       }
@@ -11166,30 +11094,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.74823,
-          39.675831
-        ]
-      },
-      "properties": {
-        "name": "University of Delaware/Harrington POD Ma",
-        "address": "154 Courtney St, Newark, DE, 19717",
-        "categories": [
-          "corner-store"
-        ],
-        "sources": [
-          "snap-retailers"
-        ],
-        "external_ids": [
-          "1604261"
-        ],
-        "contributor_count": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -75.763641,
           39.675903
         ]
@@ -12414,6 +12318,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -75.707489,
+          39.698051
+        ]
+      },
+      "properties": {
+        "name": "Eagle Mediterranean Market",
+        "address": "1450 Capitol Trl, Newark, DE, 19711",
+        "categories": [
+          "grocery-store"
+        ],
+        "sources": [
+          "snap-retailers"
+        ],
+        "external_ids": [
+          "1686675"
+        ],
+        "contributor_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -75.552826,
           39.698742
         ]
@@ -12717,30 +12645,6 @@
         ],
         "external_ids": [
           "233680"
-        ],
-        "contributor_count": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.650261,
-          39.711166
-        ]
-      },
-      "properties": {
-        "name": "Walgreens 11051",
-        "address": "536 Main St, Stanton, DE, 19804",
-        "categories": [
-          "other"
-        ],
-        "sources": [
-          "snap-retailers"
-        ],
-        "external_ids": [
-          "849811"
         ],
         "contributor_count": 1
       }
@@ -13508,7 +13412,7 @@
           "snap-retailers"
         ],
         "external_ids": [
-          "864995"
+          "1697446"
         ],
         "contributor_count": 1
       }
@@ -14814,30 +14718,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.545433,
-          39.743645
-        ]
-      },
-      "properties": {
-        "name": "Brown Bag Deli & Grocery Llc",
-        "address": "301 E 9th St, Wilmington, DE, 19801",
-        "categories": [
-          "corner-store"
-        ],
-        "sources": [
-          "snap-retailers"
-        ],
-        "external_ids": [
-          "1483726"
-        ],
-        "contributor_count": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -75.536613,
           39.743645
         ]
@@ -15165,6 +15045,30 @@
         ],
         "external_ids": [
           "991322"
+        ],
+        "contributor_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.551025,
+          39.745586
+        ]
+      },
+      "properties": {
+        "name": "Geneva Deli & Grocery Llc",
+        "address": "322 West Ninth St, Wilmington, DE, 19801",
+        "categories": [
+          "corner-store"
+        ],
+        "sources": [
+          "snap-retailers"
+        ],
+        "external_ids": [
+          "1689872"
         ],
         "contributor_count": 1
       }
@@ -15549,30 +15453,6 @@
         ],
         "external_ids": [
           "1513291"
-        ],
-        "contributor_count": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.56942,
-          39.747562
-        ]
-      },
-      "properties": {
-        "name": "4th St Mini Mart Inc",
-        "address": "1644 W 4th St, Wilmington, DE, 19805",
-        "categories": [
-          "corner-store"
-        ],
-        "sources": [
-          "snap-retailers"
-        ],
-        "external_ids": [
-          "1666970"
         ],
         "contributor_count": 1
       }
