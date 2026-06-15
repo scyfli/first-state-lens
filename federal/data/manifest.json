@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-15T19:04:25Z",
+  "dashboard": "federal-dollars",
+  "fiscal_year": 2024,
+  "sources": {
+    "usaspending": {
+      "name": "USAspending.gov",
+      "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "license": "U.S. Government public domain",
+      "url": "https://www.usaspending.gov/"
+    }
+  },
+  "row_counts": {
+    "award_type_buckets": 5,
+    "top_contracts": 15,
+    "top_grants": 15,
+    "total_awards": 17988
+  }
+}

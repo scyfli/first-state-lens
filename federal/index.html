@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex, nofollow" />
+<title>Federal Dollars into Delaware — First State Lens</title>
+<meta name="description" content="What federal grants, contracts, and loans flow into Delaware — by agency, recipient, and type. Public data, sourced, nonpartisan." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/fsl.css" />
+<style>
+  /* Federal Dollars accent: cyan (federal / civic). */
+  :root { --accent-primary: var(--cyan-400); }
+</style>
+</head>
+<body class="fsl-locked">
+
+<!-- ============ Password gate (client-side soft-launch; suite-shared) ============ -->
+<div id="fsl-gate" role="dialog" aria-label="Password required" aria-modal="true">
+  <div id="fsl-gate-card">
+    <h1>First State Lens · Federal Dollars into Delaware</h1>
+    <p>This is a soft-launch preview of the FirmSide AI Civic Analytics Lab. Enter the password shared with you.</p>
+    <form id="fsl-gate-form">
+      <input type="password" id="fsl-gate-input" autocomplete="current-password" autofocus aria-label="Password" />
+      <button type="submit">Enter</button>
+      <div id="fsl-gate-error" role="alert" aria-live="polite"></div>
+    </form>
+    <div id="fsl-gate-footer">FirmSide AI · Civic Analytics Lab</div>
+  </div>
+</div>
+<script>
+(function () {
+  const HASH = "da30814cf1aeff6892250b88f97de6798faf45b0a5bb843502098cfa0adcdc06";
+  const STORAGE_KEY = "fsl-gate-2026-06";
+  const body = document.body;
+  const gate = document.getElementById("fsl-gate");
+  if (sessionStorage.getItem(STORAGE_KEY) === HASH) {
+    body.classList.remove("fsl-locked"); gate.remove(); return;
+  }
+  async function sha256(text) {
+    const buf = new TextEncoder().encode(text);
+    const digest = await crypto.subtle.digest("SHA-256", buf);
+    return Array.from(new Uint8Array(digest)).map(b => b.toString(16).padStart(2, "0")).join("");
+  }
+  const form = document.getElementById("fsl-gate-form");
+  const input = document.getElementById("fsl-gate-input");
+  const err = document.getElementById("fsl-gate-error");
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault(); err.textContent = "";
+    const hash = await sha256(input.value);
+    if (hash === HASH) { sessionStorage.setItem(STORAGE_KEY, HASH); body.classList.remove("fsl-locked"); gate.remove(); }
+    else { err.textContent = "Incorrect password."; input.value = ""; input.focus(); }
+  });
+})();
+</script>
+
+<div class="container">
+
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark">FS</div>
+      <div class="brand-text">
+        <div class="brand-name">First State Lens</div>
+        <div class="brand-tagline">Civic Analytics Lab · Delaware</div>
+      </div>
+    </div>
+    <div class="topbar-meta">
+      <div class="meta-item"><span class="pulse-dot"></span><span>LIVE DATA</span></div>
+      <div class="meta-item"><span id="meta-fy">FY—</span></div>
+    </div>
+  </header>
+
+  <main>
+  <div class="title-block">
+    <span class="title-eyebrow">Federal Spending · Delaware</span>
+    <h1 class="title-h1">Federal dollars into <span class="highlight">Delaware</span></h1>
+    <p class="title-sub">Every grant, contract, loan, and direct payment the federal government spent in Delaware in a fiscal year — by agency, recipient, and type. Pulled directly from the public USAspending.gov record.</p>
+  </div>
+
+  <p class="neutrality">
+    <strong>How to read this.</strong> These are facts from the federal government's own public spending record (USAspending.gov), shown without interpretation. Figures count money by <strong>place of performance in Delaware</strong> — work done in the state — which is different from money paid to Delaware-based organizations. Large grant figures often reflect federal-to-state pass-through programs (for example Medicaid), not discretionary awards. First State Lens adds no commentary on whether any spending is good or bad. We show you the data; you decide.
+  </p>
+
+  <!-- KPIs -->
+  <section class="kpi-grid" aria-label="Headline figures">
+    <div class="kpi-card">
+      <div class="kpi-label">Total Federal Awards</div>
+      <div class="kpi-value" id="kpi-total">—</div>
+      <div class="kpi-context">Distinct federal award actions with work performed in Delaware in the fiscal year shown.</div>
+      <div class="kpi-source" id="kpi-total-src">SOURCE · USASPENDING.GOV</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Contracts</div>
+      <div class="kpi-value" id="kpi-contracts">—</div>
+      <div class="kpi-context">Procurement awards (goods and services bought by federal agencies).</div>
+      <div class="kpi-source">SOURCE · USASPENDING.GOV · FPDS</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Grants</div>
+      <div class="kpi-value" id="kpi-grants">—</div>
+      <div class="kpi-context">Financial assistance awards, including federal-to-state pass-through programs.</div>
+      <div class="kpi-source">SOURCE · USASPENDING.GOV · FABS</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Loans + Direct Payments</div>
+      <div class="kpi-value" id="kpi-loansdp">—</div>
+      <div class="kpi-context">Loan awards plus direct payments to individuals and organizations.</div>
+      <div class="kpi-source">SOURCE · USASPENDING.GOV</div>
+    </div>
+  </section>
+
+  <!-- Award-type breakdown -->
+  <section class="section" aria-labelledby="bd-title">
+    <div class="section-head">
+      <h2 class="section-title" id="bd-title">Awards by type</h2>
+      <span class="section-meta" id="bd-meta">USASPENDING · COUNT</span>
+    </div>
+    <div class="panel">
+      <div id="bd-bars" role="img" aria-label="Bar chart of federal award counts by type for Delaware"></div>
+      <p class="kpi-source" style="margin-top:18px;">SOURCE · USASPENDING.GOV /api/v2/search/spending_by_award_count · COUNTS, NOT DOLLARS</p>
+    </div>
+  </section>
+
+  <!-- Top contracts -->
+  <section class="section" aria-labelledby="tc-title">
+    <div class="section-head">
+      <h2 class="section-title" id="tc-title">Largest contracts</h2>
+      <span class="section-meta">BY AWARD AMOUNT · DE PLACE OF PERFORMANCE</span>
+    </div>
+    <div class="panel">
+      <table class="data-table">
+        <caption>Top federal contracts with work performed in Delaware, by award amount.</caption>
+        <thead><tr><th scope="col">Recipient</th><th scope="col">Awarding agency</th><th scope="col" class="num">Award amount</th></tr></thead>
+        <tbody id="tc-body"><tr><td colspan="3">Loading…</td></tr></tbody>
+      </table>
+      <p class="kpi-source" style="margin-top:16px;">SOURCE · USASPENDING.GOV /api/v2/search/spending_by_award</p>
+    </div>
+  </section>
+
+  <!-- Top grants -->
+  <section class="section" aria-labelledby="tg-title">
+    <div class="section-head">
+      <h2 class="section-title" id="tg-title">Largest grants</h2>
+      <span class="section-meta">BY AWARD AMOUNT · DE PLACE OF PERFORMANCE</span>
+    </div>
+    <div class="panel">
+      <table class="data-table">
+        <caption>Top federal grants and financial-assistance awards in Delaware, by award amount. Large values often reflect federal-to-state pass-through programs.</caption>
+        <thead><tr><th scope="col">Recipient</th><th scope="col">Awarding agency</th><th scope="col" class="num">Award amount</th></tr></thead>
+        <tbody id="tg-body"><tr><td colspan="3">Loading…</td></tr></tbody>
+      </table>
+      <p class="kpi-source" style="margin-top:16px;">SOURCE · USASPENDING.GOV /api/v2/search/spending_by_award</p>
+    </div>
+  </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-build" id="footer-build">DATA: not yet loaded</div>
+    <div class="footer-links">
+      <a href="https://www.usaspending.gov/">USAspending.gov (primary source)</a>
+      <a href="/">First State Lens home</a>
+    </div>
+    <div>First State Lens is a FirmSide AI Civic Analytics Lab project. Nonpartisan. Every figure links to its public source. We show you the data; you decide.</div>
+  </footer>
+
+</div>
+
+<script>
+(function () {
+  const fmtInt = (n) => Number(n).toLocaleString("en-US");
+  const fmtUSD = (n) => "$" + Math.round(Number(n)).toLocaleString("en-US");
+  const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+  async function load() {
+    let d;
+    try {
+      const r = await fetch("./data/federal-summary.json", { cache: "no-cache" });
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      d = await r.json();
+    } catch (e) {
+      document.getElementById("footer-build").textContent = "DATA: unavailable (" + e.message + ")";
+      return;
+    }
+
+    const fy = d.fiscal_year;
+    document.getElementById("meta-fy").textContent = "FY" + fy;
+    document.getElementById("bd-meta").textContent = "USASPENDING · FY" + fy + " · COUNT";
+
+    const c = d.counts || {};
+    document.getElementById("kpi-total").textContent = fmtInt(d.total_awards);
+    document.getElementById("kpi-contracts").textContent = fmtInt(c.contracts || 0);
+    document.getElementById("kpi-grants").textContent = fmtInt(c.grants || 0);
+    document.getElementById("kpi-loansdp").textContent = fmtInt((c.loans || 0) + (c.direct_payments || 0));
+    document.getElementById("kpi-total-src").textContent = "SOURCE · USASPENDING.GOV · FY" + fy;
+
+    // Award-type bars (accessible: each row states its own value).
+    const buckets = [
+      ["Contracts", c.contracts || 0],
+      ["Grants", c.grants || 0],
+      ["Direct payments", c.direct_payments || 0],
+      ["Loans", c.loans || 0],
+      ["Other", c.other || 0],
+    ];
+    const max = Math.max(1, ...buckets.map((b) => b[1]));
+    document.getElementById("bd-bars").innerHTML = buckets.map(([label, val]) =>
+      `<div class="bar-row">
+         <span class="bar-label">${esc(label)}</span>
+         <span class="bar-track"><span class="bar-fill" style="width:${(val / max * 100).toFixed(1)}%"></span></span>
+         <span class="bar-value">${fmtInt(val)}</span>
+       </div>`).join("");
+
+    const rowsHtml = (arr) => arr.length
+      ? arr.map((r) => `<tr><td><strong>${esc(r.recipient)}</strong></td><td>${esc(r.agency)}</td><td class="num">${fmtUSD(r.amount)}</td></tr>`).join("")
+      : `<tr><td colspan="3">No records.</td></tr>`;
+    document.getElementById("tc-body").innerHTML = rowsHtml(d.top_contracts || []);
+    document.getElementById("tg-body").innerHTML = rowsHtml(d.top_grants || []);
+
+    const asOf = (d.generated_at || "").slice(0, 10);
+    document.getElementById("footer-build").textContent =
+      `FY${fy} · ${fmtInt(d.total_awards)} AWARDS · DATA AS OF ${asOf} · SOURCE: USASPENDING.GOV`;
+  }
+  load();
+})();
+</script>
+</body>
+</html>

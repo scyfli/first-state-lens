@@ -21,7 +21,7 @@ try { puppeteer = require('puppeteer'); } catch (_) { puppeteer = require('puppe
 const { AxePuppeteer } = require('@axe-core/puppeteer');
 
 const ROOT = path.resolve(__dirname, '..');
-const ROUTES = ['/', '/clean-slate/', '/dgi-food-access/'];
+const ROUTES = ['/', '/clean-slate/', '/dgi-food-access/', '/federal/'];
 const WCAG_TAGS = ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'wcag22aa'];
 const FAIL_IMPACTS = new Set(['serious', 'critical']);
 const MIME = { '.html': 'text/html', '.json': 'application/json', '.geojson': 'application/json', '.csv': 'text/csv', '.js': 'text/javascript', '.css': 'text/css', '.png': 'image/png', '.svg': 'image/svg+xml' };

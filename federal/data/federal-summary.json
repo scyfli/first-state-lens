@@ -1,0 +1,205 @@
+{
+  "generated_at": "2026-06-15T19:04:25Z",
+  "fiscal_year": 2024,
+  "scope": "place_of_performance=DE",
+  "scope_note": "Money spent in Delaware (place of performance), not money to Delaware-based recipients.",
+  "counts": {
+    "contracts": 10926,
+    "grants": 2821,
+    "direct_payments": 2604,
+    "loans": 892,
+    "idvs": 0,
+    "other": 745
+  },
+  "total_awards": 17988,
+  "top_contracts": [
+    {
+      "recipient": "CAESAR RODNEY SCHOOL DISTRICT",
+      "amount": 53322238.61,
+      "agency": "Department of Defense",
+      "type": "\u2014"
+    },
+    {
+      "recipient": "DOBCO INC",
+      "amount": 50038455.02,
+      "agency": "Department of Defense",
+      "type": "\u2014"
+    },
+    {
+      "recipient": "J D ECKMAN INC",
+      "amount": 46457531.16,
+      "agency": "Department of Defense",
+      "type": "\u2014"
+    },
+    {
+      "recipient": "ROSHEL LLC",
+      "amount": 39511157.4,
+      "agency": "Department of State",
+      "type": "\u2014"
+    },
+    {
+      "recipient": "EDUCATION & TRAINING RESOURCES LLC",
+      "amount": 34205475.72,
+      "agency": "Department of Labor",
+      "type": "\u2014"
+    },
+    {
+      "recipient": "CORBALT, LLC",
+      "amount": 29429307.58,
+      "agency": "Department of Health and Human Services",
+      "type": "\u2014"
+    },
+    {
+      "recipient": "WEEKS MARINE, INC.",
+      "amount": 27177678.08,
+      "agency": "Department of Defense",
+      "type": "\u2014"
+    },
+    {
+      "recipient": "MANAGEMENT & TRAINING CORPORATION",
+      "amount": 24276910.0,
+      "agency": "Department of Labor",
+      "type": "\u2014"
+    },
+    {
+      "recipient": "ILC ASTROSPACE LLC",
+      "amount": 22238358.0,
+      "agency": "Department of Homeland Security",
+      "type": "\u2014"
+    },
+    {
+      "recipient": "WESTON SOLUTIONS INC",
+      "amount": 18374704.44,
+      "agency": "Department of Defense",
+      "type": "\u2014"
+    },
+    {
+      "recipient": "HERMAN/JCG CO JV",
+      "amount": 17730490.68,
+      "agency": "Department of Defense",
+      "type": "\u2014"
+    },
+    {
+      "recipient": "SNA INTERNATIONAL LLC",
+      "amount": 17353983.87,
+      "agency": "Department of Defense",
+      "type": "\u2014"
+    },
+    {
+      "recipient": "MANAGEMENT & TRAINING CORPORATION",
+      "amount": 16951239.25,
+      "agency": "Department of Labor",
+      "type": "\u2014"
+    },
+    {
+      "recipient": "CMS CORPORATION",
+      "amount": 16346210.0,
+      "agency": "Department of Defense",
+      "type": "\u2014"
+    },
+    {
+      "recipient": "DAWSON ENTERPRISES, LLC",
+      "amount": 15930859.4,
+      "agency": "Department of Defense",
+      "type": "\u2014"
+    }
+  ],
+  "top_grants": [
+    {
+      "recipient": "HEALTH AND SOCIAL SERVICES, DELAWARE DEPT OF",
+      "amount": 2404154172.0,
+      "agency": "Department of Health and Human Services",
+      "type": "BLOCK GRANT (A)"
+    },
+    {
+      "recipient": "HEALTH AND SOCIAL SERVICES, DELAWARE DEPT OF",
+      "amount": 2254575202.0,
+      "agency": "Department of Health and Human Services",
+      "type": "BLOCK GRANT (A)"
+    },
+    {
+      "recipient": "HEALTH AND SOCIAL SERVICES, DELAWARE DEPT OF",
+      "amount": 2142929662.0,
+      "agency": "Department of Health and Human Services",
+      "type": "BLOCK GRANT (A)"
+    },
+    {
+      "recipient": "HEALTH AND SOCIAL SERVICES, DELAWARE DEPT OF",
+      "amount": 1667356100.0,
+      "agency": "Department of Health and Human Services",
+      "type": "BLOCK GRANT (A)"
+    },
+    {
+      "recipient": "DEPARTMENT OF SAFETY & HOMELAND SECURITY",
+      "amount": 283863133.43,
+      "agency": "Department of Homeland Security",
+      "type": "PROJECT GRANT (B)"
+    },
+    {
+      "recipient": "HEALTH AND SOCIAL SERVICES, DEPARTMENT OF",
+      "amount": 256376775.0,
+      "agency": "Department of Health and Human Services",
+      "type": "PROJECT GRANT (B)"
+    },
+    {
+      "recipient": "EXECUTIVE OFFICE OF THE GOVERNOR OF DELAWARE",
+      "amount": 195493770.69,
+      "agency": "Department of Health and Human Services",
+      "type": "COOPERATIVE AGREEMENT (B)"
+    },
+    {
+      "recipient": "TRANSPORTATION, DELAWARE DEPARTMENT OF",
+      "amount": 139481198.79,
+      "agency": "Department of Transportation",
+      "type": "FORMULA GRANT (A)"
+    },
+    {
+      "recipient": "STATE OF DELAWARE - DEPARTMENT OF TECHNOLOGY AND INFORMATION",
+      "amount": 107748384.7,
+      "agency": "Department of Commerce",
+      "type": "PROJECT GRANT (B)"
+    },
+    {
+      "recipient": "DEPARTMENT OF EDUCATION DELAWARE",
+      "amount": 101210193.37,
+      "agency": "Department of Agriculture",
+      "type": "FORMULA GRANT (A)"
+    },
+    {
+      "recipient": "DELAWARE VETERANS HOME",
+      "amount": 92942322.82,
+      "agency": "Department of Veterans Affairs",
+      "type": "FORMULA GRANT (A)"
+    },
+    {
+      "recipient": "HEALTH AND SOCIAL SERVICES, DELAWARE DEPT OF",
+      "amount": 91147398.0,
+      "agency": "Department of Health and Human Services",
+      "type": "BLOCK GRANT (A)"
+    },
+    {
+      "recipient": "UNIVERSITY OF DELAWARE",
+      "amount": 83000000.0,
+      "agency": "Department of Commerce",
+      "type": "COOPERATIVE AGREEMENT (B)"
+    },
+    {
+      "recipient": "HEALTH AND SOCIAL SERVICES, DELAWARE DEPT OF",
+      "amount": 80746514.0,
+      "agency": "Department of Health and Human Services",
+      "type": "BLOCK GRANT (A)"
+    },
+    {
+      "recipient": "DEPARTMENT OF EDUCATION DELAWARE",
+      "amount": 77785200.44,
+      "agency": "Department of Agriculture",
+      "type": "FORMULA GRANT (A)"
+    }
+  ],
+  "source": {
+    "name": "USAspending.gov",
+    "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+    "license": "U.S. Government public domain",
+    "url": "https://www.usaspending.gov/"
+  }
+}
