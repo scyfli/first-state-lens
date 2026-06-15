@@ -4,7 +4,7 @@ task: Reframe FSL as a public civic-data utility and build an 8-dashboard citize
 slug: fsl-civic-suite
 effort: E5
 phase: build
-progress: 28/120
+progress: 33/120
 mode: build
 started: 2026-06-15
 updated: 2026-06-15
@@ -147,10 +147,10 @@ proven repeatable for Waves 2 and 3.
 - [ ] ISC-31: deploy-verify childcare/ route 200 behind gate.
 
 **State Spending (SP):**
-- [ ] ISC-32: etl/sources/de_checkbook.py pulls/aggregates 7bip-nb4g by department/vendor/category via SoQL $group (no full 14M pull).
-- [ ] ISC-33: amounts cast from string to numeric.
-- [ ] ISC-34: spending/index.html renders spend-by-agency + top-vendor views with source + "as of" stamp.
-- [ ] ISC-35: deploy-verify spending/ route 200 behind gate.
+- [x] ISC-32: etl/sources/de_checkbook.py aggregates dataset 5s6n-7hpx (has `category`) by department/category/vendor via SoQL $group server-side (no row pull). Verified: FY2025 $16.9B / 1.55M txns.
+- [x] ISC-33: amounts cast string→float in puller (_f helper); defaults to latest COMPLETE DE fiscal year (FY ends June 30) so a partial year is never headlined as complete.
+- [x] ISC-34: spending/index.html renders dept + category bars + top-vendor table + KPIs, neutrality header (disbursements-not-budget + Medicaid pass-through caveat), per-block source tags, "data as of" stamp. Verified via HTTP serve.
+- [DEFERRED-VERIFY] ISC-35: spending/ route 200 — verified local HTTP serve (page+data 200, render targets present); production deploy = git push; a11y registered in ROUTES, runs in CI.
 
 **Federal Dollars (FD):**
 - [x] ISC-36: etl/sources/usaspending_de.py pulls DE place-of-performance awards (type counts + top-15 contracts + top-15 grants by amount), silent-zero guarded. Verified live: 17,988 FY2024 awards.

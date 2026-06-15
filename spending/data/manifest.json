@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-06-15T19:11:46Z",
+  "dashboard": "state-spending",
+  "fiscal_year": 2025,
+  "sources": {
+    "de_checkbook": {
+      "name": "Delaware Online Checkbook (data.delaware.gov)",
+      "dataset": "5s6n-7hpx",
+      "endpoint": "https://data.delaware.gov/resource/5s6n-7hpx.json",
+      "license": "Delaware Open Data Portal \u2014 open data",
+      "url": "https://data.delaware.gov/Government-and-Finance/State-of-Delaware-Checkbook/5s6n-7hpx",
+      "note": "Actual disbursements (checks written), not budgeted/appropriated amounts."
+    }
+  },
+  "row_counts": {
+    "departments": 15,
+    "categories": 12,
+    "vendors": 20,
+    "total_spend": 16926311878.57,
+    "transactions": 1554130
+  }
+}

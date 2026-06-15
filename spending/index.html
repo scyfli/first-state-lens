@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex, nofollow" />
+<title>Where Delaware's Money Goes — State Spending — First State Lens</title>
+<meta name="description" content="What Delaware state government spends, by department, category, and vendor. Actual disbursements from the public Online Checkbook. Sourced, nonpartisan." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/fsl.css" />
+<style>
+  /* State Spending accent: amber (money / budget). */
+  :root { --accent-primary: var(--amber-400); }
+  .title-eyebrow { color: var(--amber-400); border-color: rgba(251,191,36,0.25); background: rgba(251,191,36,0.05); }
+  .title-eyebrow::before { background: var(--amber-400); box-shadow: 0 0 6px var(--amber-400); }
+  .neutrality { border-left-color: var(--amber-400); }
+  .bar-fill { background: linear-gradient(90deg, var(--amber-400), var(--amber-500)); }
+  #fsl-gate-form button { background: var(--amber-400); }
+</style>
+</head>
+<body class="fsl-locked">
+
+<div id="fsl-gate" role="dialog" aria-label="Password required" aria-modal="true">
+  <div id="fsl-gate-card">
+    <h1>First State Lens · Where Delaware's Money Goes</h1>
+    <p>This is a soft-launch preview of the FirmSide AI Civic Analytics Lab. Enter the password shared with you.</p>
+    <form id="fsl-gate-form">
+      <input type="password" id="fsl-gate-input" autocomplete="current-password" autofocus aria-label="Password" />
+      <button type="submit">Enter</button>
+      <div id="fsl-gate-error" role="alert" aria-live="polite"></div>
+    </form>
+    <div id="fsl-gate-footer">FirmSide AI · Civic Analytics Lab</div>
+  </div>
+</div>
+<script>
+(function () {
+  const HASH = "da30814cf1aeff6892250b88f97de6798faf45b0a5bb843502098cfa0adcdc06";
+  const STORAGE_KEY = "fsl-gate-2026-06";
+  const body = document.body;
+  const gate = document.getElementById("fsl-gate");
+  if (sessionStorage.getItem(STORAGE_KEY) === HASH) { body.classList.remove("fsl-locked"); gate.remove(); return; }
+  async function sha256(text) {
+    const buf = new TextEncoder().encode(text);
+    const digest = await crypto.subtle.digest("SHA-256", buf);
+    return Array.from(new Uint8Array(digest)).map(b => b.toString(16).padStart(2, "0")).join("");
+  }
+  const form = document.getElementById("fsl-gate-form");
+  const input = document.getElementById("fsl-gate-input");
+  const err = document.getElementById("fsl-gate-error");
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault(); err.textContent = "";
+    const hash = await sha256(input.value);
+    if (hash === HASH) { sessionStorage.setItem(STORAGE_KEY, HASH); body.classList.remove("fsl-locked"); gate.remove(); }
+    else { err.textContent = "Incorrect password."; input.value = ""; input.focus(); }
+  });
+})();
+</script>
+
+<div class="container">
+
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark">FS</div>
+      <div class="brand-text">
+        <div class="brand-name">First State Lens</div>
+        <div class="brand-tagline">Civic Analytics Lab · Delaware</div>
+      </div>
+    </div>
+    <div class="topbar-meta">
+      <div class="meta-item"><span class="pulse-dot"></span><span>LIVE DATA</span></div>
+      <div class="meta-item"><span id="meta-fy">FY—</span></div>
+    </div>
+  </header>
+
+  <main>
+  <div class="title-block">
+    <span class="title-eyebrow">State Spending · Delaware</span>
+    <h1 class="title-h1">Where Delaware's <span class="highlight">money</span> goes</h1>
+    <p class="title-sub">Every dollar the State of Delaware actually paid out in a fiscal year — by department, by category, and to which vendors. Pulled directly from the state's public Online Checkbook.</p>
+  </div>
+
+  <p class="neutrality">
+    <strong>How to read this.</strong> These are <strong>actual disbursements</strong> — checks the state wrote — taken from Delaware's own public Online Checkbook, shown without interpretation. They are not the budgeted or appropriated amounts (that side is published only as PDFs by the Office of Management and Budget). Large totals are often federal-to-state pass-through programs: most of the Department of Health and Social Services figure, for example, is Medicaid, administered through vendors like Gainwell Technologies. First State Lens adds no opinion on whether any spending is right or wrong. We show you the data; you decide.
+  </p>
+
+  <section class="kpi-grid" aria-label="Headline figures">
+    <div class="kpi-card">
+      <div class="kpi-label">Total State Spending</div>
+      <div class="kpi-value" id="kpi-total">—</div>
+      <div class="kpi-context">All funds disbursed in the most recent complete fiscal year, across every state department.</div>
+      <div class="kpi-source" id="kpi-total-src">SOURCE · DE ONLINE CHECKBOOK</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Transactions</div>
+      <div class="kpi-value" id="kpi-txns">—</div>
+      <div class="kpi-context">Individual payments (checks and electronic disbursements) recorded for the year.</div>
+      <div class="kpi-source">SOURCE · DE ONLINE CHECKBOOK</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Largest Department</div>
+      <div class="kpi-value" id="kpi-dept" style="font-size:20px;">—</div>
+      <div class="kpi-context" id="kpi-dept-ctx">—</div>
+      <div class="kpi-source">SOURCE · DE ONLINE CHECKBOOK</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Largest Category</div>
+      <div class="kpi-value" id="kpi-cat" style="font-size:20px;">—</div>
+      <div class="kpi-context" id="kpi-cat-ctx">—</div>
+      <div class="kpi-source">SOURCE · DE ONLINE CHECKBOOK</div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="dept-title">
+    <div class="section-head">
+      <h2 class="section-title" id="dept-title">Spending by department</h2>
+      <span class="section-meta" id="dept-meta">DE CHECKBOOK · TOTAL $</span>
+    </div>
+    <div class="panel">
+      <div id="dept-bars" role="img" aria-label="Bar chart of Delaware state spending by department"></div>
+      <p class="kpi-source" style="margin-top:18px;">SOURCE · DATA.DELAWARE.GOV/5s6n-7hpx · SUM(AMOUNT) BY DEPARTMENT</p>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="cat-title">
+    <div class="section-head">
+      <h2 class="section-title" id="cat-title">Spending by category</h2>
+      <span class="section-meta">DE CHECKBOOK · TOTAL $</span>
+    </div>
+    <div class="panel">
+      <div id="cat-bars" role="img" aria-label="Bar chart of Delaware state spending by category"></div>
+      <p class="kpi-source" style="margin-top:18px;">SOURCE · DATA.DELAWARE.GOV/5s6n-7hpx · SUM(AMOUNT) BY CATEGORY</p>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="vend-title">
+    <div class="section-head">
+      <h2 class="section-title" id="vend-title">Largest vendors</h2>
+      <span class="section-meta">BY TOTAL PAID · FISCAL YEAR</span>
+    </div>
+    <div class="panel">
+      <table class="data-table">
+        <caption>Vendors paid the most by the State of Delaware in the fiscal year. Vendor totals can include benefit-program administrators and pass-through payees.</caption>
+        <thead><tr><th scope="col">Vendor</th><th scope="col" class="num">Payments</th><th scope="col" class="num">Total paid</th></tr></thead>
+        <tbody id="vend-body"><tr><td colspan="3">Loading…</td></tr></tbody>
+      </table>
+      <p class="kpi-source" style="margin-top:16px;">SOURCE · DATA.DELAWARE.GOV/5s6n-7hpx · SUM(AMOUNT) BY VENDOR</p>
+    </div>
+  </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-build" id="footer-build">DATA: not yet loaded</div>
+    <div class="footer-links">
+      <a href="https://data.delaware.gov/Government-and-Finance/State-of-Delaware-Checkbook/5s6n-7hpx">Delaware Online Checkbook (primary source)</a>
+      <a href="/">First State Lens home</a>
+    </div>
+    <div>First State Lens is a FirmSide AI Civic Analytics Lab project. Nonpartisan. Every figure links to its public source. We show you the data; you decide.</div>
+  </footer>
+
+</div>
+
+<script>
+(function () {
+  const fmtInt = (n) => Number(n).toLocaleString("en-US");
+  const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const fmtUSD = (n) => "$" + Math.round(Number(n)).toLocaleString("en-US");
+  const fmtShort = (n) => {
+    n = Number(n);
+    if (n >= 1e9) return "$" + (n / 1e9).toFixed(2) + "B";
+    if (n >= 1e6) return "$" + (n / 1e6).toFixed(1) + "M";
+    if (n >= 1e3) return "$" + (n / 1e3).toFixed(0) + "K";
+    return "$" + n.toFixed(0);
+  };
+
+  const bars = (el, arr) => {
+    const max = Math.max(1, ...arr.map((r) => r.total));
+    document.getElementById(el).innerHTML = arr.map((r) =>
+      `<div class="bar-row">
+         <span class="bar-label">${esc(r.label)}</span>
+         <span class="bar-track"><span class="bar-fill" style="width:${(r.total / max * 100).toFixed(1)}%"></span></span>
+         <span class="bar-value">${fmtShort(r.total)}</span>
+       </div>`).join("");
+  };
+
+  async function load() {
+    let d;
+    try {
+      const r = await fetch("./data/spending-summary.json", { cache: "no-cache" });
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      d = await r.json();
+    } catch (e) {
+      document.getElementById("footer-build").textContent = "DATA: unavailable (" + e.message + ")";
+      return;
+    }
+
+    const fy = d.fiscal_year;
+    document.getElementById("meta-fy").textContent = "FY" + fy;
+    document.getElementById("dept-meta").textContent = "DE CHECKBOOK · FY" + fy + " · TOTAL $";
+    document.getElementById("kpi-total").textContent = fmtShort(d.total_spend);
+    document.getElementById("kpi-total-src").textContent = "SOURCE · DE ONLINE CHECKBOOK · FY" + fy;
+    document.getElementById("kpi-txns").textContent = fmtInt(d.transaction_count);
+
+    if (d.by_department[0]) {
+      document.getElementById("kpi-dept").textContent = d.by_department[0].label;
+      document.getElementById("kpi-dept-ctx").textContent = fmtShort(d.by_department[0].total) + " disbursed in FY" + fy + ".";
+    }
+    if (d.by_category[0]) {
+      document.getElementById("kpi-cat").textContent = d.by_category[0].label;
+      document.getElementById("kpi-cat-ctx").textContent = fmtShort(d.by_category[0].total) + " in FY" + fy + ".";
+    }
+
+    bars("dept-bars", d.by_department);
+    bars("cat-bars", d.by_category);
+
+    document.getElementById("vend-body").innerHTML = (d.by_vendor || []).length
+      ? d.by_vendor.map((r) => `<tr><td><strong>${esc(r.label)}</strong></td><td class="num">${fmtInt(r.count)}</td><td class="num">${fmtUSD(r.total)}</td></tr>`).join("")
+      : `<tr><td colspan="3">No records.</td></tr>`;
+
+    const asOf = (d.generated_at || "").slice(0, 10);
+    document.getElementById("footer-build").textContent =
+      `FY${fy} · ${fmtShort(d.total_spend)} · ${fmtInt(d.transaction_count)} TXNS · DATA AS OF ${asOf} · SOURCE: DE ONLINE CHECKBOOK`;
+  }
+  load();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,255 @@
+{
+  "generated_at": "2026-06-15T19:11:46Z",
+  "fiscal_year": 2025,
+  "total_spend": 16926311878.57,
+  "transaction_count": 1554130,
+  "by_department": [
+    {
+      "label": "DEPT OF HEALTH & SOCIAL SVS",
+      "total": 4477077415.09,
+      "count": 188323
+    },
+    {
+      "label": "DEPT OF EDUCATION",
+      "total": 3919786232.62,
+      "count": 679784
+    },
+    {
+      "label": "DEPARTMENT OF HUMAN RESOURCES",
+      "total": 1687882554.59,
+      "count": 12078
+    },
+    {
+      "label": "EXECUTIVE",
+      "total": 1571857285.49,
+      "count": 43751
+    },
+    {
+      "label": "DEPT OF TRANSPORTATION",
+      "total": 1117471605.74,
+      "count": 77597
+    },
+    {
+      "label": "HIGHER EDUCATION",
+      "total": 633809607.77,
+      "count": 73330
+    },
+    {
+      "label": "DEPT OF CORRECTIONS",
+      "total": 490552921.46,
+      "count": 40458
+    },
+    {
+      "label": "DEPT OF FINANCE",
+      "total": 482512603.84,
+      "count": 8586
+    },
+    {
+      "label": "OTHER ELECTIVE OFFICES",
+      "total": 390977210.22,
+      "count": 15603
+    },
+    {
+      "label": "DEPT OF STATE",
+      "total": 362442995.86,
+      "count": 30553
+    },
+    {
+      "label": "DEPT OF NATRL RES AND ENV CONT",
+      "total": 359678766.93,
+      "count": 86429
+    },
+    {
+      "label": "DEPT OF SAFETY & HOMELAND SEC",
+      "total": 330340480.36,
+      "count": 43217
+    },
+    {
+      "label": "SVS FR CHILDREN,YOUTH,FAMILIES",
+      "total": 231149710.16,
+      "count": 41930
+    },
+    {
+      "label": "JUDICIAL",
+      "total": 170710704.19,
+      "count": 56117
+    },
+    {
+      "label": "DEPT OF TECHNOLOGY & INFORMATI",
+      "total": 139723992.12,
+      "count": 10738
+    }
+  ],
+  "by_category": [
+    {
+      "label": "MEDFAC EXPENSES",
+      "total": 3059866197.59,
+      "count": 1030
+    },
+    {
+      "label": "MEDICAL - EMPLOYER",
+      "total": 1546446941.86,
+      "count": 858
+    },
+    {
+      "label": "SALARIES/WAGES-EMPLOYEES",
+      "total": 1029462794.82,
+      "count": 22066
+    },
+    {
+      "label": "TEACHERS",
+      "total": 822343261.68,
+      "count": 8173
+    },
+    {
+      "label": "PENSIONS/EMPLOYER'S SHARE",
+      "total": 818318576.49,
+      "count": 38449
+    },
+    {
+      "label": "INVESTMENTS",
+      "total": 797176635.78,
+      "count": 145
+    },
+    {
+      "label": "HEALTH INS/EMPLOYERS' SH",
+      "total": 732487773.3,
+      "count": 30995
+    },
+    {
+      "label": "GRANTS",
+      "total": 592908163.0,
+      "count": 2155
+    },
+    {
+      "label": "OTHER PROFESSIONAL SERVICE",
+      "total": 492886328.43,
+      "count": 20281
+    },
+    {
+      "label": "HGWY/BRIDGE RECONSTR",
+      "total": 358438834.58,
+      "count": 1032
+    },
+    {
+      "label": "GRANTS IN AID",
+      "total": 293262542.93,
+      "count": 3428
+    },
+    {
+      "label": "CONSULTANTS",
+      "total": 277281998.39,
+      "count": 19938
+    }
+  ],
+  "by_vendor": [
+    {
+      "label": "GAINWELL TECHNOLOGIES LLC",
+      "total": 3270263365.51,
+      "count": 1757
+    },
+    {
+      "label": "EMPLOYEE COMPENSATION",
+      "total": 3023556809.72,
+      "count": 132650
+    },
+    {
+      "label": "OTHER EMPLOYMENT COSTS BENEFITS",
+      "total": 1842484274.47,
+      "count": 272825
+    },
+    {
+      "label": "NORTHERN TRUST COMPANY",
+      "total": 797148363.29,
+      "count": 133
+    },
+    {
+      "label": "HIGHMARK HEALTH SERVICES",
+      "total": 770531451.14,
+      "count": 68
+    },
+    {
+      "label": "CVS PHARMACY INC",
+      "total": 289197839.87,
+      "count": 113
+    },
+    {
+      "label": "UNIVERSITY OF DELAWARE",
+      "total": 240267302.35,
+      "count": 2148
+    },
+    {
+      "label": "SILVERSCRIPT INSURANCE COMPANY",
+      "total": 223573374.11,
+      "count": 36
+    },
+    {
+      "label": "DIAMOND STATE PORT CORPORATION",
+      "total": 200113951.75,
+      "count": 4
+    },
+    {
+      "label": "AETNA",
+      "total": 190790224.19,
+      "count": 86
+    },
+    {
+      "label": "DELAWARE TRANSIT CORP",
+      "total": 151401074.39,
+      "count": 1051
+    },
+    {
+      "label": "DHSS CHILD CARE DIRECT DEPOSIT ACCOUNT",
+      "total": 128072573.97,
+      "count": 2301
+    },
+    {
+      "label": "DIVISION OF STATEWIDE BENEFITS",
+      "total": 106014112.48,
+      "count": 560
+    },
+    {
+      "label": "SETTLEMENT PAYMENT",
+      "total": 103947801.12,
+      "count": 36
+    },
+    {
+      "label": "WAGMAN HEAVY CIVIL INC",
+      "total": 97443510.59,
+      "count": 23
+    },
+    {
+      "label": "CITY OF WILMINGTON",
+      "total": 88637803.64,
+      "count": 1884
+    },
+    {
+      "label": "DIV OF ACCOUNTING",
+      "total": 86425963.03,
+      "count": 196936
+    },
+    {
+      "label": "VOYA RET INS & ANNUITY",
+      "total": 83891871.21,
+      "count": 53
+    },
+    {
+      "label": "VITALCORE HEALTH STRATEGIES LLC",
+      "total": 63144779.15,
+      "count": 31
+    },
+    {
+      "label": "DELAWARE STATE HOUSING AUTHORITY",
+      "total": 62889846.21,
+      "count": 88
+    }
+  ],
+  "source": {
+    "name": "Delaware Online Checkbook (data.delaware.gov)",
+    "dataset": "5s6n-7hpx",
+    "endpoint": "https://data.delaware.gov/resource/5s6n-7hpx.json",
+    "license": "Delaware Open Data Portal \u2014 open data",
+    "url": "https://data.delaware.gov/Government-and-Finance/State-of-Delaware-Checkbook/5s6n-7hpx",
+    "note": "Actual disbursements (checks written), not budgeted/appropriated amounts."
+  }
+}
