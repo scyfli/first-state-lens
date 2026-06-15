@@ -246,6 +246,21 @@ proven repeatable for Waves 2 and 3.
   (show "N of M"); (3) join VIOLATION→WATER_SYSTEM on pwsid for system names; (4) lead-line
   layer = system-level only, link out to per-utility ArcGIS maps. Build Water as a careful
   next step, not a rushed clone.
+- 2026-06-15 D13 (Schools groundwork, probed live this turn — built next):
+  data.delaware.gov Socrata, keyless: assessment `ms6b-mt82` (max year 2025), attendance
+  `crb4-kdc7` (2025), graduation `t7e6-zcnn` (max year 2023 — lags two years; label each
+  metric's vintage, never imply same year). Accuracy gates: (1) numeric fields
+  (`pctproficient` etc.) are ABSENT on `rowstatus='REDACTED'` rows — MUST filter
+  `rowstatus='REPORTED'` or the pipeline ingests nulls (silent-corrupt); (2) `geography` is
+  NOT a level indicator (always 'All Students'); `subgroup='All Students'` gives the
+  all-students total but BOTH school and district rows carry it, so isolate district totals
+  via the schoolcode/organization pattern before building (probe `district==organization`
+  or a district-total schoolcode); (3) per-pupil: Urban CCD finance returned 0 DE districts
+  for 2021 — try another year or NCES F-33; per-pupil is a v1.1 add, not a launch blocker.
+- 2026-06-15 D14 (keys received): Mark provided Census (used — Childcare live), Plural/Open
+  States, and data.gov/FEC keys via a Desktop file. Census threaded into the childcare
+  puller. Plural + FEC are Wave 2 (Votes, federal campaign finance). The keys file is on the
+  Desktop — reminded Mark to delete it once Wave 1 verifies. No key is committed to git.
 
 ## Changelog
 
