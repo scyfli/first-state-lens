@@ -9,6 +9,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.min.js"></script>
 <!--
   DGI Food Access Tracker · scaffold v0.1.0
   Methodology v0.2.0 (definition-locked; see methodology.firststatelens.com when published)
@@ -845,32 +847,168 @@
     </div>
   </section>
 
-  <!-- ============ Map placeholder ============ -->
+  <!-- ============ Tract-Level Deployment Map (v1.0 — MapLibre + static GeoJSON) ============ -->
+  <style>
+    .fsl-sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+      overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+    #fsl-map { position: relative; width: 100%; height: 540px; border-radius: 12px; overflow: hidden;
+      border: 1px solid rgba(148,163,184,0.12); background: #0b1120; }
+    #fsl-map .maplibregl-popup-content { background: rgba(2,6,23,0.96); color: rgba(248,250,252,0.95);
+      border: 1px solid rgba(148,163,184,0.22); border-radius: 8px; padding: 10px 12px;
+      font: 12px/1.55 'Inter', system-ui, sans-serif; }
+    #fsl-map .maplibregl-popup-content strong { color: #34d399; font-weight: 600; }
+    #fsl-map .maplibregl-popup-tip { display: none; }
+    .map-legend { display: flex; flex-wrap: wrap; gap: 8px 18px; margin-top: 14px; }
+    .map-legend label { display: inline-flex; align-items: center; gap: 7px; cursor: pointer;
+      font: 500 12px/1 'Inter', system-ui, sans-serif; color: var(--text-secondary); user-select: none; }
+    .map-legend input { accent-color: #34d399; width: 14px; height: 14px; }
+    .map-legend .swatch { width: 12px; height: 12px; border-radius: 3px; display: inline-block; flex: none; }
+    .map-note { margin-top: 10px; font: 11px/1.5 'JetBrains Mono', monospace; color: rgba(100,116,139,0.85); }
+  </style>
   <section class="section">
     <div class="section-header">
       <div class="section-title">Tract-Level Deployment Map</div>
-      <div class="section-meta">Renders at v1.0 · MapLibre + GeoJSON</div>
+      <div class="section-meta">Live · MapLibre + static GeoJSON</div>
     </div>
-    <div class="map-placeholder">
-      <div class="map-placeholder-title">Map renders at v1.0 deploy</div>
-      <div class="map-placeholder-sub">
-        Per the ratified stack (architectural review §1): static GeoJSON layers + MapLibre renderer.
-        Both food-desert definitions ship as toggleable layers; DGI grants render as points (or service-area polygons where DSB has documented service areas); food-insecurity tract overlay sits beneath. SD2 (Wilmington) highlighted per redistricting-2022 plan.
-      </div>
-      <div class="map-placeholder-layers">
-        <span class="map-placeholder-layer">USDA LILA tracts</span>
-        <span class="map-placeholder-layer">SB 254-effective tracts</span>
-        <span class="map-placeholder-layer">DGI grant points</span>
-        <span class="map-placeholder-layer">Service-area polygons</span>
-        <span class="map-placeholder-layer">SNAP retailers</span>
-        <span class="map-placeholder-layer">MMG food-insecurity heatmap</span>
-        <span class="map-placeholder-layer">DPH MHC overlay</span>
-        <span class="map-placeholder-layer">DART transit</span>
-        <span class="map-placeholder-layer">ACS race / income</span>
-        <span class="map-placeholder-layer">SD2 boundary (2022)</span>
-      </div>
+    <div id="fsl-map" role="region" aria-label="Interactive map of Delaware food-access layers: SB 254-effective tracts, USDA LILA food-desert tracts, SNAP retailers, DART transit routes, and Senate District 2. Pan and zoom; select a feature for details."></div>
+    <div class="map-legend" id="fsl-map-legend" role="group" aria-label="Map layer toggles">
+      <label><input type="checkbox" data-layer="tracts" checked /><span class="swatch" style="background:#34d399"></span>Food-access tracts</label>
+      <label><input type="checkbox" data-layer="snap" checked /><span class="swatch" style="background:#a78bfa"></span>SNAP retailers</label>
+      <label><input type="checkbox" data-layer="dart" /><span class="swatch" style="background:rgba(148,163,184,0.6)"></span>DART transit</label>
+      <label><input type="checkbox" data-layer="sd2" checked /><span class="swatch" style="background:#f8fafc"></span>Senate District 2</label>
     </div>
+    <div class="map-note" id="fsl-map-note">Loading layers…</div>
+    <div class="map-note" style="margin-top:6px;">Tract fill — <span style="color:#34d399">■</span> SB 254-effective · <span style="color:#fbbf24">■</span> low-income · <span style="color:#22d3ee">■</span> USDA LILA food desert</div>
+    <p class="fsl-sr-only" id="fsl-map-summary"></p>
   </section>
+  <script>
+  (function () {
+    const DATA = 'data/';
+    const note = document.getElementById('fsl-map-note');
+    // Delaware bounding box — frames the state on init.
+    const DE_BOUNDS = [[-75.80, 38.43], [-74.96, 39.86]];
+    const PALETTE = {
+      effective: 'rgba(52,211,153,0.55)', effLine: 'rgba(52,211,153,0.95)',
+      lowincome: 'rgba(251,191,36,0.45)', lila: 'rgba(34,211,238,0.16)', lilaLine: 'rgba(34,211,238,0.4)',
+      snap: 'rgba(167,139,250,0.7)', dart: 'rgba(148,163,184,0.45)', sd2: 'rgba(248,250,252,0.7)'
+    };
+    let built = false, map = null;
+
+    async function getJSON(f) {
+      const r = await fetch(DATA + f, { cache: 'no-cache' });
+      if (!r.ok) throw new Error(f + ' HTTP ' + r.status);
+      return r.json();
+    }
+    function build() {
+      if (built || typeof maplibregl === 'undefined') return;
+      built = true;
+      map = new maplibregl.Map({
+        container: 'fsl-map', bounds: DE_BOUNDS, fitBoundsOptions: { padding: 24 }, minZoom: 6, maxZoom: 15,
+        style: { version: 8,
+          sources: { carto: { type: 'raster', tileSize: 256,
+            tiles: ['https://a.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png',
+                    'https://b.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png',
+                    'https://c.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png'],
+            attribution: '© OpenStreetMap contributors © CARTO' } },
+          layers: [{ id: 'carto', type: 'raster', source: 'carto' }] }
+      });
+      map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right');
+      map.on('error', (e) => { note.textContent = 'Map error: ' + ((e && e.error && e.error.message) || 'unknown'); });
+      map.on('load', onLoad);
+    }
+    async function onLoad() {
+      try {
+        const [sd2, lila, dart, snap, sb254] = await Promise.all([
+          getJSON('senate-district-2.geojson'), getJSON('usda-lila-tracts.geojson'),
+          getJSON('dart-routes.geojson'), getJSON('snap-retailers.geojson'),
+          getJSON('sb254-effective-tracts.geojson'),
+        ]);
+        // Join SB 254 tract flags onto the LILA polygons by tract_geoid. The
+        // sb254-effective-tracts geometry is point-only and currently [0,0]
+        // (an ETL geometry gap); the LILA polygons carry the real tract
+        // geometry. All 10 SB 254-effective tracts fall within the LILA set,
+        // so the headline layer renders fully.
+        const flag = {};
+        sb254.features.forEach(f => { flag[String(f.properties.tract_geoid)] = f.properties; });
+        lila.features.forEach(f => {
+          const s = flag[String(f.properties.tract_geoid)] || {};
+          f.properties._eff = !!s.sb254_effective;
+          f.properties._low = !!s.low_income;
+          f.properties._mfi = (s.mfi != null) ? s.mfi : null;
+          f.properties._pov = (s.poverty_rate != null) ? s.poverty_rate : null;
+          f.properties._urb = s.urbanicity || null;
+        });
+
+        map.addSource('sd2', { type: 'geojson', data: sd2 });
+        map.addLayer({ id: 'sd2', type: 'line', source: 'sd2',
+          paint: { 'line-color': PALETTE.sd2, 'line-width': 2, 'line-dasharray': [2, 1] } });
+
+        map.addSource('lila', { type: 'geojson', data: lila });
+        map.addLayer({ id: 'lila-fill', type: 'fill', source: 'lila',
+          paint: { 'fill-color': ['case', ['get', '_eff'], PALETTE.effective, ['get', '_low'], PALETTE.lowincome, PALETTE.lila] } });
+        map.addLayer({ id: 'lila', type: 'line', source: 'lila',
+          paint: { 'line-color': ['case', ['get', '_eff'], PALETTE.effLine, PALETTE.lilaLine], 'line-width': ['case', ['get', '_eff'], 1.4, 0.5] } });
+
+        map.addSource('dart', { type: 'geojson', data: dart });
+        map.addLayer({ id: 'dart', type: 'line', source: 'dart', layout: { visibility: 'none' },
+          paint: { 'line-color': PALETTE.dart, 'line-width': 1 } });
+
+        map.addSource('snap', { type: 'geojson', data: snap });
+        map.addLayer({ id: 'snap', type: 'circle', source: 'snap',
+          paint: { 'circle-radius': ['interpolate', ['linear'], ['zoom'], 7, 2, 12, 5], 'circle-color': PALETTE.snap, 'circle-stroke-width': 0 } });
+
+        wirePopups(); wireToggles();
+        const eff = sb254.features.filter(f => f.properties.sb254_effective).length;
+        const low = sb254.features.filter(f => f.properties.low_income).length;
+        note.textContent = sb254.features.length + ' tracts · ' + eff + ' SB 254-effective · ' + low +
+          ' low-income · ' + lila.features.length + ' USDA LILA food deserts · ' + snap.features.length + ' SNAP retailers';
+        const sum = document.getElementById('fsl-map-summary'); if (sum) sum.textContent = note.textContent;
+      } catch (err) { note.textContent = 'Map data failed to load: ' + err.message; }
+    }
+    function popupHTML(rows) {
+      return rows.filter(r => r[1] !== undefined && r[1] !== null && r[1] !== '')
+        .map(r => '<div><strong>' + r[0] + '</strong> ' + r[1] + '</div>').join('');
+    }
+    function wirePopups() {
+      const pct = v => (v * 100).toFixed(1) + '%';
+      const usd = v => '$' + Math.round(v).toLocaleString();
+      const defs = {
+        'lila-fill': p => popupHTML([
+          ['Tract', p.tract_geoid],
+          ['SB 254-effective', p._eff ? 'yes' : 'no'],
+          ['Low income', p._low ? 'yes' : 'no'],
+          ['USDA LILA (1 &amp; 10 mi)', p.LILATracts_1And10 ? 'yes' : 'no'],
+          ['Median family income', p._mfi != null ? usd(p._mfi) : (p.MedianFamilyIncome != null ? usd(p.MedianFamilyIncome) : null)],
+          ['Poverty rate', p._pov != null ? pct(p._pov) : (p.PovertyRate != null ? p.PovertyRate.toFixed(1) + '%' : null)],
+          ['Urbanicity', p._urb]]),
+        snap: p => popupHTML([['Retailer', p.name], ['Address', p.address], ['Type', (p.categories || []).join(', ')]]),
+        dart: p => popupHTML([['Route', (p.route_short_names || []).join(', ')], ['Name', (p.route_long_names || []).join(', ')]]),
+        sd2: p => popupHTML([['Senate District', p.DISTRICT], ['Senator', p.NAME]]),
+      };
+      Object.keys(defs).forEach(id => {
+        map.on('click', id, (e) => {
+          const f = e.features && e.features[0]; if (!f) return;
+          new maplibregl.Popup({ closeButton: true, maxWidth: '260px' })
+            .setLngLat(e.lngLat).setHTML(defs[id](f.properties)).addTo(map);
+        });
+        map.on('mouseenter', id, () => { map.getCanvas().style.cursor = 'pointer'; });
+        map.on('mouseleave', id, () => { map.getCanvas().style.cursor = ''; });
+      });
+    }
+    function wireToggles() {
+      const groups = { tracts: ['lila-fill', 'lila'], snap: ['snap'], dart: ['dart'], sd2: ['sd2'] };
+      document.querySelectorAll('#fsl-map-legend input[data-layer]').forEach(cb => {
+        cb.addEventListener('change', () => (groups[cb.dataset.layer] || []).forEach(id => {
+          if (map.getLayer(id)) map.setLayoutProperty(id, 'visibility', cb.checked ? 'visible' : 'none');
+        }));
+      });
+    }
+    function maybeBuild() { if (!document.body.classList.contains('fsl-locked')) build(); }
+    if (document.readyState !== 'loading') maybeBuild();
+    else document.addEventListener('DOMContentLoaded', maybeBuild);
+    new MutationObserver(maybeBuild).observe(document.body, { attributes: true, attributeFilter: ['class'] });
+  })();
+  </script>
 
   <!-- ============ Disbursement trajectory ============ -->
   <section class="section">
