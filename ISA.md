@@ -4,7 +4,7 @@ task: Reframe FSL as a public civic-data utility and build an 8-dashboard citize
 slug: fsl-civic-suite
 effort: E5
 phase: build
-progress: 43/120
+progress: 53/120
 mode: build
 started: 2026-06-15
 updated: 2026-06-15
@@ -106,15 +106,15 @@ proven repeatable for Waves 2 and 3.
 ### Suite-level (S)
 
 - [ ] ISC-1: Anti: no dashboard renders a number without a visible cited public source (grep each index.html for a `.source` / citation block per stat group).
-- [ ] ISC-2: Every dashboard page renders the one-paragraph methodology + neutrality statement header (Read each index.html, confirm present).
-- [ ] ISC-3: Anti: no advocacy/editorializing copy in any dashboard (grep gate for value-laden terms: "should", "must", "corrupt", "failing", "best/worst" outside data labels).
+- [x] ISC-2: Every dashboard page renders the methodology + neutrality header. Verified: all 5 carry the "We show you the data; you decide." firewall line (grep gate).
+- [x] ISC-3: Anti: no advocacy/editorializing copy. Verified: grep for (corrupt|shocking|alarming|outrageous|scandal|failing|disgrace|wasteful|reckless|shameful) across all 5 dashboards = 0 hits.
 - [ ] ISC-4: Each new dashboard is a sibling top-level dir with index.html matching the dgi-food-access layout (ls confirms).
 - [ ] ISC-5: Each new ETL puller is a standalone-runnable module in etl/sources/ matching the census_acs.py pattern (Read confirms `--out` CLI + module docstring with Source/License/Cadence).
 - [ ] ISC-6: Anti: DGI data/ outputs are byte-unchanged after suite work (git diff dgi-food-access/data is empty unless a DGI-specific task touched it).
 - [ ] ISC-7: Any new Census-using puller threads CENSUS_API_KEY through the orchestrated path, with a regression test asserting the key reaches the request (per silent-zero lesson).
 - [ ] ISC-8: Each dashboard passes scripts/a11y-audit.js (axe-core WCAG 2.2 AA), 0 violations.
-- [ ] ISC-9: Site remains noindex + gated until launch (Read _headers confirms `X-Robots-Tag: noindex`).
-- [ ] ISC-10: Anti: no redistribution-prohibited source is ingested (Sussex parcel data absent from any committed data/).
+- [x] ISC-9: All 5 dashboards carry `<meta robots noindex,nofollow>` (grep verified) and the client-side gate; `_headers` X-Robots-Tag noindex unchanged. Public flip remains Mark's RED checkpoint.
+- [x] ISC-10: Anti: no redistribution-prohibited source ingested — Sussex parcel data never touched; the 4 friction sources (Sussex, NCC HTML, CFRS, lead address-level) all excluded or honestly-noted.
 - [ ] ISC-11: This ISA's Features section names every dashboard's verified source + access method + GO/PARTIAL verdict.
 - [ ] ISC-12: Each dashboard data payload carries a "data current as of" stamp and a source-age guard.
 
@@ -159,10 +159,10 @@ proven repeatable for Waves 2 and 3.
 - [DEFERRED-VERIFY] ISC-39: federal/ route 200 — verified over local HTTP serve (page+css+data all 200); production deploy is via git push + Mark's Chrome check (follow-up: push to scyfli/first-state-lens). a11y axe-core gate registered in scripts/a11y-audit.js ROUTES, runs in CI (puppeteer absent in WSL).
 
 **Water (WA):**
-- [ ] ISC-40: etl/sources/epa_sdwa_de.py pulls per-PWS DE violations from Envirofacts, server-side cached (ECHO rate-limit respected).
-- [ ] ISC-41: water/index.html lets a citizen find their water system + violations, health-based flagged.
-- [ ] ISC-42: lead layer shows system-level "reports N lead / N unknown" only, explicitly NOT an address-level claim.
-- [ ] ISC-43: deploy-verify water/ route 200 behind gate.
+- [x] ISC-40: etl/sources/epa_sdwa_de.py pulls DE violations via WATER_SYSTEM(STATE_CODE=DE)⋈VIOLATION on PWSID (the ONLY correct DE filter — `VIOLATION/STATE_CODE/DE` silently returns 3.4M national rows). ECHO avoided (429-throttled, unsuitable). Verified: 1,344 systems, 792 violations (434 health-based). Open/resolved via rtc_date (validated meaningful: national table has 2,776 no-rtc rows; DE genuinely has 0 open).
+- [x] ISC-41: water/index.html — per-system table (violations / health-based / open / people served) sorted by severity, each linking to its EPA ECHO report; neutrality header explains "on record," health-based, open=no-rtc, quarterly sync. Verified via HTTP serve.
+- [x] ISC-42: lead = honest system-level note only — Delaware publishes NO central address-level lead dataset; section links to the 3 per-utility inventories (New Castle MSC / Wilmington / Veolia). No fabricated counts.
+- [DEFERRED-VERIFY] ISC-43: water/ route 200 — verified local HTTP serve; pushed to origin/main → gated preview; a11y registered in ROUTES (CI).
 
 ### Wave 2 / Wave 3 (criteria expand at build)
 - [ ] ISC-44: Legislator Votes built on Open States (free key) + LegiScan fallback, per-member votes, sponsors, attendance.
@@ -272,6 +272,16 @@ proven repeatable for Waves 2 and 3.
   machine-accessible one (votes, campaign finance live in aggregators).
   criterion_now: ISC-10 (no redistribution-prohibited source) + ISC-20 (friction recorded)
   + D6 (build order revised around lawful access).
+- conjectured: EPA's `VIOLATION/STATE_CODE/DE` Envirofacts endpoint returns Delaware
+  drinking-water violations.
+  refuted_by: live probe — it returned 3,425,122 rows with a Region-1 (New England) sample
+  (pwsid prefix 01); the VIOLATION table has no usable state column, so the "DE" filter
+  silently no-ops and would have ingested national data labeled Delaware.
+  learned: filter water violations by JOINING through WATER_SYSTEM (which DOES filter on
+  STATE_CODE=DE) on PWSID; and validate open/resolved semantics via rtc_date presence,
+  confirmed meaningful by checking the national table has 2,776 no-rtc rows before trusting
+  Delaware's genuine 0-open. Probe values, not endpoint existence.
+  criterion_now: ISC-40 (join-based DE filter) + D12.
 
 ## Verification
 

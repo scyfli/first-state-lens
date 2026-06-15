@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-15T19:53:11Z",
+  "dashboard": "water",
+  "sources": {
+    "epa_sdwis": {
+      "name": "EPA Envirofacts SDWIS (Safe Drinking Water)",
+      "join": "WATER_SYSTEM(STATE_CODE=DE) \u22c8 VIOLATION on PWSID",
+      "endpoint": "https://data.epa.gov/efservice/WATER_SYSTEM/STATE_CODE/DE/VIOLATION/ROWS/0:9999/JSON",
+      "license": "US public domain",
+      "echo_detail": "https://echo.epa.gov/detailed-facility-report?fid=",
+      "note": "Counts are violations recorded in EPA SDWIS. 'Open' = no Return-To-Compliance date. Not a real-time status; see each system's ECHO report."
+    }
+  },
+  "row_counts": {
+    "systems_total": 1344,
+    "systems_with_violations": 165,
+    "violations_on_record": 792
+  }
+}

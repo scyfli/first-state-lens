@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex, nofollow" />
+<title>Is My Delaware Water Safe? — First State Lens</title>
+<meta name="description" content="Drinking-water violations for every Delaware public water system, health-based flagged, with current compliance status. Public EPA data, sourced, nonpartisan." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/fsl.css" />
+<style>
+  /* Water accent: sky blue. */
+  :root { --accent-primary: #38bdf8; }
+  .title-eyebrow { color: #38bdf8; border-color: rgba(56,189,248,0.25); background: rgba(56,189,248,0.05); }
+  .title-eyebrow::before { background: #38bdf8; box-shadow: 0 0 6px #38bdf8; }
+  .neutrality { border-left-color: #38bdf8; }
+  .bar-fill { background: linear-gradient(90deg, #38bdf8, var(--indigo-500)); }
+  #fsl-gate-form button { background: #38bdf8; }
+  .lead-card { background: var(--surface-elevated); border: 1px solid var(--border-default); border-left: 3px solid var(--amber-400); border-radius: 12px; padding: 20px 22px; }
+  .lead-card ul { margin: 12px 0 0 18px; }
+  .lead-card a { color: var(--text-secondary); text-decoration: underline; }
+</style>
+</head>
+<body class="fsl-locked">
+
+<div id="fsl-gate" role="dialog" aria-label="Password required" aria-modal="true">
+  <div id="fsl-gate-card">
+    <h1>First State Lens · Is My Delaware Water Safe?</h1>
+    <p>This is a soft-launch preview of the FirmSide AI Civic Analytics Lab. Enter the password shared with you.</p>
+    <form id="fsl-gate-form">
+      <input type="password" id="fsl-gate-input" autocomplete="current-password" autofocus aria-label="Password" />
+      <button type="submit">Enter</button>
+      <div id="fsl-gate-error" role="alert" aria-live="polite"></div>
+    </form>
+    <div id="fsl-gate-footer">FirmSide AI · Civic Analytics Lab</div>
+  </div>
+</div>
+<script>
+(function () {
+  const HASH = "da30814cf1aeff6892250b88f97de6798faf45b0a5bb843502098cfa0adcdc06";
+  const STORAGE_KEY = "fsl-gate-2026-06";
+  const body = document.body;
+  const gate = document.getElementById("fsl-gate");
+  if (sessionStorage.getItem(STORAGE_KEY) === HASH) { body.classList.remove("fsl-locked"); gate.remove(); return; }
+  async function sha256(text) {
+    const buf = new TextEncoder().encode(text);
+    const digest = await crypto.subtle.digest("SHA-256", buf);
+    return Array.from(new Uint8Array(digest)).map(b => b.toString(16).padStart(2, "0")).join("");
+  }
+  const form = document.getElementById("fsl-gate-form");
+  const input = document.getElementById("fsl-gate-input");
+  const err = document.getElementById("fsl-gate-error");
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault(); err.textContent = "";
+    const hash = await sha256(input.value);
+    if (hash === HASH) { sessionStorage.setItem(STORAGE_KEY, HASH); body.classList.remove("fsl-locked"); gate.remove(); }
+    else { err.textContent = "Incorrect password."; input.value = ""; input.focus(); }
+  });
+})();
+</script>
+
+<div class="container">
+
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark">FS</div>
+      <div class="brand-text">
+        <div class="brand-name">First State Lens</div>
+        <div class="brand-tagline">Civic Analytics Lab · Delaware</div>
+      </div>
+    </div>
+    <div class="topbar-meta">
+      <div class="meta-item"><span class="pulse-dot"></span><span>LIVE DATA</span></div>
+      <div class="meta-item"><span id="meta-systems">— SYSTEMS</span></div>
+    </div>
+  </header>
+
+  <main>
+  <div class="title-block">
+    <span class="title-eyebrow">Drinking Water · Delaware</span>
+    <h1 class="title-h1">Is my Delaware <span class="highlight">water</span> safe?</h1>
+    <p class="title-sub">Drinking-water violations for every public water system in Delaware, with health-based violations flagged and current compliance status. Built directly from EPA's Safe Drinking Water records.</p>
+  </div>
+
+  <p class="neutrality">
+    <strong>How to read this.</strong> These are violations recorded in EPA's Safe Drinking Water Information System (SDWIS), shown without interpretation. A <strong>health-based</strong> violation means a contaminant exceeded a health limit; many other violations are monitoring or reporting lapses. A violation is counted as <strong>open</strong> only when EPA records no return-to-compliance date; otherwise the system has returned to compliance. The records here include both historical and recent violations, and EPA's data syncs roughly quarterly, so a very recent violation may not appear yet. For the authoritative, current status of any system, follow its EPA report link. Lead service lines are covered separately below. First State Lens draws no conclusions. We show you the data; you decide.
+  </p>
+
+  <section class="kpi-grid" aria-label="Headline figures">
+    <div class="kpi-card">
+      <div class="kpi-label">Public Water Systems</div>
+      <div class="kpi-value" id="kpi-systems">—</div>
+      <div class="kpi-context">Active and inactive public water systems on record in Delaware.</div>
+      <div class="kpi-source">SOURCE · EPA SDWIS</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Systems With Violations On Record</div>
+      <div class="kpi-value" id="kpi-withviol">—</div>
+      <div class="kpi-context" id="kpi-withviol-ctx">Systems with at least one recorded violation (historical or recent).</div>
+      <div class="kpi-source">SOURCE · EPA SDWIS</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Health-Based Violations</div>
+      <div class="kpi-value" id="kpi-hb">—</div>
+      <div class="kpi-context">Recorded violations where a contaminant exceeded a health-based limit.</div>
+      <div class="kpi-source">SOURCE · EPA SDWIS</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Currently Open</div>
+      <div class="kpi-value" id="kpi-open">—</div>
+      <div class="kpi-context" id="kpi-open-ctx">Violations with no return-to-compliance date recorded.</div>
+      <div class="kpi-source">SOURCE · EPA SDWIS · RTC_DATE</div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="sys-title">
+    <div class="section-head">
+      <h2 class="section-title" id="sys-title">Systems with violations on record</h2>
+      <span class="section-meta">SORTED BY HEALTH-BASED, THEN TOTAL</span>
+    </div>
+    <div class="panel">
+      <table class="data-table">
+        <caption>Delaware public water systems with one or more recorded violations. Most are historical and resolved; open means no return-to-compliance date. Follow a system's EPA link for its current status.</caption>
+        <thead><tr>
+          <th scope="col">Water system</th>
+          <th scope="col">City</th>
+          <th scope="col" class="num">People served</th>
+          <th scope="col" class="num">Violations</th>
+          <th scope="col" class="num">Health-based</th>
+          <th scope="col" class="num">Open</th>
+          <th scope="col">EPA report</th>
+        </tr></thead>
+        <tbody id="sys-body"><tr><td colspan="7">Loading…</td></tr></tbody>
+      </table>
+      <p class="kpi-source" id="sys-src" style="margin-top:16px;">SOURCE · EPA ENVIROFACTS SDWIS · WATER_SYSTEM(DE) JOIN VIOLATION ON PWSID</p>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="lead-title">
+    <div class="section-head">
+      <h2 class="section-title" id="lead-title">Lead service lines</h2>
+      <span class="section-meta">CHECK YOUR UTILITY</span>
+    </div>
+    <div class="lead-card">
+      <strong id="lead-headline">—</strong>
+      <p id="lead-detail" style="margin-top:8px; color:var(--text-secondary); font-size:13.5px;"></p>
+      <ul id="lead-links"></ul>
+      <p class="kpi-source" style="margin-top:14px;">DELAWARE PUBLISHES NO CENTRAL ADDRESS-LEVEL LEAD-LINE DATASET · EACH UTILITY MAINTAINS ITS OWN INVENTORY</p>
+    </div>
+  </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-build" id="footer-build">DATA: not yet loaded</div>
+    <div class="footer-links">
+      <a href="https://echo.epa.gov/">EPA ECHO (primary source)</a>
+      <a href="https://www.epa.gov/enviro/sdwis-overview">EPA SDWIS</a>
+      <a href="/">First State Lens home</a>
+    </div>
+    <div>First State Lens is a FirmSide AI Civic Analytics Lab project. Nonpartisan. Every figure links to its public source. We show you the data; you decide.</div>
+  </footer>
+
+</div>
+
+<script>
+(function () {
+  const fmtInt = (n) => Number(n).toLocaleString("en-US");
+  const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+  async function load() {
+    let s;
+    try {
+      const r = await fetch("./data/water-summary.json", { cache: "no-cache" });
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      s = await r.json();
+    } catch (e) {
+      document.getElementById("footer-build").textContent = "DATA: unavailable (" + e.message + ")";
+      return;
+    }
+
+    document.getElementById("meta-systems").textContent = fmtInt(s.total_systems) + " SYSTEMS";
+    document.getElementById("kpi-systems").textContent = fmtInt(s.total_systems);
+    document.getElementById("kpi-withviol").textContent = fmtInt(s.systems_with_violations);
+    document.getElementById("kpi-withviol-ctx").textContent =
+      `${fmtInt(s.systems_with_violations)} of ${fmtInt(s.total_systems)} systems have at least one recorded violation.`;
+    document.getElementById("kpi-hb").textContent = fmtInt(s.total_health_based);
+    document.getElementById("kpi-open").textContent = fmtInt(s.total_open);
+    document.getElementById("kpi-open-ctx").textContent = s.total_open === 0
+      ? "No violations are currently open — every recorded violation has a return-to-compliance date as of this data sync."
+      : "Violations with no return-to-compliance date recorded.";
+
+    const echoBase = (s.source && s.source.echo_detail) || "https://echo.epa.gov/detailed-facility-report?fid=";
+    document.getElementById("sys-body").innerHTML = (s.systems || []).map((r) =>
+      `<tr>`
+      + `<td><strong>${esc(r.name)}</strong></td>`
+      + `<td>${esc(r.city || "—")}</td>`
+      + `<td class="num">${fmtInt(r.population)}</td>`
+      + `<td class="num">${fmtInt(r.violations)}</td>`
+      + `<td class="num">${fmtInt(r.health_based)}</td>`
+      + `<td class="num">${fmtInt(r.open)}</td>`
+      + `<td><a href="${echoBase}${encodeURIComponent(r.pwsid)}" target="_blank" rel="noopener">view</a></td>`
+      + `</tr>`).join("");
+
+    const ln = s.lead_note || {};
+    document.getElementById("lead-headline").textContent = ln.headline || "";
+    document.getElementById("lead-detail").textContent = ln.detail || "";
+    document.getElementById("lead-links").innerHTML = (ln.links || []).map((l) =>
+      `<li><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.name)}</a></li>`).join("");
+
+    const asOf = (s.generated_at || "").slice(0, 10);
+    document.getElementById("footer-build").textContent =
+      `${fmtInt(s.total_systems)} SYSTEMS · ${fmtInt(s.total_violations_on_record)} VIOLATIONS ON RECORD · ${fmtInt(s.total_open)} OPEN · DATA AS OF ${asOf} · SOURCE: EPA SDWIS`;
+  }
+  load();
+})();
+</script>
+</body>
+</html>
