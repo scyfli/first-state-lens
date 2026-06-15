@@ -32,6 +32,7 @@ import csv
 import dataclasses
 import io
 import json
+import os
 import sys
 from pathlib import Path
 from typing import Any, Optional
@@ -627,6 +628,17 @@ def _pull_all_sources(raw_dir: Path, parameters: dict) -> list[str]:
     notes: list[str] = []
     raw_dir.mkdir(parents=True, exist_ok=True)
 
+    # Census API key: read once from env and thread into the ACS pullers.
+    # WITHOUT this, the orchestrated --pull path calls the ACS pullers with no
+    # api_key, so requests go out unauthenticated and Census returns an HTML
+    # rate-limit/WAF page at HTTP 200 (not JSON) — silently zeroing every
+    # ACS-derived value downstream (low_income, sb254_effective, mfi, poverty).
+    # The puller __main__ blocks already read this env var; the orchestrator
+    # must do the same or CI runs are unauthenticated regardless of the secret.
+    # Kwargs with value None are dropped below, so a missing key falls through
+    # to the puller's keyless default.
+    census_api_key = os.environ.get("CENSUS_API_KEY")
+
     # Imports are local so the CLI starts fast and so partial-import
     # failures (e.g., requests missing in a minimal env) don't break
     # offline test runs.
@@ -650,9 +662,10 @@ def _pull_all_sources(raw_dir: Path, parameters: dict) -> list[str]:
     pullers: list[tuple[str, callable, dict]] = [
         ("firstmap_sd2", firstmap_sd2.pull, {}),
         ("dart_gtfs", dart_gtfs.pull, {}),
-        ("census_acs_tracts", census_acs.pull, {}),
-        ("census_acs_bgs", census_acs_bg.pull, {}),
-        ("census_acs_state", census_acs_state.pull, {}),  # methodology v0.3.2
+        ("census_acs_tracts", census_acs.pull, {"api_key": census_api_key}),
+        ("census_acs_bgs", census_acs_bg.pull, {"api_key": census_api_key}),
+        ("census_acs_state", census_acs_state.pull,
+         {"api_key": census_api_key}),  # methodology v0.3.2
         ("mmg_food_insecurity", mmg_food_insecurity.pull, {}),
         ("usda_lila", usda_lila.pull, {}),
         ("tiger_tracts", tiger_tracts.pull, {}),
