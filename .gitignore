@@ -28,3 +28,6 @@ etl/raw/*
 
 # ETL geocoding disk cache (S+2)
 etl/cache/
+
+# PAI CheckpointPerISC hook sidecar
+.checkpoint-state.json
