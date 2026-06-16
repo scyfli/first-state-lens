@@ -4,10 +4,10 @@ task: Reframe FSL as a public civic-data utility and build an 8-dashboard citize
 slug: fsl-civic-suite
 effort: E5
 phase: build
-progress: 57/120
+progress: 60/120
 mode: build
 started: 2026-06-15
-updated: 2026-06-15
+updated: 2026-06-16
 ---
 
 # First State Lens — Civic Analytics Lab (project ISA)
@@ -279,6 +279,22 @@ proven repeatable for Waves 2 and 3.
   added as repo secrets + the ETL workflow extended to run these pullers, the same way
   CENSUS_API_KEY is wired — until then the votes data is the committed static snapshot.
   Next Wave-2 dashboard: Federal campaign finance (FEC, key in hand).
+- 2026-06-16 D17 (three production fixes after Mark couldn't see the colors — a hard,
+  multi-failure debugging arc):
+  (a) **Cache:** `_headers` set no `Cache-Control`; Cloudflare/browser cached gated pages
+  (cf-cache-status HIT). Added `Cache-Control: no-cache` so deploys aren't masked. (commit a1093ff)
+  (b) **Homepage nav:** all 6 new dashboards were ORPHAN routes — the homepage grid only
+  linked the original Clean Slate + DGI cards, so visitors landing on firststatelens.com
+  never reached them. Added 6 cards + broadened the hero to the data-for-the-people mission. (143bb41)
+  (c) **THE REAL BUG — bar charts had no color:** `.bar-fill` was an inline `<span>` with no
+  `display:block`. Inline elements IGNORE width/height, so every colored fill had the right
+  background on a zero-size box — only the faint grey track painted. getComputedStyle reported
+  `width:100%` (unresolved %), which was the tell I misread as success. Fix: `display:block`
+  (+ taller 30px bolder bars). Confirmed via headless render: bar now 403x28px painting
+  rgb(251,191,36). Fixes federal/spending/childcare bar charts. (commit a2ef409, LIVE-verified
+  in production CSS.) Lesson: getComputedStyle reports the STYLE, not whether it's laid out/painted
+  — a raw `%` width back from getComputedStyle means the element isn't being laid out.
+  **AWAITING Mark's visual confirmation of the colors before declaring this done** (he said so explicitly).
 
 ## Changelog
 
