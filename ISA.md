@@ -294,7 +294,8 @@ proven repeatable for Waves 2 and 3.
   rgb(251,191,36). Fixes federal/spending/childcare bar charts. (commit a2ef409, LIVE-verified
   in production CSS.) Lesson: getComputedStyle reports the STYLE, not whether it's laid out/painted
   — a raw `%` width back from getComputedStyle means the element isn't being laid out.
-  **AWAITING Mark's visual confirmation of the colors before declaring this done** (he said so explicitly).
+  **CONFIRMED by Mark 2026-06-16** — a fresh/separate browser shows the bar colors clean; his
+  original browser had cached the pre-fix CSS (the no-cache header now prevents recurrence). Color bug CLOSED.
 
 ## Changelog
 

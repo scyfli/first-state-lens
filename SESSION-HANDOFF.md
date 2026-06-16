@@ -12,12 +12,12 @@ The project pivoted from a gov/electeds tool to a **public civic-data utility** 
 - Session commits: `af096ea` Federal · `836b201` Spending · `62e8afc` Childcare · `c485ec3` Schools · `b2aa0c8` Water · `bef7445` Votes · `4e890ea` readability pass · `a1093ff` Cache-Control fix · `143bb41` homepage nav · `a2ef409` **bar-fill display:block fix** (the color bug).
 
 ## In-flight / blocked
-- **AWAITING MARK'S VISUAL CONFIRMATION** that the bar-chart colors now show. He said do not declare it done until he confirms. He should hard-refresh / incognito: `/spending/`, `/federal/`, `/childcare/` (the 3 with colored bar charts; schools/water/votes are tables with neutral in-cell bars by design). Proof render sent: `Desktop/TrazynOutPut/fsl-spending-FIXED.png`.
+- **COLOR BUG CLOSED — Mark confirmed 2026-06-16** (fresh browser shows bar colors clean; original browser had cached pre-fix CSS). The `display:block` fix (`a2ef409`) is verified working end-to-end.
 - **Wave 2 #2 (Federal campaign finance, FEC) NOT built** — last remaining Wave-2 dashboard. FEC/data.gov key is in the keys file (line 6).
 - **CI-secret wiring owed (ISA D16):** `OPENSTATES_API_KEY` + `FEC_API_KEY` need adding as GitHub repo secrets + the ETL workflow extended to run the new pullers (same as `CENSUS_API_KEY`). Until then Votes/Childcare/FEC serve their committed static snapshot.
 
 ## Next action (in order)
-1. Get Mark's confirmation the colors render. If NOT colored → re-investigate (but headless render + live CSS both confirm the fix).
+1. ~~Get Mark's confirmation the colors render~~ — DONE, confirmed 2026-06-16.
 2. Build **FEC campaign-finance dashboard** to close Wave 2 (probe api.open.fec.gov with the data.gov key first, per the established probe-before-build pattern).
 3. Wire `OPENSTATES_API_KEY` + `FEC_API_KEY` into CI (repo secrets + `.github/workflows`).
 4. **Mark: delete `Desktop/First State Lens Keys.txt`** (Census wired; OS+FEC keys recorded). Sensitive file hygiene.
