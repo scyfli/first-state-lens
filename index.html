@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="robots" content="noindex, nofollow" />
-<title>First State Lens — Civic Outcomes Atlas · Delaware</title>
+<title>First State Lens — Civic Analytics Lab · Delaware</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -361,7 +361,7 @@
       <div class="brand-mark">FS</div>
       <div class="brand-text">
         <div class="brand-name">First State Lens</div>
-        <div class="brand-tagline">Civic Outcomes Atlas · Delaware</div>
+        <div class="brand-tagline">Civic Analytics Lab · Delaware</div>
       </div>
     </div>
     <div class="topbar-meta">
@@ -373,16 +373,125 @@
   <section class="hero">
     <div class="hero-eyebrow">FirmSide AI · Civic Analytics Lab</div>
     <h1 class="hero-h1">
-      Tracking the gap between Delaware <span class="accent">legislative intent</span> and on-the-ground reality.
+      Delaware's public record, organized so every <span class="accent">citizen</span> can use it.
     </h1>
     <p class="hero-sub">
-      A suite of dashboards measuring Delaware's signature programs against the promises that authorized them.
-      Every published number traces to a public source via versioned methodology. The dashboards are password-gated
-      during the soft-launch period.
+      A growing suite of dashboards on how Delaware spends, performs, votes, and serves its people — from federal
+      dollars and the state checkbook to schools, water, childcare, and the voting record of every legislator.
+      Every number traces to a public source, nothing is editorialized, and the work is nonpartisan. We show you
+      the data; you decide. The dashboards are password-gated during the soft-launch period.
     </p>
   </section>
 
   <section class="dashboard-grid">
+    <a href="/schools/" class="dashboard-card" style="--card-accent:#818cf8">
+      <div class="card-header">
+        <div class="card-title">School Report Card</div>
+        <div class="card-status">Live</div>
+      </div>
+      <div class="card-tagline">DE Dept. of Education · School outcomes</div>
+      <div class="card-description">
+        Proficiency, graduation, chronic absenteeism, and enrollment for the state and all 41 districts and
+        charter networks — all students, most recent year, straight from the public report-card data.
+      </div>
+      <div class="card-meta-row">
+        <span class="card-meta-pill">DE Report Card</span>
+        <span class="card-meta-pill">41 LEAs</span>
+        <span class="card-meta-pill">Smarter Balanced</span>
+      </div>
+      <span class="card-enter">Enter dashboard</span>
+    </a>
+
+    <a href="/water/" class="dashboard-card" style="--card-accent:#38bdf8">
+      <div class="card-header">
+        <div class="card-title">Is My Water Safe?</div>
+        <div class="card-status">Live</div>
+      </div>
+      <div class="card-tagline">EPA SDWIS · Drinking water</div>
+      <div class="card-description">
+        Drinking-water violations for every Delaware public water system, health-based violations flagged, with
+        each system's current compliance status and a link to its EPA report.
+      </div>
+      <div class="card-meta-row">
+        <span class="card-meta-pill">EPA SDWIS</span>
+        <span class="card-meta-pill">1,344 systems</span>
+        <span class="card-meta-pill">health-based flagged</span>
+      </div>
+      <span class="card-enter">Enter dashboard</span>
+    </a>
+
+    <a href="/spending/" class="dashboard-card" style="--card-accent:#fbbf24">
+      <div class="card-header">
+        <div class="card-title">Where Delaware's Money Goes</div>
+        <div class="card-status">Live</div>
+      </div>
+      <div class="card-tagline">Online Checkbook · State spending</div>
+      <div class="card-description">
+        Every dollar the State of Delaware actually disbursed in the latest complete fiscal year — by department,
+        category, and vendor. $16.9B across 1.55 million transactions.
+      </div>
+      <div class="card-meta-row">
+        <span class="card-meta-pill">DE Online Checkbook</span>
+        <span class="card-meta-pill">FY2025</span>
+        <span class="card-meta-pill">transaction-level</span>
+      </div>
+      <span class="card-enter">Enter dashboard</span>
+    </a>
+
+    <a href="/federal/" class="dashboard-card" style="--card-accent:#22d3ee">
+      <div class="card-header">
+        <div class="card-title">Federal Dollars into Delaware</div>
+        <div class="card-status">Live</div>
+      </div>
+      <div class="card-tagline">USAspending.gov · Federal awards</div>
+      <div class="card-description">
+        Every federal grant, contract, and loan with work performed in Delaware — by agency, recipient, and type.
+        17,988 awards in FY2024, from the public federal spending record.
+      </div>
+      <div class="card-meta-row">
+        <span class="card-meta-pill">USAspending.gov</span>
+        <span class="card-meta-pill">FY2024</span>
+        <span class="card-meta-pill">place-of-performance</span>
+      </div>
+      <span class="card-enter">Enter dashboard</span>
+    </a>
+
+    <a href="/childcare/" class="dashboard-card" style="--card-accent:#a78bfa">
+      <div class="card-header">
+        <div class="card-title">Childcare Access</div>
+        <div class="card-status">Live</div>
+      </div>
+      <div class="card-tagline">Office of Child Care Licensing + Census</div>
+      <div class="card-description">
+        Every licensed childcare provider, its capacity and quality rating, and the number of young children per
+        licensed slot — county by county across Delaware.
+      </div>
+      <div class="card-meta-row">
+        <span class="card-meta-pill">1,198 providers</span>
+        <span class="card-meta-pill">FirstMap + Census</span>
+        <span class="card-meta-pill">children-per-slot</span>
+      </div>
+      <span class="card-enter">Enter dashboard</span>
+    </a>
+
+    <a href="/votes/" class="dashboard-card" style="--card-accent:#2dd4bf">
+      <div class="card-header">
+        <div class="card-title">How Your Legislator Votes</div>
+        <div class="card-status">Live</div>
+      </div>
+      <div class="card-tagline">Open States · Legislative votes</div>
+      <div class="card-description">
+        The recorded roll-call voting record of every member of the Delaware General Assembly this session — votes
+        cast, yes and no, and participation. No scoring, no party colors.
+      </div>
+      <div class="card-meta-row">
+        <span class="card-meta-pill">Open States</span>
+        <span class="card-meta-pill">session 153</span>
+        <span class="card-meta-pill">65 legislators</span>
+      </div>
+      <span class="card-enter">Enter dashboard</span>
+    </a>
+
     <a href="/clean-slate/" class="dashboard-card" data-accent="indigo">
       <div class="card-header">
         <div class="card-title">Clean Slate Tracker</div>
