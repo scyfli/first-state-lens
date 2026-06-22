@@ -1,0 +1,126 @@
+name: Bill Tracker ETL
+
+# Keeps the Bill Tracker (SB 272) current without anyone touching it.
+#
+# Triggers:
+#   - Schedule: every Monday 09:00 UTC (~05:00 ET). Weekly refresh.
+#   - Manual dispatch: run on demand, optionally for a different bill/session.
+#   - Pull requests touching the puller/workflow: offline import smoke only.
+#
+# The scheduled and manual runs pull the live Open States record and commit
+# bill-tracker/data/ back to main ONLY when the data actually changed — so a
+# quiet legislative week produces no commit and no redeploy. Cloudflare Pages
+# redeploys automatically on the data commit.
+#
+# Requires repo secret OPENSTATES_API_KEY (the Plural/Open States UUID key).
+
+on:
+  schedule:
+    # 09:00 UTC every Monday.
+    - cron: "0 9 * * 1"
+  workflow_dispatch:
+    inputs:
+      bill:
+        description: "Bill identifier to track (e.g. SB 272)"
+        required: false
+        default: "SB 272"
+      session:
+        description: "Delaware legislative session"
+        required: false
+        default: "153"
+      reason:
+        description: "Why is this run being triggered manually?"
+        required: false
+        default: "manual refresh"
+  pull_request:
+    paths:
+      - "etl/sources/openstates_bill.py"
+      - ".github/workflows/bill-tracker-etl.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  smoke:
+    name: Puller import smoke (offline)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: etl/requirements.txt
+
+      - name: Install ETL dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r etl/requirements.txt
+
+      - name: Import + CLI parse check (no network)
+        run: |
+          python -c "import etl.sources.openstates_bill as m; assert hasattr(m, 'pull'); print('openstates_bill imports OK')"
+          python -m etl.sources.openstates_bill --help >/dev/null && echo "CLI parses OK"
+
+  refresh:
+    name: Refresh bill data + publish
+    needs: smoke
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout (full history; we may commit back)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: etl/requirements.txt
+
+      - name: Install ETL dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r etl/requirements.txt
+
+      - name: Pull live bill record
+        # Inputs are passed via env (never interpolated into the shell) to avoid
+        # workflow-input command injection.
+        env:
+          OPENSTATES_API_KEY: ${{ secrets.OPENSTATES_API_KEY }}
+          BILL: ${{ github.event.inputs.bill || 'SB 272' }}
+          SESSION: ${{ github.event.inputs.session || '153' }}
+        run: |
+          set -euo pipefail
+          python -m etl.sources.openstates_bill --bill "$BILL" --session "$SESSION" --out bill-tracker/data
+
+      - name: Validate bill.json is well-formed
+        run: |
+          python -c "import json, pathlib; \
+            b = json.loads(pathlib.Path('bill-tracker/data/bill.json').read_text()); \
+            assert b.get('identifier'), 'bill.json missing identifier'; \
+            assert b.get('sponsors'), 'bill.json missing sponsors'; \
+            print(f\"{b['identifier']} ok: {len(b['sponsors'])} sponsors, {len(b['actions'])} actions, {len(b['votes'])} recorded vote(s)\")"
+
+      - name: Commit refreshed data back to main (only when it changed)
+        run: |
+          set -euxo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add bill-tracker/data/
+          if git diff --cached --quiet; then
+            echo "No data changes this run — nothing to commit."
+            exit 0
+          fi
+          REASON="${{ github.event.inputs.reason || 'scheduled weekly refresh' }}"
+          git commit -m "Bill Tracker: refresh bill-tracker/data (${REASON})"
+          git push origin HEAD:main

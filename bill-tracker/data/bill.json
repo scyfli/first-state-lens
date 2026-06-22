@@ -1,0 +1,293 @@
+{
+  "generated_at": "2026-06-22T21:46:46Z",
+  "session": "153",
+  "identifier": "SB 272",
+  "title": "AN ACT TO AMEND TITLE 14 AND TITLE 29 OF THE DELAWARE CODE RELATING TO PROJECT LABOR AGREEMENTS FOR SCHOOL DISTRICT PUBLIC WORKS CONTRACTS.",
+  "abstract": "This Act requires that if public works project is for a school district and has an aggregate cost of $1 million or more, a contract relating to that public works project, advertised after December 31, 2026, must include a project labor agreement with the Delaware Building and Construction Trades Council unless there was only 1 bid for the craft under the contract. \r\n\r\nA project labor agreement is a type of collective bargaining agreement in the construction industry that is generally negotiated before construction begins. Project labor agreements are intended to provide a legally binding and enforceable contract primarily related to labor conditions and labor-management relations. \r\n\r\nThe requirements under this Act are not regulatory. Under existing law, school districts must comply with the procurement requirements for State agencies under Chapter 69 of Title 29. As such, the requirements under this Act apply only to contracts where this State is acting as a market participant and has a proprietary interest.",
+  "subjects": [],
+  "status": {
+    "latest_action_date": "2026-06-10",
+    "latest_action_description": "Reported Out of Committee (Labor) in House with 8 On Its Merits",
+    "first_action_date": "2026-03-26",
+    "latest_passage_date": "2026-05-21"
+  },
+  "sponsors": [
+    {
+      "name": "John \"Jack\" Walsh",
+      "classification": "primary",
+      "primary": true
+    },
+    {
+      "name": "Bryan Townsend",
+      "classification": "primary",
+      "primary": true
+    },
+    {
+      "name": "Edward S. Osienski",
+      "classification": "primary",
+      "primary": true
+    },
+    {
+      "name": "Brian Pettyjohn",
+      "classification": "primary",
+      "primary": true
+    },
+    {
+      "name": "Claire Snyder-Hall",
+      "classification": "primary",
+      "primary": true
+    },
+    {
+      "name": "Spiros Mantzavinos",
+      "classification": "primary",
+      "primary": true
+    },
+    {
+      "name": "Marie Pinkney",
+      "classification": "primary",
+      "primary": true
+    },
+    {
+      "name": "Ray Seigfried",
+      "classification": "primary",
+      "primary": true
+    },
+    {
+      "name": "Bryant L. Richardson",
+      "classification": "primary",
+      "primary": true
+    },
+    {
+      "name": "Franklin D. Cooke",
+      "classification": "primary",
+      "primary": true
+    },
+    {
+      "name": "Eric Morrison",
+      "classification": "primary",
+      "primary": true
+    },
+    {
+      "name": "Madinah Wilson-Anton",
+      "classification": "primary",
+      "primary": true
+    }
+  ],
+  "actions": [
+    {
+      "date": "2026-03-26",
+      "chamber": "Senate",
+      "description": "Introduced and Assigned to Labor Committee in Senate"
+    },
+    {
+      "date": "2026-04-16",
+      "chamber": "Senate",
+      "description": "Reported Out of Committee (Labor) in Senate with 1 Favorable, 3 On Its Merits"
+    },
+    {
+      "date": "2026-05-21",
+      "chamber": "Senate",
+      "description": "Amendment SA 1 to SB 272 - Introduced and Placed With Bill"
+    },
+    {
+      "date": "2026-05-21",
+      "chamber": "Senate",
+      "description": "Amendment SA 1 to SB 272 - Passed By Senate. Votes: 20 YES 1 ABSENT"
+    },
+    {
+      "date": "2026-05-21",
+      "chamber": "Senate",
+      "description": "Passed By Senate. Votes: 15 YES 5 NO 1 ABSENT"
+    },
+    {
+      "date": "2026-06-04",
+      "chamber": "House",
+      "description": "Assigned to Labor Committee in House"
+    },
+    {
+      "date": "2026-06-10",
+      "chamber": "House",
+      "description": "Reported Out of Committee (Labor) in House with 8 On Its Merits"
+    }
+  ],
+  "votes": [
+    {
+      "date": "2026-05-21",
+      "motion": "SM",
+      "result": "pass",
+      "chamber": "Senate",
+      "counts": {
+        "yes": 15,
+        "no": 5,
+        "other": 1
+      },
+      "members": [
+        {
+          "name": "Bryan Townsend",
+          "party": "Democratic",
+          "chamber": "Senate",
+          "district": "11",
+          "option": "yes"
+        },
+        {
+          "name": "Daniel Cruce",
+          "party": "Democratic",
+          "chamber": "Senate",
+          "district": "1",
+          "option": "yes"
+        },
+        {
+          "name": "Darius J. Brown",
+          "party": "Democratic",
+          "chamber": "Senate",
+          "district": "2",
+          "option": "yes"
+        },
+        {
+          "name": "David P. Sokola",
+          "party": "Democratic",
+          "chamber": "Senate",
+          "district": "8",
+          "option": "yes"
+        },
+        {
+          "name": "John \"Jack\" Walsh",
+          "party": "Democratic",
+          "chamber": "Senate",
+          "district": "9",
+          "option": "yes"
+        },
+        {
+          "name": "Kyra L. Hoffner",
+          "party": "Democratic",
+          "chamber": "Senate",
+          "district": "14",
+          "option": "yes"
+        },
+        {
+          "name": "Laura V. Sturgeon",
+          "party": "Democratic",
+          "chamber": "Senate",
+          "district": "4",
+          "option": "yes"
+        },
+        {
+          "name": "Marie Pinkney",
+          "party": "Democratic",
+          "chamber": "Senate",
+          "district": "13",
+          "option": "yes"
+        },
+        {
+          "name": "Nicole Poore",
+          "party": "Democratic",
+          "chamber": "Senate",
+          "district": "12",
+          "option": "yes"
+        },
+        {
+          "name": "Ray Seigfried",
+          "party": "Democratic",
+          "chamber": "Senate",
+          "district": "5",
+          "option": "yes"
+        },
+        {
+          "name": "Russell Huxtable",
+          "party": "Democratic",
+          "chamber": "Senate",
+          "district": "6",
+          "option": "yes"
+        },
+        {
+          "name": "S. Elizabeth Lockman",
+          "party": "Democratic",
+          "chamber": "Senate",
+          "district": "3",
+          "option": "yes"
+        },
+        {
+          "name": "Spiros Mantzavinos",
+          "party": "Democratic",
+          "chamber": "Senate",
+          "district": "7",
+          "option": "yes"
+        },
+        {
+          "name": "Stephanie L. Hansen",
+          "party": "Democratic",
+          "chamber": "Senate",
+          "district": "10",
+          "option": "yes"
+        },
+        {
+          "name": "Trey Paradee",
+          "party": "Democratic",
+          "chamber": "Senate",
+          "district": "17",
+          "option": "yes"
+        },
+        {
+          "name": "Brian Pettyjohn",
+          "party": "Republican",
+          "chamber": "Senate",
+          "district": "19",
+          "option": "no"
+        },
+        {
+          "name": "Bryant L. Richardson",
+          "party": "Republican",
+          "chamber": "Senate",
+          "district": "21",
+          "option": "no"
+        },
+        {
+          "name": "Dave G. Lawson",
+          "party": "Republican",
+          "chamber": "Senate",
+          "district": "15",
+          "option": "no"
+        },
+        {
+          "name": "David L. Wilson",
+          "party": "Republican",
+          "chamber": "Senate",
+          "district": "18",
+          "option": "no"
+        },
+        {
+          "name": "Eric Buckson",
+          "party": "Republican",
+          "chamber": "Senate",
+          "district": "16",
+          "option": "no"
+        },
+        {
+          "name": "Gerald W. Hocker",
+          "party": "Republican",
+          "chamber": "Senate",
+          "district": "20",
+          "option": "other"
+        }
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "note": "Fiscal Note",
+      "url": "https://legis.delaware.gov/json/BillDetail/GetPdfDocument?fileAttachmentId=655440"
+    },
+    {
+      "note": "SA 1 to SB 272",
+      "url": "http://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=143370&legislationTypeId=5&docTypeId=2"
+    }
+  ],
+  "source": {
+    "name": "Open States v3 (Plural Policy)",
+    "openstates_url": "https://openstates.org/de/bills/153/SB272/",
+    "endpoint": "https://v3.openstates.org/bills/Delaware/153/SB%20272",
+    "official": "https://legis.delaware.gov/",
+    "license": "Public domain dedication (attribution requested)",
+    "note": "Status, sponsors, actions, and recorded votes are the official legislative record. Voice votes and unrecorded committee actions are not itemized. For the authoritative record, see legis.delaware.gov."
+  }
+}
