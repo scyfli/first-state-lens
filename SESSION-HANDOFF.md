@@ -1,36 +1,46 @@
 # First State Lens — Session Handoff
-**2026-06-16 · FirmSide AI Civic Analytics Lab · resume contract**
+**2026-06-22 · FirmSide AI Civic Analytics Lab · resume contract**
 
 > Read this first, then `ISA.md` (project system of record, slug `fsl-civic-suite`).
 > Vault context (methodology/sessions) lives separately: `first-state-lens-vault/11-Sessions/CONTEXT.md`.
 
 ## Where we are (one paragraph)
-The project pivoted from a gov/electeds tool to a **public civic-data utility** ("data for the people", FirmSide AI Civic Analytics Lab). **Wave 1 COMPLETE** (5 dashboards) + **Wave 2 #1 (Votes) shipped** — 6 new dashboards live, all gated + noindex, all pushed: Federal Dollars, State Spending, Childcare, Schools, Water, Votes. Homepage now links all 8 (incl. original Clean Slate + DGI). This session was largely a hard debugging arc: the bar charts weren't showing color, and after wrongly chasing cache/deploy I found the real bug — `.bar-fill` was an inline `<span>` (width/height ignored). Fixed with `display:block` (commit a2ef409), confirmed live in production CSS.
+**PUBLIC LAUNCH COMPLETE.** firststatelens.com is live in full public production. The six post-pivot dashboards (Schools, Water, Spending, Federal, Childcare, Votes) plus the homepage are public + indexable; DGI Food Access + Clean Slate are HELD (gated + noindex + robots-disallowed + unlinked) pending a de-advocacy rebuild. This session: found CI red and fixed it (a shared `color-contrast` defect — the per-KPI source citations + footer + in-table links all failed WCAG AA; one CSS pass turned all 6 green), ran a 9-page parallel content audit (the 6 new pages passed the neutrality rubric, the 2 oldest failed on advocacy framing + placeholder data → held), then executed the RED flip (removed noindex + the password gate from the 6, scoped noindex to the held dirs, added robots.txt + sitemap.xml, pulled the held cards + soft-launch copy from the homepage). All live-verified.
 
 ## Commit
-- **HEAD: `a2ef409`** on `main`, pushed to `origin/main` (`scyfli/first-state-lens`). Tree clean (after this handoff commit).
-- Session commits: `af096ea` Federal · `836b201` Spending · `62e8afc` Childcare · `c485ec3` Schools · `b2aa0c8` Water · `bef7445` Votes · `4e890ea` readability pass · `a1093ff` Cache-Control fix · `143bb41` homepage nav · `a2ef409` **bar-fill display:block fix** (the color bug).
+- **HEAD: `d6b984e`** on `main`, pushed to `origin/main` (`scyfli/first-state-lens`). Tree clean.
+- Session commits: `46d1fb8` a11y kpi-source contrast + widened CI paths · `0846928` a11y footer + base link color (a11y GREEN) · `fb397c1` ISA ISC-8 · `2e5b464` **PUBLIC LAUNCH flip** · `d6b984e` ISA D18/D19 launch record.
+- **a11y CI GREEN** on the launch commit `2e5b464` (run 27980626995 = PASS, all 9 routes 0 serious/critical).
 
-## In-flight / blocked
-- **COLOR BUG CLOSED — Mark confirmed 2026-06-16** (fresh browser shows bar colors clean; original browser had cached pre-fix CSS). The `display:block` fix (`a2ef409`) is verified working end-to-end.
-- **Wave 2 #2 (Federal campaign finance, FEC) NOT built** — last remaining Wave-2 dashboard. FEC/data.gov key is in the keys file (line 6).
-- **CI-secret wiring owed (ISA D16):** `OPENSTATES_API_KEY` + `FEC_API_KEY` need adding as GitHub repo secrets + the ETL workflow extended to run the new pullers (same as `CENSUS_API_KEY`). Until then Votes/Childcare/FEC serve their committed static snapshot.
+## Live-verified (2026-06-22)
+- home / water / votes → 200, **no** X-Robots-Tag (indexable). dgi / clean-slate → 200, **noindex** (held).
+- robots.txt + sitemap.xml → 200. water renders ungated with neutrality header. Homepage: 6 cards, 0 held-page links, 0 gate/soft-launch strings.
+
+## In-flight / fast-follows (mostly Mark's manual)
+1. **Google Search Console** — submit `https://firststatelens.com/sitemap.xml`. This is the actual "tell Google" step; site is public + indexable but undiscovered until submitted. (Mark)
+2. **Delete `Desktop/First State Lens Keys.txt`** — sensitive file, still owed from 2026-06-15. (Mark)
+3. **CI secret wiring** — add `OPENSTATES_API_KEY` + `FEC_API_KEY` as repo secrets + extend the ETL workflow to run those pullers (same as `CENSUS_API_KEY`). Until then Votes + Childcare serve their committed June-15 snapshots (accurate, dated). (ISA D16)
+4. **Held-page rebuild** — DGI + Clean Slate need de-advocacy rewrite + real data + a neutrality header before they rejoin the public suite. Plus unbuilt **FEC campaign finance** (Wave 2 #2) + **Reassessment-Kent** (Wave 3). This is the next real build block.
+5. **Homepage voice (my choices, pending Mark's review)** — status pill set to "LIVE · DELAWARE", footer to "PUBLIC RELEASE · FIRMSIDE AI · CIVIC ANALYTICS LAB". Reword if not his.
+
+## Content artifacts shipped (not in this repo — `Desktop/TrazynOutPut/2026-06-22_fsl-article/`)
+- `FSL-header.png` — 1280×720 titled header image built from the real logo ("Data to the People").
+- `ARTICLE-v1.md` — 514-word equity-mission article with all 6 dashboard links (M14 + condescension gates clean).
+- `POST-FOR-ARTICLE.md` — 167-word LinkedIn post that runs the article.
+- `2026-06-22_fsl-linkedin-nonprofits/POST-v1.md` — earlier nonprofit-first teaser post.
+- Open: Mark publishes the article (cover = FSL-header.png) then the post; optional hashtag set; optional 2x image re-render.
 
 ## Next action (in order)
-1. ~~Get Mark's confirmation the colors render~~ — DONE, confirmed 2026-06-16.
-2. Build **FEC campaign-finance dashboard** to close Wave 2 (probe api.open.fec.gov with the data.gov key first, per the established probe-before-build pattern).
-3. Wire `OPENSTATES_API_KEY` + `FEC_API_KEY` into CI (repo secrets + `.github/workflows`).
-4. **Mark: delete `Desktop/First State Lens Keys.txt`** (Census wired; OS+FEC keys recorded). Sensitive file hygiene.
-5. The **public-launch flip** (remove gate + noindex) remains the one RED checkpoint — Mark's explicit call only.
+1. If continuing FSL build: pick up the **held-page rebuild** (DGI + Clean Slate to the neutrality standard) OR build **FEC campaign finance** (data.gov key in the keys file; probe `api.open.fec.gov` before building, per the probe-before-build pattern).
+2. Wire the two CI secrets (#3 above) so Votes/Childcare refresh.
+3. Nudge Mark on the manual fast-follows (GSC, keys-file deletion).
 
 ## Rollback envelope
-- Color fix bad? `git revert a2ef409` (restores pre-display:block — bars revert to invisible-fill, not a crash).
-- Homepage cards bad? `git revert 143bb41`.
-- Cache header bad? `git revert a1093ff`.
-- Any new dashboard bad? each is a self-contained dir + `etl/sources/<puller>.py` + an a11y ROUTES entry; revert its feat commit. DGI pipeline untouched all session.
+- Need to un-launch (re-gate everything)? `git revert 2e5b464` restores noindex + the password gate on the 6 + the soft-launch homepage. Held pages were untouched by the flip, so they're unaffected.
+- a11y contrast fix bad? `git revert 0846928 46d1fb8` (bars/citations revert to the low-contrast color; not a crash).
+- DGI pipeline untouched all session (additive-only invariant held).
 
 ## Verify on resume
-- `git status` clean, `git log origin/main -1` = a2ef409 (or later).
-- Live: `curl -s https://firststatelens.com/assets/fsl.css | grep '.bar-fill { display: block'` → present.
-- All 6 dashboards 200 + linked from homepage (`curl https://firststatelens.com/ | grep -c 'dashboard-card'` ≥ 8).
-- DGI test suite (last green): 225 passed / 1 skipped (session-26; not re-run this session — civic pullers verified by live data probes + node --check).
+- `git status` clean; `git log origin/main -1` = `d6b984e` (or later).
+- Live: `curl -sI https://firststatelens.com/ | grep -i x-robots` → absent (public); `curl -sI https://firststatelens.com/dgi-food-access/ | grep -i x-robots` → noindex (held).
+- a11y CI green on HEAD; DGI ETL cron green (last run 2026-06-21).
