@@ -41,6 +41,11 @@ body {
   line-height: 1.5; -webkit-font-smoothing: antialiased; min-height: 100vh;
   position: relative; overflow-x: hidden;
 }
+/* Base link color — accessible default (var(--text-secondary) ≈ 12:1 on the dark
+   surface). Footer + lead-card links already used this convention; this guarantees
+   no unstyled link (e.g. in-table external links) falls back to inaccessible UA blue.
+   WCAG 2.2 AA color-contrast. */
+a { color: var(--text-secondary); text-decoration: underline; }
 body::before {
   content: ''; position: fixed; inset: 0; pointer-events: none; z-index: 0;
   background:
@@ -133,7 +138,7 @@ body::after {
 
 /* Footer */
 .site-footer { margin-top: 56px; padding-top: 24px; border-top: 1px solid var(--border-subtle); display: flex; flex-direction: column; gap: 10px; font-size: 12px; color: var(--text-tertiary); }
-.footer-build { font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 0.04em; color: rgba(100, 116, 139, 0.9); }
+.footer-build { font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 0.04em; color: var(--text-tertiary); }
 .footer-links { display: flex; gap: 18px; flex-wrap: wrap; }
 .footer-links a { color: var(--text-secondary); text-decoration: underline; }
 
