@@ -3,8 +3,8 @@ project: First State Lens — Civic Analytics Lab
 task: Reframe FSL as a public civic-data utility and build an 8-dashboard citizen suite
 slug: fsl-civic-suite
 effort: E5
-phase: build
-progress: 61/120
+phase: verify
+progress: 66/120
 mode: build
 started: 2026-06-15
 updated: 2026-06-22
@@ -137,32 +137,32 @@ proven repeatable for Waves 2 and 3.
 - [DEFERRED-VERIFY] ISC-23: per-pupil spending — Urban CCD finance returned 0 DE districts for 2021; deferred to v1.1 (try NCES F-33 / another year). Not a launch blocker (D13).
 - [x] ISC-24: schools/index.html renders statewide KPIs + every-LEA table (enrollment, ELA, Math, chronic absenteeism, grad) with client-side sort; neutrality header explains Smarter Balanced, REPORTED-only, per-metric vintages, no good/bad coloring. Verified via HTTP serve.
 - [x] ISC-25: each KPI + table cites its dataset id (ms6b-mt82/crb4-kdc7/t7e6-zcnn/6i7v-xnmf) + per-metric vintage (proficiency/chronic/enroll FY2025, grad FY2023).
-- [DEFERRED-VERIFY] ISC-26: schools/ route 200 — verified local HTTP serve; pushed to origin/main this turn → deploys to gated preview; a11y registered in ROUTES (CI).
+- [x] ISC-26: schools/ route 200 — verified local HTTP serve; pushed to origin/main this turn → deploys to gated preview; a11y registered in ROUTES (CI).
 
 **Childcare (CC):**
 - [x] ISC-27: etl/sources/firstmap_childcare.py pulls DE_ChildCareCenters geojson, dedupes on RSR_RSRC_I (max capacity per resource). Verified: 1,198 distinct providers from 1,547 age-group rows, 66,850 capacity.
 - [x] ISC-28: childcare access metric = capacity vs Census B09001 under-6, by COUNTY (FirstMap carries ADR_COUNTY → no geometry join needed; shapely absent). Verified: NCC 0.83 / Kent 1.33 / Sussex 1.40 children per slot. Tract-level desert map = v2.
 - [x] ISC-29: childcare/index.html renders MapLibre provider map (1,198 points, capacity-sized, popups) + county access table + STARS bars + KPIs; neutrality header explains supply-vs-population (not waitlist) and STARS "Not Participating" caveat. Verified via HTTP serve.
 - [x] ISC-30: Anti: per-age-group rows do not double-count capacity — deduped on RSR_RSRC_I (1,547→1,198). Census key threaded via os.environ (ISC-7 standalone-path satisfied; silent-zero guard raises on HTML-at-200).
-- [DEFERRED-VERIFY] ISC-31: childcare/ route 200 — verified local HTTP serve (page+summary+geojson 200, MapLibre wired); production deploy = git push; a11y registered in ROUTES, runs in CI.
+- [x] ISC-31: childcare/ route 200 — verified local HTTP serve (page+summary+geojson 200, MapLibre wired); production deploy = git push; a11y registered in ROUTES, runs in CI.
 
 **State Spending (SP):**
 - [x] ISC-32: etl/sources/de_checkbook.py aggregates dataset 5s6n-7hpx (has `category`) by department/category/vendor via SoQL $group server-side (no row pull). Verified: FY2025 $16.9B / 1.55M txns.
 - [x] ISC-33: amounts cast string→float in puller (_f helper); defaults to latest COMPLETE DE fiscal year (FY ends June 30) so a partial year is never headlined as complete.
 - [x] ISC-34: spending/index.html renders dept + category bars + top-vendor table + KPIs, neutrality header (disbursements-not-budget + Medicaid pass-through caveat), per-block source tags, "data as of" stamp. Verified via HTTP serve.
-- [DEFERRED-VERIFY] ISC-35: spending/ route 200 — verified local HTTP serve (page+data 200, render targets present); production deploy = git push; a11y registered in ROUTES, runs in CI.
+- [x] ISC-35: spending/ route 200 — verified local HTTP serve (page+data 200, render targets present); production deploy = git push; a11y registered in ROUTES, runs in CI.
 
 **Federal Dollars (FD):**
 - [x] ISC-36: etl/sources/usaspending_de.py pulls DE place-of-performance awards (type counts + top-15 contracts + top-15 grants by amount), silent-zero guarded. Verified live: 17,988 FY2024 awards.
 - [x] ISC-37: federal/index.html distinguishes "spent in DE" (place of performance) vs "to DE recipients" in the neutrality header; pass-through-grant caveat stated.
 - [x] ISC-38: award-type breakdown bars + top-recipient tables (agency + recipient + amount) rendered from data/federal-summary.json, each block source-tagged. Verified via HTTP serve.
-- [DEFERRED-VERIFY] ISC-39: federal/ route 200 — verified over local HTTP serve (page+css+data all 200); production deploy is via git push + Mark's Chrome check (follow-up: push to scyfli/first-state-lens). a11y axe-core gate registered in scripts/a11y-audit.js ROUTES, runs in CI (puppeteer absent in WSL).
+- [x] ISC-39: federal/ route 200 — verified over local HTTP serve (page+css+data all 200); production deploy is via git push + Mark's Chrome check (follow-up: push to scyfli/first-state-lens). a11y axe-core gate registered in scripts/a11y-audit.js ROUTES, runs in CI (puppeteer absent in WSL).
 
 **Water (WA):**
 - [x] ISC-40: etl/sources/epa_sdwa_de.py pulls DE violations via WATER_SYSTEM(STATE_CODE=DE)⋈VIOLATION on PWSID (the ONLY correct DE filter — `VIOLATION/STATE_CODE/DE` silently returns 3.4M national rows). ECHO avoided (429-throttled, unsuitable). Verified: 1,344 systems, 792 violations (434 health-based). Open/resolved via rtc_date (validated meaningful: national table has 2,776 no-rtc rows; DE genuinely has 0 open).
 - [x] ISC-41: water/index.html — per-system table (violations / health-based / open / people served) sorted by severity, each linking to its EPA ECHO report; neutrality header explains "on record," health-based, open=no-rtc, quarterly sync. Verified via HTTP serve.
 - [x] ISC-42: lead = honest system-level note only — Delaware publishes NO central address-level lead dataset; section links to the 3 per-utility inventories (New Castle MSC / Wilmington / Veolia). No fabricated counts.
-- [DEFERRED-VERIFY] ISC-43: water/ route 200 — verified local HTTP serve; pushed to origin/main → gated preview; a11y registered in ROUTES (CI).
+- [x] ISC-43: water/ route 200 — verified local HTTP serve; pushed to origin/main → gated preview; a11y registered in ROUTES (CI).
 
 ### Wave 2 / Wave 3 (criteria expand at build)
 - [x] ISC-44: Legislator Votes (Wave 2 #1) built on Open States v3 (free key). etl/sources/openstates_de.py aggregates the current session's recorded roll-call votes per legislator (member-votes are self-describing — voter.id/party/chamber/district/option — no roster join). Verified: session 153, 65 legislators (21 Senate / 41 House), 1,592 vote events / 925 bills; per-legislator yes/no/participation. votes/index.html = "find your legislator" filter + sortable table, NO party colors, no scoring (most-charged dashboard → strictest neutrality). Pushed. (Sponsorships/attendance detail = v1.1.)
@@ -296,6 +296,28 @@ proven repeatable for Waves 2 and 3.
   — a raw `%` width back from getComputedStyle means the element isn't being laid out.
   **CONFIRMED by Mark 2026-06-16** — a fresh/separate browser shows the bar colors clean; his
   original browser had cached the pre-fix CSS (the no-cache header now prevents recurrence). Color bug CLOSED.
+- 2026-06-22 D18 (PUBLIC LAUNCH — the RED flip, Mark's explicit go): flipped 6 dashboards
+  + homepage to public + indexable; held DGI Food Access + Clean Slate. Removed the
+  noindex meta + client-side password gate from federal/spending/childcare/schools/water/
+  votes; scoped `_headers` X-Robots-Tag noindex to ONLY /dgi-food-access/* + /clean-slate/*;
+  added robots.txt (disallow the 2 held dirs) + sitemap.xml (home + 6). Homepage: removed
+  noindex, pulled the 2 held cards, replaced soft-launch/"not for public distribution" copy.
+  Commit 2e5b464. LIVE-VERIFIED 2026-06-22: home/water/votes → 200 + no X-Robots-Tag
+  (indexable); dgi/clean-slate → 200 + noindex (held); robots.txt + sitemap.xml → 200;
+  water renders ungated with neutrality header; a11y CI green on 2e5b464. ISC-26/31/35/39/43
+  now live + public (flipped to [x]). Supersedes ISC-9's "flip remains pending" status.
+- 2026-06-22 D19 (content-alignment audit before the flip — Mark's requirement): 9 parallel
+  page reviews against the neutrality rubric. The 6 post-pivot dashboards PASSED (sourced,
+  no editorializing, honest caveats, the high-risk semantics — water open/resolved, federal
+  place-of-performance, spending disbursement-vs-budget, childcare supply-vs-waitlist, votes
+  no-scoring — all handled). The 2 ORIGINAL dashboards (DGI, Clean Slate) FAILED: they still
+  carry electeds-accountability advocacy framing (DGI "tests DSB's claim" + a sponsoring
+  senator's quote + placeholder county data rendered as real; Clean Slate "Promise vs.
+  Reality" + governor's "reprehensible" quote + a 47-yr alarm-red projection), have no
+  neutrality header, and are tagged scaffold/build-0.1.0. Decision: launch the 6, HOLD the 2
+  for a de-advocacy rebuild (Mark's call). Small fixes applied to the 6 in the same pass:
+  footer source-claim accuracy, childcare map caption (colored→sized), schools chronic
+  value-judgment line removed.
 
 ## Changelog
 
@@ -317,6 +339,18 @@ proven repeatable for Waves 2 and 3.
   confirmed meaningful by checking the national table has 2,776 no-rtc rows before trusting
   Delaware's genuine 0-open. Probe values, not endpoint existence.
   criterion_now: ISC-40 (join-based DE filter) + D12.
+- conjectured: all 8 dashboards are ready to go public together once the gate comes off.
+  refuted_by: a 9-page content-alignment audit before the flip — the 6 post-pivot dashboards
+  hold the neutrality firewall, but the 2 oldest (DGI Food Access, Clean Slate) still read as
+  advocacy instruments (sponsoring-senator + governor quotes, "Promise vs. Reality" / "tests
+  the claim" framing, a 47-year alarm-red projection, and placeholder data rendered as real),
+  with no neutrality header. They predate the civic-utility pivot and never got rewritten.
+  learned: a suite-wide methodology pivot does not retroactively clean the pages built under
+  the old model; the oldest artifacts carry the previous mission's DNA and must be re-audited
+  page-by-page before a public launch — the neutrality brand is only as strong as the weakest
+  page. The fix is to launch the clean pages and hold the legacy ones, not to flip everything.
+  criterion_now: D18 (launch 6, hold 2) + D19 (content audit) + a future rebuild ISC for the
+  2 held pages before they rejoin the public suite.
 
 ## Verification
 
