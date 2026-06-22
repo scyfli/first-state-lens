@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-06-22T21:46:46Z",
+  "dashboard": "bill-tracker",
+  "session": "153",
+  "bill": "SB 272",
+  "sources": {
+    "openstates": {
+      "name": "Open States v3 (Plural Policy)",
+      "openstates_url": "https://openstates.org/de/bills/153/SB272/",
+      "endpoint": "https://v3.openstates.org/bills/Delaware/153/SB%20272",
+      "official": "https://legis.delaware.gov/",
+      "license": "Public domain dedication (attribution requested)",
+      "note": "Status, sponsors, actions, and recorded votes are the official legislative record. Voice votes and unrecorded committee actions are not itemized. For the authoritative record, see legis.delaware.gov."
+    }
+  },
+  "row_counts": {
+    "sponsors": 12,
+    "actions": 7,
+    "recorded_votes": 1
+  }
+}

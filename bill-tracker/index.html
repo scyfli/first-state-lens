@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex, nofollow" />
+<title>Tracking Senate Bill 272 — First State Lens</title>
+<meta name="description" content="A live, nonpartisan tracker for Delaware Senate Bill 272 — project labor agreements for school construction. Status, sponsors, the action timeline, and the recorded Senate vote. Public data, sourced." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/fsl.css" />
+<style>
+  /* Bill Tracker accent: legislative gold — deliberately NOT party red/blue. */
+  :root { --accent-primary: #d8a13a; }
+  .title-eyebrow { color: #d8a13a; border-color: rgba(216,161,58,0.28); background: rgba(216,161,58,0.06); }
+  .title-eyebrow::before { background: #d8a13a; box-shadow: 0 0 6px #d8a13a; }
+  .neutrality { border-left-color: #d8a13a; }
+
+  .progress { display:flex; gap:10px; flex-wrap:wrap; margin:4px 0 8px; }
+  .stage { flex:1 1 150px; border:1px solid var(--border-strong); border-radius:10px; padding:12px 14px; background:var(--surface-base); }
+  .stage .st-step { font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:.08em; text-transform:uppercase; color:var(--text-tertiary); }
+  .stage .st-name { font-weight:600; margin-top:3px; }
+  .stage .st-state { font-size:12px; margin-top:6px; color:var(--text-tertiary); }
+  .stage.done { border-color:rgba(216,161,58,0.5); }
+  .stage.done .st-state { color:#d8a13a; }
+  .stage.active { border-color:var(--text-primary); }
+  .stage.active .st-state { color:var(--text-primary); }
+
+  .timeline { list-style:none; margin:0; padding:0; }
+  .timeline li { position:relative; padding:10px 0 10px 26px; border-left:2px solid var(--border-strong); margin-left:6px; }
+  .timeline li::before { content:""; position:absolute; left:-7px; top:16px; width:10px; height:10px; border-radius:50%; background:var(--surface-base); border:2px solid #d8a13a; }
+  .timeline .tl-date { font-family:'JetBrains Mono',monospace; font-size:11px; color:var(--text-tertiary); letter-spacing:.04em; }
+  .timeline .tl-chamber { font-family:'JetBrains Mono',monospace; font-size:10px; text-transform:uppercase; letter-spacing:.06em; color:#d8a13a; margin-left:8px; }
+  .timeline .tl-desc { margin-top:2px; }
+
+  .vote-counts { display:flex; gap:10px; flex-wrap:wrap; margin:6px 0 14px; }
+  .vc { border:1px solid var(--border-strong); border-radius:8px; padding:8px 14px; font-family:'JetBrains Mono',monospace; font-size:13px; }
+  .vc b { font-size:18px; display:block; }
+  .badge { font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:.05em; text-transform:uppercase; padding:2px 8px; border-radius:6px; border:1px solid var(--border-strong); color:var(--text-secondary); }
+
+  .sponsors { display:grid; grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); gap:8px; }
+  .sponsor { border:1px solid var(--border-strong); border-radius:8px; padding:9px 12px; font-size:14px; }
+  .sponsor .sp-role { font-family:'JetBrains Mono',monospace; font-size:10px; text-transform:uppercase; letter-spacing:.06em; color:var(--text-tertiary); }
+
+  .doc-link { display:inline-block; margin:4px 10px 4px 0; }
+  .positions { display:grid; gap:12px; }
+  .pos { border:1px solid var(--border-strong); border-left:3px solid var(--border-strong); border-radius:8px; padding:12px 16px; }
+  .pos h4 { margin:0 0 6px; font-size:14px; }
+  .pos .pos-tag { font-family:'JetBrains Mono',monospace; font-size:10px; text-transform:uppercase; letter-spacing:.06em; color:var(--text-tertiary); }
+  .pos ul { margin:6px 0 0; padding-left:18px; font-size:14px; color:var(--text-secondary); }
+  .pos .pos-src { font-size:12px; color:var(--text-tertiary); margin-top:8px; }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark">FS</div>
+      <div class="brand-text">
+        <div class="brand-name">First State Lens</div>
+        <div class="brand-tagline">Civic Analytics Lab · Delaware</div>
+      </div>
+    </div>
+    <div class="topbar-meta">
+      <div class="meta-item"><span class="pulse-dot"></span><span>LIVE DATA</span></div>
+      <div class="meta-item"><span id="meta-session">SESSION —</span></div>
+    </div>
+  </header>
+
+  <main>
+  <div class="title-block">
+    <span class="title-eyebrow">Bill Tracker · Delaware</span>
+    <h1 class="title-h1">Tracking <span class="highlight" id="bill-id">Senate Bill 272</span></h1>
+    <p class="title-sub" id="bill-title">Project labor agreements for school district public works contracts. Follow where this bill is, who sponsored it, and how members voted — the official record, updated as it moves.</p>
+  </div>
+
+  <p class="neutrality">
+    <strong>How to read this.</strong> This tracker shows <strong>where a bill is and how members voted</strong>, drawn from the public Open States record of the Delaware General Assembly and the official record at legis.delaware.gov. The status, sponsors, action timeline, and recorded roll-call votes are the legislative record. The "Positions on the record" section summarizes public reporting and attributes each statement to a named source. First State Lens takes <strong>no position</strong> on this bill, does not score legislators, and uses no party colors. We show you the data; you decide.
+  </p>
+
+  <section class="kpi-grid" aria-label="Bill figures">
+    <div class="kpi-card">
+      <div class="kpi-label">Current Status</div>
+      <div class="kpi-value" id="kpi-status" style="font-size:18px;">—</div>
+      <div class="kpi-context" id="kpi-status-date">Most recent recorded action.</div>
+      <div class="kpi-source">SOURCE · OPEN STATES</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Sponsors</div>
+      <div class="kpi-value" id="kpi-sponsors">—</div>
+      <div class="kpi-context">Legislators formally sponsoring the bill (primary sponsors).</div>
+      <div class="kpi-source">SOURCE · OPEN STATES</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Senate Floor Vote</div>
+      <div class="kpi-value" id="kpi-vote" style="font-size:22px;">—</div>
+      <div class="kpi-context" id="kpi-vote-ctx">Recorded roll-call on Senate passage.</div>
+      <div class="kpi-source">SOURCE · OPEN STATES</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Introduced</div>
+      <div class="kpi-value" id="kpi-intro" style="font-size:22px;">—</div>
+      <div class="kpi-context">Date the bill was first introduced this session.</div>
+      <div class="kpi-source">SOURCE · LEGIS.DELAWARE.GOV</div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="prog-title">
+    <div class="section-head">
+      <h2 class="section-title" id="prog-title">Where it stands</h2>
+      <span class="section-meta">CHAMBER PROGRESS</span>
+    </div>
+    <div class="panel">
+      <div class="progress" id="progress"></div>
+      <p class="kpi-source" id="status-note" style="margin-top:6px;"></p>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="sum-title">
+    <div class="section-head">
+      <h2 class="section-title" id="sum-title">What the bill does</h2>
+      <span class="section-meta">OFFICIAL SYNOPSIS</span>
+    </div>
+    <div class="panel">
+      <p id="abstract" style="font-size:15px; line-height:1.6;">—</p>
+      <p class="kpi-source" style="margin-top:14px;">SOURCE · OPEN STATES v3 · OFFICIAL TEXT AT LEGIS.DELAWARE.GOV</p>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="tl-title">
+    <div class="section-head">
+      <h2 class="section-title" id="tl-title">Action timeline</h2>
+      <span class="section-meta">EVERY RECORDED ACTION</span>
+    </div>
+    <div class="panel">
+      <ul class="timeline" id="timeline"><li>Loading…</li></ul>
+      <p class="kpi-source" style="margin-top:14px;">SOURCE · OPEN STATES v3 · DELAWARE GENERAL ASSEMBLY</p>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="rc-title">
+    <div class="section-head">
+      <h2 class="section-title" id="rc-title">The recorded vote</h2>
+      <span class="section-meta">ROLL CALL · BY MEMBER</span>
+    </div>
+    <div class="panel">
+      <div id="vote-summary"></div>
+      <table class="data-table">
+        <caption>How each member voted on the recorded roll call. First State Lens uses no party colors and takes no position; this is the official record.</caption>
+        <thead><tr>
+          <th scope="col">Member</th>
+          <th scope="col">Chamber</th>
+          <th scope="col">Party</th>
+          <th scope="col" class="num">District</th>
+          <th scope="col">Vote</th>
+        </tr></thead>
+        <tbody id="vote-body"><tr><td colspan="5">Loading…</td></tr></tbody>
+      </table>
+      <p class="kpi-source" style="margin-top:16px;">SOURCE · OPEN STATES v3 · OFFICIAL RECORD AT LEGIS.DELAWARE.GOV</p>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="sp-title">
+    <div class="section-head">
+      <h2 class="section-title" id="sp-title">Sponsors</h2>
+      <span class="section-meta" id="sp-count">—</span>
+    </div>
+    <div class="panel">
+      <div class="sponsors" id="sponsors"></div>
+      <p class="kpi-source" style="margin-top:16px;">SOURCE · OPEN STATES v3 · DELAWARE GENERAL ASSEMBLY</p>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="doc-title">
+    <div class="section-head">
+      <h2 class="section-title" id="doc-title">Official documents</h2>
+      <span class="section-meta">PRIMARY SOURCES</span>
+    </div>
+    <div class="panel">
+      <div id="documents">—</div>
+      <p class="kpi-source" style="margin-top:14px;">SOURCE · LEGIS.DELAWARE.GOV</p>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="pos-title">
+    <div class="section-head">
+      <h2 class="section-title" id="pos-title">Positions on the record</h2>
+      <span class="section-meta">ATTRIBUTED · NO POSITION TAKEN</span>
+    </div>
+    <div class="panel">
+      <p style="font-size:13px; color:var(--text-tertiary); margin:0 0 14px;">Summarized from public reporting. Each position is attributed to a named source. First State Lens takes no position and presents these only so the public record of the debate is visible alongside the legislative record.</p>
+      <div class="positions">
+        <div class="pos">
+          <span class="pos-tag">In support</span>
+          <h4>Delaware Building and Construction Trades Council; Rep. Edward Osienski</h4>
+          <ul>
+            <li>Project labor agreements set fair wages, worker protections, and binding dispute-resolution procedures on state-funded projects.</li>
+            <li>Council President Jim Maravelias has framed the bill as protecting workers; Rep. Osienski, a retired union tradesman, is the lead House cosponsor.</li>
+          </ul>
+          <p class="pos-src">Source · <a href="https://spotlightdelaware.org/2026/06/19/lawmakers-debate-whether-to-prioritize-union-labor-on-major-projects/">Spotlight Delaware, June 19, 2026</a></p>
+        </div>
+        <div class="pos">
+          <span class="pos-tag">In opposition</span>
+          <h4>Associated Builders and Contractors of Delaware; minority-business organizations</h4>
+          <ul>
+            <li>Roughly 90% of Delaware's construction workforce is non-union (merit shop), raising questions about available union labor to meet demand.</li>
+            <li>The Black Chamber of Commerce (founder/CEO Ayanna Khan) and La Plaza (director Mary DuPont) have raised concerns about access for minority- and Latino-owned businesses.</li>
+            <li>National research cited in coverage estimates PLAs raise project costs by roughly 10–30%.</li>
+          </ul>
+          <p class="pos-src">Source · <a href="https://spotlightdelaware.org/2026/06/19/lawmakers-debate-whether-to-prioritize-union-labor-on-major-projects/">Spotlight Delaware, June 19, 2026</a></p>
+        </div>
+        <div class="pos">
+          <span class="pos-tag">Fiscal caution</span>
+          <h4>State Budget Director Brian Maxwell</h4>
+          <ul>
+            <li>Warned that the requirement could increase the cost of affected school construction projects.</li>
+          </ul>
+          <p class="pos-src">Source · <a href="https://spotlightdelaware.org/2026/06/19/lawmakers-debate-whether-to-prioritize-union-labor-on-major-projects/">Spotlight Delaware, June 19, 2026</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-build" id="footer-build">DATA: not yet loaded</div>
+    <div class="footer-links">
+      <a href="https://legis.delaware.gov/BillDetail?LegislationId=143370" id="official-link">legis.delaware.gov (official source)</a>
+      <a href="#" id="os-link">Open States — SB 272</a>
+      <a href="/">First State Lens home</a>
+    </div>
+    <div>First State Lens is a FirmSide AI Civic Analytics Lab project. Nonpartisan. Every figure is sourced to a public record. We show you the data; you decide.</div>
+  </footer>
+
+</div>
+
+<script>
+(function () {
+  const esc = (s) => String(s == null ? "" : s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const fmtDate = (s) => {
+    if (!s) return "—";
+    const d = new Date(s + "T00:00:00");
+    return isNaN(d) ? s : d.toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" });
+  };
+  const optLabel = (o) => ({ yes: "Yes", no: "No" }[o] || "Other / Absent");
+
+  function buildProgress(b) {
+    const acts = b.actions || [];
+    const has = (re) => acts.some((a) => re.test(a.description || ""));
+    const senatePassed = has(/Passed By Senate/i);
+    const inHouse = acts.some((a) => a.chamber === "House");
+    const housePassed = has(/Passed By House/i);
+    const signed = has(/Signed by Governor|Enacted/i);
+    const stages = [
+      { name: "Introduced", done: acts.length > 0, active: false, state: acts.length ? "Done" : "—" },
+      { name: "Senate", done: senatePassed, active: !senatePassed && !inHouse, state: senatePassed ? "Passed" : "In progress" },
+      { name: "House", done: housePassed, active: inHouse && !housePassed, state: housePassed ? "Passed" : (inHouse ? "In progress" : "Not yet") },
+      { name: "Governor", done: signed, active: housePassed && !signed, state: signed ? "Signed" : "Not yet" },
+    ];
+    document.getElementById("progress").innerHTML = stages.map((s, i) =>
+      `<div class="stage ${s.done ? "done" : ""} ${s.active ? "active" : ""}">`
+      + `<div class="st-step">Step ${i + 1}</div>`
+      + `<div class="st-name">${esc(s.name)}</div>`
+      + `<div class="st-state">${esc(s.state)}</div></div>`).join("");
+  }
+
+  function render(b) {
+    document.getElementById("meta-session").textContent = "SESSION " + esc(b.session);
+    document.getElementById("bill-id").textContent = b.identifier === "SB 272" ? "Senate Bill 272" : esc(b.identifier);
+    if (b.title) document.getElementById("bill-title").textContent =
+      b.title.replace(/^AN ACT TO /i, "An act to ").replace(/\.$/, "") + ".";
+
+    document.getElementById("kpi-status").textContent = esc(b.status.latest_action_description || "—");
+    document.getElementById("kpi-status-date").textContent = "As of " + fmtDate(b.status.latest_action_date);
+    document.getElementById("kpi-sponsors").textContent = (b.sponsors || []).length;
+    document.getElementById("kpi-intro").textContent = fmtDate(b.status.first_action_date);
+
+    const v = (b.votes || [])[0];
+    if (v) {
+      document.getElementById("kpi-vote").textContent = `${v.counts.yes}–${v.counts.no}`;
+      document.getElementById("kpi-vote-ctx").textContent =
+        `${v.counts.yes} yes, ${v.counts.no} no, ${v.counts.other} absent/other · ${fmtDate(v.date)}`;
+    } else {
+      document.getElementById("kpi-vote").textContent = "—";
+      document.getElementById("kpi-vote-ctx").textContent = "No recorded roll-call vote yet.";
+    }
+
+    buildProgress(b);
+    document.getElementById("status-note").textContent =
+      `Latest: ${b.status.latest_action_description || "—"} (${fmtDate(b.status.latest_action_date)}).`;
+
+    document.getElementById("abstract").textContent = b.abstract || b.title || "—";
+
+    document.getElementById("timeline").innerHTML = (b.actions || []).slice().reverse().map((a) =>
+      `<li><span class="tl-date">${fmtDate(a.date)}</span><span class="tl-chamber">${esc(a.chamber)}</span>`
+      + `<div class="tl-desc">${esc(a.description)}</div></li>`).join("") || "<li>No recorded actions.</li>";
+
+    if (v) {
+      document.getElementById("vote-summary").innerHTML =
+        `<p style="margin:0 0 4px;"><strong>${esc(v.chamber)} · ${esc(v.motion === "—" ? "Passage" : v.motion)}</strong> `
+        + `<span class="badge">${esc(v.result)}</span> <span style="color:var(--text-tertiary);">${fmtDate(v.date)}</span></p>`
+        + `<div class="vote-counts">`
+        + `<span class="vc">Yes<b>${v.counts.yes}</b></span>`
+        + `<span class="vc">No<b>${v.counts.no}</b></span>`
+        + `<span class="vc">Absent / Other<b>${v.counts.other}</b></span></div>`;
+      document.getElementById("vote-body").innerHTML = v.members.map((m) =>
+        `<tr><td><strong>${esc(m.name)}</strong></td><td>${esc(m.chamber)}</td><td>${esc(m.party)}</td>`
+        + `<td class="num">${esc(m.district)}</td><td>${esc(optLabel(m.option))}</td></tr>`).join("");
+    } else {
+      document.getElementById("vote-summary").innerHTML = "<p>No recorded roll-call vote yet this session.</p>";
+      document.getElementById("vote-body").innerHTML = `<tr><td colspan="5">No recorded vote.</td></tr>`;
+    }
+
+    document.getElementById("sp-count").textContent = (b.sponsors || []).length + " SPONSORS";
+    document.getElementById("sponsors").innerHTML = (b.sponsors || []).map((s) =>
+      `<div class="sponsor"><span class="sp-role">${s.primary ? "Primary sponsor" : esc(s.classification || "Cosponsor")}</span>`
+      + `<div>${esc(s.name)}</div></div>`).join("");
+
+    document.getElementById("documents").innerHTML = (b.documents || []).length
+      ? (b.documents || []).map((d) => `<a class="doc-link" href="${esc(d.url)}">${esc(d.note)} →</a>`).join("")
+      : "No documents posted.";
+
+    if (b.source && b.source.openstates_url) {
+      const osl = document.getElementById("os-link");
+      osl.href = b.source.openstates_url;
+      osl.textContent = "Open States — " + esc(b.identifier);
+    }
+
+    const asOf = (b.generated_at || "").slice(0, 10);
+    document.getElementById("footer-build").textContent =
+      `${esc(b.identifier)} · SESSION ${esc(b.session)} · ${esc(b.status.latest_action_description || "")} · DATA AS OF ${asOf} · SOURCE: OPEN STATES`;
+  }
+
+  async function load() {
+    let b;
+    try {
+      const r = await fetch("./data/bill.json", { cache: "no-cache" });
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      b = await r.json();
+    } catch (e) {
+      document.getElementById("footer-build").textContent = "DATA: unavailable (" + e.message + ")";
+      return;
+    }
+    render(b);
+  }
+  load();
+})();
+</script>
+</body>
+</html>
