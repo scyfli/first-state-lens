@@ -4,10 +4,10 @@ task: Reframe FSL as a public civic-data utility and build an 8-dashboard citize
 slug: fsl-civic-suite
 effort: E5
 phase: build
-progress: 60/120
+progress: 61/120
 mode: build
 started: 2026-06-15
-updated: 2026-06-16
+updated: 2026-06-22
 ---
 
 # First State Lens — Civic Analytics Lab (project ISA)
@@ -112,7 +112,7 @@ proven repeatable for Waves 2 and 3.
 - [ ] ISC-5: Each new ETL puller is a standalone-runnable module in etl/sources/ matching the census_acs.py pattern (Read confirms `--out` CLI + module docstring with Source/License/Cadence).
 - [ ] ISC-6: Anti: DGI data/ outputs are byte-unchanged after suite work (git diff dgi-food-access/data is empty unless a DGI-specific task touched it).
 - [ ] ISC-7: Any new Census-using puller threads CENSUS_API_KEY through the orchestrated path, with a regression test asserting the key reaches the request (per silent-zero lesson).
-- [ ] ISC-8: Each dashboard passes scripts/a11y-audit.js (axe-core WCAG 2.2 AA), 0 violations.
+- [x] ISC-8: Each dashboard passes scripts/a11y-audit.js (axe-core WCAG 2.2 AA), 0 violations. Verified 2026-06-22: CI run 27980626995 = PASS, all 9 routes 0 serious/critical. Fixed 6 color-contrast violations (1 rule/page): `.kpi-source` + `.footer-build` (slate-500@.9 → --text-tertiary) and unstyled in-table links (added accessible base `a` color). Commits 46d1fb8 + 0846928. a11y workflow paths widened to all dashboards.
 - [x] ISC-9: All 5 dashboards carry `<meta robots noindex,nofollow>` (grep verified) and the client-side gate; `_headers` X-Robots-Tag noindex unchanged. Public flip remains Mark's RED checkpoint.
 - [x] ISC-10: Anti: no redistribution-prohibited source ingested — Sussex parcel data never touched; the 4 friction sources (Sussex, NCC HTML, CFRS, lead address-level) all excluded or honestly-noted.
 - [ ] ISC-11: This ISA's Features section names every dashboard's verified source + access method + GO/PARTIAL verdict.
