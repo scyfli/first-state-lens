@@ -93,7 +93,7 @@ body::after {
 .kpi-value { font-family: 'Space Grotesk', sans-serif; font-size: 32px; font-weight: 600; line-height: 1; letter-spacing: -0.01em; color: var(--text-primary); }
 .kpi-value .kpi-unit { font-size: 14px; font-weight: 500; color: var(--text-tertiary); margin-left: 6px; }
 .kpi-context { font-size: 13px; color: var(--text-secondary); margin-top: 12px; line-height: 1.5; }
-.kpi-source { font-family: 'JetBrains Mono', monospace; font-size: 10px; letter-spacing: 0.05em; color: rgba(100, 116, 139, 0.9); margin-top: 14px; text-transform: uppercase; }
+.kpi-source { font-family: 'JetBrains Mono', monospace; font-size: 10px; letter-spacing: 0.05em; color: var(--text-tertiary); margin-top: 14px; text-transform: uppercase; }
 
 /* Sections */
 .section { margin-bottom: 44px; }
