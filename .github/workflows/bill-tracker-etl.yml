@@ -3,7 +3,8 @@ name: Bill Tracker ETL
 # Keeps the Bill Tracker (SB 272) current without anyone touching it.
 #
 # Triggers:
-#   - Schedule: every Monday 09:00 UTC (~05:00 ET). Weekly refresh.
+#   - Schedule: daily 09:00 UTC (~05:00 ET). Tightened from weekly while SB 272
+#     is active in session; revert to "0 9 * * 1" for weekly once it settles.
 #   - Manual dispatch: run on demand, optionally for a different bill/session.
 #   - Pull requests touching the puller/workflow: offline import smoke only.
 #
@@ -16,8 +17,8 @@ name: Bill Tracker ETL
 
 on:
   schedule:
-    # 09:00 UTC every Monday.
-    - cron: "0 9 * * 1"
+    # 09:00 UTC daily (tightened from weekly while SB 272 is active in session).
+    - cron: "0 9 * * *"
   workflow_dispatch:
     inputs:
       bill:

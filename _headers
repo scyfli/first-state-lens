@@ -18,8 +18,3 @@
 
 /clean-slate/*
   X-Robots-Tag: noindex, nofollow
-
-# Bill Tracker (SB 272): built and data-verified, held out of search until the
-# public-launch flip (Mark's call). Also carries an inline <meta robots noindex>.
-/bill-tracker/*
-  X-Robots-Tag: noindex, nofollow
