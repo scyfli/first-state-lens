@@ -3,7 +3,6 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="robots" content="noindex, nofollow" />
 <title>Delaware School Report Card — First State Lens</title>
 <meta name="description" content="Proficiency, graduation, chronic absenteeism, and enrollment for every Delaware school district. Public DOE data, sourced, nonpartisan." />
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,49 +15,12 @@
   .title-eyebrow { color: var(--indigo-400); border-color: rgba(129,140,248,0.25); background: rgba(129,140,248,0.05); }
   .title-eyebrow::before { background: var(--indigo-400); box-shadow: 0 0 6px var(--indigo-400); }
   .neutrality { border-left-color: var(--indigo-400); }
-  #fsl-gate-form button { background: var(--indigo-400); }
   .ctrl { display:flex; gap:10px; align-items:center; flex-wrap:wrap; margin-bottom:14px; }
   .ctrl label { font-family:'JetBrains Mono',monospace; font-size:11px; color:var(--text-tertiary); letter-spacing:.05em; text-transform:uppercase; }
   .ctrl select { background:var(--surface-base); color:var(--text-primary); border:1px solid var(--border-strong); border-radius:8px; padding:7px 10px; font-size:13px; }
 </style>
 </head>
-<body class="fsl-locked">
-
-<div id="fsl-gate" role="dialog" aria-label="Password required" aria-modal="true">
-  <div id="fsl-gate-card">
-    <h1>First State Lens · Delaware School Report Card</h1>
-    <p>This is a soft-launch preview of the FirmSide AI Civic Analytics Lab. Enter the password shared with you.</p>
-    <form id="fsl-gate-form">
-      <input type="password" id="fsl-gate-input" autocomplete="current-password" autofocus aria-label="Password" />
-      <button type="submit">Enter</button>
-      <div id="fsl-gate-error" role="alert" aria-live="polite"></div>
-    </form>
-    <div id="fsl-gate-footer">FirmSide AI · Civic Analytics Lab</div>
-  </div>
-</div>
-<script>
-(function () {
-  const HASH = "da30814cf1aeff6892250b88f97de6798faf45b0a5bb843502098cfa0adcdc06";
-  const STORAGE_KEY = "fsl-gate-2026-06";
-  const body = document.body;
-  const gate = document.getElementById("fsl-gate");
-  if (sessionStorage.getItem(STORAGE_KEY) === HASH) { body.classList.remove("fsl-locked"); gate.remove(); return; }
-  async function sha256(text) {
-    const buf = new TextEncoder().encode(text);
-    const digest = await crypto.subtle.digest("SHA-256", buf);
-    return Array.from(new Uint8Array(digest)).map(b => b.toString(16).padStart(2, "0")).join("");
-  }
-  const form = document.getElementById("fsl-gate-form");
-  const input = document.getElementById("fsl-gate-input");
-  const err = document.getElementById("fsl-gate-error");
-  form.addEventListener("submit", async (e) => {
-    e.preventDefault(); err.textContent = "";
-    const hash = await sha256(input.value);
-    if (hash === HASH) { sessionStorage.setItem(STORAGE_KEY, HASH); body.classList.remove("fsl-locked"); gate.remove(); }
-    else { err.textContent = "Incorrect password."; input.value = ""; input.focus(); }
-  });
-})();
-</script>
+<body>
 
 <div class="container">
 
@@ -103,7 +65,7 @@
     <div class="kpi-card">
       <div class="kpi-label">Chronic Absenteeism · Statewide</div>
       <div class="kpi-value" id="kpi-chronic">—</div>
-      <div class="kpi-context">Share of students absent 10% or more of enrolled days. Lower is generally better.</div>
+      <div class="kpi-context">Share of students absent 10% or more of enrolled days.</div>
       <div class="kpi-source" id="kpi-chronic-src">SOURCE · DE DOE REPORT CARD</div>
     </div>
     <div class="kpi-card">
@@ -154,7 +116,7 @@
       <a href="https://reportcard.doe.k12.de.us/">Delaware Report Card (primary source)</a>
       <a href="/">First State Lens home</a>
     </div>
-    <div>First State Lens is a FirmSide AI Civic Analytics Lab project. Nonpartisan. Every figure links to its public source. We show you the data; you decide.</div>
+    <div>First State Lens is a FirmSide AI Civic Analytics Lab project. Nonpartisan. Every figure is sourced to a public record. We show you the data; you decide.</div>
   </footer>
 
 </div>

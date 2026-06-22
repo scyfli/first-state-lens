@@ -3,7 +3,6 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="robots" content="noindex, nofollow" />
 <title>Childcare Access in Delaware — First State Lens</title>
 <meta name="description" content="Licensed childcare providers, capacity, and quality across Delaware, with children-per-slot by county. Public data, sourced, nonpartisan." />
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,7 +18,6 @@
   .title-eyebrow::before { background: var(--violet-400); box-shadow: 0 0 6px var(--violet-400); }
   .neutrality { border-left-color: var(--violet-400); }
   .bar-fill { background: linear-gradient(90deg, var(--violet-400), var(--indigo-500)); }
-  #fsl-gate-form button { background: var(--violet-400); }
   #cc-map { width: 100%; height: 460px; border-radius: 14px; border: 1px solid var(--border-default); overflow: hidden; }
   #cc-map .maplibregl-popup-content { background: rgba(2,6,23,0.96); color: var(--text-primary); border: 1px solid var(--border-strong); border-radius: 10px; font-family: 'Inter', sans-serif; font-size: 13px; }
   #cc-map .maplibregl-popup-content strong { color: var(--violet-400); }
@@ -27,43 +25,7 @@
   #cc-map .maplibregl-ctrl-attrib a { text-decoration: underline; }
 </style>
 </head>
-<body class="fsl-locked">
-
-<div id="fsl-gate" role="dialog" aria-label="Password required" aria-modal="true">
-  <div id="fsl-gate-card">
-    <h1>First State Lens · Childcare Access in Delaware</h1>
-    <p>This is a soft-launch preview of the FirmSide AI Civic Analytics Lab. Enter the password shared with you.</p>
-    <form id="fsl-gate-form">
-      <input type="password" id="fsl-gate-input" autocomplete="current-password" autofocus aria-label="Password" />
-      <button type="submit">Enter</button>
-      <div id="fsl-gate-error" role="alert" aria-live="polite"></div>
-    </form>
-    <div id="fsl-gate-footer">FirmSide AI · Civic Analytics Lab</div>
-  </div>
-</div>
-<script>
-(function () {
-  const HASH = "da30814cf1aeff6892250b88f97de6798faf45b0a5bb843502098cfa0adcdc06";
-  const STORAGE_KEY = "fsl-gate-2026-06";
-  const body = document.body;
-  const gate = document.getElementById("fsl-gate");
-  if (sessionStorage.getItem(STORAGE_KEY) === HASH) { body.classList.remove("fsl-locked"); gate.remove(); return; }
-  async function sha256(text) {
-    const buf = new TextEncoder().encode(text);
-    const digest = await crypto.subtle.digest("SHA-256", buf);
-    return Array.from(new Uint8Array(digest)).map(b => b.toString(16).padStart(2, "0")).join("");
-  }
-  const form = document.getElementById("fsl-gate-form");
-  const input = document.getElementById("fsl-gate-input");
-  const err = document.getElementById("fsl-gate-error");
-  form.addEventListener("submit", async (e) => {
-    e.preventDefault(); err.textContent = "";
-    const hash = await sha256(input.value);
-    if (hash === HASH) { sessionStorage.setItem(STORAGE_KEY, HASH); body.classList.remove("fsl-locked"); gate.remove(); }
-    else { err.textContent = "Incorrect password."; input.value = ""; input.focus(); }
-  });
-})();
-</script>
+<body>
 
 <div class="container">
 
@@ -140,7 +102,7 @@
       <span class="section-meta">LIVE · MAPLIBRE + GEOJSON</span>
     </div>
     <div id="cc-map" role="region" aria-label="Map of Delaware licensed childcare providers. Pan and zoom; select a point for the provider's name, capacity, and STARS rating."></div>
-    <p class="kpi-source" style="margin-top:12px;">SOURCE · FIRSTMAP DE_CHILDCARECENTERS · POINTS COLORED BY LICENSED CAPACITY</p>
+    <p class="kpi-source" style="margin-top:12px;">SOURCE · FIRSTMAP DE_CHILDCARECENTERS · POINTS SIZED BY LICENSED CAPACITY</p>
   </section>
 
   <section class="section" aria-labelledby="stars-title">
@@ -162,7 +124,7 @@
       <a href="https://education.delaware.gov/families/birth-age-5/occl/">DE Office of Child Care Licensing</a>
       <a href="/">First State Lens home</a>
     </div>
-    <div>First State Lens is a FirmSide AI Civic Analytics Lab project. Nonpartisan. Every figure links to its public source. We show you the data; you decide.</div>
+    <div>First State Lens is a FirmSide AI Civic Analytics Lab project. Nonpartisan. Every figure is sourced to a public record. We show you the data; you decide.</div>
   </footer>
 
 </div>

@@ -3,7 +3,6 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="robots" content="noindex, nofollow" />
 <title>Federal Dollars into Delaware — First State Lens</title>
 <meta name="description" content="What federal grants, contracts, and loans flow into Delaware — by agency, recipient, and type. Public data, sourced, nonpartisan." />
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,46 +14,8 @@
   :root { --accent-primary: var(--cyan-400); }
 </style>
 </head>
-<body class="fsl-locked">
+<body>
 
-<!-- ============ Password gate (client-side soft-launch; suite-shared) ============ -->
-<div id="fsl-gate" role="dialog" aria-label="Password required" aria-modal="true">
-  <div id="fsl-gate-card">
-    <h1>First State Lens · Federal Dollars into Delaware</h1>
-    <p>This is a soft-launch preview of the FirmSide AI Civic Analytics Lab. Enter the password shared with you.</p>
-    <form id="fsl-gate-form">
-      <input type="password" id="fsl-gate-input" autocomplete="current-password" autofocus aria-label="Password" />
-      <button type="submit">Enter</button>
-      <div id="fsl-gate-error" role="alert" aria-live="polite"></div>
-    </form>
-    <div id="fsl-gate-footer">FirmSide AI · Civic Analytics Lab</div>
-  </div>
-</div>
-<script>
-(function () {
-  const HASH = "da30814cf1aeff6892250b88f97de6798faf45b0a5bb843502098cfa0adcdc06";
-  const STORAGE_KEY = "fsl-gate-2026-06";
-  const body = document.body;
-  const gate = document.getElementById("fsl-gate");
-  if (sessionStorage.getItem(STORAGE_KEY) === HASH) {
-    body.classList.remove("fsl-locked"); gate.remove(); return;
-  }
-  async function sha256(text) {
-    const buf = new TextEncoder().encode(text);
-    const digest = await crypto.subtle.digest("SHA-256", buf);
-    return Array.from(new Uint8Array(digest)).map(b => b.toString(16).padStart(2, "0")).join("");
-  }
-  const form = document.getElementById("fsl-gate-form");
-  const input = document.getElementById("fsl-gate-input");
-  const err = document.getElementById("fsl-gate-error");
-  form.addEventListener("submit", async (e) => {
-    e.preventDefault(); err.textContent = "";
-    const hash = await sha256(input.value);
-    if (hash === HASH) { sessionStorage.setItem(STORAGE_KEY, HASH); body.classList.remove("fsl-locked"); gate.remove(); }
-    else { err.textContent = "Incorrect password."; input.value = ""; input.focus(); }
-  });
-})();
-</script>
 
 <div class="container">
 
@@ -162,7 +123,7 @@
       <a href="https://www.usaspending.gov/">USAspending.gov (primary source)</a>
       <a href="/">First State Lens home</a>
     </div>
-    <div>First State Lens is a FirmSide AI Civic Analytics Lab project. Nonpartisan. Every figure links to its public source. We show you the data; you decide.</div>
+    <div>First State Lens is a FirmSide AI Civic Analytics Lab project. Nonpartisan. Every figure is sourced to a public record. We show you the data; you decide.</div>
   </footer>
 
 </div>

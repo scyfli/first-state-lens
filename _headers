@@ -6,8 +6,15 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Strict-Transport-Security: max-age=31536000; includeSubDomains
-  X-Robots-Tag: noindex, nofollow
   Permissions-Policy: interest-cohort=(), browsing-topics=()
   # Always revalidate so a new deploy shows immediately — no stale cached HTML/CSS/JS.
-  # (Gated preview; freshness matters more than caching. Revisit when public.)
   Cache-Control: no-cache
+
+# Held pages: DGI Food Access and Clean Slate predate the neutrality-firewall
+# pivot and are kept out of search until rebuilt to the public standard. They
+# also carry an inline <meta robots noindex> and a client-side password gate.
+/dgi-food-access/*
+  X-Robots-Tag: noindex, nofollow
+
+/clean-slate/*
+  X-Robots-Tag: noindex, nofollow

@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+# Held pages — not yet rebuilt to the neutrality standard, kept out of search.
+Disallow: /dgi-food-access/
+Disallow: /clean-slate/
+
+Sitemap: https://firststatelens.com/sitemap.xml
