@@ -68,6 +68,27 @@ def _get(url: str, key: str, *, attempts: int = 6) -> dict:
     raise RuntimeError(f"Open States rate-limited after {attempts} attempts: {url}")
 
 
+def _stable_timestamp(path: Path, new_obj: dict) -> str:
+    """Preserve the prior generated_at when the substantive content is unchanged.
+
+    The puller stamps generated_at on every run. Without this, an unchanged bill
+    would still produce a differing file each run, defeating the workflow's
+    commit-on-change gate (a quiet legislative week would churn a commit + redeploy).
+    Comparing everything except generated_at lets an idle pull write a byte-identical
+    file, so git sees no diff and the weekly job exits clean.
+    """
+    if path.exists():
+        try:
+            old = json.loads(path.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            return new_obj["generated_at"]
+        old_core = {k: v for k, v in old.items() if k != "generated_at"}
+        new_core = {k: v for k, v in new_obj.items() if k != "generated_at"}
+        if old_core == new_core:
+            return old.get("generated_at", new_obj["generated_at"])
+    return new_obj["generated_at"]
+
+
 def _chamber_of(action: dict) -> str:
     org = (action.get("organization") or {}).get("name") or ""
     if "Senate" in org:
@@ -166,6 +187,12 @@ def pull(bill_id: str, session: str, out_dir: Path) -> dict:
             ),
         },
     }
+
+    # Idempotency: keep the prior timestamp if nothing substantive changed, so an
+    # unchanged pull leaves both files byte-identical (no churn commit). The manifest
+    # derives its generated_at and counts from the bill, so stabilizing the bill
+    # stabilizes the manifest too.
+    bill["generated_at"] = _stable_timestamp(out_dir / OUT_BILL, bill)
 
     (out_dir / OUT_BILL).write_text(json.dumps(bill, indent=2), encoding="utf-8")
     (out_dir / OUT_MANIFEST).write_text(json.dumps({
