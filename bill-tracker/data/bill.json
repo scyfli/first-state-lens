@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-22T22:03:06Z",
+  "generated_at": "2026-06-30T11:38:12Z",
   "session": "153",
   "identifier": "SB 272",
   "title": "AN ACT TO AMEND TITLE 14 AND TITLE 29 OF THE DELAWARE CODE RELATING TO PROJECT LABOR AGREEMENTS FOR SCHOOL DISTRICT PUBLIC WORKS CONTRACTS.",
   "abstract": "This Act requires that if public works project is for a school district and has an aggregate cost of $1 million or more, a contract relating to that public works project, advertised after December 31, 2026, must include a project labor agreement with the Delaware Building and Construction Trades Council unless there was only 1 bid for the craft under the contract. \r\n\r\nA project labor agreement is a type of collective bargaining agreement in the construction industry that is generally negotiated before construction begins. Project labor agreements are intended to provide a legally binding and enforceable contract primarily related to labor conditions and labor-management relations. \r\n\r\nThe requirements under this Act are not regulatory. Under existing law, school districts must comply with the procurement requirements for State agencies under Chapter 69 of Title 29. As such, the requirements under this Act apply only to contracts where this State is acting as a market participant and has a proprietary interest.",
   "subjects": [],
   "status": {
-    "latest_action_date": "2026-06-10",
-    "latest_action_description": "Reported Out of Committee (Labor) in House with 8 On Its Merits",
+    "latest_action_date": "2026-06-29",
+    "latest_action_description": "Amendment HA 1 to SB 272 - Introduced and Placed With Bill",
     "first_action_date": "2026-03-26",
     "latest_passage_date": "2026-05-21"
   },
@@ -108,6 +108,11 @@
       "date": "2026-06-10",
       "chamber": "House",
       "description": "Reported Out of Committee (Labor) in House with 8 On Its Merits"
+    },
+    {
+      "date": "2026-06-29",
+      "chamber": "Senate",
+      "description": "Amendment HA 1 to SB 272 - Introduced and Placed With Bill"
     }
   ],
   "votes": [
