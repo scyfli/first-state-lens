@@ -4,10 +4,10 @@ task: Reframe FSL as a public civic-data utility and build an 8-dashboard citize
 slug: fsl-civic-suite
 effort: E5
 phase: verify
-progress: 66/120
+progress: 70/120
 mode: build
 started: 2026-06-15
-updated: 2026-06-22
+updated: 2026-07-05
 ---
 
 # First State Lens — Civic Analytics Lab (project ISA)
