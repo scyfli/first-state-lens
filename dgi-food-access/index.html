@@ -3,7 +3,6 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="robots" content="noindex, nofollow" />
 <title>DGI Food Access Tracker — First State Lens</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -624,7 +623,7 @@
   }
 </style>
 </head>
-<body class="fsl-locked">
+<body>
 <style>
   body.fsl-locked > *:not(#fsl-gate) { display: none !important; }
   #fsl-gate {
@@ -697,53 +696,8 @@
     letter-spacing: 0.02em;
   }
 </style>
-<div id="fsl-gate" role="dialog" aria-label="Password required">
-  <div id="fsl-gate-card">
-    <h1>First State Lens · DGI Food Access Preview</h1>
-    <p>This is a soft-launch preview of the DGI Food Access Tracker scaffold. Enter the password shared with you.</p>
-    <form id="fsl-gate-form">
-      <input type="password" id="fsl-gate-input" autocomplete="current-password" autofocus aria-label="Password" />
-      <button type="submit">Enter</button>
-      <div id="fsl-gate-error" role="alert" aria-live="polite"></div>
-    </form>
-    <div id="fsl-gate-footer">FirmSide AI · Civic Analytics Lab</div>
-  </div>
-</div>
-<script>
-(function () {
-  const HASH = "da30814cf1aeff6892250b88f97de6798faf45b0a5bb843502098cfa0adcdc06";
-  const STORAGE_KEY = "fsl-dgi-gate-2026-05";
-  const body = document.body;
-  const gate = document.getElementById("fsl-gate");
-  if (sessionStorage.getItem(STORAGE_KEY) === HASH) {
-    body.classList.remove("fsl-locked");
-    gate.remove();
-    return;
-  }
-  async function sha256(text) {
-    const buf = new TextEncoder().encode(text);
-    const digest = await crypto.subtle.digest("SHA-256", buf);
-    return Array.from(new Uint8Array(digest)).map(b => b.toString(16).padStart(2, "0")).join("");
-  }
-  const form = document.getElementById("fsl-gate-form");
-  const input = document.getElementById("fsl-gate-input");
-  const err = document.getElementById("fsl-gate-error");
-  form.addEventListener("submit", async (e) => {
-    e.preventDefault();
-    err.textContent = "";
-    const hash = await sha256(input.value);
-    if (hash === HASH) {
-      sessionStorage.setItem(STORAGE_KEY, HASH);
-      body.classList.remove("fsl-locked");
-      gate.remove();
-    } else {
-      err.textContent = "Incorrect password.";
-      input.value = "";
-      input.focus();
-    }
-  });
-})();
-</script>
+<!-- Soft-launch password gate removed at public launch (2026-07-05). -->
+
 <div class="container">
 
   <!-- ============ Top bar ============ -->
@@ -752,19 +706,19 @@
       <div class="brand-mark">FS</div>
       <div class="brand-text">
         <div class="brand-name">First State Lens</div>
-        <div class="brand-tagline">Civic Outcomes Atlas · Delaware</div>
+        <div class="brand-tagline">Civic Analytics Lab · Delaware</div>
       </div>
     </div>
     <div class="topbar-meta">
       <div class="meta-item">
         <span class="pulse-dot"></span>
-        <span>SCAFFOLD · v0.1.0</span>
+        <span>LIVE · v1.0.0</span>
       </div>
       <div class="meta-item">
         <span>METHODOLOGY v0.2.0</span>
       </div>
       <div class="meta-item">
-        <span>UPDATED 2026.05.11</span>
+        <span>UPDATED 2026.07.05</span>
       </div>
     </div>
   </header>
@@ -773,79 +727,52 @@
   <section class="title-block">
     <div class="title-eyebrow">DGI Food Access · SB 254 · Cycles 1–5</div>
     <h1 class="title-h1">
-      The Delaware Grocery Initiative has deployed <span class="highlight-emerald">~$2.15M</span>
-      across its award cycles to fight food deserts, with <span class="highlight-emerald">$712,500</span> more just awarded in Cycle 5. <span class="highlight">125,370 Delawareans</span> remain food insecure.
+      Delaware Grocery Initiative <span class="highlight">grant awards</span> and food-access indicators, by census tract.
     </h1>
     <p class="title-sub">
-      SB 254 (2024) created the Delaware Grocery Initiative to expand healthy-food access in food deserts, with awards
+      SB 254 (2024) created the Delaware Grocery Initiative to expand healthy-food access, with awards
       administered by the Division of Small Business in partnership with the DE Council on Farm &amp; Food Policy.
-      This dashboard tests DSB Director CJ Bell's claim that <em>"food access is not determined by zip code"</em>
-      — tracking DGI dollars per food-insecure resident at the census-tract level, against both the federal USDA LILA
-      definition and the SB 254 statutory definition as filterable layers.
+      This dashboard maps the Cycle 5 grant awards alongside food-access layers: the USDA low-income/low-access
+      (LILA) definition, the SB 254 statutory food-desert definition, SNAP retailers, and DART transit routes.
+      Built from the DSB awardee list and public geospatial records.
     </p>
   </section>
 
+  <p class="neutrality">
+    <strong>How to read this.</strong> These are Delaware Grocery Initiative grant awards recorded in the Division of Small Business Winner Summary, shown without interpretation. Cycle 5 awards are listed as <strong>pending-disbursement</strong> until DSB confirms each payment. The food-insecurity figures come from Feeding America's Map the Meal Gap, an annual <strong>county-level estimate</strong>, not a per-tract count. The map layers show where food-access indicators and grant awards fall geographically; any overlap between them is a matter of record, not a judgment about whether funding is adequate or well-placed. First State Lens draws no conclusions. We show you the data; you decide.
+  </p>
+
   <!-- ============ KPI strip ============ -->
   <section class="kpi-grid">
-    <div class="kpi-card" data-tone="info">
-      <div class="kpi-label">DGI Dollars Deployed (Cycles 1–4 + 2025)</div>
-      <div class="kpi-value">~$2.15M</div>
-      <div class="kpi-context">39 projects through Cycle 4 (~$1.9M) plus 22 organizations in the July 2025 round (~$250K). <strong>Cycle 5 ($712,500) now awarded</strong>, disbursing to 28 organizations.</div>
-      <div class="kpi-source">SOURCE · DSB / news.delaware.gov</div>
-    </div>
-    <div class="kpi-card" data-tone="info">
-      <div class="kpi-label">Cycle 5 (Awarded)</div>
+    <div class="kpi-card">
+      <div class="kpi-label">Cycle 5 Awarded</div>
       <div class="kpi-value">$712,500<span class="kpi-unit">/ 28 orgs</span></div>
-      <div class="kpi-context">Awarded <strong>May 2026</strong> to 28 organizations across New Castle, Kent &amp; Sussex. The dashboard ingests the awardee list as <strong>pending-disbursement</strong> until DSB confirms each disbursement.</div>
+      <div class="kpi-context">Awarded May 2026 to 28 organizations across New Castle, Kent &amp; Sussex, listed as pending-disbursement until DSB confirms each payment.</div>
       <div class="kpi-source">SOURCE · DSB WINNER SUMMARY · MAY 2026</div>
     </div>
-    <div class="kpi-card" data-tone="danger">
-      <div class="kpi-label">Delawareans Food Insecure</div>
-      <div class="kpi-value kpi-value-tone-danger">125,370<span class="kpi-unit">/ 12.6%</span></div>
-      <div class="kpi-context">Per Map the Meal Gap 2025 (2023 data). Includes <strong>40,620 children</strong> (19.7%) — one in five Delaware children.</div>
-      <div class="kpi-source">SOURCE · FEEDING AMERICA · MMG 2025 RELEASE</div>
+    <div class="kpi-card">
+      <div class="kpi-label">Prior Cycles (1–4 + 2025)</div>
+      <div class="kpi-value">~$2.15M</div>
+      <div class="kpi-context">39 projects through Cycle 4 (~$1.9M) plus 22 organizations in the July 2025 round (~$250K), as reported by the state.</div>
+      <div class="kpi-source">SOURCE · DSB / news.delaware.gov</div>
     </div>
-    <div class="kpi-card" data-tone="warning">
-      <div class="kpi-label">DGI $ Per Food-Insecure Delawarean</div>
-      <div class="kpi-value kpi-value-tone-warning">~$17.15</div>
-      <div class="kpi-context">Statewide mean from deployed dollars only. <strong>Tract-level distribution is the dashboard's story</strong> — the equity test is whether deployment correlates with need.</div>
-      <div class="kpi-source">CALCULATED · $2.15M ÷ 125,370</div>
+    <div class="kpi-card">
+      <div class="kpi-label">Delawareans Food Insecure</div>
+      <div class="kpi-value">125,370<span class="kpi-unit">/ 12.6%</span></div>
+      <div class="kpi-context">Feeding America's Map the Meal Gap 2025 estimate (2023 data), a modeled county-level figure for Delaware.</div>
+      <div class="kpi-source">SOURCE · FEEDING AMERICA · MMG 2025</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Children Food Insecure</div>
+      <div class="kpi-value">40,620<span class="kpi-unit">/ 19.7%</span></div>
+      <div class="kpi-context">Included in the statewide figure above, per the same Map the Meal Gap 2025 release.</div>
+      <div class="kpi-source">SOURCE · FEEDING AMERICA · MMG 2025</div>
     </div>
   </section>
 
-  <!-- ============ The Gap ============ -->
-  <section class="section">
-    <div class="section-header">
-      <div class="section-title">Food Insecurity by County</div>
-      <div class="section-meta">MMG 2025 · 2023 data</div>
-    </div>
-    <div class="gap-viz">
-      <div class="gap-row">
-        <div class="gap-row-label">
-          <span>Sussex County · 13.3% food insecure</span>
-          <span class="num">32,050</span>
-        </div>
-        <div class="gap-bar"><div class="gap-bar-fill warn" style="width: 100%"></div></div>
-      </div>
-      <div class="gap-row">
-        <div class="gap-row-label">
-          <span>Kent County · est. 14.7% food insecure <span class="kpi-placeholder">PLACEHOLDER</span></span>
-          <span class="num">~28,000</span>
-        </div>
-        <div class="gap-bar"><div class="gap-bar-fill warn" style="width: 87%; opacity: 0.7;"></div></div>
-      </div>
-      <div class="gap-row">
-        <div class="gap-row-label">
-          <span>New Castle County · est. 11.5% food insecure <span class="kpi-placeholder">PLACEHOLDER</span></span>
-          <span class="num">~65,000</span>
-        </div>
-        <div class="gap-bar"><div class="gap-bar-fill indigo" style="width: 100%; opacity: 0.75;"></div></div>
-      </div>
-      <div style="margin-top: 18px; padding-top: 18px; border-top: 1px solid var(--border-subtle); font-size: 12px; color: var(--text-tertiary); line-height: 1.55;">
-        <strong style="color: var(--text-secondary);">Methodology note:</strong> Sussex County figure (32,050 / 13.3%) is the confirmed MMG 2025 county-level value. New Castle and Kent figures shown here are scaffold placeholders pending the bulk ETL pull from the MMG county file; v1.0 deploy refreshes these with confirmed values. Per methodology v0.2.0 (Q2), the working denominator vintage is MMG 2025 (2023 data) with annual refresh in May.
-      </div>
-    </div>
-  </section>
+  <!-- County-level food-insecurity breakdown removed pending the confirmed MMG county pull
+       (only Sussex was confirmed; Kent + New Castle were placeholders). Statewide figure is in the KPI strip. -->
+
 
   <!-- ============ Tract-Level Deployment Map (v1.0 — MapLibre + static GeoJSON) ============ -->
   <style>
@@ -1024,39 +951,8 @@
     </div>
   </section>
 
-  <!-- ============ Equity test scenarios ============ -->
-  <section class="section">
-    <div class="section-header">
-      <div class="section-title">What Would Parity Look Like?</div>
-      <div class="section-meta">Equity-corrected deployment scenarios</div>
-    </div>
-    <div class="math-grid">
-      <div class="math-card" data-state="current">
-        <div class="math-state math-state-current">Statewide mean</div>
-        <div class="math-headline">$17.15 per food-insecure resident</div>
-        <div class="math-stat-row"><span class="math-stat-label">Dollars deployed (cumulative)</span><span class="math-stat-value">~$2.15M</span></div>
-        <div class="math-stat-row"><span class="math-stat-label">Food-insecure population (MMG 2025)</span><span class="math-stat-value">125,370</span></div>
-        <div class="math-stat-row"><span class="math-stat-label">Per-tract variance</span><span class="math-stat-value">TBD · v1.0</span></div>
-        <div class="math-conclusion">The statewide mean is the floor of the equity story. The dashboard's real test is whether <strong>tract-level deployment correlates with tract-level food insecurity</strong> — the analysis that drops in at v1.0.</div>
-      </div>
-      <div class="math-card" data-state="goal">
-        <div class="math-state math-state-goal">If Cycle 5 fully deploys</div>
-        <div class="math-headline">$22.74 per food-insecure resident</div>
-        <div class="math-stat-row"><span class="math-stat-label">Projected cumulative</span><span class="math-stat-value">$2.85M</span></div>
-        <div class="math-stat-row"><span class="math-stat-label">Cycle 5 share</span><span class="math-stat-value">$700K / 24.6%</span></div>
-        <div class="math-stat-row"><span class="math-stat-label">Awardee list expected</span><span class="math-stat-value">May 2026</span></div>
-        <div class="math-conclusion">Adds Cycle 5's $700K to the cumulative numerator at the statewide mean. <strong>Distribution matters more than the mean</strong>: the same dollars deployed proportionally to need produce a different dashboard than dollars deployed uniformly.</div>
-      </div>
-      <div class="math-card" data-state="promised">
-        <div class="math-state math-state-promised">DSB framing</div>
-        <div class="math-headline">"Food access is not determined by zip code."</div>
-        <div class="math-stat-row"><span class="math-stat-label">DSB Director</span><span class="math-stat-value">CJ Bell</span></div>
-        <div class="math-stat-row"><span class="math-stat-label">Test</span><span class="math-stat-value">Tract-level $ vs. need</span></div>
-        <div class="math-stat-row"><span class="math-stat-label">Both definitions shown</span><span class="math-stat-value">LILA + SB 254</span></div>
-        <div class="math-conclusion">The hero KPI <em>literally</em> tests this claim. Dual-definition framing (USDA LILA + SB 254-effective) sidesteps the federal-vs-state debate; population-weighted apportionment is the field standard, not a bespoke choice.</div>
-      </div>
-    </div>
-  </section>
+  <!-- Equity-scenario section removed in de-advocacy pass: it framed the page as a test of an
+       official's claim and presented self-authored parity scenarios. Not neutral. -->
 
   <!-- ============ Definitions side-by-side ============ -->
   <section class="section">
@@ -1091,31 +987,9 @@
     </div>
   </section>
 
-  <!-- ============ Quotes ============ -->
-  <section class="section">
-    <div class="section-header">
-      <div class="section-title">On the Record</div>
-      <div class="section-meta">Sponsors, administrators, advocates</div>
-    </div>
-    <div class="quote-grid">
-      <div class="quote-card">
-        <div class="quote-text">Food access is not determined by zip code.</div>
-        <div class="quote-attribution"><strong>CJ Bell</strong>, Director · Delaware Division of Small Business · DGI Cycle 5 announcement</div>
-      </div>
-      <div class="quote-card">
-        <div class="quote-text">The Delaware Grocery Initiative was created to make sure that no Delawarean has to drive past their neighborhood to find healthy food.</div>
-        <div class="quote-attribution"><strong>Sen. Darius Brown</strong> (D-Wilmington) · SB 254 sponsor</div>
-      </div>
-      <div class="quote-card">
-        <div class="quote-text">Awarded funds may be used to support operations, capital expenses, equipment purchases, and other projects that expand supply chain capacity and strengthen collaboration among community partners.</div>
-        <div class="quote-attribution"><strong>DSB · DGI program description</strong> · news.delaware.gov · Feb 4, 2026</div>
-      </div>
-      <div class="quote-card">
-        <div class="quote-text">In Delaware, 125,370 individuals are food insecure (12.6%). 40,620 are children (19.7%).</div>
-        <div class="quote-attribution"><strong>Feeding America · Map the Meal Gap 2025</strong> · 2023 data</div>
-      </div>
-    </div>
-  </section>
+  <!-- "On the Record" quote wall removed in de-advocacy pass: politician/sponsor quotes framed a
+       verdict. Data sources are cited in Methodology & Sources below. -->
+
 
   <!-- ============ Sources ============ -->
   <section class="section">

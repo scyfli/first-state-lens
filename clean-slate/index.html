@@ -740,7 +740,7 @@
       <div class="brand-mark">FS</div>
       <div class="brand-text">
         <div class="brand-name">First State Lens</div>
-        <div class="brand-tagline">Civic Outcomes Atlas · Delaware</div>
+        <div class="brand-tagline">Civic Analytics Lab · Delaware</div>
       </div>
     </div>
     <div class="topbar-meta">
@@ -759,48 +759,51 @@
 
   <!-- ============ Title block ============ -->
   <section class="title-block">
-    <div class="title-eyebrow">Implementation Tracker · SB 111 / SB 112 · 21 months in</div>
+    <div class="title-eyebrow">Implementation Tracker · SB 111 / SB 112 · Clean Slate Act</div>
     <h1 class="title-h1">
-      Delaware's Clean Slate Act promised automatic expungement for nearly 600,000 cases.
-      In 21 months, <span class="highlight">3.2% have been cleared.</span>
+      Delaware's Clean Slate Act: <span class="highlight">594,537 records</span> identified as eligible, about 19,000 cleared as of May 2026.
     </h1>
     <p class="title-sub">
-      The 2021 Clean Slate Act was supposed to clear 594,537 eligible cases for 290,980 Delawareans through an automated monthly process beginning August 1, 2024. As of May 2026, fewer than 19,000 cases have been cleared. Governor Meyer has called the rollout "reprehensible." This dashboard tracks the gap between what the legislature promised and what the state has delivered.
+      The 2021 Clean Slate Act (SB 111 / SB 112) directed the automatic expungement of eligible criminal records for roughly 290,980 Delawareans, through a monthly automated process that began August 1, 2024. This page tracks the counts on record: how many cases were identified as eligible, and how many have been cleared to date.
     </p>
   </section>
 
+  <p class="neutrality">
+    <strong>How to read this.</strong> These figures come from the SB 111 fiscal note (DELJIS eligibility counts) and from public reporting of the state's clearance totals, shown without interpretation. First State Lens has not yet wired a live data feed for this dashboard, so the clearance figure reflects the most recent published number, not a daily count. "Eligible" means records DELJIS flagged for mandatory expungement at passage; it is not a claim that every record will or should be cleared on any particular timeline. First State Lens draws no conclusions. We show you the data; you decide.
+  </p>
+
   <!-- ============ KPI strip ============ -->
   <section class="kpi-grid">
-    <div class="kpi-card" data-tone="info">
+    <div class="kpi-card">
       <div class="kpi-label">Cases Identified as Eligible</div>
       <div class="kpi-value">594,537</div>
-      <div class="kpi-context">Adult and juvenile records meeting <strong>mandatory expungement</strong> criteria, identified by DELJIS at the time of bill passage.</div>
+      <div class="kpi-context">Adult and juvenile records meeting mandatory expungement criteria, identified by DELJIS at the time of bill passage.</div>
       <div class="kpi-source">SOURCE · DELJIS / SB 111 FISCAL NOTE</div>
     </div>
-    <div class="kpi-card" data-tone="danger">
+    <div class="kpi-card">
       <div class="kpi-label">Cases Cleared (May 2026)</div>
-      <div class="kpi-value kpi-value-tone-danger">~19,000<span class="kpi-unit">/ 3.2%</span></div>
-      <div class="kpi-context">Cleared since automated process began <strong>August 1, 2024</strong>. November 2024 baseline: 805 records (ACLU-DE).</div>
-      <div class="kpi-source">SOURCE · WHYY · DELAWARE PUBLIC MEDIA · MAY 4 2026</div>
+      <div class="kpi-value">~19,000<span class="kpi-unit">/ 3.2%</span></div>
+      <div class="kpi-context">Cleared since the automated process began August 1, 2024, per public reporting. November 2024 baseline: 805 records (ACLU-DE).</div>
+      <div class="kpi-source">SOURCE · WHYY · DELAWARE PUBLIC MEDIA · MAY 2026</div>
     </div>
-    <div class="kpi-card" data-tone="warning">
+    <div class="kpi-card">
       <div class="kpi-label">Adults Carrying Eligible Records</div>
       <div class="kpi-value">290,980</div>
-      <div class="kpi-context">Roughly <strong>1 in 3 working-age Delawareans</strong>. Records affect access to jobs, housing, education, and federal employment.</div>
+      <div class="kpi-context">Per the SB 111 fiscal note. Eligible records can affect access to jobs, housing, education, and federal employment.</div>
       <div class="kpi-source">SOURCE · DELJIS / SB 111 FISCAL NOTE</div>
     </div>
-    <div class="kpi-card" data-tone="danger">
-      <div class="kpi-label">Projected Backlog at Current Pace</div>
-      <div class="kpi-value kpi-value-tone-danger">47<span class="kpi-unit">years</span></div>
-      <div class="kpi-context">At ~1,000 cases/month current throughput, the eligible backlog clears in <strong>~2073</strong>. ACLU-DE estimates "20+ years" assuming further acceleration.</div>
-      <div class="kpi-source">CALCULATED · 575,537 ÷ 1,011 ÷ 12</div>
+    <div class="kpi-card">
+      <div class="kpi-label">Automated Process Began</div>
+      <div class="kpi-value">Aug 2024</div>
+      <div class="kpi-context">The monthly automated expungement process directed by the Act began August 1, 2024.</div>
+      <div class="kpi-source">SOURCE · SB 111 / SB 112</div>
     </div>
   </section>
 
   <!-- ============ The Gap ============ -->
   <section class="section">
     <div class="section-header">
-      <div class="section-title">The Promise vs. The Reality</div>
+      <div class="section-title">Eligible vs. Cleared</div>
       <div class="section-meta">Proportional</div>
     </div>
     <div class="gap-viz">
@@ -851,65 +854,11 @@
     </div>
   </section>
 
-  <!-- ============ The Math ============ -->
-  <section class="section">
-    <div class="section-header">
-      <div class="section-title">What Would It Take?</div>
-      <div class="section-meta">Backlog scenarios</div>
-    </div>
-    <div class="math-grid">
-      <div class="math-card" data-state="current">
-        <div class="math-state math-state-current">Current pace</div>
-        <div class="math-headline">~1,000 cases per month</div>
-        <div class="math-stat-row"><span class="math-stat-label">Cases cleared</span><span class="math-stat-value">~19,000</span></div>
-        <div class="math-stat-row"><span class="math-stat-label">Remaining</span><span class="math-stat-value">575,537</span></div>
-        <div class="math-stat-row"><span class="math-stat-label">Years to backlog clear</span><span class="math-stat-value">~47.5</span></div>
-        <div class="math-conclusion">At present throughput the eligible backlog clears in <strong>~2073</strong>, before any new eligible cases are added.</div>
-      </div>
-      <div class="math-card" data-state="goal">
-        <div class="math-state math-state-goal">Five-year clear</div>
-        <div class="math-headline">~9,600 cases per month</div>
-        <div class="math-stat-row"><span class="math-stat-label">Required throughput</span><span class="math-stat-value">9.6× current</span></div>
-        <div class="math-stat-row"><span class="math-stat-label">Pennsylvania-equivalent</span><span class="math-stat-value">0.04×</span></div>
-        <div class="math-stat-row"><span class="math-stat-label">Backlog cleared by</span><span class="math-stat-value">2031</span></div>
-        <div class="math-conclusion">A reasonable interim target. Still far below PA's per-capita rate, but achievable with full automation as the law originally intended.</div>
-      </div>
-      <div class="math-card" data-state="promised">
-        <div class="math-state math-state-promised">Statutory promise</div>
-        <div class="math-headline">~27,000 cases per month</div>
-        <div class="math-stat-row"><span class="math-stat-label">22-month window</span><span class="math-stat-value">Aug 24 → Jun 26</span></div>
-        <div class="math-stat-row"><span class="math-stat-label">Required throughput</span><span class="math-stat-value">27× current</span></div>
-        <div class="math-stat-row"><span class="math-stat-label">Status</span><span class="math-stat-value" style="color: var(--accent-danger);">Missed</span></div>
-        <div class="math-conclusion">SB 111's fiscal note assumed full processing within the 22-month implementation window. That window closes in <strong>~7 weeks</strong>.</div>
-      </div>
-    </div>
-  </section>
+  <!-- "What Would It Take?" backlog-scenario section and the "On the Record" quote wall removed in
+       de-advocacy pass: self-authored projections + a "Missed" verdict + politician/advocate quotes.
+       Data sources remain cited in Methodology & Sources below. This page stays HELD until a real
+       DELJIS/SBI clearance feed replaces the news-reported figures. -->
 
-  <!-- ============ Quotes ============ -->
-  <section class="section">
-    <div class="section-header">
-      <div class="section-title">On the Record</div>
-      <div class="section-meta">Recent statements</div>
-    </div>
-    <div class="quote-grid">
-      <div class="quote-card">
-        <div class="quote-text">It's reprehensible that in 2021 we passed a law to automatically expunge records, and here we are in 2026 talking about how it still hasn't gotten done.</div>
-        <div class="quote-attribution"><strong>Gov. Matt Meyer</strong> · Ask Governor Meyer (WHYY) · May 4, 2026</div>
-      </div>
-      <div class="quote-card">
-        <div class="quote-text">If SBI continues at its current review rate, it could take Delaware over 20 years to get through the backlog.</div>
-        <div class="quote-attribution"><strong>John Reynolds</strong>, Deputy Policy &amp; Advocacy Director · ACLU of Delaware</div>
-      </div>
-      <div class="quote-card">
-        <div class="quote-text">SBI will continue to evaluate each record for accuracy, and we are working with all parties involved to create a more efficient process.</div>
-        <div class="quote-attribution"><strong>Lt. Tyler Wright</strong>, State Bureau of Identification · Statement to Spotlight Delaware</div>
-      </div>
-      <div class="quote-card">
-        <div class="quote-text">That kind of coordination doesn't just happen on its own. It requires clear ownership and leadership. This leadership needs to come from the governor's office.</div>
-        <div class="quote-attribution"><strong>Matthew Rosen</strong>, Director of Research, Office of Gov. Meyer</div>
-      </div>
-    </div>
-  </section>
 
   <!-- ============ Sources ============ -->
   <section class="section">
@@ -933,7 +882,7 @@
             <td><span class="src-meta">2026.05.10</span></td>
           </tr>
           <tr>
-            <td><span class="src-name">WHYY · "It's reprehensible"</span><br><span class="src-meta">whyy.org · May 4, 2026</span></td>
+            <td><span class="src-name">WHYY · Clean Slate rollout coverage</span><br><span class="src-meta">whyy.org · May 4, 2026</span></td>
             <td>~19,000 cleared count, governor remarks</td>
             <td><span class="src-meta">2026.05.10</span></td>
           </tr>

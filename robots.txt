@@ -1,7 +1,6 @@
 User-agent: *
 Allow: /
-# Held pages — not yet rebuilt to the neutrality standard, kept out of search.
-Disallow: /dgi-food-access/
+# Held page — not yet rebuilt to the neutrality standard (no real dataset yet), kept out of search.
 Disallow: /clean-slate/
 
 Sitemap: https://firststatelens.com/sitemap.xml

@@ -10,11 +10,9 @@
   # Always revalidate so a new deploy shows immediately — no stale cached HTML/CSS/JS.
   Cache-Control: no-cache
 
-# Held pages: DGI Food Access and Clean Slate predate the neutrality-firewall
-# pivot and are kept out of search until rebuilt to the public standard. They
-# also carry an inline <meta robots noindex> and a client-side password gate.
-/dgi-food-access/*
-  X-Robots-Tag: noindex, nofollow
-
+# Held page: Clean Slate predates the neutrality-firewall pivot and has no real
+# dataset yet, so it is kept out of search until rebuilt to the public standard.
+# It also carries an inline <meta robots noindex> and a client-side password gate.
+# (DGI Food Access was rebuilt to the neutrality standard and un-held 2026-07-05.)
 /clean-slate/*
   X-Robots-Tag: noindex, nofollow
