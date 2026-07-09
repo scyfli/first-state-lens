@@ -16,3 +16,11 @@
 # (DGI Food Access was rebuilt to the neutrality standard and un-held 2026-07-05.)
 /clean-slate/*
   X-Robots-Tag: noindex, nofollow
+
+# Held during build: the Candidate Record (2026 election) is kept out of search
+# until every candidate fact is verified against its primary source AND the official
+# candidate slate is final (major-party filing deadline noon July 14, 2026). Flip
+# public by removing this block + the robots.txt Disallow + adding the routes to
+# sitemap.xml, all together, once verified.
+/candidates/*
+  X-Robots-Tag: noindex, nofollow

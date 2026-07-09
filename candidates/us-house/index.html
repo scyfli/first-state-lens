@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Delaware U.S. House At-Large 2026 — Candidate Record — First State Lens</title>
+<meta name="description" content="The standardized public record for every 2026 candidate for Delaware's U.S. House at-large seat: filings, votes, campaign finance, and quoted positions. Primary sources only, nonpartisan." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/fsl.css" />
+<style>
+  /* Candidate record accent: violet — deliberately neither red nor blue. */
+  :root { --accent-primary: var(--violet-400); }
+  .title-eyebrow { color: var(--violet-400); border-color: rgba(167,139,250,0.25); background: rgba(167,139,250,0.05); }
+  .title-eyebrow::before { background: var(--violet-400); box-shadow: 0 0 6px var(--violet-400); }
+  .neutrality { border-left-color: var(--violet-400); }
+
+  .slate-note { display:flex; gap:12px; align-items:flex-start; border:1px dashed var(--border-strong); border-radius:10px; padding:14px 18px; margin-bottom:32px; font-size:13px; color:var(--text-secondary); max-width:980px; }
+  .slate-note strong { color: var(--text-primary); }
+
+  /* Compare table: candidates are columns, fields are rows. Identical fields for all. */
+  .compare-wrap { overflow-x:auto; }
+  .compare { width:100%; border-collapse:collapse; font-size:13.5px; min-width:560px; }
+  .compare th, .compare td { text-align:left; padding:12px 14px; border-bottom:1px solid var(--border-subtle); vertical-align:top; }
+  .compare thead th { font-family:'Space Grotesk',sans-serif; font-size:15px; font-weight:600; color:var(--text-primary); border-bottom:1px solid var(--border-default); }
+  .compare thead th .party { display:block; font-family:'JetBrains Mono',monospace; font-size:10.5px; letter-spacing:.05em; text-transform:uppercase; color:var(--text-tertiary); font-weight:500; margin-top:3px; }
+  .compare tbody th { font-family:'JetBrains Mono',monospace; font-size:10.5px; letter-spacing:.06em; text-transform:uppercase; color:var(--text-tertiary); font-weight:500; white-space:nowrap; }
+  .compare td { color:var(--text-secondary); font-variant-numeric:tabular-nums; }
+  .compare td.absent { color:var(--text-tertiary); font-style:italic; }
+  .incumbent-tag { display:inline-block; font-family:'JetBrains Mono',monospace; font-size:9.5px; letter-spacing:.06em; text-transform:uppercase; color:var(--violet-400); border:1px solid rgba(167,139,250,.3); border-radius:999px; padding:1px 7px; margin-left:6px; vertical-align:middle; }
+
+  /* Profile / docket panels */
+  .profiles { display:grid; grid-template-columns:repeat(auto-fit,minmax(340px,1fr)); gap:20px; }
+  .profile { background:var(--surface-elevated); border:1px solid var(--border-default); border-radius:14px; padding:24px; }
+  .profile-head { display:flex; align-items:baseline; justify-content:space-between; gap:10px; flex-wrap:wrap; margin-bottom:4px; }
+  .profile-name { font-family:'Space Grotesk',sans-serif; font-size:20px; font-weight:600; color:var(--text-primary); }
+  .profile-meta { font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:.04em; color:var(--text-tertiary); text-transform:uppercase; margin-bottom:18px; }
+  .field { margin-bottom:20px; }
+  .field-label { font-family:'JetBrains Mono',monospace; font-size:10.5px; letter-spacing:.07em; text-transform:uppercase; color:var(--text-tertiary); margin-bottom:8px; padding-bottom:6px; border-bottom:1px solid var(--border-subtle); }
+  .field-absent { font-size:13px; color:var(--text-tertiary); font-style:italic; }
+  .fact { font-size:13.5px; color:var(--text-secondary); line-height:1.55; margin-bottom:7px; }
+  .fact a, .src a { color:var(--text-secondary); }
+  .src { font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:.04em; color:var(--text-tertiary); text-transform:uppercase; margin-top:3px; }
+  .fin-row { display:flex; justify-content:space-between; gap:16px; padding:7px 0; border-bottom:1px solid var(--border-subtle); font-size:13.5px; }
+  .fin-row .k { color:var(--text-tertiary); }
+  .fin-row .v { color:var(--text-primary); font-variant-numeric:tabular-nums; font-weight:600; }
+  .votes { list-style:none; }
+  .vote { padding:9px 0; border-bottom:1px solid var(--border-subtle); font-size:13px; }
+  .vote .vb { color:var(--text-primary); font-weight:600; }
+  .vote .vt { color:var(--text-secondary); }
+  .vote .vmeta { font-family:'JetBrains Mono',monospace; font-size:10.5px; color:var(--text-tertiary); letter-spacing:.04em; margin-top:3px; }
+  blockquote.pos { border-left:2px solid var(--violet-400); padding:2px 0 2px 14px; margin:0 0 12px; font-size:13.5px; color:var(--text-secondary); line-height:1.55; }
+  blockquote.pos .pos-topic { display:block; font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:.06em; text-transform:uppercase; color:var(--violet-400); margin-bottom:5px; }
+  blockquote.pos .pos-src { display:block; font-family:'JetBrains Mono',monospace; font-size:10px; color:var(--text-tertiary); text-transform:uppercase; margin-top:5px; }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark">FS</div>
+      <div class="brand-text">
+        <div class="brand-name">First State Lens</div>
+        <div class="brand-tagline">Civic Analytics Lab · Delaware</div>
+      </div>
+    </div>
+    <div class="topbar-meta">
+      <div class="meta-item"><span id="meta-count">— candidates</span></div>
+      <div class="meta-item"><a href="/candidates/method/">Method ↗</a></div>
+    </div>
+  </header>
+
+  <main>
+  <div class="title-block">
+    <span class="title-eyebrow" id="office-eyebrow">U.S. House · Delaware · 2026</span>
+    <h1 class="title-h1">Who's running for Delaware's <span class="highlight">U.S. House</span> seat</h1>
+    <p class="title-sub" id="office-sub">The standardized public record for every 2026 candidate for Delaware's single at-large seat in the U.S. House of Representatives. Same fields for every candidate, every figure linked to its primary source.</p>
+  </div>
+
+  <p class="neutrality">
+    <strong>How to read this.</strong> Every candidate below is shown with the same fields in the same order, whether they hold the office now or are running for the first time. Campaign-finance figures are the raw amounts each candidate disclosed to the Federal Election Commission, with the reporting period. Positions are the candidate's own words, quoted and dated. Where a candidate has no record for a field, such as a first-time candidate with no voting history, the record says so plainly rather than leaving a blank. First State Lens draws no conclusions and ranks no one. <a href="/candidates/method/">Read the full method.</a> We show you the record; you decide.
+  </p>
+
+  <div class="slate-note" id="slate-note" hidden>
+    <span aria-hidden="true">⏳</span>
+    <div id="slate-note-text"></div>
+  </div>
+
+  <section class="section" aria-labelledby="compare-title">
+    <div class="section-head">
+      <h2 class="section-title" id="compare-title">Side by side</h2>
+      <span class="section-meta" id="compare-meta">SAME FIELDS · EVERY CANDIDATE</span>
+    </div>
+    <div class="panel compare-wrap">
+      <table class="compare" id="compare">
+        <caption class="section-meta" style="text-align:left;padding-bottom:12px;">Every candidate for the office, identical fields. Finance figures are raw disclosed totals. "No record" is stated where it applies.</caption>
+        <thead><tr id="compare-head"></tr></thead>
+        <tbody id="compare-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="record-title">
+    <div class="section-head">
+      <h2 class="section-title" id="record-title">The full record</h2>
+      <span class="section-meta">FILING · VOTES · FINANCE · POSITIONS</span>
+    </div>
+    <div class="profiles" id="profiles"></div>
+  </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-build" id="footer-build">DATA: not yet loaded</div>
+    <div class="footer-links">
+      <a href="/candidates/method/">How this record works (method)</a>
+      <a href="/candidates/">All Delaware races</a>
+      <a href="/">First State Lens home</a>
+    </div>
+    <div>First State Lens is a FirmSide AI Civic Analytics Lab project. Nonpartisan. Every figure is sourced to a public record. We show you the data; you decide.</div>
+  </footer>
+
+</div>
+
+<script>
+(function () {
+  const esc = (s) => String(s == null ? "" : s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const money = (v) => v === null || v === undefined ? "—" : "$" + Number(v).toLocaleString("en-US", { maximumFractionDigits: 0 });
+  const datef = (s) => { if (!s) return ""; const d = String(s).slice(0,10); return d; };
+  const srcLink = (url, label) => url ? `<a href="${esc(url)}" target="_blank" rel="noopener nofollow">${esc(label || "source")}</a>` : esc(label || "");
+  let DATA = null;
+
+  // ---- Compare view: candidates as columns, a fixed set of fields as rows ----
+  function renderCompare(cands, office) {
+    const head = document.getElementById("compare-head");
+    head.innerHTML = `<th scope="col">Field</th>` + cands.map((c) =>
+      `<th scope="col">${esc(c.name_legal)}${c.incumbent ? '<span class="incumbent-tag">Incumbent</span>' : ''}<span class="party">${esc(c.party)}</span></th>`
+    ).join("");
+
+    const cell = (html, absent) => `<td${absent ? ' class="absent"' : ''}>${html}</td>`;
+    const rows = [];
+
+    rows.push([`Ballot status`, cands.map((c) => {
+      const f = c.filing || {};
+      const label = f.ballot_label || (f.status === "qualified" ? "On the ballot" : (f.status || "—"));
+      const settled = f.status === "qualified" || f.status === "filed";
+      return cell(esc(label), !settled);
+    })]);
+
+    rows.push([`Legislative record`, cands.map((c) => {
+      const lr = c.legislative_record || {};
+      if (lr.status === "absent") return cell("No record — first-time candidate", true);
+      const n = (lr.roll_calls || []).length;
+      return cell(n ? `${n} recorded votes shown` : "—", !n);
+    })]);
+
+    rows.push([`Money raised`, cands.map((c) => {
+      const cf = c.campaign_finance || {};
+      return cf.status === "absent" ? cell("No finance reported", true) : cell(money(cf.total_raised));
+    })]);
+
+    rows.push([`Money spent`, cands.map((c) => {
+      const cf = c.campaign_finance || {};
+      return cf.status === "absent" ? cell("—", true) : cell(money(cf.total_spent));
+    })]);
+
+    rows.push([`Positions on record`, cands.map((c) => {
+      const n = (c.positions || []).length;
+      return cell(n ? `${n} quoted` : "None quoted", !n);
+    })]);
+
+    document.getElementById("compare-body").innerHTML = rows.map(([label, cells]) =>
+      `<tr><th scope="row">${esc(label)}</th>${cells.join("")}</tr>`
+    ).join("");
+  }
+
+  // ---- Docket / profile: one candidate, the full record, absence stated ----
+  function renderProfile(c) {
+    let h = `<div class="profile">`;
+    h += `<div class="profile-head"><span class="profile-name">${esc(c.name_legal)}</span>`;
+    h += `${c.incumbent ? '<span class="incumbent-tag">Incumbent</span>' : ''}</div>`;
+    h += `<div class="profile-meta">${esc(c.party)}</div>`;
+
+    // Ballot status — stated exactly as the primary record shows it, for every candidate
+    const f = c.filing || {};
+    h += `<div class="field"><div class="field-label">Ballot status</div>`;
+    const settled = f.status === "qualified" || f.status === "filed";
+    const label = f.ballot_label || (f.status === "qualified" ? "On the Delaware ballot." : (f.status || "Status not on file."));
+    h += `<div class="${settled ? 'fact' : 'field-absent'}">${esc(label)}`;
+    h += f.source ? ` <span class="src">${srcLink(f.source, 'source ↗')}</span>` : '';
+    h += `</div></div>`;
+
+    // Biography
+    h += `<div class="field"><div class="field-label">Background</div>`;
+    if ((c.biography || []).length) {
+      h += (c.biography).map((b) =>
+        `<div class="fact">${esc(b.fact)}${b.source ? ' <span class="src">' + srcLink(b.source, 'source ↗') + '</span>' : ''}</div>`
+      ).join("");
+    } else {
+      h += `<div class="field-absent">No sourced biographical facts on file.</div>`;
+    }
+    h += `</div>`;
+
+    // Legislative record — absence stated, never blank
+    h += `<div class="field"><div class="field-label">Legislative voting record</div>`;
+    const lr = c.legislative_record || {};
+    if (lr.status === "absent") {
+      h += `<div class="field-absent">${esc(lr.absent_reason || "No legislative record: first-time candidate.")}</div>`;
+    } else if ((lr.roll_calls || []).length) {
+      h += `<ul class="votes">` + lr.roll_calls.map((v) =>
+        `<li class="vote"><span class="vb">${esc(v.bill)}</span> — <span class="vt">${esc(v.title)}</span>`
+        + `<div class="vmeta">${v.question ? esc(v.question) + ' · ' : ''}Voted ${esc(v.vote)} · ${esc(datef(v.date))} · ${srcLink(v.source, 'roll call ↗')}</div></li>`
+      ).join("") + `</ul>`;
+    } else {
+      h += `<div class="field-absent">No roll-call votes on file for this record.</div>`;
+    }
+    h += `</div>`;
+
+    // Campaign finance — raw numbers only, no bars, no adjectives
+    h += `<div class="field"><div class="field-label">Campaign finance</div>`;
+    const cf = c.campaign_finance || {};
+    if (cf.status === "absent") {
+      h += `<div class="field-absent">${esc(cf.absent_reason || "No campaign finance reported.")}</div>`;
+    } else {
+      h += `<div class="fin-row"><span class="k">Raised</span><span class="v">${money(cf.total_raised)}</span></div>`;
+      h += `<div class="fin-row"><span class="k">Spent</span><span class="v">${money(cf.total_spent)}</span></div>`;
+      if (cf.cash_on_hand != null) h += `<div class="fin-row"><span class="k">Cash on hand</span><span class="v">${money(cf.cash_on_hand)}</span></div>`;
+      h += `<div class="src" style="margin-top:8px;">Through ${esc(datef(cf.as_of))} · ${srcLink(cf.source, 'FEC ↗')}</div>`;
+    }
+    h += `</div>`;
+
+    // Positions — verbatim quotes only
+    h += `<div class="field"><div class="field-label">Positions (in their words)</div>`;
+    if ((c.positions || []).length) {
+      h += c.positions.map((p) =>
+        `<blockquote class="pos"><span class="pos-topic">${esc(p.topic)}</span>“${esc(p.quote)}”`
+        + `<span class="pos-src">${esc(datef(p.date))}${p.context ? ' · ' + esc(p.context) : ''} · ${srcLink(p.source, 'source ↗')}</span></blockquote>`
+      ).join("");
+    } else {
+      h += `<div class="field-absent">No verbatim, sourced public positions on file yet.</div>`;
+    }
+    h += `</div>`;
+
+    h += `</div>`;
+    return h;
+  }
+
+  function injectJsonLd(cands, office) {
+    const items = cands.map((c, i) => ({
+      "@type": "ListItem", "position": i + 1,
+      "item": {
+        "@type": "Person",
+        "name": c.name_legal,
+        "memberOf": c.incumbent ? { "@type": "GovernmentOrganization", "name": office.chamber } : undefined,
+        "seeks": { "@type": "PublicOffice", "name": office.name }
+      }
+    }));
+    const ld = {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": office.name + " — 2026 candidates",
+      "itemListElement": items
+    };
+    const s = document.createElement("script");
+    s.type = "application/ld+json";
+    s.textContent = JSON.stringify(ld);
+    document.head.appendChild(s);
+  }
+
+  async function load() {
+    try {
+      const r = await fetch("../data/us-house.json", { cache: "no-cache" });
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      DATA = await r.json();
+    } catch (e) {
+      document.getElementById("footer-build").textContent = "DATA: unavailable (" + e.message + ")";
+      return;
+    }
+    const office = DATA.office || {};
+    const cands = (DATA.candidates || []).slice();
+
+    if (office.name) document.getElementById("office-eyebrow").textContent = office.name + " · 2026";
+    document.getElementById("meta-count").textContent = cands.length + " candidate" + (cands.length === 1 ? "" : "s");
+
+    if (DATA.slate_note) {
+      document.getElementById("slate-note-text").innerHTML =
+        `<strong>The candidate list is not final.</strong> ${esc(DATA.slate_note)}`;
+      document.getElementById("slate-note").hidden = false;
+    }
+
+    renderCompare(cands, office);
+    document.getElementById("profiles").innerHTML = cands.map(renderProfile).join("");
+    injectJsonLd(cands, office);
+
+    const asOf = (DATA.generated_at || "").slice(0, 10);
+    document.getElementById("footer-build").textContent =
+      `${cands.length} CANDIDATES · ${esc((office.name || "").toUpperCase())} · METHOD v${esc(DATA.method_version || "1.0")} · DATA AS OF ${asOf} · PRIMARY SOURCES ONLY`;
+  }
+  load();
+})();
+</script>
+</body>
+</html>

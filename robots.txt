@@ -2,5 +2,7 @@ User-agent: *
 Allow: /
 # Held page — not yet rebuilt to the neutrality standard (no real dataset yet), kept out of search.
 Disallow: /clean-slate/
+# Held during build — Candidate Record (2026) out of search until facts verified + slate final (7/14/2026).
+Disallow: /candidates/
 
 Sitemap: https://firststatelens.com/sitemap.xml

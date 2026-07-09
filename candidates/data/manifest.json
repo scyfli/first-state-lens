@@ -1,0 +1,37 @@
+{
+  "dashboard": "candidates",
+  "title": "Delaware Candidate Record",
+  "cycle": 2026,
+  "method_version": "1.0",
+  "scope": "Slice 1: U.S. House at-large. Additional offices are the scale step.",
+  "neutrality": "Primary public documents only. Identical fields per office. Raw finance figures, quote-only positions, stated absences, link-only corrections. See /candidates/method/.",
+  "sources": {
+    "candidate_filing": {
+      "name": "Delaware Department of Elections — Candidate List",
+      "url": "https://elections.delaware.gov/candidates/candidatelist/",
+      "access": "HTML tables; parsed. Re-checked after the July 14, 2026 filing deadline.",
+      "license": "Public election records"
+    },
+    "federal_finance": {
+      "name": "Federal Election Commission — OpenFEC",
+      "url": "https://api.open.fec.gov/v1/",
+      "access": "REST API (key) + bulk .FEC files; public candidate pages at fec.gov/data/candidate/{id}/",
+      "license": "Public domain (U.S. Government)"
+    },
+    "federal_votes": {
+      "name": "U.S. Congress roll-call votes",
+      "url": "https://www.congress.gov/",
+      "access": "Congress.gov member votes / clerk.house.gov roll-call records",
+      "license": "Public domain (U.S. Government)"
+    },
+    "state_votes": {
+      "name": "LegiScan — Delaware (for state-legislative offices, scale step)",
+      "url": "https://legiscan.com/DE",
+      "access": "Free API + weekly bulk datasets (JSON/CSV)",
+      "license": "Per LegiScan terms"
+    }
+  },
+  "row_counts": { "offices": 1, "candidates": 2 },
+  "generated_at": "2026-07-09T16:00:00Z",
+  "notes": "Held (noindex) until the slate is final (filing closes noon July 14, 2026) and facts are re-verified. McBride fully populated (5 real 119th-Congress roll calls, current-cycle sourced position, FEC finance). Whalen: FEC-registered, not yet state-listed as of 7/9; finance + 2024-result bio sourced; 2024-cycle position quotes intentionally omitted rather than presented as current."
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>How the Candidate Record Works — First State Lens</title>
+<meta name="description" content="The sourcing and neutrality rules behind the First State Lens candidate record: what we publish, what we exclude, how we handle empty records, and how corrections work. Primary sources only, nonpartisan." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/fsl.css" />
+<style>
+  /* Candidate record accent: violet — deliberately neither red nor blue. */
+  :root { --accent-primary: var(--violet-400); }
+  .title-eyebrow { color: var(--violet-400); border-color: rgba(167,139,250,0.25); background: rgba(167,139,250,0.05); }
+  .title-eyebrow::before { background: var(--violet-400); box-shadow: 0 0 6px var(--violet-400); }
+  .neutrality { border-left-color: var(--violet-400); }
+  .rule { background: var(--surface-elevated); border: 1px solid var(--border-default); border-radius: 14px; padding: 22px 24px; margin-bottom: 16px; }
+  .rule h3 { font-family: 'Space Grotesk', sans-serif; font-size: 16px; font-weight: 600; margin-bottom: 8px; color: var(--text-primary); }
+  .rule p { font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
+  .rule p + p { margin-top: 10px; }
+  .prose { max-width: 820px; }
+  .prose li { font-size: 14px; color: var(--text-secondary); line-height: 1.6; margin: 6px 0 6px 22px; }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark">FS</div>
+      <div class="brand-text">
+        <div class="brand-name">First State Lens</div>
+        <div class="brand-tagline">Civic Analytics Lab · Delaware</div>
+      </div>
+    </div>
+    <div class="topbar-meta">
+      <div class="meta-item"><span>METHOD · v1.0</span></div>
+    </div>
+  </header>
+
+  <main>
+  <div class="title-block">
+    <span class="title-eyebrow">The Method · Candidate Record</span>
+    <h1 class="title-h1">How the <span class="highlight">candidate record</span> works</h1>
+    <p class="title-sub">First State Lens publishes one standardized record for every candidate, built only from primary public documents. This page is the rulebook. It explains what goes on a candidate page, what never does, how an empty record is shown, and how a correction is made. Read it, then hold every candidate page to it.</p>
+  </div>
+
+  <p class="neutrality">
+    <strong>The one commitment.</strong> Every fact on a candidate page links to the primary document it came from, an official filing, a recorded vote, a disclosed finance report, or a dated public statement quoted word for word. If a fact cannot be linked to a source like that, it does not appear. A source link shows you where a fact came from so you can check it yourself. It is not our endorsement of the fact and it is not a claim that we verified anything beyond the document existing. We publish the record and the link. You decide what it means.
+  </p>
+
+  <section class="section prose" aria-labelledby="what-title">
+    <div class="section-head"><h2 class="section-title" id="what-title">What goes on a candidate page</h2></div>
+
+    <div class="rule">
+      <h3>Only primary public documents</h3>
+      <p>Five kinds of fact qualify: the candidate's official filing with the state, roll-call votes they cast in office, campaign-finance totals they disclosed, biographical facts drawn from a primary public record (an official government page where one exists, or the official filing and election records where it does not, so a challenger with no government page is never shown as thinner than an incumbent for lack of one), and public statements quoted exactly as said with a date and a source. Each one carries its own link.</p>
+    </div>
+
+    <div class="rule">
+      <h3>Every candidate for an office gets the same fields, in the same order</h3>
+      <p>An incumbent and a first-time challenger are shown with an identical set of fields. Nobody gets an extra section and nobody is missing one. Where a candidate has nothing to show for a field, the field still appears and says so. Identical structure is how comparison stays fair without anyone writing a comparison.</p>
+    </div>
+
+    <div class="rule">
+      <h3>Finance is shown as raw numbers</h3>
+      <p>Money raised, money spent, and cash on hand appear as the figures the candidate disclosed, with the reporting period and the source. We attach no adjective to a number. We do not rank candidates by how much they raised, and we do not draw a bar that makes one total look like a verdict on another.</p>
+    </div>
+
+    <div class="rule">
+      <h3>Positions are direct quotes only</h3>
+      <p>A candidate's position appears as their own words in quotation marks, with the date, the setting, and a link. We do not summarize a position into a label of our own, because a summary is a choice and the choice would be ours. If we cannot quote it and source it, we do not describe it.</p>
+    </div>
+  </section>
+
+  <section class="section prose" aria-labelledby="not-title">
+    <div class="section-head"><h2 class="section-title" id="not-title">What never goes on a candidate page</h2></div>
+    <ul>
+      <li>Endorsements, ours or anyone else's.</li>
+      <li>Our characterization of a candidate, their record, or their chances.</li>
+      <li>Third-party ratings, scorecards, or grades.</li>
+      <li>Polling.</li>
+      <li>Any claim we cannot link to a primary document.</li>
+    </ul>
+  </section>
+
+  <section class="section prose" aria-labelledby="empty-title">
+    <div class="section-head"><h2 class="section-title" id="empty-title">How an empty record is handled</h2></div>
+    <div class="rule">
+      <h3>Absence is a stated fact, never a blank</h3>
+      <p>A first-time candidate has no legislative voting record, because they have not held the office. That is a fact about their situation, not a gap in our data, and we show it that way. The field reads "No legislative record: first-time candidate," in the same place, worded the same way, for every candidate it applies to.</p>
+      <p>A blank space would quietly read as though something were missing or hidden. A stated absence reads as what it is. Court records handle a first appearance the same way, by noting it, not by leaving a hole.</p>
+    </div>
+  </section>
+
+  <section class="section prose" aria-labelledby="fix-title">
+    <div class="section-head"><h2 class="section-title" id="fix-title">How a correction works</h2></div>
+    <div class="rule">
+      <h3>We fix the link, we do not argue</h3>
+      <p>If a fact is wrong or a source has moved, tell us and we correct the field or the link. A correction is a repair to the record, not a debate about it. We do not add a rebuttal, a footnote taking a side, or a note explaining why someone is unhappy. The record either matches the primary document or it gets fixed until it does.</p>
+      <p>Every record carries the version of this method that governed it. When a rule here changes, the version number moves, so you can always tell which rulebook a given page was built under.</p>
+    </div>
+  </section>
+
+  <section class="section prose" aria-labelledby="why-title">
+    <div class="section-head"><h2 class="section-title" id="why-title">Why it is built this way</h2></div>
+    <p style="font-size:14px;color:var(--text-secondary);line-height:1.6;max-width:820px;">
+      A voter looking at two candidates does not need us to tell them who is better. They need the record in one place, in the same shape for each person, with a link to check every line. Standardizing the fields, sourcing every fact, quoting positions instead of summarizing them, and showing an absence as an absence are not four separate rules. They are one idea: put the primary record in front of the voter and get out of the way.
+    </p>
+  </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-build">CANDIDATE RECORD · METHOD v1.0 · PRIMARY SOURCES ONLY · NONPARTISAN</div>
+    <div class="footer-links">
+      <a href="/candidates/">Who's on the Delaware ballot</a>
+      <a href="/">First State Lens home</a>
+    </div>
+    <div>First State Lens is a FirmSide AI Civic Analytics Lab project. Nonpartisan. Every figure is sourced to a public record. We show you the data; you decide.</div>
+  </footer>
+
+</div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "name": "First State Lens Candidate Record — Method",
+  "headline": "How the First State Lens candidate record works",
+  "version": "1.0",
+  "inLanguage": "en-US",
+  "isAccessibleForFree": true,
+  "author": { "@type": "Organization", "name": "First State Lens", "parentOrganization": "FirmSide AI" },
+  "publisher": { "@type": "Organization", "name": "FirmSide AI" },
+  "about": "Sourcing and neutrality methodology for standardized Delaware candidate records: primary sources only, identical fields per office, raw finance figures, quote-only positions, stated absences, and link-only corrections.",
+  "url": "https://firststatelens.com/candidates/method/"
+}
+</script>
+</body>
+</html>

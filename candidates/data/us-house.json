@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-07-09T16:00:00Z",
+  "cycle": 2026,
+  "method_version": "1.0",
+  "slate_note": "As of July 9, 2026, the Delaware Department of Elections candidate list shows Sarah McBride as Qualified for this office. John J. Whalen III is a registered federal (FEC) candidate but is not yet on the state candidate list. The major-party filing deadline is noon on July 14, 2026, after which the list is final. This record is updated then.",
+  "office": {
+    "id": "us-house-de",
+    "name": "U.S. House of Representatives, Delaware At-Large",
+    "chamber": "U.S. House of Representatives",
+    "term_years": 2,
+    "what_it_does": "Delaware's single member of the U.S. House of Representatives, elected statewide to represent the entire state.",
+    "source": "https://www.house.gov/the-house-explained"
+  },
+  "candidates": [
+    {
+      "id": "mcbride-sarah",
+      "name_legal": "Sarah McBride",
+      "slug": "sarah-mcbride",
+      "party": "Democratic",
+      "incumbent": true,
+      "filing": {
+        "status": "qualified",
+        "ballot_label": "On the Delaware ballot — Qualified. Filed June 12, 2026.",
+        "date": "2026-06-12",
+        "source": "https://elections.delaware.gov/candidates/candidatelist/genl_fcddt_2026.html"
+      },
+      "biography": [
+        { "fact": "U.S. Representative for Delaware's at-large district, the state's sole member of the U.S. House. Took office January 3, 2025.", "source": "https://mcbride.house.gov/about" },
+        { "fact": "Delaware State Senator, First State Senate District, from 2020 to 2025.", "source": "https://mcbride.house.gov/about" }
+      ],
+      "legislative_record": {
+        "status": "present",
+        "roll_calls": [
+          { "bill": "H.R. 29", "title": "Laken Riley Act", "question": "On Passage", "vote": "Nay", "date": "2025-01-07", "source": "https://clerk.house.gov/evs/2025/roll006.xml" },
+          { "bill": "H.R. 22", "title": "SAVE Act", "question": "On Passage", "vote": "Nay", "date": "2025-04-10", "source": "https://clerk.house.gov/evs/2025/roll102.xml" },
+          { "bill": "H.R. 1", "title": "One Big Beautiful Bill Act", "question": "On Passage", "vote": "Nay", "date": "2025-05-22", "source": "https://clerk.house.gov/evs/2025/roll145.xml" },
+          { "bill": "H.R. 1", "title": "One Big Beautiful Bill Act", "question": "On Motion to Concur in the Senate Amendment", "vote": "No", "date": "2025-07-03", "source": "https://clerk.house.gov/evs/2025/roll190.xml" },
+          { "bill": "S. 1582", "title": "GENIUS Act", "question": "On Passage", "vote": "Nay", "date": "2025-07-17", "source": "https://clerk.house.gov/evs/2025/roll200.xml" }
+        ]
+      },
+      "campaign_finance": {
+        "status": "present",
+        "as_of": "2026-03-31",
+        "total_raised": 3920915.16,
+        "total_spent": 1666348.16,
+        "cash_on_hand": null,
+        "source": "https://www.fec.gov/data/candidate/H4DE00045/"
+      },
+      "positions": [
+        {
+          "topic": "Birthright Citizenship",
+          "quote": "Today's decision is a win for upholding the Constitution and the ideals that have long shaped our nation. It firmly rejects the president's attempt to chip away at citizenship through exception after exception. Birthright citizenship is a cornerstone of our nation's civil liberties, and this decision further solidifies its validity.",
+          "date": "2026-06-30",
+          "context": "Official U.S. House statement",
+          "source": "https://mcbride.house.gov/media/press-releases/rep-mcbride-statement-supreme-courts-decision-upholding-birthright-citizenship"
+        }
+      ]
+    },
+    {
+      "id": "whalen-john-iii",
+      "name_legal": "John J. Whalen III",
+      "slug": "john-whalen-iii",
+      "party": "Republican",
+      "incumbent": false,
+      "filing": {
+        "status": "fec_registered",
+        "ballot_label": "Registered federal candidate (FEC). Not yet on the Delaware candidate list as of July 9, 2026. Major-party filing closes noon July 14, 2026.",
+        "date": null,
+        "source": "https://www.fec.gov/data/candidate/H4DE00078/"
+      },
+      "biography": [
+        { "fact": "Republican nominee for Delaware's U.S. House at-large seat in 2024; lost the November 5, 2024 general election.", "source": "https://ballotpedia.org/John_Whalen_III_(Delaware)" }
+      ],
+      "legislative_record": {
+        "status": "absent",
+        "absent_reason": "No federal legislative record: has not held federal office.",
+        "roll_calls": []
+      },
+      "campaign_finance": {
+        "status": "present",
+        "as_of": "2026-03-31",
+        "total_raised": 0,
+        "total_spent": 98.05,
+        "cash_on_hand": null,
+        "source": "https://www.fec.gov/data/candidate/H4DE00078/"
+      },
+      "positions": []
+    }
+  ]
+}
