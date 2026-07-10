@@ -1,8 +1,36 @@
 # First State Lens — Session Handoff
-**2026-06-22 · FirmSide AI Civic Analytics Lab · resume contract**
+**2026-07-09 · FirmSide AI Civic Analytics Lab · resume contract**
 
 > Read this first, then `ISA.md` (project system of record, slug `fsl-civic-suite`).
 > Vault context (methodology/sessions) lives separately: `first-state-lens-vault/11-Sessions/CONTEXT.md`.
+
+---
+
+## 2026-07-09 — Candidate Record slice (LATEST, held build)
+
+**What shipped:** a new `/candidates/` section — the Candidate Stat Line, one standardized primary-sourced record rendered four ways (Explainer `/candidates/`, Compare + Docket `/candidates/us-house/`, Method `/candidates/method/`). One data contract `candidates/data/us-house.json`; all views read it. Slice target = **DE U.S. House at-large 2026**. Accent violet (neither-party). JSON-LD: Person/ItemList/FAQPage/CreativeWork.
+
+**Data is real + verified:** McBride (incumbent, fully populated — 5 real 119th-Congress roll calls verified against House Clerk EVS XML, house.gov bio, one current-cycle sourced quote, FEC finance $3.92M) + Whalen (challenger — FEC-registered but NOT yet on the DE state list as of 7/9, stated plainly; FEC finance $0/$98; 2024-cycle quotes intentionally omitted). All 12 source URLs live-checked 200. Interceptor + production-parity render verified. Neutrality enforced in render: absence stated not blank, finance raw (no magnitude bars), positions quote-only.
+
+**Commit:** `2e934ea` on `main`, pushed to `scyfli/first-state-lens`. Tree clean.
+
+**HELD (deliberately):** `/candidates/*` is noindex (`_headers`) + Disallow (`robots.txt`) + NOT in sitemap + unlinked from homepage. Live-verified: `curl -sI https://firststatelens.com/candidates/us-house/` → `x-robots-tag: noindex`.
+
+**⏰ NEXT ACTION (the July 14 flip — reminder set: Telegram cron 9am ET + Google Calendar email, both fire 7/14):**
+1. After noon **July 14 2026** (filing deadline), re-pull the final DE US House candidate list (`elections.delaware.gov/candidates/candidatelist/genl_fcddt_2026.html`).
+2. Confirm Whalen's ballot status; ADD any candidates who newly filed (author their record from primary sources, same fields).
+3. Re-verify every source URL + McBride's votes.
+4. **Public flip in one move:** remove the `/candidates/*` block from `_headers`, remove `Disallow: /candidates/` from `robots.txt`, add the 3 routes to `sitemap.xml`, add a homepage card. Then Interceptor live-verify + GSC.
+
+**Scale step (after flip):** second office = a State Senate/House district → proves the harder LegiScan (roll-calls) + CFRS (finance) path. Full spec + data-source map: `~/.claude/PAI/MEMORY/WORK/20260709-fsl-midterm-ideate/SLICE-SPEC.md` (mirror `Desktop/TrazynOutPut/2026-07-09_fsl-candidate-statline/`).
+
+**Rollback:** `git revert 2e934ea` removes the whole `/candidates/` section (held pages, additive-only — the 8 live dashboards untouched).
+
+**Companion (separate repo, shipped):** firmsideai.com preview article `In Delaware, the ballot is the people` LIVE at `firmsideai.com/ballot-is-the-people` + Newsletter card (repo `FirmSideAI-Website` `44d10c6`); branded cover `ballot-og.png` (1280×720). LinkedIn newsletter draft + cover for Mark to post 7/10: `Desktop/TrazynOutPut/2026-07-09_fsl-candidate-statline/LINKEDIN-NEWSLETTER-v1.md`.
+
+---
+
+## 2026-06-22 — Public launch (prior context)
 
 ## Where we are (one paragraph)
 **PUBLIC LAUNCH COMPLETE.** firststatelens.com is live in full public production. The six post-pivot dashboards (Schools, Water, Spending, Federal, Childcare, Votes) plus the homepage are public + indexable; DGI Food Access + Clean Slate are HELD (gated + noindex + robots-disallowed + unlinked) pending a de-advocacy rebuild. This session: found CI red and fixed it (a shared `color-contrast` defect — the per-KPI source citations + footer + in-table links all failed WCAG AA; one CSS pass turned all 6 green), ran a 9-page parallel content audit (the 6 new pages passed the neutrality rubric, the 2 oldest failed on advocacy framing + placeholder data → held), then executed the RED flip (removed noindex + the password gate from the 6, scoped noindex to the held dirs, added robots.txt + sitemap.xml, pulled the held cards + soft-launch copy from the homepage). All live-verified.
