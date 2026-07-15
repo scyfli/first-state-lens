@@ -32,6 +32,6 @@
     }
   },
   "row_counts": { "offices": 1, "candidates": 2 },
-  "generated_at": "2026-07-09T16:00:00Z",
-  "notes": "Held (noindex) until the slate is final (filing closes noon July 14, 2026) and facts are re-verified. McBride fully populated (5 real 119th-Congress roll calls, current-cycle sourced position, FEC finance). Whalen: FEC-registered, not yet state-listed as of 7/9; finance + 2024-result bio sourced; 2024-cycle position quotes intentionally omitted rather than presented as current."
+  "generated_at": "2026-07-14T20:00:00Z",
+  "notes": "Published July 14, 2026 against the final Delaware certified candidate list (updated 2026-07-14, after the noon major-party filing deadline). Slate for this office: Sarah McBride (Democratic, Qualified) is the only candidate on the certified list. John J. Whalen III is registered with the FEC for this race but does not appear on the Delaware certified list; shown with that stated, sourced status. McBride fully populated (5 real 119th-Congress roll calls, current-cycle sourced position, FEC finance). All source URLs link-checked, zero 404s."
 }

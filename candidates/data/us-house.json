@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-09T16:00:00Z",
+  "generated_at": "2026-07-14T20:00:00Z",
   "cycle": 2026,
   "method_version": "1.0",
-  "slate_note": "As of July 9, 2026, the Delaware Department of Elections candidate list shows Sarah McBride as Qualified for this office. John J. Whalen III is a registered federal (FEC) candidate but is not yet on the state candidate list. The major-party filing deadline is noon on July 14, 2026, after which the list is final. This record is updated then.",
+  "slate_note": "This record reflects the Delaware Department of Elections certified candidate list, updated July 14, 2026, after the major-party filing deadline closed at noon that day. Sarah McBride is the only candidate listed for this office. John J. Whalen III is registered with the Federal Election Commission for this race but does not appear on the Delaware certified candidate list.",
   "office": {
     "id": "us-house-de",
     "name": "U.S. House of Representatives, Delaware At-Large",
@@ -64,7 +64,7 @@
       "incumbent": false,
       "filing": {
         "status": "fec_registered",
-        "ballot_label": "Registered federal candidate (FEC). Not yet on the Delaware candidate list as of July 9, 2026. Major-party filing closes noon July 14, 2026.",
+        "ballot_label": "Registered with the FEC for this race. Does not appear on the Delaware certified candidate list (updated July 14, 2026). Not on the November 3, 2026 ballot.",
         "date": null,
         "source": "https://www.fec.gov/data/candidate/H4DE00078/"
       },
