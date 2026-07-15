@@ -6,7 +6,24 @@
 
 ---
 
-## 2026-07-09 — Candidate Record slice (LATEST, held build)
+## 2026-07-14 — Candidate Reveal (LATEST · LIVE + PUBLIC)
+
+**Commit:** `3ed66c1` on `main`, pushed to `scyfli/first-state-lens`. Tree clean, 0 ahead.
+**Verification:** 12/12 source URLs 200 (0 404s) · neutrality grep clean · real-browser render on **live** firststatelens.com/candidates/us-house/ (2 candidates, "About this slate" banner, no JS errors).
+
+**What shipped:** the held 7/9 build flipped **public**. Re-pulled the final slate against the DE certified list (stamped "Updated 2026-07-14 07:56 PM", post noon deadline): **Sarah McBride is the only qualified candidate** for U.S. House at-large. **John Whalen III** (FEC-registered) did NOT make the DE ballot — kept (Mark's call) with a neutral sourced status ("Registered with the FEC; does not appear on the Delaware certified candidate list; not on the Nov 3 ballot"). Hold removed: `robots.txt` `Disallow /candidates/` dropped · `sitemap.xml` +3 candidate routes · homepage violet "Who's on the Ballot" card · us-house banner "not final"→"About this slate" · `candidates/index.html` FAQ+JSON-LD updated · `us-house.json`+`manifest.json` regenerated (final slate_note, generated_at 2026-07-14).
+
+**In-flight:** none. Reveal complete + verified. Session ended on an advisory question.
+
+**THE NEXT DECISION (Mark's pick):** which race next. Verified: the ONLY statewide/federal 2026 DE ballot races besides US House are **State Treasurer** (open seat, contested field) and **Auditor of Accounts** (York D inc). US Senate + AG + Governor + Lt Gov + Insurance are NOT up in 2026 (the plan wrongly listed US Senate + AG — corrected). Both remaining are executive (no roll-calls) but finance = manual state CFRS. **Trazyn rec:** Auditor first (smallest, proves CFRS path) → then Treasurer (open-seat, high value); OR build the ETL puller (FEC+Congress+LegiScan+CFRS) so races become "add JSON rows" (the spec's real scale step). State House/Senate districts + county = puller-scale, not same-day.
+
+**Next session first action:** ask Mark which he picked (Auditor / Treasurer / puller); on Auditor, author the record (York filing + bio + CFRS finance + quoted positions; legislative_record absent = executive), link-check, neutrality grep, render-verify, add sitemap + homepage card, deploy.
+
+**Rollback:** last known-good `3ed66c1` (reveal); prior held state `4e2412e`. To un-reveal: re-add `Disallow: /candidates/`, remove the 3 sitemap routes + homepage card, push.
+
+---
+
+## 2026-07-09 — Candidate Record slice (held build — superseded by the 7/14 reveal above)
 
 **What shipped:** a new `/candidates/` section — the Candidate Stat Line, one standardized primary-sourced record rendered four ways (Explainer `/candidates/`, Compare + Docket `/candidates/us-house/`, Method `/candidates/method/`). One data contract `candidates/data/us-house.json`; all views read it. Slice target = **DE U.S. House at-large 2026**. Accent violet (neither-party). JSON-LD: Person/ItemList/FAQPage/CreativeWork.
 
