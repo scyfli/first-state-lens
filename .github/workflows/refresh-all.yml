@@ -61,6 +61,7 @@ jobs:
         env:
           CENSUS_API_KEY: ${{ secrets.CENSUS_API_KEY }}
           OPENSTATES_API_KEY: ${{ secrets.OPENSTATES_API_KEY }}
+          FEC_API_KEY: ${{ secrets.FEC_API_KEY }}
         run: |
           set -uo pipefail
           # Latest COMPLETE federal fiscal year (fed FY ends Sept 30): Oct+ = current year, else year-1.
@@ -79,6 +80,7 @@ jobs:
           run "Federal"   etl.sources.usaspending_de --fy "$FED_FY"
           run "Childcare" etl.sources.firstmap_childcare
           run "Votes"     etl.sources.openstates_de
+          run "CampaignFinance" etl.sources.fec_de
           if [ "$fail" -ne 0 ]; then
             echo "::warning::One or more pullers failed; committing only the dashboards that refreshed cleanly."
           fi
@@ -94,6 +96,7 @@ jobs:
             federal/data/
             childcare/data/
             votes/data/
+            campaign-finance/data/
           if-no-files-found: warn
           retention-days: 90
 
@@ -103,7 +106,7 @@ jobs:
           set -euxo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add schools/data spending/data water/data federal/data childcare/data votes/data
+          git add schools/data spending/data water/data federal/data childcare/data votes/data campaign-finance/data
           if git diff --cached --quiet; then
             echo "No data changes to commit."
             exit 0

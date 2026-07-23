@@ -166,7 +166,7 @@ proven repeatable for Waves 2 and 3.
 
 ### Wave 2 / Wave 3 (criteria expand at build)
 - [x] ISC-44: Legislator Votes (Wave 2 #1) built on Open States v3 (free key). etl/sources/openstates_de.py aggregates the current session's recorded roll-call votes per legislator (member-votes are self-describing — voter.id/party/chamber/district/option — no roster join). Verified: session 153, 65 legislators (21 Senate / 41 House), 1,592 vote events / 925 bills; per-legislator yes/no/participation. votes/index.html = "find your legislator" filter + sortable table, NO party colors, no scoring (most-charged dashboard → strictest neutrality). Pushed. (Sponsorships/attendance detail = v1.1.)
-- [ ] ISC-45: Federal campaign finance built on FEC (free key), DE candidate committees.
+- [x] ISC-45: Federal campaign finance built on FEC (OpenFEC via api.data.gov key). **VERIFIED 2026-07-23:** `etl/sources/fec_de.py` pulls `/candidates/totals?state=DE` for the cycle (name/office/party/receipts/disbursements/cash-on-hand), silent-zero guard (raises unless ≥1 candidate with filed receipts). Probed live: 19 DE 2026 candidates, 6 with filed receipts, $11.53M total raised (McBride $4.66M House, Coons $6.66M Senate). `campaign-finance/index.html` = raw as-filed numbers, party as a factual label (no color, no ranking, NO magnitude bars = strictest-neutrality posture matching Votes), FEC-registration≠ballot caveat. Neutrality grep 0 hits, render-verified. Homepage card + sitemap + a11y route + refresh-all wiring added. FEC_API_KEY set as repo secret.
 - [ ] ISC-46: Reassessment ships Kent-only, transparently labeled, NCC/Sussex flagged as access-pending.
 - [ ] ISC-47: Anti: Reassessment never publishes Sussex data without a written county exception.
 
@@ -363,3 +363,39 @@ proven repeatable for Waves 2 and 3.
   top contract Caesar Rodney School District $53.3M (DoD), top grant DE DHSS $2.4B. Page +
   /assets/fsl.css + data/federal-summary.json all HTTP 200 over local serve; all render-target
   IDs + gate + noindex present in served HTML. ISC-39 deferred to production push + CI a11y.
+
+## 2026-07-23 — Data-refresh audit + keyless refresh (resume, Mark: "update all dashboards end to end")
+
+**Root cause found:** all 6 main dashboards were frozen at the 2026-06-15 build. The ONLY ETL
+workflows are `bill-tracker-etl` (openstates_bill, daily) and `dgi-etl` (run_etl, monthly) —
+**no workflow refreshes schools/childcare/spending/federal/water/votes.** Their pullers never
+re-ran. This is the durability gap.
+
+**End-to-end data-source audit (live-probed this session):**
+| Dashboard | Source | Key | Status 2026-07-23 |
+|---|---|---|---|
+| Federal | api.usaspending.gov | none | ✅ refreshed FY2024→**FY2025** (12,678 awards), render-verified |
+| Spending | data.delaware.gov checkbook | none | ✅ refreshed FY2025→**FY2026** ($17.03B/1.54M), render-verified |
+| Water | EPA Envirofacts | none | ✅ re-verified live (1,344 sys / 792 viol / 0 open) |
+| Schools | data.delaware.gov Socrata | none | ✅ source live; SY2025 still latest DE published (unchanged) |
+| Childcare | FirstMap + Census B09001 | CENSUS_API_KEY | ⏳ stale June-15; refresh via CI (secret EXISTS) |
+| Votes | Open States v3 | OPENSTATES_API_KEY | ⏳ stale June-15; refresh via CI (secret EXISTS) |
+| DGI Food Access | SB254 + MMG | none/Census | ⚠️ MMG county join incomplete; KPIs hardcoded |
+| Candidates | manual | none | ✅ current (7/14) |
+| Clean Slate | — | — | ❌ HELD: no machine-readable DELJIS/SBI dataset (FOIA-gated) |
+| FEC finance | FEC OpenFEC | data.gov key | ❌ unbuilt; key MISSING (no secret, keys file deleted) |
+| Reassessment-Kent | Kent ArcGIS | none | ❌ unbuilt (keyless, buildable) |
+
+**Shipped:** keyless refresh committed `d6145a4`, pushed → Cloudflare deploying. Render-verified
+Federal (FY2025) + Spending (FY2026) display new data cleanly (charts+tables, silent-zero guards passed).
+
+**Key insight:** `CENSUS_API_KEY` + `OPENSTATES_API_KEY` already exist as GitHub secrets. So a
+`refresh-all` CI workflow can refresh Childcare + Votes without Mark re-providing keys. Only the
+FEC/data.gov key is genuinely missing.
+
+**Next slices:** (1) build `refresh-all.yml` CI workflow (cron, runs all pullers w/ existing secrets,
+commits) — the durability fix + refreshes Childcare/Votes end-to-end; (2) FEC dashboard (ISC-45) —
+needs Mark to add the data.gov key as a repo secret; (3) DGI MMG county join finish; (4) Reassessment-Kent
+(ISC-46, keyless); (5) Clean Slate stays HELD unless a real DELJIS/SBI source surfaces (research, likely FOIA).
+
+**DONE 2026-07-23 (this session):** (1) **`refresh-all.yml` built + ran** (run 30053107655 success, commit `0aecb85`) — Childcare + Votes + the keyless four all refreshed via CI using the existing CENSUS/OPENSTATES secrets; weekly cron now keeps them fresh. Keyless four also refreshed directly + deployed (`d6145a4`). (2) **FEC dashboard (ISC-45) built + verified + wired public** — Mark provided the api.data.gov key (set as `FEC_API_KEY` secret). (3) **Clean Slate = HELD confirmed** (Mark's call). (4) **data.gov repo clarified**: `GSA/data.gov` is the catalog *website* source (no datasets); the real lever is a free api.data.gov key (unlocks FEC + niche federal APIs), which is now in hand. **STILL OPEN:** DGI MMG county join finish; Reassessment-Kent (ISC-46, keyless, unbuilt). **Neighbor flagged:** the Candidates dashboard states "US Senate NOT up in 2026," but FEC shows a live 2026 DE Senate race (Coons, $6.66M) — reconcile before that claim misleads.

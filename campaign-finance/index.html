@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Delaware Federal Campaign Finance — First State Lens</title>
+<meta name="description" content="What Delaware's U.S. House and Senate candidates have raised and spent, as reported to the Federal Election Commission. Public data, sourced, nonpartisan." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/fsl.css" />
+<style>
+  /* Campaign finance accent: violet — deliberately neither party's color. */
+  :root { --accent-primary: #a78bfa; }
+  /* Neutrality: no magnitude bars anywhere on this page. Raw filed numbers only,
+     so nothing reads as a fundraising scoreboard. */
+  .party-tag { font-family: var(--font-mono, monospace); font-size: .82em; color: var(--text-secondary); letter-spacing: .04em; }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark">FS</div>
+      <div class="brand-text">
+        <div class="brand-name">First State Lens</div>
+        <div class="brand-tagline">Civic Analytics Lab · Delaware</div>
+      </div>
+    </div>
+    <div class="topbar-meta">
+      <div class="meta-item"><span class="pulse-dot"></span><span>LIVE DATA</span></div>
+      <div class="meta-item"><span id="meta-cycle">CYCLE —</span></div>
+    </div>
+  </header>
+
+  <main>
+  <div class="title-block">
+    <span class="title-eyebrow">Federal Campaign Finance · Delaware</span>
+    <h1 class="title-h1">What Delaware's federal candidates <span class="highlight">raise and spend</span></h1>
+    <p class="title-sub">Money raised and spent by candidates for U.S. House and U.S. Senate from Delaware in the current election cycle, as reported to the Federal Election Commission. Pulled directly from the FEC's public record.</p>
+  </div>
+
+  <p class="neutrality">
+    <strong>How to read this.</strong> These are the candidates' own filings with the Federal Election Commission, shown without interpretation. Amounts are <strong>as-filed</strong>: the most recent report can lag current fundraising, and a candidate who filed no report shows no receipts. Party is the FEC's own factual label, not a signal — First State Lens does not rank candidates, colour them by party, or suggest who is ahead. Appearing here means a candidate registered a committee with the FEC for this cycle; that is <strong>not</strong> the same as being certified on the Delaware ballot. First State Lens adds no commentary. We show you the data; you decide.
+  </p>
+
+  <!-- KPIs -->
+  <section class="kpi-grid" aria-label="Headline figures">
+    <div class="kpi-card">
+      <div class="kpi-label">Candidates on File</div>
+      <div class="kpi-value" id="kpi-count">—</div>
+      <div class="kpi-context">Delaware U.S. House and Senate candidates with an FEC-registered committee this cycle.</div>
+      <div class="kpi-source">SOURCE · FEC OPENFEC</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Total Raised (all candidates)</div>
+      <div class="kpi-value" id="kpi-receipts">—</div>
+      <div class="kpi-context">Sum of receipts across every Delaware federal candidate, as filed.</div>
+      <div class="kpi-source">SOURCE · FEC · RECEIPTS</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Total Spent (all candidates)</div>
+      <div class="kpi-value" id="kpi-disb">—</div>
+      <div class="kpi-context">Sum of disbursements across every Delaware federal candidate, as filed.</div>
+      <div class="kpi-source">SOURCE · FEC · DISBURSEMENTS</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Filed a Report</div>
+      <div class="kpi-value" id="kpi-filed">—</div>
+      <div class="kpi-context">Candidates with at least one dollar of receipts on file; the rest have registered but not yet reported money.</div>
+      <div class="kpi-source">SOURCE · FEC OPENFEC</div>
+    </div>
+  </section>
+
+  <!-- Candidate table -->
+  <section class="section" aria-labelledby="ct-title">
+    <div class="section-head">
+      <h2 class="section-title" id="ct-title">Every Delaware federal candidate</h2>
+      <span class="section-meta" id="ct-meta">FEC · AS FILED</span>
+    </div>
+    <div class="panel">
+      <table class="data-table">
+        <caption>Delaware U.S. House and Senate candidates and their as-filed FEC totals. Grouped by office, then by receipts. A dash (—) means no figure was reported. Nothing here is a ranking.</caption>
+        <thead><tr>
+          <th scope="col">Candidate</th>
+          <th scope="col">Office</th>
+          <th scope="col">Party</th>
+          <th scope="col" class="num">Raised</th>
+          <th scope="col" class="num">Spent</th>
+          <th scope="col" class="num">Cash on hand</th>
+        </tr></thead>
+        <tbody id="ct-body"><tr><td colspan="6">Loading…</td></tr></tbody>
+      </table>
+      <p class="kpi-source" style="margin-top:16px;">SOURCE · FEC OPENFEC /v1/candidates/totals · AS-FILED, MOST RECENT REPORT MAY LAG</p>
+    </div>
+  </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-build" id="footer-build">DATA: not yet loaded</div>
+    <div class="footer-links">
+      <a href="https://www.fec.gov/data/">FEC.gov campaign finance data (primary source)</a>
+      <a href="/">First State Lens home</a>
+    </div>
+    <div>First State Lens is a FirmSide AI Civic Analytics Lab project. Nonpartisan. Every figure is sourced to a public record. We show you the data; you decide.</div>
+  </footer>
+
+</div>
+
+<script>
+(function () {
+  const fmtInt = (n) => Number(n).toLocaleString("en-US");
+  const fmtUSD = (n) => (n === null || n === undefined) ? "—" : "$" + Math.round(Number(n)).toLocaleString("en-US");
+  const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+  async function load() {
+    let d;
+    try {
+      const r = await fetch("./data/campaign-finance-summary.json", { cache: "no-cache" });
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      d = await r.json();
+    } catch (e) {
+      document.getElementById("footer-build").textContent = "DATA: unavailable (" + e.message + ")";
+      return;
+    }
+
+    const cycle = d.cycle;
+    document.getElementById("meta-cycle").textContent = "CYCLE " + cycle;
+    document.getElementById("ct-meta").textContent = "FEC · " + cycle + " CYCLE · AS FILED";
+
+    const t = d.totals || {};
+    document.getElementById("kpi-count").textContent = fmtInt(t.candidate_count || 0);
+    document.getElementById("kpi-receipts").textContent = fmtUSD(t.total_receipts || 0);
+    document.getElementById("kpi-disb").textContent = fmtUSD(t.total_disbursements || 0);
+    document.getElementById("kpi-filed").textContent = fmtInt(t.candidates_with_receipts || 0) + " of " + fmtInt(t.candidate_count || 0);
+
+    const cands = d.candidates || [];
+    document.getElementById("ct-body").innerHTML = cands.length
+      ? cands.map((c) =>
+          `<tr>
+             <td><strong>${esc(c.name)}</strong></td>
+             <td>${esc(c.office)}</td>
+             <td><span class="party-tag">${esc(c.party)}</span></td>
+             <td class="num">${fmtUSD(c.receipts)}</td>
+             <td class="num">${fmtUSD(c.disbursements)}</td>
+             <td class="num">${fmtUSD(c.cash_on_hand)}</td>
+           </tr>`).join("")
+      : `<tr><td colspan="6">No records.</td></tr>`;
+
+    const asOf = (d.generated_at || "").slice(0, 10);
+    document.getElementById("footer-build").textContent =
+      `${cycle} CYCLE · ${fmtInt(t.candidate_count || 0)} DE FEDERAL CANDIDATES · DATA AS OF ${asOf} · SOURCE: FEC OPENFEC`;
+  }
+  load();
+})();
+</script>
+</body>
+</html>

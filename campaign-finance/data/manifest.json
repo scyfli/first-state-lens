@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-07-23T23:33:23Z",
+  "dashboard": "federal-campaign-finance",
+  "cycle": 2026,
+  "sources": {
+    "openfec": {
+      "name": "Federal Election Commission (OpenFEC)",
+      "endpoint": "https://api.open.fec.gov/v1/candidates/totals/",
+      "license": "U.S. Government public domain",
+      "url": "https://www.fec.gov/data/"
+    }
+  },
+  "row_counts": {
+    "candidates": 19,
+    "candidates_with_receipts": 6,
+    "offices": 2
+  }
+}

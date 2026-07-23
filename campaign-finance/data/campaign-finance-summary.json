@@ -1,0 +1,233 @@
+{
+  "generated_at": "2026-07-23T23:33:23Z",
+  "cycle": 2026,
+  "scope": "Delaware federal candidates, 2026 election cycle",
+  "scope_note": "Money raised and spent by candidates for U.S. House and U.S. Senate from Delaware, as reported to the Federal Election Commission. Amounts are as-filed and the most recent filing may lag current activity. FEC registration is not the Delaware ballot: a registered candidate may or may not be certified on the November ballot.",
+  "offices": [
+    "House",
+    "Senate"
+  ],
+  "candidates": [
+    {
+      "name": "MCBRIDE, SARAH ELIZABETH",
+      "candidate_id": "H4DE00045",
+      "office": "House",
+      "party": "DEM",
+      "incumbency": "Incumbent",
+      "receipts": 4659086.4,
+      "disbursements": 2208285.13,
+      "cash_on_hand": null,
+      "coverage_end": "2026-06-30"
+    },
+    {
+      "name": "HALL, DONYALE LONDON",
+      "candidate_id": "H4DE00060",
+      "office": "House",
+      "party": "REP",
+      "incumbency": "Challenger",
+      "receipts": 768.96,
+      "disbursements": 528.23,
+      "cash_on_hand": null,
+      "coverage_end": "2026-06-30"
+    },
+    {
+      "name": "CARLSON, OWEN NICHOLAS",
+      "candidate_id": "H6DE01113",
+      "office": "House",
+      "party": "REP",
+      "incumbency": "Challenger",
+      "receipts": 0.0,
+      "disbursements": 0.0,
+      "cash_on_hand": null,
+      "coverage_end": null
+    },
+    {
+      "name": "MURPHY, LEE",
+      "candidate_id": "H8DE01044",
+      "office": "House",
+      "party": "REP",
+      "incumbency": "Challenger",
+      "receipts": 0.0,
+      "disbursements": 0.0,
+      "cash_on_hand": null,
+      "coverage_end": null
+    },
+    {
+      "name": "COOPER, EARL L",
+      "candidate_id": "H4DE01092",
+      "office": "House",
+      "party": "REP",
+      "incumbency": "Challenger",
+      "receipts": 0.0,
+      "disbursements": 0.0,
+      "cash_on_hand": null,
+      "coverage_end": null
+    },
+    {
+      "name": "WHALEN III, JOHN J",
+      "candidate_id": "H4DE00078",
+      "office": "House",
+      "party": "REP",
+      "incumbency": "Challenger",
+      "receipts": 0.0,
+      "disbursements": 224.18,
+      "cash_on_hand": null,
+      "coverage_end": "2026-06-30"
+    },
+    {
+      "name": "COONS, CHRISTOPHER A.",
+      "candidate_id": "S0DE00092",
+      "office": "Senate",
+      "party": "DEM",
+      "incumbency": "Incumbent",
+      "receipts": 6669193.85,
+      "disbursements": 3804022.62,
+      "cash_on_hand": null,
+      "coverage_end": "2026-06-30"
+    },
+    {
+      "name": "SHULLI, JOHN",
+      "candidate_id": "S6DE00198",
+      "office": "Senate",
+      "party": "REP",
+      "incumbency": "Challenger",
+      "receipts": 105295.38,
+      "disbursements": 59182.78,
+      "cash_on_hand": null,
+      "coverage_end": "2026-06-30"
+    },
+    {
+      "name": "KATZ, MICHAEL S DR.",
+      "candidate_id": "S6DE00206",
+      "office": "Senate",
+      "party": "REP",
+      "incumbency": "Challenger",
+      "receipts": 70152.0,
+      "disbursements": 32147.53,
+      "cash_on_hand": null,
+      "coverage_end": "2026-06-30"
+    },
+    {
+      "name": "BEARDSLEY, CHRISTOPHER MR.",
+      "candidate_id": "S6DE00156",
+      "office": "Senate",
+      "party": "DEM",
+      "incumbency": "Challenger",
+      "receipts": 22356.0,
+      "disbursements": 13165.27,
+      "cash_on_hand": null,
+      "coverage_end": "2025-12-31"
+    },
+    {
+      "name": "STEVENS, TRAVIS",
+      "candidate_id": "S6DE00222",
+      "office": "Senate",
+      "party": "DEM",
+      "incumbency": "Challenger",
+      "receipts": 0.0,
+      "disbursements": 0.0,
+      "cash_on_hand": null,
+      "coverage_end": null
+    },
+    {
+      "name": "APPELHANS, JEFFERY RYAN",
+      "candidate_id": "S6DE00263",
+      "office": "Senate",
+      "party": "DEM",
+      "incumbency": "Challenger",
+      "receipts": 0.0,
+      "disbursements": 0.0,
+      "cash_on_hand": null,
+      "coverage_end": null
+    },
+    {
+      "name": "HANSEN, ERIC",
+      "candidate_id": "S4DE00094",
+      "office": "Senate",
+      "party": "DEM",
+      "incumbency": "\u2014",
+      "receipts": 0.0,
+      "disbursements": 0.0,
+      "cash_on_hand": null,
+      "coverage_end": "2025-01-09"
+    },
+    {
+      "name": "SOLOMON, GAVIN",
+      "candidate_id": "S6DE00248",
+      "office": "Senate",
+      "party": "REP",
+      "incumbency": "Challenger",
+      "receipts": 0.0,
+      "disbursements": 0.0,
+      "cash_on_hand": null,
+      "coverage_end": null
+    },
+    {
+      "name": "BLAND, DEXTER",
+      "candidate_id": "S6DE00164",
+      "office": "Senate",
+      "party": "IND",
+      "incumbency": "Challenger",
+      "receipts": 0.0,
+      "disbursements": 0.0,
+      "cash_on_hand": null,
+      "coverage_end": null
+    },
+    {
+      "name": "SOLOMON, GAVIN",
+      "candidate_id": "S6DE00255",
+      "office": "Senate",
+      "party": "REP",
+      "incumbency": "Challenger",
+      "receipts": 0.0,
+      "disbursements": 0.0,
+      "cash_on_hand": null,
+      "coverage_end": null
+    },
+    {
+      "name": "HANSEN, E. NO-TRUMP",
+      "candidate_id": "S6DE00271",
+      "office": "Senate",
+      "party": "DEM",
+      "incumbency": "Challenger",
+      "receipts": 0.0,
+      "disbursements": 0.0,
+      "cash_on_hand": null,
+      "coverage_end": null
+    },
+    {
+      "name": "COPPOLA, ALEC",
+      "candidate_id": "S6DE00214",
+      "office": "Senate",
+      "party": "REP",
+      "incumbency": "\u2014",
+      "receipts": 0.0,
+      "disbursements": 0.0,
+      "cash_on_hand": null,
+      "coverage_end": null
+    },
+    {
+      "name": "LOUVE, MARY",
+      "candidate_id": "S6DE00230",
+      "office": "Senate",
+      "party": "DEM",
+      "incumbency": "Challenger",
+      "receipts": 0.0,
+      "disbursements": 0.0,
+      "cash_on_hand": null,
+      "coverage_end": null
+    }
+  ],
+  "totals": {
+    "candidate_count": 19,
+    "candidates_with_receipts": 6,
+    "total_receipts": 11526852.59,
+    "total_disbursements": 6117555.74
+  },
+  "source": {
+    "name": "Federal Election Commission (OpenFEC)",
+    "endpoint": "https://api.open.fec.gov/v1/candidates/totals/",
+    "license": "U.S. Government public domain",
+    "url": "https://www.fec.gov/data/"
+  }
+}
