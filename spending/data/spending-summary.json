@@ -1,247 +1,247 @@
 {
-  "generated_at": "2026-06-15T19:11:46Z",
-  "fiscal_year": 2025,
-  "total_spend": 16926311878.57,
-  "transaction_count": 1554130,
+  "generated_at": "2026-07-23T23:07:32Z",
+  "fiscal_year": 2026,
+  "total_spend": 17030446556.99,
+  "transaction_count": 1544463,
   "by_department": [
     {
       "label": "DEPT OF HEALTH & SOCIAL SVS",
-      "total": 4477077415.09,
-      "count": 188323
+      "total": 4901340064.7,
+      "count": 183766
     },
     {
       "label": "DEPT OF EDUCATION",
-      "total": 3919786232.62,
-      "count": 679784
+      "total": 4081103071.35,
+      "count": 683353
     },
     {
       "label": "DEPARTMENT OF HUMAN RESOURCES",
-      "total": 1687882554.59,
-      "count": 12078
+      "total": 1704817519.97,
+      "count": 12266
     },
     {
       "label": "EXECUTIVE",
-      "total": 1571857285.49,
-      "count": 43751
+      "total": 1333847132.32,
+      "count": 45388
     },
     {
       "label": "DEPT OF TRANSPORTATION",
-      "total": 1117471605.74,
-      "count": 77597
+      "total": 1053325854.26,
+      "count": 80752
     },
     {
       "label": "HIGHER EDUCATION",
-      "total": 633809607.77,
-      "count": 73330
+      "total": 619231692.55,
+      "count": 72590
     },
     {
       "label": "DEPT OF CORRECTIONS",
-      "total": 490552921.46,
-      "count": 40458
-    },
-    {
-      "label": "DEPT OF FINANCE",
-      "total": 482512603.84,
-      "count": 8586
+      "total": 514537231.54,
+      "count": 38931
     },
     {
       "label": "OTHER ELECTIVE OFFICES",
-      "total": 390977210.22,
-      "count": 15603
-    },
-    {
-      "label": "DEPT OF STATE",
-      "total": 362442995.86,
-      "count": 30553
+      "total": 455587519.95,
+      "count": 15267
     },
     {
       "label": "DEPT OF NATRL RES AND ENV CONT",
-      "total": 359678766.93,
-      "count": 86429
+      "total": 360095409.01,
+      "count": 88458
     },
     {
       "label": "DEPT OF SAFETY & HOMELAND SEC",
-      "total": 330340480.36,
-      "count": 43217
+      "total": 334301079.54,
+      "count": 42976
+    },
+    {
+      "label": "DEPT OF STATE",
+      "total": 331892765.32,
+      "count": 31437
     },
     {
       "label": "SVS FR CHILDREN,YOUTH,FAMILIES",
-      "total": 231149710.16,
-      "count": 41930
+      "total": 239483093.93,
+      "count": 41808
+    },
+    {
+      "label": "DEPT OF FINANCE",
+      "total": 220633380.28,
+      "count": 8995
     },
     {
       "label": "JUDICIAL",
-      "total": 170710704.19,
-      "count": 56117
+      "total": 200452416.09,
+      "count": 57803
     },
     {
       "label": "DEPT OF TECHNOLOGY & INFORMATI",
-      "total": 139723992.12,
-      "count": 10738
+      "total": 138057211.42,
+      "count": 11003
     }
   ],
   "by_category": [
     {
       "label": "MEDFAC EXPENSES",
-      "total": 3059866197.59,
-      "count": 1030
+      "total": 3589932256.44,
+      "count": 1041
     },
     {
       "label": "MEDICAL - EMPLOYER",
-      "total": 1546446941.86,
-      "count": 858
+      "total": 1553599812.85,
+      "count": 752
     },
     {
       "label": "SALARIES/WAGES-EMPLOYEES",
-      "total": 1029462794.82,
-      "count": 22066
+      "total": 1089741559.83,
+      "count": 21820
     },
     {
       "label": "TEACHERS",
-      "total": 822343261.68,
-      "count": 8173
+      "total": 868452463.96,
+      "count": 8060
     },
     {
       "label": "PENSIONS/EMPLOYER'S SHARE",
-      "total": 818318576.49,
-      "count": 38449
-    },
-    {
-      "label": "INVESTMENTS",
-      "total": 797176635.78,
-      "count": 145
+      "total": 815263024.64,
+      "count": 38381
     },
     {
       "label": "HEALTH INS/EMPLOYERS' SH",
-      "total": 732487773.3,
-      "count": 30995
+      "total": 782470725.46,
+      "count": 31198
+    },
+    {
+      "label": "INVESTMENTS",
+      "total": 611425341.0,
+      "count": 144
     },
     {
       "label": "GRANTS",
-      "total": 592908163.0,
-      "count": 2155
+      "total": 329583441.44,
+      "count": 1710
     },
     {
       "label": "OTHER PROFESSIONAL SERVICE",
-      "total": 492886328.43,
-      "count": 20281
-    },
-    {
-      "label": "HGWY/BRIDGE RECONSTR",
-      "total": 358438834.58,
-      "count": 1032
+      "total": 308368486.67,
+      "count": 18294
     },
     {
       "label": "GRANTS IN AID",
-      "total": 293262542.93,
-      "count": 3428
+      "total": 297931220.3,
+      "count": 3386
+    },
+    {
+      "label": "HGWY/BRIDGE RECONSTR",
+      "total": 278538804.7,
+      "count": 814
     },
     {
       "label": "CONSULTANTS",
-      "total": 277281998.39,
-      "count": 19938
+      "total": 277759443.17,
+      "count": 18191
     }
   ],
   "by_vendor": [
     {
       "label": "GAINWELL TECHNOLOGIES LLC",
-      "total": 3270263365.51,
-      "count": 1757
+      "total": 3648221544.47,
+      "count": 1782
     },
     {
       "label": "EMPLOYEE COMPENSATION",
-      "total": 3023556809.72,
-      "count": 132650
+      "total": 3206923116.26,
+      "count": 132418
     },
     {
       "label": "OTHER EMPLOYMENT COSTS BENEFITS",
-      "total": 1842484274.47,
-      "count": 272825
-    },
-    {
-      "label": "NORTHERN TRUST COMPANY",
-      "total": 797148363.29,
-      "count": 133
+      "total": 1906141039.81,
+      "count": 291524
     },
     {
       "label": "HIGHMARK HEALTH SERVICES",
-      "total": 770531451.14,
-      "count": 68
+      "total": 777944513.32,
+      "count": 66
+    },
+    {
+      "label": "NORTHERN TRUST COMPANY",
+      "total": 611402036.8,
+      "count": 134
     },
     {
       "label": "CVS PHARMACY INC",
-      "total": 289197839.87,
-      "count": 113
-    },
-    {
-      "label": "UNIVERSITY OF DELAWARE",
-      "total": 240267302.35,
-      "count": 2148
+      "total": 320920725.09,
+      "count": 109
     },
     {
       "label": "SILVERSCRIPT INSURANCE COMPANY",
-      "total": 223573374.11,
-      "count": 36
+      "total": 230074512.28,
+      "count": 41
     },
     {
-      "label": "DIAMOND STATE PORT CORPORATION",
-      "total": 200113951.75,
-      "count": 4
+      "label": "UNIVERSITY OF DELAWARE",
+      "total": 214470211.56,
+      "count": 2306
     },
     {
       "label": "AETNA",
-      "total": 190790224.19,
+      "total": 201861858.52,
       "count": 86
     },
     {
       "label": "DELAWARE TRANSIT CORP",
-      "total": 151401074.39,
-      "count": 1051
+      "total": 178598933.56,
+      "count": 1110
     },
     {
       "label": "DHSS CHILD CARE DIRECT DEPOSIT ACCOUNT",
-      "total": 128072573.97,
-      "count": 2301
-    },
-    {
-      "label": "DIVISION OF STATEWIDE BENEFITS",
-      "total": 106014112.48,
-      "count": 560
-    },
-    {
-      "label": "SETTLEMENT PAYMENT",
-      "total": 103947801.12,
-      "count": 36
-    },
-    {
-      "label": "WAGMAN HEAVY CIVIL INC",
-      "total": 97443510.59,
-      "count": 23
+      "total": 132403344.89,
+      "count": 2845
     },
     {
       "label": "CITY OF WILMINGTON",
-      "total": 88637803.64,
-      "count": 1884
-    },
-    {
-      "label": "DIV OF ACCOUNTING",
-      "total": 86425963.03,
-      "count": 196936
+      "total": 100732026.7,
+      "count": 1581
     },
     {
       "label": "VOYA RET INS & ANNUITY",
-      "total": 83891871.21,
-      "count": 53
+      "total": 90581581.44,
+      "count": 52
     },
     {
-      "label": "VITALCORE HEALTH STRATEGIES LLC",
-      "total": 63144779.15,
-      "count": 31
+      "label": "DIV OF ACCOUNTING",
+      "total": 83428439.65,
+      "count": 190282
     },
     {
       "label": "DELAWARE STATE HOUSING AUTHORITY",
-      "total": 62889846.21,
-      "count": 88
+      "total": 83044445.72,
+      "count": 69
+    },
+    {
+      "label": "WELLS FARGO BANK NA",
+      "total": 81010674.18,
+      "count": 26
+    },
+    {
+      "label": "VITALCORE HEALTH STRATEGIES LLC",
+      "total": 76737233.35,
+      "count": 34
+    },
+    {
+      "label": "DIVISION OF STATEWIDE BENEFITS",
+      "total": 75017932.13,
+      "count": 426
+    },
+    {
+      "label": "GUIDESOFT INC DBA KNOWLEDGE SERVICES",
+      "total": 59784194.94,
+      "count": 3384
+    },
+    {
+      "label": "MUMFORD & MILLER CONCRETE INC",
+      "total": 58119631.32,
+      "count": 285
     }
   ],
   "source": {

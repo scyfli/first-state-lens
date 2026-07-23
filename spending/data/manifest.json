@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-15T19:11:46Z",
+  "generated_at": "2026-07-23T23:07:32Z",
   "dashboard": "state-spending",
-  "fiscal_year": 2025,
+  "fiscal_year": 2026,
   "sources": {
     "de_checkbook": {
       "name": "Delaware Online Checkbook (data.delaware.gov)",
@@ -16,7 +16,7 @@
     "departments": 15,
     "categories": 12,
     "vendors": 20,
-    "total_spend": 16926311878.57,
-    "transactions": 1554130
+    "total_spend": 17030446556.99,
+    "transactions": 1544463
   }
 }
