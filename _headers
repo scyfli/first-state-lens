@@ -17,10 +17,16 @@
 /clean-slate/*
   X-Robots-Tag: noindex, nofollow
 
-# Held during build: the Candidate Record (2026 election) is kept out of search
-# until every candidate fact is verified against its primary source AND the official
-# candidate slate is final (major-party filing deadline noon July 14, 2026). Flip
-# public by removing this block + the robots.txt Disallow + adding the routes to
-# sitemap.xml, all together, once verified.
-/candidates/*
-  X-Robots-Tag: noindex, nofollow
+# Candidate Record flipped public 2026-07-23: filing slate final (deadline noon
+# July 14, 2026) and routes already in sitemap.xml + allowed in robots.txt. The
+# stale noindex block was removed so the pages can be indexed (they had been
+# invited via sitemap yet blocked at the edge — a self-defeating contradiction).
+
+# Static brand assets (favicon, OG image, icons) can be cached hard — they are
+# content-stable and versioned by filename. Speeds repeat loads / Core Web Vitals.
+/assets/og-image.png
+  Cache-Control: public, max-age=604800
+/favicon.svg
+  Cache-Control: public, max-age=604800
+/apple-touch-icon.png
+  Cache-Control: public, max-age=604800

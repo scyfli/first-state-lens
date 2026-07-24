@@ -3,7 +3,33 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>First State Lens — Civic Analytics Lab · Delaware</title>
+<title>First State Lens — Delaware Civic Analytics Lab</title>
+<meta name="description" content="First State Lens is a nonpartisan civic analytics lab for Delaware. Free dashboards on state and federal spending, schools, drinking water, childcare, campaign finance, and every legislator's voting record — every number traced to a public source." />
+<link rel="canonical" href="https://firststatelens.com/" />
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+<meta name="author" content="FirmSide AI · Civic Analytics Lab" />
+<meta name="theme-color" content="#030712" />
+<meta name="geo.region" content="US-DE" />
+<meta name="geo.placename" content="Delaware" />
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="First State Lens" />
+<meta property="og:title" content="First State Lens — Delaware Civic Analytics Lab" />
+<meta property="og:description" content="Nonpartisan dashboards on how Delaware spends, performs, votes, and serves its people. Every number traces to a public source." />
+<meta property="og:url" content="https://firststatelens.com/" />
+<meta property="og:image" content="https://firststatelens.com/assets/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="First State Lens — Delaware Civic Analytics Lab" />
+<meta property="og:locale" content="en_US" />
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="First State Lens — Delaware Civic Analytics Lab" />
+<meta name="twitter:description" content="Nonpartisan dashboards on how Delaware spends, performs, votes, and serves its people. Every number traces to a public source." />
+<meta name="twitter:image" content="https://firststatelens.com/assets/og-image.png" />
+<meta name="twitter:image:alt" content="First State Lens — Delaware Civic Analytics Lab" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -351,6 +377,58 @@
     }
   }
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://firststatelens.com/#org",
+      "name": "First State Lens",
+      "alternateName": "First State Lens — Civic Analytics Lab",
+      "url": "https://firststatelens.com/",
+      "logo": "https://firststatelens.com/apple-touch-icon.png",
+      "image": "https://firststatelens.com/assets/og-image.png",
+      "description": "A nonpartisan civic analytics lab publishing free, source-traced dashboards on Delaware government data.",
+      "areaServed": { "@type": "State", "name": "Delaware" },
+      "knowsAbout": ["Delaware government spending","Delaware schools","Delaware drinking water","Delaware childcare","campaign finance","legislative voting records","civic data"],
+      "parentOrganization": { "@type": "Organization", "name": "FirmSide AI" }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://firststatelens.com/#website",
+      "url": "https://firststatelens.com/",
+      "name": "First State Lens",
+      "description": "Nonpartisan dashboards on how Delaware spends, performs, votes, and serves its people.",
+      "publisher": { "@id": "https://firststatelens.com/#org" },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "DataCatalog",
+      "@id": "https://firststatelens.com/#catalog",
+      "name": "First State Lens Dashboards",
+      "description": "Free, nonpartisan dashboards on Delaware public data. Every number traces to a public source.",
+      "url": "https://firststatelens.com/",
+      "publisher": { "@id": "https://firststatelens.com/#org" },
+      "isAccessibleForFree": true,
+      "inLanguage": "en-US",
+      "spatialCoverage": { "@type": "State", "name": "Delaware" },
+      "dataset": [
+        { "@type": "Dataset", "name": "Who's on the Delaware 2026 Ballot", "url": "https://firststatelens.com/candidates/", "description": "The standardized public record for every 2026 Delaware candidate: filings, votes, campaign finance, and quoted positions." },
+        { "@type": "Dataset", "name": "Delaware School Report Card", "url": "https://firststatelens.com/schools/", "description": "Proficiency, graduation, chronic absenteeism, and enrollment for the state and all 41 Delaware LEAs." },
+        { "@type": "Dataset", "name": "Is My Delaware Water Safe?", "url": "https://firststatelens.com/water/", "description": "Drinking-water violations for every Delaware public water system, health-based flagged, from EPA SDWIS." },
+        { "@type": "Dataset", "name": "Where Delaware's Money Goes", "url": "https://firststatelens.com/spending/", "description": "Actual state disbursements by department, category, and vendor from the Delaware Online Checkbook." },
+        { "@type": "Dataset", "name": "Federal Dollars into Delaware", "url": "https://firststatelens.com/federal/", "description": "Every federal grant, contract, and loan performed in Delaware, by agency and recipient, from USAspending.gov." },
+        { "@type": "Dataset", "name": "Childcare Access in Delaware", "url": "https://firststatelens.com/childcare/", "description": "Licensed childcare providers, capacity, quality rating, and children-per-slot by Delaware county." },
+        { "@type": "Dataset", "name": "How Your Delaware Legislator Votes", "url": "https://firststatelens.com/votes/", "description": "The recorded roll-call voting record of every member of the Delaware General Assembly this session." },
+        { "@type": "Dataset", "name": "Delaware Federal Campaign Finance", "url": "https://firststatelens.com/campaign-finance/", "description": "What Delaware's U.S. House and Senate candidates raised and spent, as reported to the FEC." },
+        { "@type": "Dataset", "name": "Tracking Delaware Senate Bill 272", "url": "https://firststatelens.com/bill-tracker/", "description": "A live tracker for Delaware SB 272: status, sponsors, action timeline, and the recorded vote." },
+        { "@type": "Dataset", "name": "Delaware Grocery Initiative Grants", "url": "https://firststatelens.com/dgi-food-access/", "description": "Delaware Grocery Initiative grant awards mapped alongside SB 254 food-access indicators." }
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <div class="container">

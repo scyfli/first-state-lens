@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://firststatelens.com/</loc><lastmod>2026-06-22</lastmod></url>
-  <url><loc>https://firststatelens.com/schools/</loc><lastmod>2026-06-22</lastmod></url>
-  <url><loc>https://firststatelens.com/water/</loc><lastmod>2026-06-22</lastmod></url>
-  <url><loc>https://firststatelens.com/spending/</loc><lastmod>2026-06-22</lastmod></url>
-  <url><loc>https://firststatelens.com/federal/</loc><lastmod>2026-06-22</lastmod></url>
-  <url><loc>https://firststatelens.com/childcare/</loc><lastmod>2026-06-22</lastmod></url>
-  <url><loc>https://firststatelens.com/votes/</loc><lastmod>2026-06-22</lastmod></url>
-  <url><loc>https://firststatelens.com/bill-tracker/</loc><lastmod>2026-06-22</lastmod></url>
-  <url><loc>https://firststatelens.com/dgi-food-access/</loc><lastmod>2026-07-05</lastmod></url>
-  <url><loc>https://firststatelens.com/candidates/</loc><lastmod>2026-07-14</lastmod></url>
-  <url><loc>https://firststatelens.com/candidates/us-house/</loc><lastmod>2026-07-14</lastmod></url>
-  <url><loc>https://firststatelens.com/candidates/method/</loc><lastmod>2026-07-14</lastmod></url>
-  <url><loc>https://firststatelens.com/campaign-finance/</loc><lastmod>2026-07-23</lastmod></url>
+  <url><loc>https://firststatelens.com/</loc><lastmod>2026-07-23</lastmod><priority>1.0</priority></url>
+  <url><loc>https://firststatelens.com/candidates/</loc><lastmod>2026-07-23</lastmod><priority>0.9</priority></url>
+  <url><loc>https://firststatelens.com/candidates/us-house/</loc><lastmod>2026-07-23</lastmod><priority>0.8</priority></url>
+  <url><loc>https://firststatelens.com/candidates/method/</loc><lastmod>2026-07-23</lastmod><priority>0.5</priority></url>
+  <url><loc>https://firststatelens.com/schools/</loc><lastmod>2026-07-23</lastmod><priority>0.8</priority></url>
+  <url><loc>https://firststatelens.com/water/</loc><lastmod>2026-07-23</lastmod><priority>0.8</priority></url>
+  <url><loc>https://firststatelens.com/spending/</loc><lastmod>2026-07-23</lastmod><priority>0.8</priority></url>
+  <url><loc>https://firststatelens.com/federal/</loc><lastmod>2026-07-23</lastmod><priority>0.8</priority></url>
+  <url><loc>https://firststatelens.com/childcare/</loc><lastmod>2026-07-23</lastmod><priority>0.8</priority></url>
+  <url><loc>https://firststatelens.com/votes/</loc><lastmod>2026-07-23</lastmod><priority>0.8</priority></url>
+  <url><loc>https://firststatelens.com/campaign-finance/</loc><lastmod>2026-07-23</lastmod><priority>0.8</priority></url>
+  <url><loc>https://firststatelens.com/bill-tracker/</loc><lastmod>2026-07-23</lastmod><priority>0.7</priority></url>
+  <url><loc>https://firststatelens.com/dgi-food-access/</loc><lastmod>2026-07-23</lastmod><priority>0.7</priority></url>
 </urlset>

@@ -1,6 +1,41 @@
+# First State Lens — nonpartisan Delaware civic data. Public and free to index.
 User-agent: *
 Allow: /
 # Held page — not yet rebuilt to the neutrality standard (no real dataset yet), kept out of search.
+Disallow: /clean-slate/
+
+# AI answer engines are explicitly welcome to read and cite this public civic data.
+# (Attribution requested: cite "First State Lens" + the primary source per dashboard.)
+User-agent: GPTBot
+Allow: /
+Disallow: /clean-slate/
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /clean-slate/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /clean-slate/
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /clean-slate/
+
+User-agent: Claude-Web
+Allow: /
+Disallow: /clean-slate/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /clean-slate/
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /clean-slate/
+
+User-agent: Applebot-Extended
+Allow: /
 Disallow: /clean-slate/
 
 Sitemap: https://firststatelens.com/sitemap.xml

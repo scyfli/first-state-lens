@@ -28,6 +28,13 @@ README.md
 CLAUDE.md
 LICENSE
 
+# Internal work record — must NOT be served publicly (was leaking at /ISA.md etc.)
+ISA.md
+SESSION-HANDOFF.md
+
+# OG image source template — the rendered PNG (assets/og-image.png) is what ships
+assets/og-source.html
+
 # DGI ETL pipeline — Python code lives in the repo as a trust signal
 # (auditable via GitHub) but is NOT served via the dashboard domain.
 etl

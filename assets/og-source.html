@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:#1e293b; }
+  #og {
+    width:1200px; height:630px; position:relative; overflow:hidden;
+    background:#030712; color:#f8fafc;
+    font-family:'Inter',system-ui,sans-serif;
+    padding:72px 80px;
+    display:flex; flex-direction:column; justify-content:space-between;
+  }
+  #og::before {
+    content:''; position:absolute; inset:0;
+    background:
+      radial-gradient(ellipse 700px 460px at 12% 15%, rgba(99,102,241,0.16), transparent 55%),
+      radial-gradient(ellipse 560px 380px at 90% 88%, rgba(52,211,153,0.10), transparent 55%),
+      radial-gradient(ellipse 460px 300px at 55% 55%, rgba(245,158,11,0.06), transparent 60%);
+  }
+  #og::after {
+    content:''; position:absolute; inset:0;
+    background-image:
+      linear-gradient(rgba(148,163,184,0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(148,163,184,0.05) 1px, transparent 1px);
+    background-size:56px 56px;
+    -webkit-mask-image:radial-gradient(ellipse at center, black 35%, transparent 92%);
+    mask-image:radial-gradient(ellipse at center, black 35%, transparent 92%);
+  }
+  .row { position:relative; z-index:1; display:flex; align-items:center; gap:20px; }
+  .mark {
+    width:76px; height:76px; border-radius:18px;
+    background:linear-gradient(135deg,#6366f1,#a78bfa);
+    display:grid; place-items:center;
+    font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:38px; color:#fff;
+    box-shadow:0 0 44px rgba(99,102,241,0.35);
+  }
+  .brand { font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:30px; letter-spacing:0.005em; }
+  .brand small { display:block; font-family:'JetBrains Mono',monospace; font-weight:500; font-size:14px; color:#94a3b8; letter-spacing:0.14em; text-transform:uppercase; margin-top:6px; }
+  h1 {
+    position:relative; z-index:1;
+    font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:60px;
+    line-height:1.06; letter-spacing:-0.025em; max-width:1000px;
+  }
+  h1 .accent { background:linear-gradient(135deg,#818cf8,#a78bfa); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  .pills { position:relative; z-index:1; display:flex; gap:12px; flex-wrap:wrap; }
+  .pill {
+    font-family:'JetBrains Mono',monospace; font-size:16px; letter-spacing:0.03em; color:#cbd5e1;
+    border:1px solid rgba(148,163,184,0.20); background:rgba(15,23,42,0.6);
+    padding:9px 16px; border-radius:999px;
+  }
+  .foot { position:relative; z-index:1; display:flex; align-items:center; justify-content:space-between; font-family:'JetBrains Mono',monospace; font-size:15px; color:#94a3b8; letter-spacing:0.06em; }
+  .foot .live { color:#fbbf24; }
+</style>
+</head>
+<body>
+<div id="og">
+  <div class="row">
+    <div class="mark">FS</div>
+    <div class="brand">First State Lens<small>Civic Analytics Lab · Delaware</small></div>
+  </div>
+  <h1>Delaware's public record,<br>organized so every <span class="accent">citizen</span> can use it.</h1>
+  <div class="pills">
+    <span class="pill">State &amp; federal spending</span>
+    <span class="pill">Schools</span>
+    <span class="pill">Water</span>
+    <span class="pill">Campaign finance</span>
+    <span class="pill">Every legislator's votes</span>
+  </div>
+  <div class="foot">
+    <span>firststatelens.com</span>
+    <span class="live">NONPARTISAN · EVERY NUMBER SOURCED</span>
+  </div>
+</div>
+</body>
+</html>

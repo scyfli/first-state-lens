@@ -1,0 +1,35 @@
+# First State Lens
+
+> First State Lens is a nonpartisan civic analytics lab for Delaware. It publishes free, source-traced dashboards on how Delaware government spends, performs, votes, and serves its people. Every published number traces to a public primary source (state and federal agencies), nothing is editorialized, and the work is nonpartisan. Built by FirmSide AI · Civic Analytics Lab.
+
+## What this is
+
+- **Scope:** Delaware (the "First State"), state and federal public data.
+- **Stance:** Nonpartisan. No scoring, no party colors, no verdicts. The site shows the data; the reader decides.
+- **Sourcing:** Every figure links to its public primary source. Data is refreshed on a scheduled cadence and each dashboard shows its source and coverage period.
+- **Access:** Free, no login, no paywall.
+
+## Dashboards
+
+- [Who's on the Delaware 2026 Ballot](https://firststatelens.com/candidates/): The standardized public record for every 2026 Delaware candidate — official filings, congressional votes, campaign finance, and quoted positions, each field linked to its primary source. Source: DE Department of Elections, FEC, Congress.
+- [Delaware U.S. House At-Large 2026](https://firststatelens.com/candidates/us-house/): The candidate record for Delaware's 2026 U.S. House at-large seat.
+- [How the Candidate Record Works](https://firststatelens.com/candidates/method/): The sourcing and neutrality rules behind the candidate record.
+- [Delaware School Report Card](https://firststatelens.com/schools/): Proficiency, graduation, chronic absenteeism, and enrollment for the state and all 41 districts and charter networks. Source: DE Department of Education.
+- [Is My Delaware Water Safe?](https://firststatelens.com/water/): Drinking-water violations for every Delaware public water system, health-based violations flagged. Source: EPA SDWIS.
+- [Where Delaware's Money Goes](https://firststatelens.com/spending/): Every dollar the State of Delaware disbursed in the latest complete fiscal year, by department, category, and vendor. Source: DE Online Checkbook.
+- [Federal Dollars into Delaware](https://firststatelens.com/federal/): Every federal grant, contract, and loan with work performed in Delaware. Source: USAspending.gov.
+- [Childcare Access in Delaware](https://firststatelens.com/childcare/): Every licensed childcare provider, capacity, quality rating, and children-per-slot by county. Source: DE Office of Child Care Licensing + U.S. Census.
+- [How Your Delaware Legislator Votes](https://firststatelens.com/votes/): The recorded roll-call voting record of every member of the Delaware General Assembly this session. Source: Open States.
+- [Delaware Federal Campaign Finance](https://firststatelens.com/campaign-finance/): What Delaware's U.S. House and Senate candidates raised and spent this cycle. Source: FEC OpenFEC.
+- [Tracking Delaware Senate Bill 272](https://firststatelens.com/bill-tracker/): A live tracker for a single bill — status, sponsors, action timeline, and the recorded vote. Source: Open States.
+- [Delaware Grocery Initiative Grants](https://firststatelens.com/dgi-food-access/): Delaware Grocery Initiative grant awards mapped alongside SB 254 food-access indicators. Source: Delaware State Bank / SB 254.
+
+## Using this data
+
+- Attribution: cite "First State Lens (firststatelens.com)" and, where possible, the underlying primary source named on each dashboard.
+- Corrections: each dashboard links to its methodology and source; corrections are handled against the primary source of record.
+
+## More
+
+- [Sitemap](https://firststatelens.com/sitemap.xml)
+- Methodology (public mirror, forthcoming): methodology.firststatelens.com
