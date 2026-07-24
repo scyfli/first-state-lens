@@ -399,3 +399,29 @@ needs Mark to add the data.gov key as a repo secret; (3) DGI MMG county join fin
 (ISC-46, keyless); (5) Clean Slate stays HELD unless a real DELJIS/SBI source surfaces (research, likely FOIA).
 
 **DONE 2026-07-23 (this session):** (1) **`refresh-all.yml` built + ran** (run 30053107655 success, commit `0aecb85`) — Childcare + Votes + the keyless four all refreshed via CI using the existing CENSUS/OPENSTATES secrets; weekly cron now keeps them fresh. Keyless four also refreshed directly + deployed (`d6145a4`). (2) **FEC dashboard (ISC-45) built + verified + wired public** — Mark provided the api.data.gov key (set as `FEC_API_KEY` secret). (3) **Clean Slate = HELD confirmed** (Mark's call). (4) **data.gov repo clarified**: `GSA/data.gov` is the catalog *website* source (no datasets); the real lever is a free api.data.gov key (unlocks FEC + niche federal APIs), which is now in hand. **STILL OPEN:** DGI MMG county join finish; Reassessment-Kent (ISC-46, keyless, unbuilt). **Neighbor flagged:** the Candidates dashboard states "US Senate NOT up in 2026," but FEC shows a live 2026 DE Senate race (Coons, $6.66M) — reconcile before that claim misleads.
+
+## 2026-07-23 — Full SEO/AEO pass (Mark: "fix the AEO and SEO... maximum visibility... everyone who needs this site must be able to find it, test it end to end")
+
+**Changelog (conjecture/refutation):**
+- conjectured: the public site was already discoverable — it went LIVE + public, so search engines can find it.
+  refuted_by: a live head-audit — the flagship `index.html` carried near-zero metadata (no description, canonical, Open Graph, Twitter, JSON-LD, or favicon), no dashboard had `Dataset` structured data (invisible to Google Dataset Search), `/llms.txt` 404'd, and — worst — `/candidates/*` served `X-Robots-Tag: noindex, nofollow` at the edge while simultaneously listed in sitemap.xml and allowed in robots.txt (invited then blocked).
+  learned: "public + in the sitemap" is not "indexable." Indexability is a conjunction across four independent surfaces (robots.txt, sitemap, per-page robots meta, edge X-Robots-Tag header); a stale header on ONE silently defeats the other three. A half-finished flip (robots + sitemap done, header missed) is worse than a clean hold, because it wastes crawl budget on pages it then blocks. Audit the served headers, not just the HTML.
+  criterion_now: ISC-48..ISC-56.
+- reconciled: the neighbor-flagged "US Senate NOT up in 2026" error is NOT present in current HTML — both `/candidates/` and `/campaign-finance/` correctly state a 2026 U.S. Senate seat (Coons, Class 2) is up. Fixed in a prior session; the ISA note was stale. Verified by full-repo grep (zero "not up"/"no Senate" claims).
+
+### SEO/AEO criteria (2026-07-23)
+
+- [x] ISC-48: Homepage carries full SEO head — description, canonical, robots(index,follow), Open Graph, Twitter card, favicon, theme-color. Verified: live curl of `https://firststatelens.com/` returns all tags.
+- [x] ISC-49: Homepage carries valid Organization + WebSite + DataCatalog JSON-LD enumerating all 10 dashboards. Verified: validator.schema.org (Google) detected DataCatalog + WebSite, **0 errors**.
+- [x] ISC-50: Every public dashboard (10) has canonical + OG + Twitter + `Dataset` JSON-LD with sourceOrganization + spatialCoverage(Delaware) + isAccessibleForFree. Verified: /tmp validator PASS 13/13 non-held pages (canon=1, jsonld parses); Google validator on schools + water = Dataset, **0 errors**.
+- [x] ISC-51: `/candidates/*` un-blocked — stale noindex X-Robots-Tag removed. Verified: live `curl -I /candidates/` and `/candidates/us-house/` return NO x-robots-tag; `/clean-slate/` control still `noindex` (intentional hold).
+- [x] ISC-52: `/llms.txt` exists for AI answer engines (was 404). Verified: live HTTP 200, describes org + every dashboard with source.
+- [x] ISC-53: robots.txt names explicit AI-crawler allows (GPTBot, OAI-SearchBot, ClaudeBot, PerplexityBot, Google-Extended, Applebot-Extended, etc.). Verified: live robots.txt grep.
+- [x] ISC-54: sitemap.xml lastmod reflects the real 2026-07-23 state (was frozen at 2026-06-22). Verified: live sitemap has 13 URLs at 2026-07-23.
+- [x] ISC-55: Brand assets exist + serve — favicon.svg, apple-touch-icon.png (180×180), assets/og-image.png (1200×630). Verified: live 200 + correct content-type; og-image viewed (on-brand render).
+- [x] ISC-56: Anti: internal work-record files (ISA.md, SESSION-HANDOFF.md) are NOT served publicly. Verified: added to .assetsignore (were previously reachable at /ISA.md).
+- [x] ISC-9 (evolved): the "dashboards carry noindex + gate; public flip is Mark's RED checkpoint" condition is retired — Mark approved the flip 2026-07-23; dashboards are public and indexable. clean-slate remains the sole held page.
+
+**Cross-vendor second look:** Forge (GPT-5.4) fanned out + self-validated the 8 dashboard head blocks (8/8 JSON-LD parse, single-canonical, additions-only); Google's validator independently confirmed 0 schema errors. Rule 2a floor satisfied without a Decisions skip-row.
+
+**Deploy:** commit `20472f5` pushed to main → Cloudflare Pages deployed (~32s), all live-verified.
