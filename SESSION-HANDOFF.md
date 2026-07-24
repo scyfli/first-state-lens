@@ -6,7 +6,30 @@
 
 ---
 
-## 2026-07-14 — Candidate Reveal (LATEST · LIVE + PUBLIC)
+## 2026-07-23 — Data refresh + FEC dashboard (LATEST · LIVE + PUBLIC)
+
+**Commit:** `9330b0c` on `main`, pushed to `scyfli/first-state-lens`. Tree clean, 0 ahead. a11y CI **green** on this commit (all routes incl. new `/campaign-finance/`, 0 serious/critical).
+
+**Mark's ask:** "update all dashboards, unblock the rest, get these pages up, find all data sources and make sure they have what we need end to end." Hold Clean Slate.
+
+**Root cause found + fixed:** the 6 main dashboards were frozen at the 2026-06-15 build — NO CI workflow refreshed them (only bill-tracker + dgi ran on cron).
+
+**What shipped (all live + render-verified):**
+- **Keyless refresh** (`d6145a4`): Federal FY2024→**FY2025** (12,678 awards), Spending FY2025→**FY2026** ($17.03B), Water + Schools re-verified current. Render-verified Federal+Spending display new data.
+- **`refresh-all.yml` CI workflow** (`7059e4e`) built + ran (run 30053107655 success → commit `0aecb85`): weekly Mon 09:00 UTC cron + manual dispatch; runs all pullers with existing CENSUS/OPENSTATES secrets + FEC secret, commits data back. **Votes refreshed live** (2026-07-23) via the OpenStates secret.
+- **FEC Federal Campaign Finance dashboard** (`e450f8b`/`9330b0c`, ISC-45): **LIVE + PUBLIC** at `firststatelens.com/campaign-finance/`. 19 DE 2026 candidates, $11.53M raised (McBride $4.66M House, Coons $6.66M Senate). Strict-neutrality (raw filed numbers, party as factual label, NO ranking/colors/bars, FEC≠ballot caveat). `etl/sources/fec_de.py` (silent-zero guard) + page + homepage card + sitemap + a11y route + refresh-all wiring. `FEC_API_KEY` set as repo secret (Mark's api.data.gov key). **Live production render-verified.**
+- **data.gov question answered:** `GSA/data.gov` repo = catalog website source (no datasets); the real lever = the free api.data.gov key (unlocks FEC), now in hand.
+
+**IN-FLIGHT / open (next session):**
+1. **Childcare did NOT refresh — blocked.** FirstMap GIS (`enterprise.firstmap.delaware.gov`) times out from GitHub cloud IPs (reachable from WSL in 0.08s). Childcare stays June-15 (low-harm, slow-changing, dated on-page). **Fix: run `firstmap_childcare` puller locally with the Census key** (needs Mark to provide CENSUS key — GitHub secret is write-only), or a self-hosted runner. **NEXT ACTION: get Census key → `CENSUS_API_KEY=… python3 -m etl.sources.firstmap_childcare --out childcare/data` locally → commit.**
+2. **Neighbor bug flagged:** Candidates dashboard states "US Senate NOT up in 2026" but FEC shows a live 2026 DE Senate race (Coons). Coons's seat IS up Nov 2026 → the Candidates claim is likely wrong. Reconcile before it misleads.
+3. **Still unbuilt (buildable, keyless/have-key):** DGI MMG county join finish; Reassessment-Kent (ISC-46).
+
+**Rollback:** keyless refresh `git revert d6145a4`; FEC dashboard `git revert 9330b0c e450f8b` (removes /campaign-finance/, additive-only — the 8 live dashboards untouched); refresh-all workflow `git rm .github/workflows/refresh-all.yml`.
+
+---
+
+## 2026-07-14 — Candidate Reveal (LIVE + PUBLIC)
 
 **Commit:** `3ed66c1` on `main`, pushed to `scyfli/first-state-lens`. Tree clean, 0 ahead.
 **Verification:** 12/12 source URLs 200 (0 404s) · neutrality grep clean · real-browser render on **live** firststatelens.com/candidates/us-house/ (2 candidates, "About this slate" banner, no JS errors).
