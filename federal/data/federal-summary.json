@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-23T23:25:25Z",
+  "generated_at": "2026-07-27T12:30:41Z",
   "fiscal_year": 2025,
   "scope": "place_of_performance=DE",
   "scope_note": "Money spent in Delaware (place of performance), not money to Delaware-based recipients.",
   "counts": {
     "contracts": 5194,
-    "grants": 2442,
+    "grants": 2443,
     "direct_payments": 3467,
     "loans": 982,
     "idvs": 0,
     "other": 593
   },
-  "total_awards": 12678,
+  "total_awards": 12679,
   "top_contracts": [
     {
       "recipient": "DOBCO INC",
