@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-07-27T12:30:42Z",
+  "generated_at": "2026-08-03T12:31:22Z",
   "acs_vintage": "2019-2023 5-year",
-  "total_providers": 1198,
-  "total_capacity": 67076,
+  "total_providers": 1190,
+  "total_capacity": 66829,
   "total_children_under_6": 66258,
   "statewide_children_per_slot": 0.99,
   "by_county": [
     {
       "county": "New Castle",
-      "providers": 751,
-      "capacity": 46567,
+      "providers": 744,
+      "capacity": 46326,
       "children_under_6": 38558,
       "children_per_slot": 0.83
     },
     {
       "county": "Kent",
-      "providers": 212,
-      "capacity": 10382,
+      "providers": 211,
+      "capacity": 10376,
       "children_under_6": 13754,
-      "children_per_slot": 1.32
+      "children_per_slot": 1.33
     },
     {
       "county": "Sussex",
@@ -31,11 +31,11 @@
   "stars_distribution": [
     {
       "label": "Not Participating",
-      "count": 1114
+      "count": 1109
     },
     {
       "label": "Five Stars",
-      "count": 24
+      "count": 22
     },
     {
       "label": "Three Stars",
@@ -43,7 +43,7 @@
     },
     {
       "label": "Starting with Stars",
-      "count": 17
+      "count": 16
     },
     {
       "label": "Two Stars",

@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-27T12:30:37Z",
-  "total_systems": 1344,
-  "systems_with_violations": 165,
+  "generated_at": "2026-08-03T12:31:19Z",
+  "total_systems": 1261,
+  "systems_with_violations": 167,
   "systems_with_open": 0,
   "systems_with_open_health_based": 0,
-  "total_violations_on_record": 792,
-  "total_health_based": 434,
+  "total_violations_on_record": 791,
+  "total_health_based": 435,
   "total_open": 0,
   "systems": [
     {
@@ -146,7 +146,7 @@
       "population": 0,
       "city": "Millsboro",
       "type": "CWS",
-      "violations": 33,
+      "violations": 32,
       "health_based": 6,
       "open": 0,
       "open_health_based": 0
@@ -344,7 +344,7 @@
       "population": 32,
       "city": "Lincoln",
       "type": "CWS",
-      "violations": 11,
+      "violations": 10,
       "health_based": 3,
       "open": 0,
       "open_health_based": 0
@@ -696,7 +696,7 @@
       "population": 0,
       "city": "Milford",
       "type": "NTNCWS",
-      "violations": 8,
+      "violations": 7,
       "health_based": 1,
       "open": 0,
       "open_health_based": 0
@@ -725,7 +725,7 @@
     },
     {
       "pwsid": "DE00A0808",
-      "name": "Happy Place Childcare Of Middletown",
+      "name": "Happy Place 5, Llc",
       "population": 32,
       "city": "Middletown",
       "type": "NTNCWS",
@@ -740,6 +740,17 @@
       "population": 170,
       "city": "Georgetown",
       "type": "TNCWS",
+      "violations": 2,
+      "health_based": 1,
+      "open": 0,
+      "open_health_based": 0
+    },
+    {
+      "pwsid": "DE0000817",
+      "name": "Countryside Hamlet",
+      "population": 66,
+      "city": "Millsboro",
+      "type": "CWS",
       "violations": 2,
       "health_based": 1,
       "open": 0,
@@ -1307,17 +1318,6 @@
       "open_health_based": 0
     },
     {
-      "pwsid": "DE00A0785",
-      "name": "Guardian Angels Daycare",
-      "population": 35,
-      "city": "Georgtown",
-      "type": "NTNCWS",
-      "violations": 2,
-      "health_based": 0,
-      "open": 0,
-      "open_health_based": 0
-    },
-    {
       "pwsid": "MD1071100",
       "name": "Grove Point Camp Cafeteria",
       "population": 0,
@@ -1345,6 +1345,17 @@
       "population": 1300,
       "city": "Delaware City",
       "type": "NTNCWS",
+      "violations": 1,
+      "health_based": 0,
+      "open": 0,
+      "open_health_based": 0
+    },
+    {
+      "pwsid": "DE0000065",
+      "name": "Ridgewood Manor C/O Rhp Properties",
+      "population": 310,
+      "city": "Smyrna",
+      "type": "CWS",
       "violations": 1,
       "health_based": 0,
       "open": 0,
@@ -1410,6 +1421,17 @@
       "name": "Country Kids Child Care",
       "population": 46,
       "city": "Greenwood",
+      "type": "NTNCWS",
+      "violations": 1,
+      "health_based": 0,
+      "open": 0,
+      "open_health_based": 0
+    },
+    {
+      "pwsid": "DE0000172",
+      "name": "Child Craft Company",
+      "population": 88,
+      "city": "Seaford",
       "type": "NTNCWS",
       "violations": 1,
       "health_based": 0,
@@ -1769,6 +1791,17 @@
       "open_health_based": 0
     },
     {
+      "pwsid": "DE00A0785",
+      "name": "Guardian Angels Daycare",
+      "population": 35,
+      "city": "Georgtown",
+      "type": "NTNCWS",
+      "violations": 1,
+      "health_based": 0,
+      "open": 0,
+      "open_health_based": 0
+    },
+    {
       "pwsid": "DE00A0809",
       "name": "Refresh And Refuel",
       "population": 100,
@@ -1796,17 +1829,6 @@
       "population": 50,
       "city": "Ellendale",
       "type": "NTNCWS",
-      "violations": 1,
-      "health_based": 0,
-      "open": 0,
-      "open_health_based": 0
-    },
-    {
-      "pwsid": "MD1071098",
-      "name": "Grove Point Program Center Kitchen",
-      "population": 25,
-      "city": "Newark",
-      "type": "TNCWS",
       "violations": 1,
       "health_based": 0,
       "open": 0,

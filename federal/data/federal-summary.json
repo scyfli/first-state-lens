@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-27T12:30:41Z",
+  "generated_at": "2026-08-03T12:31:20Z",
   "fiscal_year": 2025,
   "scope": "place_of_performance=DE",
   "scope_note": "Money spent in Delaware (place of performance), not money to Delaware-based recipients.",
   "counts": {
-    "contracts": 5194,
-    "grants": 2443,
+    "contracts": 5195,
+    "grants": 2447,
     "direct_payments": 3467,
     "loans": 982,
     "idvs": 0,
     "other": 593
   },
-  "total_awards": 12679,
+  "total_awards": 12684,
   "top_contracts": [
     {
       "recipient": "DOBCO INC",
@@ -27,7 +27,7 @@
     },
     {
       "recipient": "EDUCATION & TRAINING RESOURCES LLC",
-      "amount": 34729082.24,
+      "amount": 36652136.27,
       "agency": "Department of Labor",
       "type": "\u2014"
     },

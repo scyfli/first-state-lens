@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T12:30:37Z",
+  "generated_at": "2026-08-03T12:31:19Z",
   "dashboard": "water",
   "sources": {
     "epa_sdwis": {
@@ -12,8 +12,8 @@
     }
   },
   "row_counts": {
-    "systems_total": 1344,
-    "systems_with_violations": 165,
-    "violations_on_record": 792
+    "systems_total": 1261,
+    "systems_with_violations": 167,
+    "violations_on_record": 791
   }
 }
