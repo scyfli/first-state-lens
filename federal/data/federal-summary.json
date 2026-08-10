@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-03T12:31:20Z",
+  "generated_at": "2026-08-10T10:22:45Z",
   "fiscal_year": 2025,
   "scope": "place_of_performance=DE",
   "scope_note": "Money spent in Delaware (place of performance), not money to Delaware-based recipients.",
   "counts": {
-    "contracts": 5195,
-    "grants": 2447,
+    "contracts": 5199,
+    "grants": 2474,
     "direct_payments": 3467,
     "loans": 982,
     "idvs": 0,
     "other": 593
   },
-  "total_awards": 12684,
+  "total_awards": 12715,
   "top_contracts": [
     {
       "recipient": "DOBCO INC",
@@ -148,12 +148,6 @@
       "type": "FORMULA GRANT (A)"
     },
     {
-      "recipient": "DIAMOND STATE PORT CORPORATION",
-      "amount": 127510094.0,
-      "agency": "Environmental Protection Agency",
-      "type": "PROJECT GRANT (B)"
-    },
-    {
       "recipient": "DELAWARE DEPARTMENT OF HEALTH AND SOCIAL SERVICES",
       "amount": 116780447.0,
       "agency": "Department of Health and Human Services",
@@ -194,6 +188,12 @@
       "amount": 70000000.0,
       "agency": "Department of Commerce",
       "type": "COOPERATIVE AGREEMENT (B)"
+    },
+    {
+      "recipient": "DELAWARE DEPARTMENT OF HEALTH & SOCIAL SERVICES",
+      "amount": 66752817.0,
+      "agency": "Department of Health and Human Services",
+      "type": "BLOCK GRANT (A)"
     }
   ],
   "source": {
