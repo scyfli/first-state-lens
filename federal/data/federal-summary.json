@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-17T09:49:40Z",
+  "generated_at": "2026-08-24T09:54:21Z",
   "fiscal_year": 2025,
   "scope": "place_of_performance=DE",
   "scope_note": "Money spent in Delaware (place of performance), not money to Delaware-based recipients.",
   "counts": {
-    "contracts": 5200,
-    "grants": 2475,
-    "direct_payments": 3469,
+    "contracts": 5202,
+    "grants": 2479,
+    "direct_payments": 3470,
     "loans": 983,
     "idvs": 0,
     "other": 593
   },
-  "total_awards": 12720,
+  "total_awards": 12727,
   "top_contracts": [
     {
       "recipient": "DOBCO INC",
@@ -39,7 +39,7 @@
     },
     {
       "recipient": "STAMPEDE VENTURES, INC.",
-      "amount": 25225101.99,
+      "amount": 25725728.21,
       "agency": "Department of Defense",
       "type": "\u2014"
     },
@@ -64,6 +64,12 @@
     {
       "recipient": "HERMAN/JCG CO JV",
       "amount": 17730490.68,
+      "agency": "Department of Defense",
+      "type": "\u2014"
+    },
+    {
+      "recipient": "PHASE SENSITIVE INNOVATIONS INC",
+      "amount": 17688300.0,
       "agency": "Department of Defense",
       "type": "\u2014"
     },
@@ -94,12 +100,6 @@
     {
       "recipient": "FUTURE TECHNOLOGIES, INC.",
       "amount": 13776186.03,
-      "agency": "Department of Defense",
-      "type": "\u2014"
-    },
-    {
-      "recipient": "CAESAR RODNEY SCHOOL DISTRICT",
-      "amount": 11977355.82,
       "agency": "Department of Defense",
       "type": "\u2014"
     }

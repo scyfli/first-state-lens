@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T09:55:14Z",
+  "generated_at": "2026-08-24T10:00:31Z",
   "cycle": 2026,
   "scope": "Delaware federal candidates, 2026 election cycle",
   "scope_note": "Money raised and spent by candidates for U.S. House and U.S. Senate from Delaware, as reported to the Federal Election Commission. Amounts are as-filed and the most recent filing may lag current activity. FEC registration is not the Delaware ballot: a registered candidate may or may not be certified on the November ballot.",
@@ -31,28 +31,6 @@
       "coverage_end": "2026-06-30"
     },
     {
-      "name": "COOPER, EARL L",
-      "candidate_id": "H4DE01092",
-      "office": "House",
-      "party": "REP",
-      "incumbency": "Challenger",
-      "receipts": 0.0,
-      "disbursements": 0.0,
-      "cash_on_hand": null,
-      "coverage_end": null
-    },
-    {
-      "name": "MURPHY, LEE",
-      "candidate_id": "H8DE01044",
-      "office": "House",
-      "party": "REP",
-      "incumbency": "Challenger",
-      "receipts": 0.0,
-      "disbursements": 0.0,
-      "cash_on_hand": null,
-      "coverage_end": null
-    },
-    {
       "name": "ARMINIO, JOSEPH DR. JOE PH.D.",
       "candidate_id": "H6DE01121",
       "office": "House",
@@ -64,8 +42,8 @@
       "coverage_end": null
     },
     {
-      "name": "CARLSON, OWEN NICHOLAS",
-      "candidate_id": "H6DE01113",
+      "name": "COOPER, EARL L",
+      "candidate_id": "H4DE01092",
       "office": "House",
       "party": "REP",
       "incumbency": "Challenger",
@@ -84,6 +62,28 @@
       "disbursements": 224.18,
       "cash_on_hand": null,
       "coverage_end": "2026-06-30"
+    },
+    {
+      "name": "CARLSON, OWEN NICHOLAS",
+      "candidate_id": "H6DE01113",
+      "office": "House",
+      "party": "REP",
+      "incumbency": "Challenger",
+      "receipts": 0.0,
+      "disbursements": 0.0,
+      "cash_on_hand": null,
+      "coverage_end": null
+    },
+    {
+      "name": "MURPHY, LEE",
+      "candidate_id": "H8DE01044",
+      "office": "House",
+      "party": "REP",
+      "incumbency": "Challenger",
+      "receipts": 0.0,
+      "disbursements": 0.0,
+      "cash_on_hand": null,
+      "coverage_end": null
     },
     {
       "name": "COONS, CHRISTOPHER A.",
@@ -130,85 +130,8 @@
       "coverage_end": "2025-12-31"
     },
     {
-      "name": "BLAND, DEXTER",
-      "candidate_id": "S6DE00164",
-      "office": "Senate",
-      "party": "IND",
-      "incumbency": "Challenger",
-      "receipts": 0.0,
-      "disbursements": 0.0,
-      "cash_on_hand": null,
-      "coverage_end": null
-    },
-    {
-      "name": "COPPOLA, ALEC",
-      "candidate_id": "S6DE00214",
-      "office": "Senate",
-      "party": "REP",
-      "incumbency": "\u2014",
-      "receipts": 0.0,
-      "disbursements": 0.0,
-      "cash_on_hand": null,
-      "coverage_end": null
-    },
-    {
       "name": "LOUVE, MARY",
       "candidate_id": "S6DE00230",
-      "office": "Senate",
-      "party": "DEM",
-      "incumbency": "Challenger",
-      "receipts": 0.0,
-      "disbursements": 0.0,
-      "cash_on_hand": null,
-      "coverage_end": null
-    },
-    {
-      "name": "STEVENS, TRAVIS",
-      "candidate_id": "S6DE00222",
-      "office": "Senate",
-      "party": "DEM",
-      "incumbency": "Challenger",
-      "receipts": 0.0,
-      "disbursements": 0.0,
-      "cash_on_hand": null,
-      "coverage_end": null
-    },
-    {
-      "name": "SOLOMON, GAVIN",
-      "candidate_id": "S6DE00255",
-      "office": "Senate",
-      "party": "REP",
-      "incumbency": "Challenger",
-      "receipts": 0.0,
-      "disbursements": 0.0,
-      "cash_on_hand": null,
-      "coverage_end": null
-    },
-    {
-      "name": "SOLOMON, GAVIN",
-      "candidate_id": "S6DE00248",
-      "office": "Senate",
-      "party": "REP",
-      "incumbency": "Challenger",
-      "receipts": 0.0,
-      "disbursements": 0.0,
-      "cash_on_hand": null,
-      "coverage_end": null
-    },
-    {
-      "name": "HANSEN, E. NO-TRUMP",
-      "candidate_id": "S6DE00271",
-      "office": "Senate",
-      "party": "DEM",
-      "incumbency": "Challenger",
-      "receipts": 0.0,
-      "disbursements": 0.0,
-      "cash_on_hand": null,
-      "coverage_end": null
-    },
-    {
-      "name": "APPELHANS, JEFFERY RYAN",
-      "candidate_id": "S6DE00263",
       "office": "Senate",
       "party": "DEM",
       "incumbency": "Challenger",
@@ -227,6 +150,83 @@
       "disbursements": 0.0,
       "cash_on_hand": null,
       "coverage_end": "2025-01-09"
+    },
+    {
+      "name": "SOLOMON, GAVIN",
+      "candidate_id": "S6DE00255",
+      "office": "Senate",
+      "party": "REP",
+      "incumbency": "Challenger",
+      "receipts": 0.0,
+      "disbursements": 0.0,
+      "cash_on_hand": null,
+      "coverage_end": null
+    },
+    {
+      "name": "STEVENS, TRAVIS",
+      "candidate_id": "S6DE00222",
+      "office": "Senate",
+      "party": "DEM",
+      "incumbency": "Challenger",
+      "receipts": 0.0,
+      "disbursements": 0.0,
+      "cash_on_hand": null,
+      "coverage_end": null
+    },
+    {
+      "name": "HANSEN, E. NO-TRUMP",
+      "candidate_id": "S6DE00271",
+      "office": "Senate",
+      "party": "DEM",
+      "incumbency": "Challenger",
+      "receipts": 0.0,
+      "disbursements": 0.0,
+      "cash_on_hand": null,
+      "coverage_end": null
+    },
+    {
+      "name": "SOLOMON, GAVIN",
+      "candidate_id": "S6DE00248",
+      "office": "Senate",
+      "party": "REP",
+      "incumbency": "Challenger",
+      "receipts": 0.0,
+      "disbursements": 0.0,
+      "cash_on_hand": null,
+      "coverage_end": null
+    },
+    {
+      "name": "BLAND, DEXTER",
+      "candidate_id": "S6DE00164",
+      "office": "Senate",
+      "party": "IND",
+      "incumbency": "Challenger",
+      "receipts": 0.0,
+      "disbursements": 0.0,
+      "cash_on_hand": null,
+      "coverage_end": null
+    },
+    {
+      "name": "APPELHANS, JEFFERY RYAN",
+      "candidate_id": "S6DE00263",
+      "office": "Senate",
+      "party": "DEM",
+      "incumbency": "Challenger",
+      "receipts": 0.0,
+      "disbursements": 0.0,
+      "cash_on_hand": null,
+      "coverage_end": null
+    },
+    {
+      "name": "COPPOLA, ALEC",
+      "candidate_id": "S6DE00214",
+      "office": "Senate",
+      "party": "REP",
+      "incumbency": "\u2014",
+      "receipts": 0.0,
+      "disbursements": 0.0,
+      "cash_on_hand": null,
+      "coverage_end": null
     }
   ],
   "totals": {

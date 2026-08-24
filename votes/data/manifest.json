@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T09:55:14Z",
+  "generated_at": "2026-08-24T10:00:30Z",
   "dashboard": "votes",
   "session": "153",
   "sources": {
@@ -13,7 +13,7 @@
   },
   "row_counts": {
     "legislators": 65,
-    "vote_events": 2023,
-    "bills_with_votes": 1047
+    "vote_events": 2021,
+    "bills_with_votes": 1039
   }
 }
