@@ -81,6 +81,7 @@ jobs:
           run "Childcare" etl.sources.firstmap_childcare
           run "Votes"     etl.sources.openstates_de
           run "CampaignFinance" etl.sources.fec_de
+          run "Reassessment" etl.sources.kent_reassessment --out reassessment/data
           if [ "$fail" -ne 0 ]; then
             echo "::warning::One or more pullers failed; committing only the dashboards that refreshed cleanly."
           fi
@@ -97,6 +98,7 @@ jobs:
             childcare/data/
             votes/data/
             campaign-finance/data/
+            reassessment/data/
           if-no-files-found: warn
           retention-days: 90
 
@@ -106,7 +108,7 @@ jobs:
           set -euxo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add schools/data spending/data water/data federal/data childcare/data votes/data campaign-finance/data
+          git add schools/data spending/data water/data federal/data childcare/data votes/data campaign-finance/data reassessment/data
           if git diff --cached --quiet; then
             echo "No data changes to commit."
             exit 0

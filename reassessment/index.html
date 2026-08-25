@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Kent County Property Reassessment — First State Lens</title>
+<meta name="description" content="What Kent County, Delaware assessed its property at after its 2024 reassessment — median and total assessed value, by property type. Public data, sourced, nonpartisan. Assessed value is not a tax bill." />
+<link rel="canonical" href="https://firststatelens.com/reassessment/" />
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+<meta name="theme-color" content="#030712" />
+<meta name="geo.region" content="US-DE" />
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="First State Lens" />
+<meta property="og:title" content="Kent County Property Reassessment — First State Lens" />
+<meta property="og:description" content="What Kent County, Delaware assessed its property at after its 2024 reassessment — median and total assessed value, by property type. Assessed value is not a tax bill. Sourced, nonpartisan." />
+<meta property="og:url" content="https://firststatelens.com/reassessment/" />
+<meta property="og:image" content="https://firststatelens.com/assets/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Kent County Property Reassessment — First State Lens" />
+<meta name="twitter:description" content="What Kent County, Delaware assessed its property at after its 2024 reassessment — median and total assessed value, by property type. Assessed value is not a tax bill. Sourced, nonpartisan." />
+<meta name="twitter:image" content="https://firststatelens.com/assets/og-image.png" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Kent County Delaware Property Reassessment",
+  "description": "Aggregate assessed property values for Kent County, Delaware after its 2024 court-ordered reassessment — median and total assessed value, land and improvement value, and a breakdown by property use. Assessed value only; no owner information and no tax figures. Source: Kent County ArcGIS parcels layer.",
+  "url": "https://firststatelens.com/reassessment/",
+  "isAccessibleForFree": true,
+  "license": "https://firststatelens.com/",
+  "inLanguage": "en-US",
+  "keywords": [
+    "Kent County Delaware",
+    "property reassessment",
+    "assessed value",
+    "property assessment",
+    "Delaware reassessment 2024",
+    "parcel assessment"
+  ],
+  "spatialCoverage": {
+    "@type": "AdministrativeArea",
+    "name": "Kent County, Delaware"
+  },
+  "creator": {
+    "@type": "Organization",
+    "name": "First State Lens",
+    "url": "https://firststatelens.com/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "First State Lens",
+    "url": "https://firststatelens.com/"
+  },
+  "sourceOrganization": {
+    "@type": "GovernmentOrganization",
+    "name": "Kent County, Delaware"
+  },
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "First State Lens Dashboards",
+    "url": "https://firststatelens.com/"
+  },
+  "dateModified": "2026-08-25"
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/fsl.css" />
+<style>
+  /* Reassessment accent: warm stone — deliberately neutral, evokes land/property,
+     not tied to any political colour. */
+  :root { --accent-primary: #c99a6b; }
+  /* Neutrality: no magnitude bars anywhere on this page. Assessed values are shown as
+     plain figures, never encoded as length or colour, so nothing reads as a ranking. */
+  .use-tag { font-family: var(--font-mono, monospace); font-size: .82em; color: var(--text-secondary); letter-spacing: .04em; }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark">FS</div>
+      <div class="brand-text">
+        <div class="brand-name">First State Lens</div>
+        <div class="brand-tagline">Civic Analytics Lab · Delaware</div>
+      </div>
+    </div>
+    <div class="topbar-meta">
+      <div class="meta-item"><span class="pulse-dot"></span><span>LIVE DATA</span></div>
+      <div class="meta-item"><span id="meta-county">KENT COUNTY</span></div>
+    </div>
+  </header>
+
+  <main>
+  <div class="title-block">
+    <span class="title-eyebrow">Property Reassessment · Kent County, Delaware</span>
+    <h1 class="title-h1">What Kent County <span class="highlight">assessed its property at</span></h1>
+    <p class="title-sub">After Kent County's 2024 reassessment — the first countywide revaluation in decades — every parcel got a new assessed value based on current market value. This shows those values in aggregate: the typical assessment, the total on the roll, and the breakdown by property type. Pulled directly from the county's public parcel records.</p>
+  </div>
+
+  <p class="neutrality">
+    <strong>How to read this.</strong> These are <strong>assessed market values</strong> from Kent County's public parcel records — <strong>not tax bills</strong>. First State Lens does not compute, estimate, or display anyone's taxes. Property tax depends on rates that the county, municipalities, school districts, and vo-tech districts each set separately. After the 2024 reassessment, Kent County rolled its own rate down from 36¢ to 5.72¢ per $100 of value, so a higher assessed value does <strong>not</strong> translate one-to-one into a higher bill. A reassessment also updates every property at once, so how any single bill changes depends on how that property's value moved relative to others and on the rates each body sets. Because the reassessment replaced a decades-old assessment basis with current market value, these figures are <strong>not comparable</strong> to the old assessed values — we show no before-and-after. We publish <strong>aggregates only</strong>: no owner names, no individual parcels. This dashboard covers <strong>Kent County only</strong> — New Castle and Sussex are not included here (their comparable public data is access-pending). First State Lens adds no commentary. We show you the data; you decide.
+  </p>
+
+  <!-- KPIs -->
+  <section class="kpi-grid" aria-label="Headline figures">
+    <div class="kpi-card">
+      <div class="kpi-label">Median Assessment</div>
+      <div class="kpi-value" id="kpi-median">—</div>
+      <div class="kpi-context" id="kpi-median-ctx">Half of Kent's valued parcels are assessed below this, half above.</div>
+      <div class="kpi-source">SOURCE · KENT COUNTY PARCELS</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Typical Single-Family Home</div>
+      <div class="kpi-value" id="kpi-sfd">—</div>
+      <div class="kpi-context" id="kpi-sfd-ctx">Median assessed value of a single-family dwelling.</div>
+      <div class="kpi-source">SOURCE · KENT COUNTY PARCELS</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Total Assessed Value</div>
+      <div class="kpi-value" id="kpi-total">—</div>
+      <div class="kpi-context" id="kpi-total-ctx">Sum of assessed value across every valued parcel in the county.</div>
+      <div class="kpi-source">SOURCE · KENT COUNTY PARCELS</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Land / Improvements</div>
+      <div class="kpi-value" id="kpi-split" style="font-size:1.5rem;">—</div>
+      <div class="kpi-context">Assessed value split between the land itself and the buildings and improvements on it.</div>
+      <div class="kpi-source">SOURCE · KENT COUNTY PARCELS</div>
+    </div>
+  </section>
+
+  <!-- Typical value by residential type -->
+  <section class="section" aria-labelledby="rm-title">
+    <div class="section-head">
+      <h2 class="section-title" id="rm-title">Typical assessed value, by residential type</h2>
+      <span class="section-meta">MEDIAN · AS ASSESSED</span>
+    </div>
+    <div class="panel">
+      <table class="data-table">
+        <caption>Median assessed value for the places people live. Median (not average) is the typical value: half are assessed below it, half above. Nothing here is a ranking.</caption>
+        <thead><tr>
+          <th scope="col">Residential type</th>
+          <th scope="col" class="num">Parcels</th>
+          <th scope="col" class="num">Median assessed value</th>
+        </tr></thead>
+        <tbody id="rm-body"><tr><td colspan="3">Loading…</td></tr></tbody>
+      </table>
+      <p class="kpi-source" style="margin-top:16px;">SOURCE · KENT COUNTY ARCGIS PARCELS · TOTALASSESSMENT · MEDIAN PER USE CLASS</p>
+    </div>
+  </section>
+
+  <!-- By property use -->
+  <section class="section" aria-labelledby="pu-title">
+    <div class="section-head">
+      <h2 class="section-title" id="pu-title">Assessed value by property use</h2>
+      <span class="section-meta" id="pu-meta">KENT COUNTY · AS ASSESSED</span>
+    </div>
+    <div class="panel">
+      <table class="data-table">
+        <caption>Every property-use class on Kent County's roll, by number of parcels, total assessed value, and average per parcel. Averages are shown for context and run high where a class holds a few very large parcels. Not a ranking.</caption>
+        <thead><tr>
+          <th scope="col">Property use</th>
+          <th scope="col" class="num">Parcels</th>
+          <th scope="col" class="num">Total assessed</th>
+          <th scope="col" class="num">Average per parcel</th>
+        </tr></thead>
+        <tbody id="pu-body"><tr><td colspan="4">Loading…</td></tr></tbody>
+      </table>
+      <p class="kpi-source" id="pu-note" style="margin-top:16px;">SOURCE · KENT COUNTY ARCGIS PARCELS · GROUPED BY PROPERTYUSE</p>
+    </div>
+  </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-build" id="footer-build">DATA: not yet loaded</div>
+    <div class="footer-links">
+      <a href="https://gis-kentcountyde.hub.arcgis.com/">Kent County, Delaware GIS (primary source)</a>
+      <a href="https://spotlightdelaware.org/2025/10/15/lawsuits-landlords-and-legislators-a-timeline-of-delawares-property-reassessment/">Delaware reassessment — background & timeline</a>
+      <a href="/">First State Lens home</a>
+    </div>
+    <div>First State Lens is a FirmSide AI Civic Analytics Lab project. Nonpartisan. Every figure is sourced to a public record. Assessed value is not a tax bill. We show you the data; you decide.</div>
+  </footer>
+
+</div>
+
+<script>
+(function () {
+  const fmtInt = (n) => Number(n).toLocaleString("en-US");
+  const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  // Money formatters. Full dollars for tables; compact ($1.2B / $340K) for headline KPIs.
+  const fmtUSD = (n) => (n === null || n === undefined) ? "—" : "$" + Math.round(Number(n)).toLocaleString("en-US");
+  const fmtCompact = (n) => {
+    if (n === null || n === undefined) return "—";
+    const v = Number(n);
+    if (v >= 1e9) return "$" + (v / 1e9).toFixed(1).replace(/\.0$/, "") + "B";
+    if (v >= 1e6) return "$" + (v / 1e6).toFixed(1).replace(/\.0$/, "") + "M";
+    if (v >= 1e3) return "$" + Math.round(v / 1e3) + "K";
+    return "$" + Math.round(v).toLocaleString("en-US");
+  };
+
+  async function load() {
+    let d;
+    try {
+      const r = await fetch("./data/kent-reassessment-summary.json", { cache: "no-cache" });
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      d = await r.json();
+    } catch (e) {
+      document.getElementById("footer-build").textContent = "DATA: unavailable (" + e.message + ")";
+      return;
+    }
+
+    const t = d.totals || {};
+
+    // KPIs
+    document.getElementById("kpi-median").textContent = fmtUSD(t.median_assessed);
+    document.getElementById("kpi-median-ctx").textContent =
+      "Half of Kent's valued parcels are assessed below this, half above. The average is " +
+      fmtUSD(t.mean_assessed) + ", pulled up by a small number of very high-value parcels.";
+
+    const sfd = (d.residential_medians || {})["Single Family Dwelling"] || {};
+    document.getElementById("kpi-sfd").textContent = fmtUSD(sfd.median_assessed);
+    document.getElementById("kpi-sfd-ctx").textContent =
+      "Median assessed value across " + fmtInt(sfd.parcels || 0) + " single-family dwellings.";
+
+    document.getElementById("kpi-total").textContent = fmtCompact(t.total_assessed);
+    document.getElementById("kpi-total-ctx").textContent =
+      "Sum of assessed value across " + fmtInt(t.parcels_valued || 0) + " valued parcels (of " +
+      fmtInt(t.parcels_total || 0) + " on the roll).";
+
+    document.getElementById("kpi-split").textContent =
+      fmtCompact(t.land_assessed) + " / " + fmtCompact(t.improvement_assessed);
+
+    // Residential medians table
+    const order = ["Single Family Dwelling", "Mobile Home", "Multi Family Dwelling"];
+    const rm = d.residential_medians || {};
+    document.getElementById("rm-body").innerHTML = order
+      .filter((k) => rm[k])
+      .map((k) =>
+        `<tr>
+           <td><strong>${esc(k)}</strong></td>
+           <td class="num">${fmtInt(rm[k].parcels || 0)}</td>
+           <td class="num">${fmtUSD(rm[k].median_assessed)}</td>
+         </tr>`).join("") || `<tr><td colspan="3">No records.</td></tr>`;
+
+    // By property use — show the meaningful classes (top 20 by parcel count), fold the rest.
+    const uses = (d.by_property_use || []).slice().sort((a, b) => b.parcels - a.parcels);
+    const TOP = 20;
+    const shown = uses.slice(0, TOP);
+    const rest = uses.slice(TOP);
+    document.getElementById("pu-body").innerHTML = shown.length
+      ? shown.map((u) =>
+          `<tr>
+             <td><span class="use-tag">${esc(u.use)}</span></td>
+             <td class="num">${fmtInt(u.parcels)}</td>
+             <td class="num">${fmtUSD(u.total_assessed)}</td>
+             <td class="num">${fmtUSD(u.mean_assessed)}</td>
+           </tr>`).join("")
+      : `<tr><td colspan="4">No records.</td></tr>`;
+    if (rest.length) {
+      const restParcels = rest.reduce((s, u) => s + u.parcels, 0);
+      const restTotal = rest.reduce((s, u) => s + u.total_assessed, 0);
+      document.getElementById("pu-body").innerHTML +=
+        `<tr>
+           <td><span class="use-tag">${rest.length} smaller use classes</span></td>
+           <td class="num">${fmtInt(restParcels)}</td>
+           <td class="num">${fmtUSD(restTotal)}</td>
+           <td class="num">—</td>
+         </tr>`;
+    }
+    document.getElementById("pu-meta").textContent =
+      "KENT COUNTY · " + fmtInt(uses.length) + " USE CLASSES";
+
+    const asOf = (d.generated_at || "").slice(0, 10);
+    const ry = (d.reassessment || {}).effective_tax_year || "";
+    document.getElementById("footer-build").textContent =
+      `KENT COUNTY · ${fmtInt(t.parcels_total || 0)} PARCELS · ${ry} REASSESSMENT · DATA AS OF ${asOf} · SOURCE: KENT COUNTY ARCGIS`;
+  }
+  load();
+})();
+</script>
+</body>
+</html>

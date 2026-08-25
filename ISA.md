@@ -4,10 +4,10 @@ task: Reframe FSL as a public civic-data utility and build an 8-dashboard citize
 slug: fsl-civic-suite
 effort: E5
 phase: verify
-progress: 70/120
+progress: 74/120
 mode: build
 started: 2026-06-15
-updated: 2026-07-23
+updated: 2026-08-25
 ---
 
 # First State Lens — Civic Analytics Lab (project ISA)
@@ -108,8 +108,8 @@ proven repeatable for Waves 2 and 3.
 - [ ] ISC-1: Anti: no dashboard renders a number without a visible cited public source (grep each index.html for a `.source` / citation block per stat group).
 - [x] ISC-2: Every dashboard page renders the methodology + neutrality header. Verified: all 5 carry the "We show you the data; you decide." firewall line (grep gate).
 - [x] ISC-3: Anti: no advocacy/editorializing copy. Verified: grep for (corrupt|shocking|alarming|outrageous|scandal|failing|disgrace|wasteful|reckless|shameful) across all 5 dashboards = 0 hits.
-- [ ] ISC-4: Each new dashboard is a sibling top-level dir with index.html matching the dgi-food-access layout (ls confirms).
-- [ ] ISC-5: Each new ETL puller is a standalone-runnable module in etl/sources/ matching the census_acs.py pattern (Read confirms `--out` CLI + module docstring with Source/License/Cadence).
+- [x] ISC-4: Each new dashboard is a sibling top-level dir with index.html matching the dgi-food-access layout (ls confirms). Verified 2026-08-25: `reassessment/` sibling dir + `reassessment/index.html` built on the shared `/assets/fsl.css` + topbar/title/neutrality/kpi-grid/section pattern; renders identically to the other 8 dashboards.
+- [x] ISC-5: Each new ETL puller is a standalone-runnable module in etl/sources/ matching the census_acs.py pattern (Read confirms `--out` CLI + module docstring with Source/License/Cadence). Verified 2026-08-25: `etl/sources/kent_reassessment.py` has argparse `--out`, a module docstring with Source/License/Cadence, and a silent-zero guard; ran standalone → wrote real data.
 - [ ] ISC-6: Anti: DGI data/ outputs are byte-unchanged after suite work (git diff dgi-food-access/data is empty unless a DGI-specific task touched it).
 - [ ] ISC-7: Any new Census-using puller threads CENSUS_API_KEY through the orchestrated path, with a regression test asserting the key reaches the request (per silent-zero lesson).
 - [x] ISC-8: Each dashboard passes scripts/a11y-audit.js (axe-core WCAG 2.2 AA), 0 violations. Verified 2026-06-22: CI run 27980626995 = PASS, all 9 routes 0 serious/critical. Fixed 6 color-contrast violations (1 rule/page): `.kpi-source` + `.footer-build` (slate-500@.9 → --text-tertiary) and unstyled in-table links (added accessible base `a` color). Commits 46d1fb8 + 0846928. a11y workflow paths widened to all dashboards.
@@ -167,8 +167,8 @@ proven repeatable for Waves 2 and 3.
 ### Wave 2 / Wave 3 (criteria expand at build)
 - [x] ISC-44: Legislator Votes (Wave 2 #1) built on Open States v3 (free key). etl/sources/openstates_de.py aggregates the current session's recorded roll-call votes per legislator (member-votes are self-describing — voter.id/party/chamber/district/option — no roster join). Verified: session 153, 65 legislators (21 Senate / 41 House), 1,592 vote events / 925 bills; per-legislator yes/no/participation. votes/index.html = "find your legislator" filter + sortable table, NO party colors, no scoring (most-charged dashboard → strictest neutrality). Pushed. (Sponsorships/attendance detail = v1.1.)
 - [x] ISC-45: Federal campaign finance built on FEC (OpenFEC via api.data.gov key). **VERIFIED 2026-07-23:** `etl/sources/fec_de.py` pulls `/candidates/totals?state=DE` for the cycle (name/office/party/receipts/disbursements/cash-on-hand), silent-zero guard (raises unless ≥1 candidate with filed receipts). Probed live: 19 DE 2026 candidates, 6 with filed receipts, $11.53M total raised (McBride $4.66M House, Coons $6.66M Senate). `campaign-finance/index.html` = raw as-filed numbers, party as a factual label (no color, no ranking, NO magnitude bars = strictest-neutrality posture matching Votes), FEC-registration≠ballot caveat. Neutrality grep 0 hits, render-verified. Homepage card + sitemap + a11y route + refresh-all wiring added. FEC_API_KEY set as repo secret.
-- [ ] ISC-46: Reassessment ships Kent-only, transparently labeled, NCC/Sussex flagged as access-pending.
-- [ ] ISC-47: Anti: Reassessment never publishes Sussex data without a written county exception.
+- [x] ISC-46: Reassessment ships Kent-only, transparently labeled, NCC/Sussex flagged as access-pending. **VERIFIED 2026-08-25:** `etl/sources/kent_reassessment.py` (keyless) pulls AGGREGATE stats from Kent County's ArcGIS Parcels/FeatureServer/0 — countywide roll $29.42B across 83,004 parcels (80,925 valued), median $283,600, mean $363,595, land $9.14B / improvements $20.28B, 95 property-use classes, plus residential medians (Single Family $329,200 / Mobile Home $196,100 / Multi Family $290,600). `reassessment/index.html` renders median-led KPIs (mean disclosed in-context per advisor), residential-median table, and per-use table (top 20 + folded remainder). Neutrality header states Kent-only + NCC/Sussex access-pending. Rendered in real Chromium (localhost serve): all KPIs populated, 0 console errors, screenshot reviewed. Homepage card + JSON-LD dataset + sitemap + llms.txt + a11y route + refresh-all wiring all added.
+- [x] ISC-47: Anti: Reassessment never publishes Sussex data without a written county exception. **VERIFIED:** the puller queries ONLY the Kent County ArcGIS endpoint; no Sussex source is touched. Page copy states "This dashboard covers Kent County only — New Castle and Sussex are not included here." grep of reassessment/index.html for "Sussex" = only the access-pending disclosure line.
 
 ## Test Strategy
 
@@ -194,7 +194,7 @@ proven repeatable for Waves 2 and 3.
 | Water | ISC-40..43 | EPA Envirofacts + ECHO | keyless | GO | suite scaffold | yes |
 | Legislator Votes | ISC-44 | Open States v3 + LegiScan | free key | GO | Open States key | yes |
 | Federal campaign $ | ISC-45 | FEC OpenFEC | free key | GO | FEC key | yes |
-| Reassessment (Kent) | ISC-46,47 | Kent County ArcGIS | keyless | PARTIAL | none | yes |
+| Reassessment (Kent) | ISC-46,47 | Kent County ArcGIS (gis.kentcountyde.gov Parcels/FeatureServer/0) | keyless | GO | none | yes |
 | State campaign $ | — | DE CFRS | Telerik scrape | PARTIAL (deferred) | scraper | no |
 | Lead lines layer | ISC-42 | per-utility ArcGIS | scrape | PARTIAL (folded into Water) | Water | no |
 
@@ -363,6 +363,24 @@ proven repeatable for Waves 2 and 3.
   top contract Caesar Rodney School District $53.3M (DoD), top grant DE DHSS $2.4B. Page +
   /assets/fsl.css + data/federal-summary.json all HTTP 200 over local serve; all render-target
   IDs + gate + noindex present in served HTML. ISC-39 deferred to production push + CI a11y.
+
+## 2026-08-25 — Reassessment (Kent) dashboard — the 8th and FINAL suite dashboard (Mark: "catch up on the site build in completion")
+
+**Conjecture → refutation → learning → criterion-now:**
+- *Conjecture:* ISC-20 recorded "Kent open API (real post-reassessment values)" but never captured the endpoint. *Refutation/recovery:* rediscovered it — `https://gis.kentcountyde.gov/server/rest/services/Parcels/Parcels/FeatureServer/0` (keyless, open ArcGIS Server; the AGOL org root 400s, the on-prem server directory is the live path). *Learning:* record the exact endpoint in the puller docstring so ISC-20-style "verified live" claims stay reproducible. *Criterion-now:* ISC-46 evidence names the endpoint.
+- *Conjecture (design):* lead the dashboard with the countywide average ($363,595). *Refutation:* the Advisor pass flagged mean-on-right-skew as misleading and "revenue-neutral" reassurance as itself a form of advocacy. *Learning:* for assessment data the neutral default is **median-led + segmented by property use + no tax figure + no before/after** (the basis change would manufacture a false spike). *Criterion-now:* the page leads with median ($283,600), discloses the mean in-context, segments by use, computes no tax, shows no old-vs-new — recorded as D-reassess-1.
+
+**What shipped (all verified this session):**
+- `etl/sources/kent_reassessment.py` — keyless AGGREGATE-only puller (never reads owner PII), silent-zero guards (parcels < 50k or roll < $1B → raise). Ran standalone → $29.42B roll, 83,004 parcels, median $283,600, mean $363,595, 95 use classes, residential medians. Writes `reassessment/data/{kent-reassessment-summary,manifest}.json`.
+- `reassessment/index.html` — median-led KPIs, residential-median table, per-use table (top-20 + folded remainder), neutrality header (not-a-tax-bill + rate rollback 36¢→5.72¢ as a plain sourced fact + Kent-only + aggregates-only). Dataset JSON-LD.
+- Wire-ins: homepage card (accent #c99a6b) + homepage JSON-LD dataset entry + sitemap.xml + llms.txt + a11y ROUTES + refresh-all.yml (run line + artifact path + git-add path).
+
+**Verification (rungs reached):**
+- Puller: actual stdout captured + JSON read back from disk (real values, not zeros).
+- Page + data + homepage: HTTP 200 over local serve; JSON shape confirmed.
+- Render (real Chromium via Playwright — Interceptor absent on this WSL box, same as prior FSL sessions): all KPIs populated (median $283,600 / SFD $329,200 / total $29.4B / split $9.1B–$20.3B), residential 3 rows + use 21 rows, correct data-as-of stamp, **0 console errors**, full-page screenshot reviewed. Homepage: reassessment card renders, 11 cards total, 0 console errors.
+- Neutrality grep (advocacy lexicon incl. burden/spike/unfair) = 0 hits. Tax-leak grep = disclaimers + mechanism only, no computed tax.
+- a11y: page reuses the axe-passing template (2 captions, 7 `scope=col`, `<main>`, 3 aria-label/ledby); the puppeteer axe run happens in CI post-push (puppeteer absent locally — rung named, not asserted).
 
 ## 2026-07-23 — Data-refresh audit + keyless refresh (resume, Mark: "update all dashboards end to end")
 

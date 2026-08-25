@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-08-25T23:33:36Z",
+  "dashboard": "kent-reassessment",
+  "sources": {
+    "kent_arcgis": {
+      "name": "Kent County, Delaware \u2014 ArcGIS Parcels FeatureServer",
+      "endpoint": "https://gis.kentcountyde.gov/server/rest/services/Parcels/Parcels/FeatureServer/0",
+      "license": "County public record (aggregate statistics only; no owner PII)",
+      "url": "https://gis-kentcountyde.hub.arcgis.com/"
+    }
+  },
+  "row_counts": {
+    "parcels_total": 83004,
+    "parcels_valued": 80925,
+    "property_use_classes": 95
+  }
+}

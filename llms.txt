@@ -21,6 +21,7 @@
 - [Childcare Access in Delaware](https://firststatelens.com/childcare/): Every licensed childcare provider, capacity, quality rating, and children-per-slot by county. Source: DE Office of Child Care Licensing + U.S. Census.
 - [How Your Delaware Legislator Votes](https://firststatelens.com/votes/): The recorded roll-call voting record of every member of the Delaware General Assembly this session. Source: Open States.
 - [Delaware Federal Campaign Finance](https://firststatelens.com/campaign-finance/): What Delaware's U.S. House and Senate candidates raised and spent this cycle. Source: FEC OpenFEC.
+- [Kent County Property Reassessment](https://firststatelens.com/reassessment/): Aggregate assessed property values for Kent County after its 2024 reassessment — median and total assessed value, land vs improvements, and a breakdown by property type. Assessed value only; no tax figures and no owner data. Source: Kent County, Delaware ArcGIS parcels.
 - [Tracking Delaware Senate Bill 272](https://firststatelens.com/bill-tracker/): A live tracker for a single bill — status, sponsors, action timeline, and the recorded vote. Source: Open States.
 - [Delaware Grocery Initiative Grants](https://firststatelens.com/dgi-food-access/): Delaware Grocery Initiative grant awards mapped alongside SB 254 food-access indicators. Source: Delaware State Bank / SB 254.
 
