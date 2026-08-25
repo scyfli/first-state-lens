@@ -382,6 +382,8 @@ proven repeatable for Waves 2 and 3.
 - Neutrality grep (advocacy lexicon incl. burden/spike/unfair) = 0 hits. Tax-leak grep = disclaimers + mechanism only, no computed tax.
 - a11y: page reuses the axe-passing template (2 captions, 7 `scope=col`, `<main>`, 3 aria-label/ledby); the puppeteer axe run happens in CI post-push (puppeteer absent locally — rung named, not asserted).
 
+**Forge (GPT-5.4) second-vendor audit + hardening pass (Rule 2a):** verdict **no CRITICAL / no HIGH, ship-ready** — PII posture and neutrality discipline confirmed structurally sound, data-contract (puller JSON ↔ page JS keys) clean. Took the worthwhile fixes before push: (1) even-count median now averages the two middle rows (was upper-middle); (2) `where`-clause single-quote escaping (`_sql_str`) on the residential loop; (3) grouped-stats `resultRecordCount=2000` guard; (4) **silent-PARTIAL guard** — raises if `sum(by_use parcels)` < 98% of `parcels_valued` (catches grouped-query truncation; live coverage 99.88%, 94 null-use parcels skipped); (5) the 36¢→5.72¢ rate figure now carries an inline source (Delaware Public Media, 2024-06-27) after primary-source verification. Re-ran puller + re-rendered: median stable $283,600, 0 console errors, source link present.
+
 ## 2026-07-23 — Data-refresh audit + keyless refresh (resume, Mark: "update all dashboards end to end")
 
 **Root cause found:** all 6 main dashboards were frozen at the 2026-06-15 build. The ONLY ETL

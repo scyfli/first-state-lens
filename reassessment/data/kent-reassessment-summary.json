@@ -22,7 +22,7 @@
     },
     "Mobile Home": {
       "parcels": 4946,
-      "median_assessed": 196100.0
+      "median_assessed": 196050.0
     },
     "Multi Family Dwelling": {
       "parcels": 463,
@@ -601,5 +601,5 @@
       "mean_assessed": 132397600.0
     }
   ],
-  "generated_at": "2026-08-25T23:33:36Z"
+  "generated_at": "2026-08-25T23:45:21Z"
 }

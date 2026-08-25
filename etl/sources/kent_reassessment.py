@@ -109,30 +109,48 @@ def _stats(where: str, stats: list[dict], group_by: str | None = None) -> list[d
     if group_by:
         params["groupByFieldsForStatistics"] = group_by
         params["orderByFields"] = "n DESC"
+        # Belt-and-suspenders: ask for well more group rows than the ~95 use classes so a
+        # low server default page size can never silently drop the tail (reconciled below).
+        params["resultRecordCount"] = 2000
     d = _get(params)
     return [f["attributes"] for f in d.get("features", [])]
 
 
+def _sql_str(v: str) -> str:
+    """Escape a string literal for an ArcGIS SQL where-clause (single-quote doubling)."""
+    return v.replace("'", "''")
+
+
 def _median(where: str, n_valued: int) -> float | None:
-    """Median TOTALASSESSMENT for the filter, via an ordered single-row offset query."""
+    """Median TOTALASSESSMENT for the filter, via ordered offset query.
+
+    Odd n: the single middle row. Even n: the average of the two middle rows (the
+    statistical median), so an even-count class is not reported one rank high.
+    """
     if n_valued <= 0:
         return None
-    offset = n_valued // 2
+    if n_valued % 2:
+        offset, take = n_valued // 2, 1
+    else:
+        offset, take = n_valued // 2 - 1, 2
     d = _get(
         {
             "where": where,
             "orderByFields": "TOTALASSESSMENT ASC",
             "outFields": "TOTALASSESSMENT",
             "resultOffset": offset,
-            "resultRecordCount": 1,
+            "resultRecordCount": take,
             "returnGeometry": "false",
         }
     )
-    feats = d.get("features", [])
-    if not feats:
+    vals = [
+        float(f["attributes"]["TOTALASSESSMENT"])
+        for f in d.get("features", [])
+        if f["attributes"].get("TOTALASSESSMENT") is not None
+    ]
+    if not vals:
         return None
-    v = feats[0]["attributes"].get("TOTALASSESSMENT")
-    return round(float(v), 2) if v is not None else None
+    return round(sum(vals) / len(vals), 2)
 
 
 def pull() -> dict:
@@ -181,7 +199,7 @@ def pull() -> dict:
     # Dedicated residential medians (the "typical home" figures).
     residential_medians = {}
     for use in RESIDENTIAL_MEDIAN_USES:
-        where = f"PropertyUse='{use}' AND TOTALASSESSMENT>0"
+        where = f"PropertyUse='{_sql_str(use)}' AND TOTALASSESSMENT>0"
         n = _count(where)
         residential_medians[use] = {
             "parcels": n,
@@ -197,6 +215,17 @@ def pull() -> dict:
         raise RuntimeError(f"parcel count {parcels_total} < floor {MIN_PARCELS} (silent-zero guard)")
     if sum_total < MIN_ROLL_VALUE:
         raise RuntimeError(f"roll value {sum_total} < floor {MIN_ROLL_VALUE} (silent-zero guard)")
+
+    # Silent-PARTIAL guard: the by-use table must cover the valued parcels. If the grouped
+    # query were paginated/truncated, this sum would fall short of parcels_valued while the
+    # headline totals stayed correct. A small gap is legitimate (valued parcels with a
+    # null/blank PropertyUse are skipped), so allow a 2% tolerance.
+    by_use_parcels = sum(u["parcels"] for u in by_use)
+    if parcels_valued and by_use_parcels < parcels_valued * 0.98:
+        raise RuntimeError(
+            f"by-use parcels {by_use_parcels} < 98% of valued {parcels_valued} "
+            "(possible grouped-stats truncation; silent-partial guard)"
+        )
 
     return {
         "county": "Kent",
