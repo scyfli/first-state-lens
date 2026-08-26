@@ -6,7 +6,37 @@
 
 ---
 
-## 2026-07-23 — Data refresh + FEC dashboard (LATEST · LIVE + PUBLIC)
+## 2026-08-25 — Reassessment (Kent): the 8th & FINAL dashboard (LATEST · LIVE + PUBLIC · SUITE COMPLETE)
+
+**Commit:** `d25845b` on `main`, pushed to `scyfli/first-state-lens`. Tree clean, 0 ahead. (Two commits this session: `6e33a03` build + `d25845b` Forge-hardening, rebased over 5 remote `refresh-all` weekly-cron data commits — the cron is working.)
+
+**Mark's ask:** "catch up on the site build in completion." The 8-dashboard civic suite now has all 8 dashboards live; Reassessment (Kent) was the only unbuilt one.
+
+**What shipped (all live + verified on production):**
+- **`reassessment/index.html` LIVE at https://firststatelens.com/reassessment/** — aggregate Kent County assessed-value dashboard. Median-led KPIs ($283,600 median / $329,200 single-family median / $29.4B roll / $9.1B land–$20.3B improvements), residential-median table, per-use table (top-20 + folded remainder), neutrality "how to read" header.
+- **`etl/sources/kent_reassessment.py`** — keyless puller off Kent's open ArcGIS parcels layer `https://gis.kentcountyde.gov/server/rest/services/Parcels/Parcels/FeatureServer/0` (the AGOL org root 400s; the on-prem server directory is the live path). AGGREGATE stats only — never reads owner PII. Silent-zero + silent-PARTIAL (by-use vs valued reconciliation, 99.88% coverage) guards. Ran standalone → real data. Wired into `refresh-all.yml` (run line + artifact + git-add).
+- Wire-ins: homepage card (accent `#c99a6b`) + homepage JSON-LD dataset + `sitemap.xml` + `llms.txt` + a11y ROUTES (`/reassessment/`).
+- **ISC-46 + ISC-47 closed** (ISA `fsl-civic-suite` 74/120); Features verdict Reassessment PARTIAL→GO.
+
+**Neutrality doctrine applied (Advisor-shaped — assessment is the most-misread civic dataset):** median-led (not the mean, which is disclosed in-context as skewed); segmented by property use (no blended "typical property"); **no tax figure ever computed**; no old-vs-new delta (basis change would manufacture a false spike); the 36¢→5.72¢ rate rollback stated as a sourced fact (inline Delaware Public Media link), not reassurance.
+
+**Verification (rungs reached):** puller stdout + JSON read-back; page/data/homepage HTTP 200; **real Chromium render of the LIVE production URL** — all KPIs populated, 0 console errors, full-page screenshot reviewed; neutrality grep 0 hits; tax-leak grep = disclaimers only. a11y axe run happens in **CI post-push** (puppeteer absent locally — rung named, not asserted). **Forge (GPT-5.4) audit: no CRITICAL/HIGH, ship-ready** — applied its fixes before push (even-count median averages two middle rows, `where`-clause single-quote escaping, grouped `resultRecordCount=2000`, partial-publish reconciliation guard, rate-figure citation).
+
+**IN-FLIGHT / open (next session — all Mark-gated, none blocking):**
+1. **CI a11y confirm.** The push triggers the axe workflow on `/reassessment/`; confirm it went green (I verified structure + the passing template locally, not the axe run itself).
+2. **Google Search Console** — submit `https://firststatelens.com/sitemap.xml`. Now the top lever: the suite is complete + fully indexable, undiscovered until submitted.
+3. **Childcare local refresh** — still needs Mark's Census key for a local `firstmap_childcare` run (GitHub secret is write-only; FirstMap blocks GitHub-cloud IPs).
+4. **DGI MMG county join** finish (Kent + New Castle real values) + grant-to-tract geocoding — DGI is live, this is refinement.
+5. **methodology.firststatelens.com** subdomain still forthcoming (referenced in llms.txt/about).
+6. **Clean Slate** stays HELD — no machine-readable DELJIS/SBI clearance dataset exists to publish honestly (FOIA-gated).
+
+**Rollback:** the whole dashboard is additive — `git revert d25845b 6e33a03` removes `reassessment/` + all wire-ins; the 7 live dashboards are untouched. To un-index only: drop the `/reassessment/` sitemap line + add `<meta robots noindex>`.
+
+**Next action on resume:** confirm the CI a11y run is green on HEAD; then the suite is content-complete and the work shifts to the Mark-gated fast-follows (GSC submission first). No FSL build work is queued.
+
+---
+
+## 2026-07-23 — Data refresh + FEC dashboard (LIVE + PUBLIC)
 
 **Commit:** `9330b0c` on `main`, pushed to `scyfli/first-state-lens`. Tree clean, 0 ahead. a11y CI **green** on this commit (all routes incl. new `/campaign-finance/`, 0 serious/critical).
 
