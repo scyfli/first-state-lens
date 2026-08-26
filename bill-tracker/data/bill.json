@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T11:38:12Z",
+  "generated_at": "2026-08-26T09:28:32Z",
   "session": "153",
   "identifier": "SB 272",
   "title": "AN ACT TO AMEND TITLE 14 AND TITLE 29 OF THE DELAWARE CODE RELATING TO PROJECT LABOR AGREEMENTS FOR SCHOOL DISTRICT PUBLIC WORKS CONTRACTS.",
@@ -285,6 +285,10 @@
     {
       "note": "SA 1 to SB 272",
       "url": "http://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=143370&legislationTypeId=5&docTypeId=2"
+    },
+    {
+      "note": "Bill Text",
+      "url": "https://legis.delaware.gov/json/BillDetail/GeneratePdfDocument?legislationId=143024&legislationTypeId=1&docTypeId=2&legislationName=SB272"
     }
   ],
   "source": {
