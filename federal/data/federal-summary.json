@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-24T09:54:21Z",
+  "generated_at": "2026-08-31T16:56:51Z",
   "fiscal_year": 2025,
   "scope": "place_of_performance=DE",
   "scope_note": "Money spent in Delaware (place of performance), not money to Delaware-based recipients.",
   "counts": {
-    "contracts": 5202,
-    "grants": 2479,
+    "contracts": 5205,
+    "grants": 2502,
     "direct_payments": 3470,
     "loans": 983,
     "idvs": 0,
     "other": 593
   },
-  "total_awards": 12727,
+  "total_awards": 12753,
   "top_contracts": [
     {
       "recipient": "DOBCO INC",
-      "amount": 50038455.02,
+      "amount": 50064417.57,
       "agency": "Department of Defense",
       "type": "\u2014"
     },
@@ -161,7 +161,7 @@
     },
     {
       "recipient": "DELAWARE VETERANS HOME",
-      "amount": 94236407.53,
+      "amount": 94867562.14,
       "agency": "Department of Veterans Affairs",
       "type": "FORMULA GRANT (A)"
     },

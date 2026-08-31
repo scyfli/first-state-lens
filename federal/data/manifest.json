@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T09:54:21Z",
+  "generated_at": "2026-08-31T16:56:51Z",
   "dashboard": "federal-dollars",
   "fiscal_year": 2025,
   "sources": {
@@ -14,6 +14,6 @@
     "award_type_buckets": 5,
     "top_contracts": 15,
     "top_grants": 15,
-    "total_awards": 12727
+    "total_awards": 12753
   }
 }

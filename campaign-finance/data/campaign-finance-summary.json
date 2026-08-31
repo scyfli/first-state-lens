@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T10:00:31Z",
+  "generated_at": "2026-08-31T17:02:53Z",
   "cycle": 2026,
   "scope": "Delaware federal candidates, 2026 election cycle",
   "scope_note": "Money raised and spent by candidates for U.S. House and U.S. Senate from Delaware, as reported to the Federal Election Commission. Amounts are as-filed and the most recent filing may lag current activity. FEC registration is not the Delaware ballot: a registered candidate may or may not be certified on the November ballot.",
@@ -35,7 +35,18 @@
       "candidate_id": "H6DE01121",
       "office": "House",
       "party": "REP",
-      "incumbency": "\u2014",
+      "incumbency": "Challenger",
+      "receipts": 0.0,
+      "disbursements": 0.0,
+      "cash_on_hand": null,
+      "coverage_end": null
+    },
+    {
+      "name": "MURPHY, LEE",
+      "candidate_id": "H8DE01044",
+      "office": "House",
+      "party": "REP",
+      "incumbency": "Challenger",
       "receipts": 0.0,
       "disbursements": 0.0,
       "cash_on_hand": null,
@@ -66,17 +77,6 @@
     {
       "name": "CARLSON, OWEN NICHOLAS",
       "candidate_id": "H6DE01113",
-      "office": "House",
-      "party": "REP",
-      "incumbency": "Challenger",
-      "receipts": 0.0,
-      "disbursements": 0.0,
-      "cash_on_hand": null,
-      "coverage_end": null
-    },
-    {
-      "name": "MURPHY, LEE",
-      "candidate_id": "H8DE01044",
       "office": "House",
       "party": "REP",
       "incumbency": "Challenger",
@@ -141,15 +141,15 @@
       "coverage_end": null
     },
     {
-      "name": "HANSEN, ERIC",
-      "candidate_id": "S4DE00094",
+      "name": "HANSEN, E. NO-TRUMP",
+      "candidate_id": "S6DE00271",
       "office": "Senate",
       "party": "DEM",
-      "incumbency": "\u2014",
+      "incumbency": "Challenger",
       "receipts": 0.0,
       "disbursements": 0.0,
       "cash_on_hand": null,
-      "coverage_end": "2025-01-09"
+      "coverage_end": null
     },
     {
       "name": "SOLOMON, GAVIN",
@@ -163,32 +163,21 @@
       "coverage_end": null
     },
     {
-      "name": "STEVENS, TRAVIS",
-      "candidate_id": "S6DE00222",
-      "office": "Senate",
-      "party": "DEM",
-      "incumbency": "Challenger",
-      "receipts": 0.0,
-      "disbursements": 0.0,
-      "cash_on_hand": null,
-      "coverage_end": null
-    },
-    {
-      "name": "HANSEN, E. NO-TRUMP",
-      "candidate_id": "S6DE00271",
-      "office": "Senate",
-      "party": "DEM",
-      "incumbency": "Challenger",
-      "receipts": 0.0,
-      "disbursements": 0.0,
-      "cash_on_hand": null,
-      "coverage_end": null
-    },
-    {
-      "name": "SOLOMON, GAVIN",
-      "candidate_id": "S6DE00248",
+      "name": "COPPOLA, ALEC",
+      "candidate_id": "S6DE00214",
       "office": "Senate",
       "party": "REP",
+      "incumbency": "\u2014",
+      "receipts": 0.0,
+      "disbursements": 0.0,
+      "cash_on_hand": null,
+      "coverage_end": null
+    },
+    {
+      "name": "APPELHANS, JEFFERY RYAN",
+      "candidate_id": "S6DE00263",
+      "office": "Senate",
+      "party": "DEM",
       "incumbency": "Challenger",
       "receipts": 0.0,
       "disbursements": 0.0,
@@ -207,10 +196,10 @@
       "coverage_end": null
     },
     {
-      "name": "APPELHANS, JEFFERY RYAN",
-      "candidate_id": "S6DE00263",
+      "name": "SOLOMON, GAVIN",
+      "candidate_id": "S6DE00248",
       "office": "Senate",
-      "party": "DEM",
+      "party": "REP",
       "incumbency": "Challenger",
       "receipts": 0.0,
       "disbursements": 0.0,
@@ -218,11 +207,22 @@
       "coverage_end": null
     },
     {
-      "name": "COPPOLA, ALEC",
-      "candidate_id": "S6DE00214",
+      "name": "HANSEN, ERIC",
+      "candidate_id": "S4DE00094",
       "office": "Senate",
-      "party": "REP",
+      "party": "DEM",
       "incumbency": "\u2014",
+      "receipts": 0.0,
+      "disbursements": 0.0,
+      "cash_on_hand": null,
+      "coverage_end": "2025-01-09"
+    },
+    {
+      "name": "STEVENS, TRAVIS",
+      "candidate_id": "S6DE00222",
+      "office": "Senate",
+      "party": "DEM",
+      "incumbency": "Challenger",
       "receipts": 0.0,
       "disbursements": 0.0,
       "cash_on_hand": null,
