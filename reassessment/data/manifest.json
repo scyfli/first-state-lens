@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T17:02:56Z",
+  "generated_at": "2026-09-07T15:04:30Z",
   "dashboard": "kent-reassessment",
   "sources": {
     "kent_arcgis": {
@@ -10,8 +10,8 @@
     }
   },
   "row_counts": {
-    "parcels_total": 83004,
-    "parcels_valued": 80925,
+    "parcels_total": 83134,
+    "parcels_valued": 80967,
     "property_use_classes": 95
   }
 }
