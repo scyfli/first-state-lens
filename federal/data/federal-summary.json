@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-07T14:57:10Z",
+  "generated_at": "2026-09-14T15:48:57Z",
   "fiscal_year": 2025,
   "scope": "place_of_performance=DE",
   "scope_note": "Money spent in Delaware (place of performance), not money to Delaware-based recipients.",
   "counts": {
-    "contracts": 5207,
-    "grants": 2512,
+    "contracts": 5208,
+    "grants": 2514,
     "direct_payments": 3470,
     "loans": 983,
     "idvs": 0,
-    "other": 596
+    "other": 597
   },
-  "total_awards": 12768,
+  "total_awards": 12772,
   "top_contracts": [
     {
       "recipient": "J D ECKMAN INC",
