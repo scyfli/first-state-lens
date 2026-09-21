@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-07T15:04:24Z",
+  "generated_at": "2026-09-21T15:55:15Z",
   "session": "153",
   "bills_in_session": 1296,
   "bills_with_recorded_votes": 1044,
-  "vote_events": 2030,
+  "vote_events": 2029,
   "legislator_count": 65,
   "legislators": [
     {
@@ -12,8 +12,8 @@
       "party": "Democratic",
       "chamber": "House",
       "district": "1",
-      "yes": 613,
-      "no": 4,
+      "yes": 612,
+      "no": 5,
       "other": 37,
       "total": 654,
       "participation_pct": 94.3
@@ -24,11 +24,11 @@
       "party": "Democratic",
       "chamber": "House",
       "district": "2",
-      "yes": 629,
-      "no": 3,
-      "other": 22,
+      "yes": 624,
+      "no": 4,
+      "other": 26,
       "total": 654,
-      "participation_pct": 96.6
+      "participation_pct": 96.0
     },
     {
       "id": "ocd-person/d020ca16-1926-4279-adc8-c0a6cddeac6e",
@@ -36,11 +36,11 @@
       "party": "Democratic",
       "chamber": "House",
       "district": "3",
-      "yes": 584,
-      "no": 4,
-      "other": 66,
+      "yes": 589,
+      "no": 5,
+      "other": 60,
       "total": 654,
-      "participation_pct": 89.9
+      "participation_pct": 90.8
     },
     {
       "id": "ocd-person/aa0846e8-7d8d-46ed-b4c9-54c9c2243d16",
@@ -48,11 +48,11 @@
       "party": "Republican",
       "chamber": "House",
       "district": "4",
-      "yes": 478,
-      "no": 154,
-      "other": 22,
+      "yes": 477,
+      "no": 157,
+      "other": 20,
       "total": 654,
-      "participation_pct": 96.6
+      "participation_pct": 96.9
     },
     {
       "id": "ocd-person/b24cb06f-0cb1-4682-8038-d31b8ebc76fb",
@@ -60,11 +60,11 @@
       "party": "Democratic",
       "chamber": "House",
       "district": "5",
-      "yes": 649,
-      "no": 2,
-      "other": 3,
+      "yes": 647,
+      "no": 3,
+      "other": 4,
       "total": 654,
-      "participation_pct": 99.5
+      "participation_pct": 99.4
     },
     {
       "id": "ocd-person/7e631da1-ef0f-4c6f-ba17-e5ae2860dad6",
@@ -72,8 +72,8 @@
       "party": "Democratic",
       "chamber": "House",
       "district": "6",
-      "yes": 620,
-      "no": 6,
+      "yes": 619,
+      "no": 7,
       "other": 28,
       "total": 654,
       "participation_pct": 95.7
@@ -84,8 +84,8 @@
       "party": "Democratic",
       "chamber": "House",
       "district": "7",
-      "yes": 643,
-      "no": 9,
+      "yes": 641,
+      "no": 11,
       "other": 2,
       "total": 654,
       "participation_pct": 99.7
@@ -96,11 +96,11 @@
       "party": "Democratic",
       "chamber": "House",
       "district": "8",
-      "yes": 557,
-      "no": 11,
-      "other": 86,
+      "yes": 567,
+      "no": 14,
+      "other": 73,
       "total": 654,
-      "participation_pct": 86.9
+      "participation_pct": 88.8
     },
     {
       "id": "ocd-person/d1020a85-27a1-4458-9ae2-90b09367be2c",
@@ -108,11 +108,11 @@
       "party": "Republican",
       "chamber": "House",
       "district": "9",
-      "yes": 439,
-      "no": 45,
-      "other": 170,
+      "yes": 450,
+      "no": 48,
+      "other": 156,
       "total": 654,
-      "participation_pct": 74.0
+      "participation_pct": 76.1
     },
     {
       "id": "ocd-person/ec594c77-7bbe-45c5-9ffd-0f6a3aad1e36",
@@ -120,8 +120,8 @@
       "party": "Democratic",
       "chamber": "House",
       "district": "10",
-      "yes": 649,
-      "no": 4,
+      "yes": 648,
+      "no": 5,
       "other": 1,
       "total": 654,
       "participation_pct": 99.8
@@ -132,11 +132,11 @@
       "party": "Republican",
       "chamber": "House",
       "district": "11",
-      "yes": 562,
-      "no": 61,
-      "other": 31,
+      "yes": 546,
+      "no": 68,
+      "other": 40,
       "total": 654,
-      "participation_pct": 95.3
+      "participation_pct": 93.9
     },
     {
       "id": "ocd-person/0dc99b9c-115c-4da0-81b1-22aa5b6750e0",
@@ -144,11 +144,11 @@
       "party": "Democratic",
       "chamber": "House",
       "district": "12",
-      "yes": 601,
-      "no": 6,
-      "other": 47,
+      "yes": 607,
+      "no": 7,
+      "other": 40,
       "total": 654,
-      "participation_pct": 92.8
+      "participation_pct": 93.9
     },
     {
       "id": "ocd-person/5c5f5bf8-d155-4911-8e06-eb6cc664859e",
@@ -156,11 +156,11 @@
       "party": "Democratic",
       "chamber": "House",
       "district": "13",
-      "yes": 613,
-      "no": 1,
-      "other": 40,
+      "yes": 607,
+      "no": 2,
+      "other": 45,
       "total": 654,
-      "participation_pct": 93.9
+      "participation_pct": 93.1
     },
     {
       "id": "ocd-person/933a1f48-bea2-43f7-9ccb-a793ac4ac71d",
@@ -168,8 +168,8 @@
       "party": "Democratic",
       "chamber": "House",
       "district": "14",
-      "yes": 640,
-      "no": 11,
+      "yes": 637,
+      "no": 14,
       "other": 3,
       "total": 654,
       "participation_pct": 99.5
@@ -180,11 +180,11 @@
       "party": "Democratic",
       "chamber": "House",
       "district": "15",
-      "yes": 609,
-      "no": 3,
-      "other": 42,
+      "yes": 610,
+      "no": 5,
+      "other": 39,
       "total": 654,
-      "participation_pct": 93.6
+      "participation_pct": 94.0
     },
     {
       "id": "ocd-person/0cac3293-534b-4188-93e3-37ef6cd333ae",
@@ -193,10 +193,10 @@
       "chamber": "House",
       "district": "16",
       "yes": 638,
-      "no": 4,
-      "other": 12,
+      "no": 5,
+      "other": 11,
       "total": 654,
-      "participation_pct": 98.2
+      "participation_pct": 98.3
     },
     {
       "id": "ocd-person/2ceeb021-8aee-405f-afd6-f53f0c3d0bb7",
@@ -204,8 +204,8 @@
       "party": "Democratic",
       "chamber": "House",
       "district": "17",
-      "yes": 648,
-      "no": 5,
+      "yes": 646,
+      "no": 7,
       "other": 1,
       "total": 654,
       "participation_pct": 99.8
@@ -216,11 +216,11 @@
       "party": "Democratic",
       "chamber": "House",
       "district": "18",
-      "yes": 581,
-      "no": 10,
-      "other": 63,
+      "yes": 576,
+      "no": 13,
+      "other": 65,
       "total": 654,
-      "participation_pct": 90.4
+      "participation_pct": 90.1
     },
     {
       "id": "ocd-person/80dfa709-d199-4950-a067-2dafc40241b9",
@@ -228,8 +228,8 @@
       "party": "Democratic",
       "chamber": "House",
       "district": "19",
-      "yes": 632,
-      "no": 7,
+      "yes": 631,
+      "no": 8,
       "other": 15,
       "total": 654,
       "participation_pct": 97.7
@@ -240,10 +240,10 @@
       "party": "Democratic",
       "chamber": "House",
       "district": "20",
-      "yes": 378,
-      "no": 3,
+      "yes": 375,
+      "no": 4,
       "other": 5,
-      "total": 386,
+      "total": 384,
       "participation_pct": 98.7
     },
     {
@@ -253,10 +253,10 @@
       "chamber": "House",
       "district": "21",
       "yes": 633,
-      "no": 9,
-      "other": 12,
+      "no": 11,
+      "other": 10,
       "total": 654,
-      "participation_pct": 98.2
+      "participation_pct": 98.5
     },
     {
       "id": "ocd-person/c9f1393e-01c8-4597-a6e5-6d43330264dc",
@@ -264,11 +264,11 @@
       "party": "Republican",
       "chamber": "House",
       "district": "22",
-      "yes": 545,
-      "no": 43,
-      "other": 66,
+      "yes": 548,
+      "no": 52,
+      "other": 54,
       "total": 654,
-      "participation_pct": 89.9
+      "participation_pct": 91.7
     },
     {
       "id": "ocd-person/1f51da39-f7e2-4489-9307-f2121e9e8adf",
@@ -276,8 +276,8 @@
       "party": "Democratic",
       "chamber": "House",
       "district": "23",
-      "yes": 641,
-      "no": 7,
+      "yes": 639,
+      "no": 9,
       "other": 6,
       "total": 654,
       "participation_pct": 99.1
@@ -289,10 +289,10 @@
       "chamber": "House",
       "district": "24",
       "yes": 647,
-      "no": 5,
-      "other": 2,
+      "no": 6,
+      "other": 1,
       "total": 654,
-      "participation_pct": 99.7
+      "participation_pct": 99.8
     },
     {
       "id": "ocd-person/d187436c-b3d3-4512-9172-b7a868942fe4",
@@ -300,8 +300,8 @@
       "party": "Democratic",
       "chamber": "House",
       "district": "25",
-      "yes": 641,
-      "no": 8,
+      "yes": 639,
+      "no": 10,
       "other": 5,
       "total": 654,
       "participation_pct": 99.2
@@ -312,11 +312,11 @@
       "party": "Democratic",
       "chamber": "House",
       "district": "26",
-      "yes": 620,
-      "no": 15,
-      "other": 19,
+      "yes": 615,
+      "no": 16,
+      "other": 23,
       "total": 654,
-      "participation_pct": 97.1
+      "participation_pct": 96.5
     },
     {
       "id": "ocd-person/bfab3b33-30ff-45fc-a45f-ae796d43de68",
@@ -324,11 +324,11 @@
       "party": "Democratic",
       "chamber": "House",
       "district": "27",
-      "yes": 626,
-      "no": 10,
-      "other": 18,
+      "yes": 622,
+      "no": 13,
+      "other": 19,
       "total": 654,
-      "participation_pct": 97.2
+      "participation_pct": 97.1
     },
     {
       "id": "ocd-person/35bf376a-ffc2-4468-b6ab-0ef72cc8d05b",
@@ -336,11 +336,11 @@
       "party": "Democratic",
       "chamber": "House",
       "district": "28",
-      "yes": 640,
-      "no": 7,
-      "other": 7,
+      "yes": 637,
+      "no": 8,
+      "other": 9,
       "total": 654,
-      "participation_pct": 98.9
+      "participation_pct": 98.6
     },
     {
       "id": "ocd-person/fccfb524-6aee-40a9-8469-081e961dd072",
@@ -348,8 +348,8 @@
       "party": "Democratic",
       "chamber": "House",
       "district": "29",
-      "yes": 630,
-      "no": 6,
+      "yes": 629,
+      "no": 7,
       "other": 18,
       "total": 654,
       "participation_pct": 97.2
@@ -360,11 +360,11 @@
       "party": "Republican",
       "chamber": "House",
       "district": "30",
-      "yes": 473,
-      "no": 85,
-      "other": 96,
+      "yes": 467,
+      "no": 89,
+      "other": 98,
       "total": 654,
-      "participation_pct": 85.3
+      "participation_pct": 85.0
     },
     {
       "id": "ocd-person/6fd6e720-822c-45ee-8fac-933b4eb9ccb5",
@@ -372,11 +372,11 @@
       "party": "Democratic",
       "chamber": "House",
       "district": "31",
-      "yes": 569,
-      "no": 16,
-      "other": 69,
+      "yes": 572,
+      "no": 19,
+      "other": 63,
       "total": 654,
-      "participation_pct": 89.4
+      "participation_pct": 90.4
     },
     {
       "id": "ocd-person/7ae371b6-0fd5-457a-af26-032432dd381b",
@@ -384,11 +384,11 @@
       "party": "Democratic",
       "chamber": "House",
       "district": "32",
-      "yes": 627,
-      "no": 7,
-      "other": 20,
+      "yes": 629,
+      "no": 8,
+      "other": 17,
       "total": 654,
-      "participation_pct": 96.9
+      "participation_pct": 97.4
     },
     {
       "id": "ocd-person/4f6f337c-16e7-4d39-a503-6b4b36650d2d",
@@ -396,11 +396,11 @@
       "party": "Republican",
       "chamber": "House",
       "district": "33",
-      "yes": 470,
-      "no": 82,
-      "other": 102,
+      "yes": 474,
+      "no": 85,
+      "other": 95,
       "total": 654,
-      "participation_pct": 84.4
+      "participation_pct": 85.5
     },
     {
       "id": "ocd-person/85f716aa-751a-4258-a68b-f6ed94b2daa0",
@@ -408,11 +408,11 @@
       "party": "Republican",
       "chamber": "House",
       "district": "34",
-      "yes": 520,
-      "no": 91,
-      "other": 43,
+      "yes": 521,
+      "no": 96,
+      "other": 37,
       "total": 654,
-      "participation_pct": 93.4
+      "participation_pct": 94.3
     },
     {
       "id": "ocd-person/4932afab-9381-40d2-837f-f735d1c14b88",
@@ -420,11 +420,11 @@
       "party": "Republican",
       "chamber": "House",
       "district": "35",
-      "yes": 462,
-      "no": 88,
-      "other": 104,
+      "yes": 472,
+      "no": 94,
+      "other": 88,
       "total": 654,
-      "participation_pct": 84.1
+      "participation_pct": 86.5
     },
     {
       "id": "ocd-person/11732933-9dce-46b4-8683-67e8449b315b",
@@ -432,8 +432,8 @@
       "party": "Republican",
       "chamber": "House",
       "district": "36",
-      "yes": 524,
-      "no": 108,
+      "yes": 521,
+      "no": 111,
       "other": 22,
       "total": 654,
       "participation_pct": 96.6
@@ -444,11 +444,11 @@
       "party": "Republican",
       "chamber": "House",
       "district": "37",
-      "yes": 551,
-      "no": 81,
-      "other": 22,
+      "yes": 546,
+      "no": 89,
+      "other": 19,
       "total": 654,
-      "participation_pct": 96.6
+      "participation_pct": 97.1
     },
     {
       "id": "ocd-person/5cd844e2-9346-40d9-a804-7531aa49ccd4",
@@ -456,8 +456,8 @@
       "party": "Republican",
       "chamber": "House",
       "district": "38",
-      "yes": 553,
-      "no": 88,
+      "yes": 548,
+      "no": 93,
       "other": 13,
       "total": 654,
       "participation_pct": 98.0
@@ -468,11 +468,11 @@
       "party": "Republican",
       "chamber": "House",
       "district": "39",
-      "yes": 510,
-      "no": 69,
-      "other": 75,
+      "yes": 521,
+      "no": 70,
+      "other": 63,
       "total": 654,
-      "participation_pct": 88.5
+      "participation_pct": 90.4
     },
     {
       "id": "ocd-person/101c752d-fbe4-471c-ae50-f2b1409a328f",
@@ -480,11 +480,11 @@
       "party": "Republican",
       "chamber": "House",
       "district": "40",
-      "yes": 519,
-      "no": 78,
-      "other": 57,
+      "yes": 521,
+      "no": 82,
+      "other": 51,
       "total": 654,
-      "participation_pct": 91.3
+      "participation_pct": 92.2
     },
     {
       "id": "ocd-person/26490cf5-c29c-485e-bdc5-1e340a4c10f6",
@@ -492,11 +492,11 @@
       "party": "Republican",
       "chamber": "House",
       "district": "41",
-      "yes": 520,
-      "no": 107,
-      "other": 27,
+      "yes": 510,
+      "no": 122,
+      "other": 22,
       "total": 654,
-      "participation_pct": 95.9
+      "participation_pct": 96.6
     },
     {
       "id": "ocd-person/2341b6b1-2501-4aae-908a-b83346da21eb",
@@ -504,11 +504,11 @@
       "party": "Democratic",
       "chamber": "Senate",
       "district": "1",
-      "yes": 946,
-      "no": 4,
-      "other": 32,
-      "total": 982,
-      "participation_pct": 96.7
+      "yes": 935,
+      "no": 5,
+      "other": 31,
+      "total": 971,
+      "participation_pct": 96.8
     },
     {
       "id": "ocd-person/8c5ff346-9896-489e-be96-db9d46d846da",
@@ -516,11 +516,11 @@
       "party": "Democratic",
       "chamber": "Senate",
       "district": "2",
-      "yes": 865,
-      "no": 10,
-      "other": 148,
-      "total": 1023,
-      "participation_pct": 85.5
+      "yes": 850,
+      "no": 12,
+      "other": 149,
+      "total": 1011,
+      "participation_pct": 85.3
     },
     {
       "id": "ocd-person/ca88dc3b-bbc6-4eb8-af32-9821268ebda5",
@@ -528,11 +528,11 @@
       "party": "Democratic",
       "chamber": "Senate",
       "district": "3",
-      "yes": 1008,
-      "no": 9,
-      "other": 6,
-      "total": 1023,
-      "participation_pct": 99.4
+      "yes": 996,
+      "no": 11,
+      "other": 4,
+      "total": 1011,
+      "participation_pct": 99.6
     },
     {
       "id": "ocd-person/e0bd9610-eafd-4e25-931a-6674762e4c03",
@@ -540,11 +540,11 @@
       "party": "Democratic",
       "chamber": "Senate",
       "district": "4",
-      "yes": 966,
-      "no": 5,
-      "other": 52,
-      "total": 1023,
-      "participation_pct": 94.9
+      "yes": 948,
+      "no": 7,
+      "other": 56,
+      "total": 1011,
+      "participation_pct": 94.5
     },
     {
       "id": "ocd-person/e841e17b-6ea1-4401-b3d3-9b99237b6366",
@@ -552,11 +552,11 @@
       "party": "Democratic",
       "chamber": "Senate",
       "district": "5",
-      "yes": 973,
-      "no": 5,
-      "other": 4,
-      "total": 982,
-      "participation_pct": 99.6
+      "yes": 962,
+      "no": 6,
+      "other": 3,
+      "total": 971,
+      "participation_pct": 99.7
     },
     {
       "id": "ocd-person/d96a4018-ca3f-40a6-a12c-cc38d757e9f0",
@@ -564,11 +564,11 @@
       "party": "Democratic",
       "chamber": "Senate",
       "district": "6",
-      "yes": 1014,
+      "yes": 1001,
       "no": 7,
-      "other": 2,
-      "total": 1023,
-      "participation_pct": 99.8
+      "other": 3,
+      "total": 1011,
+      "participation_pct": 99.7
     },
     {
       "id": "ocd-person/a42132e6-9070-44a4-81be-70797c4ea2bb",
@@ -576,11 +576,11 @@
       "party": "Democratic",
       "chamber": "Senate",
       "district": "7",
-      "yes": 980,
-      "no": 3,
-      "other": 40,
-      "total": 1023,
-      "participation_pct": 96.1
+      "yes": 966,
+      "no": 4,
+      "other": 41,
+      "total": 1011,
+      "participation_pct": 95.9
     },
     {
       "id": "ocd-person/25071aeb-2a5c-4e8b-b166-4a313b3ac22d",
@@ -588,11 +588,11 @@
       "party": "Democratic",
       "chamber": "Senate",
       "district": "8",
-      "yes": 1009,
-      "no": 5,
-      "other": 9,
-      "total": 1023,
-      "participation_pct": 99.1
+      "yes": 993,
+      "no": 6,
+      "other": 12,
+      "total": 1011,
+      "participation_pct": 98.8
     },
     {
       "id": "ocd-person/7188a518-8d78-42e8-b618-ee38a10d20a4",
@@ -600,10 +600,10 @@
       "party": "Democratic",
       "chamber": "Senate",
       "district": "9",
-      "yes": 975,
-      "no": 5,
-      "other": 43,
-      "total": 1023,
+      "yes": 963,
+      "no": 6,
+      "other": 42,
+      "total": 1011,
       "participation_pct": 95.8
     },
     {
@@ -612,10 +612,10 @@
       "party": "Democratic",
       "chamber": "Senate",
       "district": "10",
-      "yes": 1006,
-      "no": 6,
+      "yes": 993,
+      "no": 7,
       "other": 11,
-      "total": 1023,
+      "total": 1011,
       "participation_pct": 98.9
     },
     {
@@ -624,11 +624,11 @@
       "party": "Democratic",
       "chamber": "Senate",
       "district": "11",
-      "yes": 1004,
-      "no": 5,
-      "other": 14,
-      "total": 1023,
-      "participation_pct": 98.6
+      "yes": 993,
+      "no": 6,
+      "other": 12,
+      "total": 1011,
+      "participation_pct": 98.8
     },
     {
       "id": "ocd-person/5e54d79a-5ba8-4966-93aa-2e05788a3ddc",
@@ -636,11 +636,11 @@
       "party": "Democratic",
       "chamber": "Senate",
       "district": "12",
-      "yes": 969,
-      "no": 5,
-      "other": 49,
-      "total": 1023,
-      "participation_pct": 95.2
+      "yes": 957,
+      "no": 6,
+      "other": 48,
+      "total": 1011,
+      "participation_pct": 95.3
     },
     {
       "id": "ocd-person/eee736fd-ee29-403a-9bbc-713961c734b7",
@@ -648,11 +648,11 @@
       "party": "Democratic",
       "chamber": "Senate",
       "district": "13",
-      "yes": 990,
-      "no": 7,
+      "yes": 976,
+      "no": 9,
       "other": 26,
-      "total": 1023,
-      "participation_pct": 97.5
+      "total": 1011,
+      "participation_pct": 97.4
     },
     {
       "id": "ocd-person/b5a52e58-da64-49a2-85b2-84f55427fa83",
@@ -660,11 +660,11 @@
       "party": "Democratic",
       "chamber": "Senate",
       "district": "14",
-      "yes": 1008,
-      "no": 5,
-      "other": 10,
-      "total": 1023,
-      "participation_pct": 99.0
+      "yes": 992,
+      "no": 6,
+      "other": 13,
+      "total": 1011,
+      "participation_pct": 98.7
     },
     {
       "id": "ocd-person/44e38555-6698-43cb-aa8b-f47de87ba4e3",
@@ -672,11 +672,11 @@
       "party": "Republican",
       "chamber": "Senate",
       "district": "15",
-      "yes": 792,
-      "no": 65,
-      "other": 166,
-      "total": 1023,
-      "participation_pct": 83.8
+      "yes": 775,
+      "no": 68,
+      "other": 168,
+      "total": 1011,
+      "participation_pct": 83.4
     },
     {
       "id": "ocd-person/fb743246-9c86-45f5-95eb-34bc1e11bef1",
@@ -684,11 +684,11 @@
       "party": "Republican",
       "chamber": "Senate",
       "district": "16",
-      "yes": 902,
-      "no": 49,
-      "other": 72,
-      "total": 1023,
-      "participation_pct": 93.0
+      "yes": 890,
+      "no": 52,
+      "other": 69,
+      "total": 1011,
+      "participation_pct": 93.2
     },
     {
       "id": "ocd-person/89be0266-5ecf-40ac-9f5c-3dba2ce79a0d",
@@ -696,11 +696,11 @@
       "party": "Democratic",
       "chamber": "Senate",
       "district": "17",
-      "yes": 955,
-      "no": 4,
-      "other": 64,
-      "total": 1023,
-      "participation_pct": 93.7
+      "yes": 941,
+      "no": 5,
+      "other": 65,
+      "total": 1011,
+      "participation_pct": 93.6
     },
     {
       "id": "ocd-person/0b53dd28-648e-4fe1-a05a-36a21ec12e63",
@@ -708,11 +708,11 @@
       "party": "Republican",
       "chamber": "Senate",
       "district": "18",
-      "yes": 922,
+      "yes": 909,
       "no": 72,
-      "other": 29,
-      "total": 1023,
-      "participation_pct": 97.2
+      "other": 30,
+      "total": 1011,
+      "participation_pct": 97.0
     },
     {
       "id": "ocd-person/8b5f6201-6c2f-4847-8d69-737ae776c44b",
@@ -720,10 +720,10 @@
       "party": "Republican",
       "chamber": "Senate",
       "district": "19",
-      "yes": 931,
-      "no": 63,
-      "other": 29,
-      "total": 1023,
+      "yes": 918,
+      "no": 65,
+      "other": 28,
+      "total": 1011,
       "participation_pct": 97.2
     },
     {
@@ -732,11 +732,11 @@
       "party": "Republican",
       "chamber": "Senate",
       "district": "20",
-      "yes": 907,
-      "no": 70,
-      "other": 46,
-      "total": 1023,
-      "participation_pct": 95.5
+      "yes": 896,
+      "no": 72,
+      "other": 43,
+      "total": 1011,
+      "participation_pct": 95.7
     },
     {
       "id": "ocd-person/5a29dfb1-14b5-4535-b8ee-da8f432d0727",
@@ -744,11 +744,11 @@
       "party": "Republican",
       "chamber": "Senate",
       "district": "21",
-      "yes": 927,
-      "no": 73,
-      "other": 23,
-      "total": 1023,
-      "participation_pct": 97.8
+      "yes": 917,
+      "no": 74,
+      "other": 20,
+      "total": 1011,
+      "participation_pct": 98.0
     },
     {
       "id": "ocd-person/96f29b7f-bd5a-4a83-8ed0-7a5c6d3c6036",
