@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-21T15:48:57Z",
+  "generated_at": "2026-09-28T17:31:26Z",
   "fiscal_year": 2025,
   "scope": "place_of_performance=DE",
   "scope_note": "Money spent in Delaware (place of performance), not money to Delaware-based recipients.",
   "counts": {
-    "contracts": 5210,
-    "grants": 2517,
-    "direct_payments": 3471,
-    "loans": 983,
+    "contracts": 5211,
+    "grants": 2522,
+    "direct_payments": 3477,
+    "loans": 984,
     "idvs": 0,
-    "other": 597
+    "other": 613
   },
-  "total_awards": 12778,
+  "total_awards": 12807,
   "top_contracts": [
     {
       "recipient": "J D ECKMAN INC",
@@ -161,7 +161,7 @@
     },
     {
       "recipient": "DELAWARE VETERANS HOME",
-      "amount": 94867562.14,
+      "amount": 96095411.05,
       "agency": "Department of Veterans Affairs",
       "type": "FORMULA GRANT (A)"
     },
