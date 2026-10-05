@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-28T17:31:26Z",
-  "fiscal_year": 2025,
+  "generated_at": "2026-10-05T18:12:12Z",
+  "fiscal_year": 2026,
   "scope": "place_of_performance=DE",
   "scope_note": "Money spent in Delaware (place of performance), not money to Delaware-based recipients.",
   "counts": {
-    "contracts": 5211,
-    "grants": 2522,
-    "direct_payments": 3477,
-    "loans": 984,
+    "contracts": 3533,
+    "grants": 1938,
+    "direct_payments": 2983,
+    "loans": 815,
     "idvs": 0,
-    "other": 613
+    "other": 499
   },
-  "total_awards": 12807,
+  "total_awards": 9768,
   "top_contracts": [
     {
-      "recipient": "J D ECKMAN INC",
-      "amount": 46457531.16,
+      "recipient": "AGATE CONSTRUCTION COMPANY, INC.",
+      "amount": 53000000.0,
       "agency": "Department of Defense",
       "type": "\u2014"
     },
@@ -74,12 +74,6 @@
       "type": "\u2014"
     },
     {
-      "recipient": "SNA INTERNATIONAL LLC",
-      "amount": 17353983.87,
-      "agency": "Department of Defense",
-      "type": "\u2014"
-    },
-    {
       "recipient": "CMS CORPORATION",
       "amount": 16890449.68,
       "agency": "Department of Defense",
@@ -98,8 +92,14 @@
       "type": "\u2014"
     },
     {
-      "recipient": "FUTURE TECHNOLOGIES, INC.",
-      "amount": 13776186.03,
+      "recipient": "CAESAR RODNEY SCHOOL DISTRICT",
+      "amount": 15007444.4,
+      "agency": "Department of Defense",
+      "type": "\u2014"
+    },
+    {
+      "recipient": "CAESAR RODNEY SCHOOL DISTRICT",
+      "amount": 11977355.82,
       "agency": "Department of Defense",
       "type": "\u2014"
     }
@@ -107,19 +107,13 @@
   "top_grants": [
     {
       "recipient": "HEALTH AND SOCIAL SERVICES, DELAWARE DEPT OF",
-      "amount": 2142929662.0,
+      "amount": 2567423000.0,
       "agency": "Department of Health and Human Services",
       "type": "BLOCK GRANT (A)"
     },
     {
       "recipient": "HEALTH AND SOCIAL SERVICES, DELAWARE DEPT OF",
       "amount": 2139064534.0,
-      "agency": "Department of Health and Human Services",
-      "type": "BLOCK GRANT (A)"
-    },
-    {
-      "recipient": "HEALTH AND SOCIAL SERVICES, DELAWARE DEPT OF",
-      "amount": 1667356100.0,
       "agency": "Department of Health and Human Services",
       "type": "BLOCK GRANT (A)"
     },
@@ -142,10 +136,22 @@
       "type": "COOPERATIVE AGREEMENT (B)"
     },
     {
+      "recipient": "EXECUTIVE OFFICE OF THE GOVERNOR OF DELAWARE",
+      "amount": 157394963.86,
+      "agency": "Department of Health and Human Services",
+      "type": "COOPERATIVE AGREEMENT (B)"
+    },
+    {
       "recipient": "TRANSPORTATION, DELAWARE DEPARTMENT OF",
       "amount": 139481198.79,
       "agency": "Department of Transportation",
       "type": "FORMULA GRANT (A)"
+    },
+    {
+      "recipient": "HEALTH AND SOCIAL SERVICES, DELAWARE DEPT OF",
+      "amount": 121216818.0,
+      "agency": "Department of Health and Human Services",
+      "type": "BLOCK GRANT (A)"
     },
     {
       "recipient": "DELAWARE DEPARTMENT OF HEALTH AND SOCIAL SERVICES",
@@ -166,10 +172,10 @@
       "type": "FORMULA GRANT (A)"
     },
     {
-      "recipient": "HEALTH AND SOCIAL SERVICES, DELAWARE DEPT OF",
-      "amount": 91147398.0,
-      "agency": "Department of Health and Human Services",
-      "type": "BLOCK GRANT (A)"
+      "recipient": "DEPARTMENT OF EDUCATION DELAWARE",
+      "amount": 79398544.0,
+      "agency": "Department of Agriculture",
+      "type": "FORMULA GRANT (A)"
     },
     {
       "recipient": "DEPARTMENT OF EDUCATION DELAWARE",
@@ -188,12 +194,6 @@
       "amount": 70000000.0,
       "agency": "Department of Commerce",
       "type": "COOPERATIVE AGREEMENT (B)"
-    },
-    {
-      "recipient": "DELAWARE DEPARTMENT OF HEALTH & SOCIAL SERVICES",
-      "amount": 66752817.0,
-      "agency": "Department of Health and Human Services",
-      "type": "BLOCK GRANT (A)"
     }
   ],
   "source": {

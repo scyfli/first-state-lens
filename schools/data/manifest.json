@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-28T17:31:15Z",
+  "generated_at": "2026-10-05T18:11:57Z",
   "dashboard": "schools",
   "vintages": {
     "proficiency": "2026",
     "chronic_absenteeism": "2025",
     "enrollment": "2025",
-    "graduation": "2023"
+    "graduation": "2025"
   },
   "sources": {
     "name": "Delaware Report Card (data.delaware.gov / DOE)",

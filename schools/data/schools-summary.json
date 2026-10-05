@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-28T17:31:15Z",
+  "generated_at": "2026-10-05T18:11:57Z",
   "vintages": {
     "proficiency": "2026",
     "chronic_absenteeism": "2025",
     "enrollment": "2025",
-    "graduation": "2023"
+    "graduation": "2025"
   },
   "assessment": "Smarter Balanced Summative Assessment",
   "state": {
@@ -14,7 +14,7 @@
     "ela_proficient": 41.81,
     "math_proficient": 35.01,
     "chronic_absenteeism": 17.13,
-    "grad_rate": 88.9
+    "grad_rate": 91.3893
   },
   "districts": [
     {
@@ -42,7 +42,7 @@
       "ela_proficient": 53.9,
       "math_proficient": 46.25,
       "chronic_absenteeism": 14.08,
-      "grad_rate": 95.42
+      "grad_rate": 96.7066
     },
     {
       "districtcode": "69",
@@ -60,7 +60,7 @@
       "ela_proficient": 43.92,
       "math_proficient": 36.63,
       "chronic_absenteeism": 15.73,
-      "grad_rate": 90.86
+      "grad_rate": 93.5361
     },
     {
       "districtcode": "9615",
@@ -78,7 +78,7 @@
       "ela_proficient": 47.97,
       "math_proficient": 41.17,
       "chronic_absenteeism": 17.96,
-      "grad_rate": 89.34
+      "grad_rate": 95.2468
     },
     {
       "districtcode": "74",
@@ -96,7 +96,7 @@
       "ela_proficient": 59.73,
       "math_proficient": 53.36,
       "chronic_absenteeism": 15.6,
-      "grad_rate": 89.08
+      "grad_rate": 90.2748
     },
     {
       "districtcode": "13",
@@ -105,7 +105,7 @@
       "ela_proficient": 25.54,
       "math_proficient": 18.6,
       "chronic_absenteeism": 26.13,
-      "grad_rate": 88.11
+      "grad_rate": 88.6228
     },
     {
       "districtcode": "80",
@@ -123,7 +123,7 @@
       "ela_proficient": 35.85,
       "math_proficient": 29.26,
       "chronic_absenteeism": 19.87,
-      "grad_rate": 73.22
+      "grad_rate": 80.4598
     },
     {
       "districtcode": "34",
@@ -132,7 +132,7 @@
       "ela_proficient": 25.14,
       "math_proficient": 19.15,
       "chronic_absenteeism": 24.87,
-      "grad_rate": 83.33
+      "grad_rate": 89.3058
     },
     {
       "districtcode": "37",
@@ -141,7 +141,7 @@
       "ela_proficient": 38.96,
       "math_proficient": 27.79,
       "chronic_absenteeism": 22.03,
-      "grad_rate": 93.84
+      "grad_rate": 97.2678
     },
     {
       "districtcode": "9604",
@@ -222,7 +222,7 @@
       "ela_proficient": 39.95,
       "math_proficient": 37.44,
       "chronic_absenteeism": 20.2,
-      "grad_rate": 81.96
+      "grad_rate": 82.5849
     },
     {
       "districtcode": "82",
@@ -240,7 +240,7 @@
       "ela_proficient": 41.51,
       "math_proficient": 37.22,
       "chronic_absenteeism": 21.31,
-      "grad_rate": 90.36
+      "grad_rate": 92.3077
     },
     {
       "districtcode": "16",
@@ -249,7 +249,7 @@
       "ela_proficient": 28.27,
       "math_proficient": 21.83,
       "chronic_absenteeism": 18.74,
-      "grad_rate": 79.46
+      "grad_rate": 80.8081
     },
     {
       "districtcode": "18",
@@ -258,7 +258,7 @@
       "ela_proficient": 37.38,
       "math_proficient": 27.01,
       "chronic_absenteeism": 16.76,
-      "grad_rate": 83.77
+      "grad_rate": 88.0399
     },
     {
       "districtcode": "88",
@@ -276,7 +276,7 @@
       "ela_proficient": null,
       "math_proficient": null,
       "chronic_absenteeism": 9.35,
-      "grad_rate": 97.47
+      "grad_rate": 98.8235
     },
     {
       "districtcode": "89",
@@ -303,7 +303,7 @@
       "ela_proficient": null,
       "math_proficient": null,
       "chronic_absenteeism": 11.34,
-      "grad_rate": 98.08
+      "grad_rate": 97.9094
     },
     {
       "districtcode": "71",
@@ -330,7 +330,7 @@
       "ela_proficient": 40.08,
       "math_proficient": 33.1,
       "chronic_absenteeism": 16.85,
-      "grad_rate": 92.2
+      "grad_rate": 92.46
     },
     {
       "districtcode": "23",
@@ -339,7 +339,7 @@
       "ela_proficient": 40.13,
       "math_proficient": 33.85,
       "chronic_absenteeism": 8.73,
-      "grad_rate": 74.0
+      "grad_rate": 81.4978
     },
     {
       "districtcode": "24",
@@ -348,7 +348,7 @@
       "ela_proficient": 43.2,
       "math_proficient": 36.61,
       "chronic_absenteeism": 12.13,
-      "grad_rate": 93.39
+      "grad_rate": 94.5652
     },
     {
       "districtcode": "77",
@@ -375,7 +375,7 @@
       "ela_proficient": null,
       "math_proficient": null,
       "chronic_absenteeism": 6.25,
-      "grad_rate": 95.65
+      "grad_rate": null
     },
     {
       "districtcode": "35",
@@ -384,7 +384,7 @@
       "ela_proficient": 36.39,
       "math_proficient": 29.11,
       "chronic_absenteeism": 5.19,
-      "grad_rate": 87.57
+      "grad_rate": 91.8605
     }
   ],
   "source": {
