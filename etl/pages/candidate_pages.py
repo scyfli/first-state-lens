@@ -106,6 +106,7 @@ def head(title: str, desc: str, path: str, crumbs: list[tuple[str, str]]) -> str
     url = SITE + path
     bc = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
         {"@type": "ListItem", "position": i + 1, "name": n, "item": SITE + p} for i, (n, p) in enumerate(crumbs)]}
+    bc_json = json.dumps(bc, indent=2).replace("<", "\\u003c")  # no </script> breakout
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -138,7 +139,7 @@ def head(title: str, desc: str, path: str, crumbs: list[tuple[str, str]]) -> str
 <link rel="stylesheet" href="/assets/fsl.css" />
 {STYLE}
 <script type="application/ld+json">
-{json.dumps(bc, indent=2)}
+{bc_json}
 </script>
 </head>
 <body>

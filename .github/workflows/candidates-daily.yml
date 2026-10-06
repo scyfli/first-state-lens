@@ -74,7 +74,7 @@ jobs:
       - name: Independent PII check on everything under candidates/
         if: steps.window.outputs.run == 'true'
         run: |
-          if grep -r -n -i -E '\(?\b[0-9]{3}\)?[ .-]?[0-9]{3}[ .-]?[0-9]{4}\b|\bDE,? +19[0-9]{3}\b|Residential Address|Mailing Address|\bEmail\b|Phone #|PO Box|cdn-cgi/l/email-protection|[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}' candidates/ --include='*.html' --include='*.json'; then
+          if grep -r -n -i -E '\(?\b[0-9]{3}\)?[ .-]?[0-9]{3}[ .-]?[0-9]{4}\b|\bDE,? +19[0-9]{3}\b|Residential Address|Mailing Address|\bEmail\b|Phone #|PO Box|cdn-cgi/l/email-protection|%40|mailto:|tel:|wa\.me/|[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}' candidates/ --include='*.html' --include='*.json'; then
             echo "::error::Contact data found under candidates/; refusing to commit."
             exit 1
           fi

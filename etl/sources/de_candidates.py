@@ -30,9 +30,11 @@ import argparse
 import datetime
 import html as htmllib
 import json
+import os
 import re
 import sys
 import time
+import urllib.parse
 from pathlib import Path
 
 import requests
@@ -70,7 +72,8 @@ STATEWIDE_OFFICEHOLDERS = {
 SENATE_2024_DISTRICTS = [2, 3, 4, 6, 10, 11, 16, 17, 18, 21]
 
 PII_PATTERNS = [
-    re.compile(r"\(?\b\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}\b"),
+    re.compile(r"(?<!\d)(?:\+?1[\s.-]?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}(?!\d)"),
+    re.compile(r"mailto:|tel:|wa\.me/|api\.whatsapp\.com|t\.me/|%40", re.I),
     re.compile(r"\bDE,?\s+19\d{3}\b"),
     re.compile(r"\b\d+\s+[A-Za-z0-9. ]{2,40}\b(Street|St\.|Road|Rd\.|Avenue|Ave\.|Drive|Dr\.|Lane|Ln\.|Court|Ct\.|Boulevard|Blvd|Way|Circle|Place|Apt)\b", re.I),
     re.compile(r"\bEmail\b|\bPO Box\b|P\.O\. Box", re.I),
@@ -103,7 +106,7 @@ def fetch(url: str = SOURCE_URL, *, attempts: int = 4) -> str:
 
 
 def _cell(row: str, label: str) -> str:
-    m = re.search(r"data-label='" + re.escape(label) + r"'>(.*?)</td>", row, re.S)
+    m = re.search(r"data-label=[\"']" + re.escape(label) + r"[\"']\s*>(.*?)</td>", row, re.S)
     return m.group(1) if m else ""
 
 
@@ -150,7 +153,7 @@ def classify_office(office: str, county: str) -> dict:
         dm = re.search(r"District (\d+)$", rest)
         return {"id": f"{cslug}-{slug}", "level": "county", "path": f"/candidates/{cslug}/#{slug}",
                 "display": f"{cty} County {rest}", "district": int(dm.group(1)) if dm else None, "county": cty}
-    raise ValueError(f"Unrecognised office on the state list: {office!r} (county {county!r}). "
+    raise ValueError("Unrecognised office string on the state list. "
                      "Add it to classify_office rather than dropping it.")
 
 
@@ -160,28 +163,37 @@ def parse(html_text: str) -> tuple[list[dict], str | None]:
     body = re.search(r"<tbody>(.*?)</tbody>", html_text, re.S)
     if not body:
         raise RuntimeError("Candidate table body not found; the page layout changed.")
-    rows_html = re.findall(r"<tr data-county='[^']*'>(.*?)</tr>", body.group(1), re.S)
+    raw_rows = len(re.findall(r"<tr\b", body.group(1), re.I))
+    rows_html = re.findall(r"<tr\b[^>]*>(.*?)</tr>", body.group(1), re.S | re.I)
+    if len(rows_html) != raw_rows:
+        raise RuntimeError(f"{raw_rows} <tr> tags in the table body but {len(rows_html)} complete rows parsed; refusing.")
     out = []
-    for r in rows_html:
+    for idx, r in enumerate(rows_html, 1):
         office = _text(_cell(r, "Office"))
         county = _text(_cell(r, "County"))
         party_raw = _text(_cell(r, "Party"))
         cand_html = _cell(r, "Candidate")
-        name_m = re.search(r"class='main-span'[^>]*>(.*?)(?:<i\b|</span>)", cand_html, re.S)
+        name_m = re.search(r"class=[\"']main-span[\"'][^>]*>(.*?)(?:<i\b|</span>)", cand_html, re.S)
         name = _text(name_m.group(1)) if name_m else ""
         if len(name) > 80 or re.search(r"\d|:|address", name, re.I):
-            raise RuntimeError(f"Implausible candidate name parsed ({len(name)} chars); the cell layout changed. Refusing.")
+            raise RuntimeError(f"Row {idx}: implausible candidate name ({len(name)} chars); the cell layout changed. Refusing.")
         # Website: the only contact-cell field we keep. Everything else in the cell is dropped here.
-        web_m = re.search(r"Website:\s*<a href='(https?://[^'\s]+)'", cand_html)
-        website = web_m.group(1) if web_m else None
+        web_m = re.search(r"Website:\s*<a\s+href=([\"'])(.*?)\1", cand_html, re.S)
+        website = htmllib.unescape(web_m.group(2)).strip() if web_m else None
         if website is None and re.search(r"Website:", cand_html):
-            raise RuntimeError(f"State lists a website for {name!r} but it did not parse; refusing to publish a false 'Not listed'.")
+            raise RuntimeError(f"Row {idx}: the state lists a website but it did not parse; refusing to publish a false 'Not listed'.")
+        if website is not None:
+            decoded = urllib.parse.unquote(urllib.parse.unquote(website))
+            if not re.fullmatch(r"https?://[^\s\"'<>]+", website) or any(p.search(decoded) for p in PII_PATTERNS) or "@" in decoded:
+                raise RuntimeError(f"Row {idx}: campaign website is not a plain http(s) link or carries contact data; refusing.")
         status_raw = _text(_cell(r, "Status"))
         filed = _iso_date(_text(_cell(r, "Date Filed")))
         wd = re.search(r"WITHDRAWN\s+(\d{1,2}/\d{1,2}/\d{4})", r, re.I)
         status = "withdrawn" if status_raw.lower().startswith("withdrawn") or wd else ("qualified" if status_raw.lower() == "qualified" else status_raw.lower())
         if not name or not office:
-            raise RuntimeError(f"Row missing name or office: office={office!r}")
+            raise RuntimeError(f"Row {idx}: missing name or office; refusing.")
+        if party_raw not in PARTY_LABELS:
+            raise RuntimeError(f"Row {idx}: party cell empty or not a known party label; add it to PARTY_LABELS after review.")
         out.append({
             "office_source": office,
             "county_source": county,
@@ -243,6 +255,8 @@ def build(rows: list[dict], stamp: str | None, roster: dict) -> dict:
         race["current_holder"] = holder
         for cand in race["candidates"]:
             cand["incumbent"] = bool(holder and _last_name(cand["name"]) == _last_name(holder["name"]))
+        if sum(1 for c in race["candidates"] if c["incumbent"]) > 1:
+            raise RuntimeError(f"Race {rid}: more than one candidate matches the officeholder's surname; review before labelling.")
         qualified = [x for x in race["candidates"] if x["status"] == "qualified"]
         race["qualified_count"] = len(qualified)
         race["withdrawals"] = [{"name": x["name"], "withdrawn_on": x["withdrawn_on"]} for x in race["candidates"] if x["status"] == "withdrawn"]
@@ -277,7 +291,8 @@ def build(rows: list[dict], stamp: str | None, roster: dict) -> dict:
 
 
 def pii_gate(serialized: str) -> None:
-    hits = [p.pattern for p in PII_PATTERNS if p.search(serialized)]
+    variants = [serialized, htmllib.unescape(serialized), urllib.parse.unquote(urllib.parse.unquote(serialized))]
+    hits = sorted({p.pattern for p in PII_PATTERNS for v in variants if p.search(v)})
     if hits:
         raise RuntimeError(f"PII gate tripped ({hits}); refusing to write candidate data.")
 
@@ -318,10 +333,18 @@ def write(out_dir: Path, ballot: dict) -> bool:
     target = out_dir / OUT_BALLOT
     if target.exists():
         try:
-            if _content(json.loads(target.read_text(encoding="utf-8"))) == _content(ballot):
-                return False
+            prev = json.loads(target.read_text(encoding="utf-8"))
         except json.JSONDecodeError:
-            pass
+            prev = None
+        if prev is not None:
+            if _content(prev) == _content(ballot):
+                return False
+            now_keys = {(r["id"], c["name"]) for r in ballot["races"] for c in r["candidates"]}
+            gone = [(r["id"], c["name"]) for r in prev.get("races", []) for c in r.get("candidates", []) if (r["id"], c["name"]) not in now_keys]
+            if gone and os.environ.get("FSL_ALLOW_REMOVALS") != "1":
+                raise RuntimeError(f"{len(gone)} candidate(s) on the previous ballot are missing from this pull without a withdrawal "
+                                   "(races: " + ", ".join(sorted({g[0] for g in gone})) + "). Review the state list; rerun with "
+                                   "FSL_ALLOW_REMOVALS=1 only if the state really removed them.")
     now = _utc_now()
     doc = {**ballot, "generated_at": now}
     text = json.dumps(doc, indent=2, ensure_ascii=False) + "\n"

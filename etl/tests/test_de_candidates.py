@@ -172,14 +172,14 @@ def test_missing_stamp_fails(ballot):
 
 
 def test_unparsed_website_fails():
-    html_text = SHAPES.read_text(encoding="utf-8").replace("<a href='https://alpha.example.org'>", '<a href="https://alpha.example.org">')
+    html_text = SHAPES.read_text(encoding="utf-8").replace("Website: <a href='https://alpha.example.org'>https://alpha.example.org</a>", "Website: www.alpha.example.org")
     with pytest.raises(RuntimeError, match="website"):
         dc.parse(html_text)
 
 
 def test_name_absorbing_contact_block_fails():
     html_text = SHAPES.read_text(encoding="utf-8").replace("Test Candidate Alpha<i class", "Test Candidate Alpha Residential Address: 12 Main<i class")
-    with pytest.raises(RuntimeError, match="Implausible candidate name"):
+    with pytest.raises(RuntimeError, match="implausible candidate name"):
         dc.parse(html_text)
 
 
@@ -189,3 +189,84 @@ def test_withdrawn_incumbent_is_not_called_a_candidate():
             "candidates": [{"name": "Test Candidate Gamma", "status": "withdrawn", "withdrawn_on": "2026-08-03", "incumbent": True}]}
     out = cp.holder_block(race, "State House District 1")
     assert "withdrew from this race on August 3, 2026" in out and "is a candidate" not in out
+
+
+# --- Cato (codex gpt-6-astra) cross-vendor fixes, 2026-10-06 ------------------------
+
+FULL = FIXTURE.read_text(encoding="utf-8")
+
+
+def test_double_quoted_row_markup_still_parses():
+    alt = FULL.replace("<tr data-county='Statewide'>", '<tr data-county="Statewide">', 1).replace("data-label='Office'>U.S. Senator", 'data-label="Office">U.S. Senator', 1)
+    rows, _ = dc.parse(alt)
+    assert len(rows) == 128 and any(r["name"] == "Chris Coons" for r in rows)
+
+
+def test_a_row_the_parser_cannot_close_fails_loudly():
+    head, body = FULL.split("<tbody>", 1)
+    broken = head + "<tbody>" + body.replace("</tr>", "", 1)
+    with pytest.raises(RuntimeError, match="complete rows"):
+        dc.parse(broken)
+
+
+def test_candidate_vanishing_without_withdrawal_refuses_write(tmp_path, ballot):
+    import copy
+    assert dc.write(tmp_path, ballot) is True
+    b = copy.deepcopy(ballot)
+    sen = next(r for r in b["races"] if r["id"] == "us-senate")
+    sen["candidates"] = [c for c in sen["candidates"] if c["name"] != "Chris Coons"]
+    with pytest.raises(RuntimeError, match="missing from this pull"):
+        dc.write(tmp_path, b)
+
+
+@pytest.mark.parametrize("site", ["https://example.org/?contact=person%40example.org", "https://wa.me/13025550100",
+                                  "mailto:someone@example.org", "javascript:alert(1)", "https://x.example/tel:3025550100"])
+def test_contact_data_in_website_field_is_refused(site):
+    html_text = SHAPES.read_text(encoding="utf-8").replace("https://alpha.example.org'>https://alpha.example.org", site + "'>" + site)
+    with pytest.raises(RuntimeError, match="website"):
+        dc.parse(html_text)
+
+
+def test_html_entities_in_website_are_decoded():
+    html_text = SHAPES.read_text(encoding="utf-8").replace("https://alpha.example.org'>", "https://alpha.example.org/?a=1&amp;b=2'>")
+    rows, _ = dc.parse(html_text)
+    assert rows[0]["website"] == "https://alpha.example.org/?a=1&b=2"
+
+
+@pytest.mark.parametrize("leak", ["+1 302 555 0100", "13025550100", "person%40example.org", "wa.me/13025550100"])
+def test_pii_gate_catches_encoded_and_international(leak):
+    with pytest.raises(RuntimeError):
+        dc.pii_gate(json.dumps({"x": leak}))
+
+
+def test_unknown_or_empty_party_fails():
+    with pytest.raises(RuntimeError, match="party"):
+        dc.parse(SHAPES.read_text(encoding="utf-8").replace("data-label='Party'>Democratic", "data-label='Party'>", 1))
+
+
+def test_error_messages_never_echo_source_text():
+    try:
+        dc.parse(SHAPES.read_text(encoding="utf-8").replace("Test Candidate Alpha<i class", "Test Candidate Alpha jane@example.org Address: 12 Main<i class"))
+    except RuntimeError as exc:
+        assert "jane" not in str(exc) and "Main" not in str(exc)
+    else:
+        raise AssertionError("expected a refusal")
+
+
+def test_two_surname_matches_refuse_the_label(parsed):
+    rows, stamp = parsed
+    roster = {("House", 1): {"name": "Test Smith", "party": "Democratic"}}
+    import copy
+    rs = copy.deepcopy(rows)
+    for r in rs:
+        if r["office_source"] == "State Representative District 1":
+            r["name"] = "Pat Smith"
+    with pytest.raises(RuntimeError, match="more than one candidate"):
+        dc.build(rs, stamp, roster)
+
+
+def test_jsonld_cannot_break_out_of_script():
+    from etl.pages import candidate_pages as cp
+    out = cp.head("t", "d", "/x/", [("Home", "/"), ("</script><script>alert(1)</script>", "/x/")])
+    block = out.split('<script type="application/ld+json">', 1)[1].split("</script>", 1)[0]
+    assert "<" not in block
