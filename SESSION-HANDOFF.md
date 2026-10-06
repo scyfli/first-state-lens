@@ -6,6 +6,28 @@
 
 ---
 
+## 2026-10-05: Election expansion begins (LATEST)
+
+**Commits:** `fa4b427` House fix, `e062035` /vote/ + banner, `e791bc0` homepage banner styling. All on `main`, pushed. a11y CI PASS on all 16 routes (run on `e791bc0`).
+
+**Shipped and live-verified (real Chrome, production):**
+- **/candidates/us-house/ corrected.** It said McBride was the only candidate. Joseph "Dr. Joe" Arminio (R) has been Qualified since filing 7/14/2026; he is added with identical fields. Lee Murphy (R) withdrew 7/21 (noted). FEC totals for all three refreshed to 2026-08-26.
+- **/vote/ How to Vote in Delaware 2026.** Dates come from the Department of Elections 2026 Election Calendar PDF, absentee reasons from the state application (15 Del. C. § 5502), ID rules from the Department's photo ID notice, and registration from votereg.html. The Department's WAF blocks /elections/general/general.html for scripted requests; the other pages and the PDFs are readable.
+- **Dated deadline banner.** `assets/election-banner.js` is a pure `bannerFor(iso, hour)`, pinned by `scripts/election-banner.test.ts` (10 tests, every hour Oct 5 to Nov 5), and hides after Nov 5. It runs on /, /vote/, /candidates/, /candidates/us-house/ and /campaign-finance/. **Gotcha: the homepage does NOT load assets/fsl.css**, so its banner CSS is duplicated inline in index.html. The first push failed a11y contrast for exactly this reason.
+- The a11y ROUTES now include /vote/, /candidates/, /candidates/us-house/ and /candidates/method/. All pass.
+
+**Plan + decisions:** `~/.claude/PAI/MEMORY/WORK/20261005-fsl-expansion-ideate/BUILD-PLAN.md` (Desktop mirror `TrazynOutPut/2026-10-05_fsl-expansion-ideate/`). Mark decided:
+- Not attending ZipCode, so the full slate goes ahead.
+- Public-role candidate fields only (no addresses or phones).
+- Certified results the day after the election.
+- Thin records for state and county races; full records for the 5 statewide/federal races.
+- Restaurant inspections published raw and dated.
+- A FOIA draft for New Castle and Sussex reassessment data (`REASSESSMENT-RECORDS-REQUEST.md` on the Desktop; Mark sends it).
+
+**NEXT: Wave 2, ship by Fri Oct 16.** Build the full-ballot puller (state candidate list, public-role fields only, a grep gate for address/phone), then static per-district pages, then the address-lookup Worker (Census geocoder, no logs). Lead for Wave 3b: the state publishes `/candidates/campaignfinance/non_filers.html` and `cf_picfailedtofile.html`, which may answer filing status without scraping CFRS. The 30-day general report is due Oct 6.
+
+---
+
 ## 2026-08-25 — Reassessment (Kent): the 8th & FINAL dashboard (LATEST · LIVE + PUBLIC · SUITE COMPLETE)
 
 **Commit:** `d25845b` on `main`, pushed to `scyfli/first-state-lens`. Tree clean, 0 ahead. (Two commits this session: `6e33a03` build + `d25845b` Forge-hardening, rebased over 5 remote `refresh-all` weekly-cron data commits — the cron is working.)
