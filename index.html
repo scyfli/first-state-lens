@@ -376,6 +376,13 @@
       transition-duration: 0.01ms !important;
     }
   }
+  /* 2026 election deadline banner (assets/election-banner.js); mirrors assets/fsl.css,
+     which this page does not load. */
+  .deadline-banner { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; border: 1px solid rgba(251,191,36,0.35); background: rgba(251,191,36,0.07); border-radius: 10px; padding: 12px 16px; margin: 0 0 28px; font-size: 14px; color: var(--text-primary); max-width: 980px; }
+  .deadline-banner[hidden] { display: none; }
+  .deadline-banner .db-label { font-family: "JetBrains Mono", monospace; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--amber-400); }
+  .deadline-banner .db-text { flex: 1 1 320px; line-height: 1.5; }
+  .deadline-banner a { color: var(--amber-400); font-weight: 600; white-space: nowrap; }
 </style>
 <script type="application/ld+json">
 {
