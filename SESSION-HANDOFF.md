@@ -6,6 +6,48 @@
 
 ---
 
+## ▶ RESUME HERE (written 2026-10-06, for the 2026-10-07 session)
+
+**Read first:** `docs/UPGRADE-PLAN.md` (scope + builder rules), then the 2026-10-06 section below.
+
+**Commit:** see the header of the latest handoff commit on `main` (pushed; tree clean; 0 ahead / 0 behind at handoff). Tests at handoff:
+- `python3 -m pytest etl/tests/test_de_candidates.py -q`: 48 passed
+- `bun test worker/`: 23 passed
+- `bun test scripts/election-banner.test.ts`: 10 passed
+- a11y CI: success on `b9dabcf`
+- daily ballot job: success, run 37407665023
+
+**In flight:** nothing half-built. Everything shipped is live and verified on production.
+
+**Automations running unattended until you return:**
+- `candidates-daily.yml` at 11:00 UTC: ballot refresh. It commits only on change and stops itself after 2026-11-04.
+- `refresh-all.yml`, Mondays 09:00 UTC.
+- The deadline banner changes its message by date and hour on its own.
+
+**Next action (in order):**
+1. **Mark's calls.**
+   - (a) Platform rate limit on `/api/districts`. Pricing is unpublished, so this is a spend decision.
+   - (b) The Census key, for the Y6 childcare refresh.
+   - (c) Send the New Castle County and Sussex FOIA drafts (Desktop `TrazynOutPut/2026-10-05_fsl-expansion-ideate/REASSESSMENT-RECORDS-REQUEST.md`).
+2. **E3, last result per seat, due Wed Oct 21.**
+   - Parse the Department of Elections results archive for 2024 State House and 2022 for the Senate seats up now.
+   - Raw counts only, no margin labels.
+   - Time-box the parser to 2 hours; if it isn't clean, ship statewide-only.
+   - The official result pages under `elections.delaware.gov/reports/GE2022.html` and `GE2024.html` are large HTML tables. The research agent read them through a converter, so parse the raw HTML.
+3. **Owed checks.**
+   - FU-E1B-AUDIT: cross-vendor audit of the E1b record content.
+   - Phone-width browser check of `/candidates/us-senate/` and `/candidates/auditor/`. The shared Interceptor browser stopped answering `eval` at handoff, so run `bash ~/.claude/PAI/TOOLS/Scrape/interceptor-up.sh --status` first.
+4. **E5, certified results, Nov 5-6.** Then the year-round list in `docs/UPGRADE-PLAN.md` §A5, in order.
+
+**Rollback envelope:** every change this session is additive and individually revertible on `main`.
+- E2 lookup: `git revert 661d058 3c6b83b`. This also needs the `main` and `assets.run_worker_first` lines removed from `wrangler.jsonc`, which the revert does. The site falls back to static assets only.
+- E1b records: `git revert f45700a`. The pages return to thin records.
+- Cato hardening: `git revert 423a0c2`. Not recommended.
+- Daily job: disable `candidates-daily.yml` in GitHub Actions.
+- Cloudflare: `bunx wrangler rollback` to the previous version (`8f03c7ab…`, 2026-09-28).
+
+---
+
 ## 2026-10-06: E2 lookup + E1b statewide records LIVE; Cato fixes; E4 dropped (LATEST)
 
 **Commits on main, all pushed:** `423a0c2` (Cato fixes to the E1 puller), `3c6b83b` and `661d058` (E2 lookup), `e2f80f6` (E4 decision), `f45700a` (E1b records), `b9dabcf` (a11y CI triggers). The a11y CI passes on `b9dabcf`. The daily job was verified twice, most recently in run 37407665023: tests pass, the PII grep is clean, and it regenerates byte-identical output.
