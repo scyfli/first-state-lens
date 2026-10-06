@@ -140,6 +140,9 @@ After the Boards of Canvass certify on Nov 5, publish per-race certified results
 | 2026-10-05 | Address-lookup Worker with no logs; static per-district pages; one-hour E4 probe | Trazyn (reversible) |
 | 2026-10-06 | **E4 dropped.** CFRS (cfrs.elections.delaware.gov) lists filed reports only through a session-bound legacy search grid (ASP.NET + Telerik, `ViewReportsList` needs server-side search state); there is no stable public feed. A missed scrape would publish a false "not on file" about a named candidate. State-office pages link to the CFRS public search instead. `non_filers.html` is a formal 15 Del. C. § 8044(i) penalty list, not per-report status, and is not republished. | Trazyn (per the E4 rule) |
 | 2026-10-06 | Cato cross-vendor audit of E1 (codex gpt-6-astra): 2 HIGH + 3 MEDIUM, all fixed in `423a0c2` | Trazyn |
+| 2026-10-06 | E2 shipped with the Forge/codex review folded (`661d058`): ZIP-only lookups answered from a bundled ZCTA overlap table (`worker/data/zip-districts.json`, rebuild via `worker/tools/zip_districts.py`); county district computed in the Worker with a 30 m near-line refusal; no coordinates returned. Platform rate limiting (Workers rate-limit binding or a WAF rule) NOT added: pricing unpublished, so it is Mark's call; the Worker has a best-effort per-isolate throttle and requires a same-site Origin. | Trazyn |
+| 2026-10-06 | E1b shipped (`f45700a`): statewide full records rendered statically by the generator from `candidates/data/records/*.json` + FEC totals. Biographies limited to offices held on official pages; campaign self-descriptions excluded as not public records. | Trazyn |
+| 2026-10-06 | a11y CI now triggers on candidates/, vote/, campaign-finance/, reassessment/ (`b9dabcf`); they had only been audited incidentally. | Trazyn |
 
 ---
 

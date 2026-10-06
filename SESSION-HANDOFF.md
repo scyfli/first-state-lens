@@ -6,6 +6,37 @@
 
 ---
 
+## 2026-10-06: E2 lookup + E1b statewide records LIVE; Cato fixes; E4 dropped (LATEST)
+
+**Commits on main, all pushed:** `423a0c2` (Cato fixes to the E1 puller), `3c6b83b` and `661d058` (E2 lookup), `e2f80f6` (E4 decision), `f45700a` (E1b records), `b9dabcf` (a11y CI triggers). The a11y CI passes on `b9dabcf`. The daily job was verified twice, most recently in run 37407665023: tests pass, the PII grep is clean, and it regenerates byte-identical output.
+
+**E2 "Find your 2026 ballot"** lives on `/candidates/`.
+- `worker/index.js` serves POST `/api/districts`. `wrangler.jsonc` now has `main` and runs the Worker first only for `/api/*`.
+- Street address: the Census geocoder returns SD, HD and county. The Worker then runs point-in-polygon against FirstMap county districts (`worker/data/county-districts.json`), with a 30 m near-line refusal.
+- ZIP: answered from the bundled table (`worker/data/zip-districts.json`, 68 ZIPs).
+- Requires a same-site Origin, a JSON body of 2 KB or less, and a best-effort throttle. Logs, invocation logs and traces are explicitly off.
+- Read-back on the deployed script: observability null, logpush false, no tail consumers.
+- `DEV_ORIGIN` exists for local testing only: `wrangler dev --var DEV_ORIGIN:http://127.0.0.1:8787`.
+- 23 worker tests: `bun test worker/`.
+
+**E1b** adds full records on `/candidates/{us-senate,attorney-general,state-treasurer,auditor}/`.
+- The data is `candidates/data/records/*.json`, rendered statically by `etl/pages/candidate_pages.py`. U.S. Senate finance comes from `campaign-finance/data` (FEC).
+- Every vote and quote was re-verified against its source. Research raw data and my checker are in the job tmp folder and are not committed.
+
+**OWED / Mark's calls:**
+- (1) Platform rate limit on `/api/districts` (Workers rate-limit binding or a WAF rule). Pricing is unpublished, so this is a spend call.
+- (2) FU-E1B-AUDIT: a cross-vendor audit of the E1b record content.
+- (3) Phone-width browser check of the record pages. The shared browser was unresponsive.
+- (4) Account-level Logpush jobs are unverified (token permission).
+- (5) U.S. House remains hand-built, and its FEC totals are from 2026-08-26.
+
+**NEXT:**
+- E3, last result per seat, by Oct 21. Time-box the results-archive parser to 2 hours.
+- E5, certified results, Nov 5-6.
+- Then the year-round list, in order: Office Registry, water rebuild, school pages, My Delaware, bill tracker, childcare (Census key), inspections, road safety, contracts, NCC/Sussex reassessment (FOIA).
+
+---
+
 ## 2026-10-05 (late): E1 full 2026 ballot LIVE (LATEST)
 
 **Commits:** `c82e366` (docs/UPGRADE-PLAN.md, the full scope and builder instructions; read it first), `897595b` (E1). Pushed to `main`. The a11y CI passes on `897595b`. The daily workflow was verified by manual dispatch, run 37404861006: success, 0 changes.
