@@ -6,6 +6,47 @@
 
 ---
 
+## 2026-10-05 (late): E1 full 2026 ballot LIVE (LATEST)
+
+**Commits:** `c82e366` (docs/UPGRADE-PLAN.md, the full scope and builder instructions; read it first), `897595b` (E1). Pushed to `main`. The a11y CI passes on `897595b`. The daily workflow was verified by manual dispatch, run 37404861006: success, 0 changes.
+
+**Live:**
+- `/candidates/` lists every race: 124 qualified candidates across 77 races.
+- 69 static race pages:
+  - statewide: `/candidates/{us-senate,attorney-general,state-treasurer,auditor}/`
+  - `/candidates/state-senate/district-1..21/`. The 10 districts not on the 2026 ballot state the 2024/2028 cycle, with both state lists as sources.
+  - `/candidates/state-house/district-1..41/`
+  - `/candidates/{new-castle,kent,sussex}-county/`
+- Public-role fields only.
+- Checks run on production: all 72 sitemap ballot URLs return 200, a live PII grep is clean, names are present without JS, and six pages were checked in real Chrome.
+
+**How it works:**
+- `etl/sources/de_candidates.py` handles parsing, the PII gate and the guards.
+- `etl/pages/candidate_pages.py` generates the pages. It rewrites `candidates/index.html` and `sitemap.xml` only between the `BALLOT:START`/`BALLOT:END` markers, and never touches `/candidates/us-house/`.
+- `.github/workflows/candidates-daily.yml` runs at 11:00 UTC. Scheduled runs stop after 2026-11-04.
+- **Do not put the generator under any `build/` folder**: `.gitignore` ignores `build/`, which is why it lives in `etl/pages/`.
+- Fixtures: `de_candidates_2026-10-05.html` (redacted) and `de_candidates_shapes.html` (synthetic). **Never commit a raw copy of the state page.** It carries candidates' home addresses and phones.
+
+**Forge review folded:** no CRITICAL or HIGH findings. Fixed:
+- M1: a withdrawn incumbent is never called a candidate.
+- M2 to M4: unknown status, missing filed date, unparsed website and an incomplete Senate set all raise.
+- M5: stronger PII patterns plus a name sanity check.
+- L6, L7, L10 to L12, L14.
+
+**OWED:**
+- FU-E1-AUDIT: a true cross-vendor (codex) audit. Forge reviewed in-session, not through GPT.
+- L8: `/candidates/us-house/` is hand-built and not refreshed by the daily job. Re-check it by hand when the state list changes for that race.
+- L13: incumbent match is last name only (no false positives today).
+- Daily commits from `GITHUB_TOKEN` do not trigger a11y CI (same as refresh-all).
+
+**NEXT:**
+- E1b by Wed Oct 14: full records for U.S. Senate, AG, Treasurer, Auditor.
+- E2 by Fri Oct 16: address lookup Worker.
+- E3 and E4 by Oct 21.
+- Mark brings the Census key 2026-10-06 (Y6 childcare refresh).
+
+---
+
 ## 2026-10-05: Election expansion begins (LATEST)
 
 **Commits:** `fa4b427` House fix, `e062035` /vote/ + banner, `e791bc0` homepage banner styling. All on `main`, pushed. a11y CI PASS on all 16 routes (run on `e791bc0`).
