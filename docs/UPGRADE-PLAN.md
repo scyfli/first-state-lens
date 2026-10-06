@@ -138,6 +138,8 @@ After the Boards of Canvass certify on Nov 5, publish per-race certified results
 | 2026-10-05 | FOIA route for New Castle and Sussex reassessment | Mark |
 | 2026-10-05 | All Part A pages approved, with year-round work after the election pages | Mark |
 | 2026-10-05 | Address-lookup Worker with no logs; static per-district pages; one-hour E4 probe | Trazyn (reversible) |
+| 2026-10-06 | **E4 dropped.** CFRS (cfrs.elections.delaware.gov) lists filed reports only through a session-bound legacy search grid (ASP.NET + Telerik, `ViewReportsList` needs server-side search state); there is no stable public feed. A missed scrape would publish a false "not on file" about a named candidate. State-office pages link to the CFRS public search instead. `non_filers.html` is a formal 15 Del. C. § 8044(i) penalty list, not per-report status, and is not republished. | Trazyn (per the E4 rule) |
+| 2026-10-06 | Cato cross-vendor audit of E1 (codex gpt-6-astra): 2 HIGH + 3 MEDIUM, all fixed in `423a0c2` | Trazyn |
 
 ---
 
