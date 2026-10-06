@@ -15,7 +15,7 @@
   "name": "first-state-lens",
   "main": "worker/index.js",
   "compatibility_date": "2026-05-11",
-  "observability": { "enabled": false },
+  "observability": { "enabled": false, "logs": { "enabled": false, "invocation_logs": false }, "traces": { "enabled": false } },
   "assets": {
     "directory": "./",
     "binding": "ASSETS",
