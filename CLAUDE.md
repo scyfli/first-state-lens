@@ -1,5 +1,7 @@
 # CLAUDE.md — first-state-lens (public dashboard frontend)
 
+> **Read `docs/UPGRADE-PLAN.md` first (2026-10-05).** It is the current scope and builder instructions and it overrides this file where they conflict. In particular, the site is public and indexed (only `/clean-slate/` stays noindexed), and an approved Cloudflare Worker is being added for the address lookup.
+
 > Public frontend repo for First State Lens dashboards. The analytical CMS, methodology source-of-truth, briefs, and source registry live in a separate **private** vault repo (`scyfli/first-state-lens-vault`). That repo's CLAUDE.md is the master operating agreement; this file is the deploy-and-frontend addendum.
 
 ## Where the audit trail lives
