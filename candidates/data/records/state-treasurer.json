@@ -1,0 +1,38 @@
+{
+  "office_id": "state-treasurer",
+  "checked": "October 6, 2026",
+  "method_version": "1.0",
+  "note": "Every fact, vote and quote was re-fetched from its source and matched before publishing (2026-10-06). Positions are dated, verbatim statements from the candidate's official office or campaign. Fields with no sourced item state the absence.",
+  "candidates": {
+    "Ted Lauzen": {
+      "legislative_record": {
+        "status": "absent",
+        "label": "Legislative record",
+        "absent_reason": "No legislative voting record on file."
+      },
+      "positions": [
+        {
+          "topic": "Stewardship of state finances",
+          "quote": "Together, we will protect our financial foundation, build a stronger future, and improve the lives of working families.",
+          "date": "2026-08-06",
+          "context": "Campaign press release (PDF dated Thursday, August 6, 2026) announcing the Delaware Democratic Party's unanimous endorsement.",
+          "source": "https://tedlauzen.com/wp-content/uploads/2026/08/Delaware-Democratic-Party-Unanimously-Endorses-Ted-Lauzen-for-State-Treasurer-For-Immediate-Release-August-6-2026.pdf"
+        }
+      ]
+    },
+    "Michael Ramone": {
+      "biography": [
+        {
+          "fact": "State Representative for Delaware House District 21, 2008 to 2024, and House Minority Leader.",
+          "source": "https://legis.delaware.gov/LegislatorDetail?personId=243"
+        }
+      ],
+      "legislative_record": {
+        "status": "link",
+        "label": "Legislative record",
+        "text": "Served in the Delaware House of Representatives (District 21) from 2008 to 2024. His former-member page is on the General Assembly site; First State Lens does not yet carry roll-call records from those sessions.",
+        "source": "https://legis.delaware.gov/LegislatorDetail?personId=243"
+      }
+    }
+  }
+}

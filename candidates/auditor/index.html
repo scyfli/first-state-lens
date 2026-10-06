@@ -48,6 +48,18 @@
   .note { background: var(--surface-elevated); border: 1px solid var(--border-default); border-radius: 14px; padding: 18px 20px; max-width: 980px; font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
   .src { font-size: 12px; color: var(--text-tertiary); margin-top: 10px; }
   .src a { color: var(--text-tertiary); }
+  .rec { background: var(--surface-elevated); border: 1px solid var(--border-default); border-radius: 14px; padding: 18px 22px; margin: 14px 0; max-width: 980px; }
+  .rec-name { font-family: 'Space Grotesk', sans-serif; font-size: 18px; color: var(--text-primary); }
+  .rec-party { font-size: 13px; color: var(--text-tertiary); margin: 2px 0 8px; }
+  .rec h4 { font-size: 12px; font-family: 'JetBrains Mono', monospace; letter-spacing: .1em; text-transform: uppercase; color: var(--text-tertiary); margin: 14px 0 6px; font-weight: 500; }
+  .rec p, .rec li { font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
+  .rec ul { margin-left: 20px; }
+  .rec a { color: var(--text-primary); }
+  .rec .absent { font-style: italic; color: var(--text-tertiary); }
+  .rec blockquote { border-left: 3px solid var(--violet-400); padding: 4px 0 4px 14px; margin: 8px 0; }
+  .rec blockquote p { color: var(--text-primary); }
+  .rec blockquote footer { font-size: 12px; color: var(--text-tertiary); margin-top: 4px; }
+  .rc th[scope=row] { font-weight: 500; color: var(--text-primary); }
   .pager { display: flex; gap: 16px; flex-wrap: wrap; font-size: 14px; margin-top: 8px; }
   .pager a { color: var(--text-secondary); }
   @media (max-width: 640px) {
@@ -152,6 +164,48 @@
     </table>
     <p class="fact">3 qualified candidates are listed for this office.</p>
     <p class="src">Source: <a href="https://elections.delaware.gov/candidates/candidatelist/genl_fcddt_2026.html">Delaware Department of Elections, Filed Candidates by Office</a>, checked against the Department of Elections list as updated October 5, 2026, at 7:56 p.m.</p>
+  </section>
+
+  <section class="section" aria-labelledby="record-title">
+    <div class="section-head"><h2 class="section-title" id="record-title">The record, candidate by candidate</h2><span class="section-meta">CHECKED OCTOBER 6, 2026</span></div>
+    <p class="fact">The same fields for every candidate, in ballot order, each linked to its primary source. Where a field is empty, it says so. <a href="/candidates/method/">How the record works.</a></p>
+    <article class="rec" aria-labelledby="rec-lydia-york">
+      <h3 class="rec-name" id="rec-lydia-york">Lydia York <span class="badge">Incumbent</span></h3>
+      <p class="rec-party">Democratic</p>
+      <h4>Background</h4>
+      <ul><li>Began her term as State Auditor on January 3, 2023. <a href="https://auditor.delaware.gov/about-the-auditor/" rel="noopener">Source ↗</a></li></ul>
+      <h4>Legislative record</h4>
+      <p class="absent">No legislative voting record on file.</p>
+      <h4>Campaign finance</h4>
+      <p>State campaign finance reports for this office are filed with the Delaware Department of Elections. Search them by committee name in the state system. <a href="https://cfrs.elections.delaware.gov/Public/ViewFiledReportsMain" rel="noopener">Delaware CFRS ↗</a></p>
+      <h4>Public positions, in their own words</h4>
+      <blockquote><p>Delawareans made their voices clear: they wanted more transparency and accountability from their government.</p><footer>Government transparency and accountability · April 20, 2026 · Campaign press release announcing her re-election filing. · <a href="https://lydiayork.com/delaware-state-auditor-democrat-lydia-e-york-files-for-re-election/" rel="noopener">Source ↗</a></footer></blockquote>
+      <blockquote><p>We never shy away from clearly stating when our State government needs to serve us better.</p><footer>Role of the Auditor&#x27;s Office · April 20, 2026 · Same re-election filing press release. · <a href="https://lydiayork.com/delaware-state-auditor-democrat-lydia-e-york-files-for-re-election/" rel="noopener">Source ↗</a></footer></blockquote>
+    </article>
+    <article class="rec" aria-labelledby="rec-april-callaway">
+      <h3 class="rec-name" id="rec-april-callaway">April Callaway</h3>
+      <p class="rec-party">Republican</p>
+      <h4>Background</h4>
+      <p class="absent">No sourced biographical facts on file beyond the filing above.</p>
+      <h4>Legislative record</h4>
+      <p class="absent">No legislative voting record on file.</p>
+      <h4>Campaign finance</h4>
+      <p>State campaign finance reports for this office are filed with the Delaware Department of Elections. Search them by committee name in the state system. <a href="https://cfrs.elections.delaware.gov/Public/ViewFiledReportsMain" rel="noopener">Delaware CFRS ↗</a></p>
+      <h4>Public positions, in their own words</h4>
+      <p class="absent">No verbatim, dated public statement on file yet.</p>
+    </article>
+    <article class="rec" aria-labelledby="rec-austin-cassidy">
+      <h3 class="rec-name" id="rec-austin-cassidy">Austin Cassidy</h3>
+      <p class="rec-party">Independent Party of Delaware</p>
+      <h4>Background</h4>
+      <p class="absent">No sourced biographical facts on file beyond the filing above.</p>
+      <h4>Legislative record</h4>
+      <p class="absent">No legislative voting record on file.</p>
+      <h4>Campaign finance</h4>
+      <p>State campaign finance reports for this office are filed with the Delaware Department of Elections. Search them by committee name in the state system. <a href="https://cfrs.elections.delaware.gov/Public/ViewFiledReportsMain" rel="noopener">Delaware CFRS ↗</a></p>
+      <h4>Public positions, in their own words</h4>
+      <p class="absent">No verbatim, dated public statement on file yet.</p>
+    </article>
   </section>
 
   <section class="section" aria-labelledby="holder-title">

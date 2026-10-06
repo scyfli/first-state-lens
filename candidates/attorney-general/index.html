@@ -48,6 +48,18 @@
   .note { background: var(--surface-elevated); border: 1px solid var(--border-default); border-radius: 14px; padding: 18px 20px; max-width: 980px; font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
   .src { font-size: 12px; color: var(--text-tertiary); margin-top: 10px; }
   .src a { color: var(--text-tertiary); }
+  .rec { background: var(--surface-elevated); border: 1px solid var(--border-default); border-radius: 14px; padding: 18px 22px; margin: 14px 0; max-width: 980px; }
+  .rec-name { font-family: 'Space Grotesk', sans-serif; font-size: 18px; color: var(--text-primary); }
+  .rec-party { font-size: 13px; color: var(--text-tertiary); margin: 2px 0 8px; }
+  .rec h4 { font-size: 12px; font-family: 'JetBrains Mono', monospace; letter-spacing: .1em; text-transform: uppercase; color: var(--text-tertiary); margin: 14px 0 6px; font-weight: 500; }
+  .rec p, .rec li { font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
+  .rec ul { margin-left: 20px; }
+  .rec a { color: var(--text-primary); }
+  .rec .absent { font-style: italic; color: var(--text-tertiary); }
+  .rec blockquote { border-left: 3px solid var(--violet-400); padding: 4px 0 4px 14px; margin: 8px 0; }
+  .rec blockquote p { color: var(--text-primary); }
+  .rec blockquote footer { font-size: 12px; color: var(--text-tertiary); margin-top: 4px; }
+  .rc th[scope=row] { font-weight: 500; color: var(--text-primary); }
   .pager { display: flex; gap: 16px; flex-wrap: wrap; font-size: 14px; margin-top: 8px; }
   .pager a { color: var(--text-secondary); }
   @media (max-width: 640px) {
@@ -145,6 +157,36 @@
     </table>
     <p class="fact">2 qualified candidates are listed for this office.</p>
     <p class="src">Source: <a href="https://elections.delaware.gov/candidates/candidatelist/genl_fcddt_2026.html">Delaware Department of Elections, Filed Candidates by Office</a>, checked against the Department of Elections list as updated October 5, 2026, at 7:56 p.m.</p>
+  </section>
+
+  <section class="section" aria-labelledby="record-title">
+    <div class="section-head"><h2 class="section-title" id="record-title">The record, candidate by candidate</h2><span class="section-meta">CHECKED OCTOBER 6, 2026</span></div>
+    <p class="fact">The same fields for every candidate, in ballot order, each linked to its primary source. Where a field is empty, it says so. <a href="/candidates/method/">How the record works.</a></p>
+    <article class="rec" aria-labelledby="rec-kathy-jennings">
+      <h3 class="rec-name" id="rec-kathy-jennings">Kathy Jennings <span class="badge">Incumbent</span></h3>
+      <p class="rec-party">Democratic</p>
+      <h4>Background</h4>
+      <ul><li>Sworn in as Delaware&#x27;s 46th Attorney General on January 1, 2019. <a href="https://attorneygeneral.delaware.gov/executive/biography/" rel="noopener">Source ↗</a></li><li>Appointed Chief Administrative Officer of New Castle County in January 2017. <a href="https://attorneygeneral.delaware.gov/executive/biography/" rel="noopener">Source ↗</a></li></ul>
+      <h4>Legislative record</h4>
+      <p class="absent">No legislative voting record on file.</p>
+      <h4>Campaign finance</h4>
+      <p>State campaign finance reports for this office are filed with the Delaware Department of Elections. Search them by committee name in the state system. <a href="https://cfrs.elections.delaware.gov/Public/ViewFiledReportsMain" rel="noopener">Delaware CFRS ↗</a></p>
+      <h4>Public positions, in their own words</h4>
+      <blockquote><p>I want to recognize that this is first and foremost a victory for the tens of thousands of veterans, senior citizens, and Delawareans with disabilities who rely on permanent absentee voting</p><footer>Voting access (permanent absentee voting) · September 22, 2026 · Delaware DOJ press release after the Delaware Supreme Court unanimously upheld the state&#x27;s permanent absentee voting statute against a challenge by State Senator Gerald Hocker. · <a href="https://news.delaware.gov/2026/09/22/ag-jennings-announces-delaware-supreme-court-victory-protecting-permanent-absentee-voting/" rel="noopener">Source ↗</a></footer></blockquote>
+      <blockquote><p>This resolution between the parties represents a watershed moment for the future of every child in our state.</p><footer>Children&#x27;s health (duPont Trust agreement) · October 2, 2026 · Delaware DOJ press release announcing a $950 million, 11-year agreement among the Alfred I. duPont Charitable Trust, Delaware, Florida and The Nemours Foundation for children&#x27;s health in Delaware. · <a href="https://news.delaware.gov/2026/10/02/a-i-dupont-charitable-trust-nemours-foundation-and-doj-launch-historic-agreement-to-advance-childhood-health/" rel="noopener">Source ↗</a></footer></blockquote>
+    </article>
+    <article class="rec" aria-labelledby="rec-david-c-dave-graham">
+      <h3 class="rec-name" id="rec-david-c-dave-graham">David C. &quot;Dave&quot; Graham</h3>
+      <p class="rec-party">Republican</p>
+      <h4>Background</h4>
+      <p class="absent">No sourced biographical facts on file beyond the filing above.</p>
+      <h4>Legislative record</h4>
+      <p class="absent">No legislative voting record on file.</p>
+      <h4>Campaign finance</h4>
+      <p>State campaign finance reports for this office are filed with the Delaware Department of Elections. Search them by committee name in the state system. <a href="https://cfrs.elections.delaware.gov/Public/ViewFiledReportsMain" rel="noopener">Delaware CFRS ↗</a></p>
+      <h4>Public positions, in their own words</h4>
+      <p class="absent">No verbatim, dated public statement on file yet.</p>
+    </article>
   </section>
 
   <section class="section" aria-labelledby="holder-title">

@@ -1,0 +1,48 @@
+{
+  "office_id": "attorney-general",
+  "checked": "October 6, 2026",
+  "method_version": "1.0",
+  "note": "Every fact, vote and quote was re-fetched from its source and matched before publishing (2026-10-06). Positions are dated, verbatim statements from the candidate's official office or campaign. Fields with no sourced item state the absence.",
+  "candidates": {
+    "Kathy Jennings": {
+      "biography": [
+        {
+          "fact": "Sworn in as Delaware's 46th Attorney General on January 1, 2019.",
+          "source": "https://attorneygeneral.delaware.gov/executive/biography/"
+        },
+        {
+          "fact": "Appointed Chief Administrative Officer of New Castle County in January 2017.",
+          "source": "https://attorneygeneral.delaware.gov/executive/biography/"
+        }
+      ],
+      "legislative_record": {
+        "status": "absent",
+        "label": "Legislative record",
+        "absent_reason": "No legislative voting record on file."
+      },
+      "positions": [
+        {
+          "topic": "Voting access (permanent absentee voting)",
+          "quote": "I want to recognize that this is first and foremost a victory for the tens of thousands of veterans, senior citizens, and Delawareans with disabilities who rely on permanent absentee voting",
+          "date": "2026-09-22",
+          "context": "Delaware DOJ press release after the Delaware Supreme Court unanimously upheld the state's permanent absentee voting statute against a challenge by State Senator Gerald Hocker.",
+          "source": "https://news.delaware.gov/2026/09/22/ag-jennings-announces-delaware-supreme-court-victory-protecting-permanent-absentee-voting/"
+        },
+        {
+          "topic": "Children's health (duPont Trust agreement)",
+          "quote": "This resolution between the parties represents a watershed moment for the future of every child in our state.",
+          "date": "2026-10-02",
+          "context": "Delaware DOJ press release announcing a $950 million, 11-year agreement among the Alfred I. duPont Charitable Trust, Delaware, Florida and The Nemours Foundation for children's health in Delaware.",
+          "source": "https://news.delaware.gov/2026/10/02/a-i-dupont-charitable-trust-nemours-foundation-and-doj-launch-historic-agreement-to-advance-childhood-health/"
+        }
+      ]
+    },
+    "David C. \"Dave\" Graham": {
+      "legislative_record": {
+        "status": "absent",
+        "label": "Legislative record",
+        "absent_reason": "No legislative voting record on file."
+      }
+    }
+  }
+}

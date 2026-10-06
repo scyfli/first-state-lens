@@ -48,6 +48,18 @@
   .note { background: var(--surface-elevated); border: 1px solid var(--border-default); border-radius: 14px; padding: 18px 20px; max-width: 980px; font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
   .src { font-size: 12px; color: var(--text-tertiary); margin-top: 10px; }
   .src a { color: var(--text-tertiary); }
+  .rec { background: var(--surface-elevated); border: 1px solid var(--border-default); border-radius: 14px; padding: 18px 22px; margin: 14px 0; max-width: 980px; }
+  .rec-name { font-family: 'Space Grotesk', sans-serif; font-size: 18px; color: var(--text-primary); }
+  .rec-party { font-size: 13px; color: var(--text-tertiary); margin: 2px 0 8px; }
+  .rec h4 { font-size: 12px; font-family: 'JetBrains Mono', monospace; letter-spacing: .1em; text-transform: uppercase; color: var(--text-tertiary); margin: 14px 0 6px; font-weight: 500; }
+  .rec p, .rec li { font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
+  .rec ul { margin-left: 20px; }
+  .rec a { color: var(--text-primary); }
+  .rec .absent { font-style: italic; color: var(--text-tertiary); }
+  .rec blockquote { border-left: 3px solid var(--violet-400); padding: 4px 0 4px 14px; margin: 8px 0; }
+  .rec blockquote p { color: var(--text-primary); }
+  .rec blockquote footer { font-size: 12px; color: var(--text-tertiary); margin-top: 4px; }
+  .rc th[scope=row] { font-weight: 500; color: var(--text-primary); }
   .pager { display: flex; gap: 16px; flex-wrap: wrap; font-size: 14px; margin-top: 8px; }
   .pager a { color: var(--text-secondary); }
   @media (max-width: 640px) {
@@ -145,6 +157,35 @@
     </table>
     <p class="fact">2 qualified candidates are listed for this office.</p>
     <p class="src">Source: <a href="https://elections.delaware.gov/candidates/candidatelist/genl_fcddt_2026.html">Delaware Department of Elections, Filed Candidates by Office</a>, checked against the Department of Elections list as updated October 5, 2026, at 7:56 p.m.</p>
+  </section>
+
+  <section class="section" aria-labelledby="record-title">
+    <div class="section-head"><h2 class="section-title" id="record-title">The record, candidate by candidate</h2><span class="section-meta">CHECKED OCTOBER 6, 2026</span></div>
+    <p class="fact">The same fields for every candidate, in ballot order, each linked to its primary source. Where a field is empty, it says so. <a href="/candidates/method/">How the record works.</a></p>
+    <article class="rec" aria-labelledby="rec-ted-lauzen">
+      <h3 class="rec-name" id="rec-ted-lauzen">Ted Lauzen</h3>
+      <p class="rec-party">Democratic</p>
+      <h4>Background</h4>
+      <p class="absent">No sourced biographical facts on file beyond the filing above.</p>
+      <h4>Legislative record</h4>
+      <p class="absent">No legislative voting record on file.</p>
+      <h4>Campaign finance</h4>
+      <p>State campaign finance reports for this office are filed with the Delaware Department of Elections. Search them by committee name in the state system. <a href="https://cfrs.elections.delaware.gov/Public/ViewFiledReportsMain" rel="noopener">Delaware CFRS ↗</a></p>
+      <h4>Public positions, in their own words</h4>
+      <blockquote><p>Together, we will protect our financial foundation, build a stronger future, and improve the lives of working families.</p><footer>Stewardship of state finances · August 6, 2026 · Campaign press release (PDF dated Thursday, August 6, 2026) announcing the Delaware Democratic Party&#x27;s unanimous endorsement. · <a href="https://tedlauzen.com/wp-content/uploads/2026/08/Delaware-Democratic-Party-Unanimously-Endorses-Ted-Lauzen-for-State-Treasurer-For-Immediate-Release-August-6-2026.pdf" rel="noopener">Source ↗</a></footer></blockquote>
+    </article>
+    <article class="rec" aria-labelledby="rec-michael-ramone">
+      <h3 class="rec-name" id="rec-michael-ramone">Michael Ramone</h3>
+      <p class="rec-party">Republican</p>
+      <h4>Background</h4>
+      <ul><li>State Representative for Delaware House District 21, 2008 to 2024, and House Minority Leader. <a href="https://legis.delaware.gov/LegislatorDetail?personId=243" rel="noopener">Source ↗</a></li></ul>
+      <h4>Legislative record</h4>
+      <p>Served in the Delaware House of Representatives (District 21) from 2008 to 2024. His former-member page is on the General Assembly site; First State Lens does not yet carry roll-call records from those sessions. <a href="https://legis.delaware.gov/LegislatorDetail?personId=243" rel="noopener">Source ↗</a></p>
+      <h4>Campaign finance</h4>
+      <p>State campaign finance reports for this office are filed with the Delaware Department of Elections. Search them by committee name in the state system. <a href="https://cfrs.elections.delaware.gov/Public/ViewFiledReportsMain" rel="noopener">Delaware CFRS ↗</a></p>
+      <h4>Public positions, in their own words</h4>
+      <p class="absent">No verbatim, dated public statement on file yet.</p>
+    </article>
   </section>
 
   <section class="section" aria-labelledby="holder-title">

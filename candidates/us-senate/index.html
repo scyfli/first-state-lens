@@ -48,6 +48,18 @@
   .note { background: var(--surface-elevated); border: 1px solid var(--border-default); border-radius: 14px; padding: 18px 20px; max-width: 980px; font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
   .src { font-size: 12px; color: var(--text-tertiary); margin-top: 10px; }
   .src a { color: var(--text-tertiary); }
+  .rec { background: var(--surface-elevated); border: 1px solid var(--border-default); border-radius: 14px; padding: 18px 22px; margin: 14px 0; max-width: 980px; }
+  .rec-name { font-family: 'Space Grotesk', sans-serif; font-size: 18px; color: var(--text-primary); }
+  .rec-party { font-size: 13px; color: var(--text-tertiary); margin: 2px 0 8px; }
+  .rec h4 { font-size: 12px; font-family: 'JetBrains Mono', monospace; letter-spacing: .1em; text-transform: uppercase; color: var(--text-tertiary); margin: 14px 0 6px; font-weight: 500; }
+  .rec p, .rec li { font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
+  .rec ul { margin-left: 20px; }
+  .rec a { color: var(--text-primary); }
+  .rec .absent { font-style: italic; color: var(--text-tertiary); }
+  .rec blockquote { border-left: 3px solid var(--violet-400); padding: 4px 0 4px 14px; margin: 8px 0; }
+  .rec blockquote p { color: var(--text-primary); }
+  .rec blockquote footer { font-size: 12px; color: var(--text-tertiary); margin-top: 4px; }
+  .rc th[scope=row] { font-weight: 500; color: var(--text-primary); }
   .pager { display: flex; gap: 16px; flex-wrap: wrap; font-size: 14px; margin-top: 8px; }
   .pager a { color: var(--text-secondary); }
   @media (max-width: 640px) {
@@ -145,6 +157,37 @@
     </table>
     <p class="fact">2 qualified candidates are listed for this office.</p>
     <p class="src">Source: <a href="https://elections.delaware.gov/candidates/candidatelist/genl_fcddt_2026.html">Delaware Department of Elections, Filed Candidates by Office</a>, checked against the Department of Elections list as updated October 5, 2026, at 7:56 p.m.</p>
+  </section>
+
+  <section class="section" aria-labelledby="record-title">
+    <div class="section-head"><h2 class="section-title" id="record-title">The record, candidate by candidate</h2><span class="section-meta">CHECKED OCTOBER 6, 2026</span></div>
+    <p class="fact">The same fields for every candidate, in ballot order, each linked to its primary source. Where a field is empty, it says so. <a href="/candidates/method/">How the record works.</a></p>
+    <article class="rec" aria-labelledby="rec-chris-coons">
+      <h3 class="rec-name" id="rec-chris-coons">Chris Coons <span class="badge">Incumbent</span></h3>
+      <p class="rec-party">Democratic</p>
+      <h4>Background</h4>
+      <ul><li>Elected to the U.S. Senate from Delaware in 2010. <a href="https://www.coons.senate.gov/about" rel="noopener">Source ↗</a></li><li>Served four years as New Castle County Council President and six years as New Castle County Executive. <a href="https://www.coons.senate.gov/about" rel="noopener">Source ↗</a></li></ul>
+      <h4>U.S. Senate roll-call votes, 119th Congress</h4>
+      <table class="slate rc"><caption class="sr-only">Recorded votes for Chris Coons</caption><thead><tr><th scope="col">Bill</th><th scope="col">Question</th><th scope="col">Vote</th><th scope="col">Date</th><th scope="col">Source</th></tr></thead><tbody><tr><th scope="row">S. 5: Laken Riley Act</th><td>On Passage of the Bill S. 5</td><td>Nay</td><td>January 20, 2025</td><td><a href="https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00007.xml" rel="noopener">Roll call ↗</a></td></tr><tr><th scope="row">S. 1582: GENIUS Act</th><td>On Passage of the Bill S. 1582</td><td>Nay</td><td>June 17, 2025</td><td><a href="https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00318.xml" rel="noopener">Roll call ↗</a></td></tr><tr><th scope="row">H.R. 1: One Big Beautiful Bill Act</th><td>On Passage of the Bill H.R. 1</td><td>Nay</td><td>July 1, 2025</td><td><a href="https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.xml" rel="noopener">Roll call ↗</a></td></tr><tr><th scope="row">H.R. 4: Rescissions Act of 2025</th><td>On Passage of the Bill H.R. 4</td><td>Nay</td><td>July 17, 2025</td><td><a href="https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00411.xml" rel="noopener">Roll call ↗</a></td></tr><tr><th scope="row">H.R. 5371: Continuing appropriations and extensions, fiscal year 2026</th><td>On Passage of the Bill H.R. 5371</td><td>Nay</td><td>November 10, 2025</td><td><a href="https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00618.xml" rel="noopener">Roll call ↗</a></td></tr></tbody></table>
+      <h4>Campaign finance</h4>
+      <p>Raised $6,897,138 · Spent $3,944,267 · through August 26, 2026. <a href="https://www.fec.gov/data/candidate/S0DE00092/" rel="noopener">FEC ↗</a></p>
+      <h4>Public positions, in their own words</h4>
+      <blockquote><p>Americans deserve to know what they are actually doing to place safety guardrails on large AI models, and that’s what this bipartisan bill will ensure.</p><footer>Artificial intelligence safety and transparency · September 24, 2026 · Senate office press release announcing the AI Systems Transparency Act, introduced by Senators Coons, Britt, Schatz and Lankford. · <a href="https://www.coons.senate.gov/news/press-releases/senators-coons-britt-schatz-and-lankford-introduce-bipartisan-ai-safety-and-transparency-legislation" rel="noopener">Source ↗</a></footer></blockquote>
+      <blockquote><p>No matter which school they attend or what sport they play, this bill will protect the education, health, and compensation rights of all 550,000 NCAA student-athletes.</p><footer>College athletics · September 28, 2026 · Senate office statement after the Senate voted 77-22 to pass the Protect College Sports Act, which Coons co-sponsored. · <a href="https://www.coons.senate.gov/news/press-releases/senator-coons-statement-on-senate-passage-of-the-protect-college-sports-act" rel="noopener">Source ↗</a></footer></blockquote>
+    </article>
+    <article class="rec" aria-labelledby="rec-michael-dr-mike-katz">
+      <h3 class="rec-name" id="rec-michael-dr-mike-katz">Michael &quot;Dr. Mike&quot; Katz</h3>
+      <p class="rec-party">Republican</p>
+      <h4>Background</h4>
+      <ul><li>Elected State Senator for Delaware Senate District 4 in the 2008 general election, as a Democrat. <a href="https://elections.delaware.gov/elections/resultsarchive/elect08/elect08_general_election/html/elect08_gen_office.shtml" rel="noopener">Source ↗</a></li></ul>
+      <h4>Legislative record</h4>
+      <p>Served in the Delaware State Senate (District 4) after the 2008 election. First State Lens does not yet carry state roll-call records from that period. <a href="https://elections.delaware.gov/elections/resultsarchive/elect08/elect08_general_election/html/elect08_gen_office.shtml" rel="noopener">Source ↗</a></p>
+      <h4>Campaign finance</h4>
+      <p>Raised $159,367 · Spent $60,954 · through August 26, 2026. <a href="https://www.fec.gov/data/candidate/S6DE00206/" rel="noopener">FEC ↗</a></p>
+      <h4>Public positions, in their own words</h4>
+      <blockquote><p>For too long, Delaware families have watched the cost of housing, groceries, healthcare, and energy climb while Washington has delivered more spending, more debt, and more dysfunction.</p><footer>Cost of living and federal spending · September 15, 2026 · Campaign press release on winning the Republican primary for U.S. Senate. · <a href="https://www.drmikekatz.com/news/primary-victory" rel="noopener">Source ↗</a></footer></blockquote>
+      <blockquote><p>Political power belongs to the people. Elected officials only borrow it. Transparency, dissent, and the free exchange of ideas are essential to good government. No party has all the answers.</p><footer>Debates and government accountability · September 29, 2026 · Campaign press release calling for a moderated debate. · <a href="https://www.drmikekatz.com/news/coons-rejects-wdel-debate" rel="noopener">Source ↗</a></footer></blockquote>
+    </article>
   </section>
 
   <section class="section" aria-labelledby="holder-title">

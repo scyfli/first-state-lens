@@ -270,3 +270,22 @@ def test_jsonld_cannot_break_out_of_script():
     out = cp.head("t", "d", "/x/", [("Home", "/"), ("</script><script>alert(1)</script>", "/x/")])
     block = out.split('<script type="application/ld+json">', 1)[1].split("</script>", 1)[0]
     assert "<" not in block
+
+
+def test_records_section_states_absences_and_refuses_strangers(ballot):
+    from etl.pages import candidate_pages as cp
+    race = next(r for r in ballot["races"] if r["id"] == "state-treasurer")
+    html_out = cp.records_section(race, {"checked": "October 6, 2026", "candidates": {}})
+    assert html_out.count('class="rec"') == 2
+    assert "No verbatim, dated public statement on file yet." in html_out and "Delaware CFRS" in html_out
+    with pytest.raises(RuntimeError, match="not on the ballot"):
+        cp.records_section(race, {"candidates": {"Someone Else": {}}})
+
+
+def test_published_record_files_match_the_ballot(ballot):
+    from etl.pages import candidate_pages as cp
+    for rid in cp.STATEWIDE_PAGES:
+        rec = cp.load_record(rid)
+        assert rec is not None, rid
+        race = next(r for r in ballot["races"] if r["id"] == rid)
+        cp.records_section(race, rec)  # raises if a record names someone not on the list

@@ -1,0 +1,112 @@
+{
+  "office_id": "us-senate",
+  "checked": "October 6, 2026",
+  "method_version": "1.0",
+  "note": "Every fact, vote and quote was re-fetched from its source and matched before publishing (2026-10-06). Positions are dated, verbatim statements from the candidate's official office or campaign. Fields with no sourced item state the absence.",
+  "candidates": {
+    "Chris Coons": {
+      "biography": [
+        {
+          "fact": "Elected to the U.S. Senate from Delaware in 2010.",
+          "source": "https://www.coons.senate.gov/about"
+        },
+        {
+          "fact": "Served four years as New Castle County Council President and six years as New Castle County Executive.",
+          "source": "https://www.coons.senate.gov/about"
+        }
+      ],
+      "legislative_record": {
+        "status": "present",
+        "label": "U.S. Senate roll-call votes, 119th Congress",
+        "roll_calls": [
+          {
+            "bill": "S. 5",
+            "title": "Laken Riley Act",
+            "question": "On Passage of the Bill S. 5",
+            "vote": "Nay",
+            "date": "2025-01-20",
+            "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00007.xml"
+          },
+          {
+            "bill": "S. 1582",
+            "title": "GENIUS Act",
+            "question": "On Passage of the Bill S. 1582",
+            "vote": "Nay",
+            "date": "2025-06-17",
+            "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00318.xml"
+          },
+          {
+            "bill": "H.R. 1",
+            "title": "One Big Beautiful Bill Act",
+            "question": "On Passage of the Bill H.R. 1",
+            "vote": "Nay",
+            "date": "2025-07-01",
+            "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.xml"
+          },
+          {
+            "bill": "H.R. 4",
+            "title": "Rescissions Act of 2025",
+            "question": "On Passage of the Bill H.R. 4",
+            "vote": "Nay",
+            "date": "2025-07-17",
+            "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00411.xml"
+          },
+          {
+            "bill": "H.R. 5371",
+            "title": "Continuing appropriations and extensions, fiscal year 2026",
+            "question": "On Passage of the Bill H.R. 5371",
+            "vote": "Nay",
+            "date": "2025-11-10",
+            "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00618.xml"
+          }
+        ]
+      },
+      "positions": [
+        {
+          "topic": "Artificial intelligence safety and transparency",
+          "quote": "Americans deserve to know what they are actually doing to place safety guardrails on large AI models, and that’s what this bipartisan bill will ensure.",
+          "date": "2026-09-24",
+          "context": "Senate office press release announcing the AI Systems Transparency Act, introduced by Senators Coons, Britt, Schatz and Lankford.",
+          "source": "https://www.coons.senate.gov/news/press-releases/senators-coons-britt-schatz-and-lankford-introduce-bipartisan-ai-safety-and-transparency-legislation"
+        },
+        {
+          "topic": "College athletics",
+          "quote": "No matter which school they attend or what sport they play, this bill will protect the education, health, and compensation rights of all 550,000 NCAA student-athletes.",
+          "date": "2026-09-28",
+          "context": "Senate office statement after the Senate voted 77-22 to pass the Protect College Sports Act, which Coons co-sponsored.",
+          "source": "https://www.coons.senate.gov/news/press-releases/senator-coons-statement-on-senate-passage-of-the-protect-college-sports-act"
+        }
+      ]
+    },
+    "Michael \"Dr. Mike\" Katz": {
+      "biography": [
+        {
+          "fact": "Elected State Senator for Delaware Senate District 4 in the 2008 general election, as a Democrat.",
+          "source": "https://elections.delaware.gov/elections/resultsarchive/elect08/elect08_general_election/html/elect08_gen_office.shtml"
+        }
+      ],
+      "legislative_record": {
+        "status": "link",
+        "label": "Legislative record",
+        "text": "Served in the Delaware State Senate (District 4) after the 2008 election. First State Lens does not yet carry state roll-call records from that period.",
+        "source": "https://elections.delaware.gov/elections/resultsarchive/elect08/elect08_general_election/html/elect08_gen_office.shtml"
+      },
+      "positions": [
+        {
+          "topic": "Cost of living and federal spending",
+          "quote": "For too long, Delaware families have watched the cost of housing, groceries, healthcare, and energy climb while Washington has delivered more spending, more debt, and more dysfunction.",
+          "date": "2026-09-15",
+          "context": "Campaign press release on winning the Republican primary for U.S. Senate.",
+          "source": "https://www.drmikekatz.com/news/primary-victory"
+        },
+        {
+          "topic": "Debates and government accountability",
+          "quote": "Political power belongs to the people. Elected officials only borrow it. Transparency, dissent, and the free exchange of ideas are essential to good government. No party has all the answers.",
+          "date": "2026-09-29",
+          "context": "Campaign press release calling for a moderated debate.",
+          "source": "https://www.drmikekatz.com/news/coons-rejects-wdel-debate"
+        }
+      ]
+    }
+  }
+}

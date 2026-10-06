@@ -1,0 +1,51 @@
+{
+  "office_id": "auditor",
+  "checked": "October 6, 2026",
+  "method_version": "1.0",
+  "note": "Every fact, vote and quote was re-fetched from its source and matched before publishing (2026-10-06). Positions are dated, verbatim statements from the candidate's official office or campaign. Fields with no sourced item state the absence.",
+  "candidates": {
+    "Lydia York": {
+      "biography": [
+        {
+          "fact": "Began her term as State Auditor on January 3, 2023.",
+          "source": "https://auditor.delaware.gov/about-the-auditor/"
+        }
+      ],
+      "legislative_record": {
+        "status": "absent",
+        "label": "Legislative record",
+        "absent_reason": "No legislative voting record on file."
+      },
+      "positions": [
+        {
+          "topic": "Government transparency and accountability",
+          "quote": "Delawareans made their voices clear: they wanted more transparency and accountability from their government.",
+          "date": "2026-04-20",
+          "context": "Campaign press release announcing her re-election filing.",
+          "source": "https://lydiayork.com/delaware-state-auditor-democrat-lydia-e-york-files-for-re-election/"
+        },
+        {
+          "topic": "Role of the Auditor's Office",
+          "quote": "We never shy away from clearly stating when our State government needs to serve us better.",
+          "date": "2026-04-20",
+          "context": "Same re-election filing press release.",
+          "source": "https://lydiayork.com/delaware-state-auditor-democrat-lydia-e-york-files-for-re-election/"
+        }
+      ]
+    },
+    "April Callaway": {
+      "legislative_record": {
+        "status": "absent",
+        "label": "Legislative record",
+        "absent_reason": "No legislative voting record on file."
+      }
+    },
+    "Austin Cassidy": {
+      "legislative_record": {
+        "status": "absent",
+        "label": "Legislative record",
+        "absent_reason": "No legislative voting record on file."
+      }
+    }
+  }
+}

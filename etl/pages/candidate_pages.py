@@ -90,6 +90,18 @@ STYLE = """<style>
   .note { background: var(--surface-elevated); border: 1px solid var(--border-default); border-radius: 14px; padding: 18px 20px; max-width: 980px; font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
   .src { font-size: 12px; color: var(--text-tertiary); margin-top: 10px; }
   .src a { color: var(--text-tertiary); }
+  .rec { background: var(--surface-elevated); border: 1px solid var(--border-default); border-radius: 14px; padding: 18px 22px; margin: 14px 0; max-width: 980px; }
+  .rec-name { font-family: 'Space Grotesk', sans-serif; font-size: 18px; color: var(--text-primary); }
+  .rec-party { font-size: 13px; color: var(--text-tertiary); margin: 2px 0 8px; }
+  .rec h4 { font-size: 12px; font-family: 'JetBrains Mono', monospace; letter-spacing: .1em; text-transform: uppercase; color: var(--text-tertiary); margin: 14px 0 6px; font-weight: 500; }
+  .rec p, .rec li { font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
+  .rec ul { margin-left: 20px; }
+  .rec a { color: var(--text-primary); }
+  .rec .absent { font-style: italic; color: var(--text-tertiary); }
+  .rec blockquote { border-left: 3px solid var(--violet-400); padding: 4px 0 4px 14px; margin: 8px 0; }
+  .rec blockquote p { color: var(--text-primary); }
+  .rec blockquote footer { font-size: 12px; color: var(--text-tertiary); margin-top: 4px; }
+  .rc th[scope=row] { font-weight: 500; color: var(--text-primary); }
   .pager { display: flex; gap: 16px; flex-wrap: wrap; font-size: 14px; margin-top: 8px; }
   .pager a { color: var(--text-secondary); }
   @media (max-width: 640px) {
@@ -267,6 +279,111 @@ def source_line(b: dict) -> str:
     return f'    <p class="src">Source: <a href="{STATE_LIST}">Delaware Department of Elections, Filed Candidates by Office</a>, checked against {e(sentence(stamp_text(b)))}</p>'
 
 
+# ---- Full records for the statewide and federal races (docs/UPGRADE-PLAN.md, E1b) -------------
+RECORDS_DIR = ROOT / "candidates" / "data" / "records"
+FEC_SUMMARY = ROOT / "campaign-finance" / "data" / "campaign-finance-summary.json"
+CFRS_SEARCH = "https://cfrs.elections.delaware.gov/Public/ViewFiledReportsMain"
+FEC_PARTY = {"Democratic": "DEM", "Republican": "REP"}
+
+
+def load_record(rid: str) -> dict | None:
+    f = RECORDS_DIR / f"{rid}.json"
+    return json.loads(f.read_text(encoding="utf-8")) if f.exists() else None
+
+
+def fec_totals(name: str, party: str, office: str) -> dict | None:
+    """Match a ballot name to OpenFEC totals by office + party + last name. Exactly one match or None."""
+    if not FEC_SUMMARY.exists():
+        return None
+    data = json.loads(FEC_SUMMARY.read_text(encoding="utf-8"))
+    last = re.sub(r'"[^"]*"', " ", name).split()[-1].upper().strip(".,")
+    hits = [c for c in data.get("candidates", []) if c.get("office") == office and c.get("party") == FEC_PARTY.get(party)
+            and c.get("name", "").split(",")[0].strip().upper() == last]
+    if len(hits) != 1:
+        return None
+    c = hits[0]
+    return {"total_raised": c.get("receipts"), "total_spent": c.get("disbursements"), "as_of": c.get("coverage_end"),
+            "source": f"https://www.fec.gov/data/candidate/{c['candidate_id']}/"}
+
+
+def money(v) -> str:
+    return "Not reported" if v is None else "${:,.0f}".format(v)
+
+
+def src_link(url: str, label: str = "Source") -> str:
+    return f'<a href="{e(url)}" rel="noopener">{e(label)} ↗</a>'
+
+
+INCUMBENT_BADGE = ' <span class="badge">Incumbent</span>'
+
+
+def record_article(race: dict, cand: dict, rec: dict) -> str:
+    name = cand["name"]
+    r = (rec or {}).get(name, {})
+    parts = [f'    <article class="rec" aria-labelledby="rec-{e(slugify(name))}">',
+             f'      <h3 class="rec-name" id="rec-{e(slugify(name))}">{e(name)}{INCUMBENT_BADGE if cand.get("incumbent") else ""}</h3>',
+             f'      <p class="rec-party">{e(cand["party"])}</p>']
+    # Biography
+    bio = r.get("biography") or []
+    parts.append('      <h4>Background</h4>')
+    if bio:
+        parts.append("      <ul>" + "".join(f'<li>{e(x["fact"])} {src_link(x["source"])}</li>' for x in bio) + "</ul>")
+    else:
+        parts.append('      <p class="absent">No sourced biographical facts on file beyond the filing above.</p>')
+    # Legislative record
+    lr = r.get("legislative_record") or {"status": "absent", "absent_reason": "No legislative record on file."}
+    parts.append(f'      <h4>{e(lr.get("label", "Legislative record"))}</h4>')
+    if lr.get("status") == "present" and lr.get("roll_calls"):
+        rows = "".join(f'<tr><th scope="row">{e(v["bill"])}: {e(v["title"])}</th><td>{e(v["question"])}</td><td>{e(v["vote"])}</td><td>{e(nice_date(v["date"]))}</td><td>{src_link(v["source"], "Roll call")}</td></tr>' for v in lr["roll_calls"])
+        parts.append(f'      <table class="slate rc"><caption class="sr-only">Recorded votes for {e(name)}</caption><thead><tr><th scope="col">Bill</th><th scope="col">Question</th><th scope="col">Vote</th><th scope="col">Date</th><th scope="col">Source</th></tr></thead><tbody>{rows}</tbody></table>')
+    elif lr.get("status") == "link":
+        parts.append(f'      <p>{e(lr["text"])} {src_link(lr["source"])}</p>')
+    else:
+        parts.append(f'      <p class="absent">{e(lr.get("absent_reason", "No legislative record on file."))}</p>')
+    # Campaign finance
+    parts.append('      <h4>Campaign finance</h4>')
+    if race["id"] == "us-senate":
+        f = fec_totals(name, cand["party"], "Senate")
+        if f:
+            parts.append(f'      <p>Raised {money(f["total_raised"])} · Spent {money(f["total_spent"])} · through {e(nice_date(f["as_of"]))}. {src_link(f["source"], "FEC")}</p>')
+        else:
+            parts.append('      <p class="absent">No Federal Election Commission totals matched for this candidate.</p>')
+    else:
+        parts.append(f'      <p>State campaign finance reports for this office are filed with the Delaware Department of Elections. Search them by committee name in the state system. {src_link(CFRS_SEARCH, "Delaware CFRS")}</p>')
+    # Positions
+    pos = r.get("positions") or []
+    parts.append('      <h4>Public positions, in their own words</h4>')
+    if pos:
+        for q in pos:
+            parts.append(f'      <blockquote><p>{e(q["quote"])}</p><footer>{e(q.get("topic", ""))}{" · " if q.get("topic") else ""}{e(nice_date(q["date"]))}{(" · " + e(q["context"])) if q.get("context") else ""} · {src_link(q["source"])}</footer></blockquote>')
+    else:
+        parts.append('      <p class="absent">No verbatim, dated public statement on file yet.</p>')
+    parts.append("    </article>")
+    return "\n".join(parts)
+
+
+def slugify(s: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
+
+
+def records_section(race: dict, rec: dict | None) -> str:
+    if rec is None:
+        return ""
+    names = {c["name"] for c in race["candidates"]}
+    unknown = set(rec.get("candidates", {})) - names
+    if unknown:
+        raise RuntimeError(f"Record file for {race['id']} names someone not on the ballot list; fix the record before publishing.")
+    q = [c for c in race["candidates"] if c["status"] == "qualified"]
+    arts = "\n".join(record_article(race, c, rec.get("candidates", {})) for c in q)
+    return f"""  <section class="section" aria-labelledby="record-title">
+    <div class="section-head"><h2 class="section-title" id="record-title">The record, candidate by candidate</h2><span class="section-meta">CHECKED {e(rec.get("checked", "").upper())}</span></div>
+    <p class="fact">The same fields for every candidate, in ballot order, each linked to its primary source. Where a field is empty, it says so. <a href="/candidates/method/">How the record works.</a></p>
+{arts}
+  </section>
+
+"""
+
+
 def race_page(b: dict, race: dict, title: str, h1: str, desc: str, crumbs, pager: str = "") -> str:
     return (head(title, desc, race["path"], crumbs) + f"""  <div class="title-block">
     <span class="title-eyebrow">2026 General Election · Delaware</span>
@@ -282,7 +399,7 @@ def race_page(b: dict, race: dict, title: str, h1: str, desc: str, crumbs, pager
 {source_line(b)}
   </section>
 
-{holder_block(race, race['display'])}{find_district_block()}  <nav class="pager" aria-label="More races">{pager}<a href="/candidates/">Every race on the 2026 ballot</a></nav>
+{records_section(race, load_record(race['id']) if race['id'] in STATEWIDE_PAGES else None)}{holder_block(race, race['display'])}{find_district_block()}  <nav class="pager" aria-label="More races">{pager}<a href="/candidates/">Every race on the 2026 ballot</a></nav>
 """ + foot(b))
 
 
