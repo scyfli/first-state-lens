@@ -12,6 +12,7 @@
 ## Dashboards
 
 - [Who's on the Delaware 2026 Ballot](https://firststatelens.com/candidates/): The standardized public record for every 2026 Delaware candidate — official filings, congressional votes, campaign finance, and quoted positions, each field linked to its primary source. Source: DE Department of Elections, FEC, Congress.
+- [How to Vote in Delaware: 2026 General Election](https://firststatelens.com/vote/): Every date and rule for the November 3, 2026 general election: registration deadline (October 10), early voting (October 22 to November 1), Election Day hours, absentee eligibility and deadlines, and voter ID. Source: DE Department of Elections.
 - [Delaware U.S. House At-Large 2026](https://firststatelens.com/candidates/us-house/): The candidate record for Delaware's 2026 U.S. House at-large seat.
 - [How the Candidate Record Works](https://firststatelens.com/candidates/method/): The sourcing and neutrality rules behind the candidate record.
 - [Delaware School Report Card](https://firststatelens.com/schools/): Proficiency, graduation, chronic absenteeism, and enrollment for the state and all 41 districts and charter networks. Source: DE Department of Education.
