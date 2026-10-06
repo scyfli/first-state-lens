@@ -1,28 +1,25 @@
 {
-  // Cloudflare Worker configuration for `first-state-lens` — static-assets only.
+  // Cloudflare Worker configuration for `first-state-lens`.
   //
-  // Before this file existed, the Worker was configured via Cloudflare's
-  // dashboard at session-12 (2026-05-11) with no Wrangler config in the repo,
-  // which made Workers Builds run framework autoconfig on every deploy. Adding
-  // etl/requirements.txt at session-14 caused autoconfig to mis-detect a
-  // Python project and the deploy failed. Pinning the config here bypasses
-  // autoconfig entirely.
+  // Static assets are served from the repo root exactly as they are (no build step).
+  // Since 2026-10-05 a small Worker script (worker/index.js) also handles /api/* only:
+  // the "Your 2026 ballot" district lookup (docs/UPGRADE-PLAN.md, E2). Every other
+  // request goes straight to the assets (run_worker_first is limited to /api/*).
   //
-  // The Worker is static-assets-only: no `main` (no Worker script), no
-  // `build` (no build command). Cloudflare serves files from the repo root
-  // exactly as they are. The companion `.assetsignore` keeps non-public
-  // files (etl/, .github/, *.md, _headers, etc.) from being uploaded.
+  // Pinning this file also stops Workers Builds from running framework autoconfig
+  // (it once mis-detected the Python ETL as a Python project and failed the deploy).
   //
-  // _headers is consumed by the platform for edge-layer response headers
-  // (HSTS, X-Robots-Tag noindex, X-Frame-Options DENY, etc.) and is
-  // intentionally listed in .assetsignore so it isn't served as a public
-  // file at /_headers.
-
+  // Privacy: observability is OFF so no request data reaches Workers Logs; the script
+  // has no console output. .assetsignore keeps worker/ out of the public assets.
   "$schema": "https://raw.githubusercontent.com/cloudflare/workers-sdk/main/packages/wrangler/config-schema.json",
   "name": "first-state-lens",
+  "main": "worker/index.js",
   "compatibility_date": "2026-05-11",
+  "observability": { "enabled": false },
   "assets": {
     "directory": "./",
-    "not_found_handling": "404-page"
+    "binding": "ASSETS",
+    "not_found_handling": "404-page",
+    "run_worker_first": ["/api/*"]
   }
 }

@@ -45,3 +45,6 @@ scripts
 
 # Planning docs (upgrade plan, builder instructions) — repo-only, not public
 docs
+
+# Worker script source (E2 district lookup) and its test fixtures
+worker
