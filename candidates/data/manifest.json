@@ -31,7 +31,10 @@
       "license": "Per LegiScan terms"
     }
   },
-  "row_counts": { "offices": 1, "candidates": 2 },
-  "generated_at": "2026-07-14T20:00:00Z",
-  "notes": "Published July 14, 2026 against the final Delaware certified candidate list (updated 2026-07-14, after the noon major-party filing deadline). Slate for this office: Sarah McBride (Democratic, Qualified) is the only candidate on the certified list. John J. Whalen III is registered with the FEC for this race but does not appear on the Delaware certified list; shown with that stated, sourced status. McBride fully populated (5 real 119th-Congress roll calls, current-cycle sourced position, FEC finance). All source URLs link-checked, zero 404s."
+  "row_counts": {
+    "offices": 1,
+    "candidates": 3
+  },
+  "generated_at": "2026-10-05T22:00:00Z",
+  "notes": "Re-checked October 5, 2026 against the Delaware Department of Elections candidate list. Correction: the July 14 publication listed Sarah McBride as the only candidate; Joseph \"Dr. Joe\" Arminio (Republican, filed July 14, 2026) is Qualified and is now included with identical fields. Lee Murphy (Republican) is shown on the state list as withdrawn July 21, 2026. John J. Whalen III remains FEC-registered and absent from the state list. FEC finance refreshed to coverage through 2026-08-26 for all three."
 }

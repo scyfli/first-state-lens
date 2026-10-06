@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-14T20:00:00Z",
+  "generated_at": "2026-10-05T22:00:00Z",
   "cycle": 2026,
   "method_version": "1.0",
-  "slate_note": "This record reflects the Delaware Department of Elections certified candidate list, updated July 14, 2026, after the major-party filing deadline closed at noon that day. Sarah McBride is the only candidate listed for this office. John J. Whalen III is registered with the Federal Election Commission for this race but does not appear on the Delaware certified candidate list.",
+  "slate_note": "This record reflects the Delaware Department of Elections candidate list, checked October 5, 2026. Two candidates are qualified for this office: Sarah McBride (Democratic) and Joseph \"Dr. Joe\" Arminio (Republican). Lee Murphy (Republican) appears on the state list as withdrawn on July 21, 2026. John J. Whalen III is registered with the Federal Election Commission for this race but does not appear on the Delaware candidate list. Campaign finance figures are FEC totals through August 26, 2026.",
   "office": {
     "id": "us-house-de",
     "name": "U.S. House of Representatives, Delaware At-Large",
@@ -25,24 +25,65 @@
         "source": "https://elections.delaware.gov/candidates/candidatelist/genl_fcddt_2026.html"
       },
       "biography": [
-        { "fact": "U.S. Representative for Delaware's at-large district, the state's sole member of the U.S. House. Took office January 3, 2025.", "source": "https://mcbride.house.gov/about" },
-        { "fact": "Delaware State Senator, First State Senate District, from 2020 to 2025.", "source": "https://mcbride.house.gov/about" }
+        {
+          "fact": "U.S. Representative for Delaware's at-large district, the state's sole member of the U.S. House. Took office January 3, 2025.",
+          "source": "https://mcbride.house.gov/about"
+        },
+        {
+          "fact": "Delaware State Senator, First State Senate District, from 2020 to 2025.",
+          "source": "https://mcbride.house.gov/about"
+        }
       ],
       "legislative_record": {
         "status": "present",
         "roll_calls": [
-          { "bill": "H.R. 29", "title": "Laken Riley Act", "question": "On Passage", "vote": "Nay", "date": "2025-01-07", "source": "https://clerk.house.gov/evs/2025/roll006.xml" },
-          { "bill": "H.R. 22", "title": "SAVE Act", "question": "On Passage", "vote": "Nay", "date": "2025-04-10", "source": "https://clerk.house.gov/evs/2025/roll102.xml" },
-          { "bill": "H.R. 1", "title": "One Big Beautiful Bill Act", "question": "On Passage", "vote": "Nay", "date": "2025-05-22", "source": "https://clerk.house.gov/evs/2025/roll145.xml" },
-          { "bill": "H.R. 1", "title": "One Big Beautiful Bill Act", "question": "On Motion to Concur in the Senate Amendment", "vote": "No", "date": "2025-07-03", "source": "https://clerk.house.gov/evs/2025/roll190.xml" },
-          { "bill": "S. 1582", "title": "GENIUS Act", "question": "On Passage", "vote": "Nay", "date": "2025-07-17", "source": "https://clerk.house.gov/evs/2025/roll200.xml" }
+          {
+            "bill": "H.R. 29",
+            "title": "Laken Riley Act",
+            "question": "On Passage",
+            "vote": "Nay",
+            "date": "2025-01-07",
+            "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+          },
+          {
+            "bill": "H.R. 22",
+            "title": "SAVE Act",
+            "question": "On Passage",
+            "vote": "Nay",
+            "date": "2025-04-10",
+            "source": "https://clerk.house.gov/evs/2025/roll102.xml"
+          },
+          {
+            "bill": "H.R. 1",
+            "title": "One Big Beautiful Bill Act",
+            "question": "On Passage",
+            "vote": "Nay",
+            "date": "2025-05-22",
+            "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+          },
+          {
+            "bill": "H.R. 1",
+            "title": "One Big Beautiful Bill Act",
+            "question": "On Motion to Concur in the Senate Amendment",
+            "vote": "No",
+            "date": "2025-07-03",
+            "source": "https://clerk.house.gov/evs/2025/roll190.xml"
+          },
+          {
+            "bill": "S. 1582",
+            "title": "GENIUS Act",
+            "question": "On Passage",
+            "vote": "Nay",
+            "date": "2025-07-17",
+            "source": "https://clerk.house.gov/evs/2025/roll200.xml"
+          }
         ]
       },
       "campaign_finance": {
         "status": "present",
-        "as_of": "2026-03-31",
-        "total_raised": 3920915.16,
-        "total_spent": 1666348.16,
+        "as_of": "2026-08-26",
+        "total_raised": 5060925.14,
+        "total_spent": 2567849.56,
         "cash_on_hand": null,
         "source": "https://www.fec.gov/data/candidate/H4DE00045/"
       },
@@ -57,6 +98,34 @@
       ]
     },
     {
+      "id": "arminio-joseph",
+      "name_legal": "Joseph \"Dr. Joe\" Arminio",
+      "slug": "joseph-arminio",
+      "party": "Republican",
+      "incumbent": false,
+      "filing": {
+        "status": "qualified",
+        "ballot_label": "On the Delaware ballot — Qualified. Filed July 14, 2026.",
+        "date": "2026-07-14",
+        "source": "https://elections.delaware.gov/candidates/candidatelist/genl_fcddt_2026.html"
+      },
+      "biography": [],
+      "legislative_record": {
+        "status": "absent",
+        "absent_reason": "No federal legislative record: has not held federal office.",
+        "roll_calls": []
+      },
+      "campaign_finance": {
+        "status": "present",
+        "as_of": "2026-08-26",
+        "total_raised": 6634,
+        "total_spent": 4453,
+        "cash_on_hand": null,
+        "source": "https://www.fec.gov/data/candidate/H6DE01121/"
+      },
+      "positions": []
+    },
+    {
       "id": "whalen-john-iii",
       "name_legal": "John J. Whalen III",
       "slug": "john-whalen-iii",
@@ -64,12 +133,15 @@
       "incumbent": false,
       "filing": {
         "status": "fec_registered",
-        "ballot_label": "Registered with the FEC for this race. Does not appear on the Delaware certified candidate list (updated July 14, 2026). Not on the November 3, 2026 ballot.",
+        "ballot_label": "Registered with the FEC for this race. Does not appear on the Delaware candidate list (checked October 5, 2026). Not on the November 3, 2026 ballot.",
         "date": null,
         "source": "https://www.fec.gov/data/candidate/H4DE00078/"
       },
       "biography": [
-        { "fact": "Republican nominee for Delaware's U.S. House at-large seat in 2024; lost the November 5, 2024 general election.", "source": "https://ballotpedia.org/John_Whalen_III_(Delaware)" }
+        {
+          "fact": "Republican nominee for Delaware's U.S. House at-large seat in 2024; lost the November 5, 2024 general election.",
+          "source": "https://ballotpedia.org/John_Whalen_III_(Delaware)"
+        }
       ],
       "legislative_record": {
         "status": "absent",
@@ -78,9 +150,9 @@
       },
       "campaign_finance": {
         "status": "present",
-        "as_of": "2026-03-31",
-        "total_raised": 0,
-        "total_spent": 98.05,
+        "as_of": "2026-08-26",
+        "total_raised": 1589,
+        "total_spent": 3778.89,
         "cash_on_hand": null,
         "source": "https://www.fec.gov/data/candidate/H4DE00078/"
       },
