@@ -1,0 +1,18 @@
+{
+  "dashboard": "candidates",
+  "file": "ballot-2026.json",
+  "generated_at": "2026-10-06T02:22:44Z",
+  "source": {
+    "url": "https://elections.delaware.gov/candidates/candidatelist/genl_fcddt_2026.html",
+    "name": "Delaware Department of Elections, Filed Candidates by Office",
+    "last_updated": "2026-10-05 07:56 PM"
+  },
+  "row_counts": {
+    "rows": 128,
+    "qualified": 124,
+    "withdrawn": 4,
+    "races": 77
+  },
+  "method_version": "1.0",
+  "privacy": "Public-role fields only. Addresses, phone numbers and emails on the state list are not collected."
+}

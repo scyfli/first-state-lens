@@ -1,0 +1,2725 @@
+{
+  "cycle": 2026,
+  "election_date": "2026-11-03",
+  "method_version": "1.0",
+  "source": {
+    "url": "https://elections.delaware.gov/candidates/candidatelist/genl_fcddt_2026.html",
+    "name": "Delaware Department of Elections, Filed Candidates by Office",
+    "last_updated": "2026-10-05 07:56 PM"
+  },
+  "counts": {
+    "rows": 128,
+    "qualified": 124,
+    "withdrawn": 4,
+    "races": 77
+  },
+  "races": [
+    {
+      "id": "us-senate",
+      "level": "federal",
+      "path": "/candidates/us-senate/",
+      "display": "U.S. Senate",
+      "district": null,
+      "county": null,
+      "office_source": "U.S. Senator",
+      "candidates": [
+        {
+          "name": "Chris Coons",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-06-12",
+          "withdrawn_on": null,
+          "website": "https://chriscoons.com",
+          "incumbent": true
+        },
+        {
+          "name": "Michael \"Dr. Mike\" Katz",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-03-19",
+          "withdrawn_on": null,
+          "website": "https://www.drmikekatz.com",
+          "incumbent": false
+        }
+      ],
+      "current_holder": {
+        "name": "Chris Coons",
+        "party": null,
+        "source": "https://www.coons.senate.gov/",
+        "source_label": "Official office website"
+      },
+      "qualified_count": 2,
+      "withdrawals": []
+    },
+    {
+      "id": "us-house",
+      "level": "federal",
+      "path": "/candidates/us-house/",
+      "display": "U.S. House of Representatives, At-Large",
+      "district": null,
+      "county": null,
+      "office_source": "Representative in Congress",
+      "candidates": [
+        {
+          "name": "Sarah McBride",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-06-12",
+          "withdrawn_on": null,
+          "website": "https://sarahmcbride.com",
+          "incumbent": true
+        },
+        {
+          "name": "Joseph \"Dr. Joe\" Arminio",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-07-14",
+          "withdrawn_on": null,
+          "website": "https://drjoeforcongress.com",
+          "incumbent": false
+        },
+        {
+          "name": "Lee Murphy",
+          "party": "Republican",
+          "status": "withdrawn",
+          "filed": "2026-07-13",
+          "withdrawn_on": "2026-07-21",
+          "website": "https://www.leemurphy2026.com",
+          "incumbent": false
+        }
+      ],
+      "current_holder": {
+        "name": "Sarah McBride",
+        "party": null,
+        "source": "https://mcbride.house.gov/about",
+        "source_label": "Official office website"
+      },
+      "qualified_count": 2,
+      "withdrawals": [
+        {
+          "name": "Lee Murphy",
+          "withdrawn_on": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "id": "attorney-general",
+      "level": "statewide",
+      "path": "/candidates/attorney-general/",
+      "display": "Attorney General",
+      "district": null,
+      "county": null,
+      "office_source": "Attorney General",
+      "candidates": [
+        {
+          "name": "Kathy Jennings",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-03-27",
+          "withdrawn_on": null,
+          "website": "https://www.kathyfordelaware.com",
+          "incumbent": true
+        },
+        {
+          "name": "David C. \"Dave\" Graham",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-08-24",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        }
+      ],
+      "current_holder": {
+        "name": "Kathy Jennings",
+        "party": null,
+        "source": "https://attorneygeneral.delaware.gov/",
+        "source_label": "Official office website"
+      },
+      "qualified_count": 2,
+      "withdrawals": []
+    },
+    {
+      "id": "auditor",
+      "level": "statewide",
+      "path": "/candidates/auditor/",
+      "display": "Auditor of Accounts",
+      "district": null,
+      "county": null,
+      "office_source": "Auditor of Accounts",
+      "candidates": [
+        {
+          "name": "Lydia York",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-04-20",
+          "withdrawn_on": null,
+          "website": "https://www.lydiayork.com",
+          "incumbent": true
+        },
+        {
+          "name": "April Callaway",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-08-26",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        },
+        {
+          "name": "Austin Cassidy",
+          "party": "Independent Party of Delaware",
+          "status": "qualified",
+          "filed": "2026-08-05",
+          "withdrawn_on": null,
+          "website": "https://www.votecassidy.org",
+          "incumbent": false
+        }
+      ],
+      "current_holder": {
+        "name": "Lydia York",
+        "party": null,
+        "source": "https://auditor.delaware.gov/",
+        "source_label": "Official office website"
+      },
+      "qualified_count": 3,
+      "withdrawals": []
+    },
+    {
+      "id": "state-treasurer",
+      "level": "statewide",
+      "path": "/candidates/state-treasurer/",
+      "display": "State Treasurer",
+      "district": null,
+      "county": null,
+      "office_source": "State Treasurer",
+      "candidates": [
+        {
+          "name": "Ted Lauzen",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-01-23",
+          "withdrawn_on": null,
+          "website": "https://tedlauzen.com",
+          "incumbent": false
+        },
+        {
+          "name": "Michael Ramone",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-07-13",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        }
+      ],
+      "current_holder": {
+        "name": "Colleen Davis",
+        "party": null,
+        "source": "https://treasurer.delaware.gov/",
+        "source_label": "Official office website"
+      },
+      "qualified_count": 2,
+      "withdrawals": []
+    },
+    {
+      "id": "state-senate-1",
+      "level": "state-senate",
+      "path": "/candidates/state-senate/district-1/",
+      "display": "State Senate District 1",
+      "district": 1,
+      "county": null,
+      "office_source": "State Senator District 1",
+      "candidates": [
+        {
+          "name": "Dan Cruce",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-03-16",
+          "withdrawn_on": null,
+          "website": "https://www.dancruce.com",
+          "incumbent": true
+        },
+        {
+          "name": "Hildi Bachtle",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-08-28",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        },
+        {
+          "name": "Steven Washington",
+          "party": "Independent Party of Delaware",
+          "status": "qualified",
+          "filed": "2026-08-11",
+          "withdrawn_on": null,
+          "website": "https://www.votestevewashington.com",
+          "incumbent": false
+        }
+      ],
+      "current_holder": {
+        "name": "Dan Cruce",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 3,
+      "withdrawals": []
+    },
+    {
+      "id": "state-senate-5",
+      "level": "state-senate",
+      "path": "/candidates/state-senate/district-5/",
+      "display": "State Senate District 5",
+      "district": 5,
+      "county": null,
+      "office_source": "State Senator District 5",
+      "candidates": [
+        {
+          "name": "Shay Frisby",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-02-13",
+          "withdrawn_on": null,
+          "website": "https://TogetherwithShay.com",
+          "incumbent": false
+        },
+        {
+          "name": "Brent Burdge",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-08-26",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        },
+        {
+          "name": "Carolyn Frank",
+          "party": "Independent Party of Delaware",
+          "status": "qualified",
+          "filed": "2026-08-10",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        }
+      ],
+      "current_holder": {
+        "name": "Ray Seigfried",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 3,
+      "withdrawals": []
+    },
+    {
+      "id": "state-senate-7",
+      "level": "state-senate",
+      "path": "/candidates/state-senate/district-7/",
+      "display": "State Senate District 7",
+      "district": 7,
+      "county": null,
+      "office_source": "State Senator District 7",
+      "candidates": [
+        {
+          "name": "Spiros Mantzavinos",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-04-10",
+          "withdrawn_on": null,
+          "website": "https://www.spiros4statesenate.com",
+          "incumbent": true
+        },
+        {
+          "name": "Chris Rowe",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-07-13",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        }
+      ],
+      "current_holder": {
+        "name": "Spiros Mantzavinos",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 2,
+      "withdrawals": []
+    },
+    {
+      "id": "state-senate-8",
+      "level": "state-senate",
+      "path": "/candidates/state-senate/district-8/",
+      "display": "State Senate District 8",
+      "district": 8,
+      "county": null,
+      "office_source": "State Senator District 8",
+      "candidates": [
+        {
+          "name": "Mara Gorman",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-02-27",
+          "withdrawn_on": null,
+          "website": "https://www.marafordelaware.com",
+          "incumbent": false
+        },
+        {
+          "name": "Shane Cavanaugh",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-06-05",
+          "withdrawn_on": null,
+          "website": "https://shane4senate.com/",
+          "incumbent": false
+        }
+      ],
+      "current_holder": {
+        "name": "Dave Sokola",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 2,
+      "withdrawals": []
+    },
+    {
+      "id": "state-senate-9",
+      "level": "state-senate",
+      "path": "/candidates/state-senate/district-9/",
+      "display": "State Senate District 9",
+      "district": 9,
+      "county": null,
+      "office_source": "State Senator District 9",
+      "candidates": [
+        {
+          "name": "Jack Walsh",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-05-15",
+          "withdrawn_on": null,
+          "website": "https://senatorjackwalsh.com",
+          "incumbent": true
+        }
+      ],
+      "current_holder": {
+        "name": "Jack Walsh",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 1,
+      "withdrawals": []
+    },
+    {
+      "id": "state-senate-12",
+      "level": "state-senate",
+      "path": "/candidates/state-senate/district-12/",
+      "display": "State Senate District 12",
+      "district": 12,
+      "county": null,
+      "office_source": "State Senator District 12",
+      "candidates": [
+        {
+          "name": "Nicole Poore",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-05-15",
+          "withdrawn_on": null,
+          "website": "https://nicolepoore.com",
+          "incumbent": true
+        },
+        {
+          "name": "Mark Esposito",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-06-15",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        }
+      ],
+      "current_holder": {
+        "name": "Nicole Poore",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 2,
+      "withdrawals": []
+    },
+    {
+      "id": "state-senate-13",
+      "level": "state-senate",
+      "path": "/candidates/state-senate/district-13/",
+      "display": "State Senate District 13",
+      "district": 13,
+      "county": null,
+      "office_source": "State Senator District 13",
+      "candidates": [
+        {
+          "name": "Marie Pinkney",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-05-27",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": true
+        }
+      ],
+      "current_holder": {
+        "name": "Marie Pinkney",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 1,
+      "withdrawals": []
+    },
+    {
+      "id": "state-senate-14",
+      "level": "state-senate",
+      "path": "/candidates/state-senate/district-14/",
+      "display": "State Senate District 14",
+      "district": 14,
+      "county": null,
+      "office_source": "State Senator District 14",
+      "candidates": [
+        {
+          "name": "Kyra L. Hoffner",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-03-30",
+          "withdrawn_on": null,
+          "website": "https://KyraHoffner4Senate.com",
+          "incumbent": true
+        },
+        {
+          "name": "Mark Pugh",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2025-01-13",
+          "withdrawn_on": null,
+          "website": "https://www.commonsense302.com",
+          "incumbent": false
+        }
+      ],
+      "current_holder": {
+        "name": "Kyra Hoffner",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 2,
+      "withdrawals": []
+    },
+    {
+      "id": "state-senate-15",
+      "level": "state-senate",
+      "path": "/candidates/state-senate/district-15/",
+      "display": "State Senate District 15",
+      "district": 15,
+      "county": null,
+      "office_source": "State Senator District 15",
+      "candidates": [
+        {
+          "name": "Nisha Lodhavia",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-01-12",
+          "withdrawn_on": null,
+          "website": "https://nishaforsenate.com/",
+          "incumbent": false
+        },
+        {
+          "name": "Emily A. Thompson",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-01-05",
+          "withdrawn_on": null,
+          "website": "https://thompsonfordelaware.org/",
+          "incumbent": false
+        }
+      ],
+      "current_holder": {
+        "name": "Dave Lawson",
+        "party": "Republican",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 2,
+      "withdrawals": []
+    },
+    {
+      "id": "state-senate-19",
+      "level": "state-senate",
+      "path": "/candidates/state-senate/district-19/",
+      "display": "State Senate District 19",
+      "district": 19,
+      "county": null,
+      "office_source": "State Senator District 19",
+      "candidates": [
+        {
+          "name": "Brian G. Pettyjohn",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-01-14",
+          "withdrawn_on": null,
+          "website": "https://BrianPettyjohn.com",
+          "incumbent": true
+        }
+      ],
+      "current_holder": {
+        "name": "Brian Pettyjohn",
+        "party": "Republican",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 1,
+      "withdrawals": []
+    },
+    {
+      "id": "state-senate-20",
+      "level": "state-senate",
+      "path": "/candidates/state-senate/district-20/",
+      "display": "State Senate District 20",
+      "district": 20,
+      "county": null,
+      "office_source": "State Senator District 20",
+      "candidates": [
+        {
+          "name": "Harry S. Gold",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-08-25",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        },
+        {
+          "name": "Gerald W. Hocker",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2025-11-18",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": true
+        }
+      ],
+      "current_holder": {
+        "name": "Gerald Hocker",
+        "party": "Republican",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 2,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-1",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-1/",
+      "display": "State House District 1",
+      "district": 1,
+      "county": null,
+      "office_source": "State Representative District 1",
+      "candidates": [
+        {
+          "name": "Nnamdi O. Chukwuocha",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-05-27",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": true
+        },
+        {
+          "name": "Lisa McInnis",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-08-30",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        }
+      ],
+      "current_holder": {
+        "name": "Nnamdi Chukwuocha",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 2,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-2",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-2/",
+      "display": "State House District 2",
+      "district": 2,
+      "county": null,
+      "office_source": "State Representative District 2",
+      "candidates": [
+        {
+          "name": "Michelle H. Booker",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-06-16",
+          "withdrawn_on": null,
+          "website": "https://www.michellebooker.com",
+          "incumbent": false
+        }
+      ],
+      "current_holder": {
+        "name": "Stephanie Bolden",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 1,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-3",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-3/",
+      "display": "State House District 3",
+      "district": 3,
+      "county": null,
+      "office_source": "State Representative District 3",
+      "candidates": [
+        {
+          "name": "Branden Fletcher-Dominguez",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-07-06",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        },
+        {
+          "name": "Shawn L. Dottery",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-07-10",
+          "withdrawn_on": null,
+          "website": "https://www.thequietcoalition.com",
+          "incumbent": false
+        },
+        {
+          "name": "Dexter \"Dizzy\" Bland",
+          "party": "Independent Party of Delaware",
+          "status": "qualified",
+          "filed": "2026-06-24",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        }
+      ],
+      "current_holder": {
+        "name": "Josue Ortega",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 3,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-4",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-4/",
+      "display": "State House District 4",
+      "district": 4,
+      "county": null,
+      "office_source": "State Representative District 4",
+      "candidates": [
+        {
+          "name": "Gregg Lindner",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2025-06-10",
+          "withdrawn_on": null,
+          "website": "https://lindner4delaware.com",
+          "incumbent": false
+        },
+        {
+          "name": "Dan Zitofsky",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-05-12",
+          "withdrawn_on": null,
+          "website": "https://votezitofsky.com",
+          "incumbent": false
+        }
+      ],
+      "current_holder": {
+        "name": "Jeff Hilovsky",
+        "party": "Republican",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 2,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-5",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-5/",
+      "display": "State House District 5",
+      "district": 5,
+      "county": null,
+      "office_source": "State Representative District 5",
+      "candidates": [
+        {
+          "name": "Kendra Johnson",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-05-26",
+          "withdrawn_on": null,
+          "website": "https://kendrafordelaware.com",
+          "incumbent": true
+        }
+      ],
+      "current_holder": {
+        "name": "Kendra Johnson",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 1,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-6",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-6/",
+      "display": "State House District 6",
+      "district": 6,
+      "county": null,
+      "office_source": "State Representative District 6",
+      "candidates": [
+        {
+          "name": "Rachel \"Rae\" Krantz",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-03-23",
+          "withdrawn_on": null,
+          "website": "https://www.raefordelaware.com",
+          "incumbent": false
+        },
+        {
+          "name": "Tanya Hettler",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-08-26",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        }
+      ],
+      "current_holder": {
+        "name": "Debra Heffernan",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 2,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-7",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-7/",
+      "display": "State House District 7",
+      "district": 7,
+      "county": null,
+      "office_source": "State Representative District 7",
+      "candidates": [
+        {
+          "name": "Larry Lambert",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-07-13",
+          "withdrawn_on": null,
+          "website": "https://larryfordelaware.com",
+          "incumbent": true
+        },
+        {
+          "name": "Shane Stoneman",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-08-26",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        }
+      ],
+      "current_holder": {
+        "name": "Larry Lambert",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 2,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-8",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-8/",
+      "display": "State House District 8",
+      "district": 8,
+      "county": null,
+      "office_source": "State Representative District 8",
+      "candidates": [
+        {
+          "name": "Sherae'a \"Rae\" Moore",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-06-04",
+          "withdrawn_on": null,
+          "website": "https://www.mooreforde.com",
+          "incumbent": true
+        },
+        {
+          "name": "Gary Taylor",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-01-27",
+          "withdrawn_on": null,
+          "website": "https://www.Taylor4de.com",
+          "incumbent": false
+        }
+      ],
+      "current_holder": {
+        "name": "Rae Moore",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 2,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-9",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-9/",
+      "display": "State House District 9",
+      "district": 9,
+      "county": null,
+      "office_source": "State Representative District 9",
+      "candidates": [
+        {
+          "name": "Ayanna Khan-Flowers",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-05-29",
+          "withdrawn_on": null,
+          "website": "https://ElectAyanna.com",
+          "incumbent": false
+        },
+        {
+          "name": "Jamar Money",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-06-05",
+          "withdrawn_on": null,
+          "website": "https://www.jamarforde.com",
+          "incumbent": false
+        }
+      ],
+      "current_holder": {
+        "name": "Kevin Hensley",
+        "party": "Republican",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 2,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-10",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-10/",
+      "display": "State House District 10",
+      "district": 10,
+      "county": null,
+      "office_source": "State Representative District 10",
+      "candidates": [
+        {
+          "name": "Melanie Ross Levin",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-02-12",
+          "withdrawn_on": null,
+          "website": "https://www.MelanieRossLevin.com",
+          "incumbent": true
+        },
+        {
+          "name": "Dolores Dunleavy",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-08-26",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        }
+      ],
+      "current_holder": {
+        "name": "Melanie Ross Levin",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 2,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-11",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-11/",
+      "display": "State House District 11",
+      "district": 11,
+      "county": null,
+      "office_source": "State Representative District 11",
+      "candidates": [
+        {
+          "name": "Tori Parker",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-08-28",
+          "withdrawn_on": null,
+          "website": "https://www.pleasevoteparker.com",
+          "incumbent": false
+        },
+        {
+          "name": "Jeffrey N. Spiegelman",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-03-18",
+          "withdrawn_on": null,
+          "website": "https://www.jeffderepresentative.com/",
+          "incumbent": true
+        }
+      ],
+      "current_holder": {
+        "name": "Jeff Spiegelman",
+        "party": "Republican",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 2,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-12",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-12/",
+      "display": "State House District 12",
+      "district": 12,
+      "county": null,
+      "office_source": "State Representative District 12",
+      "candidates": [
+        {
+          "name": "Krista Griffith",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-01-29",
+          "withdrawn_on": null,
+          "website": "https://www.kristagriffith.com",
+          "incumbent": true
+        },
+        {
+          "name": "Steve Pickering",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-05-29",
+          "withdrawn_on": null,
+          "website": "https://www.picksteve4delaware.com",
+          "incumbent": false
+        }
+      ],
+      "current_holder": {
+        "name": "Krista Griffith",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 2,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-13",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-13/",
+      "display": "State House District 13",
+      "district": 13,
+      "county": null,
+      "office_source": "State Representative District 13",
+      "candidates": [
+        {
+          "name": "DeShanna U. Neal",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-04-29",
+          "withdrawn_on": null,
+          "website": "https://www.deshanna4district13.com",
+          "incumbent": true
+        }
+      ],
+      "current_holder": {
+        "name": "DeShanna Neal",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 1,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-14",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-14/",
+      "display": "State House District 14",
+      "district": 14,
+      "county": null,
+      "office_source": "State Representative District 14",
+      "candidates": [
+        {
+          "name": "Claire Snyder-Hall",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2025-06-02",
+          "withdrawn_on": null,
+          "website": "https://clairesnyderhall.com",
+          "incumbent": true
+        },
+        {
+          "name": "Mike Simpler",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-04-10",
+          "withdrawn_on": null,
+          "website": "https://MikeforDelaware.com",
+          "incumbent": false
+        }
+      ],
+      "current_holder": {
+        "name": "Claire Snyder-Hall",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 2,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-15",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-15/",
+      "display": "State House District 15",
+      "district": 15,
+      "county": null,
+      "office_source": "State Representative District 15",
+      "candidates": [
+        {
+          "name": "Kamela T. Smith",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-05-27",
+          "withdrawn_on": null,
+          "website": "https://www.kamelasmithfordelaware.com/",
+          "incumbent": true
+        }
+      ],
+      "current_holder": {
+        "name": "Kam Smith",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 1,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-16",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-16/",
+      "display": "State House District 16",
+      "district": 16,
+      "county": null,
+      "office_source": "State Representative District 16",
+      "candidates": [
+        {
+          "name": "Pamela Salaam",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-03-24",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        },
+        {
+          "name": "Enala A. Mwashitete",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-08-28",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        }
+      ],
+      "current_holder": {
+        "name": "Frank Cooke",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 2,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-17",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-17/",
+      "display": "State House District 17",
+      "district": 17,
+      "county": null,
+      "office_source": "State Representative District 17",
+      "candidates": [
+        {
+          "name": "Melissa Minor Brown",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-05-27",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": true
+        }
+      ],
+      "current_holder": {
+        "name": "Melissa Minor-Brown",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 1,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-18",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-18/",
+      "display": "State House District 18",
+      "district": 18,
+      "county": null,
+      "office_source": "State Representative District 18",
+      "candidates": [
+        {
+          "name": "Sophie Phillips",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-05-22",
+          "withdrawn_on": null,
+          "website": "https://www.sophiekp4de.com",
+          "incumbent": true
+        }
+      ],
+      "current_holder": {
+        "name": "Sophie Phillips",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 1,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-19",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-19/",
+      "display": "State House District 19",
+      "district": 19,
+      "county": null,
+      "office_source": "State Representative District 19",
+      "candidates": [
+        {
+          "name": "Kim Williams",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-05-15",
+          "withdrawn_on": null,
+          "website": "https://kimwilliamsforstaterep.weebly.com",
+          "incumbent": true
+        },
+        {
+          "name": "Janyce Colmery",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-07-13",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        }
+      ],
+      "current_holder": {
+        "name": "Kim Williams",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 2,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-20",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-20/",
+      "display": "State House District 20",
+      "district": 20,
+      "county": null,
+      "office_source": "State Representative District 20",
+      "candidates": [
+        {
+          "name": "Alonna Berry",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2025-07-25",
+          "withdrawn_on": null,
+          "website": "http://alonnaberry.com",
+          "incumbent": true
+        },
+        {
+          "name": "Gene Dvornick",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-06-08",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        },
+        {
+          "name": "Nikki Miller",
+          "party": "Republican",
+          "status": "withdrawn",
+          "filed": "2025-06-25",
+          "withdrawn_on": "2026-02-20",
+          "website": null,
+          "incumbent": false
+        },
+        {
+          "name": "Dan Poliseno",
+          "party": "Republican",
+          "status": "withdrawn",
+          "filed": "2026-03-06",
+          "withdrawn_on": "2026-03-16",
+          "website": "https://danpoliseno.com/",
+          "incumbent": false
+        }
+      ],
+      "current_holder": {
+        "name": "Alonna Berry",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 2,
+      "withdrawals": [
+        {
+          "name": "Nikki Miller",
+          "withdrawn_on": "2026-02-20"
+        },
+        {
+          "name": "Dan Poliseno",
+          "withdrawn_on": "2026-03-16"
+        }
+      ]
+    },
+    {
+      "id": "state-house-21",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-21/",
+      "display": "State House District 21",
+      "district": 21,
+      "county": null,
+      "office_source": "State Representative District 21",
+      "candidates": [
+        {
+          "name": "Frank Burns",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-06-22",
+          "withdrawn_on": null,
+          "website": "https://www.changeforthe21st.org",
+          "incumbent": true
+        }
+      ],
+      "current_holder": {
+        "name": "Frank Burns",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 1,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-22",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-22/",
+      "display": "State House District 22",
+      "district": 22,
+      "county": null,
+      "office_source": "State Representative District 22",
+      "candidates": [
+        {
+          "name": "Alex Green",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-06-30",
+          "withdrawn_on": null,
+          "website": "https://www.alexgreenfordelaware.com",
+          "incumbent": false
+        },
+        {
+          "name": "Mike Smith",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-06-26",
+          "withdrawn_on": null,
+          "website": "https://www.MikeSmithforDelaware.com",
+          "incumbent": true
+        }
+      ],
+      "current_holder": {
+        "name": "Mike Smith",
+        "party": "Republican",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 2,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-23",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-23/",
+      "display": "State House District 23",
+      "district": 23,
+      "county": null,
+      "office_source": "State Representative District 23",
+      "candidates": [
+        {
+          "name": "Dave Redlawsk",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-04-08",
+          "withdrawn_on": null,
+          "website": "https://www.davefor23.com",
+          "incumbent": false
+        }
+      ],
+      "current_holder": {
+        "name": "Mara Gorman",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 1,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-24",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-24/",
+      "display": "State House District 24",
+      "district": 24,
+      "county": null,
+      "office_source": "State Representative District 24",
+      "candidates": [
+        {
+          "name": "Ed Osienski",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-02-12",
+          "withdrawn_on": null,
+          "website": "https://GoEddieO.org",
+          "incumbent": true
+        },
+        {
+          "name": "Stephen P. Ondich",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-07-13",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        }
+      ],
+      "current_holder": {
+        "name": "Ed Osienski",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 2,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-25",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-25/",
+      "display": "State House District 25",
+      "district": 25,
+      "county": null,
+      "office_source": "State Representative District 25",
+      "candidates": [
+        {
+          "name": "Cyndie Romer",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-06-01",
+          "withdrawn_on": null,
+          "website": "https://www.romerfordelaware.com",
+          "incumbent": true
+        }
+      ],
+      "current_holder": {
+        "name": "Cyndie Romer",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 1,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-26",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-26/",
+      "display": "State House District 26",
+      "district": 26,
+      "county": null,
+      "office_source": "State Representative District 26",
+      "candidates": [
+        {
+          "name": "Madinah Wilson-Anton",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-05-01",
+          "withdrawn_on": null,
+          "website": "https://www.madinahfordelaware.com",
+          "incumbent": true
+        }
+      ],
+      "current_holder": {
+        "name": "Madinah Wilson-Anton",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 1,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-27",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-27/",
+      "display": "State House District 27",
+      "district": 27,
+      "county": null,
+      "office_source": "State Representative District 27",
+      "candidates": [
+        {
+          "name": "Eric Morrison",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-05-28",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": true
+        },
+        {
+          "name": "Mary \"Penny\" Kubin",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-06-17",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        }
+      ],
+      "current_holder": {
+        "name": "Eric Morrison",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 2,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-28",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-28/",
+      "display": "State House District 28",
+      "district": 28,
+      "county": null,
+      "office_source": "State Representative District 28",
+      "candidates": [
+        {
+          "name": "Tyeisha \"Tye\" Grier",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-07-14",
+          "withdrawn_on": null,
+          "website": "https://www.tyeishagrier.com/",
+          "incumbent": false
+        }
+      ],
+      "current_holder": {
+        "name": "Bill Carson",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 1,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-29",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-29/",
+      "display": "State House District 29",
+      "district": 29,
+      "county": null,
+      "office_source": "State Representative District 29",
+      "candidates": [
+        {
+          "name": "William Bush",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-04-09",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": true
+        }
+      ],
+      "current_holder": {
+        "name": "Bill Bush",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 1,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-30",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-30/",
+      "display": "State House District 30",
+      "district": 30,
+      "county": null,
+      "office_source": "State Representative District 30",
+      "candidates": [
+        {
+          "name": "Wm Shannon Morris",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-03-26",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": true
+        }
+      ],
+      "current_holder": {
+        "name": "Shannon Morris",
+        "party": "Republican",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 1,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-31",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-31/",
+      "display": "State House District 31",
+      "district": 31,
+      "county": null,
+      "office_source": "State Representative District 31",
+      "candidates": [
+        {
+          "name": "Sean M. Lynn",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-04-28",
+          "withdrawn_on": null,
+          "website": "https://WinWithLynn.org",
+          "incumbent": true
+        },
+        {
+          "name": "Anton Brogden",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-08-06",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        }
+      ],
+      "current_holder": {
+        "name": "Sean Lynn",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 2,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-32",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-32/",
+      "display": "State House District 32",
+      "district": 32,
+      "county": null,
+      "office_source": "State Representative District 32",
+      "candidates": [
+        {
+          "name": "Kerri Evelyn Harris",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-05-15",
+          "withdrawn_on": null,
+          "website": "https://www.kerrifordelaware.com/",
+          "incumbent": true
+        }
+      ],
+      "current_holder": {
+        "name": "Kerri Harris",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 1,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-33",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-33/",
+      "display": "State House District 33",
+      "district": 33,
+      "county": null,
+      "office_source": "State Representative District 33",
+      "candidates": [
+        {
+          "name": "Joshua Pennington",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-03-09",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        },
+        {
+          "name": "Morgan Hudson",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2025-12-01",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        }
+      ],
+      "current_holder": {
+        "name": "Charles Postles",
+        "party": "Republican",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 2,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-34",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-34/",
+      "display": "State House District 34",
+      "district": 34,
+      "county": null,
+      "office_source": "State Representative District 34",
+      "candidates": [
+        {
+          "name": "Annie Norman",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-06-30",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        },
+        {
+          "name": "Lyndon D. Yearick",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-02-19",
+          "withdrawn_on": null,
+          "website": "https://lyearickfordelaware.com/",
+          "incumbent": true
+        }
+      ],
+      "current_holder": {
+        "name": "Lyndon Yearick",
+        "party": "Republican",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 2,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-35",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-35/",
+      "display": "State House District 35",
+      "district": 35,
+      "county": null,
+      "office_source": "State Representative District 35",
+      "candidates": [
+        {
+          "name": "Jesse R. Vanderwende",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-06-08",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": true
+        }
+      ],
+      "current_holder": {
+        "name": "Jesse Vanderwende",
+        "party": "Republican",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 1,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-36",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-36/",
+      "display": "State House District 36",
+      "district": 36,
+      "county": null,
+      "office_source": "State Representative District 36",
+      "candidates": [
+        {
+          "name": "Andrew \"Andy\" Gorlich",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-06-24",
+          "withdrawn_on": null,
+          "website": "https://www.andygorlich.com",
+          "incumbent": false
+        },
+        {
+          "name": "Bryan William Shupe",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-06-03",
+          "withdrawn_on": null,
+          "website": "http://BryanShupe.com",
+          "incumbent": true
+        }
+      ],
+      "current_holder": {
+        "name": "Bryan Shupe",
+        "party": "Republican",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 2,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-37",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-37/",
+      "display": "State House District 37",
+      "district": 37,
+      "county": null,
+      "office_source": "State Representative District 37",
+      "candidates": [
+        {
+          "name": "Valerie Jones Giltner",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-01-14",
+          "withdrawn_on": null,
+          "website": "http://valeriefor37th.com",
+          "incumbent": true
+        }
+      ],
+      "current_holder": {
+        "name": "Valerie Giltner",
+        "party": "Republican",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 1,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-38",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-38/",
+      "display": "State House District 38",
+      "district": 38,
+      "county": null,
+      "office_source": "State Representative District 38",
+      "candidates": [
+        {
+          "name": "Maureen Madden",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2025-07-08",
+          "withdrawn_on": null,
+          "website": "http://maddenfordelaware.com",
+          "incumbent": false
+        },
+        {
+          "name": "Carlie Carey",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-04-10",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        }
+      ],
+      "current_holder": {
+        "name": "Ron Gray",
+        "party": "Republican",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 2,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-39",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-39/",
+      "display": "State House District 39",
+      "district": 39,
+      "county": null,
+      "office_source": "State Representative District 39",
+      "candidates": [
+        {
+          "name": "Daniel B. Short",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-06-08",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": true
+        }
+      ],
+      "current_holder": {
+        "name": "Danny Short",
+        "party": "Republican",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 1,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-40",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-40/",
+      "display": "State House District 40",
+      "district": 40,
+      "county": null,
+      "office_source": "State Representative District 40",
+      "candidates": [
+        {
+          "name": "Timothy Dale Dukes",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-06-08",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": true
+        }
+      ],
+      "current_holder": {
+        "name": "Tim Dukes",
+        "party": "Republican",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 1,
+      "withdrawals": []
+    },
+    {
+      "id": "state-house-41",
+      "level": "state-house",
+      "path": "/candidates/state-house/district-41/",
+      "display": "State House District 41",
+      "district": 41,
+      "county": null,
+      "office_source": "State Representative District 41",
+      "candidates": [
+        {
+          "name": "Ryan Stuckey",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2025-10-23",
+          "withdrawn_on": null,
+          "website": "http://RyanStuckey.com",
+          "incumbent": false
+        },
+        {
+          "name": "John Atkins",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-04-09",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        }
+      ],
+      "current_holder": {
+        "name": "Rich Collins",
+        "party": "Republican",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      },
+      "qualified_count": 2,
+      "withdrawals": []
+    },
+    {
+      "id": "new-castle-county-recorder-of-deeds",
+      "level": "county",
+      "path": "/candidates/new-castle-county/#recorder-of-deeds",
+      "display": "New Castle County Recorder of Deeds",
+      "district": null,
+      "county": "New Castle",
+      "office_source": "New Castle County Recorder of Deeds",
+      "candidates": [
+        {
+          "name": "David Tackett",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-06-24",
+          "withdrawn_on": null,
+          "website": "https://www.tackett4deeds.netlify.app",
+          "incumbent": false
+        }
+      ],
+      "current_holder": null,
+      "qualified_count": 1,
+      "withdrawals": []
+    },
+    {
+      "id": "new-castle-county-register-of-wills",
+      "level": "county",
+      "path": "/candidates/new-castle-county/#register-of-wills",
+      "display": "New Castle County Register of Wills",
+      "district": null,
+      "county": "New Castle",
+      "office_source": "New Castle County Register of Wills",
+      "candidates": [
+        {
+          "name": "Ciro Poppiti",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-03-17",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        }
+      ],
+      "current_holder": null,
+      "qualified_count": 1,
+      "withdrawals": []
+    },
+    {
+      "id": "new-castle-county-sheriff",
+      "level": "county",
+      "path": "/candidates/new-castle-county/#sheriff",
+      "display": "New Castle County Sheriff",
+      "district": null,
+      "county": "New Castle",
+      "office_source": "New Castle County Sheriff",
+      "candidates": [
+        {
+          "name": "Scott Phillips",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-02-10",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        }
+      ],
+      "current_holder": null,
+      "qualified_count": 1,
+      "withdrawals": []
+    },
+    {
+      "id": "new-castle-county-council-district-1",
+      "level": "county",
+      "path": "/candidates/new-castle-county/#council-district-1",
+      "display": "New Castle County Council District 1",
+      "district": 1,
+      "county": "New Castle",
+      "office_source": "New Castle County Council District 1",
+      "candidates": [
+        {
+          "name": "Brandon Toole",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-05-15",
+          "withdrawn_on": null,
+          "website": "https://www.brandon4de.com",
+          "incumbent": false
+        }
+      ],
+      "current_holder": null,
+      "qualified_count": 1,
+      "withdrawals": []
+    },
+    {
+      "id": "new-castle-county-council-district-2",
+      "level": "county",
+      "path": "/candidates/new-castle-county/#council-district-2",
+      "display": "New Castle County Council District 2",
+      "district": 2,
+      "county": "New Castle",
+      "office_source": "New Castle County Council District 2",
+      "candidates": [
+        {
+          "name": "Dee Durham",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-03-17",
+          "withdrawn_on": null,
+          "website": "https://www.friendsfordeedurham.us",
+          "incumbent": false
+        },
+        {
+          "name": "Jamie Collins",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-07-14",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        }
+      ],
+      "current_holder": null,
+      "qualified_count": 2,
+      "withdrawals": []
+    },
+    {
+      "id": "new-castle-county-council-district-3",
+      "level": "county",
+      "path": "/candidates/new-castle-county/#council-district-3",
+      "display": "New Castle County Council District 3",
+      "district": 3,
+      "county": "New Castle",
+      "office_source": "New Castle County Council District 3",
+      "candidates": [
+        {
+          "name": "Kira Alejandro",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-02-10",
+          "withdrawn_on": null,
+          "website": "https://www.kiraforcouncil.com",
+          "incumbent": false
+        },
+        {
+          "name": "Melissa S. Brayman",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-06-22",
+          "withdrawn_on": null,
+          "website": "https://braymanforchange.com/",
+          "incumbent": false
+        }
+      ],
+      "current_holder": null,
+      "qualified_count": 2,
+      "withdrawals": []
+    },
+    {
+      "id": "new-castle-county-council-district-4",
+      "level": "county",
+      "path": "/candidates/new-castle-county/#council-district-4",
+      "display": "New Castle County Council District 4",
+      "district": 4,
+      "county": "New Castle",
+      "office_source": "New Castle County Council District 4",
+      "candidates": [
+        {
+          "name": "Jason Hoover",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-03-27",
+          "withdrawn_on": null,
+          "website": "https://gohoover.com",
+          "incumbent": false
+        }
+      ],
+      "current_holder": null,
+      "qualified_count": 1,
+      "withdrawals": []
+    },
+    {
+      "id": "new-castle-county-council-district-5",
+      "level": "county",
+      "path": "/candidates/new-castle-county/#council-district-5",
+      "display": "New Castle County Council District 5",
+      "district": 5,
+      "county": "New Castle",
+      "office_source": "New Castle County Council District 5",
+      "candidates": [
+        {
+          "name": "Valerie George",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-02-19",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        }
+      ],
+      "current_holder": null,
+      "qualified_count": 1,
+      "withdrawals": []
+    },
+    {
+      "id": "new-castle-county-council-district-6",
+      "level": "county",
+      "path": "/candidates/new-castle-county/#council-district-6",
+      "display": "New Castle County Council District 6",
+      "district": 6,
+      "county": "New Castle",
+      "office_source": "New Castle County Council District 6",
+      "candidates": [
+        {
+          "name": "David Carter",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-02-17",
+          "withdrawn_on": null,
+          "website": "https://www.carterforncc.org",
+          "incumbent": false
+        },
+        {
+          "name": "Christopher W. Muntz",
+          "party": "Democratic",
+          "status": "withdrawn",
+          "filed": "2026-01-08",
+          "withdrawn_on": "2026-07-13",
+          "website": "https://www.muntzforncc.com",
+          "incumbent": false
+        },
+        {
+          "name": "Alison T. Gibbs",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-07-13",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        }
+      ],
+      "current_holder": null,
+      "qualified_count": 2,
+      "withdrawals": [
+        {
+          "name": "Christopher W. Muntz",
+          "withdrawn_on": "2026-07-13"
+        }
+      ]
+    },
+    {
+      "id": "kent-county-recorder-of-deeds",
+      "level": "county",
+      "path": "/candidates/kent-county/#recorder-of-deeds",
+      "display": "Kent County Recorder of Deeds",
+      "district": null,
+      "county": "Kent",
+      "office_source": "Kent County Recorder of Deeds",
+      "candidates": [
+        {
+          "name": "Ramona Bracy",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-03-18",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        },
+        {
+          "name": "Eugenia Thornton",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-05-19",
+          "withdrawn_on": null,
+          "website": "https://www.eugeniathornton.com",
+          "incumbent": false
+        }
+      ],
+      "current_holder": null,
+      "qualified_count": 2,
+      "withdrawals": []
+    },
+    {
+      "id": "kent-county-sheriff",
+      "level": "county",
+      "path": "/candidates/kent-county/#sheriff",
+      "display": "Kent County Sheriff",
+      "district": null,
+      "county": "Kent",
+      "office_source": "Kent County Sheriff",
+      "candidates": [
+        {
+          "name": "Norman R. Barlow",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-04-17",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        }
+      ],
+      "current_holder": null,
+      "qualified_count": 1,
+      "withdrawals": []
+    },
+    {
+      "id": "kent-county-levy-court-at-large",
+      "level": "county",
+      "path": "/candidates/kent-county/#levy-court-at-large",
+      "display": "Kent County Levy Court At-Large",
+      "district": null,
+      "county": "Kent",
+      "office_source": "Kent County Levy Court At-Large",
+      "candidates": [
+        {
+          "name": "Terry L. Pepper",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-05-01",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        },
+        {
+          "name": "Frank E Coleman",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-04-22",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        }
+      ],
+      "current_holder": null,
+      "qualified_count": 2,
+      "withdrawals": []
+    },
+    {
+      "id": "kent-county-levy-court-district-2",
+      "level": "county",
+      "path": "/candidates/kent-county/#levy-court-district-2",
+      "display": "Kent County Levy Court District 2",
+      "district": 2,
+      "county": "Kent",
+      "office_source": "Kent County Levy Court District 2",
+      "candidates": [
+        {
+          "name": "Jeff Hall",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-02-17",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        }
+      ],
+      "current_holder": null,
+      "qualified_count": 1,
+      "withdrawals": []
+    },
+    {
+      "id": "kent-county-levy-court-district-4",
+      "level": "county",
+      "path": "/candidates/kent-county/#levy-court-district-4",
+      "display": "Kent County Levy Court District 4",
+      "district": 4,
+      "county": "Kent",
+      "office_source": "Kent County Levy Court District 4",
+      "candidates": [
+        {
+          "name": "Robert \"Bobby\" Scott",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-04-17",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        }
+      ],
+      "current_holder": null,
+      "qualified_count": 1,
+      "withdrawals": []
+    },
+    {
+      "id": "kent-county-levy-court-district-6",
+      "level": "county",
+      "path": "/candidates/kent-county/#levy-court-district-6",
+      "display": "Kent County Levy Court District 6",
+      "district": 6,
+      "county": "Kent",
+      "office_source": "Kent County Levy Court District 6",
+      "candidates": [
+        {
+          "name": "Paul Hertz",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-04-17",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        }
+      ],
+      "current_holder": null,
+      "qualified_count": 1,
+      "withdrawals": []
+    },
+    {
+      "id": "sussex-county-recorder-of-deeds",
+      "level": "county",
+      "path": "/candidates/sussex-county/#recorder-of-deeds",
+      "display": "Sussex County Recorder of Deeds",
+      "district": null,
+      "county": "Sussex",
+      "office_source": "Sussex County Recorder of Deeds",
+      "candidates": [
+        {
+          "name": "Alexandra Reed Baker",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-02-18",
+          "withdrawn_on": null,
+          "website": "https://www.facebook.com/AlexandraReedBakerforRecorderofDeedsinSussex/",
+          "incumbent": false
+        }
+      ],
+      "current_holder": null,
+      "qualified_count": 1,
+      "withdrawals": []
+    },
+    {
+      "id": "sussex-county-register-of-wills",
+      "level": "county",
+      "path": "/candidates/sussex-county/#register-of-wills",
+      "display": "Sussex County Register of Wills",
+      "district": null,
+      "county": "Sussex",
+      "office_source": "Sussex County Register of Wills",
+      "candidates": [
+        {
+          "name": "Greg Fuller",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2025-11-19",
+          "withdrawn_on": null,
+          "website": "https://www.gregfullersr.com",
+          "incumbent": false
+        }
+      ],
+      "current_holder": null,
+      "qualified_count": 1,
+      "withdrawals": []
+    },
+    {
+      "id": "sussex-county-sheriff",
+      "level": "county",
+      "path": "/candidates/sussex-county/#sheriff",
+      "display": "Sussex County Sheriff",
+      "district": null,
+      "county": "Sussex",
+      "office_source": "Sussex County Sheriff",
+      "candidates": [
+        {
+          "name": "Robert T. Lee",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-01-15",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        }
+      ],
+      "current_holder": null,
+      "qualified_count": 1,
+      "withdrawals": []
+    },
+    {
+      "id": "sussex-county-council-district-4",
+      "level": "county",
+      "path": "/candidates/sussex-county/#council-district-4",
+      "display": "Sussex County Council District 4",
+      "district": 4,
+      "county": "Sussex",
+      "office_source": "Sussex County Council District 4",
+      "candidates": [
+        {
+          "name": "Justine Cuccia",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-04-14",
+          "withdrawn_on": null,
+          "website": "https://Justine4Sussex.com",
+          "incumbent": false
+        },
+        {
+          "name": "Douglas B. Hudson",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-01-14",
+          "withdrawn_on": null,
+          "website": null,
+          "incumbent": false
+        }
+      ],
+      "current_holder": null,
+      "qualified_count": 2,
+      "withdrawals": []
+    },
+    {
+      "id": "sussex-county-council-district-5",
+      "level": "county",
+      "path": "/candidates/sussex-county/#council-district-5",
+      "display": "Sussex County Council District 5",
+      "district": 5,
+      "county": "Sussex",
+      "office_source": "Sussex County Council District 5",
+      "candidates": [
+        {
+          "name": "Jill Hicks",
+          "party": "Democratic",
+          "status": "qualified",
+          "filed": "2026-03-11",
+          "withdrawn_on": null,
+          "website": "https://ElectJillHicks.com",
+          "incumbent": false
+        },
+        {
+          "name": "John L. Rieley",
+          "party": "Republican",
+          "status": "qualified",
+          "filed": "2026-01-15",
+          "withdrawn_on": null,
+          "website": "https://johnrieley.com",
+          "incumbent": false
+        }
+      ],
+      "current_holder": null,
+      "qualified_count": 2,
+      "withdrawals": []
+    }
+  ],
+  "senate_not_on_2026_ballot": [
+    {
+      "id": "state-senate-2",
+      "level": "state-senate",
+      "district": 2,
+      "path": "/candidates/state-senate/district-2/",
+      "display": "State Senate District 2",
+      "on_2026_ballot": false,
+      "last_election": 2024,
+      "next_election": 2028,
+      "last_election_source": "https://elections.delaware.gov/candidates/candidatelist/genl_fcddt_2024.html",
+      "current_holder": {
+        "name": "Darius Brown",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      }
+    },
+    {
+      "id": "state-senate-3",
+      "level": "state-senate",
+      "district": 3,
+      "path": "/candidates/state-senate/district-3/",
+      "display": "State Senate District 3",
+      "on_2026_ballot": false,
+      "last_election": 2024,
+      "next_election": 2028,
+      "last_election_source": "https://elections.delaware.gov/candidates/candidatelist/genl_fcddt_2024.html",
+      "current_holder": {
+        "name": "Tizzy Lockman",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      }
+    },
+    {
+      "id": "state-senate-4",
+      "level": "state-senate",
+      "district": 4,
+      "path": "/candidates/state-senate/district-4/",
+      "display": "State Senate District 4",
+      "on_2026_ballot": false,
+      "last_election": 2024,
+      "next_election": 2028,
+      "last_election_source": "https://elections.delaware.gov/candidates/candidatelist/genl_fcddt_2024.html",
+      "current_holder": {
+        "name": "Laura Sturgeon",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      }
+    },
+    {
+      "id": "state-senate-6",
+      "level": "state-senate",
+      "district": 6,
+      "path": "/candidates/state-senate/district-6/",
+      "display": "State Senate District 6",
+      "on_2026_ballot": false,
+      "last_election": 2024,
+      "next_election": 2028,
+      "last_election_source": "https://elections.delaware.gov/candidates/candidatelist/genl_fcddt_2024.html",
+      "current_holder": {
+        "name": "Russ Huxtable",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      }
+    },
+    {
+      "id": "state-senate-10",
+      "level": "state-senate",
+      "district": 10,
+      "path": "/candidates/state-senate/district-10/",
+      "display": "State Senate District 10",
+      "on_2026_ballot": false,
+      "last_election": 2024,
+      "next_election": 2028,
+      "last_election_source": "https://elections.delaware.gov/candidates/candidatelist/genl_fcddt_2024.html",
+      "current_holder": {
+        "name": "Stephanie Hansen",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      }
+    },
+    {
+      "id": "state-senate-11",
+      "level": "state-senate",
+      "district": 11,
+      "path": "/candidates/state-senate/district-11/",
+      "display": "State Senate District 11",
+      "on_2026_ballot": false,
+      "last_election": 2024,
+      "next_election": 2028,
+      "last_election_source": "https://elections.delaware.gov/candidates/candidatelist/genl_fcddt_2024.html",
+      "current_holder": {
+        "name": "Bryan Townsend",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      }
+    },
+    {
+      "id": "state-senate-16",
+      "level": "state-senate",
+      "district": 16,
+      "path": "/candidates/state-senate/district-16/",
+      "display": "State Senate District 16",
+      "on_2026_ballot": false,
+      "last_election": 2024,
+      "next_election": 2028,
+      "last_election_source": "https://elections.delaware.gov/candidates/candidatelist/genl_fcddt_2024.html",
+      "current_holder": {
+        "name": "Eric Buckson",
+        "party": "Republican",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      }
+    },
+    {
+      "id": "state-senate-17",
+      "level": "state-senate",
+      "district": 17,
+      "path": "/candidates/state-senate/district-17/",
+      "display": "State Senate District 17",
+      "on_2026_ballot": false,
+      "last_election": 2024,
+      "next_election": 2028,
+      "last_election_source": "https://elections.delaware.gov/candidates/candidatelist/genl_fcddt_2024.html",
+      "current_holder": {
+        "name": "Trey Paradee",
+        "party": "Democratic",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      }
+    },
+    {
+      "id": "state-senate-18",
+      "level": "state-senate",
+      "district": 18,
+      "path": "/candidates/state-senate/district-18/",
+      "display": "State Senate District 18",
+      "on_2026_ballot": false,
+      "last_election": 2024,
+      "next_election": 2028,
+      "last_election_source": "https://elections.delaware.gov/candidates/candidatelist/genl_fcddt_2024.html",
+      "current_holder": {
+        "name": "Dave Wilson",
+        "party": "Republican",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      }
+    },
+    {
+      "id": "state-senate-21",
+      "level": "state-senate",
+      "district": 21,
+      "path": "/candidates/state-senate/district-21/",
+      "display": "State Senate District 21",
+      "on_2026_ballot": false,
+      "last_election": 2024,
+      "next_election": 2028,
+      "last_election_source": "https://elections.delaware.gov/candidates/candidatelist/genl_fcddt_2024.html",
+      "current_holder": {
+        "name": "Bryant Richardson",
+        "party": "Republican",
+        "source": "/votes/",
+        "source_label": "First State Lens voting record (Open States)"
+      }
+    }
+  ],
+  "generated_at": "2026-10-06T02:22:44Z"
+}

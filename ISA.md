@@ -445,3 +445,18 @@ needs Mark to add the data.gov key as a repo secret; (3) DGI MMG county join fin
 **Cross-vendor second look:** Forge (GPT-5.4) fanned out + self-validated the 8 dashboard head blocks (8/8 JSON-LD parse, single-canonical, additions-only); Google's validator independently confirmed 0 schema errors. Rule 2a floor satisfied without a Decisions skip-row.
 
 **Deploy:** commit `20472f5` pushed to main → Cloudflare Pages deployed (~32s), all live-verified.
+
+## 2026-10-05: Election expansion (plan `docs/UPGRADE-PLAN.md`; Mark: "Build full ballot ... All pages approved after election pages built")
+
+- [x] ISC-57: U.S. House record lists every qualified candidate on the state list. Verified: Arminio added (`fa4b427`), live render shows 3 records.
+- [x] ISC-58: `/vote/` live with every date sourced to the Department of Elections 2026 calendar. Verified: live render; a11y CI pass on `e791bc0`.
+- [x] ISC-59: Deadline banner shows the correct message for every Delaware hour Oct 5 to Nov 5 and hides after. Verified: `bun test scripts/election-banner.test.ts` 10/10.
+- [ ] ISC-60: E1 puller `etl/sources/de_candidates.py`: per-race and total counts equal the source table on a fresh pull; silent-zero guard; fixture-based pytest.
+- [ ] ISC-61: Anti: no candidate address, phone or email in any file under `candidates/` (PII gate, zero matches).
+- [ ] ISC-62: Static race pages generated for 21 State Senate districts (11 on the ballot, 10 stating the 2024/2028 cycle), 41 State House districts, 4 statewide offices, 3 county pages; names present in the served HTML without JavaScript.
+- [ ] ISC-63: `/candidates/` index lists every 2026 race and links each page.
+- [ ] ISC-64: Incumbent label only where chamber + district + last name match the voting-record roster (or an official state source for statewide offices).
+- [ ] ISC-65: New pages in sitemap, llms.txt and a11y ROUTES (representative sample); a11y CI passes.
+- [ ] ISC-66: `candidates-daily.yml` refreshes the ballot daily through 2026-11-04 and commits `candidates/` only.
+- [ ] ISC-67: Forge audit of the puller and the generator before the first production push of E1; findings folded.
+- [ ] ISC-68: Live production render checked for index, an on-ballot Senate district, an off-ballot Senate district, a House district, a county page and a statewide page.
