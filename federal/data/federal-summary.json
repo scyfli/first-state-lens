@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-05T18:12:12Z",
+  "generated_at": "2026-10-12T18:49:46Z",
   "fiscal_year": 2026,
   "scope": "place_of_performance=DE",
   "scope_note": "Money spent in Delaware (place of performance), not money to Delaware-based recipients.",
   "counts": {
-    "contracts": 3533,
-    "grants": 1938,
-    "direct_payments": 2983,
-    "loans": 815,
+    "contracts": 3571,
+    "grants": 1990,
+    "direct_payments": 2990,
+    "loans": 837,
     "idvs": 0,
-    "other": 499
+    "other": 500
   },
-  "total_awards": 9768,
+  "total_awards": 9888,
   "top_contracts": [
     {
       "recipient": "AGATE CONSTRUCTION COMPANY, INC.",
@@ -21,7 +21,7 @@
     },
     {
       "recipient": "DOBCO INC",
-      "amount": 45334048.58,
+      "amount": 50064417.57,
       "agency": "Department of Defense",
       "type": "\u2014"
     },
@@ -118,28 +118,10 @@
       "type": "BLOCK GRANT (A)"
     },
     {
-      "recipient": "HEALTH AND SOCIAL SERVICES, DEPARTMENT OF",
-      "amount": 282943334.0,
-      "agency": "Department of Health and Human Services",
-      "type": "PROJECT GRANT (B)"
-    },
-    {
       "recipient": "DEPARTMENT OF SAFETY & HOMELAND SECURITY",
       "amount": 273519077.74,
       "agency": "Department of Homeland Security",
       "type": "PROJECT GRANT (B)"
-    },
-    {
-      "recipient": "EXECUTIVE OFFICE OF THE GOVERNOR OF DELAWARE",
-      "amount": 195493770.69,
-      "agency": "Department of Health and Human Services",
-      "type": "COOPERATIVE AGREEMENT (B)"
-    },
-    {
-      "recipient": "EXECUTIVE OFFICE OF THE GOVERNOR OF DELAWARE",
-      "amount": 157394963.86,
-      "agency": "Department of Health and Human Services",
-      "type": "COOPERATIVE AGREEMENT (B)"
     },
     {
       "recipient": "TRANSPORTATION, DELAWARE DEPARTMENT OF",
@@ -194,6 +176,24 @@
       "amount": 70000000.0,
       "agency": "Department of Commerce",
       "type": "COOPERATIVE AGREEMENT (B)"
+    },
+    {
+      "recipient": "WESTSIDE FAMILY HEALTHCARE INC",
+      "amount": 63938796.0,
+      "agency": "Department of Health and Human Services",
+      "type": "PROJECT GRANT (B)"
+    },
+    {
+      "recipient": "UNIVERSITY OF DELAWARE",
+      "amount": 62932780.19,
+      "agency": "Department of Health and Human Services",
+      "type": "PROJECT GRANT (B)"
+    },
+    {
+      "recipient": "DEPARTMENT OF EDUCATION DELAWARE",
+      "amount": 60942492.0,
+      "agency": "Department of Education",
+      "type": "FORMULA GRANT (A)"
     }
   ],
   "source": {

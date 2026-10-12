@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T18:18:29Z",
+  "generated_at": "2026-10-12T18:55:24Z",
   "cycle": 2026,
   "scope": "Delaware federal candidates, 2026 election cycle",
   "scope_note": "Money raised and spent by candidates for U.S. House and U.S. Senate from Delaware, as reported to the Federal Election Commission. Amounts are as-filed and the most recent filing may lag current activity. FEC registration is not the Delaware ballot: a registered candidate may or may not be certified on the November ballot.",
@@ -50,22 +50,11 @@
       "receipts": 778.96,
       "disbursements": 538.62,
       "cash_on_hand": null,
-      "coverage_end": "2026-08-26"
+      "coverage_end": "2026-09-30"
     },
     {
       "name": "COOPER, EARL L",
       "candidate_id": "H4DE01092",
-      "office": "House",
-      "party": "REP",
-      "incumbency": "Challenger",
-      "receipts": 0.0,
-      "disbursements": 0.0,
-      "cash_on_hand": null,
-      "coverage_end": null
-    },
-    {
-      "name": "CARLSON, OWEN NICHOLAS",
-      "candidate_id": "H6DE01113",
       "office": "House",
       "party": "REP",
       "incumbency": "Challenger",
@@ -141,10 +130,10 @@
       "coverage_end": "2026-08-26"
     },
     {
-      "name": "SOLOMON, GAVIN",
-      "candidate_id": "S6DE00248",
+      "name": "HANSEN, E. NO-TRUMP",
+      "candidate_id": "S6DE00271",
       "office": "Senate",
-      "party": "REP",
+      "party": "DEM",
       "incumbency": "Challenger",
       "receipts": 0.0,
       "disbursements": 0.0,
@@ -152,10 +141,32 @@
       "coverage_end": null
     },
     {
-      "name": "STEVENS, TRAVIS",
-      "candidate_id": "S6DE00222",
+      "name": "HANSEN, ERIC",
+      "candidate_id": "S4DE00094",
       "office": "Senate",
       "party": "DEM",
+      "incumbency": "\u2014",
+      "receipts": 0.0,
+      "disbursements": 0.0,
+      "cash_on_hand": null,
+      "coverage_end": "2025-01-09"
+    },
+    {
+      "name": "COPPOLA, ALEC",
+      "candidate_id": "S6DE00214",
+      "office": "Senate",
+      "party": "REP",
+      "incumbency": "\u2014",
+      "receipts": 0.0,
+      "disbursements": 0.0,
+      "cash_on_hand": null,
+      "coverage_end": null
+    },
+    {
+      "name": "SOLOMON, GAVIN",
+      "candidate_id": "S6DE00255",
+      "office": "Senate",
+      "party": "REP",
       "incumbency": "Challenger",
       "receipts": 0.0,
       "disbursements": 0.0,
@@ -185,22 +196,11 @@
       "coverage_end": null
     },
     {
-      "name": "HANSEN, E. NO-TRUMP",
-      "candidate_id": "S6DE00271",
+      "name": "STEVENS, TRAVIS",
+      "candidate_id": "S6DE00222",
       "office": "Senate",
       "party": "DEM",
       "incumbency": "Challenger",
-      "receipts": 0.0,
-      "disbursements": 0.0,
-      "cash_on_hand": null,
-      "coverage_end": null
-    },
-    {
-      "name": "COPPOLA, ALEC",
-      "candidate_id": "S6DE00214",
-      "office": "Senate",
-      "party": "REP",
-      "incumbency": "\u2014",
       "receipts": 0.0,
       "disbursements": 0.0,
       "cash_on_hand": null,
@@ -208,7 +208,7 @@
     },
     {
       "name": "SOLOMON, GAVIN",
-      "candidate_id": "S6DE00255",
+      "candidate_id": "S6DE00248",
       "office": "Senate",
       "party": "REP",
       "incumbency": "Challenger",
@@ -216,21 +216,10 @@
       "disbursements": 0.0,
       "cash_on_hand": null,
       "coverage_end": null
-    },
-    {
-      "name": "HANSEN, ERIC",
-      "candidate_id": "S4DE00094",
-      "office": "Senate",
-      "party": "DEM",
-      "incumbency": "\u2014",
-      "receipts": 0.0,
-      "disbursements": 0.0,
-      "cash_on_hand": null,
-      "coverage_end": "2025-01-09"
     }
   ],
   "totals": {
-    "candidate_count": 20,
+    "candidate_count": 19,
     "candidates_with_receipts": 9,
     "total_receipts": 12268590.76,
     "total_disbursements": 6705010.06

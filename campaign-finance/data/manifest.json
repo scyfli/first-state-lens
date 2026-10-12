@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T18:18:29Z",
+  "generated_at": "2026-10-12T18:55:24Z",
   "dashboard": "federal-campaign-finance",
   "cycle": 2026,
   "sources": {
@@ -11,7 +11,7 @@
     }
   },
   "row_counts": {
-    "candidates": 20,
+    "candidates": 19,
     "candidates_with_receipts": 9,
     "offices": 2
   }

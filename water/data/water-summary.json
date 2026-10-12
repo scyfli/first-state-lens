@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-05T18:12:11Z",
-  "total_systems": 1261,
+  "generated_at": "2026-10-12T18:49:44Z",
+  "total_systems": 1343,
   "systems_with_violations": 167,
   "systems_with_open": 0,
   "systems_with_open_health_based": 0,
-  "total_violations_on_record": 791,
-  "total_health_based": 435,
+  "total_violations_on_record": 789,
+  "total_health_based": 434,
   "total_open": 0,
   "systems": [
     {
@@ -724,17 +724,6 @@
       "open_health_based": 0
     },
     {
-      "pwsid": "DE00A0808",
-      "name": "Happy Place 5, Llc",
-      "population": 32,
-      "city": "Middletown",
-      "type": "NTNCWS",
-      "violations": 3,
-      "health_based": 1,
-      "open": 0,
-      "open_health_based": 0
-    },
-    {
       "pwsid": "DE0000215",
       "name": "Greenwood Cheer Center",
       "population": 170,
@@ -1428,17 +1417,6 @@
       "open_health_based": 0
     },
     {
-      "pwsid": "DE0000172",
-      "name": "Child Craft Company",
-      "population": 88,
-      "city": "Seaford",
-      "type": "NTNCWS",
-      "violations": 1,
-      "health_based": 0,
-      "open": 0,
-      "open_health_based": 0
-    },
-    {
       "pwsid": "DE0000209",
       "name": "Cedar Lane Elementary School",
       "population": 600,
@@ -1509,6 +1487,17 @@
       "name": "Park View Mobile Manor",
       "population": 96,
       "city": "Dover",
+      "type": "CWS",
+      "violations": 1,
+      "health_based": 0,
+      "open": 0,
+      "open_health_based": 0
+    },
+    {
+      "pwsid": "DE0000569",
+      "name": "Stage Village Mhc",
+      "population": 93,
+      "city": "Dagsboro",
       "type": "CWS",
       "violations": 1,
       "health_based": 0,
@@ -1619,6 +1608,17 @@
       "name": "Weatherstone Crossing",
       "population": 423,
       "city": "Newark",
+      "type": "CWS",
+      "violations": 1,
+      "health_based": 0,
+      "open": 0,
+      "open_health_based": 0
+    },
+    {
+      "pwsid": "DE0020027",
+      "name": "Ocean View Water Department",
+      "population": 2039,
+      "city": "Ocean View",
       "type": "CWS",
       "violations": 1,
       "health_based": 0,
