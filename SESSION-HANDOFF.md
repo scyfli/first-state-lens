@@ -18,15 +18,15 @@
 5. Then the roster roll: Office Registry (`offices/data/registry.json`) holders change at swearing-in (federal Jan 3; state Jan 12 for the 154th; county per office); `python3 -m etl.office_registry` validates. Bill tracker rolls to session 154 by its one session value.
 
 **Mark's calls (open):**
-- (a) Platform rate limit on `/api/districts` (spend call, unchanged).
-- (b) Census key for Y6 childcare (FirstMap blocks GitHub runners). Still not on this machine.
+- (a) DECIDED option A (free WAF rule); Mark creates it in the dashboard, then FU-RL.
+- (b) DONE: Census key received; Y6 shipped. Delete `Desktop/Census API Key.txt` when convenient.
 - (c) Send the New Castle + Sussex FOIA drafts (Y10).
 - (d) Contracts: vendor "BETSY TUCKER" (sign language interpreting) is a personal-looking vendor name published by the state; kept as published, same as the Checkbook vendors. Say if it should be shown as "individual vendor".
 - (e) Road safety: 2025 shows 98 fatality crashes vs 127 to 134 in 2021 to 2024 in the state dataset; the page states the data and its six-month lag, no claim. Worth a check against Office of Highway Safety figures before anyone quotes it.
 - (f) Inspections: 48 business names carry broken characters from the state file (e.g. "Caf�"); left as published.
 - (g) Charter School of Wilmington and Delaware Military Academy are counted inside Red Clay in the report card data, so they have no pages of their own (the Red Clay page says so).
 
-**Owed:** FU-YR-AUDIT, a cross-vendor (codex) content audit of the builder-made pages (offices, water, schools, inspections, road safety, contracts, bill tracker). Run `codex exec ... < /dev/null` (without the redirect it waits on stdin forever).
+**Done later 2026-10-14:** Y6 childcare near you (Census key now in ~/.claude/.env); FU-YR-AUDIT (codex, all HIGH/MEDIUM fixed, live figures re-checked by me). **Owed: FU-RL** verify the WAF rate limit after Mark creates it (rule: URI Path equals /api/districts, 10 requests / 10 s, Block 10 s): fire 15 POSTs in a burst, expect Cloudflare's own 429 page after about 10. Note: `codex exec` needs `< /dev/null` or it waits on stdin forever; its sandbox cannot reach data APIs, so live figure checks must be run outside it.
 
 **Gotchas learned today:**
 - XML comments cannot contain `--`; a sitemap marker comment with `--print-sitemap` broke the sitemap parse.
