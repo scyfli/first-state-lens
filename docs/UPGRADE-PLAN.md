@@ -150,6 +150,9 @@ After the Boards of Canvass certify on Nov 5, publish per-race certified results
 | 2026-10-14 | Inspections: a mobile food unit's street address and ZIP are never written or shown (often the operator's home), town only (B4) | Trazyn (reversible) |
 | 2026-10-14 | Y9 source `sifm-293u` is central-contract spend, not award values or contract dates; the section labels it so | Trazyn |
 | 2026-10-14 | Y6 and Y10 stay blocked on Mark (Census key; FOIA requests) | Trazyn |
+| 2026-10-14 | Census key supplied; Y6 shipped (childcare near you, location stays in the browser) | Mark / Trazyn |
+| 2026-10-14 | Vendor names on the contracts section stay exactly as the state publishes them, including personal-looking names | Mark |
+| 2026-10-14 | State figures (e.g. 2025 fatality crashes) are published as the state publishes them; no extra caveat beyond the stated reporting lag | Mark |
 
 ---
 

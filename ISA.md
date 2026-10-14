@@ -4,7 +4,7 @@ task: Reframe FSL as a public civic-data utility and build an 8-dashboard citize
 slug: fsl-civic-suite
 effort: E5
 phase: build
-progress: 89/91
+progress: 90/91
 mode: build
 started: 2026-06-15
 updated: 2026-10-14
@@ -490,7 +490,7 @@ E3 evidence (commit `ec4a39b`): puller mapped 87 seats (77 races + 10 off-ballot
 - [x] ISC-82: Y3 School report card pages live: one static page per district with report card measures and educator salary, unique titles.
 - [x] ISC-83: Y4 My Delaware by address live: one lookup returns legislators (with votes link), school district, county and the 2026 ballot.
 - [x] ISC-84: Y5 Full-session bill tracker live: every bill in the current General Assembly session, sorted by date or number only, no curation.
-- [ ] ISC-85: [BLOCKED, Mark: Census key] Y6 Childcare near me. BLOCKED: needs the Census key locally (FirstMap blocks GitHub runners); no key on this machine 2026-10-14.
+- [x] ISC-85: Y6 Childcare near me. BLOCKED: needs the Census key locally (FirstMap blocks GitHub runners); no key on this machine 2026-10-14.
 - [x] ISC-86: Y7 Restaurant inspections live: raw violations by establishment and date in the state's wording; no grades; how-to-read header says a violation is not a closure; no individual employees named.
 - [x] ISC-87: Y8 Road safety live: crashes and fatalities by county and month from `827n-m6xc`.
 - [x] ISC-88: Y9 Contracts tab live on `/spending/` from `sifm-293u`.
@@ -511,3 +511,4 @@ Evidence 2026-10-14 (all on production, a11y CI green per commit unless noted):
 - ISC-84 Y5: `5a05d2a`. 1,484 items of the 153rd GA from legis.delaware.gov keyless JSON (listing matches the server Total; 478 amendments shown on bill pages, not rows); live index 1,484 rows, filter "veterans" = 14, sort by date works; SB 272 moved to /bill-tracker/sb-272/ (21 vote rows load, 0 failed requests); own weekly workflow `bills-weekly.yml` (90 min, full re-read first week of each month); a11y success on 5a05d2a.
 - ISC-91: every new page wired (homepage cards: inspections, road safety, office registry, My Delaware, bill tracker; sitemap; llms.txt; a11y ROUTES + a11y.yml paths; refresh-all or own workflow for every puller); a11y CI green on the final HEAD 5a05d2a.
 - Rule 2a: codex reviewed E1b content (0 HIGH) and the Y4 Worker/client + inspections privacy (0 HIGH, 3 MEDIUM fixed in `4ac9240`). Builder pages (Y1-Y3, Y5, Y7-Y9) were reviewed by me at integration, not by a second vendor: FU-YR-AUDIT owed.
+- ISC-85 Y6: `60b4ed7`. Mark supplied the Census key 2026-10-14 (stored in ~/.claude/.env, probe 200, never printed). Local refresh: 1,189 providers, capacity 67,254, under-6 66,258. "Licensed child care near you": 25 closest from the browser's own location (computed on the page, never sent) or every provider in a town A to Z; town picker verified in browser (47 towns, Newark 138); distance function unit-checked (Legislative Hall nearest = Dover, Wilmington to Dover 40.2 mi).
