@@ -82,6 +82,10 @@ jobs:
           run "Votes"     etl.sources.openstates_de
           run "CampaignFinance" etl.sources.fec_de
           run "Reassessment" etl.sources.kent_reassessment --out reassessment/data
+          run "RoadSafety"      etl.sources.de_crashes --out road-safety/data
+          run "RoadSafetyPage"  etl.pages.road_safety_page
+          run "Contracts"       etl.sources.de_contract_spend --out spending/data
+          run "ContractsPage"   etl.pages.contracts_section
           echo "::group::Inspections"
           if python -m etl.sources.de_food_inspections --out inspections/data; then
             echo "OK: Inspections"
@@ -108,6 +112,8 @@ jobs:
             campaign-finance/data/
             reassessment/data/
             inspections/
+            road-safety/
+            spending/index.html
           if-no-files-found: warn
           retention-days: 90
 
@@ -117,7 +123,7 @@ jobs:
           set -euxo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add schools/data spending/data water/data federal/data childcare/data votes/data campaign-finance/data reassessment/data inspections sitemap.xml
+          git add schools/data spending/data water/data federal/data childcare/data votes/data campaign-finance/data reassessment/data inspections sitemap.xml road-safety spending/index.html
           if git diff --cached --quiet; then
             echo "No data changes to commit."
             exit 0
