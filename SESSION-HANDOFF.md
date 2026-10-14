@@ -6,7 +6,35 @@
 
 ---
 
-## ▶ RESUME HERE (written 2026-10-06, for the 2026-10-07 session)
+## ▶ RESUME HERE (written 2026-10-14)
+
+**Mark's ask (2026-10-14):** "get the rest of the election focused pages up and complete the rest of planned build". Done on production today, each item pushed, live-checked and a11y-green: E3, E5 machinery, FU-E1B-AUDIT, phone-width check, Y1, Y2, Y3, Y4, Y7, Y8, Y9. Y5 (full-session bill tracker): see the 2026-10-14 section below for its state. Evidence per item is in `ISA.md` (2026-10-14 section).
+
+**⏰ FU-E5, Thu Nov 5 to Fri Nov 6 (certified results):**
+1. After the Boards of Canvass certify (Nov 5, 10 a.m.), check `https://elections.delaware.gov/reports/GE2026.html` says OFFICIAL RESULTS.
+2. `python3 -m etl.sources.de_results --out candidates/data --certified 2026` (refuses an UNOFFICIAL page or any race it cannot match; read the error, never force it).
+3. `python3 -m etl.pages.candidate_pages` adds a certified section to every race page and builds `/results/2026/` (sitemap included automatically).
+4. Add `/results/2026/` to a11y ROUTES, `llms.txt`, and a link from `/candidates/`; push; live-check 3 pages; read the a11y run.
+5. Then the roster roll: Office Registry (`offices/data/registry.json`) holders change at swearing-in (federal Jan 3; state Jan 12 for the 154th; county per office); `python3 -m etl.office_registry` validates. Bill tracker rolls to session 154 by its one session value.
+
+**Mark's calls (open):**
+- (a) Platform rate limit on `/api/districts` (spend call, unchanged).
+- (b) Census key for Y6 childcare (FirstMap blocks GitHub runners). Still not on this machine.
+- (c) Send the New Castle + Sussex FOIA drafts (Y10).
+- (d) Contracts: vendor "BETSY TUCKER" (sign language interpreting) is a personal-looking vendor name published by the state; kept as published, same as the Checkbook vendors. Say if it should be shown as "individual vendor".
+- (e) Road safety: 2025 shows 98 fatality crashes vs 127 to 134 in 2021 to 2024 in the state dataset; the page states the data and its six-month lag, no claim. Worth a check against Office of Highway Safety figures before anyone quotes it.
+- (f) Inspections: 48 business names carry broken characters from the state file (e.g. "Caf�"); left as published.
+- (g) Charter School of Wilmington and Delaware Military Academy are counted inside Red Clay in the report card data, so they have no pages of their own (the Red Clay page says so).
+
+**Gotchas learned today:**
+- XML comments cannot contain `--`; a sitemap marker comment with `--print-sitemap` broke the sitemap parse.
+- Production pages cannot be iframed (frame headers), so the 390 px check runs on the local copy after a sha256 match with production. Windows headless Chrome cannot go below 512 px wide.
+- `newcastlede.gov` blocks scripted requests (Cloudflare); the Interceptor browser reads it.
+- EPA SDWIS `STATE_CODE` is the mailing state. Use `PRIMACY_AGENCY_CODE=DE`.
+
+---
+
+## (previous) RESUME HERE (written 2026-10-06, for the 2026-10-07 session)
 
 **Read first:** `docs/UPGRADE-PLAN.md` (scope + builder rules), then the 2026-10-06 section below.
 

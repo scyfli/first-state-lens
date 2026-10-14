@@ -143,6 +143,13 @@ After the Boards of Canvass certify on Nov 5, publish per-race certified results
 | 2026-10-06 | E2 shipped with the Forge/codex review folded (`661d058`): ZIP-only lookups answered from a bundled ZCTA overlap table (`worker/data/zip-districts.json`, rebuild via `worker/tools/zip_districts.py`); county district computed in the Worker with a 30 m near-line refusal; no coordinates returned. Platform rate limiting (Workers rate-limit binding or a WAF rule) NOT added: pricing unpublished, so it is Mark's call; the Worker has a best-effort per-isolate throttle and requires a same-site Origin. | Trazyn |
 | 2026-10-06 | E1b shipped (`f45700a`): statewide full records rendered statically by the generator from `candidates/data/records/*.json` + FEC totals. Biographies limited to offices held on official pages; campaign self-descriptions excluded as not public records. | Trazyn |
 | 2026-10-06 | a11y CI now triggers on candidates/, vote/, campaign-finance/, reassessment/ (`b9dabcf`); they had only been audited incidentally. | Trazyn |
+| 2026-10-14 | Year-round items pulled forward on Mark's word ("complete the rest of planned build"); built on branches by parallel builders, integrated, browser-checked and pushed one at a time | Mark / Trazyn |
+| 2026-10-14 | E3 shipped (`ec4a39b`): last general election per seat from GE2020/2022/2024 statewide tabs, raw totals in the state's order, no winner labels | Trazyn |
+| 2026-10-14 | E5 machinery shipped dormant (`bb41c9d`); publishing waits for the Nov 5 certification | Trazyn |
+| 2026-10-14 | Water figures corrected (`49b95f1`): the SDWIS STATE_CODE filter was the mailing state; PRIMACY_AGENCY_CODE=DE gives 1,766 violations across 1,362 systems (page had 789). Factual correction under B3.7 | Trazyn |
+| 2026-10-14 | Inspections: a mobile food unit's street address and ZIP are never written or shown (often the operator's home), town only (B4) | Trazyn (reversible) |
+| 2026-10-14 | Y9 source `sifm-293u` is central-contract spend, not award values or contract dates; the section labels it so | Trazyn |
+| 2026-10-14 | Y6 and Y10 stay blocked on Mark (Census key; FOIA requests) | Trazyn |
 
 ---
 
