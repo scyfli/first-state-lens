@@ -1,0 +1,1130 @@
+{
+  "average": {
+    "dataset": "rv4m-vy79",
+    "definition": "Average Total Salary: average total salary for the particular set of educators (full-time staff).",
+    "field": "average_total_salary",
+    "filters": "schoolcode=0 AND subgroup='All Educators' AND staff_type='Professional' AND staff_category='Classroom Teacher' AND job_classification='ALL' AND experience='ALL'",
+    "leas": {
+      "10": {
+        "average_total_salary": 66991.56,
+        "district": "Caesar Rodney School District",
+        "educators_fte": 550.0
+      },
+      "13": {
+        "average_total_salary": 68212.55,
+        "district": "Capital School District",
+        "educators_fte": 362.1
+      },
+      "15": {
+        "average_total_salary": 69828.7,
+        "district": "Lake Forest School District",
+        "educators_fte": 225.5
+      },
+      "16": {
+        "average_total_salary": 66946.87,
+        "district": "Laurel School District",
+        "educators_fte": 148.7
+      },
+      "17": {
+        "average_total_salary": 80355.11,
+        "district": "Cape Henlopen School District",
+        "educators_fte": 547.0
+      },
+      "18": {
+        "average_total_salary": 67705.17,
+        "district": "Milford School District",
+        "educators_fte": 271.0
+      },
+      "23": {
+        "average_total_salary": 65348.12,
+        "district": "Seaford School District",
+        "educators_fte": 204.0
+      },
+      "24": {
+        "average_total_salary": 67363.69,
+        "district": "Smyrna School District",
+        "educators_fte": 368.0
+      },
+      "29": {
+        "average_total_salary": 76315.06,
+        "district": "Appoquinimink School District",
+        "educators_fte": 896.9
+      },
+      "31": {
+        "average_total_salary": 86764.89,
+        "district": "Brandywine School District",
+        "educators_fte": 775.9
+      },
+      "32": {
+        "average_total_salary": 79359.06,
+        "district": "Red Clay Consolidated School District",
+        "educators_fte": 1060.1
+      },
+      "33": {
+        "average_total_salary": 81942.38,
+        "district": "Christina School District",
+        "educators_fte": 1039.2
+      },
+      "34": {
+        "average_total_salary": 79691.33,
+        "district": "Colonial School District",
+        "educators_fte": 599.0
+      },
+      "35": {
+        "average_total_salary": 68286.94,
+        "district": "Woodbridge School District",
+        "educators_fte": 190.0
+      },
+      "36": {
+        "average_total_salary": 78047.97,
+        "district": "Indian River School District",
+        "educators_fte": 793.5
+      },
+      "37": {
+        "average_total_salary": 70877.39,
+        "district": "Delmar School District",
+        "educators_fte": 76.0
+      },
+      "38": {
+        "average_total_salary": 89185.3,
+        "district": "New Castle County Vocational-Technical School District",
+        "educators_fte": 369.6
+      },
+      "39": {
+        "average_total_salary": 79264.29,
+        "district": "POLYTECH School District",
+        "educators_fte": 79.0
+      },
+      "40": {
+        "average_total_salary": 83734.6,
+        "district": "Sussex Technical School District",
+        "educators_fte": 87.0
+      },
+      "69": {
+        "average_total_salary": 79232.51,
+        "district": "Las Americas Aspira Academy",
+        "educators_fte": 80.8
+      },
+      "70": {
+        "average_total_salary": 82773.58,
+        "district": "Charter School of Wilmington",
+        "educators_fte": 49.0
+      },
+      "71": {
+        "average_total_salary": 65975.44,
+        "district": "Positive Outcomes Charter School",
+        "educators_fte": 13.0
+      },
+      "72": {
+        "average_total_salary": 67950.97,
+        "district": "East Side Charter School",
+        "educators_fte": 37.0
+      },
+      "74": {
+        "average_total_salary": 62918.35,
+        "district": "Campus Community School",
+        "educators_fte": 20.0
+      },
+      "76": {
+        "average_total_salary": 54137.74,
+        "district": "Edison (Thomas A.) Charter School",
+        "educators_fte": 36.0
+      },
+      "77": {
+        "average_total_salary": 74881.24,
+        "district": "Sussex Academy",
+        "educators_fte": 58.0
+      },
+      "79": {
+        "average_total_salary": 77000.63,
+        "district": "Delaware Military Academy",
+        "educators_fte": 28.0
+      },
+      "80": {
+        "average_total_salary": 60539.5,
+        "district": "Charter School of New Castle",
+        "educators_fte": 34.0
+      },
+      "82": {
+        "average_total_salary": 65893.74,
+        "district": "Kuumba Academy Charter School",
+        "educators_fte": 43.0
+      },
+      "85": {
+        "average_total_salary": 62615.33,
+        "district": "Academy of Dover Charter School",
+        "educators_fte": 29.0
+      },
+      "86": {
+        "average_total_salary": 68746.79,
+        "district": "Odyssey Charter School",
+        "educators_fte": 182.0
+      },
+      "87": {
+        "average_total_salary": 57595.38,
+        "district": "Providence Creek Academy Charter School",
+        "educators_fte": 49.0
+      },
+      "88": {
+        "average_total_salary": 75010.23,
+        "district": "MOT Charter School",
+        "educators_fte": 80.0
+      },
+      "89": {
+        "average_total_salary": 85488.6,
+        "district": "Newark Charter School",
+        "educators_fte": 189.8
+      },
+      "92": {
+        "average_total_salary": 59023.53,
+        "district": "Gateway Charter School",
+        "educators_fte": 23.0
+      },
+      "9604": {
+        "average_total_salary": 55353.71,
+        "district": "Early College High School at Del State",
+        "educators_fte": 24.0
+      },
+      "9605": {
+        "average_total_salary": 71853.17,
+        "district": "Academia Antonia Alonso",
+        "educators_fte": 48.0
+      },
+      "9606": {
+        "average_total_salary": 73015.29,
+        "district": "First State Montessori Academy",
+        "educators_fte": 34.0
+      },
+      "9607": {
+        "average_total_salary": 67246.56,
+        "district": "First State Military Academy",
+        "educators_fte": 24.0
+      },
+      "9611": {
+        "average_total_salary": 63105.89,
+        "district": "Great Oaks Charter School",
+        "educators_fte": 8.0
+      },
+      "9612": {
+        "average_total_salary": 63933.95,
+        "district": "Freire Charter School Wilmington",
+        "educators_fte": 17.0
+      },
+      "9614": {
+        "average_total_salary": 57226.85,
+        "district": "Sussex Montessori School",
+        "educators_fte": 16.0
+      },
+      "9615": {
+        "average_total_salary": 60263.6,
+        "district": "Bryan Allen Stevenson School of Excellence",
+        "educators_fte": 5.0
+      }
+    },
+    "name": "Educator Average Salary",
+    "schoolyear": "2025",
+    "source_updated": "2025-02-13",
+    "state": {
+      "average_total_salary": 76570.42,
+      "educators_fte": 9770.1
+    }
+  },
+  "distribution": {
+    "dataset": "5tvj-rx46",
+    "definition": "Counts of full-time staff in each of 12 salary ranges (fractions are part-time shares as published).",
+    "filters": "schoolcode=0 AND subgroup='All Educators' AND staff_type='Professional' AND staff_category='Classroom Teacher' AND job_classification='ALL'",
+    "leas": {
+      "10": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 1.0,
+          "37k_44k": 0.0,
+          "44k_51k": 1.0,
+          "51k_58k": 90.0,
+          "58k_65k": 133.0,
+          "65k_72k": 82.0,
+          "72k_79k": 60.0,
+          "79k_86k": 139.0,
+          "86k_93k": 60.0,
+          "93k_100k": 16.0,
+          "gt_100k": 2.0,
+          "lt_30k": 2.0
+        },
+        "district": "Caesar Rodney School District",
+        "total": 586.0
+      },
+      "13": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 0.0,
+          "37k_44k": 0.0,
+          "44k_51k": 2.0,
+          "51k_58k": 98.1,
+          "58k_65k": 71.3,
+          "65k_72k": 67.5,
+          "72k_79k": 36.0,
+          "79k_86k": 49.0,
+          "86k_93k": 52.5,
+          "93k_100k": 22.0,
+          "gt_100k": 15.0,
+          "lt_30k": 3.0
+        },
+        "district": "Capital School District",
+        "total": 416.4
+      },
+      "15": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 0.0,
+          "37k_44k": 0.0,
+          "44k_51k": 0.0,
+          "51k_58k": 32.0,
+          "58k_65k": 31.0,
+          "65k_72k": 59.0,
+          "72k_79k": 27.8,
+          "79k_86k": 80.0,
+          "86k_93k": 16.0,
+          "93k_100k": 5.5,
+          "gt_100k": 4.0,
+          "lt_30k": 0.0
+        },
+        "district": "Lake Forest School District",
+        "total": 255.3
+      },
+      "16": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 0.0,
+          "37k_44k": 1.0,
+          "44k_51k": 0.0,
+          "51k_58k": 45.0,
+          "58k_65k": 26.2,
+          "65k_72k": 22.0,
+          "72k_79k": 17.0,
+          "79k_86k": 30.2,
+          "86k_93k": 18.0,
+          "93k_100k": 3.0,
+          "gt_100k": 0.0,
+          "lt_30k": 0.5
+        },
+        "district": "Laurel School District",
+        "total": 162.9
+      },
+      "17": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 0.0,
+          "37k_44k": 0.0,
+          "44k_51k": 0.0,
+          "51k_58k": 40.0,
+          "58k_65k": 32.0,
+          "65k_72k": 69.0,
+          "72k_79k": 29.0,
+          "79k_86k": 55.0,
+          "86k_93k": 58.0,
+          "93k_100k": 197.0,
+          "gt_100k": 106.0,
+          "lt_30k": 2.0
+        },
+        "district": "Cape Henlopen School District",
+        "total": 588.0
+      },
+      "18": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 1.0,
+          "37k_44k": 0.0,
+          "44k_51k": 0.0,
+          "51k_58k": 44.0,
+          "58k_65k": 52.0,
+          "65k_72k": 55.0,
+          "72k_79k": 29.0,
+          "79k_86k": 66.0,
+          "86k_93k": 29.0,
+          "93k_100k": 11.0,
+          "gt_100k": 8.0,
+          "lt_30k": 1.0
+        },
+        "district": "Milford School District",
+        "total": 296.0
+      },
+      "23": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 0.0,
+          "37k_44k": 0.0,
+          "44k_51k": 0.0,
+          "51k_58k": 36.0,
+          "58k_65k": 58.0,
+          "65k_72k": 32.0,
+          "72k_79k": 30.0,
+          "79k_86k": 39.0,
+          "86k_93k": 15.0,
+          "93k_100k": 8.0,
+          "gt_100k": 2.0,
+          "lt_30k": 0.0
+        },
+        "district": "Seaford School District",
+        "total": 220.0
+      },
+      "24": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 0.0,
+          "37k_44k": 0.0,
+          "44k_51k": 14.0,
+          "51k_58k": 51.0,
+          "58k_65k": 83.0,
+          "65k_72k": 62.0,
+          "72k_79k": 49.0,
+          "79k_86k": 98.0,
+          "86k_93k": 21.0,
+          "93k_100k": 5.0,
+          "gt_100k": 2.0,
+          "lt_30k": 1.0
+        },
+        "district": "Smyrna School District",
+        "total": 386.0
+      },
+      "29": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 0.0,
+          "37k_44k": 1.0,
+          "44k_51k": 0.0,
+          "51k_58k": 96.0,
+          "58k_65k": 84.0,
+          "65k_72k": 98.0,
+          "72k_79k": 110.6,
+          "79k_86k": 81.5,
+          "86k_93k": 80.0,
+          "93k_100k": 260.8,
+          "gt_100k": 88.0,
+          "lt_30k": 1.0
+        },
+        "district": "Appoquinimink School District",
+        "total": 900.9
+      },
+      "31": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 0.0,
+          "37k_44k": 0.0,
+          "44k_51k": 1.0,
+          "51k_58k": 29.0,
+          "58k_65k": 32.0,
+          "65k_72k": 44.0,
+          "72k_79k": 56.0,
+          "79k_86k": 119.2,
+          "86k_93k": 81.0,
+          "93k_100k": 70.0,
+          "gt_100k": 368.1,
+          "lt_30k": 0.0
+        },
+        "district": "Brandywine School District",
+        "total": 800.3
+      },
+      "32": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 1.0,
+          "37k_44k": 1.0,
+          "44k_51k": 5.0,
+          "51k_58k": 101.0,
+          "58k_65k": 105.0,
+          "65k_72k": 105.0,
+          "72k_79k": 97.5,
+          "79k_86k": 136.6,
+          "86k_93k": 71.5,
+          "93k_100k": 258.0,
+          "gt_100k": 201.5,
+          "lt_30k": 3.0
+        },
+        "district": "Red Clay Consolidated School District",
+        "total": 1086.1
+      },
+      "33": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 0.0,
+          "37k_44k": 2.0,
+          "44k_51k": 0.0,
+          "51k_58k": 89.5,
+          "58k_65k": 76.0,
+          "65k_72k": 78.5,
+          "72k_79k": 85.0,
+          "79k_86k": 179.6,
+          "86k_93k": 78.0,
+          "93k_100k": 294.8,
+          "gt_100k": 220.0,
+          "lt_30k": 5.0
+        },
+        "district": "Christina School District",
+        "total": 1108.4
+      },
+      "34": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 1.0,
+          "37k_44k": 0.0,
+          "44k_51k": 0.0,
+          "51k_58k": 58.0,
+          "58k_65k": 48.0,
+          "65k_72k": 75.0,
+          "72k_79k": 55.0,
+          "79k_86k": 84.0,
+          "86k_93k": 65.0,
+          "93k_100k": 23.0,
+          "gt_100k": 212.0,
+          "lt_30k": 1.0
+        },
+        "district": "Colonial School District",
+        "total": 622.0
+      },
+      "35": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 0.0,
+          "37k_44k": 0.0,
+          "44k_51k": 0.0,
+          "51k_58k": 23.0,
+          "58k_65k": 35.0,
+          "65k_72k": 40.0,
+          "72k_79k": 21.0,
+          "79k_86k": 37.0,
+          "86k_93k": 26.0,
+          "93k_100k": 6.0,
+          "gt_100k": 2.0,
+          "lt_30k": 2.0
+        },
+        "district": "Woodbridge School District",
+        "total": 192.0
+      },
+      "36": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 1.0,
+          "37k_44k": 1.0,
+          "44k_51k": 0.0,
+          "51k_58k": 50.0,
+          "58k_65k": 46.0,
+          "65k_72k": 101.0,
+          "72k_79k": 88.0,
+          "79k_86k": 75.5,
+          "86k_93k": 197.0,
+          "93k_100k": 110.0,
+          "gt_100k": 105.0,
+          "lt_30k": 0.0
+        },
+        "district": "Indian River School District",
+        "total": 774.5
+      },
+      "37": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 0.0,
+          "37k_44k": 0.0,
+          "44k_51k": 4.0,
+          "51k_58k": 7.0,
+          "58k_65k": 11.0,
+          "65k_72k": 10.0,
+          "72k_79k": 9.0,
+          "79k_86k": 33.0,
+          "86k_93k": 7.0,
+          "93k_100k": 0.0,
+          "gt_100k": 0.0,
+          "lt_30k": 0.0
+        },
+        "district": "Delmar School District",
+        "total": 81.0
+      },
+      "38": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 0.0,
+          "37k_44k": 0.0,
+          "44k_51k": 0.0,
+          "51k_58k": 3.0,
+          "58k_65k": 12.0,
+          "65k_72k": 18.0,
+          "72k_79k": 20.0,
+          "79k_86k": 55.6,
+          "86k_93k": 43.6,
+          "93k_100k": 27.0,
+          "gt_100k": 202.0,
+          "lt_30k": 0.0
+        },
+        "district": "New Castle County Vocational-Technical School District",
+        "total": 381.1
+      },
+      "39": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 0.0,
+          "37k_44k": 0.0,
+          "44k_51k": 0.0,
+          "51k_58k": 1.0,
+          "58k_65k": 4.0,
+          "65k_72k": 17.0,
+          "72k_79k": 10.0,
+          "79k_86k": 20.0,
+          "86k_93k": 19.0,
+          "93k_100k": 10.0,
+          "gt_100k": 8.0,
+          "lt_30k": 0.0
+        },
+        "district": "POLYTECH School District",
+        "total": 89.0
+      },
+      "40": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 0.0,
+          "37k_44k": 0.0,
+          "44k_51k": 0.0,
+          "51k_58k": 1.0,
+          "58k_65k": 5.0,
+          "65k_72k": 7.0,
+          "72k_79k": 17.0,
+          "79k_86k": 6.0,
+          "86k_93k": 8.0,
+          "93k_100k": 27.0,
+          "gt_100k": 25.0,
+          "lt_30k": 0.0
+        },
+        "district": "Sussex Technical School District",
+        "total": 96.0
+      },
+      "69": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 0.0,
+          "37k_44k": 0.0,
+          "44k_51k": 0.0,
+          "51k_58k": 6.8,
+          "58k_65k": 5.0,
+          "65k_72k": 14.0,
+          "72k_79k": 12.0,
+          "79k_86k": 17.0,
+          "86k_93k": 6.0,
+          "93k_100k": 18.0,
+          "gt_100k": 15.0,
+          "lt_30k": 0.0
+        },
+        "district": "ASPIRA Delaware",
+        "total": 93.8
+      },
+      "70": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 0.0,
+          "37k_44k": 0.0,
+          "44k_51k": 2.0,
+          "51k_58k": 2.0,
+          "58k_65k": 1.0,
+          "65k_72k": 1.0,
+          "72k_79k": 5.0,
+          "79k_86k": 9.0,
+          "86k_93k": 6.0,
+          "93k_100k": 12.0,
+          "gt_100k": 12.0,
+          "lt_30k": 0.0
+        },
+        "district": "Charter School of Wilmington",
+        "total": 50.0
+      },
+      "71": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 0.0,
+          "37k_44k": 0.0,
+          "44k_51k": 0.0,
+          "51k_58k": 2.0,
+          "58k_65k": 4.0,
+          "65k_72k": 0.0,
+          "72k_79k": 3.0,
+          "79k_86k": 3.0,
+          "86k_93k": 1.0,
+          "93k_100k": 0.0,
+          "gt_100k": 0.0,
+          "lt_30k": 0.0
+        },
+        "district": "Positive Outcomes Charter School",
+        "total": 13.0
+      },
+      "72": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 0.0,
+          "37k_44k": 0.0,
+          "44k_51k": 3.0,
+          "51k_58k": 6.0,
+          "58k_65k": 9.0,
+          "65k_72k": 1.0,
+          "72k_79k": 7.0,
+          "79k_86k": 3.0,
+          "86k_93k": 7.0,
+          "93k_100k": 2.0,
+          "gt_100k": 0.0,
+          "lt_30k": 0.0
+        },
+        "district": "East Side Charter School",
+        "total": 38.0
+      },
+      "74": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 0.0,
+          "37k_44k": 0.0,
+          "44k_51k": 6.0,
+          "51k_58k": 4.0,
+          "58k_65k": 6.0,
+          "65k_72k": 3.0,
+          "72k_79k": 3.0,
+          "79k_86k": 2.0,
+          "86k_93k": 2.0,
+          "93k_100k": 0.0,
+          "gt_100k": 0.0,
+          "lt_30k": 0.0
+        },
+        "district": "Campus Community School",
+        "total": 26.0
+      },
+      "76": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 0.0,
+          "37k_44k": 0.0,
+          "44k_51k": 8.0,
+          "51k_58k": 10.0,
+          "58k_65k": 11.0,
+          "65k_72k": 0.0,
+          "72k_79k": 1.0,
+          "79k_86k": 3.0,
+          "86k_93k": 0.0,
+          "93k_100k": 0.0,
+          "gt_100k": 0.0,
+          "lt_30k": 0.0
+        },
+        "district": "Edison (Thomas A.) Charter School",
+        "total": 33.0
+      },
+      "77": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 0.0,
+          "37k_44k": 0.0,
+          "44k_51k": 0.0,
+          "51k_58k": 4.0,
+          "58k_65k": 9.0,
+          "65k_72k": 8.0,
+          "72k_79k": 8.0,
+          "79k_86k": 12.0,
+          "86k_93k": 16.0,
+          "93k_100k": 5.0,
+          "gt_100k": 2.0,
+          "lt_30k": 0.0
+        },
+        "district": "Sussex Academy",
+        "total": 64.0
+      },
+      "79": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 0.0,
+          "37k_44k": 0.0,
+          "44k_51k": 1.0,
+          "51k_58k": 1.0,
+          "58k_65k": 3.0,
+          "65k_72k": 3.0,
+          "72k_79k": 3.0,
+          "79k_86k": 2.0,
+          "86k_93k": 4.0,
+          "93k_100k": 10.0,
+          "gt_100k": 3.0,
+          "lt_30k": 0.0
+        },
+        "district": "Delaware Military Academy",
+        "total": 30.0
+      },
+      "80": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 0.0,
+          "37k_44k": 0.0,
+          "44k_51k": 11.0,
+          "51k_58k": 4.0,
+          "58k_65k": 8.0,
+          "65k_72k": 5.0,
+          "72k_79k": 3.0,
+          "79k_86k": 7.0,
+          "86k_93k": 2.0,
+          "93k_100k": 1.0,
+          "gt_100k": 0.0,
+          "lt_30k": 0.0
+        },
+        "district": "Charter School of New Castle",
+        "total": 41.0
+      },
+      "82": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 0.0,
+          "37k_44k": 0.0,
+          "44k_51k": 10.0,
+          "51k_58k": 7.0,
+          "58k_65k": 6.0,
+          "65k_72k": 3.0,
+          "72k_79k": 6.0,
+          "79k_86k": 3.0,
+          "86k_93k": 2.0,
+          "93k_100k": 2.0,
+          "gt_100k": 0.0,
+          "lt_30k": 1.0
+        },
+        "district": "Kuumba Academy Charter School",
+        "total": 40.0
+      },
+      "85": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 0.0,
+          "37k_44k": 0.0,
+          "44k_51k": 0.0,
+          "51k_58k": 7.0,
+          "58k_65k": 9.0,
+          "65k_72k": 2.0,
+          "72k_79k": 4.0,
+          "79k_86k": 3.0,
+          "86k_93k": 2.0,
+          "93k_100k": 0.0,
+          "gt_100k": 0.0,
+          "lt_30k": 0.0
+        },
+        "district": "Academy of Dover Charter School",
+        "total": 27.0
+      },
+      "86": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 0.0,
+          "37k_44k": 1.0,
+          "44k_51k": 31.0,
+          "51k_58k": 26.0,
+          "58k_65k": 24.0,
+          "65k_72k": 22.0,
+          "72k_79k": 28.0,
+          "79k_86k": 12.0,
+          "86k_93k": 10.0,
+          "93k_100k": 37.0,
+          "gt_100k": 14.0,
+          "lt_30k": 1.0
+        },
+        "district": "Odyssey Charter School",
+        "total": 206.0
+      },
+      "87": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 0.0,
+          "37k_44k": 0.0,
+          "44k_51k": 5.0,
+          "51k_58k": 16.0,
+          "58k_65k": 17.0,
+          "65k_72k": 8.0,
+          "72k_79k": 2.0,
+          "79k_86k": 3.0,
+          "86k_93k": 1.0,
+          "93k_100k": 2.0,
+          "gt_100k": 0.0,
+          "lt_30k": 0.0
+        },
+        "district": "Providence Creek Academy Charter School",
+        "total": 54.0
+      },
+      "88": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 0.0,
+          "37k_44k": 0.0,
+          "44k_51k": 2.0,
+          "51k_58k": 3.0,
+          "58k_65k": 12.0,
+          "65k_72k": 9.0,
+          "72k_79k": 11.0,
+          "79k_86k": 8.0,
+          "86k_93k": 24.0,
+          "93k_100k": 14.0,
+          "gt_100k": 2.0,
+          "lt_30k": 0.0
+        },
+        "district": "MOT Charter School",
+        "total": 85.0
+      },
+      "89": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 0.0,
+          "37k_44k": 1.0,
+          "44k_51k": 0.0,
+          "51k_58k": 1.0,
+          "58k_65k": 9.0,
+          "65k_72k": 12.0,
+          "72k_79k": 12.0,
+          "79k_86k": 30.8,
+          "86k_93k": 14.0,
+          "93k_100k": 81.8,
+          "gt_100k": 40.0,
+          "lt_30k": 1.0
+        },
+        "district": "Newark Charter School",
+        "total": 202.6
+      },
+      "92": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 1.0,
+          "37k_44k": 1.0,
+          "44k_51k": 1.0,
+          "51k_58k": 2.0,
+          "58k_65k": 6.0,
+          "65k_72k": 7.0,
+          "72k_79k": 2.0,
+          "79k_86k": 2.0,
+          "86k_93k": 1.0,
+          "93k_100k": 0.0,
+          "gt_100k": 0.0,
+          "lt_30k": 0.0
+        },
+        "district": "Gateway Charter School",
+        "total": 23.0
+      },
+      "9604": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 0.0,
+          "37k_44k": 3.0,
+          "44k_51k": 3.0,
+          "51k_58k": 8.0,
+          "58k_65k": 3.0,
+          "65k_72k": 2.0,
+          "72k_79k": 2.0,
+          "79k_86k": 1.0,
+          "86k_93k": 0.0,
+          "93k_100k": 0.0,
+          "gt_100k": 0.0,
+          "lt_30k": 0.0
+        },
+        "district": "Early College High School at Del State",
+        "total": 22.0
+      },
+      "9605": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 0.0,
+          "37k_44k": 0.0,
+          "44k_51k": 1.0,
+          "51k_58k": 5.0,
+          "58k_65k": 6.0,
+          "65k_72k": 7.0,
+          "72k_79k": 11.0,
+          "79k_86k": 5.0,
+          "86k_93k": 1.0,
+          "93k_100k": 6.0,
+          "gt_100k": 7.0,
+          "lt_30k": 1.0
+        },
+        "district": "Academia Antonia Alonso",
+        "total": 50.0
+      },
+      "9606": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 0.0,
+          "37k_44k": 0.8,
+          "44k_51k": 4.2,
+          "51k_58k": 1.0,
+          "58k_65k": 5.0,
+          "65k_72k": 5.0,
+          "72k_79k": 5.0,
+          "79k_86k": 3.0,
+          "86k_93k": 15.0,
+          "93k_100k": 1.0,
+          "gt_100k": 0.0,
+          "lt_30k": 0.0
+        },
+        "district": "First State Montessori Academy",
+        "total": 40.0
+      },
+      "9607": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 0.0,
+          "37k_44k": 0.0,
+          "44k_51k": 1.0,
+          "51k_58k": 3.0,
+          "58k_65k": 3.0,
+          "65k_72k": 4.0,
+          "72k_79k": 8.0,
+          "79k_86k": 2.0,
+          "86k_93k": 3.0,
+          "93k_100k": 0.0,
+          "gt_100k": 0.0,
+          "lt_30k": 1.0
+        },
+        "district": "First State Military Academy",
+        "total": 25.0
+      },
+      "9611": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 0.0,
+          "37k_44k": 0.0,
+          "44k_51k": 0.0,
+          "51k_58k": 1.0,
+          "58k_65k": 1.0,
+          "65k_72k": 3.0,
+          "72k_79k": 1.0,
+          "79k_86k": 1.0,
+          "86k_93k": 0.0,
+          "93k_100k": 0.0,
+          "gt_100k": 0.0,
+          "lt_30k": 0.0
+        },
+        "district": "Great Oaks Charter School",
+        "total": 7.0
+      },
+      "9612": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 0.0,
+          "37k_44k": 0.0,
+          "44k_51k": 0.0,
+          "51k_58k": 8.0,
+          "58k_65k": 6.0,
+          "65k_72k": 8.0,
+          "72k_79k": 0.0,
+          "79k_86k": 2.0,
+          "86k_93k": 0.0,
+          "93k_100k": 0.0,
+          "gt_100k": 0.0,
+          "lt_30k": 0.0
+        },
+        "district": "Freire Charter School Wilmington",
+        "total": 24.0
+      },
+      "9614": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 0.0,
+          "37k_44k": 0.0,
+          "44k_51k": 3.0,
+          "51k_58k": 7.0,
+          "58k_65k": 7.0,
+          "65k_72k": 0.0,
+          "72k_79k": 2.0,
+          "79k_86k": 1.0,
+          "86k_93k": 0.0,
+          "93k_100k": 0.0,
+          "gt_100k": 0.0,
+          "lt_30k": 0.0
+        },
+        "district": "Sussex Montessori School",
+        "total": 20.0
+      },
+      "9615": {
+        "complete": true,
+        "counts": {
+          "30k_37k": 0.0,
+          "37k_44k": 0.0,
+          "44k_51k": 1.0,
+          "51k_58k": 0.0,
+          "58k_65k": 0.0,
+          "65k_72k": 1.0,
+          "72k_79k": 1.0,
+          "79k_86k": 1.0,
+          "86k_93k": 1.0,
+          "93k_100k": 0.0,
+          "gt_100k": 0.0,
+          "lt_30k": 1.0
+        },
+        "district": "Bryan Allen Stevenson School of Excellence",
+        "total": 6.0
+      }
+    },
+    "name": "Educator Salary Distribution",
+    "ranges": [
+      {
+        "key": "lt_30k",
+        "label": "Less than $30K"
+      },
+      {
+        "key": "30k_37k",
+        "label": "$30K to $37K"
+      },
+      {
+        "key": "37k_44k",
+        "label": "$37K to $44K"
+      },
+      {
+        "key": "44k_51k",
+        "label": "$44K to $51K"
+      },
+      {
+        "key": "51k_58k",
+        "label": "$51K to $58K"
+      },
+      {
+        "key": "58k_65k",
+        "label": "$58K to $65K"
+      },
+      {
+        "key": "65k_72k",
+        "label": "$65K to $72K"
+      },
+      {
+        "key": "72k_79k",
+        "label": "$72K to $79K"
+      },
+      {
+        "key": "79k_86k",
+        "label": "$79K to $86K"
+      },
+      {
+        "key": "86k_93k",
+        "label": "$86K to $93K"
+      },
+      {
+        "key": "93k_100k",
+        "label": "$93K to $100K"
+      },
+      {
+        "key": "gt_100k",
+        "label": "More than $100K"
+      }
+    ],
+    "schoolyear": "2026",
+    "source_updated": "2026-01-08",
+    "state": {
+      "complete": true,
+      "counts": {
+        "30k_37k": 6.0,
+        "37k_44k": 12.8,
+        "44k_51k": 120.2,
+        "51k_58k": 1029.4,
+        "58k_65k": 1114.5,
+        "65k_72k": 1170.0,
+        "72k_79k": 986.9,
+        "79k_86k": 1520.0,
+        "86k_93k": 1063.6,
+        "93k_100k": 1545.9,
+        "gt_100k": 1665.6,
+        "lt_30k": 27.5
+      },
+      "total": 10262.3
+    }
+  },
+  "generated_at": "2026-10-14T17:31:17Z",
+  "license": "Delaware Open Data Portal, open data",
+  "publisher": "Delaware Department of Education"
+}

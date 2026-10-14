@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T18:49:29Z",
+  "generated_at": "2026-10-14T17:30:55Z",
   "dashboard": "schools",
   "vintages": {
     "proficiency": "2026",
@@ -20,6 +20,19 @@
     "note": "Proficiency = Smarter Balanced Summative (statewide 3-8 test), All Students, REPORTED only."
   },
   "row_counts": {
-    "districts": 41
+    "districts": 41,
+    "lea_types": 41,
+    "directory_leas_reported_within": 2
+  },
+  "source_updated": {
+    "ms6b-mt82": "2026-09-29",
+    "crb4-kdc7": "2025-11-05",
+    "t7e6-zcnn": "2026-09-29",
+    "6i7v-xnmf": "2026-01-08",
+    "p3ez-si4g": "2025-02-17"
+  },
+  "lea_directory": {
+    "dataset": "p3ez-si4g",
+    "schoolyear": "2025"
   }
 }

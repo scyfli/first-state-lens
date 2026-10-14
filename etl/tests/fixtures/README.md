@@ -19,3 +19,7 @@ the real upstream. Document here. No live data is committed.
 
 - `de_candidates_2026-10-05.html`: the Department of Elections "Filed Candidates by Office" page from 2026-10-05 (about 136 KB, larger than the usual fixture budget because the parser has to see the whole table). Every candidate's contact block is replaced with `[REDACTED]` values under the original labels. Names, offices, parties, statuses, filing dates and campaign websites are the public listing as published. No real addresses, phone numbers or emails are in this repo.
 - `de_candidates_shapes.html`: three synthetic rows ("Test Candidate ...", example.org, 555 numbers, made-up streets) reproducing the live contact-cell layouts (Mailing Address, PO Box, Phone #2, Email #2, empty cell, withdrawn row) so the tests prove every contact field is dropped.
+
+## School district fixture (added 2026-10-14)
+
+- `school_districts_soql.json` (about 40 KB): SoQL responses recorded from data.delaware.gov on 2026-10-14 for `etl.sources.de_report_card` and `etl.sources.de_educator_salary`, keyed by dataset + exact query params, trimmed to districtcodes 0, 13, 32, 36, 39, 69, 70, 77, 79, 89, 9615. Aggregate rows for the state and public LEAs only; no people. Re-record if a puller's queries change (an unrecorded query fails the test loudly).

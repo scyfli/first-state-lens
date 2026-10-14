@@ -1,0 +1,20 @@
+{
+  "dashboard": "schools",
+  "generated_at": "2026-10-14T17:31:17Z",
+  "row_counts": {
+    "average_leas": 43,
+    "distribution_leas": 43
+  },
+  "source_updated": {
+    "5tvj-rx46": "2026-01-08",
+    "rv4m-vy79": "2025-02-13"
+  },
+  "sources": {
+    "5tvj-rx46": "https://data.delaware.gov/d/5tvj-rx46",
+    "rv4m-vy79": "https://data.delaware.gov/d/rv4m-vy79"
+  },
+  "vintages": {
+    "average": "2025",
+    "distribution": "2026"
+  }
+}

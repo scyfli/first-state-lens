@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T18:49:29Z",
+  "generated_at": "2026-10-14T17:30:55Z",
   "vintages": {
     "proficiency": "2026",
     "chronic_absenteeism": "2025",
@@ -24,7 +24,9 @@
       "ela_proficient": 23.18,
       "math_proficient": 14.87,
       "chronic_absenteeism": 15.14,
-      "grad_rate": null
+      "grad_rate": null,
+      "lea_type": "Charter",
+      "grad_rate_single_school": null
     },
     {
       "districtcode": "85",
@@ -33,7 +35,9 @@
       "ela_proficient": 27.74,
       "math_proficient": 16.72,
       "chronic_absenteeism": 1.08,
-      "grad_rate": null
+      "grad_rate": null,
+      "lea_type": "Charter",
+      "grad_rate_single_school": null
     },
     {
       "districtcode": "29",
@@ -42,7 +46,9 @@
       "ela_proficient": 53.9,
       "math_proficient": 46.25,
       "chronic_absenteeism": 14.08,
-      "grad_rate": 96.7066
+      "grad_rate": 96.7066,
+      "lea_type": "Regular",
+      "grad_rate_single_school": null
     },
     {
       "districtcode": "69",
@@ -51,7 +57,13 @@
       "ela_proficient": 34.34,
       "math_proficient": 20.32,
       "chronic_absenteeism": 14.45,
-      "grad_rate": null
+      "grad_rate": null,
+      "lea_type": "Charter",
+      "grad_rate_single_school": {
+        "organization": "ASPIRA Academy",
+        "schoolcode": "568",
+        "value": 87.0588
+      }
     },
     {
       "districtcode": "31",
@@ -60,7 +72,9 @@
       "ela_proficient": 43.92,
       "math_proficient": 36.63,
       "chronic_absenteeism": 15.73,
-      "grad_rate": 93.5361
+      "grad_rate": 93.5361,
+      "lea_type": "Regular",
+      "grad_rate_single_school": null
     },
     {
       "districtcode": "9615",
@@ -69,7 +83,9 @@
       "ela_proficient": 26.14,
       "math_proficient": 5.68,
       "chronic_absenteeism": null,
-      "grad_rate": null
+      "grad_rate": null,
+      "lea_type": "Charter",
+      "grad_rate_single_school": null
     },
     {
       "districtcode": "10",
@@ -78,7 +94,9 @@
       "ela_proficient": 47.97,
       "math_proficient": 41.17,
       "chronic_absenteeism": 17.96,
-      "grad_rate": 95.2468
+      "grad_rate": 95.2468,
+      "lea_type": "Regular",
+      "grad_rate_single_school": null
     },
     {
       "districtcode": "74",
@@ -87,7 +105,9 @@
       "ela_proficient": 43.28,
       "math_proficient": 34.7,
       "chronic_absenteeism": 15.09,
-      "grad_rate": null
+      "grad_rate": null,
+      "lea_type": "Charter",
+      "grad_rate_single_school": null
     },
     {
       "districtcode": "17",
@@ -96,7 +116,9 @@
       "ela_proficient": 59.73,
       "math_proficient": 53.36,
       "chronic_absenteeism": 15.6,
-      "grad_rate": 90.2748
+      "grad_rate": 90.2748,
+      "lea_type": "Regular",
+      "grad_rate_single_school": null
     },
     {
       "districtcode": "13",
@@ -105,7 +127,9 @@
       "ela_proficient": 25.54,
       "math_proficient": 18.6,
       "chronic_absenteeism": 26.13,
-      "grad_rate": 88.6228
+      "grad_rate": 88.6228,
+      "lea_type": "Regular",
+      "grad_rate_single_school": null
     },
     {
       "districtcode": "80",
@@ -114,7 +138,9 @@
       "ela_proficient": 31.84,
       "math_proficient": 22.93,
       "chronic_absenteeism": null,
-      "grad_rate": null
+      "grad_rate": null,
+      "lea_type": "Charter",
+      "grad_rate_single_school": null
     },
     {
       "districtcode": "33",
@@ -123,7 +149,9 @@
       "ela_proficient": 35.85,
       "math_proficient": 29.26,
       "chronic_absenteeism": 19.87,
-      "grad_rate": 80.4598
+      "grad_rate": 80.4598,
+      "lea_type": "Regular",
+      "grad_rate_single_school": null
     },
     {
       "districtcode": "34",
@@ -132,7 +160,9 @@
       "ela_proficient": 25.14,
       "math_proficient": 19.15,
       "chronic_absenteeism": 24.87,
-      "grad_rate": 89.3058
+      "grad_rate": 89.3058,
+      "lea_type": "Regular",
+      "grad_rate_single_school": null
     },
     {
       "districtcode": "37",
@@ -141,7 +171,9 @@
       "ela_proficient": 38.96,
       "math_proficient": 27.79,
       "chronic_absenteeism": 22.03,
-      "grad_rate": 97.2678
+      "grad_rate": 97.2678,
+      "lea_type": "Regular",
+      "grad_rate_single_school": null
     },
     {
       "districtcode": "9604",
@@ -150,7 +182,13 @@
       "ela_proficient": 36.81,
       "math_proficient": 13.81,
       "chronic_absenteeism": 2.15,
-      "grad_rate": null
+      "grad_rate": null,
+      "lea_type": "Charter",
+      "grad_rate_single_school": {
+        "organization": "Early College School at Del State",
+        "schoolcode": "4040",
+        "value": 93.4211
+      }
     },
     {
       "districtcode": "72",
@@ -159,7 +197,9 @@
       "ela_proficient": 24.21,
       "math_proficient": 17.63,
       "chronic_absenteeism": 35.12,
-      "grad_rate": null
+      "grad_rate": null,
+      "lea_type": "Charter",
+      "grad_rate_single_school": null
     },
     {
       "districtcode": "76",
@@ -168,7 +208,9 @@
       "ela_proficient": 11.02,
       "math_proficient": 7.58,
       "chronic_absenteeism": 2.55,
-      "grad_rate": null
+      "grad_rate": null,
+      "lea_type": "Charter",
+      "grad_rate_single_school": null
     },
     {
       "districtcode": "9607",
@@ -177,7 +219,9 @@
       "ela_proficient": null,
       "math_proficient": null,
       "chronic_absenteeism": 24.6,
-      "grad_rate": null
+      "grad_rate": null,
+      "lea_type": "Charter",
+      "grad_rate_single_school": null
     },
     {
       "districtcode": "9606",
@@ -186,7 +230,9 @@
       "ela_proficient": 65.95,
       "math_proficient": 42.93,
       "chronic_absenteeism": 5.0,
-      "grad_rate": null
+      "grad_rate": null,
+      "lea_type": "Charter",
+      "grad_rate_single_school": null
     },
     {
       "districtcode": "9612",
@@ -195,7 +241,13 @@
       "ela_proficient": 17.74,
       "math_proficient": null,
       "chronic_absenteeism": 36.59,
-      "grad_rate": null
+      "grad_rate": null,
+      "lea_type": "Charter",
+      "grad_rate_single_school": {
+        "organization": "Freire Charter School",
+        "schoolcode": "4080",
+        "value": 74.2424
+      }
     },
     {
       "districtcode": "92",
@@ -204,7 +256,9 @@
       "ela_proficient": 15.11,
       "math_proficient": 7.35,
       "chronic_absenteeism": 15.21,
-      "grad_rate": null
+      "grad_rate": null,
+      "lea_type": "Charter",
+      "grad_rate_single_school": null
     },
     {
       "districtcode": "9611",
@@ -213,7 +267,13 @@
       "ela_proficient": null,
       "math_proficient": null,
       "chronic_absenteeism": 54.89,
-      "grad_rate": null
+      "grad_rate": null,
+      "lea_type": "Charter",
+      "grad_rate_single_school": {
+        "organization": "Great Oaks Charter School",
+        "schoolcode": "4075",
+        "value": 59.5745
+      }
     },
     {
       "districtcode": "36",
@@ -222,7 +282,9 @@
       "ela_proficient": 39.95,
       "math_proficient": 37.44,
       "chronic_absenteeism": 20.2,
-      "grad_rate": 82.5849
+      "grad_rate": 82.5849,
+      "lea_type": "Regular",
+      "grad_rate_single_school": null
     },
     {
       "districtcode": "82",
@@ -231,7 +293,9 @@
       "ela_proficient": 19.65,
       "math_proficient": 6.36,
       "chronic_absenteeism": null,
-      "grad_rate": null
+      "grad_rate": null,
+      "lea_type": "Charter",
+      "grad_rate_single_school": null
     },
     {
       "districtcode": "15",
@@ -240,7 +304,9 @@
       "ela_proficient": 41.51,
       "math_proficient": 37.22,
       "chronic_absenteeism": 21.31,
-      "grad_rate": 92.3077
+      "grad_rate": 92.3077,
+      "lea_type": "Regular",
+      "grad_rate_single_school": null
     },
     {
       "districtcode": "16",
@@ -249,7 +315,9 @@
       "ela_proficient": 28.27,
       "math_proficient": 21.83,
       "chronic_absenteeism": 18.74,
-      "grad_rate": 80.8081
+      "grad_rate": 80.8081,
+      "lea_type": "Regular",
+      "grad_rate_single_school": null
     },
     {
       "districtcode": "18",
@@ -258,7 +326,9 @@
       "ela_proficient": 37.38,
       "math_proficient": 27.01,
       "chronic_absenteeism": 16.76,
-      "grad_rate": 88.0399
+      "grad_rate": 88.0399,
+      "lea_type": "Regular",
+      "grad_rate_single_school": null
     },
     {
       "districtcode": "88",
@@ -267,7 +337,9 @@
       "ela_proficient": 65.78,
       "math_proficient": 71.02,
       "chronic_absenteeism": 6.58,
-      "grad_rate": null
+      "grad_rate": null,
+      "lea_type": "Charter",
+      "grad_rate_single_school": null
     },
     {
       "districtcode": "38",
@@ -276,7 +348,9 @@
       "ela_proficient": null,
       "math_proficient": null,
       "chronic_absenteeism": 9.35,
-      "grad_rate": 98.8235
+      "grad_rate": 98.8235,
+      "lea_type": "Regular",
+      "grad_rate_single_school": null
     },
     {
       "districtcode": "89",
@@ -285,7 +359,9 @@
       "ela_proficient": 73.57,
       "math_proficient": 71.2,
       "chronic_absenteeism": 6.97,
-      "grad_rate": null
+      "grad_rate": null,
+      "lea_type": "Charter",
+      "grad_rate_single_school": null
     },
     {
       "districtcode": "86",
@@ -294,7 +370,9 @@
       "ela_proficient": 48.12,
       "math_proficient": 42.17,
       "chronic_absenteeism": 7.92,
-      "grad_rate": null
+      "grad_rate": null,
+      "lea_type": "Charter",
+      "grad_rate_single_school": null
     },
     {
       "districtcode": "39",
@@ -303,7 +381,9 @@
       "ela_proficient": null,
       "math_proficient": null,
       "chronic_absenteeism": 11.34,
-      "grad_rate": 97.9094
+      "grad_rate": 97.9094,
+      "lea_type": "Regular",
+      "grad_rate_single_school": null
     },
     {
       "districtcode": "71",
@@ -312,7 +392,9 @@
       "ela_proficient": null,
       "math_proficient": null,
       "chronic_absenteeism": 44.09,
-      "grad_rate": null
+      "grad_rate": null,
+      "lea_type": "Charter",
+      "grad_rate_single_school": null
     },
     {
       "districtcode": "87",
@@ -321,7 +403,9 @@
       "ela_proficient": 57.32,
       "math_proficient": 50.85,
       "chronic_absenteeism": 7.68,
-      "grad_rate": null
+      "grad_rate": null,
+      "lea_type": "Charter",
+      "grad_rate_single_school": null
     },
     {
       "districtcode": "32",
@@ -330,7 +414,9 @@
       "ela_proficient": 40.08,
       "math_proficient": 33.1,
       "chronic_absenteeism": 16.85,
-      "grad_rate": 92.46
+      "grad_rate": 92.46,
+      "lea_type": "Regular",
+      "grad_rate_single_school": null
     },
     {
       "districtcode": "23",
@@ -339,7 +425,9 @@
       "ela_proficient": 40.13,
       "math_proficient": 33.85,
       "chronic_absenteeism": 8.73,
-      "grad_rate": 81.4978
+      "grad_rate": 81.4978,
+      "lea_type": "Regular",
+      "grad_rate_single_school": null
     },
     {
       "districtcode": "24",
@@ -348,7 +436,9 @@
       "ela_proficient": 43.2,
       "math_proficient": 36.61,
       "chronic_absenteeism": 12.13,
-      "grad_rate": 94.5652
+      "grad_rate": 94.5652,
+      "lea_type": "Regular",
+      "grad_rate_single_school": null
     },
     {
       "districtcode": "77",
@@ -357,7 +447,13 @@
       "ela_proficient": 64.64,
       "math_proficient": 52.47,
       "chronic_absenteeism": 3.53,
-      "grad_rate": null
+      "grad_rate": null,
+      "lea_type": "Charter",
+      "grad_rate_single_school": {
+        "organization": "Sussex Academy",
+        "schoolcode": "576",
+        "value": 92.6829
+      }
     },
     {
       "districtcode": "9614",
@@ -366,7 +462,9 @@
       "ela_proficient": 23.5,
       "math_proficient": 12.63,
       "chronic_absenteeism": 15.68,
-      "grad_rate": null
+      "grad_rate": null,
+      "lea_type": "Charter",
+      "grad_rate_single_school": null
     },
     {
       "districtcode": "40",
@@ -375,7 +473,9 @@
       "ela_proficient": null,
       "math_proficient": null,
       "chronic_absenteeism": 6.25,
-      "grad_rate": null
+      "grad_rate": null,
+      "lea_type": "Regular",
+      "grad_rate_single_school": null
     },
     {
       "districtcode": "35",
@@ -384,7 +484,9 @@
       "ela_proficient": 36.39,
       "math_proficient": 29.11,
       "chronic_absenteeism": 5.19,
-      "grad_rate": 91.8605
+      "grad_rate": 91.8605,
+      "lea_type": "Regular",
+      "grad_rate_single_school": null
     }
   ],
   "source": {
@@ -398,5 +500,32 @@
     "license": "Delaware Open Data Portal \u2014 open data",
     "url": "https://reportcard.doe.k12.de.us/",
     "note": "Proficiency = Smarter Balanced Summative (statewide 3-8 test), All Students, REPORTED only."
+  },
+  "lea_directory": {
+    "dataset": "p3ez-si4g",
+    "schoolyear": "2025"
+  },
+  "directory_leas_reported_within": [
+    {
+      "lea": "Charter School of Wilmington",
+      "districtcode": "70",
+      "lea_type": "Charter",
+      "reported_within_districtcode": "32",
+      "reported_within": "Red Clay Consolidated School District"
+    },
+    {
+      "lea": "Delaware Military Academy",
+      "districtcode": "79",
+      "lea_type": "Charter",
+      "reported_within_districtcode": "32",
+      "reported_within": "Red Clay Consolidated School District"
+    }
+  ],
+  "source_updated": {
+    "ms6b-mt82": "2026-09-29",
+    "crb4-kdc7": "2025-11-05",
+    "t7e6-zcnn": "2026-09-29",
+    "6i7v-xnmf": "2026-01-08",
+    "p3ez-si4g": "2025-02-17"
   }
 }

@@ -1,0 +1,1862 @@
+{
+ "recorded": "2026-10-14, data.delaware.gov, trimmed to districtcodes 0,13,32,36,39,69,70,77,79,89,9615",
+ "soql": {
+  "5tvj-rx46?{\"$group\": \"schoolyear,districtcode\", \"$limit\": \"5000\", \"$select\": \"schoolyear,districtcode,count(*)\", \"$where\": \"schoolcode=0 AND subgroup='All Educators' AND staff_type='Professional' AND staff_category='Classroom Teacher' AND job_classification='ALL'\"}": [
+   {
+    "count": "1",
+    "districtcode": "0",
+    "schoolyear": "2015"
+   },
+   {
+    "count": "1",
+    "districtcode": "13",
+    "schoolyear": "2015"
+   },
+   {
+    "count": "1",
+    "districtcode": "32",
+    "schoolyear": "2015"
+   },
+   {
+    "count": "1",
+    "districtcode": "36",
+    "schoolyear": "2015"
+   },
+   {
+    "count": "1",
+    "districtcode": "39",
+    "schoolyear": "2015"
+   },
+   {
+    "count": "1",
+    "districtcode": "69",
+    "schoolyear": "2015"
+   },
+   {
+    "count": "1",
+    "districtcode": "77",
+    "schoolyear": "2015"
+   },
+   {
+    "count": "1",
+    "districtcode": "89",
+    "schoolyear": "2015"
+   },
+   {
+    "count": "1",
+    "districtcode": "0",
+    "schoolyear": "2016"
+   },
+   {
+    "count": "1",
+    "districtcode": "13",
+    "schoolyear": "2016"
+   },
+   {
+    "count": "1",
+    "districtcode": "32",
+    "schoolyear": "2016"
+   },
+   {
+    "count": "1",
+    "districtcode": "36",
+    "schoolyear": "2016"
+   },
+   {
+    "count": "1",
+    "districtcode": "39",
+    "schoolyear": "2016"
+   },
+   {
+    "count": "1",
+    "districtcode": "69",
+    "schoolyear": "2016"
+   },
+   {
+    "count": "1",
+    "districtcode": "77",
+    "schoolyear": "2016"
+   },
+   {
+    "count": "1",
+    "districtcode": "89",
+    "schoolyear": "2016"
+   },
+   {
+    "count": "1",
+    "districtcode": "0",
+    "schoolyear": "2017"
+   },
+   {
+    "count": "1",
+    "districtcode": "13",
+    "schoolyear": "2017"
+   },
+   {
+    "count": "1",
+    "districtcode": "32",
+    "schoolyear": "2017"
+   },
+   {
+    "count": "1",
+    "districtcode": "36",
+    "schoolyear": "2017"
+   },
+   {
+    "count": "1",
+    "districtcode": "39",
+    "schoolyear": "2017"
+   },
+   {
+    "count": "1",
+    "districtcode": "69",
+    "schoolyear": "2017"
+   },
+   {
+    "count": "1",
+    "districtcode": "77",
+    "schoolyear": "2017"
+   },
+   {
+    "count": "1",
+    "districtcode": "89",
+    "schoolyear": "2017"
+   },
+   {
+    "count": "1",
+    "districtcode": "0",
+    "schoolyear": "2018"
+   },
+   {
+    "count": "1",
+    "districtcode": "13",
+    "schoolyear": "2018"
+   },
+   {
+    "count": "1",
+    "districtcode": "32",
+    "schoolyear": "2018"
+   },
+   {
+    "count": "1",
+    "districtcode": "36",
+    "schoolyear": "2018"
+   },
+   {
+    "count": "1",
+    "districtcode": "39",
+    "schoolyear": "2018"
+   },
+   {
+    "count": "1",
+    "districtcode": "69",
+    "schoolyear": "2018"
+   },
+   {
+    "count": "1",
+    "districtcode": "77",
+    "schoolyear": "2018"
+   },
+   {
+    "count": "1",
+    "districtcode": "89",
+    "schoolyear": "2018"
+   },
+   {
+    "count": "1",
+    "districtcode": "0",
+    "schoolyear": "2019"
+   },
+   {
+    "count": "1",
+    "districtcode": "13",
+    "schoolyear": "2019"
+   },
+   {
+    "count": "1",
+    "districtcode": "32",
+    "schoolyear": "2019"
+   },
+   {
+    "count": "1",
+    "districtcode": "36",
+    "schoolyear": "2019"
+   },
+   {
+    "count": "1",
+    "districtcode": "39",
+    "schoolyear": "2019"
+   },
+   {
+    "count": "1",
+    "districtcode": "69",
+    "schoolyear": "2019"
+   },
+   {
+    "count": "1",
+    "districtcode": "77",
+    "schoolyear": "2019"
+   },
+   {
+    "count": "1",
+    "districtcode": "89",
+    "schoolyear": "2019"
+   },
+   {
+    "count": "1",
+    "districtcode": "0",
+    "schoolyear": "2020"
+   },
+   {
+    "count": "1",
+    "districtcode": "13",
+    "schoolyear": "2020"
+   },
+   {
+    "count": "1",
+    "districtcode": "32",
+    "schoolyear": "2020"
+   },
+   {
+    "count": "1",
+    "districtcode": "36",
+    "schoolyear": "2020"
+   },
+   {
+    "count": "1",
+    "districtcode": "39",
+    "schoolyear": "2020"
+   },
+   {
+    "count": "1",
+    "districtcode": "69",
+    "schoolyear": "2020"
+   },
+   {
+    "count": "1",
+    "districtcode": "77",
+    "schoolyear": "2020"
+   },
+   {
+    "count": "1",
+    "districtcode": "89",
+    "schoolyear": "2020"
+   },
+   {
+    "count": "1",
+    "districtcode": "0",
+    "schoolyear": "2021"
+   },
+   {
+    "count": "1",
+    "districtcode": "13",
+    "schoolyear": "2021"
+   },
+   {
+    "count": "1",
+    "districtcode": "32",
+    "schoolyear": "2021"
+   },
+   {
+    "count": "1",
+    "districtcode": "36",
+    "schoolyear": "2021"
+   },
+   {
+    "count": "1",
+    "districtcode": "39",
+    "schoolyear": "2021"
+   },
+   {
+    "count": "1",
+    "districtcode": "69",
+    "schoolyear": "2021"
+   },
+   {
+    "count": "1",
+    "districtcode": "77",
+    "schoolyear": "2021"
+   },
+   {
+    "count": "1",
+    "districtcode": "89",
+    "schoolyear": "2021"
+   },
+   {
+    "count": "1",
+    "districtcode": "0",
+    "schoolyear": "2022"
+   },
+   {
+    "count": "1",
+    "districtcode": "13",
+    "schoolyear": "2022"
+   },
+   {
+    "count": "1",
+    "districtcode": "32",
+    "schoolyear": "2022"
+   },
+   {
+    "count": "1",
+    "districtcode": "36",
+    "schoolyear": "2022"
+   },
+   {
+    "count": "1",
+    "districtcode": "39",
+    "schoolyear": "2022"
+   },
+   {
+    "count": "1",
+    "districtcode": "69",
+    "schoolyear": "2022"
+   },
+   {
+    "count": "1",
+    "districtcode": "77",
+    "schoolyear": "2022"
+   },
+   {
+    "count": "1",
+    "districtcode": "89",
+    "schoolyear": "2022"
+   },
+   {
+    "count": "1",
+    "districtcode": "0",
+    "schoolyear": "2023"
+   },
+   {
+    "count": "1",
+    "districtcode": "13",
+    "schoolyear": "2023"
+   },
+   {
+    "count": "1",
+    "districtcode": "32",
+    "schoolyear": "2023"
+   },
+   {
+    "count": "1",
+    "districtcode": "36",
+    "schoolyear": "2023"
+   },
+   {
+    "count": "1",
+    "districtcode": "39",
+    "schoolyear": "2023"
+   },
+   {
+    "count": "1",
+    "districtcode": "69",
+    "schoolyear": "2023"
+   },
+   {
+    "count": "1",
+    "districtcode": "77",
+    "schoolyear": "2023"
+   },
+   {
+    "count": "1",
+    "districtcode": "89",
+    "schoolyear": "2023"
+   },
+   {
+    "count": "1",
+    "districtcode": "0",
+    "schoolyear": "2024"
+   },
+   {
+    "count": "1",
+    "districtcode": "13",
+    "schoolyear": "2024"
+   },
+   {
+    "count": "1",
+    "districtcode": "32",
+    "schoolyear": "2024"
+   },
+   {
+    "count": "1",
+    "districtcode": "36",
+    "schoolyear": "2024"
+   },
+   {
+    "count": "1",
+    "districtcode": "39",
+    "schoolyear": "2024"
+   },
+   {
+    "count": "1",
+    "districtcode": "69",
+    "schoolyear": "2024"
+   },
+   {
+    "count": "1",
+    "districtcode": "70",
+    "schoolyear": "2024"
+   },
+   {
+    "count": "1",
+    "districtcode": "77",
+    "schoolyear": "2024"
+   },
+   {
+    "count": "1",
+    "districtcode": "79",
+    "schoolyear": "2024"
+   },
+   {
+    "count": "1",
+    "districtcode": "89",
+    "schoolyear": "2024"
+   },
+   {
+    "count": "1",
+    "districtcode": "0",
+    "schoolyear": "2025"
+   },
+   {
+    "count": "1",
+    "districtcode": "13",
+    "schoolyear": "2025"
+   },
+   {
+    "count": "1",
+    "districtcode": "32",
+    "schoolyear": "2025"
+   },
+   {
+    "count": "1",
+    "districtcode": "36",
+    "schoolyear": "2025"
+   },
+   {
+    "count": "1",
+    "districtcode": "39",
+    "schoolyear": "2025"
+   },
+   {
+    "count": "1",
+    "districtcode": "69",
+    "schoolyear": "2025"
+   },
+   {
+    "count": "1",
+    "districtcode": "70",
+    "schoolyear": "2025"
+   },
+   {
+    "count": "1",
+    "districtcode": "77",
+    "schoolyear": "2025"
+   },
+   {
+    "count": "1",
+    "districtcode": "79",
+    "schoolyear": "2025"
+   },
+   {
+    "count": "1",
+    "districtcode": "89",
+    "schoolyear": "2025"
+   },
+   {
+    "count": "1",
+    "districtcode": "9615",
+    "schoolyear": "2025"
+   },
+   {
+    "count": "1",
+    "districtcode": "0",
+    "schoolyear": "2026"
+   },
+   {
+    "count": "1",
+    "districtcode": "13",
+    "schoolyear": "2026"
+   },
+   {
+    "count": "1",
+    "districtcode": "32",
+    "schoolyear": "2026"
+   },
+   {
+    "count": "1",
+    "districtcode": "36",
+    "schoolyear": "2026"
+   },
+   {
+    "count": "1",
+    "districtcode": "39",
+    "schoolyear": "2026"
+   },
+   {
+    "count": "1",
+    "districtcode": "69",
+    "schoolyear": "2026"
+   },
+   {
+    "count": "1",
+    "districtcode": "70",
+    "schoolyear": "2026"
+   },
+   {
+    "count": "1",
+    "districtcode": "77",
+    "schoolyear": "2026"
+   },
+   {
+    "count": "1",
+    "districtcode": "79",
+    "schoolyear": "2026"
+   },
+   {
+    "count": "1",
+    "districtcode": "89",
+    "schoolyear": "2026"
+   },
+   {
+    "count": "1",
+    "districtcode": "9615",
+    "schoolyear": "2026"
+   }
+  ],
+  "5tvj-rx46?{\"$limit\": \"500\", \"$order\": \"districtcode\", \"$select\": \"districtcode,districtname,total,staffcount_salary_lt_30k,staffcount_salary_30k_37k,staffcount_salary_37k_44k,staffcount_salary_44k_51k,staffcount_salary_51k_58k,staffcount_salary_58k_65k,staffcount_salary_65k_72k,staffcount_salary_72k_79k,staffcount_salary_79k_86k,staffcount_salary_86k_93k,staffcount_salary_93k_100k,staffcount_salary_gt_100k\", \"$where\": \"schoolcode=0 AND subgroup='All Educators' AND staff_type='Professional' AND staff_category='Classroom Teacher' AND job_classification='ALL' AND schoolyear='2026'\"}": [
+   {
+    "districtcode": "0",
+    "districtname": "State of Delaware",
+    "staffcount_salary_30k_37k": "6",
+    "staffcount_salary_37k_44k": "12.800000000000001",
+    "staffcount_salary_44k_51k": "120.2",
+    "staffcount_salary_51k_58k": "1029.4000000000001",
+    "staffcount_salary_58k_65k": "1114.5",
+    "staffcount_salary_65k_72k": "1170",
+    "staffcount_salary_72k_79k": "986.89999999999998",
+    "staffcount_salary_79k_86k": "1520",
+    "staffcount_salary_86k_93k": "1063.5999999999999",
+    "staffcount_salary_93k_100k": "1545.9000000000001",
+    "staffcount_salary_gt_100k": "1665.5999999999999",
+    "staffcount_salary_lt_30k": "27.5",
+    "total": "10262.299999999999"
+   },
+   {
+    "districtcode": "13",
+    "districtname": "Capital School District",
+    "staffcount_salary_44k_51k": "2",
+    "staffcount_salary_51k_58k": "98.099999999999994",
+    "staffcount_salary_58k_65k": "71.299999999999997",
+    "staffcount_salary_65k_72k": "67.5",
+    "staffcount_salary_72k_79k": "36",
+    "staffcount_salary_79k_86k": "49",
+    "staffcount_salary_86k_93k": "52.5",
+    "staffcount_salary_93k_100k": "22",
+    "staffcount_salary_gt_100k": "15",
+    "staffcount_salary_lt_30k": "3",
+    "total": "416.39999999999998"
+   },
+   {
+    "districtcode": "32",
+    "districtname": "Red Clay Consolidated School District",
+    "staffcount_salary_30k_37k": "1",
+    "staffcount_salary_37k_44k": "1",
+    "staffcount_salary_44k_51k": "5",
+    "staffcount_salary_51k_58k": "101",
+    "staffcount_salary_58k_65k": "105",
+    "staffcount_salary_65k_72k": "105",
+    "staffcount_salary_72k_79k": "97.5",
+    "staffcount_salary_79k_86k": "136.59999999999999",
+    "staffcount_salary_86k_93k": "71.5",
+    "staffcount_salary_93k_100k": "258",
+    "staffcount_salary_gt_100k": "201.5",
+    "staffcount_salary_lt_30k": "3",
+    "total": "1086.0999999999999"
+   },
+   {
+    "districtcode": "36",
+    "districtname": "Indian River School District",
+    "staffcount_salary_30k_37k": "1",
+    "staffcount_salary_37k_44k": "1",
+    "staffcount_salary_51k_58k": "50",
+    "staffcount_salary_58k_65k": "46",
+    "staffcount_salary_65k_72k": "101",
+    "staffcount_salary_72k_79k": "88",
+    "staffcount_salary_79k_86k": "75.5",
+    "staffcount_salary_86k_93k": "197",
+    "staffcount_salary_93k_100k": "110",
+    "staffcount_salary_gt_100k": "105",
+    "total": "774.5"
+   },
+   {
+    "districtcode": "39",
+    "districtname": "POLYTECH School District",
+    "staffcount_salary_51k_58k": "1",
+    "staffcount_salary_58k_65k": "4",
+    "staffcount_salary_65k_72k": "17",
+    "staffcount_salary_72k_79k": "10",
+    "staffcount_salary_79k_86k": "20",
+    "staffcount_salary_86k_93k": "19",
+    "staffcount_salary_93k_100k": "10",
+    "staffcount_salary_gt_100k": "8",
+    "total": "89"
+   },
+   {
+    "districtcode": "69",
+    "districtname": "ASPIRA Delaware",
+    "staffcount_salary_51k_58k": "6.7999999999999998",
+    "staffcount_salary_58k_65k": "5",
+    "staffcount_salary_65k_72k": "14",
+    "staffcount_salary_72k_79k": "12",
+    "staffcount_salary_79k_86k": "17",
+    "staffcount_salary_86k_93k": "6",
+    "staffcount_salary_93k_100k": "18",
+    "staffcount_salary_gt_100k": "15",
+    "total": "93.799999999999997"
+   },
+   {
+    "districtcode": "70",
+    "districtname": "Charter School of Wilmington",
+    "staffcount_salary_44k_51k": "2",
+    "staffcount_salary_51k_58k": "2",
+    "staffcount_salary_58k_65k": "1",
+    "staffcount_salary_65k_72k": "1",
+    "staffcount_salary_72k_79k": "5",
+    "staffcount_salary_79k_86k": "9",
+    "staffcount_salary_86k_93k": "6",
+    "staffcount_salary_93k_100k": "12",
+    "staffcount_salary_gt_100k": "12",
+    "total": "50"
+   },
+   {
+    "districtcode": "77",
+    "districtname": "Sussex Academy",
+    "staffcount_salary_51k_58k": "4",
+    "staffcount_salary_58k_65k": "9",
+    "staffcount_salary_65k_72k": "8",
+    "staffcount_salary_72k_79k": "8",
+    "staffcount_salary_79k_86k": "12",
+    "staffcount_salary_86k_93k": "16",
+    "staffcount_salary_93k_100k": "5",
+    "staffcount_salary_gt_100k": "2",
+    "total": "64"
+   },
+   {
+    "districtcode": "79",
+    "districtname": "Delaware Military Academy",
+    "staffcount_salary_44k_51k": "1",
+    "staffcount_salary_51k_58k": "1",
+    "staffcount_salary_58k_65k": "3",
+    "staffcount_salary_65k_72k": "3",
+    "staffcount_salary_72k_79k": "3",
+    "staffcount_salary_79k_86k": "2",
+    "staffcount_salary_86k_93k": "4",
+    "staffcount_salary_93k_100k": "10",
+    "staffcount_salary_gt_100k": "3",
+    "total": "30"
+   },
+   {
+    "districtcode": "89",
+    "districtname": "Newark Charter School",
+    "staffcount_salary_37k_44k": "1",
+    "staffcount_salary_51k_58k": "1",
+    "staffcount_salary_58k_65k": "9",
+    "staffcount_salary_65k_72k": "12",
+    "staffcount_salary_72k_79k": "12",
+    "staffcount_salary_79k_86k": "30.800000000000001",
+    "staffcount_salary_86k_93k": "14",
+    "staffcount_salary_93k_100k": "81.799999999999997",
+    "staffcount_salary_gt_100k": "40",
+    "staffcount_salary_lt_30k": "1",
+    "total": "202.59999999999999"
+   },
+   {
+    "districtcode": "9615",
+    "districtname": "Bryan Allen Stevenson School of Excellence",
+    "staffcount_salary_44k_51k": "1",
+    "staffcount_salary_65k_72k": "1",
+    "staffcount_salary_72k_79k": "1",
+    "staffcount_salary_79k_86k": "1",
+    "staffcount_salary_86k_93k": "1",
+    "staffcount_salary_lt_30k": "1",
+    "total": "6"
+   }
+  ],
+  "6i7v-xnmf?{\"$group\": \"districtcode,district\", \"$limit\": \"5\", \"$select\": \"districtcode,district\", \"$where\": \"organization='Charter School of Wilmington' AND schoolcode!='0' AND schoolyear='2025'\"}": [
+   {
+    "district": "Red Clay Consolidated School District",
+    "districtcode": "32"
+   }
+  ],
+  "6i7v-xnmf?{\"$group\": \"districtcode,district\", \"$limit\": \"5\", \"$select\": \"districtcode,district\", \"$where\": \"organization='Delaware Military Academy' AND schoolcode!='0' AND schoolyear='2025'\"}": [
+   {
+    "district": "Red Clay Consolidated School District",
+    "districtcode": "32"
+   }
+  ],
+  "6i7v-xnmf?{\"$group\": \"schoolyear\", \"$limit\": \"80\", \"$select\": \"schoolyear\"}": [
+   {
+    "schoolyear": "2015"
+   },
+   {
+    "schoolyear": "2016"
+   },
+   {
+    "schoolyear": "2017"
+   },
+   {
+    "schoolyear": "2018"
+   },
+   {
+    "schoolyear": "2019"
+   },
+   {
+    "schoolyear": "2020"
+   },
+   {
+    "schoolyear": "2021"
+   },
+   {
+    "schoolyear": "2022"
+   },
+   {
+    "schoolyear": "2023"
+   },
+   {
+    "schoolyear": "2024"
+   },
+   {
+    "schoolyear": "2025"
+   },
+   {
+    "schoolyear": "SchoolYear"
+   }
+  ],
+  "6i7v-xnmf?{\"$limit\": \"200\", \"$select\": \"districtcode,district,eoyenrollment\", \"$where\": \"subgroup='All Students' AND grade='All Students' AND schoolcode='0' AND schoolyear='2025'\"}": [
+   {
+    "district": "State of Delaware",
+    "districtcode": "0",
+    "eoyenrollment": "152122"
+   },
+   {
+    "district": "Capital School District",
+    "districtcode": "13",
+    "eoyenrollment": "7937"
+   },
+   {
+    "district": "Red Clay Consolidated School District",
+    "districtcode": "32",
+    "eoyenrollment": "17930"
+   },
+   {
+    "district": "Indian River School District",
+    "districtcode": "36",
+    "eoyenrollment": "11824"
+   },
+   {
+    "district": "POLYTECH School District",
+    "districtcode": "39",
+    "eoyenrollment": "1250"
+   },
+   {
+    "district": "ASPIRA Delaware",
+    "districtcode": "69",
+    "eoyenrollment": "1529"
+   },
+   {
+    "district": "Sussex Academy",
+    "districtcode": "77",
+    "eoyenrollment": "1190"
+   },
+   {
+    "district": "Newark Charter School",
+    "districtcode": "89",
+    "eoyenrollment": "3115"
+   },
+   {
+    "district": "Bryan Allen Stevenson School of Excellence",
+    "districtcode": "9615",
+    "eoyenrollment": "231"
+   },
+   {
+    "district": "State of Delaware",
+    "districtcode": "0",
+    "eoyenrollment": "152122"
+   },
+   {
+    "district": "Capital School District",
+    "districtcode": "13",
+    "eoyenrollment": "7937"
+   },
+   {
+    "district": "Red Clay Consolidated School District",
+    "districtcode": "32",
+    "eoyenrollment": "17930"
+   },
+   {
+    "district": "Indian River School District",
+    "districtcode": "36",
+    "eoyenrollment": "11824"
+   },
+   {
+    "district": "POLYTECH School District",
+    "districtcode": "39",
+    "eoyenrollment": "1250"
+   },
+   {
+    "district": "ASPIRA Delaware",
+    "districtcode": "69",
+    "eoyenrollment": "1529"
+   },
+   {
+    "district": "Sussex Academy",
+    "districtcode": "77",
+    "eoyenrollment": "1190"
+   },
+   {
+    "district": "Newark Charter School",
+    "districtcode": "89",
+    "eoyenrollment": "3115"
+   },
+   {
+    "district": "Bryan Allen Stevenson School of Excellence",
+    "districtcode": "9615",
+    "eoyenrollment": "231"
+   }
+  ],
+  "crb4-kdc7?{\"$group\": \"schoolyear\", \"$limit\": \"80\", \"$select\": \"schoolyear\"}": [
+   {
+    "schoolyear": "2015"
+   },
+   {
+    "schoolyear": "2016"
+   },
+   {
+    "schoolyear": "2017"
+   },
+   {
+    "schoolyear": "2018"
+   },
+   {
+    "schoolyear": "2019"
+   },
+   {
+    "schoolyear": "2020"
+   },
+   {
+    "schoolyear": "2021"
+   },
+   {
+    "schoolyear": "2022"
+   },
+   {
+    "schoolyear": "2023"
+   },
+   {
+    "schoolyear": "2024"
+   },
+   {
+    "schoolyear": "2025"
+   }
+  ],
+  "crb4-kdc7?{\"$limit\": \"200\", \"$select\": \"districtcode,district,pctstudentschronicallyabsent\", \"$where\": \"rowstatus='REPORTED' AND subgroup='All Students' AND grade='All Students' AND schoolcode='0' AND schoolyear='2025'\"}": [
+   {
+    "district": "State of Delaware",
+    "districtcode": "0",
+    "pctstudentschronicallyabsent": "17.13"
+   },
+   {
+    "district": "Capital School District",
+    "districtcode": "13",
+    "pctstudentschronicallyabsent": "26.13"
+   },
+   {
+    "district": "Red Clay Consolidated School District",
+    "districtcode": "32",
+    "pctstudentschronicallyabsent": "16.85"
+   },
+   {
+    "district": "Indian River School District",
+    "districtcode": "36",
+    "pctstudentschronicallyabsent": "20.20"
+   },
+   {
+    "district": "POLYTECH School District",
+    "districtcode": "39",
+    "pctstudentschronicallyabsent": "11.34"
+   },
+   {
+    "district": "ASPIRA Delaware",
+    "districtcode": "69",
+    "pctstudentschronicallyabsent": "14.45"
+   },
+   {
+    "district": "Sussex Academy",
+    "districtcode": "77",
+    "pctstudentschronicallyabsent": "3.53"
+   },
+   {
+    "district": "Newark Charter School",
+    "districtcode": "89",
+    "pctstudentschronicallyabsent": "6.97"
+   }
+  ],
+  "ms6b-mt82?{\"$group\": \"schoolyear\", \"$limit\": \"80\", \"$select\": \"schoolyear\"}": [
+   {
+    "schoolyear": "2015"
+   },
+   {
+    "schoolyear": "2016"
+   },
+   {
+    "schoolyear": "2017"
+   },
+   {
+    "schoolyear": "2018"
+   },
+   {
+    "schoolyear": "2019"
+   },
+   {
+    "schoolyear": "2020"
+   },
+   {
+    "schoolyear": "2021"
+   },
+   {
+    "schoolyear": "2022"
+   },
+   {
+    "schoolyear": "2023"
+   },
+   {
+    "schoolyear": "2024"
+   },
+   {
+    "schoolyear": "2025"
+   },
+   {
+    "schoolyear": "2026"
+   }
+  ],
+  "ms6b-mt82?{\"$limit\": \"200\", \"$select\": \"districtcode,district,pctproficient\", \"$where\": \"rowstatus='REPORTED' AND subgroup='All Students' AND grade='All Students' AND assessmentname='Smarter Balanced Summative Assessment' AND contentarea='ELA' AND schoolcode='0' AND schoolyear='2026'\"}": [
+   {
+    "district": "State of Delaware",
+    "districtcode": "0",
+    "pctproficient": "41.81"
+   },
+   {
+    "district": "Capital School District",
+    "districtcode": "13",
+    "pctproficient": "25.54"
+   },
+   {
+    "district": "Red Clay Consolidated School District",
+    "districtcode": "32",
+    "pctproficient": "40.08"
+   },
+   {
+    "district": "Indian River School District",
+    "districtcode": "36",
+    "pctproficient": "39.95"
+   },
+   {
+    "district": "ASPIRA Delaware",
+    "districtcode": "69",
+    "pctproficient": "34.34"
+   },
+   {
+    "district": "Sussex Academy",
+    "districtcode": "77",
+    "pctproficient": "64.64"
+   },
+   {
+    "district": "Newark Charter School",
+    "districtcode": "89",
+    "pctproficient": "73.57"
+   },
+   {
+    "district": "Bryan Allen Stevenson School of Excellence",
+    "districtcode": "9615",
+    "pctproficient": "26.14"
+   }
+  ],
+  "ms6b-mt82?{\"$limit\": \"200\", \"$select\": \"districtcode,district,pctproficient\", \"$where\": \"rowstatus='REPORTED' AND subgroup='All Students' AND grade='All Students' AND assessmentname='Smarter Balanced Summative Assessment' AND contentarea='MATH' AND schoolcode='0' AND schoolyear='2026'\"}": [
+   {
+    "district": "State of Delaware",
+    "districtcode": "0",
+    "pctproficient": "35.01"
+   },
+   {
+    "district": "Capital School District",
+    "districtcode": "13",
+    "pctproficient": "18.60"
+   },
+   {
+    "district": "Red Clay Consolidated School District",
+    "districtcode": "32",
+    "pctproficient": "33.10"
+   },
+   {
+    "district": "Indian River School District",
+    "districtcode": "36",
+    "pctproficient": "37.44"
+   },
+   {
+    "district": "ASPIRA Delaware",
+    "districtcode": "69",
+    "pctproficient": "20.32"
+   },
+   {
+    "district": "Sussex Academy",
+    "districtcode": "77",
+    "pctproficient": "52.47"
+   },
+   {
+    "district": "Newark Charter School",
+    "districtcode": "89",
+    "pctproficient": "71.20"
+   },
+   {
+    "district": "Bryan Allen Stevenson School of Excellence",
+    "districtcode": "9615",
+    "pctproficient": "5.68"
+   }
+  ],
+  "p3ez-si4g?{\"$group\": \"districtcode,districtname,districttype\", \"$limit\": \"500\", \"$order\": \"districtcode\", \"$select\": \"districtcode,districtname,districttype\", \"$where\": \"schoolyear='2025'\"}": [
+   {
+    "districtcode": "0",
+    "districtname": "Department of Education",
+    "districttype": "Not Applicable"
+   },
+   {
+    "districtcode": "13",
+    "districtname": "Capital School District",
+    "districttype": "Regular"
+   },
+   {
+    "districtcode": "32",
+    "districtname": "Red Clay Consolidated School District",
+    "districttype": "Regular"
+   },
+   {
+    "districtcode": "36",
+    "districtname": "Indian River School District",
+    "districttype": "Regular"
+   },
+   {
+    "districtcode": "39",
+    "districtname": "POLYTECH School District",
+    "districttype": "Regular"
+   },
+   {
+    "districtcode": "69",
+    "districtname": "Las Americas Aspira Academy",
+    "districttype": "Charter"
+   },
+   {
+    "districtcode": "70",
+    "districtname": "Charter School of Wilmington",
+    "districttype": "Charter"
+   },
+   {
+    "districtcode": "77",
+    "districtname": "Sussex Academy",
+    "districttype": "Charter"
+   },
+   {
+    "districtcode": "79",
+    "districtname": "Delaware Military Academy",
+    "districttype": "Charter"
+   },
+   {
+    "districtcode": "89",
+    "districtname": "Newark Charter School",
+    "districttype": "Charter"
+   },
+   {
+    "districtcode": "9615",
+    "districtname": "Bryan Allen Stevenson School of Excellence",
+    "districttype": "Charter"
+   }
+  ],
+  "p3ez-si4g?{\"$group\": \"schoolyear\", \"$limit\": \"80\", \"$select\": \"schoolyear\"}": [
+   {
+    "schoolyear": "2015"
+   },
+   {
+    "schoolyear": "2016"
+   },
+   {
+    "schoolyear": "2017"
+   },
+   {
+    "schoolyear": "2018"
+   },
+   {
+    "schoolyear": "2019"
+   },
+   {
+    "schoolyear": "2020"
+   },
+   {
+    "schoolyear": "2021"
+   },
+   {
+    "schoolyear": "2022"
+   },
+   {
+    "schoolyear": "2023"
+   },
+   {
+    "schoolyear": "2024"
+   },
+   {
+    "schoolyear": "2025"
+   }
+  ],
+  "rv4m-vy79?{\"$group\": \"schoolyear,districtcode\", \"$limit\": \"5000\", \"$select\": \"schoolyear,districtcode,count(*)\", \"$where\": \"schoolcode=0 AND subgroup='All Educators' AND staff_type='Professional' AND staff_category='Classroom Teacher' AND job_classification='ALL' AND experience='ALL'\"}": [
+   {
+    "count": "1",
+    "districtcode": "0",
+    "schoolyear": "2015"
+   },
+   {
+    "count": "1",
+    "districtcode": "13",
+    "schoolyear": "2015"
+   },
+   {
+    "count": "1",
+    "districtcode": "32",
+    "schoolyear": "2015"
+   },
+   {
+    "count": "1",
+    "districtcode": "36",
+    "schoolyear": "2015"
+   },
+   {
+    "count": "1",
+    "districtcode": "39",
+    "schoolyear": "2015"
+   },
+   {
+    "count": "1",
+    "districtcode": "69",
+    "schoolyear": "2015"
+   },
+   {
+    "count": "1",
+    "districtcode": "77",
+    "schoolyear": "2015"
+   },
+   {
+    "count": "1",
+    "districtcode": "89",
+    "schoolyear": "2015"
+   },
+   {
+    "count": "1",
+    "districtcode": "0",
+    "schoolyear": "2016"
+   },
+   {
+    "count": "1",
+    "districtcode": "13",
+    "schoolyear": "2016"
+   },
+   {
+    "count": "1",
+    "districtcode": "32",
+    "schoolyear": "2016"
+   },
+   {
+    "count": "1",
+    "districtcode": "36",
+    "schoolyear": "2016"
+   },
+   {
+    "count": "1",
+    "districtcode": "39",
+    "schoolyear": "2016"
+   },
+   {
+    "count": "1",
+    "districtcode": "69",
+    "schoolyear": "2016"
+   },
+   {
+    "count": "1",
+    "districtcode": "77",
+    "schoolyear": "2016"
+   },
+   {
+    "count": "1",
+    "districtcode": "89",
+    "schoolyear": "2016"
+   },
+   {
+    "count": "1",
+    "districtcode": "0",
+    "schoolyear": "2017"
+   },
+   {
+    "count": "1",
+    "districtcode": "13",
+    "schoolyear": "2017"
+   },
+   {
+    "count": "1",
+    "districtcode": "32",
+    "schoolyear": "2017"
+   },
+   {
+    "count": "1",
+    "districtcode": "36",
+    "schoolyear": "2017"
+   },
+   {
+    "count": "1",
+    "districtcode": "39",
+    "schoolyear": "2017"
+   },
+   {
+    "count": "1",
+    "districtcode": "69",
+    "schoolyear": "2017"
+   },
+   {
+    "count": "1",
+    "districtcode": "77",
+    "schoolyear": "2017"
+   },
+   {
+    "count": "1",
+    "districtcode": "89",
+    "schoolyear": "2017"
+   },
+   {
+    "count": "1",
+    "districtcode": "0",
+    "schoolyear": "2018"
+   },
+   {
+    "count": "1",
+    "districtcode": "13",
+    "schoolyear": "2018"
+   },
+   {
+    "count": "1",
+    "districtcode": "32",
+    "schoolyear": "2018"
+   },
+   {
+    "count": "1",
+    "districtcode": "36",
+    "schoolyear": "2018"
+   },
+   {
+    "count": "1",
+    "districtcode": "39",
+    "schoolyear": "2018"
+   },
+   {
+    "count": "1",
+    "districtcode": "69",
+    "schoolyear": "2018"
+   },
+   {
+    "count": "1",
+    "districtcode": "77",
+    "schoolyear": "2018"
+   },
+   {
+    "count": "1",
+    "districtcode": "89",
+    "schoolyear": "2018"
+   },
+   {
+    "count": "1",
+    "districtcode": "0",
+    "schoolyear": "2019"
+   },
+   {
+    "count": "1",
+    "districtcode": "13",
+    "schoolyear": "2019"
+   },
+   {
+    "count": "1",
+    "districtcode": "32",
+    "schoolyear": "2019"
+   },
+   {
+    "count": "1",
+    "districtcode": "36",
+    "schoolyear": "2019"
+   },
+   {
+    "count": "1",
+    "districtcode": "39",
+    "schoolyear": "2019"
+   },
+   {
+    "count": "1",
+    "districtcode": "69",
+    "schoolyear": "2019"
+   },
+   {
+    "count": "1",
+    "districtcode": "77",
+    "schoolyear": "2019"
+   },
+   {
+    "count": "1",
+    "districtcode": "89",
+    "schoolyear": "2019"
+   },
+   {
+    "count": "1",
+    "districtcode": "0",
+    "schoolyear": "2020"
+   },
+   {
+    "count": "1",
+    "districtcode": "13",
+    "schoolyear": "2020"
+   },
+   {
+    "count": "1",
+    "districtcode": "32",
+    "schoolyear": "2020"
+   },
+   {
+    "count": "1",
+    "districtcode": "36",
+    "schoolyear": "2020"
+   },
+   {
+    "count": "1",
+    "districtcode": "39",
+    "schoolyear": "2020"
+   },
+   {
+    "count": "1",
+    "districtcode": "69",
+    "schoolyear": "2020"
+   },
+   {
+    "count": "1",
+    "districtcode": "77",
+    "schoolyear": "2020"
+   },
+   {
+    "count": "1",
+    "districtcode": "89",
+    "schoolyear": "2020"
+   },
+   {
+    "count": "1",
+    "districtcode": "0",
+    "schoolyear": "2021"
+   },
+   {
+    "count": "1",
+    "districtcode": "13",
+    "schoolyear": "2021"
+   },
+   {
+    "count": "1",
+    "districtcode": "32",
+    "schoolyear": "2021"
+   },
+   {
+    "count": "1",
+    "districtcode": "36",
+    "schoolyear": "2021"
+   },
+   {
+    "count": "1",
+    "districtcode": "39",
+    "schoolyear": "2021"
+   },
+   {
+    "count": "1",
+    "districtcode": "69",
+    "schoolyear": "2021"
+   },
+   {
+    "count": "1",
+    "districtcode": "77",
+    "schoolyear": "2021"
+   },
+   {
+    "count": "1",
+    "districtcode": "89",
+    "schoolyear": "2021"
+   },
+   {
+    "count": "1",
+    "districtcode": "0",
+    "schoolyear": "2022"
+   },
+   {
+    "count": "1",
+    "districtcode": "13",
+    "schoolyear": "2022"
+   },
+   {
+    "count": "1",
+    "districtcode": "32",
+    "schoolyear": "2022"
+   },
+   {
+    "count": "1",
+    "districtcode": "36",
+    "schoolyear": "2022"
+   },
+   {
+    "count": "1",
+    "districtcode": "39",
+    "schoolyear": "2022"
+   },
+   {
+    "count": "1",
+    "districtcode": "69",
+    "schoolyear": "2022"
+   },
+   {
+    "count": "1",
+    "districtcode": "77",
+    "schoolyear": "2022"
+   },
+   {
+    "count": "1",
+    "districtcode": "89",
+    "schoolyear": "2022"
+   },
+   {
+    "count": "1",
+    "districtcode": "0",
+    "schoolyear": "2023"
+   },
+   {
+    "count": "1",
+    "districtcode": "13",
+    "schoolyear": "2023"
+   },
+   {
+    "count": "1",
+    "districtcode": "32",
+    "schoolyear": "2023"
+   },
+   {
+    "count": "1",
+    "districtcode": "36",
+    "schoolyear": "2023"
+   },
+   {
+    "count": "1",
+    "districtcode": "39",
+    "schoolyear": "2023"
+   },
+   {
+    "count": "1",
+    "districtcode": "69",
+    "schoolyear": "2023"
+   },
+   {
+    "count": "1",
+    "districtcode": "77",
+    "schoolyear": "2023"
+   },
+   {
+    "count": "1",
+    "districtcode": "89",
+    "schoolyear": "2023"
+   },
+   {
+    "count": "1",
+    "districtcode": "0",
+    "schoolyear": "2024"
+   },
+   {
+    "count": "1",
+    "districtcode": "13",
+    "schoolyear": "2024"
+   },
+   {
+    "count": "1",
+    "districtcode": "32",
+    "schoolyear": "2024"
+   },
+   {
+    "count": "1",
+    "districtcode": "36",
+    "schoolyear": "2024"
+   },
+   {
+    "count": "1",
+    "districtcode": "39",
+    "schoolyear": "2024"
+   },
+   {
+    "count": "1",
+    "districtcode": "69",
+    "schoolyear": "2024"
+   },
+   {
+    "count": "1",
+    "districtcode": "70",
+    "schoolyear": "2024"
+   },
+   {
+    "count": "1",
+    "districtcode": "77",
+    "schoolyear": "2024"
+   },
+   {
+    "count": "1",
+    "districtcode": "79",
+    "schoolyear": "2024"
+   },
+   {
+    "count": "1",
+    "districtcode": "89",
+    "schoolyear": "2024"
+   },
+   {
+    "count": "1",
+    "districtcode": "0",
+    "schoolyear": "2025"
+   },
+   {
+    "count": "1",
+    "districtcode": "13",
+    "schoolyear": "2025"
+   },
+   {
+    "count": "1",
+    "districtcode": "32",
+    "schoolyear": "2025"
+   },
+   {
+    "count": "1",
+    "districtcode": "36",
+    "schoolyear": "2025"
+   },
+   {
+    "count": "1",
+    "districtcode": "39",
+    "schoolyear": "2025"
+   },
+   {
+    "count": "1",
+    "districtcode": "69",
+    "schoolyear": "2025"
+   },
+   {
+    "count": "1",
+    "districtcode": "70",
+    "schoolyear": "2025"
+   },
+   {
+    "count": "1",
+    "districtcode": "77",
+    "schoolyear": "2025"
+   },
+   {
+    "count": "1",
+    "districtcode": "79",
+    "schoolyear": "2025"
+   },
+   {
+    "count": "1",
+    "districtcode": "89",
+    "schoolyear": "2025"
+   },
+   {
+    "count": "1",
+    "districtcode": "9615",
+    "schoolyear": "2025"
+   }
+  ],
+  "rv4m-vy79?{\"$limit\": \"500\", \"$order\": \"districtcode\", \"$select\": \"districtcode,district,average_total_salary,educators_fte\", \"$where\": \"schoolcode=0 AND subgroup='All Educators' AND staff_type='Professional' AND staff_category='Classroom Teacher' AND job_classification='ALL' AND experience='ALL' AND schoolyear='2025'\"}": [
+   {
+    "average_total_salary": "76570.419999999998",
+    "district": "State of Delaware",
+    "districtcode": "0",
+    "educators_fte": "9770.1000000000004"
+   },
+   {
+    "average_total_salary": "68212.550000000003",
+    "district": "Capital School District",
+    "districtcode": "13",
+    "educators_fte": "362.10000000000002"
+   },
+   {
+    "average_total_salary": "79359.059999999998",
+    "district": "Red Clay Consolidated School District",
+    "districtcode": "32",
+    "educators_fte": "1060.0999999999999"
+   },
+   {
+    "average_total_salary": "78047.970000000001",
+    "district": "Indian River School District",
+    "districtcode": "36",
+    "educators_fte": "793.5"
+   },
+   {
+    "average_total_salary": "79264.289999999994",
+    "district": "POLYTECH School District",
+    "districtcode": "39",
+    "educators_fte": "79"
+   },
+   {
+    "average_total_salary": "79232.509999999995",
+    "district": "Las Americas Aspira Academy",
+    "districtcode": "69",
+    "educators_fte": "80.799999999999997"
+   },
+   {
+    "average_total_salary": "82773.580000000002",
+    "district": "Charter School of Wilmington",
+    "districtcode": "70",
+    "educators_fte": "49"
+   },
+   {
+    "average_total_salary": "74881.240000000005",
+    "district": "Sussex Academy",
+    "districtcode": "77",
+    "educators_fte": "58"
+   },
+   {
+    "average_total_salary": "77000.630000000005",
+    "district": "Delaware Military Academy",
+    "districtcode": "79",
+    "educators_fte": "28"
+   },
+   {
+    "average_total_salary": "85488.600000000006",
+    "district": "Newark Charter School",
+    "districtcode": "89",
+    "educators_fte": "189.80000000000001"
+   },
+   {
+    "average_total_salary": "60263.599999999999",
+    "district": "Bryan Allen Stevenson School of Excellence",
+    "districtcode": "9615",
+    "educators_fte": "5"
+   }
+  ],
+  "t7e6-zcnn?{\"$group\": \"schoolyear\", \"$limit\": \"80\", \"$select\": \"schoolyear\"}": [
+   {
+    "schoolyear": "2013"
+   },
+   {
+    "schoolyear": "2014"
+   },
+   {
+    "schoolyear": "2015"
+   },
+   {
+    "schoolyear": "2016"
+   },
+   {
+    "schoolyear": "2017"
+   },
+   {
+    "schoolyear": "2018"
+   },
+   {
+    "schoolyear": "2019"
+   },
+   {
+    "schoolyear": "2020"
+   },
+   {
+    "schoolyear": "2021"
+   },
+   {
+    "schoolyear": "2022"
+   },
+   {
+    "schoolyear": "2023"
+   },
+   {
+    "schoolyear": "2024"
+   },
+   {
+    "schoolyear": "2025"
+   }
+  ],
+  "t7e6-zcnn?{\"$limit\": \"1000\", \"$order\": \"districtcode,schoolcode\", \"$select\": \"districtcode,schoolcode,organization,rowstatus,pctgraduates\", \"$where\": \"subgroup='All Students' AND schoolcode!='0' AND ratetype='4-year graduation rate' AND schoolyear='2025'\"}": [
+   {
+    "districtcode": "13",
+    "organization": "Dover High School",
+    "pctgraduates": "90.6122",
+    "rowstatus": "REPORTED",
+    "schoolcode": "648"
+   },
+   {
+    "districtcode": "13",
+    "organization": "Kent County Community School",
+    "rowstatus": "REDACTED",
+    "schoolcode": "650"
+   },
+   {
+    "districtcode": "13",
+    "organization": "Kent County Secondary ILC",
+    "rowstatus": "REDACTED",
+    "schoolcode": "655"
+   },
+   {
+    "districtcode": "32",
+    "organization": "Conrad Schools of Science",
+    "rowstatus": "REDACTED",
+    "schoolcode": "284"
+   },
+   {
+    "districtcode": "32",
+    "organization": "Calloway (Cab) School of the Arts",
+    "rowstatus": "REDACTED",
+    "schoolcode": "286"
+   },
+   {
+    "districtcode": "32",
+    "organization": "Dickinson (John) School",
+    "pctgraduates": "84.2342",
+    "rowstatus": "REPORTED",
+    "schoolcode": "290"
+   },
+   {
+    "districtcode": "32",
+    "organization": "duPont (Alexis I.) High School",
+    "pctgraduates": "90.3614",
+    "rowstatus": "REPORTED",
+    "schoolcode": "292"
+   },
+   {
+    "districtcode": "32",
+    "organization": "McKean (Thomas) High School",
+    "pctgraduates": "88",
+    "rowstatus": "REPORTED",
+    "schoolcode": "294"
+   },
+   {
+    "districtcode": "32",
+    "organization": "Charter School of Wilmington",
+    "rowstatus": "REDACTED",
+    "schoolcode": "295"
+   },
+   {
+    "districtcode": "32",
+    "organization": "Meadowood Program",
+    "rowstatus": "REDACTED",
+    "schoolcode": "516"
+   },
+   {
+    "districtcode": "32",
+    "organization": "First State School",
+    "rowstatus": "REDACTED",
+    "schoolcode": "530"
+   },
+   {
+    "districtcode": "32",
+    "organization": "Delaware Military Academy",
+    "rowstatus": "REDACTED",
+    "schoolcode": "578"
+   },
+   {
+    "districtcode": "36",
+    "organization": "Indian River Intensive Learning Center",
+    "rowstatus": "REDACTED",
+    "schoolcode": "745"
+   },
+   {
+    "districtcode": "36",
+    "organization": "Indian River High School",
+    "pctgraduates": "92.7481",
+    "rowstatus": "REPORTED",
+    "schoolcode": "746"
+   },
+   {
+    "districtcode": "36",
+    "organization": "Sussex Central High School",
+    "pctgraduates": "78.7365",
+    "rowstatus": "REPORTED",
+    "schoolcode": "748"
+   },
+   {
+    "districtcode": "36",
+    "organization": "Ennis (Howard T.) School",
+    "rowstatus": "REDACTED",
+    "schoolcode": "750"
+   },
+   {
+    "districtcode": "39",
+    "organization": "POLYTECH High School",
+    "pctgraduates": "97.9094",
+    "rowstatus": "REPORTED",
+    "schoolcode": "652"
+   },
+   {
+    "districtcode": "69",
+    "organization": "ASPIRA Academy",
+    "pctgraduates": "87.0588",
+    "rowstatus": "REPORTED",
+    "schoolcode": "568"
+   },
+   {
+    "districtcode": "77",
+    "organization": "Sussex Academy",
+    "pctgraduates": "92.6829",
+    "rowstatus": "REPORTED",
+    "schoolcode": "576"
+   },
+   {
+    "districtcode": "89",
+    "organization": "Newark Charter School",
+    "rowstatus": "REDACTED",
+    "schoolcode": "588"
+   }
+  ],
+  "t7e6-zcnn?{\"$limit\": \"200\", \"$select\": \"districtcode,district,pctgraduates\", \"$where\": \"rowstatus='REPORTED' AND subgroup='All Students' AND schoolcode='0' AND ratetype='4-year graduation rate' AND schoolyear='2025'\"}": [
+   {
+    "district": "State of Delaware",
+    "districtcode": "0",
+    "pctgraduates": "91.3893"
+   },
+   {
+    "district": "Capital School District",
+    "districtcode": "13",
+    "pctgraduates": "88.6228"
+   },
+   {
+    "district": "Red Clay Consolidated School District",
+    "districtcode": "32",
+    "pctgraduates": "92.46"
+   },
+   {
+    "district": "Indian River School District",
+    "districtcode": "36",
+    "pctgraduates": "82.5849"
+   },
+   {
+    "district": "POLYTECH School District",
+    "districtcode": "39",
+    "pctgraduates": "97.9094"
+   }
+  ]
+ },
+ "updated": {
+  "5tvj-rx46": "2026-01-08",
+  "6i7v-xnmf": "2026-01-08",
+  "crb4-kdc7": "2025-11-05",
+  "ms6b-mt82": "2026-09-29",
+  "p3ez-si4g": "2025-02-17",
+  "rv4m-vy79": "2025-02-13",
+  "t7e6-zcnn": "2026-09-29"
+ }
+}
