@@ -86,6 +86,14 @@
   #cc-map .maplibregl-popup-content strong { color: var(--violet-400); }
   #cc-map .maplibregl-popup-tip { display: none; }
   #cc-map .maplibregl-ctrl-attrib a { text-decoration: underline; }
+  .nm-note { font-size: 14px; color: var(--text-secondary); line-height: 1.6; max-width: 860px; margin: 8px 0; }
+  .nm-note a { color: var(--text-primary); }
+  .nm-controls { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; margin: 12px 0; font-size: 14px; color: var(--text-secondary); }
+  .nm-controls button, .nm-controls select { font: inherit; font-size: 14px; min-height: 44px; padding: 8px 14px; border-radius: 8px; border: 1px solid var(--border-strong); background: var(--surface-elevated); color: var(--text-primary); }
+  .nm-controls button { border-color: var(--violet-400); cursor: pointer; }
+  .nm-list { list-style: none; padding: 0; margin: 10px 0; display: grid; gap: 8px; max-width: 860px; }
+  .nm-list li { background: var(--surface-elevated); border: 1px solid var(--border-default); border-radius: 10px; padding: 10px 14px; font-size: 14px; color: var(--text-secondary); line-height: 1.5; }
+  .nm-list strong { color: var(--text-primary); }
 </style>
 </head>
 <body>
@@ -166,6 +174,23 @@
     </div>
     <div id="cc-map" role="region" aria-label="Map of Delaware licensed childcare providers. Pan and zoom; select a point for the provider's name, capacity, and STARS rating."></div>
     <p class="kpi-source" style="margin-top:12px;">SOURCE · FIRSTMAP DE_CHILDCARECENTERS · POINTS SIZED BY LICENSED CAPACITY</p>
+  </section>
+
+  <section class="section" aria-labelledby="near-title">
+    <div class="section-head">
+      <h2 class="section-title" id="near-title">Licensed child care near you</h2>
+      <span class="section-meta">YOUR LOCATION STAYS IN YOUR BROWSER</span>
+    </div>
+    <p class="nm-note">Share your location to list the 25 closest licensed providers, closest first, or pick a town to list every provider there, A to Z. Your location is used only on this page, in your browser; it is never sent to First State Lens or anyone else. Distance is a straight line, not a driving route. Call a provider to ask about openings: licensed capacity is not the same as open slots.</p>
+    <div class="nm-controls">
+      <button type="button" id="nm-locate">Use my location</button>
+      <label for="nm-town">or pick a town</label>
+      <select id="nm-town"><option value="">Choose a town</option></select>
+    </div>
+    <p id="nm-status" class="nm-note" role="status" aria-live="polite"></p>
+    <ol id="nm-list" class="nm-list" hidden></ol>
+    <p class="kpi-source" style="margin-top:12px;">SOURCE · FIRSTMAP DE_CHILDCARECENTERS (DE OFFICE OF CHILD CARE LICENSING) · NAME, TOWN, LICENSED CAPACITY AND STARS LEVEL AS THE STATE LISTS THEM</p>
+    <noscript><p class="nm-note">This list needs JavaScript. The county table above works without it, and the <a href="https://education.delaware.gov/families/birth-age-5/occl/">Office of Child Care Licensing</a> has the state's own provider search.</p></noscript>
   </section>
 
   <section class="section" aria-labelledby="stars-title">
@@ -280,6 +305,60 @@
   }
 
   load();
+})();
+</script>
+<script>
+(function () {
+  // Childcare near me (UPGRADE-PLAN Y6). Location is read with the browser's permission and
+  // used only here: distances are computed on this page; nothing is sent anywhere.
+  const btn = document.getElementById("nm-locate"), sel = document.getElementById("nm-town");
+  const list = document.getElementById("nm-list"), status = document.getElementById("nm-status");
+  let data = null;
+  const get = () => data ? Promise.resolve(data) : fetch("./data/providers.geojson", { cache: "no-cache" }).then((r) => r.json()).then((g) => (data = g.features.filter((f) => f.geometry && f.properties && f.properties.name)));
+  function miles(a, b) {
+    const R = 3958.8, rad = Math.PI / 180, dLat = (b[1] - a[1]) * rad, dLon = (b[0] - a[0]) * rad;
+    const h = Math.sin(dLat / 2) ** 2 + Math.cos(a[1] * rad) * Math.cos(b[1] * rad) * Math.sin(dLon / 2) ** 2;
+    return 2 * R * Math.asin(Math.sqrt(h));
+  }
+  function render(rows, withDistance) {
+    list.textContent = "";
+    rows.forEach((r) => {
+      const p = r.f.properties, li = document.createElement("li"), name = document.createElement("strong");
+      name.textContent = p.name;
+      li.appendChild(name);
+      const cap = p.capacity != null ? Number(p.capacity).toLocaleString("en-US") : "not listed";
+      li.appendChild(document.createTextNode(" · " + (p.city || "Town not listed") + (withDistance ? " · " + r.d.toFixed(1) + " miles away" : "") + " · licensed capacity " + cap + " · STARS: " + (p.stars || "not listed")));
+      list.appendChild(li);
+    });
+    list.hidden = rows.length === 0;
+  }
+  get().then((fs) => {
+    [...new Set(fs.map((f) => f.properties.city).filter(Boolean))].sort((a, b) => a.localeCompare(b)).forEach((c) => {
+      const o = document.createElement("option"); o.value = c; o.textContent = c; sel.appendChild(o);
+    });
+  }).catch(() => { status.textContent = "The provider list did not load. Try again later."; });
+  sel.addEventListener("change", () => {
+    if (!sel.value) { list.hidden = true; status.textContent = ""; return; }
+    get().then((fs) => {
+      const rows = fs.filter((f) => f.properties.city === sel.value).map((f) => ({ f })).sort((a, b) => a.f.properties.name.localeCompare(b.f.properties.name));
+      status.textContent = rows.length + " licensed provider" + (rows.length === 1 ? "" : "s") + " listed in " + sel.value + ", A to Z.";
+      render(rows, false);
+    });
+  });
+  btn.addEventListener("click", () => {
+    if (!navigator.geolocation) { status.textContent = "Your browser does not share location. Pick a town instead."; return; }
+    status.textContent = "Asking your browser for your location…";
+    navigator.geolocation.getCurrentPosition((pos) => {
+      const me = [pos.coords.longitude, pos.coords.latitude];
+      get().then((fs) => {
+        const rows = fs.map((f) => ({ f, d: miles(me, f.geometry.coordinates) })).sort((a, b) => a.d - b.d).slice(0, 25);
+        if (!rows.length || rows[0].d > 30) { status.textContent = "No licensed Delaware provider within 30 miles of your location. Pick a town instead."; list.hidden = true; return; }
+        sel.value = "";
+        status.textContent = "The 25 licensed providers closest to you, closest first (straight-line distance).";
+        render(rows, true);
+      });
+    }, () => { status.textContent = "Location was not shared. Pick a town instead."; }, { timeout: 10000, maximumAge: 300000 });
+  });
 })();
 </script>
 </body>

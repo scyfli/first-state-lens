@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-12T18:49:47Z",
+  "generated_at": "2026-10-14T18:59:47Z",
   "acs_vintage": "2019-2023 5-year",
   "total_providers": 1189,
-  "total_capacity": 67274,
+  "total_capacity": 67254,
   "total_children_under_6": 66258,
-  "statewide_children_per_slot": 0.98,
+  "statewide_children_per_slot": 0.99,
   "by_county": [
     {
       "county": "New Castle",
       "providers": 743,
-      "capacity": 46513,
+      "capacity": 46493,
       "children_under_6": 38558,
       "children_per_slot": 0.83
     },
