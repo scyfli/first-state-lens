@@ -4,7 +4,7 @@ task: Reframe FSL as a public civic-data utility and build an 8-dashboard citize
 slug: fsl-civic-suite
 effort: E5
 phase: build
-progress: 70/91
+progress: 87/91
 mode: build
 started: 2026-06-15
 updated: 2026-10-14
@@ -478,22 +478,32 @@ Deliverable manifest: (1) E3 last result per seat; (2) E5 machinery ready for No
 
 **E5 (certified results, Nov 5-6):**
 E3 evidence (commit `ec4a39b`): puller mapped 87 seats (77 races + 10 off-ballot SD) from GE2020 (88 contests), GE2022 (86), GE2024 (87); 7 new pytest + 48 existing pass; independent html.parser re-parse of us-senate, HD17, SD14, Kent Sheriff, SD21 = MATCH; added-lines grep: 0 dashes, 0 winner/margin/safe/competitive words; production curl: result block present on SD1, US Senate, HD17, SD2 (off-ballot), US House, and 6/9/5 county sections on Kent/New Castle/Sussex; a11y CI run 38607138437 success. ISC-79: production iframes are blocked by the site's frame headers, so the 390 px check ran on the local copy, which is sha256-identical to production for us-senate and auditor: scrollWidth 375 = frame width, 0 elements past the edge (also SD1, Kent County). Headless Chrome cannot go below 512 px, so it was not used.
-- [ ] ISC-77: The results puller takes any GE year, so certified 2026 results publish with one command once `GE2026.html` exists; proven by a dry run against GE2024. Publishing itself is DEFERRED-VERIFY to 2026-11-05/06 (FU-E5).
+- [x] ISC-77: The results puller takes any GE year, so certified 2026 results publish with one command once `GE2026.html` exists; proven by a dry run against GE2024. Publishing itself is DEFERRED-VERIFY to 2026-11-05/06 (FU-E5).
 
 **Owed checks:**
-- [ ] ISC-78: FU-E1B-AUDIT: cross-vendor audit of the E1b record content (statewide records) run; findings folded or logged.
+- [x] ISC-78: FU-E1B-AUDIT: cross-vendor audit of the E1b record content (statewide records) run; findings folded or logged.
 - [x] ISC-79: `/candidates/us-senate/` and `/candidates/auditor/` show no horizontal overflow in a 390 px frame on production.
 
 **Year-round (built on branches by parallel builders, integrated and verified by me before each push):**
-- [ ] ISC-80: Y1 Office Registry live: every elected office from U.S. Senate to school board with term, current holder (or an official link where no holder list exists) and next election year, each sourced.
-- [ ] ISC-81: Y2 Water rebuild live: "is my water safe" framing, a static page per community water system (violations, health-based flags, EPA link), how-to-read header; no individual contact names or phones.
-- [ ] ISC-82: Y3 School report card pages live: one static page per district with report card measures and educator salary, unique titles.
-- [ ] ISC-83: Y4 My Delaware by address live: one lookup returns legislators (with votes link), school district, county and the 2026 ballot.
+- [x] ISC-80: Y1 Office Registry live: every elected office from U.S. Senate to school board with term, current holder (or an official link where no holder list exists) and next election year, each sourced.
+- [x] ISC-81: Y2 Water rebuild live: "is my water safe" framing, a static page per community water system (violations, health-based flags, EPA link), how-to-read header; no individual contact names or phones.
+- [x] ISC-82: Y3 School report card pages live: one static page per district with report card measures and educator salary, unique titles.
+- [x] ISC-83: Y4 My Delaware by address live: one lookup returns legislators (with votes link), school district, county and the 2026 ballot.
 - [ ] ISC-84: Y5 Full-session bill tracker live: every bill in the current General Assembly session, sorted by date or number only, no curation.
-- [ ] ISC-85: Y6 Childcare near me. BLOCKED: needs the Census key locally (FirstMap blocks GitHub runners); no key on this machine 2026-10-14.
-- [ ] ISC-86: Y7 Restaurant inspections live: raw violations by establishment and date in the state's wording; no grades; how-to-read header says a violation is not a closure; no individual employees named.
-- [ ] ISC-87: Y8 Road safety live: crashes and fatalities by county and month from `827n-m6xc`.
-- [ ] ISC-88: Y9 Contracts tab live on `/spending/` from `sifm-293u`.
-- [ ] ISC-89: Y10 New Castle + Sussex reassessment. BLOCKED: FOIA records not yet requested/received.
-- [ ] ISC-90: Anti: no private individual's address, phone or email on any new page (PII grep over every new directory).
+- [ ] ISC-85: [BLOCKED, Mark: Census key] Y6 Childcare near me. BLOCKED: needs the Census key locally (FirstMap blocks GitHub runners); no key on this machine 2026-10-14.
+- [x] ISC-86: Y7 Restaurant inspections live: raw violations by establishment and date in the state's wording; no grades; how-to-read header says a violation is not a closure; no individual employees named.
+- [x] ISC-87: Y8 Road safety live: crashes and fatalities by county and month from `827n-m6xc`.
+- [x] ISC-88: Y9 Contracts tab live on `/spending/` from `sifm-293u`.
+- [ ] ISC-89: [BLOCKED, Mark: send FOIA] Y10 New Castle + Sussex reassessment. BLOCKED: FOIA records not yet requested/received.
+- [x] ISC-90: Anti: no private individual's address, phone or email on any new page (PII grep over every new directory).
+Evidence 2026-10-14 (all on production, a11y CI green per commit unless noted):
+- ISC-77: `bb41c9d`. `de_results.py --certified 2026` (refuses UNOFFICIAL pages and partial matches; canonical titles across years); stand-in report dry run 77/77 races mapped, generator built /results/2026/ with 77 tables and a certified section on race pages (viewed in browser, throwaway worktree). Publishing: DEFERRED-VERIFY FU-E5, 2026-11-05/06 (runbook in SESSION-HANDOFF).
+- ISC-78: codex audit of E1b: 0 HIGH. 3 MEDIUM were unfetchable sources; fetched directly: 5/5 Coons votes = Senate XML (Nay), 5/5 quotes found word for word (Lauzen PDF dated Aug 6, 2026). LOW fix `1927cf4` (roll-call cell labels on phones). Remaining LOWs (JSON field symmetry, York date secondary source) logged, rendered pages already state absences.
+- ISC-80 Y1: `2b52f13`. 109 offices, all holders verified from official pages (18 New Castle County holders read in a real browser; county site blocks scripts), 19 school boards; validator + 19 tests; 8 pages live; a11y pass run 38609743816.
+- ISC-81 Y2: `49b95f1`. Factual correction: old STATE_CODE filter undercounted (789 vs 1,766 violations; independently confirmed on Envirofacts: PRIMACY_AGENCY_CODE=DE and PWSID BEGINNING DE both 1,766; 1,362 systems; 91 out-of-state systems in the old set). /water/ leads with "Is my water safe?", 463 system pages; old puller retired from refresh-all; a11y pass run 38610676326.
+- ISC-82 Y3: `7c3f398`. 41 LEA pages; spot-check Indian River average teacher salary $78,048 = rv4m-vy79 2024-25 (78047.97); /schools/ links 41; a11y pass run 38610244173.
+- ISC-83 Y4: `f14f1be`. Worker returns school_district (Census layer 14, 24 Worker tests); live POST returns Capital School District for Legislative Hall; production browser lookup for 100 W 10th St Wilmington rendered SD3 / HD2 / Council 4 / Christina, 0 failed requests.
+- ISC-86 Y7: `651dc09` + `f9498a6` (mobile food units: street address and ZIP never written; 139 units) + `6fdff94` (axe target-size fix). 3,716 establishments, 55 towns; live search returned results in production.
+- ISC-87 Y8 + ISC-88 Y9: `87fcd36`. 588,486 crash reports by county and month; contracts section (sifm-293u is central-contract SPEND, not award values; the page says so). a11y: road-safety passed in run 38608619959 (that run failed only on the inspections target-size issue, fixed next commit).
+- ISC-90: PII grep over offices, water, inspections, road-safety, schools/district, my-delaware, spending, candidates: the only phone number anywhere is the Office of Food Protection's public line; 0 emails.
 - [ ] ISC-91: Every new page wired (sitemap with lastmod, llms.txt, a11y ROUTES sample, homepage card for new top-level dashboards, refresh workflow for new pullers); a11y CI passes on the final HEAD.
