@@ -1,0 +1,392 @@
+{
+ "contaminants": {
+  "Results": {
+   "LuValues": [
+    {
+     "ValueCode": "1040",
+     "ValueDescription": "Nitrate"
+    },
+    {
+     "ValueCode": "3000",
+     "ValueDescription": "Coliform (Pre-TCR)"
+    },
+    {
+     "ValueCode": "5000",
+     "ValueDescription": "Lead and Copper Rule"
+    }
+   ],
+   "Message": "Success"
+  }
+ },
+ "geographic_area": [
+  {
+   "city_served": "MILLSBORO",
+   "county_served": "Sussex",
+   "primacy_agency_code": "DE",
+   "pwsid": "DE0000263"
+  },
+  {
+   "city_served": null,
+   "county_served": "Sussex",
+   "primacy_agency_code": "DE",
+   "pwsid": "DE0000834"
+  },
+  {
+   "city_served": "TOWNSEND",
+   "county_served": "New Castle",
+   "primacy_agency_code": "DE",
+   "pwsid": "DE0000007"
+  },
+  {
+   "city_served": "GEORGETOWN",
+   "county_served": "Sussex",
+   "primacy_agency_code": "DE",
+   "pwsid": "DE0000115"
+  },
+  {
+   "city_served": "MILFORD",
+   "county_served": "Sussex",
+   "primacy_agency_code": "DE",
+   "pwsid": "DE0000002"
+  }
+ ],
+ "violation": [
+  {
+   "compl_per_begin_date": "1994-01-01 00:00:00",
+   "compl_per_end_date": null,
+   "contaminant_code": "5000",
+   "is_health_based_ind": "N",
+   "primacy_agency_code": "DE",
+   "pwsid": "DE0000115",
+   "rtc_date": null,
+   "rule_code": "350",
+   "violation_category_code": "MR",
+   "violation_code": "51",
+   "violation_id": "194"
+  },
+  {
+   "compl_per_begin_date": "2005-10-01 00:00:00",
+   "compl_per_end_date": null,
+   "contaminant_code": "5000",
+   "is_health_based_ind": "N",
+   "primacy_agency_code": "DE",
+   "pwsid": "DE0000115",
+   "rtc_date": "2006-08-04 00:00:00",
+   "rule_code": "350",
+   "violation_category_code": "MR",
+   "violation_code": "52",
+   "violation_id": "206"
+  },
+  {
+   "compl_per_begin_date": "2010-10-01 00:00:00",
+   "compl_per_end_date": null,
+   "contaminant_code": "5000",
+   "is_health_based_ind": "N",
+   "primacy_agency_code": "DE",
+   "pwsid": "DE0000115",
+   "rtc_date": "2013-04-22 00:00:00",
+   "rule_code": "350",
+   "violation_category_code": "MR",
+   "violation_code": "52",
+   "violation_id": "207"
+  },
+  {
+   "compl_per_begin_date": "2011-01-01 00:00:00",
+   "compl_per_end_date": null,
+   "contaminant_code": "7000",
+   "is_health_based_ind": "N",
+   "primacy_agency_code": "DE",
+   "pwsid": "DE0000115",
+   "rtc_date": "2012-10-02 00:00:00",
+   "rule_code": "420",
+   "violation_category_code": "Other",
+   "violation_code": "72",
+   "violation_id": "208"
+  },
+  {
+   "compl_per_begin_date": "2005-07-01 00:00:00",
+   "compl_per_end_date": null,
+   "contaminant_code": "7000",
+   "is_health_based_ind": "N",
+   "primacy_agency_code": "DE",
+   "pwsid": "DE0000263",
+   "rtc_date": "2020-01-17 00:00:00",
+   "rule_code": "420",
+   "violation_category_code": "Other",
+   "violation_code": "71",
+   "violation_id": "1005"
+  },
+  {
+   "compl_per_begin_date": "1984-04-10 00:00:00",
+   "compl_per_end_date": "1984-06-09 00:00:00",
+   "contaminant_code": "3000",
+   "is_health_based_ind": "Y",
+   "primacy_agency_code": "DE",
+   "pwsid": "DE0000263",
+   "rtc_date": "2020-01-17 00:00:00",
+   "rule_code": "500",
+   "violation_category_code": "MCL",
+   "violation_code": "02",
+   "violation_id": "10084"
+  },
+  {
+   "compl_per_begin_date": "2001-07-01 00:00:00",
+   "compl_per_end_date": null,
+   "contaminant_code": "7000",
+   "is_health_based_ind": "N",
+   "primacy_agency_code": "DE",
+   "pwsid": "DE0000263",
+   "rtc_date": "2003-04-01 00:00:00",
+   "rule_code": "420",
+   "violation_category_code": "Other",
+   "violation_code": "71",
+   "violation_id": "101"
+  },
+  {
+   "compl_per_begin_date": "2002-07-01 00:00:00",
+   "compl_per_end_date": null,
+   "contaminant_code": "7000",
+   "is_health_based_ind": "N",
+   "primacy_agency_code": "DE",
+   "pwsid": "DE0000263",
+   "rtc_date": "2003-04-01 00:00:00",
+   "rule_code": "420",
+   "violation_category_code": "Other",
+   "violation_code": "71",
+   "violation_id": "102"
+  },
+  {
+   "compl_per_begin_date": "1983-07-12 00:00:00",
+   "compl_per_end_date": "1983-10-11 00:00:00",
+   "contaminant_code": "1040",
+   "is_health_based_ind": "Y",
+   "primacy_agency_code": "DE",
+   "pwsid": "DE0000263",
+   "rtc_date": "2020-01-17 00:00:00",
+   "rule_code": "331",
+   "violation_category_code": "MCL",
+   "violation_code": "02",
+   "violation_id": "10783"
+  },
+  {
+   "compl_per_begin_date": "1989-08-02 00:00:00",
+   "compl_per_end_date": "1989-11-01 00:00:00",
+   "contaminant_code": "1040",
+   "is_health_based_ind": "Y",
+   "primacy_agency_code": "DE",
+   "pwsid": "DE0000263",
+   "rtc_date": "2020-01-17 00:00:00",
+   "rule_code": "331",
+   "violation_category_code": "MCL",
+   "violation_code": "02",
+   "violation_id": "11689"
+  },
+  {
+   "compl_per_begin_date": "1990-10-01 00:00:00",
+   "compl_per_end_date": "1990-12-31 00:00:00",
+   "contaminant_code": "1040",
+   "is_health_based_ind": "Y",
+   "primacy_agency_code": "DE",
+   "pwsid": "DE0000263",
+   "rtc_date": "2020-01-17 00:00:00",
+   "rule_code": "331",
+   "violation_category_code": "MCL",
+   "violation_code": "02",
+   "violation_id": "1191"
+  },
+  {
+   "compl_per_begin_date": "2007-07-01 00:00:00",
+   "compl_per_end_date": null,
+   "contaminant_code": "7000",
+   "is_health_based_ind": "N",
+   "primacy_agency_code": "DE",
+   "pwsid": "DE0000263",
+   "rtc_date": "2007-11-01 00:00:00",
+   "rule_code": "420",
+   "violation_category_code": "Other",
+   "violation_code": "71",
+   "violation_id": "1207"
+  },
+  {
+   "compl_per_begin_date": "1983-07-01 00:00:00",
+   "compl_per_end_date": "1983-09-30 00:00:00",
+   "contaminant_code": "1040",
+   "is_health_based_ind": "Y",
+   "primacy_agency_code": "DE",
+   "pwsid": "DE0000834",
+   "rtc_date": "2017-02-28 00:00:00",
+   "rule_code": "331",
+   "violation_category_code": "MCL",
+   "violation_code": "02",
+   "violation_id": "10083"
+  },
+  {
+   "compl_per_begin_date": "1985-10-24 00:00:00",
+   "compl_per_end_date": "1986-01-23 00:00:00",
+   "contaminant_code": "1040",
+   "is_health_based_ind": "Y",
+   "primacy_agency_code": "DE",
+   "pwsid": "DE0000834",
+   "rtc_date": "2017-02-28 00:00:00",
+   "rule_code": "331",
+   "violation_category_code": "MCL",
+   "violation_code": "02",
+   "violation_id": "1086"
+  },
+  {
+   "compl_per_begin_date": "1985-07-15 00:00:00",
+   "compl_per_end_date": "1985-10-14 00:00:00",
+   "contaminant_code": "1040",
+   "is_health_based_ind": "Y",
+   "primacy_agency_code": "DE",
+   "pwsid": "DE0000834",
+   "rtc_date": "2017-02-28 00:00:00",
+   "rule_code": "331",
+   "violation_category_code": "MCL",
+   "violation_code": "02",
+   "violation_id": "11585"
+  },
+  {
+   "compl_per_begin_date": "1986-07-28 00:00:00",
+   "compl_per_end_date": "1986-10-27 00:00:00",
+   "contaminant_code": "1040",
+   "is_health_based_ind": "Y",
+   "primacy_agency_code": "DE",
+   "pwsid": "DE0000834",
+   "rtc_date": "2017-02-28 00:00:00",
+   "rule_code": "331",
+   "violation_category_code": "MCL",
+   "violation_code": "02",
+   "violation_id": "11586"
+  },
+  {
+   "compl_per_begin_date": "1991-07-01 00:00:00",
+   "compl_per_end_date": "1991-09-30 00:00:00",
+   "contaminant_code": "1040",
+   "is_health_based_ind": "Y",
+   "primacy_agency_code": "DE",
+   "pwsid": "DE0000834",
+   "rtc_date": "2017-02-28 00:00:00",
+   "rule_code": "331",
+   "violation_category_code": "MCL",
+   "violation_code": "02",
+   "violation_id": "11591"
+  },
+  {
+   "compl_per_begin_date": "1981-08-03 00:00:00",
+   "compl_per_end_date": "1981-11-02 00:00:00",
+   "contaminant_code": "1040",
+   "is_health_based_ind": "Y",
+   "primacy_agency_code": "DE",
+   "pwsid": "DE0000834",
+   "rtc_date": "2017-02-28 00:00:00",
+   "rule_code": "331",
+   "violation_category_code": "MCL",
+   "violation_code": "02",
+   "violation_id": "11781"
+  },
+  {
+   "compl_per_begin_date": "1980-11-19 00:00:00",
+   "compl_per_end_date": "1981-02-18 00:00:00",
+   "contaminant_code": "1040",
+   "is_health_based_ind": "Y",
+   "primacy_agency_code": "DE",
+   "pwsid": "DE0000834",
+   "rtc_date": "2017-02-28 00:00:00",
+   "rule_code": "331",
+   "violation_category_code": "MCL",
+   "violation_code": "02",
+   "violation_id": "1181"
+  },
+  {
+   "compl_per_begin_date": "1991-07-01 00:00:00",
+   "compl_per_end_date": "1991-09-30 00:00:00",
+   "contaminant_code": "1040",
+   "is_health_based_ind": "Y",
+   "primacy_agency_code": "DE",
+   "pwsid": "DE0000834",
+   "rtc_date": "2017-02-28 00:00:00",
+   "rule_code": "331",
+   "violation_category_code": "MCL",
+   "violation_code": "02",
+   "violation_id": "12091"
+  }
+ ],
+ "water_system": [
+  {
+   "address_line1": "0 PLACEHOLDER RD",
+   "admin_name": "FIXTURE PLACEHOLDER",
+   "city_name": "PLACEHOLDERVILLE",
+   "email_addr": "placeholder@example.invalid",
+   "phone_number": "000-000-0000",
+   "population_served_count": 210,
+   "primacy_agency_code": "DE",
+   "primary_source_code": "GW",
+   "pws_activity_code": "I",
+   "pws_deactivation_date": "2020-01-17 00:00:00",
+   "pws_name": "HOLIDAY PINES",
+   "pws_type_code": "CWS",
+   "pwsid": "DE0000263"
+  },
+  {
+   "address_line1": "0 PLACEHOLDER RD",
+   "admin_name": "FIXTURE PLACEHOLDER",
+   "city_name": "PLACEHOLDERVILLE",
+   "email_addr": "placeholder@example.invalid",
+   "phone_number": "000-000-0000",
+   "population_served_count": 1100,
+   "primacy_agency_code": "DE",
+   "primary_source_code": "GW",
+   "pws_activity_code": "N",
+   "pws_deactivation_date": "2017-02-28 00:00:00",
+   "pws_name": "MCDONALDS INC",
+   "pws_type_code": "TNCWS",
+   "pwsid": "DE0000834"
+  },
+  {
+   "address_line1": "0 PLACEHOLDER RD",
+   "admin_name": "FIXTURE PLACEHOLDER",
+   "city_name": "PLACEHOLDERVILLE",
+   "email_addr": "placeholder@example.invalid",
+   "phone_number": "000-000-0000",
+   "population_served_count": 204,
+   "primacy_agency_code": "DE",
+   "primary_source_code": "GW",
+   "pws_activity_code": "A",
+   "pws_deactivation_date": null,
+   "pws_name": "FREDERICK LODGE PUMP DISTRICT",
+   "pws_type_code": "CWS",
+   "pwsid": "DE0000007"
+  },
+  {
+   "address_line1": "0 PLACEHOLDER RD",
+   "admin_name": "FIXTURE PLACEHOLDER",
+   "city_name": "PLACEHOLDERVILLE",
+   "email_addr": "placeholder@example.invalid",
+   "phone_number": "000-000-0000",
+   "population_served_count": 384,
+   "primacy_agency_code": "DE",
+   "primary_source_code": "GW",
+   "pws_activity_code": "A",
+   "pws_deactivation_date": null,
+   "pws_name": "SAND HILL ACRES",
+   "pws_type_code": "CWS",
+   "pwsid": "DE0000115"
+  },
+  {
+   "address_line1": "0 PLACEHOLDER RD",
+   "admin_name": "FIXTURE PLACEHOLDER",
+   "city_name": "PLACEHOLDERVILLE",
+   "email_addr": "placeholder@example.invalid",
+   "phone_number": "000-000-0000",
+   "population_served_count": 300,
+   "primacy_agency_code": "DE",
+   "primary_source_code": "GW",
+   "pws_activity_code": "I",
+   "pws_deactivation_date": "1985-12-01 00:00:00",
+   "pws_name": "PINE HAVEN MOB PK & CAMPSITE",
+   "pws_type_code": "TNCWS",
+   "pwsid": "DE0000002"
+  }
+ ]
+}

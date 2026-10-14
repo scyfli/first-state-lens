@@ -1,0 +1,34 @@
+{
+  "checks": {
+    "contaminant_codes": 871,
+    "violation_count_primacy": 1766,
+    "violation_count_pwsid_prefix": 1766,
+    "water_system_count": 1362
+  },
+  "content_sha256": "55b974f1d361502e786ebe9b99e789b1950875430d7c46bdea091c0a7ef6a8cf",
+  "dashboard": "water-systems",
+  "data_as_of": "2026-10-14",
+  "generated_at": "2026-10-14T17:29:52Z",
+  "row_counts": {
+    "community_active": 204,
+    "health_based": 687,
+    "latest_date_in_records": "2026-07-06",
+    "no_return_to_compliance_date": 101,
+    "pages": 463,
+    "systems_on_record": 1362,
+    "systems_with_violations": 400,
+    "violations_on_record": 1766
+  },
+  "source_last_updated": null,
+  "source_update_note": "Envirofacts publishes no per-table update stamp; EPA syncs SDWIS to Envirofacts about quarterly. latest_date_in_records is the newest date found in the records.",
+  "sources": {
+    "contaminant_names": "https://echodata.epa.gov/echo/rest_lookups.sdwa_contaminants?output=JSON",
+    "filter": "PRIMACY_AGENCY_CODE = DE (systems Delaware regulates)",
+    "geographic_area": "https://data.epa.gov/efservice/GEOGRAPHIC_AREA/PRIMACY_AGENCY_CODE/DE/ROWS/0:9999/JSON",
+    "license": "US public domain",
+    "name": "EPA Safe Drinking Water Information System (SDWIS), via Envirofacts",
+    "system_report": "https://echo.epa.gov/detailed-facility-report?fid=",
+    "violation": "https://data.epa.gov/efservice/VIOLATION/PRIMACY_AGENCY_CODE/DE/ROWS/0:19999/JSON",
+    "water_system": "https://data.epa.gov/efservice/WATER_SYSTEM/PRIMACY_AGENCY_CODE/DE/ROWS/0:9999/JSON"
+  }
+}
