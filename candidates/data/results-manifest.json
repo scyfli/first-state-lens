@@ -1,0 +1,14 @@
+{
+  "contests_parsed": {
+    "2020": 88,
+    "2022": 86,
+    "2024": 87
+  },
+  "generated_at": "2026-10-14T17:19:14Z",
+  "seats_mapped": 87,
+  "sources": {
+    "2020": "https://elections.delaware.gov/reports/GE2020.html",
+    "2022": "https://elections.delaware.gov/reports/GE2022.html",
+    "2024": "https://elections.delaware.gov/reports/GE2024.html"
+  }
+}

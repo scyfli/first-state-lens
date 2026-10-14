@@ -10,7 +10,11 @@ JavaScript see every candidate:
   candidates/index.html                                                    race list between BALLOT markers
   sitemap.xml                                                              page list between BALLOT markers
 
-candidates/us-house/ is the hand-built full record and is never overwritten here.
+candidates/us-house/ is the hand-built full record and is never overwritten here; only its
+last-result block between the RESULT markers is generated.
+
+Every race page also shows the last general election result for its seat (E3), read from
+candidates/data/results-history.json (etl/sources/de_results.py).
 
 Run:  python3 -m etl.pages.candidate_pages            (after etl.sources.de_candidates)
 """
@@ -102,6 +106,8 @@ STYLE = """<style>
   .rec blockquote p { color: var(--text-primary); }
   .rec blockquote footer { font-size: 12px; color: var(--text-tertiary); margin-top: 4px; }
   .rc th[scope=row] { font-weight: 500; color: var(--text-primary); }
+  .slate td.num { font-variant-numeric: tabular-nums; }
+  .sub-h3 { font-family: 'Space Grotesk', sans-serif; font-size: 16px; color: var(--text-primary); margin: 22px 0 10px; }
   .pager { display: flex; gap: 16px; flex-wrap: wrap; font-size: 14px; margin-top: 8px; }
   .pager a { color: var(--text-secondary); }
   @media (max-width: 640px) {
@@ -279,6 +285,63 @@ def source_line(b: dict) -> str:
     return f'    <p class="src">Source: <a href="{STATE_LIST}">Delaware Department of Elections, Filed Candidates by Office</a>, checked against {e(sentence(stamp_text(b)))}</p>'
 
 
+# ---- Last general election for each seat (docs/UPGRADE-PLAN.md, E3) -----------------------------
+RESULTS = ROOT / "candidates" / "data" / "results-history.json"
+_results_cache: dict | None = None
+
+
+def results() -> dict:
+    global _results_cache
+    if _results_cache is None:
+        _results_cache = json.loads(RESULTS.read_text(encoding="utf-8"))["results"] if RESULTS.exists() else {}
+    return _results_cache
+
+
+def result_table(rid: str, caption: str) -> str:
+    r = results().get(rid)
+    if not r:
+        return ""
+    rows = "\n".join(f"""        <tr>
+          <th scope="row" class="cand">{e(c['name'])}</th>
+          <td data-k="Party">{e(c['party'])}</td>
+          <td data-k="Total votes" class="num">{c['votes']:,}</td>
+          <td data-k="Percentage" class="num">{c['percent']:g}%</td>
+        </tr>""" for c in r["candidates"])
+    one = " One candidate was on that ballot for this seat." if len(r["candidates"]) == 1 else ""
+    return f"""    <table class="slate">
+      <caption class="sr-only">{e(caption)}</caption>
+      <thead><tr><th scope="col">Candidate, as listed</th><th scope="col">Party</th><th scope="col">Total votes</th><th scope="col">Percentage</th></tr></thead>
+      <tbody>
+{rows}
+      </tbody>
+    </table>
+    <p class="fact">Statewide totals for the {r['year']} general election, in the state's order and spelling. Votes counted for all candidates: {r['total_votes']:,}.{one}</p>
+    <p class="src">Source: <a href="{e(r['source'])}" rel="noopener">Delaware Department of Elections, {r['year']} General Election Report (official results)</a>, contest "{e(r['contest'])}".</p>"""
+
+
+def last_result_block(race: dict, holder_note: bool = True) -> str:
+    r = results().get(race["id"])
+    if not r:
+        return ""
+    tail = " See who holds the office now below." if holder_note and race.get("current_holder") else ""
+    return f"""  <section class="section" aria-labelledby="result-title">
+    <div class="section-head"><h2 class="section-title" id="result-title">Last general election for this seat: {r['year']}</h2></div>
+{result_table(race['id'], f"{r['year']} general election result, {race['display']}")}
+    <p class="fact">This is the most recent general election for this seat. The officeholder can change between general elections, for example after a resignation and a special election.{tail}</p>
+  </section>
+
+"""
+
+
+def county_result(race: dict) -> str:
+    r = results().get(race["id"])
+    if not r:
+        return ""
+    return f"""    <h3 class="sub-h3">Last general election for this office: {r['year']}</h3>
+{result_table(race['id'], f"{r['year']} general election result, {race['display']}")}
+"""
+
+
 # ---- Full records for the statewide and federal races (docs/UPGRADE-PLAN.md, E1b) -------------
 RECORDS_DIR = ROOT / "candidates" / "data" / "records"
 FEC_SUMMARY = ROOT / "campaign-finance" / "data" / "campaign-finance-summary.json"
@@ -399,7 +462,7 @@ def race_page(b: dict, race: dict, title: str, h1: str, desc: str, crumbs, pager
 {source_line(b)}
   </section>
 
-{records_section(race, load_record(race['id']) if race['id'] in STATEWIDE_PAGES else None)}{holder_block(race, race['display'])}{find_district_block()}  <nav class="pager" aria-label="More races">{pager}<a href="/candidates/">Every race on the 2026 ballot</a></nav>
+{records_section(race, load_record(race['id']) if race['id'] in STATEWIDE_PAGES else None)}{last_result_block(race)}{holder_block(race, race['display'])}{find_district_block()}  <nav class="pager" aria-label="More races">{pager}<a href="/candidates/">Every race on the 2026 ballot</a></nav>
 """ + foot(b))
 
 
@@ -422,7 +485,7 @@ def off_ballot_page(b: dict, r: dict, pager: str) -> str:
     <p class="src">Source: <a href="{STATE_LIST}">2026 candidate list</a> (District {n} not listed) and <a href="{e(r['last_election_source'])}">2024 candidate list</a> (District {n} listed), Delaware Department of Elections.</p>
   </section>
 
-{h}{find_district_block()}  <nav class="pager" aria-label="More races">{pager}<a href="/candidates/">Every race on the 2026 ballot</a></nav>
+{last_result_block({**r, "level": "state-senate"})}{h}{find_district_block()}  <nav class="pager" aria-label="More races">{pager}<a href="/candidates/">Every race on the 2026 ballot</a></nav>
 """ + foot(b))
 
 
@@ -438,7 +501,7 @@ def county_page(b: dict, county: str, slug: str, races: list[dict]) -> str:
         sections.append(f"""  <section class="section" aria-labelledby="{e(anchor)}">
     <div class="section-head"><h2 class="section-title" id="{e(anchor)}">{e(r['display'])}</h2></div>
 {slate_table(r, r['display'])}
-  </section>
+{county_result(r)}  </section>
 """)
     return (head(title, desc, path, crumbs) + f"""  <div class="title-block">
     <span class="title-eyebrow">2026 General Election · {e(county)} County</span>
@@ -579,6 +642,13 @@ def main() -> int:
     changed = 0
     for path, text in pages.items():
         changed += write_if_changed(ROOT / path.strip("/") / "index.html", text)
+
+    # E3: the hand-built U.S. House page carries the last-result block between RESULT markers.
+    uh = ROOT / "candidates" / "us-house" / "index.html"
+    by = {r["id"]: r for r in b["races"]}
+    block = last_result_block(by["us-house"], holder_note=False)
+    t = uh.read_text(encoding="utf-8")
+    changed += write_if_changed(uh, replace_between(t, "<!-- RESULT:START", "<!-- RESULT:END -->", f"<!-- RESULT:START (generated by etl/pages/candidate_pages.py) -->\n{block}<!-- RESULT:END -->"))
 
     idx = ROOT / "candidates" / "index.html"
     t = idx.read_text(encoding="utf-8")

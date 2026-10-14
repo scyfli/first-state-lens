@@ -1,0 +1,1506 @@
+{
+  "method_version": "1.0",
+  "note": "Statewide totals from the last general election for each seat, as the Department of Elections reports them.",
+  "results": {
+    "attorney-general": {
+      "candidates": [
+        {
+          "name": "KATHY JENNINGS",
+          "party": "Democratic Party",
+          "percent": 53.83,
+          "votes": 171837
+        },
+        {
+          "name": "JULIANNE E. MURRAY",
+          "party": "Republican Party",
+          "percent": 46.17,
+          "votes": 147369
+        }
+      ],
+      "contest": "Attorney General",
+      "source": "https://elections.delaware.gov/reports/GE2022.html",
+      "total_votes": 319206,
+      "year": 2022
+    },
+    "auditor": {
+      "candidates": [
+        {
+          "name": "LYDIA YORK",
+          "party": "Democratic Party",
+          "percent": 54.2,
+          "votes": 171764
+        },
+        {
+          "name": "JANICE LORRAH",
+          "party": "Republican Party",
+          "percent": 45.8,
+          "votes": 145161
+        }
+      ],
+      "contest": "Auditor of Accounts",
+      "source": "https://elections.delaware.gov/reports/GE2022.html",
+      "total_votes": 316925,
+      "year": 2022
+    },
+    "kent-county-levy-court-at-large": {
+      "candidates": [
+        {
+          "name": "TERRY L. PEPPER",
+          "party": "Democratic Party",
+          "percent": 51.11,
+          "votes": 27409
+        },
+        {
+          "name": "JASON BONNER",
+          "party": "Republican Party",
+          "percent": 48.89,
+          "votes": 26219
+        }
+      ],
+      "contest": "KC Levy Court At-Large",
+      "source": "https://elections.delaware.gov/reports/GE2022.html",
+      "total_votes": 53628,
+      "year": 2022
+    },
+    "kent-county-levy-court-district-2": {
+      "candidates": [
+        {
+          "name": "JEFFREY HALL",
+          "party": "Democratic Party",
+          "percent": 56.84,
+          "votes": 4659
+        },
+        {
+          "name": "ANTHONY EGIPCIACO JR.",
+          "party": "Republican Party",
+          "percent": 43.16,
+          "votes": 3538
+        }
+      ],
+      "contest": "KC Levy Court District 2",
+      "source": "https://elections.delaware.gov/reports/GE2022.html",
+      "total_votes": 8197,
+      "year": 2022
+    },
+    "kent-county-levy-court-district-4": {
+      "candidates": [
+        {
+          "name": "DENNIS NORWOOD",
+          "party": "Democratic Party",
+          "percent": 36.19,
+          "votes": 3567
+        },
+        {
+          "name": "ROBERT SCOTT",
+          "party": "Republican Party",
+          "percent": 63.81,
+          "votes": 6288
+        }
+      ],
+      "contest": "KC Levy Court District 4",
+      "source": "https://elections.delaware.gov/reports/GE2022.html",
+      "total_votes": 9855,
+      "year": 2022
+    },
+    "kent-county-levy-court-district-6": {
+      "candidates": [
+        {
+          "name": "PAUL HERTZ",
+          "party": "Republican Party",
+          "percent": 100.0,
+          "votes": 7898
+        }
+      ],
+      "contest": "KC Levy Court District 6",
+      "source": "https://elections.delaware.gov/reports/GE2022.html",
+      "total_votes": 7898,
+      "year": 2022
+    },
+    "kent-county-recorder-of-deeds": {
+      "candidates": [
+        {
+          "name": "D.J. COX",
+          "party": "Democratic Party",
+          "percent": 47.3,
+          "votes": 25253
+        },
+        {
+          "name": "EUGENIA THORNTON",
+          "party": "Republican Party",
+          "percent": 52.7,
+          "votes": 28132
+        }
+      ],
+      "contest": "KC Recorder of Deeds",
+      "source": "https://elections.delaware.gov/reports/GE2022.html",
+      "total_votes": 53385,
+      "year": 2022
+    },
+    "kent-county-sheriff": {
+      "candidates": [
+        {
+          "name": "BRIAN E. LEWIS",
+          "party": "Democratic Party",
+          "percent": 44.72,
+          "votes": 23996
+        },
+        {
+          "name": "NORMAN R. BARLOW",
+          "party": "Republican Party",
+          "percent": 53.3,
+          "votes": 28596
+        },
+        {
+          "name": "AARIKA NELSON",
+          "party": "Non-Partisan Delaware",
+          "percent": 1.98,
+          "votes": 1062
+        }
+      ],
+      "contest": "KC Sheriff",
+      "source": "https://elections.delaware.gov/reports/GE2022.html",
+      "total_votes": 53654,
+      "year": 2022
+    },
+    "new-castle-county-council-district-1": {
+      "candidates": [
+        {
+          "name": "BRANDON TOOLE",
+          "party": "Democratic Party",
+          "percent": 100.0,
+          "votes": 8065
+        }
+      ],
+      "contest": "NCC County Council District 1",
+      "source": "https://elections.delaware.gov/reports/GE2022.html",
+      "total_votes": 8065,
+      "year": 2022
+    },
+    "new-castle-county-council-district-2": {
+      "candidates": [
+        {
+          "name": "DEE DURHAM",
+          "party": "Democratic Party",
+          "percent": 61.09,
+          "votes": 11912
+        },
+        {
+          "name": "JAMIE COLLINS",
+          "party": "Republican Party",
+          "percent": 38.91,
+          "votes": 7588
+        }
+      ],
+      "contest": "NCC County Council District 2",
+      "source": "https://elections.delaware.gov/reports/GE2022.html",
+      "total_votes": 19500,
+      "year": 2022
+    },
+    "new-castle-county-council-district-3": {
+      "candidates": [
+        {
+          "name": "JANET KILPATRICK",
+          "party": "Republican Party",
+          "percent": 100.0,
+          "votes": 12522
+        }
+      ],
+      "contest": "NCC County Council District 3",
+      "source": "https://elections.delaware.gov/reports/GE2022.html",
+      "total_votes": 12522,
+      "year": 2022
+    },
+    "new-castle-county-council-district-4": {
+      "candidates": [
+        {
+          "name": "PENROSE HOLLINS",
+          "party": "Democratic Party",
+          "percent": 100.0,
+          "votes": 10257
+        }
+      ],
+      "contest": "NCC County Council District 4",
+      "source": "https://elections.delaware.gov/reports/GE2022.html",
+      "total_votes": 10257,
+      "year": 2022
+    },
+    "new-castle-county-council-district-5": {
+      "candidates": [
+        {
+          "name": "VALERIE GEORGE",
+          "party": "Democratic Party",
+          "percent": 100.0,
+          "votes": 8888
+        }
+      ],
+      "contest": "NCC County Council District 5",
+      "source": "https://elections.delaware.gov/reports/GE2022.html",
+      "total_votes": 8888,
+      "year": 2022
+    },
+    "new-castle-county-council-district-6": {
+      "candidates": [
+        {
+          "name": "DAVID CARTER",
+          "party": "Democratic Party",
+          "percent": 100.0,
+          "votes": 10274
+        }
+      ],
+      "contest": "NCC County Council District 6",
+      "source": "https://elections.delaware.gov/reports/GE2022.html",
+      "total_votes": 10274,
+      "year": 2022
+    },
+    "new-castle-county-recorder-of-deeds": {
+      "candidates": [
+        {
+          "name": "MICHAEL E. KOZIKOWSKI SR.",
+          "party": "Democratic Party",
+          "percent": 100.0,
+          "votes": 120843
+        }
+      ],
+      "contest": "NCC Recorder of Deeds",
+      "source": "https://elections.delaware.gov/reports/GE2022.html",
+      "total_votes": 120843,
+      "year": 2022
+    },
+    "new-castle-county-register-of-wills": {
+      "candidates": [
+        {
+          "name": "CIRO POPPITI III",
+          "party": "Democratic Party",
+          "percent": 100.0,
+          "votes": 121812
+        }
+      ],
+      "contest": "NCC Register of Wills",
+      "source": "https://elections.delaware.gov/reports/GE2022.html",
+      "total_votes": 121812,
+      "year": 2022
+    },
+    "new-castle-county-sheriff": {
+      "candidates": [
+        {
+          "name": "SCOTT PHILLIPS",
+          "party": "Democratic Party",
+          "percent": 85.12,
+          "votes": 113741
+        },
+        {
+          "name": "JOHN MACHUREK",
+          "party": "Non-Partisan Delaware",
+          "percent": 14.88,
+          "votes": 19889
+        }
+      ],
+      "contest": "NCC Sheriff",
+      "source": "https://elections.delaware.gov/reports/GE2022.html",
+      "total_votes": 133630,
+      "year": 2022
+    },
+    "state-house-1": {
+      "candidates": [
+        {
+          "name": "NNAMDI O. CHUKWUOCHA",
+          "party": "Democratic Party",
+          "percent": 100.0,
+          "votes": 9252
+        }
+      ],
+      "contest": "State Representative District 1",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 9252,
+      "year": 2024
+    },
+    "state-house-10": {
+      "candidates": [
+        {
+          "name": "MELANIE ROSS LEVIN",
+          "party": "Democratic Party",
+          "percent": 60.43,
+          "votes": 7953
+        },
+        {
+          "name": "BRENT BURDGE",
+          "party": "Republican Party",
+          "percent": 39.57,
+          "votes": 5208
+        }
+      ],
+      "contest": "State Representative District 10",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 13161,
+      "year": 2024
+    },
+    "state-house-11": {
+      "candidates": [
+        {
+          "name": "JEFFREY N. SPIEGELMAN",
+          "party": "Republican Party",
+          "percent": 100.0,
+          "votes": 9896
+        }
+      ],
+      "contest": "State Representative District 11",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 9896,
+      "year": 2024
+    },
+    "state-house-12": {
+      "candidates": [
+        {
+          "name": "KRISTA GRIFFITH",
+          "party": "Democratic Party",
+          "percent": 61.31,
+          "votes": 10086
+        },
+        {
+          "name": "STEVE PICKERING",
+          "party": "Republican Party",
+          "percent": 38.69,
+          "votes": 6364
+        }
+      ],
+      "contest": "State Representative District 12",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 16450,
+      "year": 2024
+    },
+    "state-house-13": {
+      "candidates": [
+        {
+          "name": "DESHANNA NEAL",
+          "party": "Democratic Party",
+          "percent": 56.27,
+          "votes": 5516
+        },
+        {
+          "name": "DANNY RAPPA",
+          "party": "Republican Party",
+          "percent": 43.73,
+          "votes": 4287
+        }
+      ],
+      "contest": "State Representative District 13",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 9803,
+      "year": 2024
+    },
+    "state-house-14": {
+      "candidates": [
+        {
+          "name": "CLAIRE SNYDER-HALL",
+          "party": "Democratic Party",
+          "percent": 54.64,
+          "votes": 9630
+        },
+        {
+          "name": "MIKE SIMPLER",
+          "party": "Republican Party",
+          "percent": 45.36,
+          "votes": 7995
+        }
+      ],
+      "contest": "State Representative District 14",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 17625,
+      "year": 2024
+    },
+    "state-house-15": {
+      "candidates": [
+        {
+          "name": "KAMELA T. SMITH",
+          "party": "Democratic Party",
+          "percent": 100.0,
+          "votes": 9286
+        }
+      ],
+      "contest": "State Representative District 15",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 9286,
+      "year": 2024
+    },
+    "state-house-16": {
+      "candidates": [
+        {
+          "name": "FRANKLIN D. COOKE JR.",
+          "party": "Democratic Party",
+          "percent": 100.0,
+          "votes": 8092
+        }
+      ],
+      "contest": "State Representative District 16",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 8092,
+      "year": 2024
+    },
+    "state-house-17": {
+      "candidates": [
+        {
+          "name": "MELISSA \"MIMI\" MINOR-BROWN",
+          "party": "Democratic Party",
+          "percent": 100.0,
+          "votes": 7956
+        }
+      ],
+      "contest": "State Representative District 17",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 7956,
+      "year": 2024
+    },
+    "state-house-18": {
+      "candidates": [
+        {
+          "name": "SOPHIE PHILLIPS",
+          "party": "Democratic Party",
+          "percent": 100.0,
+          "votes": 7760
+        }
+      ],
+      "contest": "State Representative District 18",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 7760,
+      "year": 2024
+    },
+    "state-house-19": {
+      "candidates": [
+        {
+          "name": "KIM WILLIAMS",
+          "party": "Democratic Party",
+          "percent": 62.85,
+          "votes": 6964
+        },
+        {
+          "name": "ALEX HOMICH",
+          "party": "Republican Party",
+          "percent": 37.15,
+          "votes": 4117
+        }
+      ],
+      "contest": "State Representative District 19",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 11081,
+      "year": 2024
+    },
+    "state-house-2": {
+      "candidates": [
+        {
+          "name": "STEPHANIE T. BOLDEN",
+          "party": "Democratic Party",
+          "percent": 100.0,
+          "votes": 6590
+        }
+      ],
+      "contest": "State Representative District 2",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 6590,
+      "year": 2024
+    },
+    "state-house-20": {
+      "candidates": [
+        {
+          "name": "STELL PARKER SELBY",
+          "party": "Democratic Party",
+          "percent": 50.7,
+          "votes": 8857
+        },
+        {
+          "name": "NIKKI MILLER",
+          "party": "Republican Party",
+          "percent": 49.3,
+          "votes": 8612
+        }
+      ],
+      "contest": "State Representative District 20",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 17469,
+      "year": 2024
+    },
+    "state-house-21": {
+      "candidates": [
+        {
+          "name": "FRANK BURNS",
+          "party": "Democratic Party",
+          "percent": 57.88,
+          "votes": 7415
+        },
+        {
+          "name": "BRENDA MENNELLA",
+          "party": "Republican Party",
+          "percent": 42.12,
+          "votes": 5397
+        }
+      ],
+      "contest": "State Representative District 21",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 12812,
+      "year": 2024
+    },
+    "state-house-22": {
+      "candidates": [
+        {
+          "name": "MONICA BEARD",
+          "party": "Democratic Party",
+          "percent": 45.23,
+          "votes": 7103
+        },
+        {
+          "name": "MICHAEL FRANCIS SMITH",
+          "party": "Republican Party",
+          "percent": 54.77,
+          "votes": 8601
+        }
+      ],
+      "contest": "State Representative District 22",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 15704,
+      "year": 2024
+    },
+    "state-house-23": {
+      "candidates": [
+        {
+          "name": "MARA GORMAN",
+          "party": "Democratic Party",
+          "percent": 100.0,
+          "votes": 7934
+        }
+      ],
+      "contest": "State Representative District 23",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 7934,
+      "year": 2024
+    },
+    "state-house-24": {
+      "candidates": [
+        {
+          "name": "ED OSIENSKI",
+          "party": "Democratic Party",
+          "percent": 66.79,
+          "votes": 6379
+        },
+        {
+          "name": "JOAN GODWIN",
+          "party": "Republican Party",
+          "percent": 33.21,
+          "votes": 3172
+        }
+      ],
+      "contest": "State Representative District 24",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 9551,
+      "year": 2024
+    },
+    "state-house-25": {
+      "candidates": [
+        {
+          "name": "CYNDIE ROMER",
+          "party": "Democratic Party",
+          "percent": 64.92,
+          "votes": 5969
+        },
+        {
+          "name": "DAVID HANSBERGER",
+          "party": "Republican Party",
+          "percent": 35.08,
+          "votes": 3225
+        }
+      ],
+      "contest": "State Representative District 25",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 9194,
+      "year": 2024
+    },
+    "state-house-26": {
+      "candidates": [
+        {
+          "name": "MADINAH WILSON-ANTON",
+          "party": "Democratic Party",
+          "percent": 100.0,
+          "votes": 7123
+        }
+      ],
+      "contest": "State Representative District 26",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 7123,
+      "year": 2024
+    },
+    "state-house-27": {
+      "candidates": [
+        {
+          "name": "ERIC MORRISON",
+          "party": "Democratic Party",
+          "percent": 56.21,
+          "votes": 7766
+        },
+        {
+          "name": "KRISTINA GRIFFING",
+          "party": "Republican Party",
+          "percent": 43.79,
+          "votes": 6051
+        }
+      ],
+      "contest": "State Representative District 27",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 13817,
+      "year": 2024
+    },
+    "state-house-28": {
+      "candidates": [
+        {
+          "name": "WILLIAM CARSON",
+          "party": "Democratic Party",
+          "percent": 100.0,
+          "votes": 8620
+        }
+      ],
+      "contest": "State Representative District 28",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 8620,
+      "year": 2024
+    },
+    "state-house-29": {
+      "candidates": [
+        {
+          "name": "WILLIAM BUSH",
+          "party": "Democratic Party",
+          "percent": 61.83,
+          "votes": 8746
+        },
+        {
+          "name": "ANTHONY EGIPCIACO JR.",
+          "party": "Republican Party",
+          "percent": 38.17,
+          "votes": 5400
+        }
+      ],
+      "contest": "State Representative District 29",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 14146,
+      "year": 2024
+    },
+    "state-house-3": {
+      "candidates": [
+        {
+          "name": "JOSUE O. ORTEGA",
+          "party": "Democratic Party",
+          "percent": 100.0,
+          "votes": 6307
+        }
+      ],
+      "contest": "State Representative District 3",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 6307,
+      "year": 2024
+    },
+    "state-house-30": {
+      "candidates": [
+        {
+          "name": "WM SHANNON MORRIS",
+          "party": "Republican Party",
+          "percent": 100.0,
+          "votes": 10118
+        }
+      ],
+      "contest": "State Representative District 30",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 10118,
+      "year": 2024
+    },
+    "state-house-31": {
+      "candidates": [
+        {
+          "name": "SEAN M. LYNN",
+          "party": "Democratic Party",
+          "percent": 100.0,
+          "votes": 7109
+        }
+      ],
+      "contest": "State Representative District 31",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 7109,
+      "year": 2024
+    },
+    "state-house-32": {
+      "candidates": [
+        {
+          "name": "KERRI EVELYN HARRIS",
+          "party": "Democratic Party",
+          "percent": 61.91,
+          "votes": 4786
+        },
+        {
+          "name": "AMY SPAMPINATO",
+          "party": "Republican Party",
+          "percent": 38.09,
+          "votes": 2945
+        }
+      ],
+      "contest": "State Representative District 32",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 7731,
+      "year": 2024
+    },
+    "state-house-33": {
+      "candidates": [
+        {
+          "name": "CHARLES S. POSTLES JR.",
+          "party": "Republican Party",
+          "percent": 100.0,
+          "votes": 9101
+        }
+      ],
+      "contest": "State Representative District 33",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 9101,
+      "year": 2024
+    },
+    "state-house-34": {
+      "candidates": [
+        {
+          "name": "TRACEY M. MILLER",
+          "party": "Democratic Party",
+          "percent": 44.66,
+          "votes": 5782
+        },
+        {
+          "name": "LYNDON D. YEARICK",
+          "party": "Republican Party",
+          "percent": 55.34,
+          "votes": 7165
+        }
+      ],
+      "contest": "State Representative District 34",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 12947,
+      "year": 2024
+    },
+    "state-house-35": {
+      "candidates": [
+        {
+          "name": "JESSE R. VANDERWENDE",
+          "party": "Republican Party",
+          "percent": 100.0,
+          "votes": 9015
+        }
+      ],
+      "contest": "State Representative District 35",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 9015,
+      "year": 2024
+    },
+    "state-house-36": {
+      "candidates": [
+        {
+          "name": "RONY J. BALTAZAR-LOPEZ",
+          "party": "Democratic Party",
+          "percent": 37.14,
+          "votes": 4583
+        },
+        {
+          "name": "BRYAN WILLIAM SHUPE",
+          "party": "Republican Party",
+          "percent": 62.86,
+          "votes": 7757
+        }
+      ],
+      "contest": "State Representative District 36",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 12340,
+      "year": 2024
+    },
+    "state-house-37": {
+      "candidates": [
+        {
+          "name": "VALERIE JONES GILTNER",
+          "party": "Republican Party",
+          "percent": 100.0,
+          "votes": 8250
+        }
+      ],
+      "contest": "State Representative District 37",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 8250,
+      "year": 2024
+    },
+    "state-house-38": {
+      "candidates": [
+        {
+          "name": "RONALD E. GRAY",
+          "party": "Republican Party",
+          "percent": 100.0,
+          "votes": 15341
+        }
+      ],
+      "contest": "State Representative District 38",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 15341,
+      "year": 2024
+    },
+    "state-house-39": {
+      "candidates": [
+        {
+          "name": "DANIEL B. SHORT",
+          "party": "Republican Party",
+          "percent": 100.0,
+          "votes": 7440
+        }
+      ],
+      "contest": "State Representative District 39",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 7440,
+      "year": 2024
+    },
+    "state-house-4": {
+      "candidates": [
+        {
+          "name": "GREGG LINDNER",
+          "party": "Democratic Party",
+          "percent": 42.01,
+          "votes": 7630
+        },
+        {
+          "name": "JEFF HILOVSKY",
+          "party": "Republican Party",
+          "percent": 57.99,
+          "votes": 10533
+        }
+      ],
+      "contest": "State Representative District 4",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 18163,
+      "year": 2024
+    },
+    "state-house-40": {
+      "candidates": [
+        {
+          "name": "TIMOTHY D. DUKES",
+          "party": "Republican Party",
+          "percent": 100.0,
+          "votes": 9086
+        }
+      ],
+      "contest": "State Representative District 40",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 9086,
+      "year": 2024
+    },
+    "state-house-41": {
+      "candidates": [
+        {
+          "name": "TOM BRETT",
+          "party": "Democratic Party",
+          "percent": 35.58,
+          "votes": 5242
+        },
+        {
+          "name": "RICH COLLINS",
+          "party": "Republican Party",
+          "percent": 64.42,
+          "votes": 9490
+        }
+      ],
+      "contest": "State Representative District 41",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 14732,
+      "year": 2024
+    },
+    "state-house-5": {
+      "candidates": [
+        {
+          "name": "KENDRA JOHNSON",
+          "party": "Democratic Party",
+          "percent": 100.0,
+          "votes": 8214
+        }
+      ],
+      "contest": "State Representative District 5",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 8214,
+      "year": 2024
+    },
+    "state-house-6": {
+      "candidates": [
+        {
+          "name": "DEBRA J. HEFFERNAN",
+          "party": "Democratic Party",
+          "percent": 65.65,
+          "votes": 8766
+        },
+        {
+          "name": "MICHAEL KRAWCZUK",
+          "party": "Republican Party",
+          "percent": 34.35,
+          "votes": 4586
+        }
+      ],
+      "contest": "State Representative District 6",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 13352,
+      "year": 2024
+    },
+    "state-house-7": {
+      "candidates": [
+        {
+          "name": "LARRY D. LAMBERT JR.",
+          "party": "Democratic Party",
+          "percent": 70.29,
+          "votes": 7208
+        },
+        {
+          "name": "SHANE STONEMAN",
+          "party": "Republican Party",
+          "percent": 29.71,
+          "votes": 3047
+        }
+      ],
+      "contest": "State Representative District 7",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 10255,
+      "year": 2024
+    },
+    "state-house-8": {
+      "candidates": [
+        {
+          "name": "SHERAE'A \"RAE\" MOORE",
+          "party": "Democratic Party",
+          "percent": 57.8,
+          "votes": 7945
+        },
+        {
+          "name": "CHRIS BERONIO",
+          "party": "Republican Party",
+          "percent": 42.2,
+          "votes": 5800
+        }
+      ],
+      "contest": "State Representative District 8",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 13745,
+      "year": 2024
+    },
+    "state-house-9": {
+      "candidates": [
+        {
+          "name": "TERRELL A. WILLIAMS",
+          "party": "Democratic Party",
+          "percent": 47.24,
+          "votes": 7844
+        },
+        {
+          "name": "KEVIN S. HENSLEY",
+          "party": "Republican Party",
+          "percent": 52.76,
+          "votes": 8762
+        }
+      ],
+      "contest": "State Representative District 9",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 16606,
+      "year": 2024
+    },
+    "state-senate-1": {
+      "candidates": [
+        {
+          "name": "SARAH MCBRIDE",
+          "party": "Democratic Party",
+          "percent": 100.0,
+          "votes": 13204
+        }
+      ],
+      "contest": "State Senator District 1",
+      "source": "https://elections.delaware.gov/reports/GE2022.html",
+      "total_votes": 13204,
+      "year": 2022
+    },
+    "state-senate-10": {
+      "candidates": [
+        {
+          "name": "STEPHANIE L. HANSEN",
+          "party": "Democratic Party",
+          "percent": 100.0,
+          "votes": 19510
+        }
+      ],
+      "contest": "State Senator District 10",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 19510,
+      "year": 2024
+    },
+    "state-senate-11": {
+      "candidates": [
+        {
+          "name": "BRYAN TOWNSEND",
+          "party": "Democratic Party",
+          "percent": 100.0,
+          "votes": 15898
+        }
+      ],
+      "contest": "State Senator District 11",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 15898,
+      "year": 2024
+    },
+    "state-senate-12": {
+      "candidates": [
+        {
+          "name": "NICOLE POORE",
+          "party": "Democratic Party",
+          "percent": 62.15,
+          "votes": 10226
+        },
+        {
+          "name": "BILL ALEXANDER",
+          "party": "Republican Party",
+          "percent": 37.85,
+          "votes": 6228
+        }
+      ],
+      "contest": "State Senator District 12",
+      "source": "https://elections.delaware.gov/reports/GE2022.html",
+      "total_votes": 16454,
+      "year": 2022
+    },
+    "state-senate-13": {
+      "candidates": [
+        {
+          "name": "MARIE PINKNEY",
+          "party": "Democratic Party",
+          "percent": 100.0,
+          "votes": 8611
+        }
+      ],
+      "contest": "State Senator District 13",
+      "source": "https://elections.delaware.gov/reports/GE2022.html",
+      "total_votes": 8611,
+      "year": 2022
+    },
+    "state-senate-14": {
+      "candidates": [
+        {
+          "name": "KYRA HOFFNER",
+          "party": "Democratic Party",
+          "percent": 51.83,
+          "votes": 8404
+        },
+        {
+          "name": "MARK PUGH",
+          "party": "Republican Party",
+          "percent": 48.17,
+          "votes": 7811
+        }
+      ],
+      "contest": "State Senator District 14",
+      "source": "https://elections.delaware.gov/reports/GE2022.html",
+      "total_votes": 16215,
+      "year": 2022
+    },
+    "state-senate-15": {
+      "candidates": [
+        {
+          "name": "DAVE LAWSON",
+          "party": "Republican Party",
+          "percent": 100.0,
+          "votes": 11814
+        }
+      ],
+      "contest": "State Senator District 15",
+      "source": "https://elections.delaware.gov/reports/GE2022.html",
+      "total_votes": 11814,
+      "year": 2022
+    },
+    "state-senate-16": {
+      "candidates": [
+        {
+          "name": "ERIC L. BUCKSON",
+          "party": "Republican Party",
+          "percent": 100.0,
+          "votes": 16094
+        }
+      ],
+      "contest": "State Senator District 16",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 16094,
+      "year": 2024
+    },
+    "state-senate-17": {
+      "candidates": [
+        {
+          "name": "TREY PARADEE",
+          "party": "Democratic Party",
+          "percent": 100.0,
+          "votes": 14630
+        }
+      ],
+      "contest": "State Senator District 17",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 14630,
+      "year": 2024
+    },
+    "state-senate-18": {
+      "candidates": [
+        {
+          "name": "DAVE WILSON",
+          "party": "Republican Party",
+          "percent": 100.0,
+          "votes": 18563
+        }
+      ],
+      "contest": "State Senator District 18",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 18563,
+      "year": 2024
+    },
+    "state-senate-19": {
+      "candidates": [
+        {
+          "name": "BRIAN G. PETTYJOHN",
+          "party": "Republican Party",
+          "percent": 100.0,
+          "votes": 13142
+        }
+      ],
+      "contest": "State Senator District 19",
+      "source": "https://elections.delaware.gov/reports/GE2022.html",
+      "total_votes": 13142,
+      "year": 2022
+    },
+    "state-senate-2": {
+      "candidates": [
+        {
+          "name": "DARIUS BROWN",
+          "party": "Democratic Party",
+          "percent": 92.97,
+          "votes": 14273
+        },
+        {
+          "name": "JON ROE",
+          "party": "Conservative Party",
+          "percent": 7.03,
+          "votes": 1080
+        }
+      ],
+      "contest": "State Senator District 2",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 15353,
+      "year": 2024
+    },
+    "state-senate-20": {
+      "candidates": [
+        {
+          "name": "GERALD W. HOCKER",
+          "party": "Republican Party",
+          "percent": 100.0,
+          "votes": 17150
+        }
+      ],
+      "contest": "State Senator District 20",
+      "source": "https://elections.delaware.gov/reports/GE2022.html",
+      "total_votes": 17150,
+      "year": 2022
+    },
+    "state-senate-21": {
+      "candidates": [
+        {
+          "name": "BRYANT L. RICHARDSON",
+          "party": "Republican Party",
+          "percent": 100.0,
+          "votes": 17105
+        }
+      ],
+      "contest": "State Senator District 21",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 17105,
+      "year": 2024
+    },
+    "state-senate-3": {
+      "candidates": [
+        {
+          "name": "S. ELIZABETH LOCKMAN",
+          "party": "Democratic Party",
+          "percent": 100.0,
+          "votes": 11831
+        }
+      ],
+      "contest": "State Senator District 3",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 11831,
+      "year": 2024
+    },
+    "state-senate-4": {
+      "candidates": [
+        {
+          "name": "LAURA V. STURGEON",
+          "party": "Democratic Party",
+          "percent": 100.0,
+          "votes": 18984
+        }
+      ],
+      "contest": "State Senator District 4",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 18984,
+      "year": 2024
+    },
+    "state-senate-5": {
+      "candidates": [
+        {
+          "name": "KYLE EVANS GAY",
+          "party": "Democratic Party",
+          "percent": 66.28,
+          "votes": 10471
+        },
+        {
+          "name": "DANIEL R. SCHMICK",
+          "party": "Republican Party",
+          "percent": 33.72,
+          "votes": 5328
+        }
+      ],
+      "contest": "State Senator District 5",
+      "source": "https://elections.delaware.gov/reports/GE2022.html",
+      "total_votes": 15799,
+      "year": 2022
+    },
+    "state-senate-6": {
+      "candidates": [
+        {
+          "name": "RUSS HUXTABLE",
+          "party": "Democratic Party",
+          "percent": 54.35,
+          "votes": 20212
+        },
+        {
+          "name": "KIM HOEY STEVENSON",
+          "party": "Republican Party",
+          "percent": 45.65,
+          "votes": 16976
+        }
+      ],
+      "contest": "State Senator District 6",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 37188,
+      "year": 2024
+    },
+    "state-senate-7": {
+      "candidates": [
+        {
+          "name": "SPIROS MANTZAVINOS",
+          "party": "Democratic Party",
+          "percent": 58.69,
+          "votes": 7663
+        },
+        {
+          "name": "M. SHERM PORTER",
+          "party": "Republican Party",
+          "percent": 41.31,
+          "votes": 5394
+        }
+      ],
+      "contest": "State Senator District 7",
+      "source": "https://elections.delaware.gov/reports/GE2022.html",
+      "total_votes": 13057,
+      "year": 2022
+    },
+    "state-senate-8": {
+      "candidates": [
+        {
+          "name": "DAVID P. SOKOLA",
+          "party": "Democratic Party",
+          "percent": 62.87,
+          "votes": 8462
+        },
+        {
+          "name": "VICTOR JOHN SETTING II",
+          "party": "Republican Party",
+          "percent": 37.13,
+          "votes": 4998
+        }
+      ],
+      "contest": "State Senator District 8",
+      "source": "https://elections.delaware.gov/reports/GE2022.html",
+      "total_votes": 13460,
+      "year": 2022
+    },
+    "state-senate-9": {
+      "candidates": [
+        {
+          "name": "JACK WALSH",
+          "party": "Democratic Party",
+          "percent": 61.5,
+          "votes": 7172
+        },
+        {
+          "name": "BRENDA MENNELLA",
+          "party": "Republican Party",
+          "percent": 38.5,
+          "votes": 4490
+        }
+      ],
+      "contest": "State Senator District 9",
+      "source": "https://elections.delaware.gov/reports/GE2022.html",
+      "total_votes": 11662,
+      "year": 2022
+    },
+    "state-treasurer": {
+      "candidates": [
+        {
+          "name": "COLLEEN DAVIS",
+          "party": "Democratic Party",
+          "percent": 53.64,
+          "votes": 170438
+        },
+        {
+          "name": "GREG COVERDALE",
+          "party": "Republican Party",
+          "percent": 46.36,
+          "votes": 147307
+        }
+      ],
+      "contest": "State Treasurer",
+      "source": "https://elections.delaware.gov/reports/GE2022.html",
+      "total_votes": 317745,
+      "year": 2022
+    },
+    "sussex-county-council-district-4": {
+      "candidates": [
+        {
+          "name": "NATHAN MITCHELL",
+          "party": "Democratic Party",
+          "percent": 36.35,
+          "votes": 8674
+        },
+        {
+          "name": "DOUGLAS B. HUDSON",
+          "party": "Republican Party",
+          "percent": 63.65,
+          "votes": 15190
+        }
+      ],
+      "contest": "SC County Council District 4",
+      "source": "https://elections.delaware.gov/reports/GE2022.html",
+      "total_votes": 23864,
+      "year": 2022
+    },
+    "sussex-county-council-district-5": {
+      "candidates": [
+        {
+          "name": "BILLY EDWARDS",
+          "party": "Democratic Party",
+          "percent": 36.55,
+          "votes": 6125
+        },
+        {
+          "name": "JOHN L. RIELEY",
+          "party": "Republican Party",
+          "percent": 63.45,
+          "votes": 10631
+        }
+      ],
+      "contest": "SC County Council District 5",
+      "source": "https://elections.delaware.gov/reports/GE2022.html",
+      "total_votes": 16756,
+      "year": 2022
+    },
+    "sussex-county-recorder-of-deeds": {
+      "candidates": [
+        {
+          "name": "ALEXANDRA REED BAKER",
+          "party": "Republican Party",
+          "percent": 100.0,
+          "votes": 66532
+        }
+      ],
+      "contest": "SC Recorder of Deeds",
+      "source": "https://elections.delaware.gov/reports/GE2022.html",
+      "total_votes": 66532,
+      "year": 2022
+    },
+    "sussex-county-register-of-wills": {
+      "candidates": [
+        {
+          "name": "GREG FULLER",
+          "party": "Republican Party",
+          "percent": 100.0,
+          "votes": 66886
+        }
+      ],
+      "contest": "SC Register of Wills",
+      "source": "https://elections.delaware.gov/reports/GE2022.html",
+      "total_votes": 66886,
+      "year": 2022
+    },
+    "sussex-county-sheriff": {
+      "candidates": [
+        {
+          "name": "ROBERT T. LEE",
+          "party": "Republican Party",
+          "percent": 82.71,
+          "votes": 61650
+        },
+        {
+          "name": "JAMES BRITTINGHAM",
+          "party": "Non-Partisan Delaware",
+          "percent": 17.29,
+          "votes": 12889
+        }
+      ],
+      "contest": "SC Sheriff",
+      "source": "https://elections.delaware.gov/reports/GE2022.html",
+      "total_votes": 74539,
+      "year": 2022
+    },
+    "us-house": {
+      "candidates": [
+        {
+          "name": "SARAH MCBRIDE",
+          "party": "Democratic Party",
+          "percent": 57.86,
+          "votes": 287830
+        },
+        {
+          "name": "JOHN J. WHALEN III",
+          "party": "Republican Party",
+          "percent": 42.14,
+          "votes": 209606
+        }
+      ],
+      "contest": "U.S. Representative In Congress",
+      "source": "https://elections.delaware.gov/reports/GE2024.html",
+      "total_votes": 497436,
+      "year": 2024
+    },
+    "us-senate": {
+      "candidates": [
+        {
+          "name": "CHRISTOPHER A. COONS",
+          "party": "Democratic Party",
+          "percent": 59.44,
+          "votes": 291804
+        },
+        {
+          "name": "LAUREN WITZKE",
+          "party": "Republican Party",
+          "percent": 37.9,
+          "votes": 186054
+        },
+        {
+          "name": "MARK W. TURLEY",
+          "party": "Independent Party Of Delaware",
+          "percent": 1.6,
+          "votes": 7833
+        },
+        {
+          "name": "NADINE M. FROST",
+          "party": "Libertarian Party",
+          "percent": 1.07,
+          "votes": 5244
+        }
+      ],
+      "contest": "U.S. Senator",
+      "source": "https://elections.delaware.gov/reports/GE2020.html",
+      "total_votes": 490935,
+      "year": 2020
+    }
+  }
+}

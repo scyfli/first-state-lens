@@ -4,10 +4,10 @@ task: Reframe FSL as a public civic-data utility and build an 8-dashboard citize
 slug: fsl-civic-suite
 effort: E5
 phase: build
-progress: 66/71
+progress: 70/91
 mode: build
 started: 2026-06-15
-updated: 2026-10-06
+updated: 2026-10-14
 ---
 
 # First State Lens — Civic Analytics Lab (project ISA)
@@ -464,3 +464,35 @@ needs Mark to add the data.gov key as a repo secret; (3) DGI MMG county join fin
 - [x] ISC-69: E2 address lookup live: 13-address check vs FirstMap (12/12 matched agree, 1 Census no-match handled), Worker stores and logs nothing, Forge review folded before production. EVIDENCE: commits 3c6b83b + 661d058; live POST returns SD17/HD32/Kent district 2 for Legislative Hall; no-Origin 403; ZIP 19810 -> SD 1,4,5 / HD 7,10; live form in Chrome lists 10 races for Seaford; deployed script settings read back: observability null (never enabled), logpush false, no tail consumers; worker/ not served (404); a11y CI pass. UNVERIFIED: account-level Logpush jobs (token lacks permission); screen-reader run.
 - [x] ISC-71: E1b full records for U.S. Senate, AG, Treasurer, Auditor. EVIDENCE: f45700a; every roll call re-read from Coons's member block in the senate.gov XML (5/5 Nay); every quote re-fetched and matched (Lauzen speaker confirmed in PDF); low-confidence items dropped; live pages show 2/2/2/3 records; daily job regenerates byte-identical; a11y CI pass on b9dabcf. UNVERIFIED: record pages at phone width in a browser (same CSS as verified race tables). Cross-vendor audit of E1b content OWED (FU-E1B-AUDIT).
 - [x] ISC-70: E4 decision recorded: dropped (no stable CFRS feed; false 'not on file' risk); state pages link to CFRS search. Evidence: docs/UPGRADE-PLAN.md A7 2026-10-06.
+
+## 2026-10-14: Remaining election pages + the year-round build (Mark: "get the rest of the election focused pages up and complete the rest of planned build")
+
+Deliverable manifest: (1) E3 last result per seat; (2) E5 machinery ready for Nov 5 (publishing itself waits for certification); (3) owed checks FU-E1B-AUDIT + phone width; (4) year-round Y1-Y9 per `docs/UPGRADE-PLAN.md` §A5, pulled forward on Mark's word; Y6 and Y10 are blocked on inputs only Mark holds.
+
+**E3 (last result for this seat):**
+- [ ] ISC-72: `etl/sources/de_results.py` parses the statewide tab of GE2020/GE2022/GE2024 and maps every 2026 race plus the 10 off-ballot Senate seats to exactly one prior contest; silent-zero guard; pytest on fixtures.
+- [ ] ISC-73: Every race page (4 statewide, us-house, 11 on-ballot SD, 10 off-ballot SD, 41 HD) and every race section on the 3 county pages shows the last general election result (name as listed, party, total votes, the state's percentage, year, source link) in the served HTML without JavaScript.
+- [ ] ISC-74: Anti: no winner, margin, "competitive", "safe" or "toss-up" wording anywhere in the result blocks (grep on generated HTML).
+- [ ] ISC-75: An independent re-parse of 5 sampled contests matches the published totals exactly.
+- [ ] ISC-76: Live production render of a statewide, a district and a county page shows the result block; a11y CI passes on the E3 commit.
+
+**E5 (certified results, Nov 5-6):**
+- [ ] ISC-77: The results puller takes any GE year, so certified 2026 results publish with one command once `GE2026.html` exists; proven by a dry run against GE2024. Publishing itself is DEFERRED-VERIFY to 2026-11-05/06 (FU-E5).
+
+**Owed checks:**
+- [ ] ISC-78: FU-E1B-AUDIT: cross-vendor audit of the E1b record content (statewide records) run; findings folded or logged.
+- [ ] ISC-79: `/candidates/us-senate/` and `/candidates/auditor/` show no horizontal overflow in a 390 px frame on production.
+
+**Year-round (built on branches by parallel builders, integrated and verified by me before each push):**
+- [ ] ISC-80: Y1 Office Registry live: every elected office from U.S. Senate to school board with term, current holder (or an official link where no holder list exists) and next election year, each sourced.
+- [ ] ISC-81: Y2 Water rebuild live: "is my water safe" framing, a static page per community water system (violations, health-based flags, EPA link), how-to-read header; no individual contact names or phones.
+- [ ] ISC-82: Y3 School report card pages live: one static page per district with report card measures and educator salary, unique titles.
+- [ ] ISC-83: Y4 My Delaware by address live: one lookup returns legislators (with votes link), school district, county and the 2026 ballot.
+- [ ] ISC-84: Y5 Full-session bill tracker live: every bill in the current General Assembly session, sorted by date or number only, no curation.
+- [ ] ISC-85: Y6 Childcare near me. BLOCKED: needs the Census key locally (FirstMap blocks GitHub runners); no key on this machine 2026-10-14.
+- [ ] ISC-86: Y7 Restaurant inspections live: raw violations by establishment and date in the state's wording; no grades; how-to-read header says a violation is not a closure; no individual employees named.
+- [ ] ISC-87: Y8 Road safety live: crashes and fatalities by county and month from `827n-m6xc`.
+- [ ] ISC-88: Y9 Contracts tab live on `/spending/` from `sifm-293u`.
+- [ ] ISC-89: Y10 New Castle + Sussex reassessment. BLOCKED: FOIA records not yet requested/received.
+- [ ] ISC-90: Anti: no private individual's address, phone or email on any new page (PII grep over every new directory).
+- [ ] ISC-91: Every new page wired (sitemap with lastmod, llms.txt, a11y ROUTES sample, homepage card for new top-level dashboards, refresh workflow for new pullers); a11y CI passes on the final HEAD.
