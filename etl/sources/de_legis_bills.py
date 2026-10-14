@@ -228,6 +228,10 @@ def build(rows: list[dict], *, session: int, fetch_actions: Callable[[int], list
         old = old_by_id.get(rec["legislation_id"])
         if _needs_actions(rec, old, today, full, recent_days):
             rec["last_action"], rec["last_action_date"] = last_action(fetch_actions(rec["legislation_id"]))
+            if rec["last_action"] is None and old and old.get("last_action"):
+                # action logs only grow; an empty answer for a bill that had actions is a source fault
+                raise RuntimeError(f"{rec['number']}: action log came back empty but had "
+                                   f"{old['last_action']!r} on {old.get('last_action_date')}; writing nothing.")
             fetched += 1
         else:
             rec["last_action"], rec["last_action_date"] = old.get("last_action"), old.get("last_action_date")
@@ -319,6 +323,10 @@ def fetch_listing(client: Client, session: int) -> tuple[list[dict], int]:
 def fetch_actions(client: Client, legislation_id: int) -> list[dict]:
     url = f"{ACTIONS_URL}?legislationId={int(legislation_id)}"
     body = client.post(url, {}, empty_ok=True)
+    if not isinstance(body, dict) or "Data" not in body or "Total" not in body:
+        # an empty 200 body is the known "no log yet" answer (handled in post); any other
+        # shape is malformed and must not become "No action listed"
+        raise RuntimeError(f"action log for {legislation_id}: unexpected response shape {sorted(body)[:5] if isinstance(body, dict) else type(body).__name__}")
     data, total = body.get("Data") or [], int(body.get("Total") or 0)
     if len(data) >= total:
         return data

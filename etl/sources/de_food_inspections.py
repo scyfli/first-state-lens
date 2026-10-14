@@ -202,8 +202,9 @@ def build(rows: list[dict], source_updated: datetime.date, window_years: int = W
             address = None
         e = ests.setdefault(eid, {"id": eid, "name": name, "address": address, "city": city,
                                   "zip": None if mobile else _clean(r.get("restzip")), "mobile": mobile, "_insp": {}})
-        if e["zip"] is None and not e["mobile"]:
-            e["zip"] = _clean(r.get("restzip"))
+        z = _clean(r.get("restzip"))
+        if z and not e["mobile"] and (e["zip"] is None or z < e["zip"]):
+            e["zip"] = z  # conflicting ZIPs for one establishment: lowest wins, so input order never matters
         itype = _clean(r.get("insp_type")) or "Not listed"
         insp = e["_insp"].setdefault((d.isoformat(), itype), [])
         code, desc = _clean(r.get("violation")), _clean(r.get("vio_desc"))

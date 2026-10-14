@@ -161,3 +161,12 @@ def test_rows_missing_name_city_or_date_are_dropped_and_counted():
     bad["restname"] = "  "
     b = m.build(r + [bad], SOURCE_UPDATED)
     assert b["stats"]["rows_incomplete"] == 1
+
+
+def test_conflicting_zips_do_not_depend_on_row_order():
+    base = {"restname": "Corner Cafe", "restaddress": "1 Main St", "restcity": "Dover",
+            "insp_date": "2026-05-01T00:00:00.000", "insp_type": "Routine", "violation": "1", "vio_desc": "x"}
+    a, b = dict(base, restzip="19904"), dict(base, restzip="19901")
+    one = json.dumps(m.build([a, b], SOURCE_UPDATED), sort_keys=True)
+    two = json.dumps(m.build([b, a], SOURCE_UPDATED), sort_keys=True)
+    assert one == two and '"19901"' in one

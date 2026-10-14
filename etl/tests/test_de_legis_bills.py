@@ -283,3 +283,25 @@ def test_write_moves_generated_at_when_content_changes(tmp_path):
     lb.write_outputs(changed, tmp_path, now="2026-10-21T12:00:00Z", source_meta={})
     man = json.loads((tmp_path / "bills-153-manifest.json").read_text())
     assert man["generated_at"] == "2026-10-21T12:00:00Z"
+
+
+def test_malformed_action_log_response_raises():
+    from etl.sources import de_legis_bills as B
+
+    class C:
+        def post(self, url, data, empty_ok=False):
+            return {}
+    import pytest
+    with pytest.raises(RuntimeError, match="unexpected response shape"):
+        B.fetch_actions(C(), 1)
+
+
+def test_action_log_that_shrinks_to_empty_raises():
+    import json as _j, pytest
+    from etl.sources import de_legis_bills as B
+    from pathlib import Path
+    rows = _j.loads((Path(__file__).parent / "fixtures" / "de_legis_listing_153.json").read_text())
+    rows = rows["Data"] if isinstance(rows, dict) else rows
+    first = B.build(rows, session=153, fetch_actions=lambda i: [{"LegislationActionLogId": 1, "ActionDescription": "Introduced", "OccuredAtDateTime": "1/7/25"}], min_rows=1, today="2026-10-14")
+    with pytest.raises(RuntimeError, match="came back empty"):
+        B.build(rows, session=153, fetch_actions=lambda i: [], prior=first, full=True, min_rows=1, today="2026-10-14")

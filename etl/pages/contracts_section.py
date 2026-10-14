@@ -136,7 +136,7 @@ def render_block(s: dict) -> str:
 {chr(10).join(kpi_html)}
     </div>
     <div class="panel">
-      <p class="ct-note">Every contract and vendor pair with spend reported in fiscal year {fy} ({e(fy_span)}), the latest fiscal year that has ended in the dataset: {len(s['contracts']):,} rows, sorted by contract description, then contract number, then vendor. With JavaScript on, select a column heading to sort by it. The full data is in <a href="/spending/data/contracts-summary.json">contracts-summary.json</a>.</p>
+      <p class="ct-note">Every contract and vendor pair with spend reported in fiscal year {fy} ({e(fy_span)}), the latest fiscal year that has ended in the dataset: {len(s['contracts']):,} rows, sorted by contract description, then contract number, then vendor. With JavaScript on, select a text or month column heading to sort by it; spend is not a sort key, so the table never ranks contracts by amount. The full data is in <a href="/spending/data/contracts-summary.json">contracts-summary.json</a>.</p>
       <div class="ct-wrap" tabindex="0" role="region" aria-label="Statewide central contracts table">
       <table class="data-table" id="ct-table">
         <caption>Statewide central contracts and vendors with spend reported in FY{fy}, sorted by contract description. Not a ranking.</caption>
@@ -145,7 +145,7 @@ def render_block(s: dict) -> str:
           <th scope="col" data-sort="text">Contract number</th>
           <th scope="col" data-sort="text">Award type</th>
           <th scope="col" data-sort="text">Vendor</th>
-          <th scope="col" class="num" data-sort="num">Reported spend, FY{fy}</th>
+          <th scope="col" class="num">Reported spend, FY{fy}</th>
           <th scope="col" data-sort="text">First month reported</th>
           <th scope="col" data-sort="text">Last month reported</th>
         </tr></thead>

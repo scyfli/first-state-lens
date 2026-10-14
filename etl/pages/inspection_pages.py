@@ -208,7 +208,7 @@ def est_block(est: dict) -> str:
         addr = f"Mobile food unit, {est['city']}, DE. Street address not shown: a mobile unit's listed address can be a private home."
     else:
         addr_parts = [est["address"] or "Street address not listed", est["city"]]
-        addr = ", ".join(addr_parts) + ", DE" + (f" {est['zip']}" if est.get("zip") else "")
+        addr = ", ".join(addr_parts) + ", DE" + (f" {est['zip']}" if est.get("zip") else ", ZIP not listed")
     out = [f'    <article class="est" id="e-{e(est["id"])}">',
            f'      <h3>{e(est["name"])}</h3>',
            f'      <p class="addr">{e(addr)}</p>']
