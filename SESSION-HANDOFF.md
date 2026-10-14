@@ -8,7 +8,7 @@
 
 ## ▶ RESUME HERE (written 2026-10-14)
 
-**Mark's ask (2026-10-14):** "get the rest of the election focused pages up and complete the rest of planned build". Done on production today, each item pushed, live-checked and a11y-green: E3, E5 machinery, FU-E1B-AUDIT, phone-width check, Y1, Y2, Y3, Y4, Y7, Y8, Y9. Y5 (full-session bill tracker): see the 2026-10-14 section below for its state. Evidence per item is in `ISA.md` (2026-10-14 section).
+**Mark's ask (2026-10-14):** "get the rest of the election focused pages up and complete the rest of planned build". Done on production today, each item pushed, live-checked and a11y-green: E3, E5 machinery, FU-E1B-AUDIT, phone-width check, Y1, Y2, Y3, Y4, Y7, Y8, Y9. Y5 full-session bill tracker also live (`5a05d2a`, 1,484 items, own weekly workflow; roll to the 154th by changing CURRENT_SESSION in etl/sources/de_legis_bills.py, first 154th run with --min-rows 1). Evidence per item is in `ISA.md` (2026-10-14 section).
 
 **⏰ FU-E5, Thu Nov 5 to Fri Nov 6 (certified results):**
 1. After the Boards of Canvass certify (Nov 5, 10 a.m.), check `https://elections.delaware.gov/reports/GE2026.html` says OFFICIAL RESULTS.
@@ -25,6 +25,8 @@
 - (e) Road safety: 2025 shows 98 fatality crashes vs 127 to 134 in 2021 to 2024 in the state dataset; the page states the data and its six-month lag, no claim. Worth a check against Office of Highway Safety figures before anyone quotes it.
 - (f) Inspections: 48 business names carry broken characters from the state file (e.g. "Caf�"); left as published.
 - (g) Charter School of Wilmington and Delaware Military Academy are counted inside Red Clay in the report card data, so they have no pages of their own (the Red Clay page says so).
+
+**Owed:** FU-YR-AUDIT, a cross-vendor (codex) content audit of the builder-made pages (offices, water, schools, inspections, road safety, contracts, bill tracker). Run `codex exec ... < /dev/null` (without the redirect it waits on stdin forever).
 
 **Gotchas learned today:**
 - XML comments cannot contain `--`; a sitemap marker comment with `--print-sitemap` broke the sitemap parse.

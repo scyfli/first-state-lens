@@ -4,7 +4,7 @@ task: Reframe FSL as a public civic-data utility and build an 8-dashboard citize
 slug: fsl-civic-suite
 effort: E5
 phase: build
-progress: 87/91
+progress: 89/91
 mode: build
 started: 2026-06-15
 updated: 2026-10-14
@@ -489,7 +489,7 @@ E3 evidence (commit `ec4a39b`): puller mapped 87 seats (77 races + 10 off-ballot
 - [x] ISC-81: Y2 Water rebuild live: "is my water safe" framing, a static page per community water system (violations, health-based flags, EPA link), how-to-read header; no individual contact names or phones.
 - [x] ISC-82: Y3 School report card pages live: one static page per district with report card measures and educator salary, unique titles.
 - [x] ISC-83: Y4 My Delaware by address live: one lookup returns legislators (with votes link), school district, county and the 2026 ballot.
-- [ ] ISC-84: Y5 Full-session bill tracker live: every bill in the current General Assembly session, sorted by date or number only, no curation.
+- [x] ISC-84: Y5 Full-session bill tracker live: every bill in the current General Assembly session, sorted by date or number only, no curation.
 - [ ] ISC-85: [BLOCKED, Mark: Census key] Y6 Childcare near me. BLOCKED: needs the Census key locally (FirstMap blocks GitHub runners); no key on this machine 2026-10-14.
 - [x] ISC-86: Y7 Restaurant inspections live: raw violations by establishment and date in the state's wording; no grades; how-to-read header says a violation is not a closure; no individual employees named.
 - [x] ISC-87: Y8 Road safety live: crashes and fatalities by county and month from `827n-m6xc`.
@@ -506,4 +506,8 @@ Evidence 2026-10-14 (all on production, a11y CI green per commit unless noted):
 - ISC-86 Y7: `651dc09` + `f9498a6` (mobile food units: street address and ZIP never written; 139 units) + `6fdff94` (axe target-size fix). 3,716 establishments, 55 towns; live search returned results in production.
 - ISC-87 Y8 + ISC-88 Y9: `87fcd36`. 588,486 crash reports by county and month; contracts section (sifm-293u is central-contract SPEND, not award values; the page says so). a11y: road-safety passed in run 38608619959 (that run failed only on the inspections target-size issue, fixed next commit).
 - ISC-90: PII grep over offices, water, inspections, road-safety, schools/district, my-delaware, spending, candidates: the only phone number anywhere is the Office of Food Protection's public line; 0 emails.
-- [ ] ISC-91: Every new page wired (sitemap with lastmod, llms.txt, a11y ROUTES sample, homepage card for new top-level dashboards, refresh workflow for new pullers); a11y CI passes on the final HEAD.
+- [x] ISC-91: Every new page wired (sitemap with lastmod, llms.txt, a11y ROUTES sample, homepage card for new top-level dashboards, refresh workflow for new pullers); a11y CI passes on the final HEAD.
+
+- ISC-84 Y5: `5a05d2a`. 1,484 items of the 153rd GA from legis.delaware.gov keyless JSON (listing matches the server Total; 478 amendments shown on bill pages, not rows); live index 1,484 rows, filter "veterans" = 14, sort by date works; SB 272 moved to /bill-tracker/sb-272/ (21 vote rows load, 0 failed requests); own weekly workflow `bills-weekly.yml` (90 min, full re-read first week of each month); a11y success on 5a05d2a.
+- ISC-91: every new page wired (homepage cards: inspections, road safety, office registry, My Delaware, bill tracker; sitemap; llms.txt; a11y ROUTES + a11y.yml paths; refresh-all or own workflow for every puller); a11y CI green on the final HEAD 5a05d2a.
+- Rule 2a: codex reviewed E1b content (0 HIGH) and the Y4 Worker/client + inspections privacy (0 HIGH, 3 MEDIUM fixed in `4ac9240`). Builder pages (Y1-Y3, Y5, Y7-Y9) were reviewed by me at integration, not by a second vendor: FU-YR-AUDIT owed.
