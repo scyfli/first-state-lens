@@ -47,6 +47,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dunkin - RSD Donuts LLC",
    "zip": "19805"
   },
@@ -100,6 +101,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Kalbi Asian Bistro",
    "zip": "19805"
   },
@@ -119,6 +121,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Mulrooneys Tavern",
    "zip": "19805"
   },
@@ -150,6 +153,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Serpe and Sons Bakery",
    "zip": "19805"
   }

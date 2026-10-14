@@ -74,6 +74,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Caesar Rodney High School",
    "zip": "19934"
   },
@@ -107,6 +108,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Camden-wyoming Little League Snack Bar",
    "zip": "19934"
   },
@@ -190,6 +192,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "CR High School Concessions - Caesar Rodney School",
    "zip": "19934"
   }

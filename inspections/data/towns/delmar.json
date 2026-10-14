@@ -58,6 +58,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Asian House",
    "zip": "19940"
   },
@@ -72,6 +73,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "jbcrunch - jbcrunch llc",
    "zip": "19940"
   },
@@ -99,6 +101,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "McDonalds Restaurant - Delmar - Welburn DE Holdin",
    "zip": "19940"
   },
@@ -128,6 +131,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Milanos Pizzeria",
    "zip": "19940"
   },
@@ -192,6 +196,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pizza King - Baynum Enterprises Inc",
    "zip": "19940"
   },
@@ -235,6 +240,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Taste Of China",
    "zip": "19940"
   }

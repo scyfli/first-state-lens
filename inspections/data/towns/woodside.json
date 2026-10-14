@@ -102,6 +102,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Arbys Cato #6545 - Goose Creek Food Mart Woodside",
    "zip": "19980"
   },
@@ -149,6 +150,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Polytech Adult Education",
    "zip": "19980"
   },
@@ -172,6 +174,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Polytech High School",
    "zip": "19980"
   }

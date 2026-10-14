@@ -20,6 +20,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Farmington VFC",
    "zip": "19950"
   },
@@ -307,6 +308,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Mini Mart",
    "zip": "19940"
   }

@@ -20,11 +20,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "1776 Restaurant (Closed)",
    "zip": "19971"
   },
   {
-   "address": "19730 Coastal Hwy",
+   "address": null,
    "city": "Rehoboth Beach",
    "id": "ec9a065a41",
    "inspections": [
@@ -49,8 +50,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "302 ACAI LLC (MOB)",
-   "zip": "19971"
+   "zip": null
   },
   {
    "address": "70 Rehoboth Ave",
@@ -140,6 +142,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "302 Social Eatery and Barroom",
    "zip": "19971"
   },
@@ -195,6 +198,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Above the Dunes",
    "zip": "19971"
   },
@@ -214,6 +218,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Acme Market Store - Albertsons Companies Inc -",
    "zip": "19971"
   },
@@ -305,6 +310,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Agave Restaurant",
    "zip": "19971"
   },
@@ -324,6 +330,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Aqua Bar & Grill - Second Block Hospitality",
    "zip": "19971"
   },
@@ -457,6 +464,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Archies",
    "zip": "19971"
   },
@@ -534,6 +542,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Archies Ice Cream 25 REH AVE",
    "zip": "19971"
   },
@@ -571,6 +580,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Arenas Deli - Deli Days LLC",
    "zip": "19971"
   },
@@ -636,6 +646,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Arenas Pub - Deli Days LLC",
    "zip": "19971"
   },
@@ -669,6 +680,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Aroma Mediterranean Cuisine",
    "zip": "19971"
   },
@@ -718,11 +730,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Atlantic Seafood Company",
    "zip": "19971"
   },
   {
-   "address": "Midway Outlet Drive",
+   "address": null,
    "city": "Rehoboth Beach",
    "id": "c4bf6bf4e4",
    "inspections": [
@@ -737,11 +750,12 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Auntie Annes MOB",
-   "zip": "19971"
+   "zip": null
   },
   {
-   "address": "36470 Seaside Outlet Drive",
+   "address": null,
    "city": "Rehoboth Beach",
    "id": "992ab51995",
    "inspections": [
@@ -766,8 +780,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Auntie Annes MOB Seaside",
-   "zip": "19971"
+   "zip": null
   },
   {
    "address": "29 Baltimore Avenue",
@@ -837,6 +852,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "AVAS PIZZERIA & WINE BAR",
    "zip": "19971"
   },
@@ -860,6 +876,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Back Porch Cafe",
    "zip": "19971"
   },
@@ -897,6 +914,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Beach View Hotel - Seaboard Hospitality LLC",
    "zip": "19971"
   },
@@ -968,6 +986,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Beebe Healthcare Rehoboth Cafe",
    "zip": "19971"
   },
@@ -1049,6 +1068,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Bellmoor The",
    "zip": "19971"
   },
@@ -1076,6 +1096,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Big Fish Bakery ARG Big Fish Rehoboth",
    "zip": "19971"
   },
@@ -1109,6 +1130,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Big Fish Commissary - ARG Big Fish Rehoboth",
    "zip": "19971"
   },
@@ -1212,6 +1234,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Big Fish Grill - ARG Big Fish Rehoboth",
    "zip": "19971"
   },
@@ -1299,6 +1322,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Big Fish Market - ARG Big Fish Rehoboth",
    "zip": "19971"
   },
@@ -1326,6 +1350,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Blackwall at the Beach - Anchor Hospitality Inc",
    "zip": "19971"
   },
@@ -1349,6 +1374,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Blue Moon Restaurant",
    "zip": "19971"
   },
@@ -1382,6 +1408,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Bluecoast Rehoboth - SoDel Concepts II LLC",
    "zip": "19971"
   },
@@ -1409,6 +1436,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Bodhi Kitchen - Second Block Hospitality",
    "zip": "19971"
   },
@@ -1428,6 +1456,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Breakfast Guru",
    "zip": "19971"
   },
@@ -1447,6 +1476,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Buffalo Wild Wings - High 5 Hospitality LLC - #36",
    "zip": "19971"
   },
@@ -1478,6 +1508,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Cafe A Go-Go",
    "zip": "19971"
   },
@@ -1527,6 +1558,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Cafe Papillon",
    "zip": "19971"
   },
@@ -1546,6 +1578,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Caf� Azafran - RB Azafran Inc",
    "zip": "19971"
   },
@@ -1637,6 +1670,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Casa Cilantro",
    "zip": "19971"
   },
@@ -1656,6 +1690,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Changing Mains-Bus (Closed)",
    "zip": "19971"
   },
@@ -1715,6 +1750,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Chesapeake & Maine",
    "zip": "19971"
   },
@@ -1738,6 +1774,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Chipotle Mexican Grill #1833 - Rehoboth",
    "zip": "19971"
   },
@@ -1757,6 +1794,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Chocolate Wave",
    "zip": "19971"
   },
@@ -1786,6 +1824,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Cinnabon and Auntie Annes",
    "zip": "19971"
   },
@@ -1815,6 +1854,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Claws Crab House - Rehoboth Ave",
    "zip": "19971"
   },
@@ -1834,6 +1874,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Coast Rehoboth Beach-Sirocco",
    "zip": "19971"
   },
@@ -1865,6 +1906,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Coastal Cafe",
    "zip": "19971"
   },
@@ -1924,6 +1966,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Cohos Market & Grill (Closed)",
    "zip": "19971"
   },
@@ -1953,6 +1996,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Conch Island Extended",
    "zip": "19971"
   },
@@ -1980,6 +2024,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Confucius",
    "zip": "19971"
   },
@@ -1999,6 +2044,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Crabby Dicks (Closed)",
    "zip": "19971"
   },
@@ -2036,6 +2082,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Cracker Barrel",
    "zip": "19971"
   },
@@ -2065,6 +2112,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Crust & Craft - SoDel Concepts II LLC",
    "zip": "19971"
   },
@@ -2104,6 +2152,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Crystal Restaurant",
    "zip": "19971"
   },
@@ -2123,6 +2172,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Cultured Pearl Restaurant",
    "zip": "19971"
   },
@@ -2162,6 +2212,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Da Nizza Wood Fired Pizza",
    "zip": "19971"
   },
@@ -2185,6 +2236,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dairy Queen Treat Center",
    "zip": "19971"
   },
@@ -2216,11 +2268,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dalmata Italiano",
    "zip": "19971"
   },
   {
-   "address": "65 Sussex St",
+   "address": null,
    "city": "Rehoboth Beach",
    "id": "4376d4e96a",
    "inspections": [
@@ -2235,8 +2288,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Dewey Beach Service Mobile Cart L7",
-   "zip": "19971"
+   "zip": null
   },
   {
    "address": "12n 1st St",
@@ -2280,6 +2334,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "DiFebos Restaurant Rehoboth - DiFebo Restaurants",
    "zip": "19971"
   },
@@ -2325,6 +2380,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dockside Bar & Grill - Marina Restaurant Hospitali",
    "zip": "19971"
   },
@@ -2358,6 +2414,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dogfish Head Brewings And Eats",
    "zip": "19971"
   },
@@ -3037,6 +3094,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dos Locos Fajita & Stonegrill - Jaymit inc",
    "zip": "19971"
   },
@@ -3070,6 +3128,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Downtown Blues",
    "zip": "19971"
   },
@@ -3165,6 +3224,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dreamer Coffee & Juice Bar (1 Rehoboth Ave)",
    "zip": "19971"
   },
@@ -3196,6 +3256,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dreamer Coffee & Juice Bar (32 Rehoboth Ave)",
    "zip": "19971"
   },
@@ -3245,6 +3306,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Drift Seafood & Raw Bar - Second Block Hospitalit",
    "zip": "19971"
   },
@@ -3264,6 +3326,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dunkin - Baskin Robbins - Franchise Management Se",
    "zip": "19971"
   },
@@ -3287,6 +3350,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dunkin - Franchise Management Services Inc - #34",
    "zip": "19971"
   },
@@ -3328,6 +3392,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Eden Restaurant",
    "zip": "19971"
   },
@@ -3359,6 +3424,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Eden Restaurant - Baltimore (Closed)",
    "zip": "19971"
   },
@@ -3412,6 +3478,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Egg",
    "zip": "19971"
   },
@@ -3525,6 +3592,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Eggcellent RB LLC",
    "zip": "19971"
   },
@@ -3616,6 +3684,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "El Azteca Rehoboth - Blue Mezcal Group - #104",
    "zip": "19971"
   },
@@ -3643,6 +3712,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Exxon Shop Of Rehoboth",
    "zip": "19971"
   },
@@ -3686,6 +3756,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Federal Fritter",
    "zip": "19971"
   },
@@ -3709,6 +3780,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Fins Ale House & Raw Bar - Rehoboth Rt1",
    "zip": "19971"
   },
@@ -3764,6 +3836,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Fins Fish House & Raw Bar - Rehoboth Ave",
    "zip": "19971"
   },
@@ -3829,6 +3902,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "First State Corn & More",
    "zip": "19971"
   },
@@ -3872,6 +3946,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Fishers Popcorn Rehoboth Beach - Fishers Popcorn",
    "zip": "19971"
   },
@@ -3891,6 +3966,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Fractured Prune",
    "zip": "19971"
   },
@@ -3910,6 +3986,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Frank & Louies Italian Store (Closed)",
    "zip": "19971"
   },
@@ -3933,6 +4010,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Freddies Beach Bar & Restaurant",
    "zip": "19971"
   },
@@ -3952,6 +4030,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Fresh Market",
    "zip": "19971"
   },
@@ -3983,6 +4062,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Friendlys Restaurant",
    "zip": "19971"
   },
@@ -4040,6 +4120,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Friendlys Restaurant closed",
    "zip": "19971"
   },
@@ -4163,6 +4244,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Fruittello",
    "zip": "19971"
   },
@@ -4290,6 +4372,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Gios Pizza Co",
    "zip": "19971"
   },
@@ -4337,6 +4420,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Giulianova Prep & Touch of Italy Bakery",
    "zip": "19971"
   },
@@ -4360,6 +4444,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Go Fish!",
    "zip": "19971"
   },
@@ -4383,6 +4468,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Grandpa Mac (Closed)",
    "zip": "19971"
   },
@@ -4402,6 +4488,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Grotto Pizza #102 - Boardwalk South Rehoboth",
    "zip": "19971"
   },
@@ -4425,6 +4512,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Guanacos Melting Pot",
    "zip": "19971"
   },
@@ -4474,6 +4562,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Gus & Gus",
    "zip": "19971"
   },
@@ -4544,6 +4633,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hammys Rehoboth (Closed)",
    "zip": "19971"
   },
@@ -4619,6 +4709,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Henlopen City Oyster House",
    "zip": "19971"
   },
@@ -4698,6 +4789,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Henlopen Pizza Kitchen",
    "zip": "19971"
   },
@@ -4727,6 +4819,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "HISSHO SUSHI @ GIANT FOOD 0387",
    "zip": "19971"
   },
@@ -4746,6 +4839,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "HOLIDAY INN EXPRESS- REHOBOTH",
    "zip": "19971"
   },
@@ -4875,6 +4969,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Houston White Co",
    "zip": "19971"
   },
@@ -4946,6 +5041,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hunan Chinese Restaurant",
    "zip": "19971"
   },
@@ -4977,6 +5073,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Ice Cream Store",
    "zip": "19971"
   },
@@ -5032,6 +5129,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Indigo",
    "zip": "19971"
   },
@@ -5067,6 +5165,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Iron Hill Brewery LLC (Closed)",
    "zip": "19971"
   },
@@ -5112,6 +5211,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Jam Bistro",
    "zip": "19971"
   },
@@ -5131,6 +5231,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Java Byte Cafe - Red Square International Inc",
    "zip": "19971"
   },
@@ -5212,6 +5313,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Jersey Mikes Subs - High 5 Hospitality LLC - #35",
    "zip": "19971"
   },
@@ -5231,6 +5333,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Jungle Jims Inc",
    "zip": "19971"
   },
@@ -5314,6 +5417,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Kaans Bakery REH (Closed)",
    "zip": "19971"
   },
@@ -5377,6 +5481,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Kabab Falafel Addiction",
    "zip": "19971"
   },
@@ -5396,6 +5501,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Kaja Asian",
    "zip": "19971"
   },
@@ -5423,6 +5529,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Kilwins Rehoboth Beach",
    "zip": "19971"
   },
@@ -5476,6 +5583,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Kings Creek CC Snack Bar",
    "zip": "19971"
   },
@@ -5495,6 +5603,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Kings Creek Country Club",
    "zip": "19971"
   },
@@ -5540,6 +5649,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Kiwis Tiki Hut",
    "zip": "19971"
   },
@@ -5559,6 +5669,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "La Fable",
    "zip": "19971"
   },
@@ -5606,6 +5717,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "La Tonalteca",
    "zip": "19971"
   },
@@ -5629,6 +5741,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Le Macaron French Pastries - Seaside Pastries LLC",
    "zip": "19971"
   },
@@ -5656,6 +5769,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Loris Cafe",
    "zip": "19971"
   },
@@ -5795,6 +5909,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Louies Pizza",
    "zip": "19971"
   },
@@ -5832,6 +5947,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Lupo Di Mare - SoDel Concepts II LLC",
    "zip": "19971"
   },
@@ -5851,6 +5967,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Mariachi Restaurant",
    "zip": "19971"
   },
@@ -5936,6 +6053,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Masons Famous Lobster Roll",
    "zip": "19971"
   },
@@ -5963,6 +6081,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Michys Relaxed Dining",
    "zip": "19971"
   },
@@ -5982,6 +6101,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Microtel Inn & Suites",
    "zip": "19971"
   },
@@ -6063,6 +6183,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Midway Cafe",
    "zip": "19971"
   },
@@ -6273,6 +6394,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Moes Southwest Grill",
    "zip": "19971"
   },
@@ -6296,6 +6418,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Movies At Midway",
    "zip": "19971"
   },
@@ -6319,6 +6442,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Nalu Hawaiian Surf Bar & Grille- Rehoboth",
    "zip": "19971"
   },
@@ -6372,6 +6496,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Obies By The Sea - Obies Hospitality LLC",
    "zip": "19971"
   },
@@ -6446,6 +6571,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Outback Steakhouse",
    "zip": "19971"
   },
@@ -6465,6 +6591,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Papa Johns",
    "zip": "19971"
   },
@@ -6502,6 +6629,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pasqualinis Bakery",
    "zip": "19971"
   },
@@ -6537,6 +6665,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Petes Steak Shop",
    "zip": "19971"
   },
@@ -6594,6 +6723,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Philly Pretzel Factory- Coastal Hwy",
    "zip": "19971"
   },
@@ -6626,6 +6756,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pizza Machine Classic",
    "zip": "19971"
   },
@@ -6645,6 +6776,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pizza Villa",
    "zip": "19971"
   },
@@ -6694,11 +6826,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Playa Bowls - Gee Bowls Inc",
    "zip": "19971"
   },
   {
-   "address": "36507 Palm Drive Unit 2303",
+   "address": null,
    "city": "Rehoboth Beach",
    "id": "8e489061a5",
    "inspections": [
@@ -6735,8 +6868,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Playa Maya Cafe Mobile",
-   "zip": "19971"
+   "zip": null
   },
   {
    "address": "19287 Miller Road Unit 1B",
@@ -6814,6 +6948,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Poke Bros",
    "zip": "19971"
   },
@@ -6833,6 +6968,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pretzelvania Inc",
    "zip": "19971"
   },
@@ -6932,6 +7068,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Purple Parrot Grill",
    "zip": "19971"
   },
@@ -6965,6 +7102,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "RB Kabob & Grill",
    "zip": "19971"
   },
@@ -6998,6 +7136,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Rehoboth Ale House",
    "zip": "19971"
   },
@@ -7076,6 +7215,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Rehoboth Ale House on the Mile",
    "zip": "19971"
   },
@@ -7099,6 +7239,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Rehoboth Beach CC Halfway House",
    "zip": "19971"
   },
@@ -7118,6 +7259,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Rehoboth Beach Country Club Snack Bar",
    "zip": "19971"
   },
@@ -7155,6 +7297,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Rehoboth Beach VFC",
    "zip": "19971"
   },
@@ -7290,6 +7433,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Rehoboth Diner",
    "zip": "19971"
   },
@@ -7309,6 +7453,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Rehoboth Elementary School",
    "zip": "19971"
   },
@@ -7370,6 +7515,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Rigbys Bar & Grill",
    "zip": "19971"
   },
@@ -7389,6 +7535,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Rise Up Coffee - Coastal Hwy",
    "zip": "19971"
   },
@@ -7430,6 +7577,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Rise Up Coffee-REH AVE",
    "zip": "19971"
   },
@@ -7453,6 +7601,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Ritas",
    "zip": "19971"
   },
@@ -7482,6 +7631,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Robin Hood Restaurant",
    "zip": "19971"
   },
@@ -7511,6 +7661,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Rosenfelds Jewish Deli",
    "zip": "19971"
   },
@@ -7602,6 +7753,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Royal Farms #037",
    "zip": "19971"
   },
@@ -7653,6 +7805,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Royal Farms #212",
    "zip": "19971"
   },
@@ -7686,6 +7839,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Royal Farms #226",
    "zip": "19971"
   },
@@ -7705,6 +7859,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Safeway - Albertsons Companies Inc - #2706",
    "zip": "19971"
   },
@@ -7740,6 +7895,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Salero",
    "zip": "19971"
   },
@@ -7799,6 +7955,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Salt Air - ARG Salt Air Rehoboth",
    "zip": "19971"
   },
@@ -7844,6 +8001,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sammys Kitchen",
    "zip": "19971"
   },
@@ -7897,6 +8055,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sazio - 32 Lake LLC",
    "zip": "19958"
   },
@@ -7916,6 +8075,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sea Shell Shop",
    "zip": "19971"
   },
@@ -7953,6 +8113,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Seedbol Kitchen",
    "zip": "19971"
   },
@@ -7992,6 +8153,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Semras Mediterranean Grill",
    "zip": "19971"
   },
@@ -8019,6 +8181,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Shorebreak Lodge",
    "zip": "19971"
   },
@@ -8090,6 +8253,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Smart Brazil",
    "zip": "19971"
   },
@@ -8311,6 +8475,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "SoHo Slice - Anchor Hospitality Inc",
    "zip": "19971"
   },
@@ -8368,6 +8533,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Somewhere (Mug & Spoon)",
    "zip": "19971"
   },
@@ -8401,6 +8567,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Starbucks Coffee - Starbucks Corporation - #7807",
    "zip": "19971"
   },
@@ -8450,6 +8617,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Starkeys Funnel Cake Factory - 7 S Wilmington Av",
    "zip": "19971"
   },
@@ -8541,6 +8709,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Stop N Go Taco LLC",
    "zip": "19971"
   },
@@ -8582,6 +8751,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Subway (wal-mart)",
    "zip": "19971"
   },
@@ -8601,6 +8771,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Subway REH AVE",
    "zip": "19971"
   },
@@ -8654,6 +8825,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sugar and Thread - Rehoboth Ave",
    "zip": "19971"
   },
@@ -8689,6 +8861,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sugar and Thread - Seaside Outlet Drive",
    "zip": "19971"
   },
@@ -8708,6 +8881,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sugar Planet",
    "zip": "19971"
   },
@@ -8755,6 +8929,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Summer House",
    "zip": "19971"
   },
@@ -8802,6 +8977,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sunny Bay Cafe",
    "zip": "19971"
   },
@@ -8859,6 +9035,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Surf Bagel Midway - Surf Bagel Holdings LLC - #SB",
    "zip": "19971"
   },
@@ -8878,6 +9055,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sweet Charlies of Rehoboth Beach",
    "zip": "19971"
   },
@@ -8909,6 +9087,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sweet Frog Shop",
    "zip": "19971"
   },
@@ -8928,6 +9107,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Taco Bell (Closed)",
    "zip": "19971"
   },
@@ -8977,11 +9157,36 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Taco Reho - Lavida Hospitality Group",
    "zip": "19971"
   },
   {
-   "address": "18784 Coastal Highway",
+   "address": null,
+   "city": "Rehoboth Beach",
+   "id": "215192f890",
+   "inspections": [
+    {
+     "date": "2025-05-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      }
+     ]
+    }
+   ],
+   "mobile": true,
+   "name": "Taco Reho Mobile (Baby Betty) - Lavida Hospitality",
+   "zip": null
+  },
+  {
+   "address": null,
    "city": "Rehoboth Beach",
    "id": "d26f2ac324",
    "inspections": [
@@ -9008,34 +9213,12 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Taco Reho Mobile (Baby Betty) - Lavida Hospitality",
-   "zip": "19971"
+   "zip": null
   },
   {
-   "address": "18784 Coastal Hwy",
-   "city": "Rehoboth Beach",
-   "id": "215192f890",
-   "inspections": [
-    {
-     "date": "2025-05-22",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "4-501.114",
-       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
-      },
-      {
-       "code": "6-301.11",
-       "description": "Handwashing Cleanser, Availability"
-      }
-     ]
-    }
-   ],
-   "name": "Taco Reho Mobile (Baby Betty) - Lavida Hospitality",
-   "zip": "19971"
-  },
-  {
-   "address": "19406 Coastal Hwy",
+   "address": null,
    "city": "Rehoboth Beach",
    "id": "2b896f72ff",
    "inspections": [
@@ -9050,8 +9233,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Taco Reho Mobile (Betty) - Lavida Hospitality Grou",
-   "zip": "19971"
+   "zip": null
   },
   {
    "address": "303 South Boardwalk St 2 & 3",
@@ -9091,6 +9275,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Tasty The Love of Taste",
    "zip": "19971"
   },
@@ -9144,6 +9329,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Blue Hen",
    "zip": "19971"
   },
@@ -9179,6 +9365,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Dunes",
    "zip": "19971"
   },
@@ -9220,6 +9407,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Hideout Arcade Bar & Grille",
    "zip": "19971"
   },
@@ -9315,6 +9503,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Local Bootlegging Co",
    "zip": "19971"
   },
@@ -9348,6 +9537,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Lodge at Truitt Homestead",
    "zip": "19971"
   },
@@ -9371,6 +9561,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Pines Coastal Tavern - Second Block Hospitali",
    "zip": "19971"
   },
@@ -9404,6 +9595,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Point Coffee House",
    "zip": "19971"
   },
@@ -9427,6 +9619,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Secret Sauce Thai Kitchen",
    "zip": "19971"
   },
@@ -9454,6 +9647,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Tipsy Flamingo",
    "zip": "19971"
   },
@@ -9501,6 +9695,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Thompson Island Brewing Company - Southern Delawar",
    "zip": "19971"
   },
@@ -9534,6 +9729,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Tiki Jacs",
    "zip": "19971"
   },
@@ -9561,6 +9757,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Touch of Italy - Rehoboth Beach",
    "zip": "19971"
   },
@@ -9627,6 +9824,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "TOWERS OCEAN DAY AREA SNACK BAR - JAY VENDING COMP",
    "zip": "19971"
   },
@@ -9674,6 +9872,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Twist Kitchen & Juice Bar (Closed)",
    "zip": "19971"
   },
@@ -9703,6 +9902,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Veranda Restaurant & Bar",
    "zip": "19971"
   },
@@ -9732,6 +9932,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Victorias Restaurant",
    "zip": "19971"
   },
@@ -9751,6 +9952,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wendys (DE005 1463) - Wendover Inc - #1463",
    "zip": "19971"
   },
@@ -9787,6 +9989,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "White Water Mountain - Aqua Amusements Inc",
    "zip": "19971"
   },
@@ -9828,6 +10031,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wus Kitchen",
    "zip": "19971"
   },
@@ -9847,6 +10051,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "YUMMI SUSHI at Acme Foods (Closed)",
    "zip": "19971"
   },
@@ -9866,6 +10071,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Zava Cafe Rehoboth - LAGO Hospitality Group LLC",
    "zip": "19971"
   },
@@ -9903,6 +10109,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Zoggs Bar & Restaurant",
    "zip": "19971"
   }

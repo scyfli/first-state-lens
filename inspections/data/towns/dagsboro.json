@@ -150,6 +150,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Anon Stop #2",
    "zip": "19939"
   },
@@ -190,6 +191,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "Dagsboro American Legion Post 24",
    "zip": "19939"
   },
@@ -269,6 +271,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dagsboro Church Of God",
    "zip": "19939"
   },
@@ -300,6 +303,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Delmarva Billiards & Sports Bar",
    "zip": "19939"
   },
@@ -354,6 +358,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Highs Store 163",
    "zip": "19939"
   },
@@ -385,6 +390,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "La Dama Restaurant & Bar LLC (Closed)",
    "zip": "19939"
   },
@@ -456,6 +462,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Milk and Honey Cafe",
    "zip": "19939"
   },
@@ -483,6 +490,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Parsons Farms Produce",
    "zip": "19939"
   },
@@ -560,6 +568,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "Porto Pizza & Grill",
    "zip": "19939"
   },
@@ -630,6 +639,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Royal Farms #316",
    "zip": "19939"
   },
@@ -661,6 +671,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Young Adventurers LLC",
    "zip": "19939"
   },
@@ -750,6 +761,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wangs Kitchen",
    "zip": "19939"
   }

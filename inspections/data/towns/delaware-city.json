@@ -34,6 +34,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Delaware City Citgo",
    "zip": "19706"
   },
@@ -53,6 +54,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Delaware City Fire Company",
    "zip": "19706"
   },
@@ -128,6 +130,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dolly Spanks",
    "zip": "19706"
   },
@@ -181,6 +184,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Kathys Crab House & Family Restaurant",
    "zip": "19706"
   },
@@ -236,6 +240,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "La Matesina Pizza and Pasta",
    "zip": "19706"
   },
@@ -255,6 +260,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sabatinas Sandwich Shop (Closed)",
    "zip": "19706"
   },
@@ -278,6 +284,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Southern Elementary - Colonial School District",
    "zip": "19706"
   },
@@ -297,6 +304,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sundays Caf� 64 LLC",
    "zip": "19706"
   },
@@ -362,6 +370,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Cake Sisters",
    "zip": "19706"
   }

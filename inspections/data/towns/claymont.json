@@ -32,6 +32,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Arbys - ACW Corporation dba Arbys- #5022",
    "zip": "19703"
   },
@@ -63,6 +64,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Archmere Academy - SAGE Dining Services Inc",
    "zip": "19703"
   },
@@ -162,6 +164,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Aureas Mexican Restaurant",
    "zip": "19703"
   },
@@ -195,6 +198,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Bnai Brith House Kitchen",
    "zip": "19703"
   },
@@ -246,6 +250,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Brandywine Club",
    "zip": "19703"
   },
@@ -265,6 +270,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Brandywine Senior Center- City Fare",
    "zip": "19703"
   },
@@ -288,6 +294,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Burger King - Rackson Restaurants LLC - #684",
    "zip": "19703"
   },
@@ -311,6 +318,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Charlies Pizza Claymont",
    "zip": "19703"
   },
@@ -334,6 +342,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Cirlce K #2655790",
    "zip": "19703"
   },
@@ -361,6 +370,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Claymont Community Center- (Closed)",
    "zip": "19703"
   },
@@ -394,6 +404,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Claymont Elementary School - Brandywine School Dis",
    "zip": "19703"
   },
@@ -513,11 +524,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Claymont Steak Shop - Claymont Steak Shop inc -",
    "zip": "19703"
   },
   {
-   "address": "313 Earhart Court",
+   "address": null,
    "city": "Claymont",
    "id": "26255e8e1b",
    "inspections": [
@@ -661,8 +673,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Delaware Halal Food Mob (MOB)",
-   "zip": "19703"
+   "zip": null
   },
   {
    "address": "2901 Green St",
@@ -693,6 +706,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dhamma Pubbanada",
    "zip": "19703"
   },
@@ -728,6 +742,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Double Dipper Ice Cream Shop",
    "zip": "19703"
   },
@@ -788,6 +803,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dunkin Donuts",
    "zip": "19703"
   },
@@ -811,6 +827,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Food Lion - Food Lion LLC - #2164",
    "zip": "19703"
   },
@@ -846,6 +863,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Gaudenzia Foundation",
    "zip": "19703"
   },
@@ -890,6 +908,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Java Bean Cafe (Closed)",
    "zip": "19703"
   },
@@ -1035,6 +1054,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Jing Fong Restaurant",
    "zip": "19703"
   },
@@ -1093,6 +1113,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Kentucky Fried Chicken/taco Bell (Closed)",
    "zip": "19703"
   },
@@ -1112,6 +1133,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "La Hermosa Mexican Restaurant",
    "zip": "19703"
   },
@@ -1143,6 +1165,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Los Cocteles (Claymont Ice Cream Shop) - P & J Fla",
    "zip": "19703"
   },
@@ -1162,11 +1185,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Los Cocteles Movil - P & J Flavors and Treats LLC",
    "zip": "19703"
   },
   {
-   "address": "3207 Philadelphia Pike",
+   "address": null,
    "city": "Claymont",
    "id": "cd093457ec",
    "inspections": [
@@ -1279,8 +1303,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Machetes Mobile 2 (MOB)",
-   "zip": "19703"
+   "zip": null
   },
   {
    "address": "100 Maple Lane",
@@ -1306,6 +1331,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Maple Lane Elementary School - Brandywine School D",
    "zip": "19703"
   },
@@ -1357,11 +1383,12 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "Mcdonalds Family Restaurant",
    "zip": "19703"
   },
   {
-   "address": "109 Naamans Road",
+   "address": null,
    "city": "Claymont",
    "id": "03e5c27e05",
    "inspections": [
@@ -1384,8 +1411,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Mitchs Mo Better Chicken Food Truck (MOB)",
-   "zip": "19703"
+   "zip": null
   },
   {
    "address": "3541 Philadelphia Pike",
@@ -1424,6 +1452,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "NY Gyro Grill",
    "zip": "19703"
   },
@@ -1443,6 +1472,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Primo Hoagies- Claymont DE",
    "zip": "19703"
   },
@@ -1479,6 +1509,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Richards Delicatessen",
    "zip": "19703"
   },
@@ -1530,6 +1561,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sprinkles Italian Bakery",
    "zip": "19703"
   },
@@ -1571,11 +1603,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sunoco Food Market",
    "zip": "19703"
   },
   {
-   "address": "2509 Philadelphia Pike",
+   "address": null,
    "city": "Claymont",
    "id": "a5ad24ae7e",
    "inspections": [
@@ -1590,8 +1623,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Tios Taqueria (MOB)",
-   "zip": "19703"
+   "zip": null
   },
   {
    "address": "2509 Philadelphia Pike",
@@ -1623,11 +1657,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Uncle Johns BBQ Stand",
    "zip": "19703"
   },
   {
-   "address": "2203 Philadelphia Pike",
+   "address": null,
    "city": "Claymont",
    "id": "f710765c62",
    "inspections": [
@@ -1664,8 +1699,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Uncle Johns Mobile",
-   "zip": "19703"
+   "zip": null
   },
   {
    "address": "3416 Philadelphia Pike",
@@ -1695,6 +1731,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Waterfall Catering And Special Events",
    "zip": "19703"
   },
@@ -1719,6 +1756,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wawa Food Market #816",
    "zip": "19703"
   },
@@ -1738,6 +1776,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wawa Food Market #854",
    "zip": "19703"
   },
@@ -1761,6 +1800,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wawa Food Market #867",
    "zip": "19703"
   }

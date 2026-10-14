@@ -26,6 +26,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Cantwells Tavern - Ashby INC - #107",
    "zip": "19730"
   },
@@ -87,6 +88,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Corner Grounds Cafe",
    "zip": "19730"
   },
@@ -147,6 +149,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Lorenzos Pizza",
    "zip": "19730"
   },
@@ -166,6 +169,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Odessa Fire Company",
    "zip": "19730"
   },
@@ -199,6 +203,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sunoco",
    "zip": "19730"
   }

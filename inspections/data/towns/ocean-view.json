@@ -20,6 +20,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Amatos Pizza",
    "zip": "19970"
   },
@@ -51,6 +52,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Bethany Beach Fitness LLC",
    "zip": "19970"
   },
@@ -146,6 +148,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Big Fish Grill Ocean View",
    "zip": "19970"
   },
@@ -197,6 +200,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Cedar Land & Sea Kitchen",
    "zip": "19970"
   },
@@ -250,6 +254,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Charlie Ks BBQ",
    "zip": "19970"
   },
@@ -277,6 +282,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "CHEER Coastal Leisure Center - CHEER Inc",
    "zip": "19970"
   },
@@ -304,6 +310,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Drifting Grounds Coffee House - Heneghan Bartolome",
    "zip": "19970"
   },
@@ -357,6 +364,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Fin & Claw",
    "zip": "19970"
   },
@@ -388,6 +396,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Flavor (Closed)",
    "zip": "19970"
   },
@@ -419,6 +428,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Flavor - GEM Restaurant Group LLC",
    "zip": "19970"
   },
@@ -472,6 +482,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Good Earth Market - GEM Restaurant Group LLC",
    "zip": "19970"
   },
@@ -495,6 +506,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hockers Bbq",
    "zip": "19970"
   },
@@ -530,11 +542,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hockers Family Restaurant & Crabhouse",
    "zip": "19970"
   },
   {
-   "address": "34960 Atlantic Ave",
+   "address": null,
    "city": "Ocean View",
    "id": "2f75d45af8",
    "inspections": [
@@ -561,8 +574,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Hockers Grocery & Deli(MOB)",
-   "zip": "19970"
+   "zip": null
   },
   {
    "address": "27 Atlantic Avenue",
@@ -664,6 +678,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Honeys Farm Fresh Gourmet Kitchen-Ocean View",
    "zip": "19970"
   },
@@ -691,6 +706,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "JUICEBOX",
    "zip": "19970"
   },
@@ -743,6 +759,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Lord Baltimore Elementary - Indian River School D",
    "zip": "19970"
   },
@@ -774,6 +791,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Mason Dixon VFW Post #7234",
    "zip": "19970"
   },
@@ -809,6 +827,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "McDonalds Ocean View - The Meoli Companies - #412",
    "zip": "19970"
   },
@@ -920,6 +939,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Munchies Grill",
    "zip": "19970"
   },
@@ -961,6 +981,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Northeast Seafood Kitchen - SoDel Concepts II LLC",
    "zip": "19970"
   },
@@ -1052,6 +1073,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Ocean View Brewing Company - Southern Delaware Bre",
    "zip": "19970"
   },
@@ -1079,6 +1101,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Ocean View Presbyterian Church",
    "zip": "19970"
   },
@@ -1292,6 +1315,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Ocean View Restaurant - Artisan Restaurant Develop",
    "zip": "19970"
   },
@@ -1335,6 +1359,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Order Of Eagles",
    "zip": "19970"
   },
@@ -1370,6 +1395,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Papa Johns",
    "zip": "19970"
   },
@@ -1491,6 +1517,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Royal Farms #176",
    "zip": "19970"
   },
@@ -1562,6 +1589,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sussex Concessions LLC - Coastal Kitchen at Bear T",
    "zip": "19970"
   },
@@ -1585,6 +1613,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sussex Concessions LLC - Cub Shack",
    "zip": "19970"
   },
@@ -1604,6 +1633,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Caf+� on 26 - The Caf+� on 26 Inc",
    "zip": "19970"
   },
@@ -1637,6 +1667,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Caf� on 26 - The Caf� on 26 Inc",
    "zip": "19970"
   },
@@ -1670,6 +1701,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Sweet Shoppe",
    "zip": "19970"
   },
@@ -1693,11 +1725,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Third Day Granola and Baking Company (Closed)",
    "zip": "19970"
   },
   {
-   "address": "117 Atlantic Avenue Bldg 1D",
+   "address": null,
    "city": "Ocean View",
    "id": "83c655f483",
    "inspections": [
@@ -1722,8 +1755,9 @@
      "violations": []
     }
    ],
+   "mobile": true,
    "name": "Yellow Submarine (Stationary Mobile Unit) - Henegh",
-   "zip": "19970"
+   "zip": null
   }
  ],
  "slug": "ocean-view",

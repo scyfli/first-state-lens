@@ -74,13 +74,26 @@ def test_rows_older_than_the_window_are_excluded():
 
 def test_only_whitelisted_fields_are_written():
     for e in all_establishments(built()):
-        assert set(e) == {"id", "name", "address", "city", "zip", "inspections"}
+        assert set(e) == {"id", "name", "address", "city", "zip", "mobile", "inspections"}
         for i in e["inspections"]:
             assert set(i) == {"date", "type", "violations"}
             for v in i["violations"]:
                 assert set(v) == {"code", "description"}
     text = json.dumps(built())
     assert "geocoded" not in text and "human_address" not in text
+
+
+def test_mobile_unit_street_address_and_zip_are_never_written():
+    rows_ = [{"restname": "Bul Jang (MOB)", "restaddress": "400 Bushy Tail Lane", "restcity": "Dover", "restzip": "19901",
+              "insp_date": "2026-05-01T00:00:00.000", "insp_type": "Routine", "violation": "1", "vio_desc": "x"},
+             {"restname": "Corner Cafe", "restaddress": "1 Main St", "restcity": "Dover", "restzip": "19901",
+              "insp_date": "2026-05-01T00:00:00.000", "insp_type": "Routine", "violation": "1", "vio_desc": "x"}]
+    b = m.build(rows_, SOURCE_UPDATED)
+    text = json.dumps(b)
+    assert "Bushy Tail" not in text
+    ests = {e["name"]: e for e in all_establishments(b)}
+    assert ests["Bul Jang (MOB)"]["address"] is None and ests["Bul Jang (MOB)"]["zip"] is None and ests["Bul Jang (MOB)"]["mobile"]
+    assert ests["Corner Cafe"]["address"] == "1 Main St" and not ests["Corner Cafe"]["mobile"]
 
 
 def test_missing_address_is_none_not_blank():

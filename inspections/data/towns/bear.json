@@ -16,6 +16,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "7-Eleven Store #16354G",
    "zip": "19701"
   },
@@ -61,6 +62,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Aha South Indian Cuisine",
    "zip": "19701"
   },
@@ -102,6 +104,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Amore Pizza",
    "zip": "19701"
   },
@@ -189,6 +192,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Bear Diner & Restaurant",
    "zip": "19701"
   },
@@ -216,6 +220,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Bear Seasons Pizza & Restaurant Inc - Seasons Piz",
    "zip": "19701"
   },
@@ -282,6 +287,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Best Food In Town",
    "zip": "19701"
   },
@@ -385,6 +391,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Best Western Plus (Closed)",
    "zip": "19701"
   },
@@ -418,6 +425,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Bob Evans Restaurant #300 - Bob Evans Restaurants",
    "zip": "19701"
   },
@@ -447,6 +455,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Brisket Brothers",
    "zip": "19701"
   },
@@ -470,6 +479,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Buffalo Wild Wings - High 5 Hospitality LLC - #3",
    "zip": "19701"
   },
@@ -519,6 +529,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Burger King #12163 (Closed)",
    "zip": "19701"
   },
@@ -550,6 +561,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Burger King - Cape King LLC - #101",
    "zip": "19701"
   },
@@ -587,6 +599,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "CAPRIOTTIS - BON INC - #BEAR-DE009",
    "zip": "19701"
   },
@@ -610,6 +623,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Capriottis Sandwich Shop (Closed)",
    "zip": "19701"
   },
@@ -639,11 +653,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Chicken & Pizza",
    "zip": "19701"
   },
   {
-   "address": "7 Loch Lomond Street",
+   "address": null,
    "city": "Bear",
    "id": "1e9f57cc5e",
    "inspections": [
@@ -662,8 +677,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Chickz N Wingz (MOB)",
-   "zip": "19701"
+   "zip": null
   },
   {
    "address": "1841 Pulaski Hwy",
@@ -748,6 +764,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "China One",
    "zip": "19701"
   },
@@ -767,6 +784,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Cool Js Premium Water Ice",
    "zip": "19701"
   },
@@ -796,6 +814,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Cuzino Family Kitchen",
    "zip": "19701"
   },
@@ -833,6 +852,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dairy Queen - Bear - Fisk Jordan Enterprises LLC -",
    "zip": "19701"
   },
@@ -878,6 +898,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "DOMINOS - PENN STREET PIZZA INC - #4406",
    "zip": "19701"
   },
@@ -953,6 +974,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dunkin - RSD Donuts LLC",
    "zip": "19701"
   },
@@ -1000,6 +1022,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dunkin - RSD Donuts LLC - Bear",
    "zip": "19701"
   },
@@ -1033,6 +1056,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "El Tapatio Mexican Restaurant - Bear - Fernwalt-Ma",
    "zip": "19701"
   },
@@ -1169,11 +1193,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "El Trebol Tex Mex Restaurant",
    "zip": "19701"
   },
   {
-   "address": "3 Lauren Drive",
+   "address": null,
    "city": "Bear",
    "id": "beb3b42cbc",
    "inspections": [
@@ -1188,8 +1213,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Elite Softee Inc 1 (MOB)",
-   "zip": "19701"
+   "zip": null
   },
   {
    "address": "801 Seymour Rd",
@@ -1228,6 +1254,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Fairwinds Baptist Church School",
    "zip": "19701"
   },
@@ -1293,6 +1320,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Five Guys Burgers & Fries - Rockham 5G PA LLC - #D",
    "zip": "19701"
   },
@@ -1322,6 +1350,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Food Lion - Food Lion LLC - #2160",
    "zip": "19701"
   },
@@ -1398,6 +1427,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Fresh Bagel Delight",
    "zip": "19701"
   },
@@ -1450,6 +1480,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Giant Food - Giant of Maryland LLC - #385",
    "zip": "19701"
   },
@@ -1479,6 +1510,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Golden Dragon",
    "zip": "19701"
   },
@@ -1541,6 +1573,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Grain Craft Bar & Kitchen",
    "zip": "19701"
   },
@@ -1631,6 +1664,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Heladeria Tonantzin",
    "zip": "19701"
   },
@@ -1650,6 +1684,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hibachi Japanese Steak House & Sushi Bar",
    "zip": "19701"
   },
@@ -1673,6 +1708,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "IHOP - Chenega IH LLC - #3297/505",
    "zip": "19701"
   },
@@ -1716,6 +1752,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Jalebi Baby",
    "zip": "19701"
   },
@@ -1739,6 +1776,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Jamaican Cafe Cuisine",
    "zip": "19701"
   },
@@ -1768,6 +1806,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Kathleen H Wilbur School - Colonial School Distri",
    "zip": "19701"
   },
@@ -1818,6 +1857,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "KFC - Mitra QSR KNE LLC - #K071055",
    "zip": "19701"
   },
@@ -1917,6 +1957,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "La Morena",
    "zip": "19701"
   },
@@ -1966,6 +2007,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Las Reinas del Sur (Closed)",
    "zip": "19701"
   },
@@ -1999,6 +2041,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Little Caesars Pizza - Sagacity Ventures LLC - #",
    "zip": "19701"
   },
@@ -2018,6 +2061,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Longhorn Steakhouse Bear - Darden Restaurants Inc",
    "zip": "19701"
   },
@@ -2041,6 +2085,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Los Volcanes",
    "zip": "19709"
   },
@@ -2111,6 +2156,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Lucky Buffet",
    "zip": "19701"
   },
@@ -2130,6 +2176,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Macks Mini Mart",
    "zip": "19701"
   },
@@ -2159,6 +2206,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "McDonalds - Dukart Management LLC - #12682",
    "zip": "19701"
   },
@@ -2190,6 +2238,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Mexican House (Closed)",
    "zip": "19701"
   },
@@ -2260,6 +2309,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Mexico Grocery",
    "zip": "19701"
   },
@@ -2455,6 +2505,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Milans Real Philly Cheesesteaks & Hoagies",
    "zip": "19701"
   },
@@ -2474,6 +2525,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Moes Southwest Grill - Dhanadeepa Food Inc - #517",
    "zip": "19701"
   },
@@ -2514,6 +2566,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Moms Kitchen",
    "zip": "19701"
   },
@@ -2537,6 +2590,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Moms Kitchen Inc",
    "zip": "19701"
   },
@@ -2586,6 +2640,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Nasi Restaurant",
    "zip": "19701"
   },
@@ -2632,6 +2687,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "New Great Wall",
    "zip": "19701"
   },
@@ -2679,6 +2735,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Panda Chinese Restaurant",
    "zip": "19701"
   },
@@ -2702,6 +2759,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "PANDA EXPRESS - PANDA EXPRESS INC - #2634",
    "zip": "19701"
   },
@@ -2726,6 +2784,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Papa Johns",
    "zip": "19701"
   },
@@ -2755,6 +2814,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pats Pizza",
    "zip": "19701"
   },
@@ -2774,6 +2834,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pearl of the Antilles",
    "zip": "19701"
   },
@@ -2793,6 +2854,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Philly Soft Pretzel Factory",
    "zip": "19701"
   },
@@ -2836,6 +2898,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pho Nhu Vu",
    "zip": "19701"
   },
@@ -2895,6 +2958,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "PIZZA HUT - HUT EAST COAST LLC - #6015013",
    "zip": "19701"
   },
@@ -2963,6 +3027,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Plaza Azteca - Plaza Azteca Newark Inc - #Bear",
    "zip": "19701"
   },
@@ -2982,6 +3047,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Popeyes Louisiana Kitchen",
    "zip": "19701"
   },
@@ -3001,6 +3067,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Red Lion United Methodist Church",
    "zip": "19701"
   },
@@ -3020,6 +3087,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Ritas Water Ice",
    "zip": "19701"
   },
@@ -3117,6 +3185,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Riviera Pizza (Closed)",
    "zip": "19701"
   },
@@ -3180,6 +3249,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Romas Pizza",
    "zip": "19701"
   },
@@ -3217,6 +3287,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Royal Farms #161",
    "zip": "19701"
   },
@@ -3281,6 +3352,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Rt 40 Diner",
    "zip": "19701"
   },
@@ -3300,6 +3372,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Rubies Smoothie and Bubble Tea",
    "zip": "19701"
   },
@@ -3457,6 +3530,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Saladworks",
    "zip": "19701"
   },
@@ -3486,6 +3560,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "ShopRite of Governors Square",
    "zip": "19701"
   },
@@ -3515,6 +3590,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Smoothie World",
    "zip": "19701"
   },
@@ -3567,6 +3643,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Spice N Nice Caribbean Restaurant (Closed)",
    "zip": "19701"
   },
@@ -3596,6 +3673,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "St Elizabeth Ann Seton",
    "zip": "19701"
   },
@@ -3615,6 +3693,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Starbucks Coffee - Starbucks Corporation - #53901",
    "zip": "19701"
   },
@@ -3662,6 +3741,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Stewarts Brewing Co",
    "zip": "19701"
   },
@@ -3681,6 +3761,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sweet Frog",
    "zip": "19701"
   },
@@ -3714,6 +3795,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Szechuan Hot Wok",
    "zip": "19701"
   },
@@ -3771,6 +3853,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Taqueria La Estrella",
    "zip": "19701"
   },
@@ -3804,6 +3887,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Tenderbones Rib Shack",
    "zip": "19701"
   },
@@ -3876,6 +3960,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Texas Road House #90",
    "zip": "19701"
   },
@@ -3939,6 +4024,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Thurstons Pub",
    "zip": "19701"
   },
@@ -3963,6 +4049,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Trattoria De Napoli",
    "zip": "19701"
   },
@@ -4004,6 +4091,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Two Claws - Bear - Poke Bros DE LLC - #150",
    "zip": "19701"
   },
@@ -4088,6 +4176,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Vicks Food Mart",
    "zip": "19701"
   },
@@ -4133,6 +4222,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Waffle House #2436 - East Coast Waffles - #2436",
    "zip": "19701"
   },
@@ -4184,6 +4274,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wawa Food Market #823",
    "zip": "19701"
   },
@@ -4207,6 +4298,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wawa Food Market #844",
    "zip": "19701"
   },
@@ -4244,6 +4336,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wendys",
    "zip": "19701"
   },
@@ -4267,6 +4360,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "William A Oberle Jr Elementary School",
    "zip": "19701"
   },
@@ -4286,6 +4380,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wings To Go",
    "zip": "19701"
   }

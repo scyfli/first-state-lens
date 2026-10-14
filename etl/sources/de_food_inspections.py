@@ -88,6 +88,14 @@ def slugify(s: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
 
 
+_MOBILE = re.compile(r"\bMOB\b|\bmobile\b|food truck|\btruck\b|\btrailer\b|\bcart\b", re.I)
+
+
+def is_mobile_unit(name: str) -> bool:
+    """The state marks mobile food units with "MOB" in the name; trucks, trailers and carts too."""
+    return bool(_MOBILE.search(name))
+
+
 def establishment_id(name: str, address: str | None, city: str) -> str:
     key = f"{name}|{address or ''}|{city}".casefold()
     return hashlib.sha1(key.encode("utf-8")).hexdigest()[:10]
@@ -186,9 +194,15 @@ def build(rows: list[dict], source_updated: datetime.date, window_years: int = W
             continue
         address = _clean(r.get("restaddress"))
         eid = establishment_id(name, address, city)
+        mobile = is_mobile_unit(name)
+        if mobile:
+            # B4: a mobile food unit's listed street address is often the operator's home.
+            # Keep the id (a hash) stable, but never write the street address or ZIP.
+            stats["mobile_units_address_withheld"] = stats.get("mobile_units_address_withheld", 0) + (eid not in ests)
+            address = None
         e = ests.setdefault(eid, {"id": eid, "name": name, "address": address, "city": city,
-                                  "zip": _clean(r.get("restzip")), "_insp": {}})
-        if e["zip"] is None:
+                                  "zip": None if mobile else _clean(r.get("restzip")), "mobile": mobile, "_insp": {}})
+        if e["zip"] is None and not e["mobile"]:
             e["zip"] = _clean(r.get("restzip"))
         itype = _clean(r.get("insp_type")) or "Not listed"
         insp = e["_insp"].setdefault((d.isoformat(), itype), [])

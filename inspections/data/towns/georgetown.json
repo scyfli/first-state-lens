@@ -16,6 +16,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "A Taste of Royalty",
    "zip": "19947"
   },
@@ -65,6 +66,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Arenas Georgetown - Deli Days LLC",
    "zip": "19947"
   },
@@ -108,6 +110,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Bella Capri Italian Family Restaurant",
    "zip": "19947"
   },
@@ -131,6 +134,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Calderon Market LLC",
    "zip": "19947"
   },
@@ -150,6 +154,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Carter Kitchen @ Del Tech Community College",
    "zip": "19947"
   },
@@ -173,6 +178,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Carusos Pizza & Pasta",
    "zip": "19947"
   },
@@ -192,6 +198,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Children & Families First Stockley (Closed)",
    "zip": "19947"
   },
@@ -276,11 +283,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "China Wok",
    "zip": "19947"
   },
   {
-   "address": "21179 College Drive",
+   "address": null,
    "city": "Georgetown",
    "id": "19e1c1252b",
    "inspections": [
@@ -299,11 +307,12 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Cindys Meals On Wheels Mobile (MOB)",
-   "zip": "19947"
+   "zip": null
   },
   {
-   "address": "413 South Bedford St",
+   "address": null,
    "city": "Georgetown",
    "id": "23de1ed458",
    "inspections": [
@@ -326,8 +335,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Da Nizza Pizza Georgetown (MOB)",
-   "zip": "19947"
+   "zip": null
   },
   {
    "address": "16 North Railroad Avenue",
@@ -359,6 +369,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Delaware Nutrition",
    "zip": "19947"
   },
@@ -378,6 +389,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dominos Pizza (Closed)",
    "zip": "19947"
   },
@@ -417,6 +429,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "DQ Grill & Chill (Closed)",
    "zip": "19947"
   },
@@ -440,6 +453,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "DQ Grill & Chill - Schatz Treats LLC - Georgetown",
    "zip": "19947"
   },
@@ -483,6 +497,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "El Gordo Taco MX",
    "zip": "19947"
   },
@@ -530,6 +545,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "EL GRAN CHARRO MEXICAN STORE AND RESTAURANT LLC",
    "zip": "19947"
   },
@@ -549,11 +565,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "El Picante Latin Restaurant LLC",
    "zip": "19947"
   },
   {
-   "address": "4 Highland Terrace",
+   "address": null,
    "city": "Georgetown",
    "id": "9ca45c0979",
    "inspections": [
@@ -576,8 +593,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Everlasting Hope Ministries Mobile Unit",
-   "zip": "19947"
+   "zip": null
   },
   {
    "address": "21710 Roth Avenue",
@@ -607,6 +625,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Fins Oyster Bar & Grill - Georgetown",
    "zip": "19947"
   },
@@ -668,6 +687,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Georgetown Family Restaurant Inc",
    "zip": "19947"
   },
@@ -719,6 +739,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Georgetown Pizza Palace",
    "zip": "19947"
   },
@@ -738,6 +759,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Harvest Diner",
    "zip": "19947"
   },
@@ -785,6 +807,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "J & J Bagel",
    "zip": "19947"
   },
@@ -840,6 +863,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Joes Market La Mexicana Tienda Y Taqueria",
    "zip": "19947"
   },
@@ -863,6 +887,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "JoJos Express",
    "zip": "19947"
   },
@@ -882,6 +907,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Karmic Creations",
    "zip": "19947"
   },
@@ -925,6 +951,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Lighthouse Cove & Catering @ Del Tech - M & P Adve",
    "zip": "19947"
   },
@@ -948,6 +975,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Little Caesars",
    "zip": "19947"
   },
@@ -983,6 +1011,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Little Caesars (Closed)",
    "zip": "19947"
   },
@@ -1058,6 +1087,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Little Mexico",
    "zip": "19947"
   },
@@ -1077,6 +1107,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Los Karnales",
    "zip": "19947"
   },
@@ -1096,6 +1127,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "McDonalds - The Meoli Companies - #4959",
    "zip": "19947"
   },
@@ -1115,6 +1147,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Microtel Inn And Suites",
    "zip": "19947"
   },
@@ -1148,6 +1181,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Mulligans Pointe",
    "zip": "19947"
   },
@@ -1187,6 +1221,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "New No1 Chinese Restaurant",
    "zip": "19947"
   },
@@ -1206,6 +1241,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "North Georgetown Elementary-� - Indian River Sch",
    "zip": "19947"
   },
@@ -1225,6 +1261,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "On a Rollll",
    "zip": "19947"
   },
@@ -1280,6 +1317,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Ortiz Bakery",
    "zip": "19947"
   },
@@ -1351,6 +1389,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "PAM Health Rehabilitation Hospital - Georgetown -",
    "zip": "19947"
   },
@@ -1412,6 +1451,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Perdue Farms Cafeteria",
    "zip": "19947"
   },
@@ -1451,6 +1491,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pizza King - Baynum Enterprises Inc",
    "zip": "19947"
   },
@@ -1488,6 +1529,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Restaurante Celajes Tacana",
    "zip": "19947"
   },
@@ -1539,6 +1581,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Restaurante Mi Laurita",
    "zip": "19947"
   },
@@ -1562,6 +1605,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Royal Farms #219",
    "zip": "19947"
   },
@@ -1595,6 +1639,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sol Azteca",
    "zip": "19947"
   },
@@ -1618,6 +1663,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Starbucks Coffee - Starbucks Corporation - #50514",
    "zip": "19947"
   },
@@ -1651,6 +1697,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Stockley Tavern",
    "zip": "19947"
   },
@@ -1684,6 +1731,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Subway #22952",
    "zip": "19947"
   },
@@ -1867,6 +1915,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sun Behavioral - Unidine",
    "zip": "19947"
   },
@@ -1908,6 +1957,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sussex Correctional Institution",
    "zip": "19947"
   },
@@ -1937,6 +1987,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sussex Violation of Probation Center",
    "zip": "19947"
   },
@@ -1970,6 +2021,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Thai Bistro - Georgetown",
    "zip": "19947"
   },
@@ -2003,6 +2055,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Springboard Collaborative",
    "zip": "19947"
   },
@@ -2030,6 +2083,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Umami Sushi and Ramen Bar",
    "zip": "19947"
   },
@@ -2049,6 +2103,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Walmart Super Center - Georgetown - Walmart Inc -",
    "zip": "19947"
   },
@@ -2068,6 +2123,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wawa Food Market #884",
    "zip": "19947"
   }

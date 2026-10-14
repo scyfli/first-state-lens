@@ -16,6 +16,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Amity Coffee Roasters & Cafe LLC",
    "zip": "19950"
   },
@@ -35,6 +36,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Emmas Family Restaurant LLC",
    "zip": "19950"
   },
@@ -64,6 +66,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Greenwood CHEER Senior Center - CHEER Inc",
    "zip": "19950"
   },
@@ -83,6 +86,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Greenwood Mennonite School",
    "zip": "19950"
   },
@@ -120,6 +124,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Royal Farms #120",
    "zip": "19950"
   },
@@ -237,6 +242,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Stargate Pizza (Closed)",
    "zip": "19950"
   },
@@ -298,6 +304,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Tamburellis Italian Restaurant",
    "zip": "19950"
   },
@@ -321,6 +328,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Catering Company - Permanent (Closed) - The Ca",
    "zip": "19950"
   },
@@ -372,6 +380,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wayback Burgers",
    "zip": "19950"
   }

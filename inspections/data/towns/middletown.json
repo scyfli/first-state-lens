@@ -54,6 +54,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "1861",
    "zip": "19709"
   },
@@ -113,6 +114,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "A & R Bakery",
    "zip": "19709"
   },
@@ -156,6 +158,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Acme Market Store - Albertsons Companies Inc -",
    "zip": "19709"
   },
@@ -224,6 +227,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Alfred Waters Middle School",
    "zip": "19709"
   },
@@ -262,6 +266,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "APPLEBEES NEIGHBORHOOD BAR & GRILL - APPLE DELAWA",
    "zip": "19709"
   },
@@ -281,6 +286,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Appoquinimink High School Culinary Arts Kitchen",
    "zip": "19709"
   },
@@ -300,6 +306,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Appoquinimink High School Main Kitchen",
    "zip": "19709"
   },
@@ -375,6 +382,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Asian City",
    "zip": "19709"
   },
@@ -413,6 +421,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Atexquita Middletown",
    "zip": "19709"
   },
@@ -445,6 +454,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Augustine Tavern",
    "zip": "19709"
   },
@@ -490,6 +500,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Back Creek Golf Club",
    "zip": "19709"
   },
@@ -531,6 +542,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Birdies Links And Drinks",
    "zip": "19709"
   },
@@ -572,6 +584,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Blue Mezcal Restaurant - Blue Mezcal Group - #103",
    "zip": "19709"
   },
@@ -659,6 +672,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Bob Evans Restaurant #541 - Bob Evans Restaurants",
    "zip": "19709"
   },
@@ -687,6 +701,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Brick Mill Early Childhood Center",
    "zip": "19709"
   },
@@ -740,6 +755,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Bubbakoos Burritos",
    "zip": "19709"
   },
@@ -763,6 +779,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Buffalo Wild Wings - High 5 Hospitality LLC - #32",
    "zip": "19709"
   },
@@ -811,6 +828,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "Burger King (Closed)",
    "zip": "19709"
   },
@@ -852,6 +870,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Burger King - Cape King LLC - #103",
    "zip": "19709"
   },
@@ -885,6 +904,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Capriottis DE010",
    "zip": "19709"
   },
@@ -961,6 +981,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Carusos Bistro",
    "zip": "19709"
   },
@@ -980,11 +1001,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Casa 19",
    "zip": "19709"
   },
   {
-   "address": "2518 N Dupont Pkwy",
+   "address": null,
    "city": "Middletown",
    "id": "96210460ab",
    "inspections": [
@@ -1033,8 +1055,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Catracho Food Truck (MOB)",
-   "zip": "19709"
+   "zip": null
   },
   {
    "address": "1221 Cedar Lane Road",
@@ -1062,6 +1085,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Cedar Lane Early Childcare Center",
    "zip": "19709"
   },
@@ -1081,6 +1105,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Cedar Lane Ele School",
    "zip": "19709"
   },
@@ -1104,6 +1129,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Chick-fil-A Middletown",
    "zip": "19709"
   },
@@ -1141,6 +1167,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "China King Chinese Restaurant",
    "zip": "19709"
   },
@@ -1221,6 +1248,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "China Wok",
    "zip": "19709"
   },
@@ -1240,6 +1268,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Chipotle Mexican Grill #2483 - Middletown",
    "zip": "19709"
   },
@@ -1269,6 +1298,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Chipotle Mexican Grill #5387 - Bayberry Middletown",
    "zip": "19709"
   },
@@ -1288,6 +1318,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "City Fare/MOT Senior Center",
    "zip": "19709"
   },
@@ -1333,6 +1364,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Curry & Cocktails",
    "zip": "19709"
   },
@@ -1362,6 +1394,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Curry & Spice Bar",
    "zip": "19709"
   },
@@ -1414,6 +1447,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Cuzinos Family Kitchen",
    "zip": "19709"
   },
@@ -1461,6 +1495,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dairy Queen - Middletown - Fisk Jordan Enterprises",
    "zip": "19709"
   },
@@ -1480,6 +1515,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dale Church",
    "zip": "19709"
   },
@@ -1525,6 +1561,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dash-In #1407",
    "zip": "19709"
   },
@@ -1558,6 +1595,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Delaware Chicken and Gyro DCG",
    "zip": "19709"
   },
@@ -1581,6 +1619,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dickeys BBQ Pit Restaurant",
    "zip": "19709"
   },
@@ -1636,6 +1675,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dominos Pizza #4446",
    "zip": "19709"
   },
@@ -1701,6 +1741,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dominos Pizza #4494",
    "zip": "19709"
   },
@@ -1730,6 +1771,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "DUNKIN - AARK NETWORK - #343879",
    "zip": "19709"
   },
@@ -1759,6 +1801,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dunkin Donuts - Henu Enterprises LLC - #340434",
    "zip": "19709"
   },
@@ -1793,6 +1836,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dunkin Donuts - Henu Enterprises LLC - #353102",
    "zip": "19709"
   },
@@ -1812,6 +1856,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dunkin Donuts - Henu Enterprises LLC - #357211",
    "zip": "19709"
   },
@@ -1831,6 +1876,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "El Nevado Ii",
    "zip": "19709"
   },
@@ -1970,6 +2016,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Encompass Health Rehabilitation Hospital Of Middle",
    "zip": "19709"
   },
@@ -1999,6 +2046,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Eshs Produce",
    "zip": "19709"
   },
@@ -2054,6 +2102,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Everest Indian Cuisine",
    "zip": "19709"
   },
@@ -2083,6 +2132,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Everett Meredith Middle School",
    "zip": "19709"
   },
@@ -2106,6 +2156,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Farmhouse Middletown LLC",
    "zip": "19709"
   },
@@ -2167,6 +2218,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Fiesta Deli & Market",
    "zip": "19709"
   },
@@ -2206,6 +2258,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Fiesta Tapatia Mexican Restaurant - Middletown - F",
    "zip": "19709"
   },
@@ -2272,6 +2325,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "First State Brewing Company",
    "zip": "19709"
   },
@@ -2291,6 +2345,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "First Watch Restaurant-Middletown",
    "zip": "19709"
   },
@@ -2328,6 +2383,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Food Lion - Food Lion LLC - #1369",
    "zip": "19709"
   },
@@ -2355,6 +2411,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Fratellis",
    "zip": "19709"
   },
@@ -2374,6 +2431,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Freddys Frozen Custard",
    "zip": "19709"
   },
@@ -2405,6 +2463,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Frog Hollow Golf Club & Restaurant",
    "zip": "19709"
   },
@@ -2462,6 +2521,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Giant Food - Giant of Maryland LLC - #388",
    "zip": "19709"
   },
@@ -2495,6 +2555,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Good News Natural Foods",
    "zip": "19709"
   },
@@ -2542,6 +2603,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Great Wall",
    "zip": "19709"
   },
@@ -2596,6 +2658,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Greene Turtle (the) (Closed)",
    "zip": "19709"
   },
@@ -2661,6 +2724,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Grotto Pizza # 209 - Middletown",
    "zip": "19709"
   },
@@ -2690,6 +2754,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Haagen-Dazs",
    "zip": "19709"
   },
@@ -2709,6 +2774,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hampton Inn Middletown",
    "zip": "19709"
   },
@@ -2742,6 +2808,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hardees of Middletown - OTAC Inc",
    "zip": "19709"
   },
@@ -2807,6 +2874,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Harpers Sandwiches and Such",
    "zip": "19701"
   },
@@ -2856,6 +2924,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Holiday Inn Express & Suites",
    "zip": "19709"
   },
@@ -2879,6 +2948,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Honeygrow Middletown",
    "zip": "19709"
   },
@@ -2930,6 +3000,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hong Kong",
    "zip": "19709"
   },
@@ -3028,6 +3099,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "IHOP Restaurant",
    "zip": "19709"
   },
@@ -3078,6 +3150,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "Jackson House",
    "zip": "19709"
   },
@@ -3174,6 +3247,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Jakess Wayback Burgers",
    "zip": "19709"
   },
@@ -3201,6 +3275,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Jamaican Cafe Cuisine 2 LLC (Closed)",
    "zip": "19709"
   },
@@ -3303,6 +3378,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Jersey Mikes Subs - High 5 Hospitality LLC - #35",
    "zip": "19709"
   },
@@ -3379,6 +3455,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Kiku Japanese Steakhouse",
    "zip": "19709"
   },
@@ -3406,6 +3483,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "La Pizzeria Metro at Whitehall - Mindelah Inc - #1",
    "zip": "19709"
   },
@@ -3445,6 +3523,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "La Vida Hospitality Group",
    "zip": "19709"
   },
@@ -3537,6 +3616,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Land of Spice Desi Farmers Market",
    "zip": "19709"
   },
@@ -3601,6 +3681,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Lidl",
    "zip": "19709"
   },
@@ -3645,6 +3726,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Lore (Closed)",
    "zip": "19709"
   },
@@ -3705,6 +3787,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Los Machados Mexican Restaurant",
    "zip": "19709"
   },
@@ -3724,6 +3807,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Los Portales Mexican Restaurant",
    "zip": "19709"
   },
@@ -3779,6 +3863,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Lunas Pizzeria & Italian Grill - Luna DT Inc",
    "zip": "19709"
   },
@@ -3798,6 +3883,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "M O T Senior Center",
    "zip": "19709"
   },
@@ -3822,6 +3908,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Mango Mango",
    "zip": "19709"
   },
@@ -3855,6 +3942,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Manhattan Bagel",
    "zip": "19709"
   },
@@ -3874,11 +3962,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Marriott Fairfield Middletown",
    "zip": "19709"
   },
   {
-   "address": "115 Littondale Ct",
+   "address": null,
    "city": "Middletown",
    "id": "8b8836f40b",
    "inspections": [
@@ -3902,8 +3991,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Marthas Ice Cream (mob)",
-   "zip": "19709"
+   "zip": null
   },
   {
    "address": "873 N Broad St",
@@ -3930,6 +4020,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Marthas Ice Cream Shop LLC",
    "zip": "19709"
   },
@@ -3953,6 +4044,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "McDonalds - Dukart Management LLC - #20274",
    "zip": "19709"
   },
@@ -4004,6 +4096,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Metro Diner - Middletown - MD PA-S Jersey LLC - #",
    "zip": "19709"
   },
@@ -4035,6 +4128,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Mid County Lanes LLC",
    "zip": "19709"
   },
@@ -4062,6 +4156,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Middletown Bulk Foods",
    "zip": "19709"
   },
@@ -4093,6 +4188,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Middletown Creamery - Middletown Creamery LLC",
    "zip": "19709"
   },
@@ -4178,6 +4274,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Middletown Family Restaurant & Diner",
    "zip": "19709"
   },
@@ -4197,6 +4294,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Middletown High School-Culinary Arts",
    "zip": "19709"
   },
@@ -4216,6 +4314,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Middletown High School-Main Kitchen",
    "zip": "19709"
   },
@@ -4289,6 +4388,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Middletown Pizza and Restaurant - Seasons Pizza",
    "zip": "19709"
   },
@@ -4322,6 +4422,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Millers Country Kitchen",
    "zip": "19709"
   },
@@ -4355,6 +4456,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Millers Country Kitchen II",
    "zip": "19709"
   },
@@ -4392,11 +4494,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Mulligans",
    "zip": "19709"
   },
   {
-   "address": "1147 Cardigan Road",
+   "address": null,
    "city": "Middletown",
    "id": "626505c38d",
    "inspections": [
@@ -4411,8 +4514,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Namaste Cafe (MOB)",
-   "zip": "19709"
+   "zip": null
   },
   {
    "address": "1903 Lake Seymour Drive",
@@ -4444,6 +4548,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Namasthe India",
    "zip": "19709"
   },
@@ -4541,6 +4646,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Nazs Halal - Naz Halal Food LLC - #102",
    "zip": "19709"
   },
@@ -4565,6 +4671,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "New Castle Lodge",
    "zip": "19709"
   },
@@ -4652,6 +4759,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Ochinilis Steaks",
    "zip": "19709"
   },
@@ -4729,6 +4837,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Opportunity 301 LLC",
    "zip": "19709"
   },
@@ -4770,6 +4879,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Outback Steakhouse",
    "zip": "19709"
   },
@@ -4804,6 +4914,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "PANDA EXPRESS - PANDA EXPRESS INC - #2653",
    "zip": "19709"
   },
@@ -4846,6 +4957,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Papa Johns",
    "zip": "19709"
   },
@@ -4873,6 +4985,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pats Pizzeria of Middletown - Pats Pizzeria LLC",
    "zip": "19709"
   },
@@ -4892,6 +5005,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Philly Pretzel Factory- West Main St",
    "zip": "19709"
   },
@@ -4972,6 +5086,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pho Viet (Closed)",
    "zip": "19709"
   },
@@ -5022,6 +5137,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pithari - Pats Pizzeria LLC",
    "zip": "19709"
   },
@@ -5089,6 +5205,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pizza Di Napoli",
    "zip": "19709"
   },
@@ -5128,6 +5245,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Playa Bowls - Gee Bowls Inc",
    "zip": "19709"
   },
@@ -5177,6 +5295,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "Pleasant Valley Dairy",
    "zip": "19709"
   },
@@ -5240,6 +5359,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Poke Bros Vi - Middletown - Poke Bros DE LLC - #12",
    "zip": "19709"
   },
@@ -5259,6 +5379,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Primo Hoagies 1615",
    "zip": "19709"
   },
@@ -5330,6 +5451,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Randazzo Italian",
    "zip": "19709"
   },
@@ -5371,11 +5493,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Red Robin Gourmet Burger & Brews 751",
    "zip": "19709"
   },
   {
-   "address": "406 S Cass Street",
+   "address": null,
    "city": "Middletown",
    "id": "c0bdcfa862",
    "inspections": [
@@ -5400,8 +5523,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Rhythm & Brews (MOB) (Closed)",
-   "zip": "19709"
+   "zip": null
   },
   {
    "address": "401 B E Main Street",
@@ -5456,6 +5580,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "Roma Pizza",
    "zip": "19709"
   },
@@ -5546,6 +5671,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Royal Farms #236",
    "zip": "19709"
   },
@@ -5647,6 +5773,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Ruby Tuesday Restaurant #4442 (Closed)",
    "zip": "19709"
   },
@@ -5666,6 +5793,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Saint Andrews School - SAGE Dining Services Inc",
    "zip": "19709"
   },
@@ -5703,6 +5831,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Saladworks",
    "zip": "19709"
   },
@@ -5730,6 +5859,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sgt Wm Lloyd Nelson Vfw Post 3792",
    "zip": "19709"
   },
@@ -5783,6 +5913,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Shaka Ramen",
    "zip": "19709"
   },
@@ -5829,6 +5960,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Shing Kwong Restaurant",
    "zip": "19709"
   },
@@ -5848,6 +5980,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Shore Stop #271",
    "zip": "19709"
   },
@@ -5871,6 +6004,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Shore Stop #277 (Closed)",
    "zip": "19709"
   },
@@ -5890,6 +6024,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Silver Lake Elementary School",
    "zip": "19709"
   },
@@ -5919,6 +6054,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Singas Famous PIzza",
    "zip": "19709"
   },
@@ -5957,6 +6093,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "Smuckers Pretzels",
    "zip": "19709"
   },
@@ -5976,6 +6113,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Snowfox - Weis Markets 109",
    "zip": "19709"
   },
@@ -6005,6 +6143,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sprouts Farmers Market - SFM LLC - #817",
    "zip": "19709"
   },
@@ -6048,6 +6187,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "St Annes Episcopal School",
    "zip": "19709"
   },
@@ -6081,6 +6221,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "St Georges Culinary Arts",
    "zip": "19709"
   },
@@ -6120,6 +6261,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "St Georges High School Cafeteria - New Castle Cou",
    "zip": "19709"
   },
@@ -6139,6 +6281,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "St Josephs Church",
    "zip": "19709"
   },
@@ -6168,6 +6311,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "Starbucks Coffee - Starbucks Corporation - #10899",
    "zip": "19709"
   },
@@ -6211,6 +6355,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Starbucks Coffee - Starbucks Corporation - #49664",
    "zip": "19709"
   },
@@ -6248,6 +6393,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Stoltzfus BBQ -Middletown",
    "zip": "19709"
   },
@@ -6335,6 +6481,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sullys Irish Pub",
    "zip": "19709"
   },
@@ -6359,6 +6506,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Summit Campus Crystal Run Elementary School",
    "zip": "19709"
   },
@@ -6378,6 +6526,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Summit U M C Kitchen",
    "zip": "19709"
   },
@@ -6407,6 +6556,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Surf Bagel Middletown - Surf Bagel Holdings LLC -",
    "zip": "19709"
   },
@@ -6448,6 +6598,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sushi Yama",
    "zip": "19709"
   },
@@ -6477,6 +6628,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sweet Dreams Confections Company",
    "zip": "19709"
   },
@@ -6496,6 +6648,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Taco Bell #040061 - Delaware Restaurants LLC",
    "zip": "19709"
   },
@@ -6525,6 +6678,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Target T-2908",
    "zip": "19709"
   },
@@ -6607,6 +6761,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Texas Roadhouse #499",
    "zip": "19701"
   },
@@ -6626,6 +6781,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Crab Cake Company",
    "zip": "19709"
   },
@@ -6668,6 +6824,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Toba Gourmet",
    "zip": "19709"
   },
@@ -6783,11 +6940,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Tom Foolerys Restaurant and Bar - Biddle Associat",
    "zip": "19709"
   },
   {
-   "address": "529 Maiden Court",
+   "address": null,
    "city": "Middletown",
    "id": "2db473f5a5",
    "inspections": [
@@ -6802,8 +6960,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Two Friends Coffee (MOB)",
-   "zip": "19709"
+   "zip": null
   },
   {
    "address": "840 Kohl Ave",
@@ -6871,6 +7030,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Two Stones Pub (Closed)",
    "zip": "19709"
   },
@@ -6904,6 +7064,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Vickys Famous Fried Fish",
    "zip": "19709"
   },
@@ -6923,6 +7084,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Volunteer Hose Company Of Middletown",
    "zip": "19709"
   },
@@ -6988,6 +7150,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Waffle House #1512 - East Coast Waffles - #1512",
    "zip": "19709"
   },
@@ -7007,6 +7170,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Walmart Super Center - Middletown - Walmart Inc -",
    "zip": "19709"
   },
@@ -7058,6 +7222,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wawa Food Market #859",
    "zip": "19709"
   },
@@ -7081,6 +7246,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Weis Markets - Weis Markets Inc - #109",
    "zip": "19709"
   },
@@ -7108,6 +7274,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Westown Movies - Milford Movies 9 LLC",
    "zip": "19709"
   },
@@ -7152,11 +7319,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Youngs Bbq",
    "zip": "19709"
   },
   {
-   "address": "432 Georgiana Dr",
+   "address": null,
    "city": "Middletown",
    "id": "09a120c1be",
    "inspections": [
@@ -7175,8 +7343,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Zaikka on Wheels(MOB) - Jai Sairam LLC",
-   "zip": "19709"
+   "zip": null
   }
  ],
  "slug": "middletown",

@@ -46,6 +46,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "38 Degrees (the Point Amenity)",
    "zip": "19944"
   },
@@ -73,6 +74,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Aps Market & Grill LLC-(Closed)",
    "zip": "19975"
   },
@@ -100,6 +102,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Arbys Cato #7154 - Selbyville",
    "zip": "19975"
   },
@@ -196,6 +199,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "BAYSIDE CLUBHOUSE - Signatures",
    "zip": "19975"
   },
@@ -249,6 +253,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Cabana Restaurant",
    "zip": "19975"
   },
@@ -276,6 +281,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Captain Macs Fish House",
    "zip": "19975"
   },
@@ -359,6 +365,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Carusos Pizza and Pasta",
    "zip": "19975"
   },
@@ -465,6 +472,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Catch 54 - SoDel Concepts II LLC",
    "zip": "19975"
   },
@@ -598,6 +606,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "China Chef",
    "zip": "19975"
   },
@@ -705,6 +714,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Chinatown Express",
    "zip": "19975"
   },
@@ -788,6 +798,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Countryside Cafe",
    "zip": "19975"
   },
@@ -876,6 +887,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Crabcake Factory Bayside - CCF Bayside LLC",
    "zip": "19975"
   },
@@ -899,6 +911,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Daystar Cafe (DBA Daybreak Cafe)",
    "zip": "19975"
   },
@@ -978,6 +991,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Doyles Restaurant - Doyles Restaurant Inc",
    "zip": "19975"
   },
@@ -1010,6 +1024,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dunkin - Franchise Management Services Inc - #36",
    "zip": "19975"
   },
@@ -1081,6 +1096,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Fins Ale House - Selbyville",
    "zip": "19975"
   },
@@ -1104,6 +1120,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Food Lion - Food Lion LLC - #1206",
    "zip": "19975"
   },
@@ -1149,6 +1166,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Food Lion - Food Lion LLC - #2123",
    "zip": "19975"
   },
@@ -1310,6 +1328,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Foxs Pizza Den",
    "zip": "19975"
   },
@@ -1341,6 +1360,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Fractured Prune Selbyville",
    "zip": "19975"
   },
@@ -1360,6 +1380,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Freeman Arts Pavilion",
    "zip": "19975"
   },
@@ -1387,6 +1408,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "General Store",
    "zip": "19975"
   },
@@ -1474,6 +1496,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Grilliez (Closed)",
    "zip": "19975"
   },
@@ -1527,6 +1550,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Harris Teeter #327",
    "zip": "19975"
   },
@@ -1558,6 +1582,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Highs Store 161",
    "zip": "19975"
   },
@@ -1581,6 +1606,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hometown Creamery",
    "zip": "19975"
   },
@@ -1620,6 +1646,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Juicebox Bayside",
    "zip": "19975"
   },
@@ -1662,11 +1689,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "La Michoacana Fruteria",
    "zip": "19975"
   },
   {
-   "address": "14 West Church Street",
+   "address": null,
    "city": "Selbyville",
    "id": "7f51fc2ff7",
    "inspections": [
@@ -1689,8 +1717,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Little Italy Food Truck",
-   "zip": "19975"
+   "zip": null
   },
   {
    "address": "37031 Old Mill Bridge Road",
@@ -1736,6 +1765,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Lucas Pizza",
    "zip": "19975"
   },
@@ -1793,6 +1823,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Lunas Cactus Caf� Inc",
    "zip": "19975"
   },
@@ -1820,6 +1851,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Marleys Munchies",
    "zip": "19975"
   },
@@ -1869,6 +1901,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "McDonalds Bayside - The Meoli Companies - #34611",
    "zip": "19975"
   },
@@ -1918,6 +1951,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "McDonalds Selbyville - The Meoli Companies - #161",
    "zip": "19975"
   },
@@ -2089,6 +2123,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Mios",
    "zip": "19975"
   },
@@ -2152,6 +2187,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Mountaire Poultry Plant",
    "zip": "19975"
   },
@@ -2290,6 +2326,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "On The Way Cafe",
    "zip": "19975"
   },
@@ -2365,6 +2402,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Papa Grandes - SoDel Concepts II LLC",
    "zip": "19975"
   },
@@ -2430,6 +2468,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Phillip C Showell Elementary� - Indian River Sch",
    "zip": "19975"
   },
@@ -2561,6 +2600,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pit and Pub",
    "zip": "19975"
   },
@@ -2622,6 +2662,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Qdelicia Brazilian House (Closed)",
    "zip": "19975"
   },
@@ -2705,6 +2746,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Restaurant Tacana",
    "zip": "19975"
   },
@@ -2818,6 +2860,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Restaurante Celajes Tacana (Closed)",
    "zip": "19975"
   },
@@ -2855,6 +2898,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Royal Farms #263",
    "zip": "19975"
   },
@@ -2916,6 +2960,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Royal Farms #337",
    "zip": "19975"
   },
@@ -2959,6 +3004,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Selbyville Middle� - Indian River School District",
    "zip": "19975"
   },
@@ -2978,6 +3024,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Selbyville Vol Fire Co",
    "zip": "19975"
   },
@@ -3017,6 +3064,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Soulspoon Kitchen",
    "zip": "19975"
   },
@@ -3058,6 +3106,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Southern DE School of Arts - Indian River School",
    "zip": "19975"
   },
@@ -3087,6 +3136,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Squash Blossom MX LLC",
    "zip": "19975"
   },
@@ -3152,6 +3202,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Subway Cato #31273 - Goose Creek Fenwick Island",
    "zip": "19975"
   },
@@ -3187,6 +3238,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sun Ridge Tennis & Rec Ctr (Closed)",
    "zip": "19975"
   },
@@ -3218,6 +3270,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "SwineTime",
    "zip": "19975"
   },
@@ -3369,6 +3422,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Taqueria La Michoacana",
    "zip": "19975"
   },
@@ -3422,6 +3476,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Teresita Market",
    "zip": "19975"
   },
@@ -3467,6 +3522,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Three Penny Snack Bar",
    "zip": "19975"
   },
@@ -3506,6 +3562,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Twinings Lobster Shanty",
    "zip": "19975"
   },
@@ -3553,6 +3610,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Uncle Willies",
    "zip": "19975"
   },
@@ -3664,6 +3722,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Yellowfins Bar & Grill",
    "zip": "19975"
   }

@@ -30,11 +30,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Evelyn I Morris Early Childhood Center",
    "zip": "19960"
   },
   {
-   "address": "20037 Fleatown Rd",
+   "address": null,
    "city": "Lincoln",
    "id": "32cb3caadd",
    "inspections": [
@@ -53,8 +54,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Fat Vinnys Wings & Things (MOB)",
-   "zip": "19960"
+   "zip": null
   },
   {
    "address": "8405 Front Street",
@@ -150,6 +152,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Little Lincoln Store The",
    "zip": "19960"
   },
@@ -193,6 +196,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Los Plebes Taco Shop",
    "zip": "19960"
   },
@@ -220,6 +224,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wilsons Auction",
    "zip": "19960"
   },
@@ -239,6 +244,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wilsons Auction Annex",
    "zip": "19960"
   }

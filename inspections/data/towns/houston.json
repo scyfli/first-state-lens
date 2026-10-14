@@ -16,6 +16,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Houston VFC",
    "zip": "19954"
   },
@@ -157,6 +158,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Williamsville Store",
    "zip": "19954"
   },
@@ -214,6 +216,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Young G&R Campground",
    "zip": "19954"
   }

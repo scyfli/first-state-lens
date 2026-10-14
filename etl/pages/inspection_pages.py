@@ -204,8 +204,11 @@ def violation_li(v: dict) -> str:
 
 
 def est_block(est: dict) -> str:
-    addr_parts = [est["address"] or "Street address not listed", est["city"]]
-    addr = ", ".join(addr_parts) + ", DE" + (f" {est['zip']}" if est.get("zip") else "")
+    if est.get("mobile"):
+        addr = f"Mobile food unit, {est['city']}, DE. Street address not shown: a mobile unit's listed address can be a private home."
+    else:
+        addr_parts = [est["address"] or "Street address not listed", est["city"]]
+        addr = ", ".join(addr_parts) + ", DE" + (f" {est['zip']}" if est.get("zip") else "")
     out = [f'    <article class="est" id="e-{e(est["id"])}">',
            f'      <h3>{e(est["name"])}</h3>',
            f'      <p class="addr">{e(addr)}</p>']
@@ -386,6 +389,7 @@ def index_page(manifest: dict, towns: list[dict], types: list[str]) -> str:
     <div class="section-head"><h2 class="section-title" id="about-title">About this data</h2></div>
     <ul class="about">
       <li>Nearly every row in the state's file is one violation at one inspection: the business name, street address, city and ZIP as the state lists them, the inspection date, the inspection type, and the violation code and description. We show those words as the state wrote them.</li>
+      <li>For mobile food units (food trucks, trailers and carts, which the state marks "MOB"), we show the town only. The street address the state lists for a mobile unit can be the operator's home, so we leave it out.</li>
       <li>The inspection types in the file are {e(types_txt)}. A follow-up inspection is a return visit; the state says inspectors return within 10 days when a problem needs more time to fix.</li>
       <li>The file is a list of violations. An inspection that found no violation usually does not appear at all, so a missing establishment or date does not mean no inspection took place. Some inspections are listed with no violation; we show those as "No violation listed".</li>
       <li>The file has no field saying whether a violation was corrected during the inspection, and no field for the kind of establishment. We do not add either.</li>

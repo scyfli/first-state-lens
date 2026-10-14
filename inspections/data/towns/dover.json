@@ -34,6 +34,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "426 CARIBBEAN CUISINE (Closed)",
    "zip": "19901"
   },
@@ -131,6 +132,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "7-Eleven",
    "zip": "19901"
   },
@@ -240,6 +242,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "9 East Taphouse",
    "zip": "19901"
   },
@@ -375,6 +378,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "AAA Deli Inc",
    "zip": "19904"
   },
@@ -408,6 +412,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Academy Of Dover Charter School",
    "zip": "19904"
   },
@@ -471,6 +476,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Acelero Learning Delaware Inc (Dover)",
    "zip": "19901"
   },
@@ -591,6 +597,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "Akhibachis Halal Food (Closed)",
    "zip": "19904"
   },
@@ -746,6 +753,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Amys Grill",
    "zip": "19904"
   },
@@ -829,6 +837,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Angelos Pizza",
    "zip": "19904"
   },
@@ -917,6 +926,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "APPLEBEES NEIGHBORHOOD BAR & GRILL - APPLE DELAWA",
    "zip": "19901"
   },
@@ -940,6 +950,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Arbys Cato #7170 - Rt 8 Dover",
    "zip": "19901"
   },
@@ -996,6 +1007,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Arbys Cato #8916 - RT10 Dover",
    "zip": "19901"
   },
@@ -1125,11 +1137,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Aunt Marys Kitchen",
    "zip": "19904"
   },
   {
-   "address": "1030 Forrest Avenue",
+   "address": null,
    "city": "Dover",
    "id": "19001b2fe3",
    "inspections": [
@@ -1156,8 +1169,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Aunt Marys Kitchen MOB",
-   "zip": "19904"
+   "zip": null
   },
   {
    "address": "1030 Forrest Avenue STE 107",
@@ -1187,6 +1201,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Aunt Marys Kitchen on Wheels",
    "zip": "19904"
   },
@@ -1228,6 +1243,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Auntie Annes Soft Pretzels",
    "zip": "19901"
   },
@@ -1521,6 +1537,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Babys Brunch",
    "zip": "19904"
   },
@@ -1606,6 +1623,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Ballys Dover-Macau Kitchen",
    "zip": "19901"
   },
@@ -1879,6 +1897,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Bangkok Thai Cuisine",
    "zip": "19901"
   },
@@ -1993,6 +2012,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "BARRIO BURRITO BAR",
    "zip": "19901"
   },
@@ -2074,6 +2094,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Bash Soulfood & African Cuisine",
    "zip": "19901"
   },
@@ -2129,6 +2150,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Bavarian Bakery And Deli - Bavarian Bakery and Del",
    "zip": "19901"
   },
@@ -2232,6 +2254,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Bayhealth Kent Campus Main Kitchen - Metz Culinary",
    "zip": "19901"
   },
@@ -2297,6 +2320,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Bayhealth Snack Shop",
    "zip": "19901"
   },
@@ -2384,6 +2408,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Beilers Soft Pretzels",
    "zip": "19904"
   },
@@ -2455,6 +2480,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Best Western Galaxy Inn",
    "zip": "19901"
   },
@@ -2609,6 +2635,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "Bob Evans Restaurant #280 - Bob Evans Restaurants",
    "zip": "19901"
   },
@@ -2692,6 +2719,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Booker T Washington Elementary School - Capital SD",
    "zip": "19904"
   },
@@ -2723,6 +2751,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Brimars Italian Ice and Eats",
    "zip": "19904"
   },
@@ -2812,6 +2841,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Brock And Company @ Platex Products Inc",
    "zip": "19904"
   },
@@ -2941,6 +2971,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Bubbakoos Burritos - APHJ INC - #365",
    "zip": "19904"
   },
@@ -3069,11 +3100,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Buffalo Wild Wings - High 5 Hospitality LLC - #32",
    "zip": "19904"
   },
   {
-   "address": "400 Bushy Tail Lane",
+   "address": null,
    "city": "Dover",
    "id": "062881e716",
    "inspections": [
@@ -3088,8 +3120,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Bul Jang (MOB)",
-   "zip": "19904"
+   "zip": null
   },
   {
    "address": "211 South Dupont Highway",
@@ -3137,6 +3170,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Burger King",
    "zip": "19901"
   },
@@ -3214,6 +3248,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Burger King (Closed)",
    "zip": "19901"
   },
@@ -3278,6 +3313,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "Burger King (Closed)",
    "zip": "19901"
   },
@@ -3347,6 +3383,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Burger King - Cape King LLC - #105",
    "zip": "19904"
   },
@@ -3394,6 +3431,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Bylers Store Bakery",
    "zip": "19901"
   },
@@ -3454,6 +3492,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Bylers Store Inc - #2 - Dover",
    "zip": "19904"
   },
@@ -3485,6 +3524,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Calvary Assem Of God",
    "zip": "19901"
   },
@@ -3540,6 +3580,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Calvary Baptist Church of West Campus (FE)",
    "zip": "19904"
   },
@@ -3559,11 +3600,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Campus Community School",
    "zip": "19901"
   },
   {
-   "address": "198 Commerce Way",
+   "address": null,
    "city": "Dover",
    "id": "7a7a121bc5",
    "inspections": [
@@ -3578,8 +3620,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Capital School District Mobile Unit #1 - Capital S",
-   "zip": "19904"
+   "zip": null
   },
   {
    "address": "401 Kesselring Ave",
@@ -3605,6 +3648,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Capitol Baptist",
    "zip": "19904"
   },
@@ -3636,6 +3680,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Capptiottis Sandwich Shop (Closed)",
    "zip": "19901"
   },
@@ -3792,6 +3837,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Capriottis Of Dover",
    "zip": "19904"
   },
@@ -4161,6 +4207,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Caribbean Cuisine",
    "zip": "19901"
   },
@@ -4196,6 +4243,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "CAVA Dover - CAVA MEZZE GRILL LLC - #10669",
    "zip": "19901"
   },
@@ -4233,6 +4281,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Central Elementary School",
    "zip": "19904"
   },
@@ -4256,6 +4305,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Central Mennonite Church Inc",
    "zip": "19904"
   },
@@ -4381,6 +4431,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Chaiyo",
    "zip": "19904"
   },
@@ -4535,6 +4586,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Chaiyo Sushi And Thai Cuisine",
    "zip": "19901"
   },
@@ -4638,6 +4690,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Charlies Philly Cheesesteak & Wings - Dover - Cha",
    "zip": "19901"
   },
@@ -4681,6 +4734,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Chick-fil-A North Dover - R DiFava LLC - #2680",
    "zip": "19901"
   },
@@ -4852,6 +4906,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Chicken House",
    "zip": "19901"
   },
@@ -5047,6 +5102,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "China House Chinese Restaurant",
    "zip": "19901"
   },
@@ -5138,6 +5194,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "China King",
    "zip": "19904"
   },
@@ -5367,6 +5424,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "China Kitchen",
    "zip": "19901"
   },
@@ -5578,6 +5636,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "CHINA KITCHEN JADE INC - DOVER",
    "zip": "19901"
   },
@@ -5809,6 +5868,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "China Wok",
    "zip": "19904"
   },
@@ -5932,6 +5992,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Chipotle Mexican Grill #1447 - Dover",
    "zip": "19901"
   },
@@ -6031,6 +6092,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Chor Chang Thai (Eden Hill Cafe)",
    "zip": "19904"
   },
@@ -6123,6 +6185,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Chuck E Cheese - CEC Entertainment LLC - #759",
    "zip": "19901"
   },
@@ -6176,6 +6239,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Chula & The Peach Puerto Rican Cuisine (Closed)",
    "zip": "19901"
   },
@@ -6259,6 +6323,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Clean Eatz",
    "zip": "19904"
   },
@@ -6472,6 +6537,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Closed Burger",
    "zip": "19901"
   },
@@ -6577,6 +6643,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Closed Burgers",
    "zip": "19901"
   },
@@ -6670,11 +6737,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Cobblestone Cafe",
    "zip": "19901"
   },
   {
-   "address": "1051 North Dupont Highway",
+   "address": null,
    "city": "Dover",
    "id": "0fe97feef5",
    "inspections": [
@@ -6689,8 +6757,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Cold Stone - (MOB)",
-   "zip": "19901"
+   "zip": null
   },
   {
    "address": "1051 North Dupont Highway",
@@ -6770,6 +6839,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Cold Stone Creamy #21223 & Wetzel Pretzel",
    "zip": "19901"
   },
@@ -6869,6 +6939,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Comfort Suites",
    "zip": "19901"
   },
@@ -6908,6 +6979,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Cool Springs Fish Bar",
    "zip": "19901"
   },
@@ -6927,6 +6999,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Correctional Officers Association Of Delaware",
    "zip": "19904"
   },
@@ -7112,6 +7185,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Countrie Eatery",
    "zip": "19901"
   },
@@ -7347,6 +7421,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Crab Du Jour",
    "zip": "19901"
   },
@@ -7384,6 +7459,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Crossroad Christian Church/family Life Center",
    "zip": "19901"
   },
@@ -7473,6 +7549,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Crumbl - JC Investments LLC - #1101",
    "zip": "19901"
   },
@@ -7556,6 +7633,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Curry House of Pizza",
    "zip": "19904"
   },
@@ -7579,6 +7657,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dairy Queen",
    "zip": "19904"
   },
@@ -7650,6 +7729,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Daves Hot Chicken - TIG Corp LLC - #1342",
    "zip": "19901"
   },
@@ -7683,6 +7763,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Del State Fire School",
    "zip": "19904"
   },
@@ -7746,6 +7827,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Del Tech & Comm College(culinary Arts Kitchen)",
    "zip": "19904"
   },
@@ -7899,6 +7981,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dela Dash 266",
    "zip": "19901"
   },
@@ -8088,6 +8171,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "DELICIOUS FUSION",
    "zip": "19901"
   },
@@ -8179,6 +8263,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "DELISH CARIBBEAN CUISINE (Closed)",
    "zip": "19904"
   },
@@ -8242,6 +8327,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Diegos Pizza",
    "zip": "19901"
   },
@@ -8265,6 +8351,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dominos Pizza #4440 Cheswold",
    "zip": "19901"
   },
@@ -8292,6 +8379,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dominos pizza 4438",
    "zip": "19901"
   },
@@ -8329,6 +8417,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dominos Pizza Centre At Dover (Closed)",
    "zip": "19901"
   },
@@ -8370,6 +8459,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dover Afb Middle-Welch Elem School",
    "zip": "19901"
   },
@@ -8475,6 +8565,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dover Behavioral Health Systems-uhs",
    "zip": "19901"
   },
@@ -8522,6 +8613,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dover Downs-Best Odds",
    "zip": "19901"
   },
@@ -8541,6 +8633,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dover Downs-Drivers Lounge",
    "zip": "19901"
   },
@@ -8592,6 +8685,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dover Downs-Longos Meatballs & Martinis",
    "zip": "19901"
   },
@@ -8629,6 +8723,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dover Downs-Royal Prime",
    "zip": "19901"
   },
@@ -8712,6 +8807,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dover Downs-Sugar Factory Restaurant",
    "zip": "19901"
   },
@@ -8746,6 +8842,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dover Elks Lodge 1903",
    "zip": "19904"
   },
@@ -8777,6 +8874,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dover High School / Capital Caf+� - Capital SD",
    "zip": "19904"
   },
@@ -8822,6 +8920,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dover High School / Capital Caf� - Capital SD",
    "zip": "19904"
   },
@@ -9113,6 +9212,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dover Hollywood Diner",
    "zip": "19901"
   },
@@ -9144,6 +9244,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dover Interfaith Mission For Housing",
    "zip": "19904"
   },
@@ -9205,6 +9306,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dover Little League",
    "zip": "19904"
   },
@@ -9228,6 +9330,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dover Middle School Campus - Capital SD",
    "zip": "19904"
   },
@@ -9311,6 +9414,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dover Skating Center",
    "zip": "19901"
   },
@@ -9502,6 +9606,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Doverama Bowling",
    "zip": "19904"
   },
@@ -9525,6 +9630,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "DSU - MLK Center - Chick-fil-A",
    "zip": "19901"
   },
@@ -9548,6 +9654,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "DSU Agricultural Demo-Kitchen",
    "zip": "19904"
   },
@@ -9589,6 +9696,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "DSU CONRAD CAFE",
    "zip": "19901"
   },
@@ -9660,6 +9768,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "DSU Village Cafe",
    "zip": "19901"
   },
@@ -9719,6 +9828,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dtcc/bnl Consulting LLC",
    "zip": "19904"
   },
@@ -9812,6 +9922,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "DULANEY HALL (DSU)",
    "zip": "19901"
   },
@@ -9929,6 +10040,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dunkin - Franchise Management Services Inc - #30",
    "zip": "19901"
   },
@@ -9961,6 +10073,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dunkin - Franchise Management Services Inc - #31",
    "zip": "19901"
   },
@@ -10034,6 +10147,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dunkin - Franchise Management Services Inc - #35",
    "zip": "19904"
   },
@@ -10115,6 +10229,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dunkin - Franchise Management Services Inc - #35",
    "zip": "19901"
   },
@@ -10206,6 +10321,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dunkin - Franchise Management Services Inc - #36",
    "zip": "19901"
   },
@@ -10235,6 +10351,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Early College High School @ Dsu",
    "zip": "19901"
   },
@@ -10312,6 +10429,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "East Dover Elementary School - Capital SD",
    "zip": "19901"
   },
@@ -10353,6 +10471,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Edible Arrangements (Closed)",
    "zip": "19901"
   },
@@ -10376,6 +10495,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Edible Arrangements (Dover)",
    "zip": "19901"
   },
@@ -10663,6 +10783,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "El Azteca Camden - Blue Mezcal Group - #101",
    "zip": "19901"
   },
@@ -10798,6 +10919,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "El Azteca Dover - Blue Mezcal Group - #102",
    "zip": "19901"
   },
@@ -10895,6 +11017,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "El Folklore de Mexico",
    "zip": "19901"
   },
@@ -10967,6 +11090,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "El Gallito",
    "zip": "19901"
   },
@@ -11102,6 +11226,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "El Mercado Latino Fruteria and Paletetaria",
    "zip": "19901"
   },
@@ -11225,6 +11350,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "El Nopal Mexican Restaurant",
    "zip": "19901"
   },
@@ -11311,6 +11437,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "El Nopal Mexican Restaurant",
    "zip": "19904"
   },
@@ -11565,6 +11692,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "El Pipil Restaurant",
    "zip": "19901"
   },
@@ -11648,6 +11776,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Esh Meats & Cheese",
    "zip": "19904"
   },
@@ -11737,6 +11866,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Esh Meats & Deli",
    "zip": "19904"
   },
@@ -11769,6 +11899,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Fairfield Inn And Suites",
    "zip": "19901"
   },
@@ -11852,6 +11983,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Fairview Elementary School - Capital SD",
    "zip": "19904"
   },
@@ -12037,11 +12169,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Falling of the Bone BBQ and Fish Fry",
    "zip": "19904"
   },
   {
-   "address": "140 Carter Road",
+   "address": null,
    "city": "Dover",
    "id": "7f33275a65",
    "inspections": [
@@ -12060,8 +12193,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Falling of the bone BBQ and Fish Fry (MOB)",
-   "zip": "19901"
+   "zip": null
   },
   {
    "address": "111 Main Street",
@@ -12097,6 +12231,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "FE-2025-0680",
    "zip": "19901"
   },
@@ -12198,6 +12333,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "First Watch #1202 - Dover",
    "zip": "19901"
   },
@@ -12402,11 +12538,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Flavor Of India",
    "zip": "19901"
   },
   {
-   "address": "125 Trafalgar Drive",
+   "address": null,
    "city": "Dover",
    "id": "98ec37466a",
    "inspections": [
@@ -12416,8 +12553,9 @@
      "violations": []
     }
    ],
+   "mobile": true,
    "name": "Food 2 Go (Red Trailer)",
-   "zip": "19904"
+   "zip": null
   },
   {
    "address": "1030 Forest Ave Suite 106",
@@ -12473,6 +12611,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Food Lion - Food Lion LLC - #1385",
    "zip": "19904"
   },
@@ -12512,6 +12651,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Food Lion - Food Lion LLC - #1419",
    "zip": "19901"
   },
@@ -12841,6 +12981,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Francos Pizza & Pasta",
    "zip": "19901"
   },
@@ -12874,6 +13015,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Fujisan Sushi - Sams Club Dover",
    "zip": "19901"
   },
@@ -12959,6 +13101,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Glasgow Deli",
    "zip": "19901"
   },
@@ -13144,6 +13287,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Great China Restaurant",
    "zip": "19904"
   },
@@ -13249,6 +13393,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Great Wall Kitchen",
    "zip": "19904"
   },
@@ -13394,6 +13539,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "GROCERY BASKET",
    "zip": "19904"
   },
@@ -13503,6 +13649,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Grotto Pizza #206 - Dover",
    "zip": "19901"
   },
@@ -13550,11 +13697,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Grotto Pizza #210 - Dough Production Dover",
    "zip": "19901"
   },
   {
-   "address": "3997 Hazletville Road",
+   "address": null,
    "city": "Dover",
    "id": "035011bdff",
    "inspections": [
@@ -13624,8 +13772,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Haass On The Go (MOB)",
-   "zip": "19904"
+   "zip": null
   },
   {
    "address": "1568 N Dupont Hwy",
@@ -13711,6 +13860,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hampton Inn Dover",
    "zip": "19901"
   },
@@ -13808,6 +13958,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hangry Joes Hot Chicken",
    "zip": "19901"
   },
@@ -14033,6 +14184,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Happy Fortune",
    "zip": "19904"
   },
@@ -14143,6 +14295,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "Hardees of Dover 2 - OTAC Inc",
    "zip": "19901"
   },
@@ -14208,6 +14361,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hardees of Dover 3 - OTAC Inc",
    "zip": "19904"
   },
@@ -14273,6 +14427,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hibachi Restaurant",
    "zip": "19901"
   },
@@ -14518,6 +14673,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Highs Store 160",
    "zip": "19901"
   },
@@ -14580,6 +14736,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "Hilton Garden Inn",
    "zip": "19901"
   },
@@ -14645,6 +14802,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hissho Sushi @ Food Lion #1419",
    "zip": "19901"
   },
@@ -14692,6 +14850,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Holiday Inn Express & Suites Dover",
    "zip": "19901"
   },
@@ -14743,6 +14902,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Holy Cross Gym",
    "zip": "19901"
   },
@@ -14790,6 +14950,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Holy Cross School",
    "zip": "19901"
   },
@@ -14823,11 +14984,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Home 2 Suites",
    "zip": "19901"
   },
   {
-   "address": "233 Quails Nest Drive",
+   "address": null,
    "city": "Dover",
    "id": "f7aff61cb9",
    "inspections": [
@@ -14852,8 +15014,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Home Skillet (MOB)",
-   "zip": "19904"
+   "zip": null
   },
   {
    "address": "16 Salt Creek Drive",
@@ -15043,6 +15206,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Ice Cream Holdings Inc DBA Dairy Queen",
    "zip": "19904"
   },
@@ -15160,6 +15324,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "IHOP - Chenega IH LLC - #4780/506",
    "zip": "19901"
   },
@@ -15199,6 +15364,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Insomnia Cookies",
    "zip": "19901"
   },
@@ -15266,6 +15432,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Interfaith Pathway",
    "zip": "19904"
   },
@@ -15290,6 +15457,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "Irish Mikes Olde Towne Pub",
    "zip": "19904"
   },
@@ -15380,6 +15548,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Jakes Way Back Burgers",
    "zip": "19901"
   },
@@ -15686,6 +15855,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Jersey Mikes Subs - High 5 Hospitality LLC - #35",
    "zip": "19901"
   },
@@ -15803,11 +15973,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Kabab Korner",
    "zip": "19901"
   },
   {
-   "address": "587 Carrington Drive",
+   "address": null,
    "city": "Dover",
    "id": "eeab32ff4b",
    "inspections": [
@@ -15896,8 +16067,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Karibbean Grill & BBQ (MOBILE)",
-   "zip": "19904"
+   "zip": null
   },
   {
    "address": "924-998 Clara Street",
@@ -15939,6 +16111,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Kent County Secondary ILC Peak Kitchen - Capital S",
    "zip": "19904"
   },
@@ -16066,6 +16239,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Kentucky Fried Chicken (Closed)",
    "zip": "19901"
   },
@@ -16181,6 +16355,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Key To Life Juice Bar (Closed)",
    "zip": "19901"
   },
@@ -16404,6 +16579,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "King Buffet",
    "zip": "19901"
   },
@@ -16490,11 +16666,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "La Baguette French Bakery - Dover - La Baguette LL",
    "zip": "19904"
   },
   {
-   "address": "200 Beechwood Avenue",
+   "address": null,
    "city": "Dover",
    "id": "019728ca79",
    "inspections": [
@@ -16535,8 +16712,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "La Guacamaya (MOB)",
-   "zip": "19901"
+   "zip": null
   },
   {
    "address": "1171 South Bay Road",
@@ -16667,6 +16845,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "La Hacienda Mexican Rest And Bar",
    "zip": "19901"
   },
@@ -16830,6 +17009,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "La Hacienda Mexican Restaurant West Dover",
    "zip": "19904"
   },
@@ -17067,6 +17247,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "La Tonalteca",
    "zip": "19901"
   },
@@ -17234,6 +17415,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Le Boulevard Bar & Grill",
    "zip": "19901"
   },
@@ -17299,6 +17481,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "LiDl Grocery Store- Dover",
    "zip": "19901"
   },
@@ -17460,6 +17643,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Little Caesars Pizza",
    "zip": "19901"
   },
@@ -17570,6 +17754,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Little Grocer",
    "zip": "19901"
   },
@@ -17673,6 +17858,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "LongHorn Steakhouse Dover - Darden Restaurants Inc",
    "zip": "19901"
   },
@@ -17736,6 +17922,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Love That Plate",
    "zip": "19901"
   },
@@ -17903,6 +18090,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "MAMAMIA PIZZA AND GRILL",
    "zip": "19901"
   },
@@ -17922,6 +18110,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Maranatha Fellowship",
    "zip": "19904"
   },
@@ -18025,6 +18214,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "MCDONALDS ( DOVER CENTRAL) - The Meoli Companies",
    "zip": "19901"
   },
@@ -18104,6 +18294,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "MCDONALDS ( Dover East) - The Meoli Companies - #",
    "zip": "19901"
   },
@@ -18224,6 +18415,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "MCDONALDS ( DOVER WEST) - The Meoli Companies - #",
    "zip": "19904"
   },
@@ -18295,6 +18487,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "MCDONALDS (DOVER I) - The Meoli Companies - #1429",
    "zip": "19901"
   },
@@ -18371,6 +18564,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "MCDONALDS (DOVER NORTH) - The Meoli Companies - #",
    "zip": "19901"
   },
@@ -18516,6 +18710,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Mcglynns Pub Dover - Ashby INC - #104",
    "zip": "19901"
   },
@@ -18723,6 +18918,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Meryems Four Seasons Pizza",
    "zip": "19901"
   },
@@ -18742,6 +18938,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Mike Aldridge Hot Dogs",
    "zip": "19901"
   },
@@ -18803,6 +19000,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Mike Aldridge Hot Dogs (Dover Mall)",
    "zip": "19901"
   },
@@ -18848,6 +19046,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Millers Cheese & Varieties",
    "zip": "19904"
   },
@@ -18920,6 +19119,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "MISSION BBQ - MISSION BBQ Inc - #Dover",
    "zip": "19901"
   },
@@ -18943,6 +19143,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "MLK CENTER - 1891 MARKET",
    "zip": "19901"
   },
@@ -18978,6 +19179,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Mod Pizza (Closed)",
    "zip": "19901"
   },
@@ -19071,6 +19273,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Modern Maturity Center Inc",
    "zip": "19904"
   },
@@ -19108,6 +19311,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Mommoms Ice Cream",
    "zip": "19901"
   },
@@ -19157,6 +19361,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Most Worshipful Prince Hall Grand Lodge Of Delawar",
    "zip": "19904"
   },
@@ -19208,6 +19413,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "My Roma Pizza (Closed)",
    "zip": "19901"
   },
@@ -19409,6 +19615,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "My Romas Pizza",
    "zip": "19901"
   },
@@ -19558,6 +19765,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Nazs Halal - Naz Halal Food LLC - #101",
    "zip": "19901"
   },
@@ -19625,6 +19833,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Nellie Stokes Elementary - Caesar Rodney School Di",
    "zip": "19904"
   },
@@ -19748,6 +19957,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "New Panda Garden Inc",
    "zip": "19901"
   },
@@ -19883,6 +20093,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "No 1 Chinese Restaurant",
    "zip": "19901"
   },
@@ -19940,6 +20151,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "North Dover Elementary School - Capital SD",
    "zip": "19904"
   },
@@ -19979,6 +20191,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "North Dover Exxon",
    "zip": "19901"
   },
@@ -20073,6 +20286,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "Olive Garden Dover - Darden Restaurants Inc - #2",
    "zip": "19901"
   },
@@ -20182,6 +20396,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Outback Steak House",
    "zip": "19901"
   },
@@ -20330,6 +20545,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "PAM Health Rehabilitation Hospital - Dover - PAM H",
    "zip": "19904"
   },
@@ -20394,6 +20610,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "PANDA EXPRESS - PANDA EXPRESS INC - #2494",
    "zip": "19901"
   },
@@ -20521,6 +20738,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Panera Bread - Lemek Slower Lower LLC - #3810",
    "zip": "19901"
   },
@@ -20616,6 +20834,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Papa Johns",
    "zip": "19901"
   },
@@ -20715,6 +20934,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Papa Johns (Closed)",
    "zip": "19901"
   },
@@ -20820,6 +21040,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Par & Plate at Maple Dale - Maple Dale Country Clu",
    "zip": "19904"
   },
@@ -20967,6 +21188,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Paras Grill & Gyro",
    "zip": "19901"
   },
@@ -21016,6 +21238,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pastries & More By Sugar Savage (Closed)",
    "zip": "19904"
   },
@@ -21267,6 +21490,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pats Select of Dover - Pats Pizzeria LLC",
    "zip": "19904"
   },
@@ -21430,6 +21654,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Peoples Church of Dover",
    "zip": "19904"
   },
@@ -21669,11 +21894,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pho Saigon Restaurant",
    "zip": "19901"
   },
   {
-   "address": "155 North Dupont Highway",
+   "address": null,
    "city": "Dover",
    "id": "8c4818f1c1",
    "inspections": [
@@ -21772,8 +21998,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Pho Viet (MOB)",
-   "zip": "19901"
+   "zip": null
   },
   {
    "address": "155 N Dupont Hwy STE 4",
@@ -22045,6 +22272,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pho Viet - PHO VIET LLC (FE)",
    "zip": "19901"
   },
@@ -22200,6 +22428,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Piazza Mia Bar & Grill - Piazza Mia of Camden Inc",
    "zip": "19901"
   },
@@ -22305,6 +22534,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pink Mambo",
    "zip": "19904"
   },
@@ -22476,6 +22706,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pizza Delight",
    "zip": "19904"
   },
@@ -22577,6 +22808,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "PIZZA HUT - HUT EAST COAST LLC - #6015011",
    "zip": "19901"
   },
@@ -22660,6 +22892,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "PIZZA HUT - HUT EAST COAST LLC - #6015055",
    "zip": "19901"
   },
@@ -22872,6 +23105,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pizza Time# 14",
    "zip": "19901"
   },
@@ -23240,6 +23474,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pizzeria and Taqueria Porto Bella",
    "zip": "19904"
   },
@@ -23337,6 +23572,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pleasantons Seafood",
    "zip": "19901"
   },
@@ -23426,6 +23662,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Poke Bros Vi - Dover - Poke Bros DE LLC - #140",
    "zip": "19901"
   },
@@ -23653,6 +23890,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Polisenos Pizza II",
    "zip": "19904"
   },
@@ -23744,6 +23982,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "Popeyes Louisiana Kitchen - PN Restaurants LLC -",
    "zip": "19901"
   },
@@ -23777,6 +24016,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Presbyterian Church Of Dover",
    "zip": "19901"
   },
@@ -23804,6 +24044,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Provisions on Demand (DSU)",
    "zip": "19901"
   },
@@ -23897,6 +24138,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Qdoba Mexican Restaurant - TIG Corp LLC - #2920",
    "zip": "19901"
   },
@@ -23997,6 +24239,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Rail Haus-Beer Garden",
    "zip": "19904"
   },
@@ -24050,6 +24293,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Raising Canes Chicken Fingers",
    "zip": "19901"
   },
@@ -24239,6 +24483,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Rancho Azteca Mexican Restaurant",
    "zip": "19901"
   },
@@ -24329,6 +24574,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Red Lobster #0552",
    "zip": "19901"
   },
@@ -24357,6 +24603,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Red Robin Gourmet Burgers & Brew (Closed)",
    "zip": "19901"
   },
@@ -24459,6 +24706,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Redners Markets Inc - Redners Markets Inc -",
    "zip": "19904"
   },
@@ -24567,6 +24815,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Redners Markets Inc - Redners Markets Inc -",
    "zip": "19901"
   },
@@ -24608,6 +24857,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Residence Inn- Marriott Dover",
    "zip": "19901"
   },
@@ -24809,6 +25059,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Restaurant 55",
    "zip": "19901"
   },
@@ -25144,6 +25395,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Rice Fusion",
    "zip": "19904"
   },
@@ -25197,6 +25449,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Rikas Ice Cream & Snacks",
    "zip": "19901"
   },
@@ -25322,6 +25575,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Roma Pizza",
    "zip": "19904"
   },
@@ -25371,6 +25625,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Roma Restaurant",
    "zip": "19901"
   },
@@ -25668,6 +25923,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Romanos Family Dinner MX",
    "zip": "19901"
   },
@@ -25789,6 +26045,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Romanos Pizza And Restaurant",
    "zip": "19904"
   },
@@ -25924,6 +26181,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Royal Farms #110",
    "zip": "19901"
   },
@@ -26155,6 +26413,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Royal Farms #119",
    "zip": "19901"
   },
@@ -26419,6 +26678,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Royal Farms #139",
    "zip": "19901"
   },
@@ -26630,6 +26890,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Royal Farms #151",
    "zip": "19904"
   },
@@ -26726,6 +26987,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "Safeway - Albertsons Companies Inc - #1763",
    "zip": "19901"
   },
@@ -26849,6 +27111,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Saladworks",
    "zip": "19901"
   },
@@ -26961,11 +27224,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sams Club - Dover - Walmart Inc - #6330",
    "zip": "19901"
   },
   {
-   "address": "407 North New Street",
+   "address": null,
    "city": "Dover",
    "id": "2371720abc",
    "inspections": [
@@ -27032,8 +27296,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Sarcastic Chef (MOB)",
-   "zip": "19904"
+   "zip": null
   },
   {
    "address": "1365 N Dupont Hwy Unit #3072",
@@ -27141,6 +27406,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sarku Japan - SAR Dover Food Inc - #116",
    "zip": "19901"
   },
@@ -27222,6 +27488,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Saxtons Soulfood & Delicatessen (Closed)",
    "zip": "19901"
   },
@@ -27387,6 +27654,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sbarro America Inc #79",
    "zip": "19901"
   },
@@ -27570,6 +27838,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Seasons Pizza (North Dover)",
    "zip": "19901"
   },
@@ -27695,6 +27964,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Shays Seafood & Soul",
    "zip": "19901"
   },
@@ -27714,6 +27984,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Shore Stop #255",
    "zip": "19901"
   },
@@ -27805,6 +28076,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Shore Stop #266 (Closed)",
    "zip": "19901"
   },
@@ -27860,6 +28132,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Shupback Pakistani Kitchen",
    "zip": "19901"
   },
@@ -27921,6 +28194,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "SIB in Boba House",
    "zip": "19904"
   },
@@ -28072,6 +28346,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Simaron Steaks & Subs",
    "zip": "19904"
   },
@@ -28095,6 +28370,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sobol",
    "zip": "19901"
   },
@@ -28514,6 +28790,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Soulfully Delicious",
    "zip": "19904"
   },
@@ -28603,6 +28880,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Speedway #2812",
    "zip": "19901"
   },
@@ -28670,6 +28948,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Spencers Bazaar-Blanks Country Kitchen LLC",
    "zip": "19904"
   },
@@ -28734,6 +29013,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Spencers Bazaar-Lenas Bake Shoppe LLC",
    "zip": "19904"
   },
@@ -28772,6 +29052,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Spences Bazaar - Beachys Coffee Shoppe",
    "zip": "19904"
   },
@@ -28799,6 +29080,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Spences Bazaar - Coblentz Country Cheese LLC (Clo",
    "zip": "19904"
   },
@@ -28818,6 +29100,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "St Andrews Evangelical Lutheran Church",
    "zip": "19901"
   },
@@ -28856,6 +29139,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Star Hill Elementary - Caesar Rodney School Distri",
    "zip": "19901"
   },
@@ -28897,6 +29181,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Starbucks Coffee - Starbucks Corporation - #25349",
    "zip": "19901"
   },
@@ -28916,6 +29201,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Starbucks Coffee - Starbucks Corporation - #53000",
    "zip": "19901"
   },
@@ -29019,6 +29305,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Stonerail Market",
    "zip": "19904"
   },
@@ -29109,6 +29396,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Subway #12464 (Closed)",
    "zip": "19901"
   },
@@ -29239,6 +29527,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Subway/ssnk Corporation",
    "zip": "19904"
   },
@@ -29379,6 +29668,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Tabitha Restaurant",
    "zip": "19904"
   },
@@ -29432,6 +29722,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Taco Bell #024759 - Delaware Restaurants LLC",
    "zip": "19901"
   },
@@ -29519,6 +29810,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Taco Bell #037077 - Delaware Restaurants LLC",
    "zip": "19901"
   },
@@ -29714,6 +30006,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Taqueria El Cabrito",
    "zip": "19904"
   },
@@ -29835,6 +30128,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Target/starbucks Store 1312",
    "zip": "19901"
   },
@@ -29936,6 +30230,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "TASTEES CHICKEN AND SEAFOOD",
    "zip": "19901"
   },
@@ -30149,6 +30444,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Tasty Crab House",
    "zip": "19901"
   },
@@ -30224,6 +30520,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "TGI Fridays (Closed)",
    "zip": "19901"
   },
@@ -30299,6 +30596,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "TgI Fridays Dover",
    "zip": "19901"
   },
@@ -30440,6 +30738,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Brick-Wood Fries Eats",
    "zip": "19901"
   },
@@ -30484,6 +30783,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Catering Company (Cafe at Leg Hall) - The Cat",
    "zip": "19901"
   },
@@ -30642,6 +30942,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Depot",
    "zip": "19904"
   },
@@ -30843,6 +31144,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Greene Turtle - Pusan TGT - Dover",
    "zip": "19901"
   },
@@ -30936,6 +31238,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Grey Fox Grille",
    "zip": "19901"
   },
@@ -30960,6 +31263,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Historic Calvary Baptist Church-Dover (FE)",
    "zip": "19904"
   },
@@ -31037,6 +31341,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The House Of Coffi",
    "zip": "19901"
   },
@@ -31164,6 +31469,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Scoop on Loockerman",
    "zip": "19901"
   },
@@ -31253,6 +31559,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Tienda Latina",
    "zip": "19901"
   },
@@ -31318,6 +31625,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Tiffanee & Co Bakery",
    "zip": "19904"
   },
@@ -31376,6 +31684,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Tim Hortons",
    "zip": "19901"
   },
@@ -31481,6 +31790,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Tomekas Homestyle Eatery",
    "zip": "19901"
   },
@@ -31624,6 +31934,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Toms Bullpen",
    "zip": "19904"
   },
@@ -31807,6 +32118,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Touchdown Restaurant",
    "zip": "19901"
   },
@@ -31857,6 +32169,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Towers Restaurant - Mmc",
    "zip": "19901"
   },
@@ -31945,6 +32258,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Towne Point Elementary School - Capital SD",
    "zip": "19901"
   },
@@ -31990,6 +32304,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "TRINI QUIZEEN (closed)",
    "zip": "19901"
   },
@@ -32215,6 +32530,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Tropical Delight Caf� LLC",
    "zip": "19901"
   },
@@ -32355,6 +32671,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Tropical Smoothie Cafe",
    "zip": "19901"
   },
@@ -32394,6 +32711,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Tropicana Treats",
    "zip": "19901"
   },
@@ -32413,6 +32731,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Tubman Hall Cafe/ Dunkin Donuts",
    "zip": "19901"
   },
@@ -32498,6 +32817,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Two Brother Pizza (Closed)",
    "zip": "19904"
   },
@@ -33021,6 +33341,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "UMI Sushi & Seafood Buffet",
    "zip": "19901"
   },
@@ -33198,6 +33519,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Us 13 Grill",
    "zip": "19901"
   },
@@ -33259,6 +33581,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Valeries Bar & Grill (Closed)",
    "zip": "19901"
   },
@@ -33343,6 +33666,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Veronicas Brick Oven Pizzeria",
    "zip": "19901"
   },
@@ -33372,6 +33696,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Village Cafe (Dover)",
    "zip": "19904"
   },
@@ -33499,6 +33824,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "VINCENZOS PIZZERIA & GELATO - Maddalena Parise I",
    "zip": "19904"
   },
@@ -33681,6 +34007,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Waffle House #1753 - East Coast Waffles - #1753",
    "zip": "19901"
   },
@@ -33840,6 +34167,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Walmart Super Center - Dover - Walmart Inc - #173",
    "zip": "19901"
   },
@@ -33933,6 +34261,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Walter Fox Post # 2",
    "zip": "19901"
   },
@@ -34038,6 +34367,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wawa Food Market #838",
    "zip": "19901"
   },
@@ -34075,6 +34405,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wawa Food Market #845",
    "zip": "19904"
   },
@@ -34171,6 +34502,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wawa Food Market #848",
    "zip": "19901"
   },
@@ -34288,6 +34620,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wawa Food Market #855",
    "zip": "19904"
   },
@@ -34403,6 +34736,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wendys (DE0003 1167) - Wendover Inc - #1167",
    "zip": "19904"
   },
@@ -34470,6 +34804,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wendys (DE0019 7811) - Wendover Inc - #7811",
    "zip": "19901"
   },
@@ -34517,6 +34852,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wesley U M C",
    "zip": "19901"
   },
@@ -34626,6 +34962,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Whatcoat United Methodist Church",
    "zip": "19904"
   },
@@ -34689,6 +35026,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "William Henry Middle School - Capital SD (Closed)",
    "zip": "19904"
   },
@@ -34874,6 +35212,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "WingLand & Philly",
    "zip": "19901"
   },
@@ -34981,6 +35320,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "WINGSTOP - GSRH Wings DE LLC - #1946",
    "zip": "19901"
   },
@@ -35308,6 +35648,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wolfies Grille (Closed)",
    "zip": "19901"
   },
@@ -35511,6 +35852,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Woodside Pizza",
    "zip": "19901"
   },
@@ -35539,6 +35881,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wyoming United Methodist Church",
    "zip": "19904"
   },
@@ -35710,6 +36053,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Yukon Korean Bbq",
    "zip": "19901"
   }

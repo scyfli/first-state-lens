@@ -34,6 +34,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Abbotts On The Broad Creek",
    "zip": "19956"
   },
@@ -67,6 +68,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Brake Time",
    "zip": "19956"
   },
@@ -86,6 +88,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Bryans Bowling Center",
    "zip": "19956"
   },
@@ -113,6 +116,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Chesapeake Country Kitchen",
    "zip": "19956"
   },
@@ -132,6 +136,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Children & Families First Dunbar Head Start (Close",
    "zip": "19956"
   },
@@ -151,6 +156,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Delicias El Peque",
    "zip": "19956"
   },
@@ -170,6 +176,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Delmarva Christian Service Camp",
    "zip": "19956"
   },
@@ -189,6 +196,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dunkin - Franchise Management Services Inc - #33",
    "zip": "19956"
   },
@@ -212,6 +220,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "El Primo Taquerias",
    "zip": "19956"
   },
@@ -241,6 +250,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "El Rinconcito Latino",
    "zip": "19956"
   },
@@ -278,6 +288,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hardees",
    "zip": "19956"
   },
@@ -349,6 +360,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "K&K Mart (Closed)",
    "zip": "19956"
   },
@@ -382,6 +394,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Kims Cafe",
    "zip": "19956"
   },
@@ -401,6 +414,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "La Botana Mexican Snacks",
    "zip": "19956"
   },
@@ -420,6 +434,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "La Placita de Don Polo - Himar LLC",
    "zip": "19956"
   },
@@ -459,6 +474,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Laurel Deli Market Inc",
    "zip": "19956"
   },
@@ -482,6 +498,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Laurel Exxon",
    "zip": "19956"
   },
@@ -515,6 +532,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Laurel Pizzeria",
    "zip": "19956"
   },
@@ -534,6 +552,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Laurel Star Family Restaurant",
    "zip": "19956"
   },
@@ -581,6 +600,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "No 1 Chinese Restaurant",
    "zip": "19956"
   },
@@ -604,6 +624,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Panda Tokyo",
    "zip": "19956"
   },
@@ -633,6 +654,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Peggys Kitchen",
    "zip": "19956"
   },
@@ -652,6 +674,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "R & R Grill and Bar",
    "zip": "19956"
   },
@@ -681,6 +704,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Royal Farms #171",
    "zip": "19956"
   },
@@ -700,6 +724,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sabor A Casa",
    "zip": "19956"
   },
@@ -729,6 +754,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Smash N Dash",
    "zip": "19956"
   },
@@ -758,6 +784,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Subway",
    "zip": "19956"
   },
@@ -818,11 +845,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Tacos Chabelita",
    "zip": "19956"
   },
   {
-   "address": "30661 Sussex Hwy",
+   "address": null,
    "city": "Laurel",
    "id": "cc445b59e7",
    "inspections": [
@@ -837,8 +865,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Tacos Chabelita Mobile",
-   "zip": "19956"
+   "zip": null
   },
   {
    "address": "Rt 13 Market",
@@ -860,6 +889,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Pizza Cafe",
    "zip": "19956"
   },
@@ -883,6 +913,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Shanty Seafood Restaurant and Admirals Quarter",
    "zip": "19956"
   },
@@ -902,6 +933,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Tienda La Hispanita",
    "zip": "19956"
   }

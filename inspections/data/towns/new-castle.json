@@ -56,6 +56,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "3 Countries Pizzeria",
    "zip": "19720"
   },
@@ -96,6 +97,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "A Ya So Nice (Closed)",
    "zip": "19720"
   },
@@ -158,6 +160,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "A Ya So Nice Authentic Jamaican Food inc",
    "zip": "19720"
   },
@@ -225,6 +228,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "AKs Halal Bites (Closed)",
    "zip": "19720"
   },
@@ -279,6 +283,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Alexs Seafood & BBQ - The Admirals Clam Bar Inc",
    "zip": "19720"
   },
@@ -346,6 +351,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Alexs Seafood & Clam Bar - The Admirals Clam Bar",
    "zip": "19720"
   },
@@ -379,6 +385,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Americans Legion Stall Post #30",
    "zip": "19720"
   },
@@ -496,6 +503,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Americas Best Wings",
    "zip": "19720"
   },
@@ -515,6 +523,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "APPLEBEES NEIGHBORHOOD BAR & GRILL - APPLE DELAWA",
    "zip": "19720"
   },
@@ -552,6 +561,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Arbys - ACW Corporation dba Arbys- #5683",
    "zip": "19720"
   },
@@ -654,6 +664,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Arm Enterprise",
    "zip": "19720"
   },
@@ -692,6 +703,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Asbury U M C",
    "zip": "19720"
   },
@@ -774,6 +786,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Asian House",
    "zip": "19720"
   },
@@ -829,6 +842,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Aunt Bertas Kitchen",
    "zip": "19720"
   },
@@ -870,6 +884,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "BJs Wholesale Club - BJs Wholesale Club Inc",
    "zip": "19720"
   },
@@ -894,6 +909,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Buena Vista",
    "zip": "19720"
   },
@@ -927,6 +943,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Burger King - Rackson Restaurants LLC - #2106",
    "zip": "19720"
   },
@@ -995,6 +1012,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Burger King - Rackson Restaurants LLC - #3801",
    "zip": "19720"
   },
@@ -1098,6 +1116,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Bylers Bbq",
    "zip": "19720"
   },
@@ -1142,11 +1161,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Cafe Pizzeria (Closed)",
    "zip": "19720"
   },
   {
-   "address": "519 East Basin Rd",
+   "address": null,
    "city": "New Castle",
    "id": "fdb261e774",
    "inspections": [
@@ -1177,8 +1197,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "California Street Tacos (MOB)",
-   "zip": "19720"
+   "zip": null
   },
   {
    "address": "165 South Dupont Highway",
@@ -1237,6 +1258,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "California Street Tacos Restaurant",
    "zip": "19720"
   },
@@ -1261,6 +1283,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Campus Commissary",
    "zip": "19720"
   },
@@ -1306,6 +1329,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Capriottis DE002",
    "zip": "19720"
   },
@@ -1355,6 +1379,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Capt Zeaks Crabhouse and Seafood",
    "zip": "19720"
   },
@@ -1388,6 +1413,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Carrie Downie Elem School - Colonial School Distri",
    "zip": "19720"
   },
@@ -1608,6 +1634,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Casa Mariachi Restaurant & Bar",
    "zip": "19720"
   },
@@ -1649,6 +1676,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Casablanca Restaurant",
    "zip": "19720"
   },
@@ -1722,6 +1750,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Castle Hills Elementary School - Colonial School D",
    "zip": "19720"
   },
@@ -1745,6 +1774,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Castle Nutrition",
    "zip": "19720"
   },
@@ -1787,6 +1817,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Chick-fil-a d",
    "zip": "19720"
   },
@@ -1844,6 +1875,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "China East",
    "zip": "19720"
   },
@@ -1907,6 +1939,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "China Inn - Qing Li Inc - New Castle",
    "zip": "19720"
   },
@@ -1930,6 +1963,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Chipotle Mexican Grill #3154 - New Castle",
    "zip": "19720"
   },
@@ -1963,11 +1997,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Chriss Mini Donuts",
    "zip": "19720"
   },
   {
-   "address": "520 Terminal Ave",
+   "address": null,
    "city": "New Castle",
    "id": "67da97e9cc",
    "inspections": [
@@ -2008,8 +2043,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Christiana Truck Stop and Grill",
-   "zip": "19720"
+   "zip": null
   },
   {
    "address": "206 Sykes Rd",
@@ -2036,6 +2072,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Church Of The Nativity (Closed)",
    "zip": "19720"
   },
@@ -2055,6 +2092,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Citibank",
    "zip": "19721"
   },
@@ -2100,11 +2138,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Courtyard by Marriott",
    "zip": "19720"
   },
   {
-   "address": "1901 North Dupont Highway",
+   "address": null,
    "city": "New Castle",
    "id": "14476f3c14",
    "inspections": [
@@ -2161,8 +2200,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Cousins Maine Lobster (MOB)",
-   "zip": "19720"
+   "zip": null
   },
   {
    "address": "2 Jay Dr",
@@ -2189,6 +2229,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dairy Palace",
    "zip": "19720"
   },
@@ -2216,6 +2257,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dash In #14561 (Closed)",
    "zip": "19720"
   },
@@ -2283,6 +2325,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "DE Food Market",
    "zip": "19720"
   },
@@ -2312,6 +2355,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Delaware Adult Day Care",
    "zip": "19720"
   },
@@ -2350,6 +2394,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Delaware Gourmet Catering",
    "zip": "19720"
   },
@@ -2395,6 +2440,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Delaware Psychiatric Center - Culinary Services G",
    "zip": "19720"
   },
@@ -2492,6 +2538,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Delaware Psychiatric Center - Kent/sussex Building",
    "zip": "19720"
   },
@@ -2519,6 +2566,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Desserts By Dana Farmers Market",
    "zip": "19720"
   },
@@ -2597,6 +2645,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "DOMINOS - PENN STREET PIZZA INC - #4404",
    "zip": "19720"
   },
@@ -2635,6 +2684,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "DUNKIN - AARK NETWORK - #358626",
    "zip": "19720"
   },
@@ -2664,6 +2714,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dunkin Donuts",
    "zip": "19720"
   },
@@ -2683,6 +2734,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dunkin Donuts",
    "zip": "19720"
   },
@@ -2702,6 +2754,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dunkin Donuts - 201 Dupont - DE Donuts LLC - #303",
    "zip": "19720"
   },
@@ -2721,6 +2774,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dunkin Donuts - 4004 Dupont - DE Donuts II LLC -",
    "zip": "19720"
   },
@@ -2812,6 +2866,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dunkin Donuts - 906 Dupont - DE Donuts LLC - #3431",
    "zip": "19720"
   },
@@ -2853,6 +2908,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dunkin Donuts - Basin Road - DE Donuts LLC - #3407",
    "zip": "19720"
   },
@@ -2916,6 +2972,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dutch Country Donuts And Coffee LLC",
    "zip": "19720"
   },
@@ -2981,6 +3038,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dutch Country Hand Rolled Pretzels",
    "zip": "19720"
   },
@@ -3013,6 +3071,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dutch Country Treats",
    "zip": "19720"
   },
@@ -3032,6 +3091,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dutchland Cream & Sugar (Closed)",
    "zip": "19720"
   },
@@ -3064,6 +3124,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Eisenberg Harry O Elem School - Colonial School D",
    "zip": "19720"
   },
@@ -3141,6 +3202,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "El Amanecer Restaurant",
    "zip": "19720"
   },
@@ -3178,6 +3240,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "El Amigo Tienda Mexicana",
    "zip": "19720"
   },
@@ -3251,6 +3314,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "El Cantarito",
    "zip": "19720"
   },
@@ -3270,6 +3334,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "El Carmen",
    "zip": "19720"
   },
@@ -3299,6 +3364,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "El Diablo Burritos Commissary- Trolley Square Burr",
    "zip": "19720"
   },
@@ -3372,6 +3438,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "El Pique",
    "zip": "19720"
   },
@@ -3418,6 +3485,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Elks Lodge Kitchen",
    "zip": "19720"
   },
@@ -3451,11 +3519,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Emmanuel Dining Room South",
    "zip": "19720"
   },
   {
-   "address": "1 Berkely Way",
+   "address": null,
    "city": "New Castle",
    "id": "8a5c39fef1",
    "inspections": [
@@ -3492,8 +3561,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Everest Mobile Unit (mob)",
-   "zip": "19720"
+   "zip": null
   },
   {
    "address": "208 New Churchmans Rd",
@@ -3541,6 +3611,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Everest Supermarket",
    "zip": "19720"
   },
@@ -3657,6 +3728,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Evergreen",
    "zip": "19720"
   },
@@ -3774,6 +3846,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Express Wings Pizzeria",
    "zip": "19720"
   },
@@ -3819,6 +3892,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Fairfield Inn and Suite",
    "zip": "19720"
   },
@@ -3838,6 +3912,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "First Baptist Church of New Castle",
    "zip": "19720"
   },
@@ -3903,6 +3978,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "First State Exxon",
    "zip": "19720"
   },
@@ -3966,6 +4042,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Food Lion - Food Lion LLC - #2153",
    "zip": "19720"
   },
@@ -4053,11 +4130,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Franks Pizzeria",
    "zip": "19720"
   },
   {
-   "address": "625 Delaware Street",
+   "address": null,
    "city": "New Castle",
    "id": "ac1935323c",
    "inspections": [
@@ -4072,8 +4150,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Fruits El Calvario (MOB)",
-   "zip": "19720"
+   "zip": null
   },
   {
    "address": "501 West 7th Street",
@@ -4147,6 +4226,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Garrison Deli",
    "zip": "19720"
   },
@@ -4174,6 +4254,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Garrison Deli (Closed)",
    "zip": "19720"
   },
@@ -4224,6 +4305,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Golden Dove",
    "zip": "19720"
   },
@@ -4266,6 +4348,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Good-Will Fire Company #18",
    "zip": "19720"
   },
@@ -4411,6 +4494,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Gordons Pizza",
    "zip": "19720"
   },
@@ -4448,11 +4532,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Grill Out",
    "zip": "19720"
   },
   {
-   "address": "701 East Avenue",
+   "address": null,
    "city": "New Castle",
    "id": "0cb6bcbfa2",
    "inspections": [
@@ -4477,8 +4562,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Halal Food LLC (MOB)",
-   "zip": "19720"
+   "zip": null
   },
   {
    "address": "1400A North Dupont Highway",
@@ -4514,6 +4600,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Halal Taste",
    "zip": "19720"
   },
@@ -4556,11 +4643,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Harvest Christian Academy & Harvest Child & Youth",
    "zip": "19720"
   },
   {
-   "address": "100 Wilton Blvd",
+   "address": null,
    "city": "New Castle",
    "id": "39e9f89db4",
    "inspections": [
@@ -4575,8 +4663,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "His Smokehouse And Grill (mob)",
-   "zip": "19720"
+   "zip": null
   },
   {
    "address": "700 West Ave",
@@ -4607,6 +4696,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Holloway Terrace Fire Co",
    "zip": "19720"
   },
@@ -4631,6 +4721,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Holy Spirit Parish",
    "zip": "19720"
   },
@@ -4690,6 +4781,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hooters Restaurant",
    "zip": "19720"
   },
@@ -4873,6 +4965,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "IHOP Restaurant - New Castle Operating Group - #56",
    "zip": "19720"
   },
@@ -4958,6 +5051,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Immanuel Chch Prsh Hall & Ktchn",
    "zip": "19720"
   },
@@ -4999,6 +5093,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Ioannons Bull Roasters",
    "zip": "19720"
   },
@@ -5066,6 +5161,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "J & H Seafood (Closed)",
    "zip": "19720"
   },
@@ -5120,6 +5216,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Jessops Tavern",
    "zip": "19720"
   },
@@ -5207,6 +5304,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Juicy World",
    "zip": "19720"
   },
@@ -5339,6 +5437,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "KFC - Mitra QSR KNE LLC - #K071053",
    "zip": "19720"
   },
@@ -5389,6 +5488,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "King Garden",
    "zip": "19720"
   },
@@ -5453,6 +5553,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "Krispy Kreme Doughnut Corporation",
    "zip": "19720"
   },
@@ -5708,6 +5809,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "L&g Southern Soul Food",
    "zip": "19720"
   },
@@ -5765,6 +5867,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "La Consentida - La Consentida - #STE 14",
    "zip": "19720"
   },
@@ -5952,6 +6055,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "La Parrillada Mexican Grill",
    "zip": "19720"
   },
@@ -6010,6 +6114,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Las Cazuelitas",
    "zip": "19720"
   },
@@ -6043,6 +6148,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Lestardos Crab House",
    "zip": "19720"
   },
@@ -6093,6 +6199,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Little Anthonys Pizzeria - Cappella Caffe Inc",
    "zip": "19720"
   },
@@ -6214,6 +6321,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Los Jarritos",
    "zip": "19720"
   },
@@ -6307,11 +6415,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Los Taquitos De Puebla",
    "zip": "19720"
   },
   {
-   "address": "6 Guenever Drive",
+   "address": null,
    "city": "New Castle",
    "id": "28e3d1e7e6",
    "inspections": [
@@ -6326,8 +6435,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "LS Good Eatins (MOB)",
-   "zip": "19720"
+   "zip": null
   },
   {
    "address": "3125 New Castle Avenue",
@@ -6367,6 +6477,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Lulas",
    "zip": "19720"
   },
@@ -6455,6 +6566,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Mamma Gina Pizza",
    "zip": "19720"
   },
@@ -6544,11 +6656,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Masala Kitchen",
    "zip": "19720"
   },
   {
-   "address": "110 North DuPont Highway",
+   "address": null,
    "city": "New Castle",
    "id": "0d548b08c6",
    "inspections": [
@@ -6563,8 +6676,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Masala Kitchen (MOB)",
-   "zip": "19720"
+   "zip": null
   },
   {
    "address": "775 S Dupont Hwy Unit 2",
@@ -6682,6 +6796,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Master Baiters",
    "zip": "19720"
   },
@@ -6709,6 +6824,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "McCullough Calvin Middle School - Colonial School",
    "zip": "19720"
   },
@@ -6774,6 +6890,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Mcdonalds",
    "zip": "19720"
   },
@@ -6801,6 +6918,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "McDonalds - SR95TK5+CR95TK5 LLC - #4566",
    "zip": "19720"
   },
@@ -6845,6 +6963,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Meadowwood Hosptl-nutrtn Dpt",
    "zip": "19720"
   },
@@ -6899,6 +7018,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "MeadowWood Outpatient",
    "zip": "19720"
   },
@@ -6932,6 +7052,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Mercury Cafe and Teahouse",
    "zip": "19720"
   },
@@ -6994,11 +7115,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Messiahs Angels Foundation Center",
    "zip": "19720"
   },
   {
-   "address": "14 Winburne Drive",
+   "address": null,
    "city": "New Castle",
    "id": "b9ad069807",
    "inspections": [
@@ -7057,8 +7179,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "MF Food Truck (MOB)",
-   "zip": "19720"
+   "zip": null
   },
   {
    "address": "204 New Churchmans Rd",
@@ -7176,6 +7299,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Milano Pizza",
    "zip": "19720"
   },
@@ -7195,6 +7319,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Minquadale Fire Co",
    "zip": "19720"
   },
@@ -7227,6 +7352,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Monday Club",
    "zip": "19720"
   },
@@ -7254,6 +7380,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Mr Taco Mexican Grill",
    "zip": "19720"
   },
@@ -7311,6 +7438,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "New Castle Charter School",
    "zip": "19720"
   },
@@ -7344,6 +7472,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "New Castle Dash In - Dash In Food Stores Inc - #1",
    "zip": "19720"
   },
@@ -7363,6 +7492,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "New Castle Elementary School - Colonial School Dis",
    "zip": "19720"
   },
@@ -7387,6 +7517,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "New Castle Presby Church",
    "zip": "19720"
   },
@@ -7428,6 +7559,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "New Castle Seasons Pizza & Restaurant Inc - Seaso",
    "zip": "19720"
   },
@@ -7503,6 +7635,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "NEW CASTLE SHELL - PANDEY INC",
    "zip": "19720"
   },
@@ -7541,6 +7674,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "New Castle U M C Kitchen",
    "zip": "19720"
   },
@@ -7666,6 +7800,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "New York Fried Chicken",
    "zip": "19720"
   },
@@ -7724,6 +7859,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "New York Fried Chicken",
    "zip": "19720"
   },
@@ -7765,6 +7901,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "New York Fried Chicken",
    "zip": "19720"
   },
@@ -7869,6 +8006,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "New York Fried Chicken",
    "zip": "19720"
   },
@@ -7934,6 +8072,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "New York Fried Chicken & Grill",
    "zip": "19720"
   },
@@ -8021,6 +8160,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Nora Lees French Quarter Bistro",
    "zip": "19720"
   },
@@ -8076,6 +8216,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "North Dupont Shell",
    "zip": "19720"
   },
@@ -8189,6 +8330,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "Nuevo Vallarta Seafood and Grill (Closed)",
    "zip": "19720"
   },
@@ -8345,6 +8487,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Osaka Express",
    "zip": "19720"
   },
@@ -8422,6 +8565,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Paisanos Pizza",
    "zip": "19720"
   },
@@ -8467,6 +8611,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Paleteria Y Neveria Tocumbo",
    "zip": "19720"
   },
@@ -8501,6 +8646,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "PANDA EXPRESS - PANDA EXPRESS INC - #2882",
    "zip": "19720"
   },
@@ -8564,6 +8710,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Papa Johns",
    "zip": "19720"
   },
@@ -8792,6 +8939,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Parivaar Super Market",
    "zip": "19720"
   },
@@ -8871,6 +9019,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pats Pizzeria",
    "zip": "19720"
   },
@@ -8908,6 +9057,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pizza Pasta",
    "zip": "19720"
   },
@@ -8949,6 +9099,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pleasantville Country Maid",
    "zip": "19720"
   },
@@ -8972,6 +9123,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pleasantville Elem School - Colonial School Distri",
    "zip": "19720"
   },
@@ -9014,6 +9166,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pockets Tavern",
    "zip": "19720"
   },
@@ -9063,6 +9216,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Popeyes",
    "zip": "19720"
   },
@@ -9146,6 +9300,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Porto Fino Pizza Restaurant",
    "zip": "19720"
   },
@@ -9198,6 +9353,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pretzel Factory",
    "zip": "19720"
   },
@@ -9285,6 +9441,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Prosperos pizza - prosperos pizza llc - #New Cas",
    "zip": "19720"
   },
@@ -9371,6 +9528,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pryme Cafe",
    "zip": "19720"
   },
@@ -9403,6 +9561,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pupuseria Nina Mary",
    "zip": "19720"
   },
@@ -9555,6 +9714,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Quick Stop Mini Market",
    "zip": "19720"
   },
@@ -9618,6 +9778,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "R & C Deli",
    "zip": "19720"
   },
@@ -9663,6 +9824,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Racks Smoked Bbq",
    "zip": "19720"
   },
@@ -9717,6 +9879,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Rambleton Country Maid",
    "zip": "19720"
   },
@@ -9756,6 +9919,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Rancho Azteca Mexican Restaurant",
    "zip": "19720"
   },
@@ -9787,6 +9951,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Ray Js Cheesesteaks",
    "zip": "19720"
   },
@@ -9821,6 +9986,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Read George Middle School - Colonial School Distr",
    "zip": "19720"
   },
@@ -9844,6 +10010,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Ritas Water Ice",
    "zip": "19720"
   },
@@ -9941,11 +10108,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Rivera Artisan Ice Cream",
    "zip": "19720"
   },
   {
-   "address": "8 Valley Forge Road",
+   "address": null,
    "city": "New Castle",
    "id": "62f1689235",
    "inspections": [
@@ -9960,11 +10128,12 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Rivera Taco Express (MOB)",
-   "zip": "19720"
+   "zip": null
   },
   {
-   "address": "519 E Basin Rd",
+   "address": null,
    "city": "New Castle",
    "id": "0c275d6b94",
    "inspections": [
@@ -10013,8 +10182,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Rivera Taco Express II (MOB)",
-   "zip": "19720"
+   "zip": null
   },
   {
    "address": "19 Lambson Ln",
@@ -10069,6 +10239,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Rosehill Community Center",
    "zip": "19720"
   },
@@ -10105,6 +10276,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Route 9 Library Cafe",
    "zip": "19720"
   },
@@ -10154,6 +10326,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Royal Farms #349",
    "zip": "19720"
   },
@@ -10245,6 +10418,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Saap Lao Thai Cuisine",
    "zip": "19720"
   },
@@ -10274,6 +10448,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sallie Mae Christiana - Compass Group USA Inc",
    "zip": "19720"
   },
@@ -10342,6 +10517,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "Sang Hing Restaurant",
    "zip": "19720"
   },
@@ -10370,6 +10546,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Scoops Ice Cream and Water Ice - Scoops Ice Cream",
    "zip": "19720"
   },
@@ -10527,6 +10704,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Shell Gas Station",
    "zip": "19720"
   },
@@ -10594,6 +10772,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Shore Stop #253",
    "zip": "19720"
   },
@@ -10637,11 +10816,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Shore Stop #287",
    "zip": "19720"
   },
   {
-   "address": "1901 North Dupont Highway",
+   "address": null,
    "city": "New Castle",
    "id": "32ce8509ac",
    "inspections": [
@@ -10656,8 +10836,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Slappsters Kitchen & Catering Services (MOB)",
-   "zip": "19720"
+   "zip": null
   },
   {
    "address": "3031 New Castle Avenue",
@@ -10687,11 +10868,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Spare Rib/Keglers Pub",
    "zip": "19720"
   },
   {
-   "address": "16 Appleby Road",
+   "address": null,
    "city": "New Castle",
    "id": "0e5c398932",
    "inspections": [
@@ -10710,8 +10892,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Sparkles Ice Cream (mob)",
-   "zip": "19720"
+   "zip": null
   },
   {
    "address": "506 N Dupont Hwy",
@@ -10752,6 +10935,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Speedway #2814",
    "zip": "19720"
   },
@@ -10827,6 +11011,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Spice N Nice",
    "zip": "19720"
   },
@@ -10890,6 +11075,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Squisito of Christiana",
    "zip": "19702"
   },
@@ -10909,6 +11095,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Starbucks Coffee - Starbucks Corporation - #29564",
    "zip": "19720"
   },
@@ -10986,6 +11173,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Stoltzfus PA Dutch Bakery - Stoltzfus Meats Inc",
    "zip": "19720"
   },
@@ -11029,6 +11217,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Stoltzfus Salads - Stoltzfus Meats Inc",
    "zip": "19720"
   },
@@ -11109,6 +11298,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Stoltzfus Sausage Sandwiches",
    "zip": "19720"
   },
@@ -11150,6 +11340,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sunoco A Plus (Closed)",
    "zip": "19720"
   },
@@ -11207,6 +11398,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sunoco A plus - OM FUEL INC",
    "zip": "19720"
   },
@@ -11270,6 +11462,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sunset Deli",
    "zip": "19720"
   },
@@ -11366,6 +11559,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sunshine Bagel & Deli",
    "zip": "19720"
   },
@@ -11411,6 +11605,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Super Food Store",
    "zip": "19720"
   },
@@ -11473,6 +11668,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Super G Market",
    "zip": "19720"
   },
@@ -11510,6 +11706,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sushi Castle-closed",
    "zip": "19720"
   },
@@ -11595,6 +11792,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Suya House African Grill (NEW CASTLE)",
    "zip": "19720"
   },
@@ -11662,6 +11860,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "T G I Fridays",
    "zip": "19720"
   },
@@ -11711,6 +11910,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Ta Instruments - Sodexo Inc",
    "zip": "19720"
   },
@@ -11730,6 +11930,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Taco Bell #017255 - Delaware Restaurants LLC",
    "zip": "19720"
   },
@@ -11783,11 +11984,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Taco Express Restaurant",
    "zip": "19720"
   },
   {
-   "address": "105 Delaware Drive",
+   "address": null,
    "city": "New Castle",
    "id": "2027b22e20",
    "inspections": [
@@ -11814,11 +12016,12 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Tacos El Compa Juan (MOB)",
-   "zip": "19720"
+   "zip": null
   },
   {
-   "address": "135 S Dupont HWY",
+   "address": null,
    "city": "New Castle",
    "id": "eb7cc78d73",
    "inspections": [
@@ -11847,8 +12050,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Tacos La Plaza (MOB)",
-   "zip": "19720"
+   "zip": null
   },
   {
    "address": "220 New Castle Avenue",
@@ -11972,6 +12176,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Taqueria Atexquita",
    "zip": "19720"
   },
@@ -12007,6 +12212,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Taqueria El Centenario (Closed)",
    "zip": "19720"
   },
@@ -12098,6 +12304,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Taqueria Los Jarritos",
    "zip": "19720"
   },
@@ -12144,6 +12351,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "TGI Fridays- New Castle",
    "zip": "19720"
   },
@@ -12201,11 +12409,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Legend Restaurant And Bakery",
    "zip": "19720"
   },
   {
-   "address": "315 New Castle Avenue Lot 2",
+   "address": null,
    "city": "New Castle",
    "id": "9651e9dec9",
    "inspections": [
@@ -12255,8 +12464,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "The Mexican Food Truck LLC (MOB)",
-   "zip": "19720"
+   "zip": null
   },
   {
    "address": "110 N Dupont Hwy",
@@ -12344,6 +12554,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Nut And Candy Depot Inc",
    "zip": "19720"
   },
@@ -12393,6 +12604,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Spare Rib Express/keglers Pub",
    "zip": "19720"
   },
@@ -12464,6 +12676,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Sweet Stop",
    "zip": "19720"
   },
@@ -12487,6 +12700,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Three Ds Pizza - 3 D�s Pizza LLC",
    "zip": "19720"
   },
@@ -12578,11 +12792,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Tung Hsing House Inc",
    "zip": "19720"
   },
   {
-   "address": "85 Oakmont Drive",
+   "address": null,
    "city": "New Castle",
    "id": "bb9a011ec4",
    "inspections": [
@@ -12638,8 +12853,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Turbo Mexico (mob)",
-   "zip": "19720"
+   "zip": null
   },
   {
    "address": "100 Wilton Blvd",
@@ -12661,6 +12877,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Victory Kitchen",
    "zip": "19720"
   },
@@ -12685,6 +12902,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wawa Food Market # 857",
    "zip": "19720"
   },
@@ -12723,6 +12941,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wawa Food Market #840",
    "zip": "19720"
   },
@@ -12783,6 +13002,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "Wawa Food Market #841",
    "zip": "19720"
   },
@@ -12802,6 +13022,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wawa Food Market #852",
    "zip": "19720"
   },
@@ -12839,6 +13060,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wawa Food Market #863",
    "zip": "19720"
   },
@@ -12863,6 +13085,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wawa Food Market #866",
    "zip": "19720"
   },
@@ -12938,6 +13161,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wendys (DE0017 1437) - Wendover Inc - #1437",
    "zip": "19720"
   },
@@ -13015,6 +13239,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Weston Howard J Senior Ctr",
    "zip": "19720"
   },
@@ -13063,6 +13288,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "William Penn H S Unit I - Colonial School District",
    "zip": "19720"
   },
@@ -13082,6 +13308,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "William Penn H S Unit II - Colonial School Distric",
    "zip": "19720"
   },
@@ -13101,6 +13328,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "William Penn Hs Culinary Arts Kitchen",
    "zip": "19720"
   },
@@ -13124,6 +13352,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wilmington Manor School - Colonial School District",
    "zip": "19720"
   },
@@ -13217,6 +13446,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wings To Go",
    "zip": "19720"
   },
@@ -13267,11 +13497,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Youngs Family Restaurant",
    "zip": "19720"
   },
   {
-   "address": "739 Ferry Cut Off St",
+   "address": null,
    "city": "New Castle",
    "id": "5b29d0b7dc",
    "inspections": [
@@ -13316,8 +13547,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Zachs Street Grill (MOB)",
-   "zip": "19720"
+   "zip": null
   },
   {
    "address": "414 Delaware Street",
@@ -13382,6 +13614,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Zollies",
    "zip": "19720"
   }

@@ -46,6 +46,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "American Legion Post #7",
    "zip": "19952"
   },
@@ -139,6 +140,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Arbys - ACW Corporation dba Arbys- #6134",
    "zip": "19952"
   },
@@ -166,6 +168,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Blue Hen Foods LLC",
    "zip": "19952"
   },
@@ -228,6 +231,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Bylers Store - #1 - Harrington",
    "zip": "19952"
   },
@@ -365,6 +369,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "China King Restaurant",
    "zip": "19952"
   },
@@ -412,6 +417,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dela Dash #272",
    "zip": "19952"
   },
@@ -563,6 +569,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Derbys Bar & Restaurant - Sunset Mill LLC",
    "zip": "19952"
   },
@@ -582,6 +589,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dominos Pizza #4445 (Harrington)",
    "zip": "19952"
   },
@@ -635,6 +643,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dominos Pizza - Harrington (Closed)",
    "zip": "19952"
   },
@@ -672,6 +681,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dunkin - Franchise Management Services Inc - #33",
    "zip": "19952"
   },
@@ -754,6 +764,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "El Torito De San Marcos II",
    "zip": "19952"
   },
@@ -815,6 +826,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Food Lion - Food Lion LLC - #1528",
    "zip": "19952"
   },
@@ -955,6 +967,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Frost Bites",
    "zip": "19952"
   },
@@ -1234,6 +1247,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hardees of Harrington - OTAC Inc",
    "zip": "19952"
   },
@@ -1335,6 +1349,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Harrington Dairy Queen",
    "zip": "19952"
   },
@@ -1354,6 +1369,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Harrington Fire Company - Harrington Fire Company",
    "zip": "19952"
   },
@@ -1396,6 +1412,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Harrington Little League",
    "zip": "19952"
   },
@@ -1415,6 +1432,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Harrington Raceway Bonz - Harrington Raceway Inc",
    "zip": "19952"
   },
@@ -1444,6 +1462,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Harrington Raceway Buffet Kitchen /Bolos - Harring",
    "zip": "19952"
   },
@@ -1486,6 +1505,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Harrington Raceway Murphys - Harrington Raceway I",
    "zip": "19952"
   },
@@ -1539,6 +1559,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Harrington Raceway Onion Jacks/Grab and Go - Harri",
    "zip": "19952"
   },
@@ -1594,6 +1615,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Harrington Senior Citizen Ctr",
    "zip": "19952"
   },
@@ -1639,6 +1661,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Holiday Inn Express Harrington",
    "zip": "19952"
   },
@@ -1667,6 +1690,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "Lake Forest South Elementary School",
    "zip": "19952"
   },
@@ -1816,6 +1840,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Main Street Cafe & Restaurant",
    "zip": "19952"
   },
@@ -1897,6 +1922,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "McDonalds - The Meoli Companies - #12681",
    "zip": "19952"
   },
@@ -1920,6 +1946,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Moose Lodge 534",
    "zip": "19952"
   },
@@ -2159,6 +2186,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pizza King - Baynum Enterprises Inc",
    "zip": "19952"
   },
@@ -2409,6 +2437,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Royal Farms #121",
    "zip": "19952"
   },
@@ -2808,6 +2837,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Rudys Family Restaurant",
    "zip": "19952"
   },
@@ -2967,6 +2997,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Shore Stop #272 (Closed)",
    "zip": "19952"
   },
@@ -3004,6 +3035,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Subway (Closed)",
    "zip": "19951"
   },
@@ -3049,6 +3081,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Subway Harrington - MAATA LLC",
    "zip": "19952"
   },
@@ -3090,6 +3123,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Taco Bell #034798 - Delaware Restaurants LLC",
    "zip": "19952"
   },
@@ -3123,6 +3157,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "W T Chipman Middle School",
    "zip": "19952"
   }

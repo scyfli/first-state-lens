@@ -52,6 +52,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "B Juiced Fenwick Island",
    "zip": "19944"
   },
@@ -147,6 +148,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Bahamas Crab Shack",
    "zip": "19944"
   },
@@ -230,6 +232,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dirty Harrys Restaurant",
    "zip": "19944"
   },
@@ -257,6 +260,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dunkin - Franchise Management Services Inc - #34",
    "zip": "19944"
   },
@@ -310,6 +314,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Fenwick Island Social",
    "zip": "19944"
   },
@@ -347,6 +352,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "FENWICK ISLAND STATE PARK CONCESSION STAND - JAY V",
    "zip": "19944"
   },
@@ -480,6 +486,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Fenwick Pub",
    "zip": "19944"
   },
@@ -507,6 +514,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Fenwick Shores Tapestry Collection by Hilton - San",
    "zip": "19944"
   },
@@ -538,6 +546,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Fishers Popcorn Fenwick Island - Fishers Popcorn",
    "zip": "19944"
   },
@@ -565,6 +574,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Grab & Go Taco -Fenwick",
    "zip": "19944"
   },
@@ -684,6 +694,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Harpoon Hannas",
    "zip": "19944"
   },
@@ -727,6 +738,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hersheys Ice Cream Corner",
    "zip": "19944"
   },
@@ -808,6 +820,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "High Stakes Bar & Grill",
    "zip": "19944"
   },
@@ -831,6 +844,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "High Tide Coffee and Bowls - HTCB LLC",
    "zip": "19944"
   },
@@ -1251,6 +1265,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "House of Sauce",
    "zip": "19944"
   },
@@ -1308,6 +1323,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hungry Viking",
    "zip": "19944"
   },
@@ -1349,6 +1365,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Jimmys Kitchen The House Of Chipped Beef",
    "zip": "19944"
   },
@@ -1420,6 +1437,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "JRs Seafood Shack - Fenwick",
    "zip": "19944"
   },
@@ -1443,6 +1461,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Kohr Bros Frozen Custard - Kohr Bros Inc - #3",
    "zip": "19944"
   },
@@ -1544,6 +1563,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Mancinis Brick Oven",
    "zip": "19944"
   },
@@ -1595,6 +1615,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Matteos Salsa Loco (Closed)",
    "zip": "19944"
   },
@@ -1674,6 +1695,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Matts Fish Camp Fenwick - SoDel Concepts II LLC",
    "zip": "19944"
   },
@@ -1705,6 +1727,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Nantuckets",
    "zip": "19944"
   },
@@ -1750,6 +1773,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Ocean Side Pizza and Subs",
    "zip": "19944"
   },
@@ -1799,6 +1823,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "One Coastal",
    "zip": "19944"
   },
@@ -1862,6 +1887,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Our Harvest",
    "zip": "19944"
   },
@@ -1911,6 +1937,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Royal Farms #044",
    "zip": "19944"
   },
@@ -1972,6 +1999,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Rusty Jimmies Crabs & Seafood Market",
    "zip": "19944"
   },
@@ -1991,6 +2019,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Surf Bagel Fenwick - Surf Bagel Holdings LLC - #S",
    "zip": "19944"
   },
@@ -2022,6 +2051,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Surfs Edge Deli and Pizzeria",
    "zip": "19944"
   },
@@ -2091,6 +2121,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Station",
    "zip": "19944"
   },
@@ -2172,6 +2203,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Twilleys Hot Dog Hut LLC",
    "zip": "19944"
   },
@@ -2199,6 +2231,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Yuzu Sushi FI",
    "zip": "19944"
   }

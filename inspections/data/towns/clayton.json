@@ -1,7 +1,7 @@
 {
  "establishments": [
   {
-   "address": "5562 Judith Road",
+   "address": null,
    "city": "Clayton",
    "id": "ead5455344",
    "inspections": [
@@ -20,8 +20,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Bylers Donuts (MOB) LLC",
-   "zip": "19938"
+   "zip": null
   },
   {
    "address": "510 West Main Street",
@@ -43,6 +44,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Clayton Elementary School",
    "zip": "19938"
   },
@@ -76,6 +78,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Clayton Intermediate School",
    "zip": "19938"
   },
@@ -103,6 +106,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Clayton Vfc",
    "zip": "19938"
   },
@@ -132,6 +136,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "First State Military Academy",
    "zip": "19938"
   },
@@ -239,6 +244,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Jacks on Main",
    "zip": "19938"
   },
@@ -386,6 +392,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Kees Cookie & Cupcakes",
    "zip": "19938"
   },
@@ -461,6 +468,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Providence Creek Academy",
    "zip": "19938"
   },
@@ -560,6 +568,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "Turna Inc / Stellas Pizza and Grill",
    "zip": "19938"
   }

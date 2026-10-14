@@ -26,6 +26,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Kellys Tavern",
    "zip": "19731"
   },
@@ -63,6 +64,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Mommas Nashville Kitchen - Lofton Enterprise Grou",
    "zip": "19731"
   }

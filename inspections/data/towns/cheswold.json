@@ -30,6 +30,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dominos Pizza (Closed)",
    "zip": "19901"
   },
@@ -53,6 +54,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dsta",
    "zip": "19936"
   },
@@ -164,6 +166,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Polisenos Pizzeria",
    "zip": "19936"
   },
@@ -223,6 +226,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Shore Stop #232",
    "zip": "19901"
   }

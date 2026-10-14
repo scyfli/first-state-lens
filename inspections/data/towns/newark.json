@@ -16,6 +16,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "7-Eleven",
    "zip": "19713"
   },
@@ -77,6 +78,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "7-eleven #40122h",
    "zip": "19702"
   },
@@ -114,6 +116,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "7-Eleven 11284D",
    "zip": "19711"
   },
@@ -137,6 +140,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "7-eleven Store #36871a",
    "zip": "19711"
   },
@@ -156,6 +160,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Acme Market Store - Albertsons Companies Inc -",
    "zip": "19711"
   },
@@ -175,11 +180,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Acme Market Store - Albertsons Companies Inc - #",
    "zip": "19702"
   },
   {
-   "address": "132 Christiana Mall",
+   "address": null,
    "city": "Newark",
    "id": "74a51c11d0",
    "inspections": [
@@ -194,8 +200,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Aguas Frescas Pa-ty (MOB)",
-   "zip": "19702"
+   "zip": null
   },
   {
    "address": "200 Gbc Drive",
@@ -213,6 +220,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Air Liquide Innovation Campus Delaware Cafeteria",
    "zip": "19702"
   },
@@ -274,6 +282,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Ali Baba Middle Eastern Restaurant Inc",
    "zip": "19711"
   },
@@ -357,6 +366,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Amalfi Pizza",
    "zip": "19711"
   },
@@ -411,6 +421,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Amore Pizza Deli",
    "zip": "19702"
   },
@@ -452,6 +463,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "APPLEBEES NEIGHBORHOOD BAR & GRILL - APPLE DELAWA",
    "zip": "19702"
   },
@@ -480,6 +492,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "APPLEBEES NEIGHBORHOOD BAR & GRILL - APPLE DELAWA",
    "zip": "19713"
   },
@@ -513,6 +526,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "APPLEBEES NEIGHBORHOOD BAR & GRILL - APPLE DELAWA",
    "zip": "19713"
   },
@@ -615,6 +629,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Arabic House Restaurant",
    "zip": "19713"
   },
@@ -634,6 +649,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Arbys - ACW Corporation dba Arbys- #6704",
    "zip": "19702"
   },
@@ -653,6 +669,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Archies Pizza",
    "zip": "19702"
   },
@@ -681,6 +698,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Argilla Brewing Co @ Pietros Pizza",
    "zip": "19711"
   },
@@ -741,6 +759,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Asian Noodle House Inc",
    "zip": "19713"
   },
@@ -760,6 +779,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "ASTRAZENECA PHARMACUETICALS - Compass Group USA In",
    "zip": "19702"
   },
@@ -837,6 +857,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Atexcac Restaurant- Marrows Road",
    "zip": "19713"
   },
@@ -922,6 +943,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Atexquita Mexican Grill LLC",
    "zip": "19711"
   },
@@ -955,6 +977,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Auntie Annes - TNT Twist Inc - #DE-112",
    "zip": "19702"
   },
@@ -974,6 +997,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Auntie Annes Food Court - TNT Twist Inc - #DE-105",
    "zip": "19702"
   },
@@ -1027,6 +1051,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Babs Hot Chicken - M2O Group",
    "zip": "19711"
   },
@@ -1090,6 +1115,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Bagelmania",
    "zip": "19711"
   },
@@ -1128,6 +1154,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Bagels and Boba Cafe - Bagel & Boba Cafe",
    "zip": "19702"
   },
@@ -1173,11 +1200,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Bahama Breeze #3049 (Closed)",
    "zip": "19702"
   },
   {
-   "address": "4028 Rose Tree Lane",
+   "address": null,
    "city": "Newark",
    "id": "14ee3cf7b7",
    "inspections": [
@@ -1192,8 +1220,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Baileys Dawgs Battery Park Mobile (MOB)",
-   "zip": "19702"
+   "zip": null
   },
   {
    "address": "17 N Chapel Street",
@@ -1215,6 +1244,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Balboa Steaks - M2O Group",
    "zip": "19711"
   },
@@ -1290,6 +1320,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Banh Mi Boy TNK LLC",
    "zip": "19711"
   },
@@ -1345,6 +1376,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Banh Mi Vans",
    "zip": "19702"
   },
@@ -1430,6 +1462,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Banh-mi Boy (Closed)",
    "zip": "19711"
   },
@@ -1449,6 +1482,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Barnes & Noble Booksellers Inc #2366",
    "zip": "19702"
   },
@@ -1468,6 +1502,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "bbq Chicken VP",
    "zip": "19711"
   },
@@ -1495,6 +1530,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "BBQ Unlimited",
    "zip": "19711"
   },
@@ -1514,6 +1550,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Berry Sweet Cafe",
    "zip": "19713"
   },
@@ -1533,6 +1570,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Bertuccis - Bertuccis Restaurants LLC - #Bert10",
    "zip": "19711"
   },
@@ -1594,6 +1632,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Big Z Pizza",
    "zip": "19711"
   },
@@ -1617,6 +1656,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Bings Bake & Brew",
    "zip": "19711"
   },
@@ -1646,6 +1686,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Biryani City",
    "zip": "19702"
   },
@@ -1701,6 +1742,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "BJs Wholesale Club - BJs Wholesale Club Inc",
    "zip": "19713"
   },
@@ -1720,6 +1762,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Bob Carpenter Center Concessions - Aramark Corp Un",
    "zip": "19716"
   },
@@ -1803,6 +1846,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Bob Evans Restaurant #310 - Bob Evans Restaurants",
    "zip": "19702"
   },
@@ -1848,6 +1892,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Bonchon Chicken",
    "zip": "19711"
   },
@@ -1975,6 +2020,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Boston Market - Newark Rotisserie LLC",
    "zip": "19702"
   },
@@ -2010,6 +2056,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Brew Ha Ha -Lobby - CCHS",
    "zip": "19713"
   },
@@ -2047,6 +2094,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Brew HaHa! - Brew HaHa! Inc - #Christiana East",
    "zip": "19718"
   },
@@ -2076,6 +2124,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Brew HaHa! - Brew HaHa! Inc - #Newark",
    "zip": "19711"
   },
@@ -2141,6 +2190,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Brio (Closed)",
    "zip": "19702"
   },
@@ -2210,6 +2260,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Brookside Deli & Convenience LLC",
    "zip": "19713"
   },
@@ -2229,6 +2280,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Brookside Elementary School",
    "zip": "19713"
   },
@@ -2248,6 +2300,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Buffalo Wild Wings - High 5 Hospitality LLC - #34",
    "zip": "19711"
   },
@@ -2271,6 +2324,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Buffalo Wild Wings - High 5 Hospitality LLC - #38",
    "zip": "19713"
   },
@@ -2300,6 +2354,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Burger King - Applegreen DE Welcome Centres LLC",
    "zip": "19702"
   },
@@ -2329,6 +2384,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Burger King - Rackson Restaurants LLC - #12351",
    "zip": "19702"
   },
@@ -2353,6 +2409,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Cafeneo",
    "zip": "19711"
   },
@@ -2429,6 +2486,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Caffe Gelato",
    "zip": "19711"
   },
@@ -2457,6 +2515,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Caf� 67",
    "zip": "19711"
   },
@@ -2480,6 +2539,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Capriottis DE003",
    "zip": "19711"
   },
@@ -2499,6 +2559,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "CAPRIOTTIS HARMONY PLAZA - BON INC - #NEWARK- DE09",
    "zip": "19713"
   },
@@ -2575,6 +2636,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Captains Crabhouse and Seafood",
    "zip": "19711"
   },
@@ -2677,6 +2739,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Casa Kahlo Mexican Grill & Bar",
    "zip": "19711"
   },
@@ -2724,6 +2787,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Casapullas Subs Steaks & Deli",
    "zip": "19702"
   },
@@ -2795,6 +2859,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Catch 45 LLC",
    "zip": "19711"
   },
@@ -2814,6 +2879,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "CAVA Newark - CAVA MEZZE GRILL LLC - #10163",
    "zip": "19702"
   },
@@ -2848,6 +2914,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Charleys Philly Steaks",
    "zip": "19702"
   },
@@ -2881,6 +2948,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Cheddars Scratch Kitchen Wilmington - Darden Rest",
    "zip": "19713"
   },
@@ -2914,6 +2982,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Chick-fil-a",
    "zip": "19702"
   },
@@ -2933,6 +3002,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Chilis Grill and Bar",
    "zip": "19702"
   },
@@ -2979,6 +3049,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Chilis Restaurant (Closed)",
    "zip": "19702"
   },
@@ -3057,6 +3128,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "China Garden",
    "zip": "19713"
   },
@@ -3076,6 +3148,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Chipotle Mexican Grill #1540 - Main St Newark",
    "zip": "19711"
   },
@@ -3099,6 +3172,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Chipotle Mexican Grill #3234 - Newark",
    "zip": "19703"
   },
@@ -3150,6 +3224,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Chiwa Bistro",
    "zip": "19702"
   },
@@ -3173,6 +3248,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Christ The Teacher Catholic School",
    "zip": "19702"
   },
@@ -3192,6 +3268,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Christiana Care Health Svcs-hospital Dietary (Clos",
    "zip": "19718"
   },
@@ -3211,6 +3288,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Christiana Care Women & Infants Tower (Closed)",
    "zip": "19713"
   },
@@ -3240,6 +3318,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Christiana H S School - North g",
    "zip": "19713"
   },
@@ -3279,6 +3358,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Christiana High School South h",
    "zip": "19713"
   },
@@ -3302,6 +3382,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Christiana Hospital - Sodexo Inc",
    "zip": "19718"
   },
@@ -3353,6 +3434,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Christiana Pub",
    "zip": "19702"
   },
@@ -3404,6 +3486,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Christiana Seasons Pizza & Restaurant Inc - Seaso",
    "zip": "19713"
   },
@@ -3423,6 +3506,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Christiana Shell",
    "zip": "19713"
   },
@@ -3446,6 +3530,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Christiana Skating Center",
    "zip": "19713"
   },
@@ -3505,6 +3590,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Ciao Italian Grill & Pizzeria",
    "zip": "19702"
   },
@@ -3546,6 +3632,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Cinemark Movie Theater",
    "zip": "19702"
   },
@@ -3565,6 +3652,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Cinnabon - Applegreen DE Welcome Centres LLC",
    "zip": "19702"
   },
@@ -3755,6 +3843,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Cinnabon/Carvel",
    "zip": "19702"
   },
@@ -3805,6 +3894,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "Citi Bank - White Clay",
    "zip": "19711"
   },
@@ -3828,6 +3918,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Claymont Steak Shop - Claymont Steak Shop inc -",
    "zip": "19711"
   },
@@ -3873,6 +3964,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Cold Stone Creamery",
    "zip": "19711"
   },
@@ -3892,6 +3984,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Coldstone Creamery #21174",
    "zip": "19702"
   },
@@ -3911,6 +4004,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Comma Cafe",
    "zip": "19711"
   },
@@ -3930,6 +4024,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Country Maid",
    "zip": "19702"
   },
@@ -3980,6 +4075,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Country Maid Deli Mini Mart & Grill",
    "zip": "19713"
   },
@@ -4029,6 +4125,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Cousins Burger",
    "zip": "19711"
   },
@@ -4168,6 +4265,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Crab Du Jour",
    "zip": "19713"
   },
@@ -4187,6 +4285,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Crepe Delicious",
    "zip": "19702"
   },
@@ -4301,6 +4400,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Crumbl Cookies",
    "zip": "19702"
   },
@@ -4320,6 +4420,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "CS Brazilian Steakhouse",
    "zip": "19702"
   },
@@ -4399,6 +4500,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "D&h Jamaican Cuisine",
    "zip": "19713"
   },
@@ -4418,6 +4520,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dairy Queen - Newark - Fisk Jordan Enterprises LLC",
    "zip": "19713"
   },
@@ -4445,6 +4548,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Deerfield Golf Club - Deerfields Pub & Grille - T",
    "zip": "19711"
   },
@@ -4468,6 +4572,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Deerhead Hot Dogs",
    "zip": "19713"
   },
@@ -4517,6 +4622,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Del Pez Mexican Gastropub- Grove Ln",
    "zip": "19711"
   },
@@ -4540,6 +4646,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Del Tech Culinary Arts Kitchen (Closed)",
    "zip": "19713"
   },
@@ -4559,6 +4666,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Delaware Saengerbund",
    "zip": "19713"
   },
@@ -4596,6 +4704,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Delaware Tech Cafeteria-stanton (Closed)",
    "zip": "19713"
   },
@@ -4615,6 +4724,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Delaware Technical Culinary Arts - DTCC Stanton Ca",
    "zip": "19713"
   },
@@ -4644,6 +4754,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Deli Stop",
    "zip": "19702"
   },
@@ -4681,6 +4792,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Desserts By Dana",
    "zip": "19711"
   },
@@ -4732,6 +4844,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dickeys Barbeque Pit - Powers V BBq LLC",
    "zip": "19702"
   },
@@ -4755,6 +4868,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dodahs Kitchen (Closed)",
    "zip": "19711"
   },
@@ -4778,6 +4892,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "DominickG��s Pizza - Hot Spot Naamans Inc - #105",
    "zip": "19702"
   },
@@ -4801,6 +4916,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dominick�s Pizza - Hot Spot Naamans Inc - #105",
    "zip": "19702"
   },
@@ -4830,6 +4946,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "DOMINOS - PENN STREET PIZZA INC - #4402",
    "zip": "19711"
   },
@@ -4872,6 +4989,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "DOMINOS - PENN STREET PIZZA INC - #4403",
    "zip": "19702"
   },
@@ -4921,6 +5039,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "DOMINOS - PENN STREET PIZZA INC - #4405",
    "zip": "19713"
   },
@@ -4953,6 +5072,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "DP Dough",
    "zip": "19711"
   },
@@ -4986,6 +5106,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dragon City Chinese Restraunt - DRAGON CITY",
    "zip": "19713"
   },
@@ -5014,6 +5135,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Drip Cafe - Newark - Drip Cafe LLC",
    "zip": "19713"
   },
@@ -5063,6 +5185,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dunkin",
    "zip": "19711"
   },
@@ -5082,6 +5205,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "DUNKIN - AARK NETWORK - #342065",
    "zip": "19711"
   },
@@ -5123,6 +5247,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "DUNKIN - AARK NETWORK - #365713",
    "zip": "19713"
   },
@@ -5142,6 +5267,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dunkin - Newark Four Seasons Parkway",
    "zip": "19702"
   },
@@ -5171,6 +5297,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dunkin - The Metroform Group Inc - #340803",
    "zip": "19713"
   },
@@ -5251,6 +5378,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dunkin - The Metroform Group Inc - #344042",
    "zip": "19713"
   },
@@ -5280,6 +5408,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dunkin - The Metroform Group Inc - #358740",
    "zip": "19702"
   },
@@ -5299,6 +5428,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dunkin Donuts",
    "zip": "19711"
   },
@@ -5341,6 +5471,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dunkin Donuts - 2462 Pulaski - DE Donuts II LLC -",
    "zip": "19702"
   },
@@ -5378,6 +5509,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dunkin Donuts - Applegreen DE Welcome Centres LLC",
    "zip": "19702"
   },
@@ -5407,6 +5539,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dunkin Donuts - Salem Village - DE Donuts LLC - #",
    "zip": "19713"
   },
@@ -5426,6 +5559,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Early Education Center - the Center",
    "zip": "19713"
   },
@@ -5481,6 +5615,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Eggspectation - High 5 Hospitality LLC - #2301",
    "zip": "19713"
   },
@@ -5528,6 +5663,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "El Diablo Burritos - Trolley Square Burritos LLC",
    "zip": "19711"
   },
@@ -5623,6 +5759,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "El Jefe Restaurant & Bar",
    "zip": "19711"
   },
@@ -5664,6 +5801,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "El Mercadito Mexican Grocery",
    "zip": "19713"
   },
@@ -5688,6 +5826,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Elizabeth R Maclary Ele School",
    "zip": "19711"
   },
@@ -5741,11 +5880,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Empire",
    "zip": "19702"
   },
   {
-   "address": "4 Toronto Circle",
+   "address": null,
    "city": "Newark",
    "id": "4b6825433c",
    "inspections": [
@@ -5760,8 +5900,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Enniss BBQ (MOB)",
-   "zip": "19702"
+   "zip": null
   },
   {
    "address": "205 Executive Drive",
@@ -5779,6 +5920,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Executive Banquet And Conference Center",
    "zip": "19702"
   },
@@ -5826,6 +5968,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Ez Mart & Tobacco",
    "zip": "19711"
   },
@@ -5845,6 +5988,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Faith City Family Church",
    "zip": "19702"
   },
@@ -5864,6 +6008,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Fajitas Y Tequillas (Closed)",
    "zip": "19702"
   },
@@ -5893,6 +6038,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Farm-A-Sea Bistro & Crafthouse",
    "zip": "19702"
   },
@@ -5928,6 +6074,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Fiesta Maya",
    "zip": "19713"
   },
@@ -5988,6 +6135,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "FIREBIRDS WOOD FIRED GRILL - FIREBIRDS OF WILMINGT",
    "zip": "19713"
   },
@@ -6075,6 +6223,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "First Watch #0255 - Geoffrey Drive Newark",
    "zip": "19713"
   },
@@ -6107,6 +6256,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "First Watch #1012 - Grove Lane Newark",
    "zip": "19711"
   },
@@ -6130,6 +6280,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Five Guys Burgers & Fries - Rockham 5G PA LLC - #D",
    "zip": "19702"
   },
@@ -6163,6 +6314,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Food Bank of Delaware",
    "zip": "19702"
   },
@@ -6206,6 +6358,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Founding Brothers Restaurant and Pub - M2O Group",
    "zip": "19711"
   },
@@ -6229,6 +6382,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Fresh To Go (Closed)",
    "zip": "19713"
   },
@@ -6279,6 +6433,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Friendlys - Peoples Plazza - RRC Restaurants",
    "zip": "19702"
   },
@@ -6298,6 +6453,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Fry Box - Aramark Corp University of Delawaware",
    "zip": "19716"
   },
@@ -6327,11 +6483,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Game Changers",
    "zip": "19702"
   },
   {
-   "address": "10 Elizabeth Court",
+   "address": null,
    "city": "Newark",
    "id": "96590fd76a",
    "inspections": [
@@ -6346,8 +6503,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Gastro Graffiti (MOB)",
-   "zip": "19711"
+   "zip": null
   },
   {
    "address": "50 Gender Rd",
@@ -6365,6 +6523,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Gauger-cobbs Middle School",
    "zip": "19713"
   },
@@ -6384,6 +6543,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "George V Kirk Middle School",
    "zip": "19713"
   },
@@ -6413,6 +6573,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Glasgow Ave Dash In - Dash In Food Stores Inc - #",
    "zip": "19702"
   },
@@ -6464,6 +6625,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Golden City Chinese Restaurant",
    "zip": "19702"
   },
@@ -6499,6 +6661,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Golden Palace Chinese Restaurant",
    "zip": "19711"
   },
@@ -6563,6 +6726,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Grain Exchange",
    "zip": "19713"
   },
@@ -6679,6 +6843,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "Great Wall",
    "zip": "19713"
   },
@@ -6738,6 +6903,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Greene Turtle - Pusan TGT - Newark",
    "zip": "19702"
   },
@@ -6757,6 +6923,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Grotto Pizza #203 - Newark",
    "zip": "19711"
   },
@@ -6910,6 +7077,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Guildays Family Restaurant",
    "zip": "19702"
   },
@@ -6975,11 +7143,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Gyro Every Day",
    "zip": "19713"
   },
   {
-   "address": "34 Robert Oakes",
+   "address": null,
    "city": "Newark",
    "id": "ef6ee2f8c1",
    "inspections": [
@@ -7002,8 +7171,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Gyro Everyday LLC (MOB)",
-   "zip": "19713"
+   "zip": null
   },
   {
    "address": "1142 Christiana Rd",
@@ -7031,6 +7201,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Gyro Kabob House",
    "zip": "19713"
   },
@@ -7050,6 +7221,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Gyro King",
    "zip": "19713"
   },
@@ -7069,6 +7241,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Halal Food Junction (Closed)",
    "zip": "19702"
   },
@@ -7097,6 +7270,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Halal Gyro Kabob House",
    "zip": "19711"
   },
@@ -7155,6 +7329,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Happy Quesadilla",
    "zip": "19711"
   },
@@ -7174,6 +7349,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hermans Since 1967 - Hermans Quality Meat Shoppe",
    "zip": "19711"
   },
@@ -7201,6 +7377,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hibachi Express",
    "zip": "19713"
   },
@@ -7265,6 +7442,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hilton Wilmington-Christiana - MJ Wilmington Hotel",
    "zip": "19713"
   },
@@ -7288,6 +7466,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hissho Sushi @ Christiana Care Hospital",
    "zip": "19718"
   },
@@ -7307,6 +7486,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hissho Sushi @ Food Lion #2230",
    "zip": "19711"
   },
@@ -7330,6 +7510,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hodgson Vo-tech Hs-student Kitchen",
    "zip": "19702"
   },
@@ -7353,6 +7534,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Holiday Inn Express & Suites Hotel",
    "zip": "19713"
   },
@@ -7384,6 +7566,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Holy Angels School",
    "zip": "19711"
   },
@@ -7403,6 +7586,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Holy Family Church",
    "zip": "19713"
   },
@@ -7422,6 +7606,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Home Grown Cafe",
    "zip": "19711"
   },
@@ -7465,6 +7650,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Homewood Suites Newark/wilm S",
    "zip": "19713"
   },
@@ -7488,6 +7674,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Honeygrow",
    "zip": "19702"
   },
@@ -7507,6 +7694,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Honeygrow",
    "zip": "19711"
   },
@@ -7542,6 +7730,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hooters Restaurant",
    "zip": "19711"
   },
@@ -7585,6 +7774,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Horace Shellhammers",
    "zip": "19711"
   },
@@ -7660,6 +7850,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hot Spot Pizza - Hot Spot Naamans Inc - #102",
    "zip": "19713"
   },
@@ -7716,6 +7907,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "House of Biryanis and Kebabs",
    "zip": "19711"
   },
@@ -7777,6 +7969,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hsiang K",
    "zip": "19711"
   },
@@ -7836,6 +8029,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hung Voung Food Market",
    "zip": "19702"
   },
@@ -7863,6 +8057,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hyatt Place Newark",
    "zip": "19711"
   },
@@ -7971,6 +8166,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Ichiban Hibachi and Sushi",
    "zip": "19711"
   },
@@ -7990,6 +8186,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "IHOP - Chenega IH LLC - #2127/502",
    "zip": "19711"
   },
@@ -8013,6 +8210,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Indian Hut Curry and Cakes",
    "zip": "19713"
   },
@@ -8036,6 +8234,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Indian Hut Curry And Cakes (Closed)",
    "zip": "19713"
   },
@@ -8073,6 +8272,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "Indian Sizzler",
    "zip": "19711"
   },
@@ -8096,6 +8296,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Injest Event (FE)",
    "zip": "19711"
   },
@@ -8119,6 +8320,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Insomnia Cookies",
    "zip": "19711"
   },
@@ -8181,6 +8383,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Instanbul Grill",
    "zip": "19713"
   },
@@ -8200,6 +8403,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Iron Hill - Compass Group USA Inc",
    "zip": "19713"
   },
@@ -8224,11 +8428,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Iron Hill Brewery & Restaurant (Closed)",
    "zip": "19711"
   },
   {
-   "address": "202 Northbend Court",
+   "address": null,
    "city": "Newark",
    "id": "859e74f8f4",
    "inspections": [
@@ -8243,8 +8448,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Isla Cafe LLC (mob)",
-   "zip": "19702"
+   "zip": null
   },
   {
    "address": "250 South Main Street Suite 110",
@@ -8276,6 +8482,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Jakes Way Back Burgers",
    "zip": "19711"
   },
@@ -8346,6 +8553,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Jersey Mikes",
    "zip": "19711"
   },
@@ -8369,6 +8577,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Jersey Mikes Subs - High 5 Hospitality LLC - #35",
    "zip": "19711"
   },
@@ -8424,6 +8633,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Jersey Mikes Subs - High 5 Hospitality LLC - #35",
    "zip": "19702"
   },
@@ -8443,6 +8653,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Jimmy Johns",
    "zip": "19713"
   },
@@ -8467,6 +8678,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "John R Downes School",
    "zip": "19711"
   },
@@ -8491,6 +8703,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Joseph Mcvey Elem School",
    "zip": "19713"
   },
@@ -8558,6 +8771,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Joses Border Cafe",
    "zip": "19713"
   },
@@ -8723,6 +8937,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Joy Garden",
    "zip": "19711"
   },
@@ -8790,6 +9005,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Joy Luck Restaurant",
    "zip": "19702"
   },
@@ -8852,6 +9068,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Just Doner & Kebab",
    "zip": "19711"
   },
@@ -8894,6 +9111,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "K-pot Korean BBQ & Hot Pot",
    "zip": "19713"
   },
@@ -9044,6 +9262,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Kanji Noodle Bar",
    "zip": "19713"
   },
@@ -9191,6 +9410,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Kcs Pizza",
    "zip": "19702"
   },
@@ -9210,6 +9430,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Kingswood U M C Kitchen",
    "zip": "19713"
   },
@@ -9229,6 +9450,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Klondike Kates",
    "zip": "19711"
   },
@@ -9256,11 +9478,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Korean Bbq Restaurant - IN SOOK KIM",
    "zip": "19711"
   },
   {
-   "address": "8 Spinet Road",
+   "address": null,
    "city": "Newark",
    "id": "23b857d013",
    "inspections": [
@@ -9275,8 +9498,9 @@
      "violations": []
     }
    ],
+   "mobile": true,
    "name": "Krys Soul Kreations (MOB)",
-   "zip": "19713"
+   "zip": null
   },
   {
    "address": "93 East Main Street",
@@ -9294,6 +9518,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Kung Fu Tea",
    "zip": "19711"
   },
@@ -9441,6 +9666,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Kungfu Hot Pot",
    "zip": "19711"
   },
@@ -9468,6 +9694,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "La Bonita Fresh 2 Go Food Market",
    "zip": "19713"
   },
@@ -9550,6 +9777,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "La Camarona Seafood",
    "zip": "19711"
   },
@@ -9569,6 +9797,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "La Casa Pasta Restaurant",
    "zip": "19702"
   },
@@ -9592,11 +9821,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "La Favorita",
    "zip": "19713"
   },
   {
-   "address": "130 Troubador Way",
+   "address": null,
    "city": "Newark",
    "id": "80fa438cea",
    "inspections": [
@@ -9621,8 +9851,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "La Jarochita Mexican Food LLC (MOB)",
-   "zip": "19702"
+   "zip": null
   },
   {
    "address": "1237 Churchmans Rd",
@@ -9754,6 +9985,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "La Tonalteca- Churchmans Road",
    "zip": "19713"
   },
@@ -9789,6 +10021,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Landing Cafe by Amity Bistro",
    "zip": "19713"
   },
@@ -9828,6 +10061,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Las Americas ASPIRA High School",
    "zip": "19713"
   },
@@ -9866,6 +10100,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Little Spice Indian Cuisine",
    "zip": "19713"
   },
@@ -9889,6 +10124,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Little Teriyaki",
    "zip": "19711"
   },
@@ -9922,6 +10158,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Local 1183 Uaw-main Kitchen",
    "zip": "19702"
   },
@@ -9979,6 +10216,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Long Bao and Noodles Express (Closed)",
    "zip": "19711"
   },
@@ -10033,11 +10271,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Lulus Tacos",
    "zip": "19711"
   },
   {
-   "address": "310 Glasgow Drive",
+   "address": null,
    "city": "Newark",
    "id": "62d5ac34a6",
    "inspections": [
@@ -10188,8 +10427,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Machete Mobile (mob)",
-   "zip": "19702"
+   "zip": null
   },
   {
    "address": "501 Christiana Mall",
@@ -10207,6 +10447,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Macys Starbucks",
    "zip": "19702"
   },
@@ -10234,6 +10475,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Mad Macs",
    "zip": "19713"
   },
@@ -10286,6 +10528,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Maharaja Indian Cuisine (Closed)",
    "zip": "19711"
   },
@@ -10315,6 +10558,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Main Event Entertainment",
    "zip": "19702"
   },
@@ -10344,6 +10588,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Main Street Movies 5",
    "zip": "19711"
   },
@@ -10418,6 +10663,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Malins Deli",
    "zip": "19713"
   },
@@ -10450,6 +10696,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Margherita Pizza",
    "zip": "19711"
   },
@@ -10488,6 +10735,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Marios Pizza Halal",
    "zip": "19713"
   },
@@ -10529,6 +10777,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Marriott Courtyard",
    "zip": "19716"
   },
@@ -10580,6 +10829,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Master Wok",
    "zip": "19702"
   },
@@ -10607,6 +10857,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Maui Poke Bowl (Closed)",
    "zip": "19713"
   },
@@ -10636,6 +10887,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "May B Leasure School",
    "zip": "19702"
   },
@@ -10712,6 +10964,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Mcglynns Peoples Plazza - Ashby INC - #106",
    "zip": "19702"
   },
@@ -10746,6 +10999,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Metro Diner - Newark - MD PA-S Jersey LLC - #MD40",
    "zip": "19713"
   },
@@ -10803,6 +11057,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Mi Ranchito Mexican Store (Closed)",
    "zip": "19711"
   },
@@ -10846,6 +11101,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Mikes Famous Steaks and Subs - ELFL LLC",
    "zip": "19713"
   },
@@ -10865,6 +11121,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Millers Ale House",
    "zip": "19713"
   },
@@ -10958,6 +11215,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Ming Kitchen",
    "zip": "19713"
   },
@@ -11114,6 +11372,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "Misfits Convenience Store",
    "zip": "19711"
   },
@@ -11147,6 +11406,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "MM Dessert Inc",
    "zip": "19711"
   },
@@ -11171,6 +11431,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Mochinut",
    "zip": "19711"
   },
@@ -11199,6 +11460,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "Moon Star Bakery",
    "zip": "19713"
   },
@@ -11258,6 +11520,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Morelia Mexican Restaurant & Bar",
    "zip": "19713"
   },
@@ -11291,6 +11554,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Mr Wish",
    "zip": "19702"
   },
@@ -11310,6 +11574,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Mrs Fields/tcby",
    "zip": "19702"
   },
@@ -11337,6 +11602,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Nan Xiang Soup Dumpling",
    "zip": "19713"
   },
@@ -11356,6 +11622,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Nanus Hot Chicken",
    "zip": "19711"
   },
@@ -11393,6 +11660,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Natural House Bakery Section",
    "zip": "19711"
   },
@@ -11481,6 +11749,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Natural House Seafood Section",
    "zip": "19711"
   },
@@ -11516,6 +11785,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "NCC Clubhouse - Newark Country Club",
    "zip": "19711"
   },
@@ -11555,6 +11825,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "New #1 China Restaurant",
    "zip": "19711"
   },
@@ -11620,6 +11891,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Newark Deli & Bagels",
    "zip": "19711"
   },
@@ -11639,6 +11911,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Newark H S Cafeteria D-wing",
    "zip": "19711"
   },
@@ -11658,6 +11931,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Newark Nutrition",
    "zip": "19711"
   },
@@ -11689,6 +11963,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Newark Sunoco",
    "zip": "19711"
   },
@@ -11763,6 +12038,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Nick & Joes Pizza",
    "zip": "19711"
   },
@@ -11810,6 +12086,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Nifty Fiftys - NF Restaurant Franchise LLC",
    "zip": "19711"
   },
@@ -11854,6 +12131,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "No 1 Chinese Restaurant",
    "zip": "19711"
   },
@@ -11873,6 +12151,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Nordstrom Grill (Closed)",
    "zip": "19702"
   },
@@ -11892,6 +12171,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Nothing Bundt Cakes #486",
    "zip": "19713"
   },
@@ -11921,6 +12201,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "NYC Gyro and Kebab (Closed)",
    "zip": "19713"
   },
@@ -11990,6 +12271,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Oishi Ocean Japanese & Cajun Seafood - Oishii Ocea",
    "zip": "19711"
   },
@@ -12071,6 +12353,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Oishii Sushi Fu Inc",
    "zip": "19711"
   },
@@ -12103,11 +12386,12 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "Ole Tapas Lounge",
    "zip": "19711"
   },
   {
-   "address": "5 Stirling Drive",
+   "address": null,
    "city": "Newark",
    "id": "fc481a3618",
    "inspections": [
@@ -12132,8 +12416,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "OMY BBQ LLC (MOB)",
-   "zip": "19702"
+   "zip": null
   },
   {
    "address": "776 Old Baltimore Pike",
@@ -12169,6 +12454,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "On The Rocks",
    "zip": "19702"
   },
@@ -12198,6 +12484,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "One Stop Tobacco Outlet & Market",
    "zip": "19702"
   },
@@ -12231,6 +12518,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Outback Steakhouse",
    "zip": "19711"
   },
@@ -12284,6 +12572,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Overbaked Cafe",
    "zip": "19711"
   },
@@ -12308,6 +12597,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pamelas Gourmet",
    "zip": "19711"
   },
@@ -12343,6 +12633,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Panaderia Y Taqueria Lili",
    "zip": "19711"
   },
@@ -12394,6 +12685,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Panda Express - Applegreen DE Welcome Centres LLC",
    "zip": "19702"
   },
@@ -12444,6 +12736,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Panda King",
    "zip": "19711"
   },
@@ -12481,6 +12774,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Papa Johns",
    "zip": "19711"
   },
@@ -12520,6 +12814,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Papa Johns",
    "zip": "19713"
   },
@@ -12577,6 +12872,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Papa Johns- Peoples Plaza",
    "zip": "19702"
   },
@@ -12669,6 +12965,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pats Pizzeria - Pats Pizzeria of Delaware",
    "zip": "19713"
   },
@@ -12696,6 +12993,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Peach Blossom Eatery",
    "zip": "19711"
   },
@@ -12790,6 +13088,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "People Plaza Buffet Inc",
    "zip": "19702"
   },
@@ -12817,6 +13116,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Perkins Restaurant",
    "zip": "19711"
   },
@@ -12845,6 +13145,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Perkins Student Center - Aramark Corp University o",
    "zip": "19716"
   },
@@ -12876,6 +13177,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "PF Changs China Bistro",
    "zip": "19702"
   },
@@ -12971,6 +13273,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pinang Asian Cuisine",
    "zip": "19711"
   },
@@ -13003,6 +13306,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pizzeria Mariana (FE)",
    "zip": "19711"
   },
@@ -13027,6 +13331,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Planet Smoothie",
    "zip": "19702"
   },
@@ -13050,6 +13355,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Plated Soul by Aunt Vonda - Heart Full of Soul LLC",
    "zip": "19713"
   },
@@ -13079,6 +13385,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Playa Bowls - Gee Bowls Inc",
    "zip": "19711"
   },
@@ -13138,6 +13445,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Popeyes Chicken & Biscuits",
    "zip": "19711"
   },
@@ -13165,6 +13473,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Potstickers Asian Grill",
    "zip": "19713"
   },
@@ -13184,6 +13493,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pret A Manager - Applegreen DE Welcome Centres LLC",
    "zip": "19702"
   },
@@ -13233,6 +13543,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "QB Friendship BBQ",
    "zip": "19711"
   },
@@ -13256,6 +13567,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Qdoba Mexican Restaurant - TIG Corp LLC - #1718",
    "zip": "19711"
   },
@@ -13275,6 +13587,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Qdoba Mexican Restaurant - TIG Corp LLC - #2986",
    "zip": "19702"
   },
@@ -13298,6 +13611,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Quality Inn Newark Delaware",
    "zip": "19713"
   },
@@ -13335,6 +13649,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Ramen Kumamoto Restaurant",
    "zip": "19711"
   },
@@ -13354,6 +13669,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Ravona Cafe",
    "zip": "19711"
   },
@@ -13373,6 +13689,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Real Fruit Bubble Tea",
    "zip": "19702"
   },
@@ -13404,6 +13721,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Red Bowl Restaurant",
    "zip": "19711"
   },
@@ -13423,6 +13741,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Red Lion Inn & Liquor Store",
    "zip": "19702"
   },
@@ -13460,6 +13779,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Red Robin 656",
    "zip": "19702"
   },
@@ -13479,6 +13799,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Red Robin 657",
    "zip": "19702"
   },
@@ -13508,6 +13829,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Robert S Gallaher Elem School",
    "zip": "19711"
   },
@@ -13623,6 +13945,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Rockford Center",
    "zip": "19713"
   },
@@ -13734,6 +14057,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Roohani Inc",
    "zip": "19713"
   },
@@ -13753,6 +14077,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Roots Natural Kitchen",
    "zip": "19711"
   },
@@ -13808,6 +14133,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Royal Farms #099",
    "zip": "19702"
   },
@@ -13831,6 +14157,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Royal Farms #160",
    "zip": "19702"
   },
@@ -13880,6 +14207,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Royal Farms #197",
    "zip": "19713"
   },
@@ -13923,6 +14251,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Ruby Thai",
    "zip": "19702"
   },
@@ -13956,6 +14285,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Rudys Pizza Italian Bistro",
    "zip": "19702"
   },
@@ -14029,6 +14359,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Safeway - Albertsons Companies Inc - #4030",
    "zip": "19702"
   },
@@ -14048,6 +14379,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sai Farmer Market",
    "zip": "19713"
   },
@@ -14084,6 +14416,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Saladworks",
    "zip": "19702"
   },
@@ -14103,6 +14436,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sallie Mae Kitchen",
    "zip": "19713"
   },
@@ -14140,6 +14474,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Samsons Country Maid",
    "zip": "19711"
   },
@@ -14198,6 +14533,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Santa Fe Mexican Grill - Main St",
    "zip": "19711"
   },
@@ -14283,6 +14619,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sapporo Soul Ramen",
    "zip": "19711"
   },
@@ -14354,6 +14691,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Seasons Pizza",
    "zip": "19711"
   },
@@ -14373,6 +14711,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Shahs Halal Food",
    "zip": "19713"
   },
@@ -14407,6 +14746,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Shake Shack",
    "zip": "19702"
   },
@@ -14430,6 +14770,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Shawarma House (Closed)",
    "zip": "19713"
   },
@@ -14454,6 +14795,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Shoprite Of Newark",
    "zip": "19713"
   },
@@ -14477,6 +14819,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "ShopRite- Four Seasons",
    "zip": "19702"
   },
@@ -14496,6 +14839,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Shore Stop #276 (Closed)",
    "zip": "19702"
   },
@@ -14545,6 +14889,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sinclairs Cafe",
    "zip": "19711"
   },
@@ -14564,6 +14909,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Skipjack Dining LLC",
    "zip": "19711"
   },
@@ -14853,6 +15199,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Smileys",
    "zip": "19713"
   },
@@ -14880,6 +15227,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Smoothie King",
    "zip": "19702"
   },
@@ -14939,6 +15287,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Snap Custom Pizza And Salad - SNAP HOLDINGS LLC",
    "zip": "19711"
   },
@@ -14962,6 +15311,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Snowfox - Safeway 4030",
    "zip": "19702"
   },
@@ -14981,6 +15331,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sodexo West End Cafe - Sodexo Inc (Closed)",
    "zip": "19718"
   },
@@ -15000,6 +15351,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sodexo Women and Childrens - Sodexo Inc",
    "zip": "19713"
   },
@@ -15019,6 +15371,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sonesta Select Newark (Closed)",
    "zip": "19713"
   },
@@ -15064,6 +15417,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Spring Hill Suites",
    "zip": "19711"
   },
@@ -15083,6 +15437,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "St Marys Coptic Orthodox Church",
    "zip": "19702"
   },
@@ -15110,6 +15465,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "St Pauls Luthern Church",
    "zip": "19713"
   },
@@ -15187,6 +15543,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Starbucks - Applegreen DE Welcome Centres LLC",
    "zip": "19702"
   },
@@ -15210,6 +15567,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Starbucks Coffee - Starbucks Corporation - #2947",
    "zip": "19702"
   },
@@ -15229,6 +15587,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Starbucks Coffee - Starbucks Corporation - #29984",
    "zip": "19702"
   },
@@ -15290,6 +15649,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Starbucks Coffee - Starbucks Corporation - #48025",
    "zip": "19702"
   },
@@ -15309,6 +15669,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Starbucks Coffee - Starbucks Corporation - #7789",
    "zip": "19711"
   },
@@ -15332,6 +15693,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Staybridge Suites Hotel",
    "zip": "19702"
   },
@@ -15351,6 +15713,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Subway",
    "zip": "19711"
   },
@@ -15395,6 +15758,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Suki Hana",
    "zip": "19702"
   },
@@ -15450,6 +15814,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Surreal Creamery",
    "zip": "19711"
   },
@@ -15553,6 +15918,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sushi Sumo - Sushi Sumo Inc",
    "zip": "19711"
   },
@@ -15592,11 +15958,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Taco Bell #038979 - Delaware Restaurants LLC",
    "zip": "19702"
   },
   {
-   "address": "17 Red Mill Road",
+   "address": null,
    "city": "Newark",
    "id": "fa58e5825e",
    "inspections": [
@@ -15627,11 +15994,12 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Tacos El Oso LLC (MOB)",
-   "zip": "19711"
+   "zip": null
   },
   {
-   "address": "21 Bastille Loop",
+   "address": null,
    "city": "Newark",
    "id": "3b9a7efa63",
    "inspections": [
@@ -15663,11 +16031,12 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Tacos La Palma (MOB)",
-   "zip": "19702"
+   "zip": null
   },
   {
-   "address": "42 Greenbridge Drive",
+   "address": null,
    "city": "Newark",
    "id": "5633c7aa96",
    "inspections": [
@@ -15727,8 +16096,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Tacos Zavala (MOB)",
-   "zip": "19713"
+   "zip": null
   },
   {
    "address": "2567 Kirkwood Highway",
@@ -15751,6 +16121,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "Taqueria Los Compadres - Taqueria Los Compadres LL",
    "zip": "19711"
   },
@@ -15770,6 +16141,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Target Store T-2764 Christiana De",
    "zip": "19702"
   },
@@ -15875,6 +16247,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Taste Of China LLC",
    "zip": "19711"
   },
@@ -16004,6 +16377,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Tastea 101",
    "zip": "19711"
   },
@@ -16058,6 +16432,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Taverna - Platinum Dining Group LLC",
    "zip": "19711"
   },
@@ -16203,6 +16578,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Tbaar - Tbaar LLC",
    "zip": "19711"
   },
@@ -16222,6 +16598,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Teds Montana Grill",
    "zip": "19702"
   },
@@ -16246,6 +16623,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Temple Beth El",
    "zip": "19711"
   },
@@ -16278,6 +16656,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "TGI Fridays (Closed)",
    "zip": "19713"
   },
@@ -16297,6 +16676,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "TGI Fridays- Newark",
    "zip": "19713"
   },
@@ -16343,6 +16723,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Bistro At Crossing",
    "zip": "19713"
   },
@@ -16492,6 +16873,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Blue Crab Grill",
    "zip": "19711"
   },
@@ -16521,6 +16903,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Cheesecake Factory",
    "zip": "19702"
   },
@@ -16587,6 +16970,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Chicken House Peruvian Cuisine-The Chicken Hou",
    "zip": "19711"
   },
@@ -16606,6 +16990,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Cut Bakes (CWOP)",
    "zip": "19711"
   },
@@ -16657,6 +17042,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Greene Turtle",
    "zip": "19711"
   },
@@ -16680,6 +17066,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Greenhouse -3 Gastro LLC",
    "zip": "19711"
   },
@@ -16704,6 +17091,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Nest - Aramark Corp University of Delawaware",
    "zip": "19711"
   },
@@ -16727,6 +17115,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Original Hot Bagels - The Original HB LLC",
    "zip": "19711"
   },
@@ -16750,11 +17139,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Original Hot Bagels - The Original HB LLC",
    "zip": "19713"
   },
   {
-   "address": "60 North College Avenue Suite 101",
+   "address": null,
    "city": "Newark",
    "id": "177a97aee5",
    "inspections": [
@@ -16769,11 +17159,12 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "The Plum Pit Food Truck MOB (Closed)",
-   "zip": "19711"
+   "zip": null
   },
   {
-   "address": "10 Old Fence Lane",
+   "address": null,
    "city": "Newark",
    "id": "869ce31764",
    "inspections": [
@@ -16788,8 +17179,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "The Taco Guys Ericka Rodriguez (MOB)",
-   "zip": "19702"
+   "zip": null
   },
   {
    "address": "150 Pencader Plaza",
@@ -16879,6 +17271,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Three Brothers Pizza",
    "zip": "19713"
   },
@@ -16920,6 +17313,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Tiger Sugar",
    "zip": "19702"
   },
@@ -16993,6 +17387,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Tiger Sugar",
    "zip": "19711"
   },
@@ -17070,6 +17465,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Tikka Masala",
    "zip": "19702"
   },
@@ -17159,6 +17555,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Timothys Of Newark",
    "zip": "19711"
   },
@@ -17200,6 +17597,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Tokyo Express",
    "zip": "19713"
   },
@@ -17229,6 +17627,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Tommys Tavern & Tap",
    "zip": "19702"
   },
@@ -17316,6 +17715,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Tonys Bistro",
    "zip": "19713"
   },
@@ -17361,6 +17761,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Tonys Cafe",
    "zip": "19711"
   },
@@ -17384,6 +17785,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Towneplace Suites By Marriott",
    "zip": "19702"
   },
@@ -17411,6 +17813,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Triple Cs Cafe",
    "zip": "19711"
   },
@@ -17533,6 +17936,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Troy Pizzeria & Family Restaurant",
    "zip": "19711"
   },
@@ -17588,6 +17992,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Turkiye Kebab House",
    "zip": "19711"
   },
@@ -17626,6 +18031,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Turning Point of Christiana",
    "zip": "19702"
   },
@@ -17669,6 +18075,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Two Stones Pub -Newark- Michael Stiglitz LLC",
    "zip": "19713"
   },
@@ -17688,6 +18095,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "U Of D- Vita Nova",
    "zip": "19716"
   },
@@ -17707,11 +18115,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "UDairy Creamery Cafe",
    "zip": "19711"
   },
   {
-   "address": "535 South College Avenue",
+   "address": null,
    "city": "Newark",
    "id": "95557de2a8",
    "inspections": [
@@ -17726,8 +18135,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Udairy Creamery Ice Cream Truck (mob)",
-   "zip": "19716"
+   "zip": null
   },
   {
    "address": "535 South College Avenue",
@@ -17749,6 +18159,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "UDairy Creamery- 535 S College Ave",
    "zip": "19716"
   },
@@ -17803,6 +18214,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Ugly Dumpling Express",
    "zip": "19711"
   },
@@ -17930,6 +18342,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Umami Express Sushi",
    "zip": "19711"
   },
@@ -17949,6 +18362,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Unitarian Universalist Fellowship",
    "zip": "19711"
   },
@@ -18014,6 +18428,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Urban Air Adventure",
    "zip": "19702"
   },
@@ -18069,6 +18484,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "V Pho",
    "zip": "19711"
   },
@@ -18103,6 +18519,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Vfw Home Fund Inc",
    "zip": "19711"
   },
@@ -18159,6 +18576,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "VIRSA",
    "zip": "19711"
   },
@@ -18182,6 +18600,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wawa Food Market #850",
    "zip": "19702"
   },
@@ -18201,6 +18620,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wawa Food Market #880",
    "zip": "19702"
   },
@@ -18225,6 +18645,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wee Fancy Tea",
    "zip": "19702"
   },
@@ -18272,6 +18693,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wendys (DE0013 0977) - Wendover Inc - #977",
    "zip": "19702"
   },
@@ -18291,6 +18713,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wendys (DE0014 0988) - Wendover Inc - #988",
    "zip": "19711"
   },
@@ -18325,6 +18748,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wendys (DE0015 1222) - Wendover Inc - #1222",
    "zip": "19702"
   },
@@ -18344,6 +18768,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wendys DE0120 9267 - Wendover Inc - #9267",
    "zip": "19713"
   },
@@ -18363,6 +18788,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "WINGSTOP - GSRH Wings DE LLC - #1539",
    "zip": "19711"
   },
@@ -18382,6 +18808,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wonder",
    "zip": "19711"
   },
@@ -18431,6 +18858,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Yum Town",
    "zip": "19702"
   },
@@ -18500,6 +18928,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Yunnanshifu",
    "zip": "19711"
   },
@@ -18548,6 +18977,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Zoup! Christiana",
    "zip": "19702"
   }

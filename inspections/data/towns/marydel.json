@@ -118,6 +118,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Buono Pizza NY Style",
    "zip": "19964"
   },
@@ -169,6 +170,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Marydel Grocery & Food Market",
    "zip": "19964"
   },
@@ -220,6 +222,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Marydel Vfc",
    "zip": "19964"
   },
@@ -335,6 +338,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Rosicell Hispanic Restaurant",
    "zip": "19964"
   },
@@ -354,6 +358,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sheris Sweets N More",
    "zip": "19964"
   },
@@ -549,6 +554,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Taqueria Belen LLC",
    "zip": "19964"
   }

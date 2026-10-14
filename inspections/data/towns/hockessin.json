@@ -46,6 +46,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "2 Fat Guys American Grill",
    "zip": "19707"
   },
@@ -73,6 +74,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Acme Market Store - Albertsons Companies Inc -",
    "zip": "19707"
   },
@@ -105,6 +107,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Back Burner",
    "zip": "19707"
   },
@@ -149,6 +152,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "Capriottis DE130",
    "zip": "19707"
   },
@@ -220,6 +224,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Casa Puebla Restaurant (Closed)",
    "zip": "19707"
   },
@@ -239,6 +244,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Casapullas Hockessin Subs & Steaks",
    "zip": "19707"
   },
@@ -258,6 +264,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Delaware Korean United Methodist Church",
    "zip": "19707"
   },
@@ -295,6 +302,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Docs Meat Market",
    "zip": "19707"
   },
@@ -361,6 +369,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Drip Cafe- Hockessin - Drip Cafe LLC",
    "zip": "19707"
   },
@@ -390,6 +399,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dunkin - RSD Donuts LLC",
    "zip": "19707"
   },
@@ -414,6 +424,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Famous Rivera Grill Restaurant",
    "zip": "19707"
   },
@@ -458,6 +469,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Friendlys - Hockessin - RRC Restaurants",
    "zip": "19707"
   },
@@ -495,6 +507,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Golden City Chinese Restaurant",
    "zip": "19707"
   },
@@ -519,6 +532,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Grave Craze",
    "zip": "19707"
   },
@@ -554,6 +568,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Harpers Asian Bistro",
    "zip": "19707"
   },
@@ -573,6 +588,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Henry B du Pont Middle School - Red Clay Consolid",
    "zip": "19707"
   },
@@ -600,6 +616,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hockessin Athletic Club & Wellness Center",
    "zip": "19707"
   },
@@ -637,6 +654,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hockessin Memorial Hall",
    "zip": "19707"
   },
@@ -661,6 +679,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "House Of William And Merry the",
    "zip": "19707"
   },
@@ -688,6 +707,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "La Tonalteca- Lantana Drive",
    "zip": "19707"
   },
@@ -731,6 +751,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Letties Kitchen",
    "zip": "19707"
   },
@@ -812,6 +833,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Luigis Cafe",
    "zip": "19707"
   },
@@ -839,6 +861,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Mar y Tierra LLC",
    "zip": "19707"
   },
@@ -893,6 +916,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Mexican Table the",
    "zip": "19707"
   },
@@ -946,6 +970,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "New Dragon Chinese Restaurant",
    "zip": "19707"
   },
@@ -965,11 +990,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "North Star Elementary School - Red Clay Consolidat",
    "zip": "19707"
   },
   {
-   "address": "6949 Lancaster Pike",
+   "address": null,
    "city": "Hockessin",
    "id": "78a90e960e",
    "inspections": [
@@ -988,8 +1014,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Northeast Crab Company (mob)",
-   "zip": "19707"
+   "zip": null
   },
   {
    "address": "703 Ace Memorial Dr",
@@ -1049,6 +1076,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Okura Japanese Restaurant",
    "zip": "19707"
   },
@@ -1124,6 +1152,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Papa Johns #1323",
    "zip": "19707"
   },
@@ -1187,6 +1216,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pike Creek Crossing",
    "zip": "19707"
   },
@@ -1257,6 +1287,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Primas Pizza & Pasta",
    "zip": "19707"
   },
@@ -1316,6 +1347,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Quinns Cafe",
    "zip": "19707"
   },
@@ -1363,6 +1395,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Redfire Grill & Steakhouse - Platinum Dining Group",
    "zip": "19707"
   },
@@ -1420,6 +1453,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Ritas Water Ice",
    "zip": "19707"
   },
@@ -1443,6 +1477,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sanford School - Compass Group USA Inc",
    "zip": "19707"
   },
@@ -1474,6 +1509,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Six Paupers Tavern & Restaurant",
    "zip": "19707"
   },
@@ -1511,6 +1547,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Starbucks Coffee - Starbucks Corporation - #19208",
    "zip": "19707"
   },
@@ -1530,6 +1567,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Stone Mill Pizza",
    "zip": "19707"
   },
@@ -1587,6 +1625,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sushi Maru Express",
    "zip": "19707"
   },
@@ -1652,6 +1691,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Perfect Cup Cafe",
    "zip": "19707"
   },
@@ -1680,6 +1720,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Well Coffee House & Market Place",
    "zip": "19707"
   },
@@ -1765,6 +1806,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Two Cousins Pizza - R Grigoli Enterprises Inc",
    "zip": "19707"
   },
@@ -1793,6 +1835,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "William F Cooke Jr Elementary School - Red Clay Co",
    "zip": "19707"
   },
@@ -1812,6 +1855,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wilm Communuty Evang Church",
    "zip": "19707"
   },
@@ -1841,6 +1885,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Woodside Farm -The Stand",
    "zip": "19707"
   }

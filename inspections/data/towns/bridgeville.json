@@ -32,11 +32,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "7-Eleven #41263A",
    "zip": "19933"
   },
   {
-   "address": "113 Market Street",
+   "address": null,
    "city": "Bridgeville",
    "id": "92743708a3",
    "inspections": [
@@ -51,8 +52,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Ariannas Mexican Food Mobile #1",
-   "zip": "19933"
+   "zip": null
   },
   {
    "address": "9577 Bridgeville Ctr Unit 3",
@@ -134,6 +136,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "China Wok",
    "zip": "19933"
   },
@@ -241,6 +244,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Don Chuy Mexican Restaurant - M&M Los Dos Amigos i",
    "zip": "19933"
   },
@@ -358,6 +362,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "M L Country Store",
    "zip": "19933"
   },
@@ -381,6 +386,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Mcdonalds Of Bridgeville - The Meoli Companies -",
    "zip": "19933"
   },
@@ -400,6 +406,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pizza King - Baynum Enterprises Inc",
    "zip": "19933"
   },
@@ -419,6 +426,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Royal Farms #109",
    "zip": "19933"
   },
@@ -438,6 +446,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sonic #85402",
    "zip": "19933"
   },
@@ -475,6 +484,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sugar Beet Market",
    "zip": "19933"
   },
@@ -504,6 +514,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Frozen Farmer - The Frozen Farmer LLC",
    "zip": "19933"
   },
@@ -597,6 +608,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Heritage Club House",
    "zip": "19933"
   },
@@ -616,6 +628,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Tonys Pizza Italian Restaurant",
    "zip": "19933"
   },
@@ -647,6 +660,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "TS Smith Orchard Point Market",
    "zip": "19933"
   },
@@ -666,6 +680,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Victorias Ice Cream",
    "zip": "19933"
   }

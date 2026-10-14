@@ -24,6 +24,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "African Fusion",
    "zip": "19901"
   },
@@ -91,6 +92,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Buckleys Tavern",
    "zip": "19807"
   },
@@ -156,6 +158,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Checkers - Wilmington - NEEHIL LLC",
    "zip": "19720"
   },
@@ -175,6 +178,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Chick-fil-A New Castle FSU - Franzidge LLC - #3905",
    "zip": "19720"
   },
@@ -272,11 +276,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Chinatown Buffet",
    "zip": "19971"
   },
   {
-   "address": "897 Elk Mills Road",
+   "address": null,
    "city": "Wyoming",
    "id": "7cb37c6a62",
    "inspections": [
@@ -313,11 +318,12 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "El Sabor De Honduras LLC (mob)",
-   "zip": "21921"
+   "zip": null
   },
   {
-   "address": "14 Crouch Chapel Road",
+   "address": null,
    "city": "Wyoming",
    "id": "fb0a23b081",
    "inspections": [
@@ -332,8 +338,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Elite Softee Inc 2 (MOB)",
-   "zip": "21921"
+   "zip": null
   },
   {
    "address": "1919 Allabands Mill Road",
@@ -359,6 +366,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Fifer - Fifer Orchards Inc - #Donut Production",
    "zip": "19934"
   },
@@ -400,6 +408,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Fifer - Fifer Orchards Inc - #Fifers Farm Store",
    "zip": "19934"
   },
@@ -491,6 +500,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hockers Grocery & Deli",
    "zip": "19970"
   },
@@ -545,6 +555,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hockers Super Center",
    "zip": "19970"
   },
@@ -568,6 +579,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Holmes Hoagies",
    "zip": "19809"
   },
@@ -613,6 +625,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Krazy Kats Cafe-Montchanin",
    "zip": "19710"
   },
@@ -680,6 +693,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "McDonalds - SR95TK5+CR95TK5 LLC - #2774",
    "zip": "19977"
   },
@@ -1030,6 +1044,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "Mike & Mels Family Restaurant - MMW Restaurant I",
    "zip": "19934"
   },
@@ -1111,6 +1126,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Miyagi Ramen Bar",
    "zip": "19971"
   },
@@ -1148,11 +1164,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Mother and Daughter Kitchen",
    "zip": "19901"
   },
   {
-   "address": "14 Crouch Chapel Road",
+   "address": null,
    "city": "Wyoming",
    "id": "7e0cf4082d",
    "inspections": [
@@ -1167,8 +1184,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Mr Softee of Delmar (MOB)",
-   "zip": "21921"
+   "zip": null
   },
   {
    "address": "401 Philadelphia Pike",
@@ -1224,6 +1242,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Murphs Irish Pub",
    "zip": "19809"
   },
@@ -1265,6 +1284,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Olive Garden Christiana - Darden Restaurants Inc",
    "zip": "19713"
   },
@@ -1284,6 +1304,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pit Daddy BBQ",
    "zip": "19977"
   },
@@ -1396,6 +1417,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Prosperos pizza - prosperos pizza llc - #Wilming",
    "zip": "19810"
   },
@@ -1424,11 +1446,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Purebread Deli- Churchmans Rd",
    "zip": "19713"
   },
   {
-   "address": "9 Hunter Road",
+   "address": null,
    "city": "Wyoming",
    "id": "0611eab94e",
    "inspections": [
@@ -1447,8 +1470,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Raspados Bayu (MOB)",
-   "zip": "19720"
+   "zip": null
   },
   {
    "address": "1249 New Churchmans Rd",
@@ -1480,6 +1504,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Red Lobster #6319",
    "zip": "19713"
   },
@@ -1532,6 +1557,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Ricardo Mexican Cuisine & Pizza (Closed)",
    "zip": "19809"
   },
@@ -1753,6 +1779,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "Saketumi",
    "zip": "19971"
   },
@@ -1772,6 +1799,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Satisfried Concessions - Satisfried Concessions LL",
    "zip": "19934"
   },
@@ -1791,6 +1819,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Satisfried Concessions Servicing Area - Satisfried",
    "zip": "19934"
   },
@@ -1824,11 +1853,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sgcs Enterprises/st Georges Country Store",
    "zip": "19733"
   },
   {
-   "address": "400 MLK Jr Blvd Wilmington DE",
+   "address": null,
    "city": "Wyoming",
    "id": "8cc0705494",
    "inspections": [
@@ -1843,6 +1873,7 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Star Grill/ Delaware Halal Food Mobile",
    "zip": null
   },
@@ -1892,6 +1923,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Stingray - ARG Sting Rehoboth LLC",
    "zip": "19971"
   },
@@ -2137,11 +2169,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Surf and Turf",
    "zip": "19963"
   },
   {
-   "address": "1 Jay Drive",
+   "address": null,
    "city": "Wyoming",
    "id": "dc2bbe021f",
    "inspections": [
@@ -2156,8 +2189,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Tacos El Compa (MOB)",
-   "zip": "19720"
+   "zip": null
   },
   {
    "address": "11 South Main Street",
@@ -2385,6 +2419,7 @@
      "violations": []
     }
    ],
+   "mobile": false,
    "name": "The Country Store",
    "zip": "19955"
   },
@@ -2404,6 +2439,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Dog House - We10 LLC",
    "zip": "19720"
   },
@@ -2423,6 +2459,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Seafood Cafe",
    "zip": "19708"
   },
@@ -2492,11 +2529,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Theos Steaks Sides & Spirits",
    "zip": "19971"
   },
   {
-   "address": "105 Whitby Lane",
+   "address": null,
    "city": "Wyoming",
    "id": "dd42c94a82",
    "inspections": [
@@ -2511,8 +2549,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Travelin Toms of Dover (MOB)",
-   "zip": "21617"
+   "zip": null
   },
   {
    "address": "27 South Railroad Avenue",
@@ -2590,6 +2629,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Tre Sorelle Dolce Ice Cream & Italian Ice",
    "zip": "19934"
   },
@@ -2623,6 +2663,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "W B Simpson Elementary - Caesar Rodney School D",
    "zip": "19934"
   },
@@ -2717,6 +2758,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wild Quail Golf & Country Club",
    "zip": "19934"
   },
@@ -2750,6 +2792,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "WINTERTHUR PAVILLION CAF� - Compass Group USA Inc",
    "zip": "19735"
   },
@@ -2769,6 +2812,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Woodys Goodies",
    "zip": "21628"
   },
@@ -2838,11 +2882,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "WYOMING TAVERN - Wyoming Tavern Inc (FE)",
    "zip": "19934"
   },
   {
-   "address": "79 Thompson St",
+   "address": null,
    "city": "Wyoming",
    "id": "8aad3a7abb",
    "inspections": [
@@ -2869,8 +2914,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Zoagies (MOB)",
-   "zip": "08079"
+   "zip": null
   }
  ],
  "slug": "wyoming",

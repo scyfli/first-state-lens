@@ -24,6 +24,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "7-Eleven Store #11291D",
    "zip": "19804"
   },
@@ -61,6 +62,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Delaware Gas Inc - Newport Shell",
    "zip": "19804"
   },
@@ -124,6 +126,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Doms Ny Style Pizza",
    "zip": "19804"
   },
@@ -173,6 +176,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Kukurrukoo Mexican Restaurant",
    "zip": "19804"
   },
@@ -242,6 +246,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Minquas Fire Station",
    "zip": "19804"
   },
@@ -269,6 +274,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Newport Masonic Hall Kitchen",
    "zip": "19804"
   },
@@ -316,6 +322,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Newport Restaurant",
    "zip": "19804"
   },
@@ -385,6 +392,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Plaza Family Restaurant (Closed)",
    "zip": "19804"
   }

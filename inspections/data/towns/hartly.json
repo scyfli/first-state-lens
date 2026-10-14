@@ -49,6 +49,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hartly Elementary School - Capital SD",
    "zip": "19953"
   },
@@ -94,6 +95,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hartly Volunteer Fire Company Inc",
    "zip": "19953"
   },
@@ -249,6 +251,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Royal Farms #117",
    "zip": "19904"
   }

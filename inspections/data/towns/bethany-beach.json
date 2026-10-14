@@ -24,6 +24,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "14 Global LLC",
    "zip": "19930"
   },
@@ -97,6 +98,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "19DOUGH1 - SANDY PONY DONUTS INC",
    "zip": "19930"
   },
@@ -142,6 +144,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Armands Pizza",
    "zip": "19930"
   },
@@ -229,6 +232,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Ba Roos Ice Cream",
    "zip": "19930"
   },
@@ -258,6 +262,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Baja Beach House & Grill",
    "zip": "19930"
   },
@@ -295,6 +300,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Beach Break Bakrie & Cafe",
    "zip": "19930"
   },
@@ -326,6 +332,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Bethany Beach Sugar Shack",
    "zip": "19930"
   },
@@ -471,6 +478,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Bethany Blues - Starboard & Blues Group",
    "zip": "19930"
   },
@@ -504,6 +512,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Bethany Boathouse",
    "zip": "19930"
   },
@@ -631,6 +640,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Bethany Diner - Bethany Diner INC",
    "zip": "19930"
   },
@@ -666,6 +676,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "BIG CHILL BEACH CLUB - Lavida Hospitality Group -",
    "zip": "19930"
   },
@@ -741,6 +752,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Bluecoast - SoDel Concepts II LLC",
    "zip": "19930"
   },
@@ -764,6 +776,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Candy Kitchen - B2 - 123 Garfield Pkwy",
    "zip": "19930"
   },
@@ -817,6 +830,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Candy Kitchen - B3 - 100 Garfield Pkwy",
    "zip": "19930"
   },
@@ -836,6 +850,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Candy Kitchen - Sea Colony",
    "zip": "19930"
   },
@@ -871,6 +886,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "China Express",
    "zip": "19930"
   },
@@ -898,6 +914,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Claws Seafood House - Bethany",
    "zip": "19930"
   },
@@ -925,11 +942,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Clove & Cedar Coffeebar",
    "zip": "19930"
   },
   {
-   "address": "765 Garfield Parkway",
+   "address": null,
    "city": "Bethany Beach",
    "id": "e50644e888",
    "inspections": [
@@ -944,8 +962,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Coastal Freeze (MOB)",
-   "zip": "19930"
+   "zip": null
   },
   {
    "address": "776 Garfield Parkway 776 Garfield",
@@ -1013,6 +1032,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Cocolo Sushi",
    "zip": "19930"
   },
@@ -1044,6 +1064,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Cottage Caf+� - SoDel Concepts II LLC",
    "zip": "19930"
   },
@@ -1093,6 +1114,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Cottage Caf� - SoDel Concepts II LLC",
    "zip": "19930"
   },
@@ -1120,6 +1142,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dbs Fries (Closed)",
    "zip": "19930"
   },
@@ -1147,6 +1170,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "DBS Fries - Common Ground Hospitality LLC",
    "zip": "19930"
   },
@@ -1178,6 +1202,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dbs Seafood (Closed)",
    "zip": "19930"
   },
@@ -1231,6 +1256,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dickeys Frozen Custard (101 Garfield)",
    "zip": "19930"
   },
@@ -1280,6 +1306,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dickeys Frozen Custard (97 Garfield)",
    "zip": "19930"
   },
@@ -1363,6 +1390,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "DiFebos Bethany Restaurant - DiFebo Restaurants",
    "zip": "19930"
   },
@@ -1458,6 +1486,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "DiFebos Market - DiFebo Restaurants",
    "zip": "19930"
   },
@@ -1491,6 +1520,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dunkin - Baskin Robbins - Franchise Management Se",
    "zip": "19930"
   },
@@ -1510,6 +1540,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Fenwick Ice Company - Bethany",
    "zip": "19930"
   },
@@ -1626,6 +1657,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Fins Ale House - Bethany",
    "zip": "19930"
   },
@@ -1649,6 +1681,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Five Guys",
    "zip": "19930"
   },
@@ -1686,6 +1719,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Grotto Pizza #108 - South Bethany",
    "zip": "19930"
   },
@@ -1797,6 +1831,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Grotto Pizza #113 - Bethany",
    "zip": "19930"
   },
@@ -1893,6 +1928,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Harvest Tide Steakhouse",
    "zip": "19930"
   },
@@ -1938,6 +1974,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Heidaway Restaurant - HHH Group LLC",
    "zip": "19930"
   },
@@ -2003,6 +2040,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hockers G&E@ Salt Pond",
    "zip": "19930"
   },
@@ -2030,6 +2068,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Juicebox",
    "zip": "19930"
   },
@@ -2079,6 +2118,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Kohr Bros Frozen Custard - Kohr Bros Inc - #3",
    "zip": "19930"
   },
@@ -2134,6 +2174,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Ledo Pizza",
    "zip": "19930"
   },
@@ -2199,6 +2240,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Lillis Place",
    "zip": "19930"
   },
@@ -2240,6 +2282,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Mangos",
    "zip": "19930"
   },
@@ -2295,6 +2338,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Matts Fish Camp Bethany - SoDel Concepts II LLC",
    "zip": "19930"
   },
@@ -2332,6 +2376,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Maureens Ice Cream & Desserts",
    "zip": "19930"
   },
@@ -2381,6 +2426,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "McDonalds Restaurant - Bethany - Welburn DE Hold",
    "zip": "19930"
   },
@@ -2404,6 +2450,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Mickeys Family Crabhouse",
    "zip": "19930"
   },
@@ -2449,6 +2496,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Misaki",
    "zip": "19930"
   },
@@ -2718,6 +2766,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Moes Deli",
    "zip": "19930"
   },
@@ -2741,6 +2790,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Moo Cow Cone",
    "zip": "19930"
   },
@@ -2812,6 +2862,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "No 1 Chinese Restaurant",
    "zip": "19930"
   },
@@ -2873,6 +2924,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Ocean 99 - Anchor Hospitality Inc",
    "zip": "19930"
   },
@@ -2954,6 +3006,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Off The Hook Restaurant - Common Ground Hospitalit",
    "zip": "19930"
   },
@@ -2985,6 +3038,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Parkway Restaurant",
    "zip": "19930"
   },
@@ -3042,6 +3096,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Patsys Gourmet",
    "zip": "19930"
   },
@@ -3065,6 +3120,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Penguin Diner",
    "zip": "19930"
   },
@@ -3102,6 +3158,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pie",
    "zip": "19930"
   },
@@ -3125,6 +3182,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pomodoro Pizzeria",
    "zip": "19930"
   },
@@ -3160,6 +3218,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "RH Friendly Inc Sushi @ G & E Market",
    "zip": "19930"
   },
@@ -3191,6 +3250,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Ritas Italian Ice",
    "zip": "19930"
   },
@@ -3248,6 +3308,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Ropewalk Bethany Beach",
    "zip": "19930"
   },
@@ -3275,6 +3336,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Rosenfelds Jewish Delicatessen",
    "zip": "19930"
   },
@@ -3306,6 +3368,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Salt Pond Golf Club",
    "zip": "19930"
   },
@@ -3393,6 +3456,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "SANDY PONY DONUTS - SANDY PONY DONUTS INC",
    "zip": "19930"
   },
@@ -3442,6 +3506,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "SANDY PONY DONUTS - SANDY PONY DONUTS INC",
    "zip": "19930"
   },
@@ -3479,6 +3544,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Shore Break",
    "zip": "19930"
   },
@@ -3524,6 +3590,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "SOFT SWIRL - SANDY PONY DONUTS INC",
    "zip": "19930"
   },
@@ -3561,6 +3628,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "South Bethany Seafood Market",
    "zip": "19930"
   },
@@ -3602,6 +3670,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sugar Planet Bethany",
    "zip": "19930"
   },
@@ -3763,6 +3832,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Summer Salts Beach Grill",
    "zip": "19930"
   },
@@ -3786,6 +3856,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sunshine Baguette",
    "zip": "19930"
   },
@@ -3805,6 +3876,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Sunshine Crepes",
    "zip": "19930"
   },
@@ -3894,6 +3966,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Surfin Bettys Burger Bar",
    "zip": "19930"
   },
@@ -3939,6 +4012,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Surfs Up (Closed)",
    "zip": "19930"
   },
@@ -3979,6 +4053,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Taste Events (Closed)",
    "zip": "19930"
   },
@@ -4010,6 +4085,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Rusty Cup Bar and Grill",
    "zip": "19930"
   },
@@ -4054,6 +4130,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Sandbar - Sea Colony Recreation Association",
    "zip": "19930"
   },
@@ -4073,6 +4150,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Sandbar on the Promenade - Sea Colony Recreati",
    "zip": "19930"
   },
@@ -4106,6 +4184,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Three Blonde Bakers",
    "zip": "19930"
   },
@@ -4125,6 +4204,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Topsail Steamer",
    "zip": "19930"
   },
@@ -4218,11 +4298,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Tropical Treats",
    "zip": "19930"
   },
   {
-   "address": "698 Bethany Loop",
+   "address": null,
    "city": "Bethany Beach",
    "id": "cca9ef3508",
    "inspections": [
@@ -4249,8 +4330,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Upscale Crab and Seafood - Bethany (MOB)",
-   "zip": "19930"
+   "zip": null
   },
   {
    "address": "774 Garfield Pkwy",
@@ -4276,6 +4358,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wawa Food Market #836",
    "zip": "19930"
   },
@@ -4337,6 +4420,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Yellowfins Bar & Grill (Closed)",
    "zip": "19930"
   },
@@ -4396,6 +4480,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Zoca Restaurant",
    "zip": "19930"
   }

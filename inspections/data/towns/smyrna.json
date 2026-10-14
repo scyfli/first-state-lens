@@ -61,6 +61,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Acme Food Store - Albertsons Companies Inc - #28",
    "zip": "19977"
   },
@@ -80,11 +81,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "American Legion Post #14",
    "zip": "19977"
   },
   {
-   "address": "2119 S Dupont Blvd",
+   "address": null,
    "city": "Smyrna",
    "id": "d4bb1ee2ef",
    "inspections": [
@@ -104,8 +106,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Anthonys Taqueria Mobile (MOB)",
-   "zip": "19977"
+   "zip": null
   },
   {
    "address": "110 East Glenwood Avenue",
@@ -377,6 +380,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Bella Villa",
    "zip": "19977"
   },
@@ -588,6 +592,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Betsy Ross Restaurant and Bar",
    "zip": "19977"
   },
@@ -727,6 +732,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Brick Works Brewery & Eats",
    "zip": "19977"
   },
@@ -786,6 +792,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Burger King (Closed)",
    "zip": "19977"
   },
@@ -805,6 +812,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Burger King - Cape King LLC - #104",
    "zip": "19977"
   },
@@ -1008,6 +1016,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Canton House",
    "zip": "19977"
   },
@@ -1135,6 +1144,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Capriottis DE025",
    "zip": "19977"
   },
@@ -1226,6 +1236,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "China Delight",
    "zip": "19977"
   },
@@ -1309,6 +1320,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "China Star Chen Inc",
    "zip": "19977"
   },
@@ -1332,6 +1344,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Citizens Hose Company",
    "zip": "19977"
   },
@@ -1418,6 +1431,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Cobalt Manor",
    "zip": "19977"
   },
@@ -1547,6 +1561,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "CUZINOS FAMILY KITCHEN",
    "zip": "19977"
   },
@@ -1797,6 +1812,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dari Kabab and Gyro",
    "zip": "19977"
   },
@@ -1838,6 +1854,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dela Dash#269",
    "zip": "19977"
   },
@@ -1867,6 +1884,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dominos Pizza #4442 (Closed)",
    "zip": "19977"
   },
@@ -1886,6 +1904,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dominos Pizza #4442 Smyrna",
    "zip": "19977"
   },
@@ -1930,6 +1949,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Dunkin - Franchise Management Services Inc - #34",
    "zip": "19977"
   },
@@ -2057,6 +2077,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "El Serranito Tacos & Bar (Closed)",
    "zip": "19977"
   },
@@ -2134,6 +2155,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "End Zone Bar & Grill (Closed)",
    "zip": "19977"
   },
@@ -2223,6 +2245,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Food Lion - Food Lion LLC - #1426",
    "zip": "19977"
   },
@@ -2451,6 +2474,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Golden Bowl Chinese Restaurant",
    "zip": "19977"
   },
@@ -2496,6 +2520,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Guzzy Q (Closed)",
    "zip": "19977"
   },
@@ -2609,6 +2634,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hardees of Smyrna - OTAC Inc",
    "zip": "19977"
   },
@@ -2716,6 +2742,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Helens Sausage House - BHM Sausage House LLC",
    "zip": "19977"
   },
@@ -2739,6 +2766,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hissho Sushi @ Food Lion #1426",
    "zip": "19977"
   },
@@ -2940,6 +2968,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Jakes Wayback Burgers",
    "zip": "19977"
   },
@@ -2963,6 +2992,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "James T Vaughn Correctional Center",
    "zip": "19977"
   },
@@ -2996,6 +3026,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "John Bassett Moore Intermediate School",
    "zip": "19977"
   },
@@ -3243,6 +3274,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Kentucky Fried Chicken Taco Bell",
    "zip": "19977"
   },
@@ -3410,6 +3442,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Little Caesar (Closed)",
    "zip": "19977"
   },
@@ -3455,6 +3488,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Main Street Market Inc",
    "zip": "19977"
   },
@@ -3488,6 +3522,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Mamie A Warren Matur Ctr",
    "zip": "19977"
   },
@@ -3517,6 +3552,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Marmys Creamery",
    "zip": "19977"
   },
@@ -3536,6 +3572,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "North Smyrna Elementary School",
    "zip": "19977"
   },
@@ -3703,6 +3740,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pats Pizzeria of Smyrna - Pats Pizzeria LLC",
    "zip": "19977"
   },
@@ -3774,6 +3812,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "PIZZA HUT - HUT EAST COAST LLC - #6015015",
    "zip": "19977"
   },
@@ -3819,6 +3858,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pizzeria Dimeo (Closed)",
    "zip": "19977"
   },
@@ -3884,6 +3924,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Pizzeria Dimeo/EL Paisa; LLC",
    "zip": "19977"
   },
@@ -3963,6 +4004,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Popeyes Louisiana Kitchen",
    "zip": "19977"
   },
@@ -3986,6 +4028,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Ritas Italian Water Ice (Closed)",
    "zip": "19977"
   },
@@ -4170,6 +4213,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Royal Farms #146",
    "zip": "19977"
   },
@@ -4291,6 +4335,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Shore Stop #269",
    "zip": "19977"
   },
@@ -4322,6 +4367,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Skyline Catering LLC",
    "zip": "19977"
   },
@@ -4359,6 +4405,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Smyrna - Clayton Little Lass",
    "zip": "19977"
   },
@@ -4386,6 +4433,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Smyrna Clayton Little League",
    "zip": "19977"
   },
@@ -4537,6 +4585,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Smyrna Diner",
    "zip": "19977"
   },
@@ -4575,6 +4624,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Smyrna High School",
    "zip": "19977"
   },
@@ -4616,6 +4666,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Smyrna High School Gym Concessions / Culinary Arts",
    "zip": "19977"
   },
@@ -4635,6 +4686,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Smyrna High School Stadium Concessions",
    "zip": "19977"
   },
@@ -4668,6 +4720,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Smyrna Middle School",
    "zip": "19977"
   },
@@ -4697,6 +4750,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Smyrna Sunnyside Elementary School",
    "zip": "19977"
   },
@@ -4738,6 +4792,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Starbucks Coffee - Starbucks Corporation - #62526",
    "zip": "19977"
   },
@@ -4766,6 +4821,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Subway",
    "zip": "19977"
   },
@@ -4827,6 +4883,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Taste Of New York",
    "zip": "19977"
   },
@@ -5184,6 +5241,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "THE CELTIC PUB",
    "zip": "19977"
   },
@@ -5239,6 +5297,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Spot with a Blend of Culture",
    "zip": "19977"
   },
@@ -5722,6 +5781,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Trevi Ristorante",
    "zip": "19977"
   },
@@ -5920,6 +5980,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Waffle House #1550 - East Coast Waffles - #1550",
    "zip": "19977"
   },
@@ -5983,6 +6044,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wawa Food Market #830",
    "zip": "19977"
   },
@@ -6020,6 +6082,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wawa Food Market #853",
    "zip": "19977"
   },
@@ -6089,6 +6152,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Wendys (DE0004 1127) - Wendover Inc - #1127",
    "zip": "19977"
   },
@@ -6156,6 +6220,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Xbos Inc",
    "zip": "19977"
   }

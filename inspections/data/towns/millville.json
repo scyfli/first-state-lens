@@ -28,6 +28,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Agape Creamery",
    "zip": "19967"
   },
@@ -135,6 +136,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Al Casapullas",
    "zip": "19970"
   },
@@ -154,6 +156,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Bonkeys Ice Cream",
    "zip": "19967"
   },
@@ -195,6 +198,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Captains Quarters",
    "zip": "19967"
   },
@@ -244,6 +248,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Flip Flops Beach Grill",
    "zip": "19967"
   },
@@ -321,6 +326,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Foxs Pizza Den",
    "zip": "19967"
   },
@@ -360,6 +366,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Fractured Prune Millville - BSL Enterprises LLC",
    "zip": "19967"
   },
@@ -391,6 +398,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Giant Food - Giant of Maryland LLC - #389",
    "zip": "19967"
   },
@@ -420,6 +428,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hissho Sushi @ Giant Food #0389",
    "zip": "19967"
   },
@@ -507,6 +516,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hooked Up Ale House& Raw Bar - Common Ground Hospi",
    "zip": "19967"
   },
@@ -714,6 +724,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Hunan Royale Chinese Restaurant",
    "zip": "19967"
   },
@@ -777,6 +788,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Kristinas Kitchen",
    "zip": "19967"
   },
@@ -808,6 +820,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Kristinas Kitchen Express (Closed)",
    "zip": "19967"
   },
@@ -869,6 +882,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Macs Catering",
    "zip": "19967"
   },
@@ -925,6 +939,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Melissas Dinner & Lounge - GEM Restaurant Group L",
    "zip": "19967"
   },
@@ -968,6 +983,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Millville Vfc",
    "zip": "19967"
   },
@@ -1021,6 +1037,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "MORNING BUNS BAKE SHOP - KANGAYI RESTAURANT GROUP",
    "zip": "19967"
   },
@@ -1056,6 +1073,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "PERUCCIG��S CLASSIC ITALIAN RESTAURANT - KANGAYI",
    "zip": "19967"
   },
@@ -1101,6 +1119,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "PERUCCI�S CLASSIC ITALIAN RESTAURANT - KANGAYI RE",
    "zip": "19967"
   },
@@ -1128,6 +1147,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Shaka Shack (Closed)",
    "zip": "19967"
   },
@@ -1483,6 +1503,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Subway",
    "zip": "19967"
   },
@@ -1506,6 +1527,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Surf Siren Kitchen and Bar",
    "zip": "19967"
   },
@@ -1617,6 +1639,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Salted Rim Margarita Bar & Grille",
    "zip": "19967"
   },
@@ -1636,6 +1659,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Weis Markets - Weis Markets inc - #273",
    "zip": "19967"
   }

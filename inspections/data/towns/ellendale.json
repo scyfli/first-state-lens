@@ -1,7 +1,7 @@
 {
  "establishments": [
   {
-   "address": "512 Edward Street",
+   "address": null,
    "city": "Ellendale",
    "id": "6c7ee7f6cd",
    "inspections": [
@@ -104,8 +104,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Hula Bowls (MOB)",
-   "zip": "19941"
+   "zip": null
   },
   {
    "address": "16979 Beach Hwy",
@@ -141,6 +142,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Royal Farms #141",
    "zip": "19941"
   },
@@ -160,6 +162,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "The Southern Grill Of Ellendale",
    "zip": "19941"
   }

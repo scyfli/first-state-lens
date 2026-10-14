@@ -16,6 +16,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Carls Gourmet Hots & Sandwiches",
    "zip": "19962"
   },
@@ -35,6 +36,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "David E Robinson Elementary School",
    "zip": "19962"
   },
@@ -198,6 +200,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Jade Garden",
    "zip": "19962"
   },
@@ -285,6 +288,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Jonathans Landing Grille",
    "zip": "19962"
   },
@@ -532,11 +536,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "La Ortolana",
    "zip": "19962"
   },
   {
-   "address": "659 Sedgewick Drive",
+   "address": null,
    "city": "Magnolia",
    "id": "62c1ca343e",
    "inspections": [
@@ -573,8 +578,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Madinas Kitchen (MOB)",
-   "zip": "19962"
+   "zip": null
   },
   {
    "address": "133 Thomas More Drive",
@@ -641,6 +647,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Magnolia Middle School - Caesar Rodney School Dist",
    "zip": "19962"
   },
@@ -912,6 +919,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Magnolia Restaurant",
    "zip": "19962"
   },
@@ -941,6 +949,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Magnolia Vol Fire Co Ladies Auxiliary - Magnolia V",
    "zip": "19962"
   },
@@ -974,11 +983,12 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Taqueria El Gallito",
    "zip": "19962"
   },
   {
-   "address": "2303 Woodlytown Road",
+   "address": null,
    "city": "Magnolia",
    "id": "66d4109650",
    "inspections": [
@@ -1032,8 +1042,9 @@
      ]
     }
    ],
+   "mobile": true,
    "name": "Tu Gustito Boricua (MOB)",
-   "zip": "19962"
+   "zip": null
   }
  ],
  "slug": "magnolia",

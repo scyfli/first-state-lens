@@ -52,6 +52,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Cinemark Movies 10",
    "zip": "19804"
   },
@@ -127,6 +128,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Marys Kountry Kitchen",
    "zip": "19804"
   },
@@ -188,6 +190,7 @@
      ]
     }
    ],
+   "mobile": false,
    "name": "Senor Tortilla (CLOSED) (Closed)",
    "zip": "19804"
   }
