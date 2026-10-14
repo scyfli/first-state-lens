@@ -195,7 +195,7 @@ def holder_cell(o: dict) -> str:
     out = e(h["name"])
     extra = []
     if h.get("note"):
-        extra.append(e(h["note"]) + (f' <a href="{e(h["took_office_source"])}">Source</a>.' if h.get("took_office_source") else ""))
+        extra.append(e(h["note"]) + (f' <a href="{e(h["took_office_source"])}">Caucus page</a>.' if h.get("took_office_source") else ""))
     extra.append(f'Source: <a href="{e(h["source"])}">{e(host(h["source"]))}</a>, checked {e(nice(h["checked"]))}.')
     return out + f'<span class="small">{" ".join(extra)}</span>'
 
