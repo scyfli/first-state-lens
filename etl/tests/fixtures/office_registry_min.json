@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "checked": "2026-10-14",
+  "levels": [
+    {"id": "federal", "name": "Federal", "path": "/offices/federal/"},
+    {"id": "school-boards", "name": "School boards", "path": "/offices/school-boards/"}
+  ],
+  "offices": [
+    {
+      "id": "us-house",
+      "level": "federal",
+      "office": "U.S. Representative",
+      "seat": "At-Large",
+      "description": "Delaware's single member of the U.S. House.",
+      "selection": "elected",
+      "term_years": 2,
+      "term_source": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "cycle": "even-year",
+      "last_regular_election": 2024,
+      "last_election_source": "https://elections.delaware.gov/candidates/candidatelist/genl_fcddt_2024.html",
+      "next_election": 2026,
+      "holder": {
+        "name": "Test Holder",
+        "party": "Democratic",
+        "party_source": "https://elections.delaware.gov/candidates/candidatelist/genl_fcddt_2024.html",
+        "source": "https://www.house.gov/representatives",
+        "checked": "2026-10-14"
+      },
+      "holder_status": "verified",
+      "holder_unverified_reason": null,
+      "ballot_2026_path": "/candidates/us-house/",
+      "notes": null,
+      "source": "https://www.house.gov/representatives",
+      "checked": "2026-10-14"
+    }
+  ],
+  "school_boards": [
+    {
+      "id": "school-board-test",
+      "district": "Test School District",
+      "county": "Kent",
+      "selection": "elected",
+      "seats": null,
+      "seats_source": null,
+      "term_years": 4,
+      "term_source": "https://delcode.delaware.gov/title14/c010/sc03/index.html",
+      "election_month": "May",
+      "election_source": "https://delcode.delaware.gov/title14/c010/sc04/index.html",
+      "cycle": "annual",
+      "next_election": 2027,
+      "board_page": null,
+      "board_page_status": "not_reached",
+      "members": null,
+      "source": "https://delcode.delaware.gov/title14/c010/sc03/index.html",
+      "checked": "2026-10-14"
+    }
+  ]
+}
