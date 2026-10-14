@@ -6,7 +6,12 @@
 
 ---
 
-## ▶ RESUME HERE (written 2026-10-14)
+## ▶ RESUME HERE (written 2026-10-14, end of session)
+
+**Commit:** latest handoff commit on `main` (pushed; tree clean; 0 ahead / 0 behind). Tests at handoff: `python3 -m pytest etl/tests -q` 447 passed / 12 skipped / 0 failed; `bun test worker/` 25 pass; `bun test scripts/election-banner.test.ts` 10 pass; a11y CI success on `5a333f7` (every 2026-10-14 commit green).
+**In flight:** nothing half-built. All work is on production and verified.
+**Next action (in order):** (1) when Mark says the WAF rule is deployed, run FU-RL; (2) FU-E5 on Nov 5-6 (runbook below); (3) roll Office Registry + bill tracker to the 154th in January; (4) Y10 once FOIA records arrive.
+**Rollback envelope:** every change is additive and individually revertible on `main`. Largest: water rebuild `git revert 5a333f7 49b95f1` (restores the old page, but also the old wrong figures; prefer fixing forward); My Delaware `git revert f14f1be` (also removes `school_district` from the Worker); E3 `git revert ec4a39b`; bill tracker `git revert 5a05d2a` (SB 272 stays at /bill-tracker/sb-272/). Cloudflare: `bunx wrangler rollback`.
 
 **Mark's ask (2026-10-14):** "get the rest of the election focused pages up and complete the rest of planned build". Done on production today, each item pushed, live-checked and a11y-green: E3, E5 machinery, FU-E1B-AUDIT, phone-width check, Y1, Y2, Y3, Y4, Y7, Y8, Y9. Y5 full-session bill tracker also live (`5a05d2a`, 1,484 items, own weekly workflow; roll to the 154th by changing CURRENT_SESSION in etl/sources/de_legis_bills.py, first 154th run with --min-rows 1). Evidence per item is in `ISA.md` (2026-10-14 section).
 
@@ -21,8 +26,8 @@
 - (a) DECIDED option A (free WAF rule); Mark creates it in the dashboard, then FU-RL.
 - (b) DONE: Census key received; Y6 shipped. Delete `Desktop/Census API Key.txt` when convenient.
 - (c) Send the New Castle + Sussex FOIA drafts (Y10).
-- (d) Contracts: vendor "BETSY TUCKER" (sign language interpreting) is a personal-looking vendor name published by the state; kept as published, same as the Checkbook vendors. Say if it should be shown as "individual vendor".
-- (e) Road safety: 2025 shows 98 fatality crashes vs 127 to 134 in 2021 to 2024 in the state dataset; the page states the data and its six-month lag, no claim. Worth a check against Office of Highway Safety figures before anyone quotes it.
+- (d) DECIDED (Mark): vendor names stay exactly as the state publishes them.
+- (e) DECIDED (Mark): state figures are published as the state publishes them (2025 fatality crashes 98 matches the dataset).
 - (f) Inspections: 48 business names carry broken characters from the state file (e.g. "Caf�"); left as published.
 - (g) Charter School of Wilmington and Delaware Military Academy are counted inside Red Clay in the report card data, so they have no pages of their own (the Red Clay page says so).
 
