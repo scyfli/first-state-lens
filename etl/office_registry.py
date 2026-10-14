@@ -35,13 +35,28 @@ OFFICE_REQUIRED = ("id", "level", "office", "description", "selection", "term_ye
 BOARD_REQUIRED = ("id", "district", "county", "selection", "seats", "term_years", "term_source", "cycle",
                   "next_election", "board_page", "source", "checked")
 PII = [
-    re.compile(r"(?<!\d)(?:\+?1[\s.-]?)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}(?!\d)"),
+    re.compile(r"(?<!\d)(?:\+?1[\s.-]?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}(?!\d)"),
     re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}"),
     re.compile(r"mailto:|tel:", re.I),
     re.compile(r"\bDE,?\s+19\d{3}\b"),
-    re.compile(r"\b\d+\s+[A-Za-z0-9. ]{2,40}\b(Street|St\.|Road|Rd\.|Avenue|Ave\.|Drive|Dr\.|Lane|Ln\.|Boulevard|Blvd)\b"),
+    re.compile(r"\b\d+\s+[A-Za-z0-9. ]{2,40}\b(Street|St|Road|Rd|Avenue|Ave|Drive|Dr|Lane|Ln|Boulevard|Blvd|Court|Ct|Way|Circle|Cir|Place|Pl|Highway|Hwy|Pike)\b\.?"),
+    re.compile(r"\b(Address|Phone|Tel|Fax|Contact)\s*:", re.I),
     re.compile(r"P\.?O\.? Box", re.I),
 ]
+# Completeness gate (codex audit 2026-10-14): a deletion must fail validation, not publish
+# a silently smaller registry.
+EXPECTED_OFFICE_IDS = (
+    {"us-senate-class-1", "us-senate-class-2", "us-house", "governor", "lieutenant-governor",
+     "attorney-general", "state-treasurer", "auditor", "insurance-commissioner"}
+    | {f"state-senate-{n}" for n in range(1, 22)} | {f"state-house-{n}" for n in range(1, 42)}
+    | {"ncc-county-executive", "ncc-council-president", "ncc-clerk-of-the-peace", "ncc-recorder-of-deeds",
+       "ncc-register-of-wills", "ncc-sheriff"} | {f"ncc-council-district-{n}" for n in range(1, 13)}
+    | {"kent-levy-court-at-large", "kent-clerk-of-the-peace", "kent-recorder-of-deeds", "kent-register-of-wills",
+       "kent-sheriff"} | {f"kent-levy-court-district-{n}" for n in range(1, 7)}
+    | {"sussex-clerk-of-the-peace", "sussex-recorder-of-deeds", "sussex-register-of-wills", "sussex-sheriff"}
+    | {f"sussex-council-district-{n}" for n in range(1, 6)}
+)
+EXPECTED_SCHOOL_BOARDS = 19
 DASHES = re.compile("[\\u2013\\u2014]|&" + "mdash;|&" + "ndash;")
 HTTPS = re.compile(r"https://[^\s\"'<>]+$")
 
@@ -69,7 +84,7 @@ def _https(errs: list[str], where: str, field: str, val, allow_none: bool = Fals
         errs.append(f"{where}: {field} must be an https URL (got {val!r})")
 
 
-def validate(reg: dict, ballot: dict | None = None) -> list[str]:
+def validate(reg: dict, ballot: dict | None = None, complete: bool = True) -> list[str]:
     errs: list[str] = []
     text = json.dumps(reg, ensure_ascii=False)
     for p in PII:
@@ -117,6 +132,9 @@ def validate(reg: dict, ballot: dict | None = None) -> list[str]:
                 for f in ("source", "party_source"):
                     _https(errs, w, f"holder.{f}", h.get(f))
                 _https(errs, w, "holder.took_office_source", h.get("took_office_source"), allow_none=True)
+                if h.get("party") is None and h.get("party_status") != "not_listed_on_source":
+                    errs.append(f"{w}: verified holder has no party; set it, or set party_status "
+                                f"'not_listed_on_source' only after reading the source")
                 if h.get("party") is not None and h["party"] not in PARTIES:
                     errs.append(f"{w}: holder party {h['party']!r} is not a known party label")
                 if not _is_date(h.get("checked")):
@@ -144,6 +162,13 @@ def validate(reg: dict, ballot: dict | None = None) -> list[str]:
         for p, rid in paths.items():
             if p not in on_2026:
                 errs.append(f"2026 ballot race {rid} ({p}) has no registry entry")
+
+    ids = {o.get("id") for o in reg.get("offices", [])}
+    missing = sorted(EXPECTED_OFFICE_IDS - ids) if complete else []
+    if missing:
+        errs.append(f"registry incomplete: {len(missing)} expected offices missing (e.g. {missing[:4]})")
+    if complete and len(reg.get("school_boards", [])) != EXPECTED_SCHOOL_BOARDS:
+        errs.append(f"registry incomplete: {len(reg.get('school_boards', []))} school boards, expected {EXPECTED_SCHOOL_BOARDS}")
 
     for b in reg.get("school_boards", []):
         w = f"school board {b.get('id', '?')}"

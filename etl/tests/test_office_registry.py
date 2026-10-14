@@ -18,7 +18,7 @@ def load():
 
 
 def test_fixture_is_valid():
-    assert orx.validate(load(), ballot=BALLOT) == []
+    assert orx.validate(load(), ballot=BALLOT, complete=False) == []
 
 
 def test_next_election_must_equal_last_plus_term():
@@ -117,3 +117,31 @@ def test_published_registry_is_valid():
     levels = {o["level"] for o in reg["offices"]}
     assert levels == {"federal", "statewide", "general-assembly", "new-castle-county", "kent-county", "sussex-county"}
     assert sum(1 for o in reg["offices"] if o["level"] == "general-assembly") == 62
+
+
+def test_real_registry_is_complete_and_deletions_fail():
+    import copy
+    real = json.loads(orx.REGISTRY.read_text(encoding="utf-8"))
+    assert orx.validate(real) == []
+    r = copy.deepcopy(real); r["offices"] = [o for o in r["offices"] if o["id"] != "governor"]
+    assert any("incomplete" in x for x in orx.validate(r))
+    r = copy.deepcopy(real); r["school_boards"] = []
+    assert any("incomplete" in x for x in orx.validate(r))
+    assert orx.validate({"offices": [], "school_boards": []})
+
+
+def test_compact_phone_and_undotted_street_are_caught():
+    import copy
+    real = json.loads(orx.REGISTRY.read_text(encoding="utf-8"))
+    for bad in (" Contact: 3025550100", " 123 Example St"):
+        r = copy.deepcopy(real); r["offices"][0]["description"] += bad
+        assert any("PII" in x for x in orx.validate(r)), bad
+
+
+def test_verified_holder_without_party_fails_unless_source_absence_recorded():
+    import copy
+    real = json.loads(orx.REGISTRY.read_text(encoding="utf-8"))
+    r = copy.deepcopy(real); r["offices"][0]["holder"]["party"] = None
+    assert any("no party" in x for x in orx.validate(r))
+    r["offices"][0]["holder"]["party_status"] = "not_listed_on_source"
+    assert not any("no party" in x for x in orx.validate(r))

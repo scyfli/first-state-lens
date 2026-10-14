@@ -205,7 +205,9 @@ def party_cell(o: dict) -> str:
     if not h:
         return '<span class="absent">Not listed</span>'
     if not h.get("party"):
-        return '<span class="absent">Not listed on the source</span>'
+        if h.get("party_status") == "not_listed_on_source":
+            return '<span class="absent">Not listed on the source</span>'
+        return '<span class="absent">Not verified</span>'
     return f'{e(h["party"])}<span class="small"><a href="{e(h["party_source"])}">{e(host(h["party_source"]))}</a></span>'
 
 
@@ -254,7 +256,7 @@ def board_table(rows: list[dict]) -> str:
         page = (f'<a href="{e(b["board_page"])}">Board page</a><span class="small">Members listed on the district\'s board page.</span>'
                 if b.get("board_page") else '<span class="absent">Not reached.</span><span class="small">The district site did not answer on the checked date.</span>')
         how = "Elected" if b["selection"] == "elected" else "Appointed by the Governor"
-        when = (f'Every May<span class="small">{e(b["election_rule"])} <a href="{e(b["election_source"])}">delcode.delaware.gov</a></span>'
+        when = (f'Scheduled each May<span class="small">{e(b["election_rule"])} <a href="{e(b["election_source"])}">delcode.delaware.gov</a></span>'
                 if b["cycle"] == "annual" else '<span class="absent">No election</span>')
         nxt = str(b["next_election"]) if b.get("next_election") else '<span class="absent">Not elected</span>'
         body.append(f"""      <tr>
@@ -316,7 +318,7 @@ def level_page(reg: dict, lv: dict) -> str:
             rows = [o for o in level_rows(reg, lid) if o["office"] == chamber]
             parts.append(f"""  <section>
     <div class="section-head"><h2>{e(label)}</h2></div>
-{office_table(rows, label)}    <p class="src">Holders and party: <a href="{e(rows[0]['holder']['source'])}">Delaware General Assembly member list</a>, checked {e(nice(reg['checked']))}. Terms: <a href="{e(rows[0]['term_source'])}">Delaware Constitution, Article II, Section 2</a>. Election years: Delaware Department of Elections candidate lists for <a href="{e(reg['election_lists']['2022'])}">2022</a>, <a href="{e(reg['election_lists']['2024'])}">2024</a> and <a href="{e(reg['election_lists']['2026'])}">2026</a>.</p>
+{office_table(rows, label)}    <p class="src">Holders and party: <a href="{e(next((r['holder']['source'] for r in rows if r.get('holder')), 'https://legis.delaware.gov/'))}">Delaware General Assembly member list</a>, checked {e(nice(reg['checked']))}. Terms: <a href="{e(rows[0]['term_source'])}">Delaware Constitution, Article II, Section 2</a>. Election years: Delaware Department of Elections candidate lists for <a href="{e(reg['election_lists']['2022'])}">2022</a>, <a href="{e(reg['election_lists']['2024'])}">2024</a> and <a href="{e(reg['election_lists']['2026'])}">2026</a>.</p>
   </section>
 """)
     else:
@@ -340,15 +342,16 @@ def index_page(reg: dict) -> str:
             n = len(reg["school_boards"])
             parts.append(f"""  <section>
     <div class="section-head"><h2><a href="{e(lv['path'])}">{e(lv['name'])}</a></h2></div>
-    <p class="fact">{n} school district boards. Elected boards vote every May; the three vocational-technical boards are appointed by the Governor. <a href="{e(lv['path'])}">See every board</a>.</p>
+    <p class="fact">{n} school district boards. Elected boards have an election scheduled each May (a seat with one filer is declared elected without a poll); the three vocational-technical boards are appointed by the Governor. <a href="{e(lv['path'])}">See every board</a>.</p>
   </section>
 """)
             continue
         rows = level_rows(reg, lv["id"])
         items = []
         for o in rows:
-            h = o["holder"]["name"] if o.get("holder") else "Not verified"
-            items.append(f'      <tr><th scope="row">{e(office_label(o))}</th><td data-k="Holder">{e(h)}</td><td data-k="Next regular election">{o["next_election"]}</td></tr>')
+            hd = o.get("holder")
+            h = (f'{e(hd["name"])} <a class="small" href="{e(hd["source"])}">{e(host(hd["source"]))}</a>' if hd else "Not verified")
+            items.append(f'      <tr><th scope="row">{e(office_label(o))}</th><td data-k="Holder">{h}</td><td data-k="Next regular election">{o["next_election"]} <a class="small" href="{e(o["term_source"])}">term</a></td></tr>')
         parts.append(f"""  <section>
     <div class="section-head"><h2><a href="{e(lv['path'])}">{e(lv['name'])}</a></h2></div>
     <div class="tbl-wrap">

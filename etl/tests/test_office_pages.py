@@ -71,3 +71,16 @@ def test_every_verified_holder_and_2026_link_is_rendered():
 
 def test_deterministic():
     assert op.build_all(reg()) == op.build_all(reg())
+
+
+def test_unverified_general_assembly_holder_renders_without_crashing():
+    import copy, json as _j
+    from etl import office_registry as orx
+    from etl.pages import office_pages as P
+    reg = _j.loads(orx.REGISTRY.read_text(encoding="utf-8"))
+    r = copy.deepcopy(reg)
+    for o in r["offices"]:
+        if o["id"] in ("state-senate-1", "state-house-1"):
+            o["holder"], o["holder_status"], o["holder_unverified_reason"] = None, "not_verified", "test"
+    pages = P.build_all(r)
+    assert any("Not verified" in html for html in pages.values())
