@@ -23,7 +23,12 @@
     if (text != null) n.textContent = text;
     return n;
   }
-  function safe(p) { return typeof p === "string" && p.charAt(0) === "/" && p.charAt(1) !== "/" ? p : "/"; }
+  function safe(p) {
+    // same-site paths only: no scheme, no "//", no backslash or control characters, and the
+    // resolved URL must stay on this origin (browsers turn "/\\host" into an external link)
+    if (typeof p !== "string" || p.charAt(0) !== "/" || p.charAt(1) === "/" || /[\\\u0000-\u001f\u007f]/.test(p)) return "/";
+    try { return new URL(p, location.origin).origin === location.origin ? p : "/"; } catch (err) { return "/"; }
+  }
   function link(href, text) { return el("a", { href: safe(href) }, text); }
   function heading(text) { return el("h3", { tabindex: "-1" }, text); }
   function msg(parts) {

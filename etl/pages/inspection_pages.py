@@ -455,7 +455,7 @@ def build_all(manifest: dict, towns: list[dict], budget: int = BUDGET) -> tuple[
             pages[part["path"]] = town_page(town, part, parts, stamp, lo, hi)
             for k in part["keys"]:
                 for est, _ in part["groups"][k]:
-                    search.append([est["name"], est["address"] or "", est["city"], f"{part['path']}#e-{est['id']}",
+                    search.append([est["name"], "" if est.get("mobile") else (est["address"] or ""), est["city"], f"{part['path']}#e-{est['id']}",
                                    est["inspections"][0]["date"]])
                     types.update(i["type"] for i in est["inspections"])
     search.sort(key=lambda s: (s[0].casefold(), s[2].casefold(), s[1].casefold(), s[3]))

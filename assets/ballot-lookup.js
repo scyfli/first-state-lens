@@ -34,7 +34,12 @@
     return n;
   }
 
-  function safePath(p) { return typeof p === "string" && p.charAt(0) === "/" && p.charAt(1) !== "/" ? p : "/candidates/"; }
+  function safePath(p) {
+    // same-site paths only: no scheme, no "//", no backslash or control characters, and the
+    // resolved URL must stay on this origin (browsers turn "/\\host" into an external link)
+    if (typeof p !== "string" || p.charAt(0) !== "/" || p.charAt(1) === "/" || /[\\\u0000-\u001f\u007f]/.test(p)) return "/candidates/";
+    try { return new URL(p, location.origin).origin === location.origin ? p : "/candidates/"; } catch (err) { return "/candidates/"; }
+  }
   function count(n) { return n + " qualified candidate" + (n === 1 ? "" : "s"); }
 
   function item(list, label, href, detail) {

@@ -22,6 +22,14 @@ describe("interpret (Census payload -> our answer)", () => {
     p.result.addressMatches[0].geographies["Unified School Districts"] = [{ STATE: "24", NAME: "Somewhere Else" }];
     expect(interpret(p).school_district).toBeNull();
   });
+  test("malformed district ids and non-Delaware legislative layers are refused", async () => {
+    const p = await fx("legislative-hall");
+    p.result.addressMatches[0].geographies["2026 State Legislative Districts - Upper"][0].SLDU = "017garbage";
+    expect(interpret(p).status).toBe("no_match");
+    const q = await fx("legislative-hall");
+    q.result.addressMatches[0].geographies["2026 State Legislative Districts - Lower"][0].STATE = "24";
+    expect(interpret(q).status).toBe("not_delaware");
+  });
   test("an address outside Delaware is refused", async () => {
     expect(interpret(await fx("not-delaware")).status).toBe("not_delaware");
   });

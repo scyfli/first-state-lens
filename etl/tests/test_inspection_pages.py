@@ -130,3 +130,12 @@ def test_sitemap_block_replaced_between_markers():
     assert "old" not in out
     assert "<loc>https://firststatelens.com/inspections/newark/</loc><lastmod>2026-10-09</lastmod>" in out
     assert p.sitemap_with_block("<urlset></urlset>", sorted(pages), "2026-10-09") is None
+
+
+def test_mobile_unit_address_never_reaches_pages_or_search_even_if_present_in_records():
+    manifest, towns = model()
+    est = towns[0]["establishments"][0]
+    est.update({"name": est["name"] + " (MOB)", "address": "400 Bushy Tail Lane", "zip": "19901", "mobile": True})
+    pages, search = p.build_all(manifest, towns)
+    assert not any("Bushy Tail" in html for html in pages.values())
+    assert not any("Bushy Tail" in json.dumps(row) for row in search)

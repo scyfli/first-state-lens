@@ -55,9 +55,10 @@ function reply(body, status = 200, extra = {}) {
 }
 
 function districtNumber(rec, field) {
-  const v = rec && (rec[field] ?? rec.BASENAME);
-  const n = parseInt(String(v ?? ""), 10);
-  return Number.isInteger(n) && n > 0 ? n : null;
+  const v = String((rec && (rec[field] ?? rec.BASENAME)) ?? "").trim();
+  if (!/^\d{1,3}$/.test(v)) return null; // whole identifier must be digits: "017garbage" is refused
+  const n = Number(v);
+  return n > 0 ? n : null;
 }
 
 function layer(geos, suffix) {
@@ -122,7 +123,7 @@ export function interpret(payload) {
   const lower = layer(g, "State Legislative Districts - Lower");
   const county = (g["Counties"] || [])[0];
   const state = county?.STATE ?? upper?.STATE ?? lower?.STATE;
-  if (state !== "10") {
+  if (state !== "10" || (upper && upper.STATE !== "10") || (lower && lower.STATE !== "10")) {
     return { status: "not_delaware", message: "That address doesn't appear to be in Delaware." };
   }
   const senate = districtNumber(upper, "SLDU");
