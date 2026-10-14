@@ -17,6 +17,7 @@
 - [Delaware U.S. House At-Large 2026](https://firststatelens.com/candidates/us-house/): The candidate record for Delaware's 2026 U.S. House at-large seat.
 - [How the Candidate Record Works](https://firststatelens.com/candidates/method/): The sourcing and neutrality rules behind the candidate record.
 - [Delaware School Report Card](https://firststatelens.com/schools/): Proficiency, graduation, chronic absenteeism, and enrollment for the state and all 41 districts and charter networks. Source: DE Department of Education.
+- [School district report cards](https://firststatelens.com/schools/district/indian-river/): One page per Delaware LEA (41 school districts and charter schools, e.g. /schools/district/indian-river/): enrollment, Smarter Balanced proficiency, chronic absenteeism, graduation, classroom teacher average salary and salary ranges, each beside the statewide figure. Source: DE Department of Education via data.delaware.gov.
 - [Is My Delaware Water Safe?](https://firststatelens.com/water/): Drinking-water violations for every Delaware public water system, health-based violations flagged. Source: EPA SDWIS.
 - [Where Delaware's Money Goes](https://firststatelens.com/spending/): Every dollar the State of Delaware disbursed in the latest complete fiscal year, by department, category, and vendor. Source: DE Online Checkbook.
 - [Federal Dollars into Delaware](https://firststatelens.com/federal/): Every federal grant, contract, and loan with work performed in Delaware. Source: USAspending.gov.

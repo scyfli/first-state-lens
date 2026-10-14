@@ -75,6 +75,8 @@ jobs:
             echo "::endgroup::"
           }
           run "Schools"   etl.sources.de_report_card
+          run "Salary"    etl.sources.de_educator_salary
+          run "SchoolPages" etl.pages.school_district_pages
           run "Spending"  etl.sources.de_checkbook
           run "Water"     etl.sources.epa_sdwa_de
           run "Federal"   etl.sources.usaspending_de --fy "$FED_FY"
@@ -104,6 +106,8 @@ jobs:
           name: fsl-data-${{ github.run_number }}
           path: |
             schools/data/
+            schools/district/
+            schools/index.html
             spending/data/
             water/data/
             federal/data/
@@ -123,7 +127,7 @@ jobs:
           set -euxo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add schools/data spending/data water/data federal/data childcare/data votes/data campaign-finance/data reassessment/data inspections sitemap.xml road-safety spending/index.html
+          git add schools/data schools/district schools/index.html spending/data water/data federal/data childcare/data votes/data campaign-finance/data reassessment/data inspections sitemap.xml road-safety spending/index.html
           if git diff --cached --quiet; then
             echo "No data changes to commit."
             exit 0
