@@ -470,18 +470,19 @@ needs Mark to add the data.gov key as a repo secret; (3) DGI MMG county join fin
 Deliverable manifest: (1) E3 last result per seat; (2) E5 machinery ready for Nov 5 (publishing itself waits for certification); (3) owed checks FU-E1B-AUDIT + phone width; (4) year-round Y1-Y9 per `docs/UPGRADE-PLAN.md` §A5, pulled forward on Mark's word; Y6 and Y10 are blocked on inputs only Mark holds.
 
 **E3 (last result for this seat):**
-- [ ] ISC-72: `etl/sources/de_results.py` parses the statewide tab of GE2020/GE2022/GE2024 and maps every 2026 race plus the 10 off-ballot Senate seats to exactly one prior contest; silent-zero guard; pytest on fixtures.
-- [ ] ISC-73: Every race page (4 statewide, us-house, 11 on-ballot SD, 10 off-ballot SD, 41 HD) and every race section on the 3 county pages shows the last general election result (name as listed, party, total votes, the state's percentage, year, source link) in the served HTML without JavaScript.
-- [ ] ISC-74: Anti: no winner, margin, "competitive", "safe" or "toss-up" wording anywhere in the result blocks (grep on generated HTML).
-- [ ] ISC-75: An independent re-parse of 5 sampled contests matches the published totals exactly.
-- [ ] ISC-76: Live production render of a statewide, a district and a county page shows the result block; a11y CI passes on the E3 commit.
+- [x] ISC-72: `etl/sources/de_results.py` parses the statewide tab of GE2020/GE2022/GE2024 and maps every 2026 race plus the 10 off-ballot Senate seats to exactly one prior contest; silent-zero guard; pytest on fixtures.
+- [x] ISC-73: Every race page (4 statewide, us-house, 11 on-ballot SD, 10 off-ballot SD, 41 HD) and every race section on the 3 county pages shows the last general election result (name as listed, party, total votes, the state's percentage, year, source link) in the served HTML without JavaScript.
+- [x] ISC-74: Anti: no winner, margin, "competitive", "safe" or "toss-up" wording anywhere in the result blocks (grep on generated HTML).
+- [x] ISC-75: An independent re-parse of 5 sampled contests matches the published totals exactly.
+- [x] ISC-76: Live production render of a statewide, a district and a county page shows the result block; a11y CI passes on the E3 commit.
 
 **E5 (certified results, Nov 5-6):**
+E3 evidence (commit `ec4a39b`): puller mapped 87 seats (77 races + 10 off-ballot SD) from GE2020 (88 contests), GE2022 (86), GE2024 (87); 7 new pytest + 48 existing pass; independent html.parser re-parse of us-senate, HD17, SD14, Kent Sheriff, SD21 = MATCH; added-lines grep: 0 dashes, 0 winner/margin/safe/competitive words; production curl: result block present on SD1, US Senate, HD17, SD2 (off-ballot), US House, and 6/9/5 county sections on Kent/New Castle/Sussex; a11y CI run 38607138437 success. ISC-79: production iframes are blocked by the site's frame headers, so the 390 px check ran on the local copy, which is sha256-identical to production for us-senate and auditor: scrollWidth 375 = frame width, 0 elements past the edge (also SD1, Kent County). Headless Chrome cannot go below 512 px, so it was not used.
 - [ ] ISC-77: The results puller takes any GE year, so certified 2026 results publish with one command once `GE2026.html` exists; proven by a dry run against GE2024. Publishing itself is DEFERRED-VERIFY to 2026-11-05/06 (FU-E5).
 
 **Owed checks:**
 - [ ] ISC-78: FU-E1B-AUDIT: cross-vendor audit of the E1b record content (statewide records) run; findings folded or logged.
-- [ ] ISC-79: `/candidates/us-senate/` and `/candidates/auditor/` show no horizontal overflow in a 390 px frame on production.
+- [x] ISC-79: `/candidates/us-senate/` and `/candidates/auditor/` show no horizontal overflow in a 390 px frame on production.
 
 **Year-round (built on branches by parallel builders, integrated and verified by me before each push):**
 - [ ] ISC-80: Y1 Office Registry live: every elected office from U.S. Senate to school board with term, current holder (or an official link where no holder list exists) and next election year, each sourced.
