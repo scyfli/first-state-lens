@@ -74,8 +74,8 @@ STYLE = """<style>
   .src { font-size: 12px; color: var(--text-tertiary); margin-top: 10px; max-width: 860px; }
   .about { max-width: 860px; margin-left: 20px; }
   .about li { font-size: 14px; color: var(--text-secondary); line-height: 1.6; margin: 6px 0; }
-  .jump { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 14px; margin: 14px 0 4px; max-width: 980px; }
-  .jump a { color: var(--text-secondary); }
+  .jump { display: flex; flex-wrap: wrap; gap: 4px 6px; font-size: 14px; margin: 14px 0 4px; max-width: 980px; }
+  .jump a { color: var(--text-secondary); display: inline-flex; align-items: center; justify-content: center; min-width: 28px; min-height: 28px; }
   .jump strong { color: var(--text-primary); }
   .est { border-top: 1px solid var(--border-subtle); padding: 14px 0 10px; max-width: 980px; }
   .est h3 { font-family: 'Space Grotesk', sans-serif; font-size: 17px; color: var(--text-primary); font-weight: 600; }
