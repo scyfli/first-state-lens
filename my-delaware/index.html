@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>My Delaware: your legislators, school district, county and ballot by address | First State Lens</title>
+<meta name="description" content="Type a Delaware street address to see your State Senator and Representative, your county council or levy court member, your school district report card and every race on your 2026 ballot, from public records." />
+<link rel="canonical" href="https://firststatelens.com/my-delaware/" />
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+<meta name="theme-color" content="#030712" />
+<meta name="geo.region" content="US-DE" />
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="First State Lens" />
+<meta property="og:title" content="My Delaware: your legislators, school district, county and ballot by address" />
+<meta property="og:description" content="Type a Delaware street address to see your State Senator and Representative, your county council or levy court member, your school district report card and every race on your 2026 ballot, from public records." />
+<meta property="og:url" content="https://firststatelens.com/my-delaware/" />
+<meta property="og:image" content="https://firststatelens.com/assets/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="My Delaware: your legislators, school district, county and ballot by address" />
+<meta name="twitter:description" content="Type a Delaware street address to see your State Senator and Representative, your county council or levy court member, your school district report card and every race on your 2026 ballot, from public records." />
+<meta name="twitter:image" content="https://firststatelens.com/assets/og-image.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/fsl.css" />
+<style>
+  :root { --accent-primary: var(--violet-400); }
+  .title-eyebrow { color: var(--violet-400); border-color: rgba(167,139,250,0.25); background: rgba(167,139,250,0.05); }
+  .title-eyebrow::before { background: var(--violet-400); box-shadow: 0 0 6px var(--violet-400); }
+  .neutrality { border-left-color: var(--violet-400); }
+  .crumbs { font-size: 13px; color: var(--text-tertiary); margin-bottom: 18px; }
+  .crumbs a { color: var(--text-secondary); }
+  .slate { width: 100%; max-width: 980px; border-collapse: collapse; font-size: 14px; }
+  .slate th, .slate td { text-align: left; padding: 12px 14px; border-bottom: 1px solid var(--border-subtle); vertical-align: top; }
+  .slate th { font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-tertiary); font-weight: 500; }
+  .slate td { color: var(--text-secondary); }
+  .slate .cand { color: var(--text-primary); font-weight: 600; text-align: left; }
+  .slate a { color: var(--text-primary); word-break: break-all; }
+  .badge { display: inline-block; margin-left: 8px; padding: 1px 8px; border: 1px solid rgba(167,139,250,0.4); border-radius: 999px; font-family: 'JetBrains Mono', monospace; font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--violet-400); vertical-align: middle; }
+  .fact { font-size: 14px; color: var(--text-secondary); line-height: 1.6; max-width: 860px; margin-top: 12px; }
+  .fact strong { color: var(--text-primary); }
+  .fact a, .note a { color: var(--text-primary); }
+  .note { background: var(--surface-elevated); border: 1px solid var(--border-default); border-radius: 14px; padding: 18px 20px; max-width: 980px; font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
+  .src { font-size: 12px; color: var(--text-tertiary); margin-top: 10px; }
+  .src a { color: var(--text-tertiary); }
+  .rec { background: var(--surface-elevated); border: 1px solid var(--border-default); border-radius: 14px; padding: 18px 22px; margin: 14px 0; max-width: 980px; }
+  .rec-name { font-family: 'Space Grotesk', sans-serif; font-size: 18px; color: var(--text-primary); }
+  .rec-party { font-size: 13px; color: var(--text-tertiary); margin: 2px 0 8px; }
+  .rec h4 { font-size: 12px; font-family: 'JetBrains Mono', monospace; letter-spacing: .1em; text-transform: uppercase; color: var(--text-tertiary); margin: 14px 0 6px; font-weight: 500; }
+  .rec p, .rec li { font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
+  .rec ul { margin-left: 20px; }
+  .rec a { color: var(--text-primary); }
+  .rec .absent { font-style: italic; color: var(--text-tertiary); }
+  .rec blockquote { border-left: 3px solid var(--violet-400); padding: 4px 0 4px 14px; margin: 8px 0; }
+  .rec blockquote p { color: var(--text-primary); }
+  .rec blockquote footer { font-size: 12px; color: var(--text-tertiary); margin-top: 4px; }
+  .rc th[scope=row] { font-weight: 500; color: var(--text-primary); }
+  .slate td.num { font-variant-numeric: tabular-nums; }
+  .sub-h3 { font-family: 'Space Grotesk', sans-serif; font-size: 16px; color: var(--text-primary); margin: 22px 0 10px; }
+  .pager { display: flex; gap: 16px; flex-wrap: wrap; font-size: 14px; margin-top: 8px; }
+  .pager a { color: var(--text-secondary); }
+  @media (max-width: 640px) {
+    .slate thead { display: none; }
+    .slate, .slate tbody, .slate tr, .slate td, .slate th[scope=row] { display: block; width: 100%; }
+    .slate tr { border-bottom: 1px solid var(--border-subtle); padding: 10px 0; }
+    .slate td, .slate th[scope=row] { border: 0; padding: 4px 0; }
+    .slate td[data-k]::before { content: attr(data-k) ": "; color: var(--text-tertiary); font-size: 12px; }
+  }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://firststatelens.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "My Delaware",
+      "item": "https://firststatelens.com/my-delaware/"
+    }
+  ]
+}
+</script>
+<style>
+  :root { --accent-primary: var(--violet-400); }
+  .crumbs { font-size: 13px; color: var(--text-tertiary); margin-bottom: 18px; }
+  .crumbs a { color: var(--text-secondary); }
+  .bl-form { max-width: 760px; background: var(--surface-elevated); border: 1px solid var(--border-default); border-left: 3px solid var(--violet-400); border-radius: 14px; padding: 18px 20px; }
+  .bl-form label { display: block; font-size: 14px; font-weight: 600; color: var(--text-primary); margin-bottom: 8px; }
+  .bl-row { display: flex; gap: 10px; flex-wrap: wrap; }
+  .bl-row input { flex: 1 1 280px; min-width: 0; font: inherit; font-size: 15px; padding: 10px 12px; border-radius: 8px; border: 1px solid var(--border-strong); background: rgba(3,7,18,0.6); color: var(--text-primary); }
+  .bl-row button { font: inherit; font-weight: 600; font-size: 14px; padding: 10px 16px; border-radius: 8px; border: 1px solid var(--violet-400); background: rgba(167,139,250,0.15); color: var(--text-primary); cursor: pointer; min-height: 44px; }
+  .bl-row button:disabled { opacity: .6; cursor: progress; }
+  .bl-privacy { font-size: 12px; color: var(--text-tertiary); margin-top: 10px; }
+  .bl-status { font-size: 14px; color: var(--text-secondary); margin: 10px 0 0; min-height: 1.4em; max-width: 760px; }
+  .md-result { max-width: 760px; margin-top: 16px; }
+  .md-result h3 { font-family: 'Space Grotesk', sans-serif; font-size: 17px; color: var(--text-primary); margin: 22px 0 8px; }
+  .md-result h3:first-child { margin-top: 6px; }
+  .md-result h3:focus { outline: 2px solid var(--violet-400); outline-offset: 4px; }
+  .md-msg { font-size: 14px; color: var(--text-secondary); line-height: 1.6; margin: 8px 0; }
+  .md-msg strong { color: var(--text-primary); }
+  .md-msg a, .md-list a { color: var(--text-primary); font-weight: 600; }
+  .md-list { list-style: none; margin: 8px 0; padding: 0; display: grid; gap: 8px; }
+  .md-list li { background: var(--surface-elevated); border: 1px solid var(--border-default); border-radius: 10px; padding: 10px 14px; font-size: 14px; color: var(--text-secondary); line-height: 1.5; }
+  .md-warn { color: var(--amber-400); }
+  .md-what { font-size: 14px; color: var(--text-secondary); line-height: 1.7; max-width: 860px; }
+  .md-what a { color: var(--text-primary); }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <header class="topbar">
+    <a class="brand" href="/" style="text-decoration:none;color:inherit;">
+      <div class="brand-mark">FS</div>
+      <div class="brand-text">
+        <div class="brand-name">First State Lens</div>
+        <div class="brand-tagline">Civic Analytics Lab · Delaware</div>
+      </div>
+    </a>
+    <div class="topbar-meta">
+      <div class="meta-item"><span>GENERAL ELECTION · NOV 3, 2026</span></div>
+      <div class="meta-item"><a href="/candidates/method/">Method ↗</a></div>
+    </div>
+  </header>
+
+  <main>
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › <span aria-current="page">My Delaware</span></nav>
+  <div class="title-block">
+    <span class="title-eyebrow">My Delaware · By address</span>
+    <h1 class="title-h1">Your <span class="highlight">Delaware</span>, by address</h1>
+    <p class="title-sub">Type a Delaware street address to see your State Senator and Representative, your county council or levy court member, your school district report card and every race on your 2026 ballot, from public records.</p>
+  </div>
+
+  <p class="neutrality"><strong>How to read this.</strong> One address, the public record that goes with it. Districts come from the U.S. Census Bureau's geocoder; officeholders from the official pages listed in the <a href="/offices/">Delaware Office Registry</a> (checked 2026-10-14); school figures from the Department of Education. We rank no one and recommend nothing. Confirm your districts and polling place at <a href="https://ivote.de.gov">ivote.de.gov</a>.</p>
+
+  <section class="section" aria-labelledby="md-title">
+    <div class="section-head"><h2 class="section-title" id="md-title">Look up an address</h2></div>
+    <form id="md-form" class="bl-form" method="post" action="/api/districts" autocomplete="on">
+      <label for="md-address">Your street address in Delaware</label>
+      <div class="bl-row">
+        <input id="md-address" name="address" type="text" autocomplete="street-address" required maxlength="200" aria-describedby="md-privacy" placeholder="411 Legislative Ave, Dover" />
+        <button type="submit" disabled>Show my Delaware</button>
+      </div>
+      <p class="bl-privacy" id="md-privacy">Your address is sent to the U.S. Census Bureau's public geocoder to find your districts; the Census Bureau keeps its own server records. First State Lens does not store or log it. A ZIP code alone shows the districts it overlaps.</p>
+      <noscript><p class="bl-privacy">This lookup needs JavaScript. You can find your districts at <a href="https://ivote.de.gov">ivote.de.gov</a>, then use the <a href="/offices/">Office Registry</a> and the <a href="/schools/">school report cards</a>.</p></noscript>
+    </form>
+    <p id="md-status" class="bl-status" role="status" aria-live="polite"></p>
+    <div id="md-result" class="md-result" hidden></div>
+  </section>
+
+  <section class="section" aria-labelledby="md-what">
+    <div class="section-head"><h2 class="section-title" id="md-what">What the lookup shows</h2></div>
+    <ul class="md-what">
+      <li>Your <a href="/offices/general-assembly/">State Senator and State Representative</a>, and their <a href="/votes/">recorded votes</a>.</li>
+      <li>Your county council or levy court district and who holds it (<a href="/offices/new-castle-county/">New Castle</a>, <a href="/offices/kent-county/">Kent</a>, <a href="/offices/sussex-county/">Sussex</a>).</li>
+      <li>Your public school district and its <a href="/schools/">report card</a>.</li>
+      <li>Every race on your <a href="/candidates/">2026 ballot</a>.</li>
+      <li>Drinking water: we cannot match an address to a water system yet, because no public service-area map covers every system. Find yours by name or town on <a href="/water/">Is my water safe?</a></li>
+      <li>Child care: see <a href="/childcare/">licensed child care by county</a>.</li>
+    </ul>
+  </section>
+
+<script type="application/json" id="md-data">{"checked":"2026-10-14","council":{"Kent":{"1":{"body":"Levy Court","name":"Joanne Masten","party":"Democratic","status":"verified"},"2":{"body":"Levy Court","name":"Jeffrey W. Hall","party":"Democratic","status":"verified"},"3":{"body":"Levy Court","name":"Allan F. Angel","party":"Democratic","status":"verified"},"4":{"body":"Levy Court","name":"Robert J. Scott","party":"Republican","status":"verified"},"5":{"body":"Levy Court","name":"George \"Jody\" Sweeney","party":"Democratic","status":"verified"},"6":{"body":"Levy Court","name":"Paul Hertz","party":"Republican","status":"verified"}},"New Castle":{"1":{"body":"County Council","name":"Brandon Toole","party":"Democratic","status":"verified"},"2":{"body":"County Council","name":"Dee Durham","party":"Democratic","status":"verified"},"3":{"body":"County Council","name":"Janet Kilpatrick","party":"Republican","status":"verified"},"4":{"body":"County Council","name":"Penrose Hollins","party":"Democratic","status":"verified"},"5":{"body":"County Council","name":"Valerie George","party":"Democratic","status":"verified"},"6":{"body":"County Council","name":"David Carter","party":"Democratic","status":"verified"},"7":{"body":"County Council","name":"George Smiley","party":"Democratic","status":"verified"},"8":{"body":"County Council","name":"John Cartier","party":"Democratic","status":"verified"},"9":{"body":"County Council","name":"Timothy Sheldon","party":"Democratic","status":"verified"},"10":{"body":"County Council","name":"Jea P. Street","party":"Democratic","status":"verified"},"11":{"body":"County Council","name":"David Tackett","party":"Democratic","status":"verified"},"12":{"body":"County Council","name":"Kevin Caneco","party":"Democratic","status":"verified"}},"Sussex":{"1":{"body":"County Council","name":"Matt Lloyd","party":"Republican","status":"verified"},"2":{"body":"County Council","name":"Steve C. McCarron","party":"Republican","status":"verified"},"3":{"body":"County Council","name":"Jane Gruenebaum","party":"Democratic","status":"verified"},"4":{"body":"County Council","name":"Douglas B. Hudson","party":"Republican","status":"verified"},"5":{"body":"County Council","name":"John L. Rieley","party":"Republican","status":"verified"}}},"counties":{"Kent":{"ballot":"/candidates/kent-county/","offices":"/offices/kent-county/"},"New Castle":{"ballot":"/candidates/new-castle-county/","offices":"/offices/new-castle-county/"},"Sussex":{"ballot":"/candidates/sussex-county/","offices":"/offices/sussex-county/"}},"house":{"1":{"name":"Nnamdi O. Chukwuocha","on_ballot":true,"party":"Democratic","path":"/candidates/state-house/district-1/","status":"verified"},"2":{"name":"Stephanie T. Bolden","on_ballot":true,"party":"Democratic","path":"/candidates/state-house/district-2/","status":"verified"},"3":{"name":"Josue O Ortega","on_ballot":true,"party":"Democratic","path":"/candidates/state-house/district-3/","status":"verified"},"4":{"name":"Jeff Hilovsky","on_ballot":true,"party":"Republican","path":"/candidates/state-house/district-4/","status":"verified"},"5":{"name":"Kendra Johnson","on_ballot":true,"party":"Democratic","path":"/candidates/state-house/district-5/","status":"verified"},"6":{"name":"Debra Heffernan","on_ballot":true,"party":"Democratic","path":"/candidates/state-house/district-6/","status":"verified"},"7":{"name":"Larry Lambert","on_ballot":true,"party":"Democratic","path":"/candidates/state-house/district-7/","status":"verified"},"8":{"name":"Sherae'a Moore","on_ballot":true,"party":"Democratic","path":"/candidates/state-house/district-8/","status":"verified"},"9":{"name":"Kevin S Hensley","on_ballot":true,"party":"Republican","path":"/candidates/state-house/district-9/","status":"verified"},"10":{"name":"Melanie Ross Levin","on_ballot":true,"party":"Democratic","path":"/candidates/state-house/district-10/","status":"verified"},"11":{"name":"Jeffrey N. Spiegelman","on_ballot":true,"party":"Republican","path":"/candidates/state-house/district-11/","status":"verified"},"12":{"name":"Krista Griffith","on_ballot":true,"party":"Democratic","path":"/candidates/state-house/district-12/","status":"verified"},"13":{"name":"DeShanna U Neal","on_ballot":true,"party":"Democratic","path":"/candidates/state-house/district-13/","status":"verified"},"14":{"name":"Claire Snyder-Hall","on_ballot":true,"party":"Democratic","path":"/candidates/state-house/district-14/","status":"verified"},"15":{"name":"Kamela T Smith","on_ballot":true,"party":"Democratic","path":"/candidates/state-house/district-15/","status":"verified"},"16":{"name":"Franklin D. Cooke","on_ballot":true,"party":"Democratic","path":"/candidates/state-house/district-16/","status":"verified"},"17":{"name":"Melissa Minor-Brown","on_ballot":true,"party":"Democratic","path":"/candidates/state-house/district-17/","status":"verified"},"18":{"name":"Sophie Phillips","on_ballot":true,"party":"Democratic","path":"/candidates/state-house/district-18/","status":"verified"},"19":{"name":"Kimberly Williams","on_ballot":true,"party":"Democratic","path":"/candidates/state-house/district-19/","status":"verified"},"20":{"name":"Alonna Berry","on_ballot":true,"party":"Democratic","path":"/candidates/state-house/district-20/","status":"verified"},"21":{"name":"Frank Burns","on_ballot":true,"party":"Democratic","path":"/candidates/state-house/district-21/","status":"verified"},"22":{"name":"Michael F. Smith","on_ballot":true,"party":"Republican","path":"/candidates/state-house/district-22/","status":"verified"},"23":{"name":"Mara Gorman","on_ballot":true,"party":"Democratic","path":"/candidates/state-house/district-23/","status":"verified"},"24":{"name":"Edward S. Osienski","on_ballot":true,"party":"Democratic","path":"/candidates/state-house/district-24/","status":"verified"},"25":{"name":"Cyndie Romer","on_ballot":true,"party":"Democratic","path":"/candidates/state-house/district-25/","status":"verified"},"26":{"name":"Madinah Wilson-Anton","on_ballot":true,"party":"Democratic","path":"/candidates/state-house/district-26/","status":"verified"},"27":{"name":"Eric Morrison","on_ballot":true,"party":"Democratic","path":"/candidates/state-house/district-27/","status":"verified"},"28":{"name":"William J. Carson","on_ballot":true,"party":"Democratic","path":"/candidates/state-house/district-28/","status":"verified"},"29":{"name":"William Bush","on_ballot":true,"party":"Democratic","path":"/candidates/state-house/district-29/","status":"verified"},"30":{"name":"Shannon Morris","on_ballot":true,"party":"Republican","path":"/candidates/state-house/district-30/","status":"verified"},"31":{"name":"Sean M. Lynn","on_ballot":true,"party":"Democratic","path":"/candidates/state-house/district-31/","status":"verified"},"32":{"name":"Kerri Evelyn Harris","on_ballot":true,"party":"Democratic","path":"/candidates/state-house/district-32/","status":"verified"},"33":{"name":"Charles S Postles Jr.","on_ballot":true,"party":"Republican","path":"/candidates/state-house/district-33/","status":"verified"},"34":{"name":"Lyndon D. Yearick","on_ballot":true,"party":"Republican","path":"/candidates/state-house/district-34/","status":"verified"},"35":{"name":"Jesse R. Vanderwende","on_ballot":true,"party":"Republican","path":"/candidates/state-house/district-35/","status":"verified"},"36":{"name":"Bryan W. Shupe","on_ballot":true,"party":"Republican","path":"/candidates/state-house/district-36/","status":"verified"},"37":{"name":"Valerie Jones Giltner","on_ballot":true,"party":"Republican","path":"/candidates/state-house/district-37/","status":"verified"},"38":{"name":"Ronald E. Gray","on_ballot":true,"party":"Republican","path":"/candidates/state-house/district-38/","status":"verified"},"39":{"name":"Daniel B. Short","on_ballot":true,"party":"Republican","path":"/candidates/state-house/district-39/","status":"verified"},"40":{"name":"Timothy D. Dukes","on_ballot":true,"party":"Republican","path":"/candidates/state-house/district-40/","status":"verified"},"41":{"name":"Richard G. Collins","on_ballot":true,"party":"Republican","path":"/candidates/state-house/district-41/","status":"verified"}},"schools":{"ASPIRA Delaware":"/schools/district/aspira-delaware/","Academia Antonia Alonso":"/schools/district/academia-antonia-alonso/","Academy of Dover Charter School":"/schools/district/academy-of-dover-charter-school/","Appoquinimink School District":"/schools/district/appoquinimink/","Brandywine School District":"/schools/district/brandywine/","Bryan Allen Stevenson School of Excellence":"/schools/district/bryan-allen-stevenson-school-of-excellence/","Caesar Rodney School District":"/schools/district/caesar-rodney/","Campus Community School":"/schools/district/campus-community-school/","Cape Henlopen School District":"/schools/district/cape-henlopen/","Capital School District":"/schools/district/capital/","Charter School of New Castle":"/schools/district/charter-school-of-new-castle/","Christina School District":"/schools/district/christina/","Colonial School District":"/schools/district/colonial/","Delmar School District":"/schools/district/delmar/","Early College High School at Del State":"/schools/district/early-college-high-school-at-del-state/","East Side Charter School":"/schools/district/east-side-charter-school/","Edison (Thomas A.) Charter School":"/schools/district/edison-thomas-a-charter-school/","First State Military Academy":"/schools/district/first-state-military-academy/","First State Montessori Academy":"/schools/district/first-state-montessori-academy/","Freire Charter School Wilmington":"/schools/district/freire-charter-school-wilmington/","Gateway Charter School":"/schools/district/gateway-charter-school/","Great Oaks Charter School":"/schools/district/great-oaks-charter-school/","Indian River School District":"/schools/district/indian-river/","Kuumba Academy Charter School":"/schools/district/kuumba-academy-charter-school/","Lake Forest School District":"/schools/district/lake-forest/","Laurel School District":"/schools/district/laurel/","MOT Charter School":"/schools/district/mot-charter-school/","Milford School District":"/schools/district/milford/","New Castle County Vocational-Technical School District":"/schools/district/new-castle-county-vocational-technical/","Newark Charter School":"/schools/district/newark-charter-school/","Odyssey Charter School":"/schools/district/odyssey-charter-school/","POLYTECH School District":"/schools/district/polytech/","Positive Outcomes Charter School":"/schools/district/positive-outcomes-charter-school/","Providence Creek Academy Charter School":"/schools/district/providence-creek-academy-charter-school/","Red Clay Consolidated School District":"/schools/district/red-clay-consolidated/","Seaford School District":"/schools/district/seaford/","Smyrna School District":"/schools/district/smyrna/","Sussex Academy":"/schools/district/sussex-academy/","Sussex Montessori School":"/schools/district/sussex-montessori-school/","Sussex Technical School District":"/schools/district/sussex-technical/","Woodbridge School District":"/schools/district/woodbridge/"},"senate":{"1":{"name":"Daniel Cruce","on_ballot":true,"party":"Democratic","path":"/candidates/state-senate/district-1/","status":"verified"},"2":{"name":"Darius J. Brown","on_ballot":false,"party":"Democratic","path":"/candidates/state-senate/district-2/","status":"verified"},"3":{"name":"S. Elizabeth Lockman","on_ballot":false,"party":"Democratic","path":"/candidates/state-senate/district-3/","status":"verified"},"4":{"name":"Laura V. Sturgeon","on_ballot":false,"party":"Democratic","path":"/candidates/state-senate/district-4/","status":"verified"},"5":{"name":"Ray Seigfried","on_ballot":true,"party":"Democratic","path":"/candidates/state-senate/district-5/","status":"verified"},"6":{"name":"Russell Huxtable","on_ballot":false,"party":"Democratic","path":"/candidates/state-senate/district-6/","status":"verified"},"7":{"name":"Spiros Mantzavinos","on_ballot":true,"party":"Democratic","path":"/candidates/state-senate/district-7/","status":"verified"},"8":{"name":"David P. Sokola","on_ballot":true,"party":"Democratic","path":"/candidates/state-senate/district-8/","status":"verified"},"9":{"name":"John \"Jack\" Walsh","on_ballot":true,"party":"Democratic","path":"/candidates/state-senate/district-9/","status":"verified"},"10":{"name":"Stephanie L. Hansen","on_ballot":false,"party":"Democratic","path":"/candidates/state-senate/district-10/","status":"verified"},"11":{"name":"Bryan Townsend","on_ballot":false,"party":"Democratic","path":"/candidates/state-senate/district-11/","status":"verified"},"12":{"name":"Nicole Poore","on_ballot":true,"party":"Democratic","path":"/candidates/state-senate/district-12/","status":"verified"},"13":{"name":"Marie Pinkney","on_ballot":true,"party":"Democratic","path":"/candidates/state-senate/district-13/","status":"verified"},"14":{"name":"Kyra L. Hoffner","on_ballot":true,"party":"Democratic","path":"/candidates/state-senate/district-14/","status":"verified"},"15":{"name":"Dave G. Lawson","on_ballot":true,"party":"Republican","path":"/candidates/state-senate/district-15/","status":"verified"},"16":{"name":"Eric Buckson","on_ballot":false,"party":"Republican","path":"/candidates/state-senate/district-16/","status":"verified"},"17":{"name":"Trey Paradee","on_ballot":false,"party":"Democratic","path":"/candidates/state-senate/district-17/","status":"verified"},"18":{"name":"David L. Wilson","on_ballot":false,"party":"Republican","path":"/candidates/state-senate/district-18/","status":"verified"},"19":{"name":"Brian Pettyjohn","on_ballot":true,"party":"Republican","path":"/candidates/state-senate/district-19/","status":"verified"},"20":{"name":"Gerald W. Hocker","on_ballot":true,"party":"Republican","path":"/candidates/state-senate/district-20/","status":"verified"},"21":{"name":"Bryant L. Richardson","on_ballot":false,"party":"Republican","path":"/candidates/state-senate/district-21/","status":"verified"}},"statewide":[["U.S. Senate","/candidates/us-senate/"],["U.S. House of Representatives, At-Large","/candidates/us-house/"],["Attorney General","/candidates/attorney-general/"],["State Treasurer","/candidates/state-treasurer/"],["Auditor of Accounts","/candidates/auditor/"]]}</script>
+<script src="/assets/my-delaware.js" defer></script>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-build">MY DELAWARE · DISTRICTS: U.S. CENSUS GEOCODER · HOLDERS: DELAWARE OFFICE REGISTRY · NO ADDRESS IS STORED</div>
+    <div class="footer-links">
+      <a href="/offices/">Delaware Office Registry</a>
+      <a href="/candidates/">Who's on the Delaware ballot</a>
+      <a href="/">First State Lens home</a>
+    </div>
+    <div class="footer-firm">First State Lens is a FirmSide AI Civic Analytics Lab project. Nonpartisan. Every figure is sourced to a public record. We show you the data; you decide.</div>
+  </footer>
+</div>
+</body>
+</html>

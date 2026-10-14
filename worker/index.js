@@ -3,14 +3,15 @@
  *
  * POST /api/districts  { "address": "<one-line street address>" }
  *   -> { status: "ok", matched_address, senate_district, house_district, county,
- *        county_district, near_county_line }
+ *        county_district, near_county_line, school_district }
  * POST /api/districts  { "zip": "19810" }
  *   -> { status: "zip", zip, senate_districts: [...], house_districts: [...] }
  * Errors: { status: "no_match" | "not_delaware" | "bad_request" | "unavailable" | "busy", message }
  *
  * Street addresses are forwarded once to the U.S. Census Bureau geocoder
  * (geographies/onelineaddress, benchmark Public_AR_Current, vintage Current_Current,
- * layers 56 = State Legislative Districts Upper, 58 = Lower, 82 = Counties), which sends
+ * layers 14 = Unified School Districts, 56 = State Legislative Districts Upper, 58 = Lower,
+ * 82 = Counties), which sends
  * no CORS headers, so a browser cannot call it directly. That request carries the address
  * in its query string to the Census Bureau, which keeps its own server records.
  * ZIP-only lookups never leave this Worker: they read the bundled ZIP table.
@@ -131,6 +132,9 @@ export function interpret(payload) {
     return { status: "no_match", message: "We found the address but not all of its districts." };
   }
   const cd = countyDistrict(countyName, Number(match.coordinates?.x), Number(match.coordinates?.y));
+  // Y4 My Delaware: the unified school district (Census layer 14). A name only, never coordinates.
+  const usd = (g["Unified School Districts"] || [])[0];
+  const school = usd && usd.STATE === "10" && typeof usd.NAME === "string" ? usd.NAME.slice(0, 80) : null;
   return {
     status: "ok",
     matched_address: String(match.matchedAddress || ""),
@@ -139,6 +143,7 @@ export function interpret(payload) {
     county: countyName,
     county_district: cd.district,
     near_county_line: cd.near_line,
+    school_district: school,
   };
 }
 
@@ -205,7 +210,7 @@ async function districts(request, fetchImpl, devOrigin) {
   url.searchParams.set("address", input.address);
   url.searchParams.set("benchmark", "Public_AR_Current");
   url.searchParams.set("vintage", "Current_Current");
-  url.searchParams.set("layers", "56,58,82");
+  url.searchParams.set("layers", "14,56,58,82");
   url.searchParams.set("format", "json");
   let payload;
   try {

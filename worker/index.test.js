@@ -12,6 +12,16 @@ describe("interpret (Census payload -> our answer)", () => {
     expect(r).not.toHaveProperty("lon");
     expect(r).not.toHaveProperty("lat");
   });
+  test("school district: name from Census layer 14 when present, null when absent", async () => {
+    const p = await fx("legislative-hall");
+    expect(interpret(p).school_district).toBeNull();
+    p.result.addressMatches[0].geographies["Unified School Districts"] = [{ STATE: "10", NAME: "Capital School District", GEOID: "1000190" }];
+    const r = interpret(p);
+    expect(r.school_district).toBe("Capital School District");
+    expect(JSON.stringify(r)).not.toContain("1000190");
+    p.result.addressMatches[0].geographies["Unified School Districts"] = [{ STATE: "24", NAME: "Somewhere Else" }];
+    expect(interpret(p).school_district).toBeNull();
+  });
   test("an address outside Delaware is refused", async () => {
     expect(interpret(await fx("not-delaware")).status).toBe("not_delaware");
   });
@@ -97,7 +107,7 @@ describe("request handling", () => {
     let seen = "";
     await _districtsForTest(req("POST", addr), async (u) => { seen = u; return okFetch(); });
     expect(seen.startsWith("https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress?")).toBe(true);
-    expect(seen).toContain("layers=56%2C58%2C82");
+    expect(seen).toContain("layers=14%2C56%2C58%2C82");
   });
   test("ZIP lookups never call the geocoder", async () => {
     let called = false;
