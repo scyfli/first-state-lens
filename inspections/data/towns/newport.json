@@ -1,0 +1,395 @@
+{
+ "establishments": [
+  {
+   "address": "201 West Market St",
+   "city": "Newport",
+   "id": "aaa9da65f1",
+   "inspections": [
+    {
+     "date": "2025-02-19",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "7-Eleven Store #11291D",
+   "zip": "19804"
+  },
+  {
+   "address": "20 N James St",
+   "city": "Newport",
+   "id": "f08a2457fd",
+   "inspections": [
+    {
+     "date": "2025-05-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "6-202.15",
+       "description": "Outer Openings, Protected"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    }
+   ],
+   "name": "Delaware Gas Inc - Newport Shell",
+   "zip": "19804"
+  },
+  {
+   "address": "218 W Market St",
+   "city": "Newport",
+   "id": "db6af24dec",
+   "inspections": [
+    {
+     "date": "2026-08-17",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2026-08-07",
+     "type": "Complaint",
+     "violations": []
+    },
+    {
+     "date": "2025-10-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-501.19",
+       "description": "Time as a Public Health Control"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      }
+     ]
+    }
+   ],
+   "name": "Doms Ny Style Pizza",
+   "zip": "19804"
+  },
+  {
+   "address": "101 West Market Street",
+   "city": "Newport",
+   "id": "8c6f7875f7",
+   "inspections": [
+    {
+     "date": "2026-01-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-101.19",
+       "description": "Nonfood-Contact Surfaces"
+      },
+      {
+       "code": "4-205.10",
+       "description": "Food Equipment, Certification and Classification"
+      },
+      {
+       "code": "6-202.15",
+       "description": "Outer Openings, Protected"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.15",
+       "description": "Washing Fruits and Vegetables"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      }
+     ]
+    }
+   ],
+   "name": "Kukurrukoo Mexican Restaurant",
+   "zip": "19804"
+  },
+  {
+   "address": "21 N James Street",
+   "city": "Newport",
+   "id": "203f50bd22",
+   "inspections": [
+    {
+     "date": "2026-02-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
+     "date": "2026-01-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-101.11",
+       "description": "Safe, Unadulterated and Honestly Presented"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      }
+     ]
+    },
+    {
+     "date": "2024-11-01",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-303.11",
+       "description": "Intensity-Lighting"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "6-303.11",
+       "description": "Intensity-Lighting"
+      }
+     ]
+    }
+   ],
+   "name": "Minquas Fire Station",
+   "zip": "19804"
+  },
+  {
+   "address": "112 E Market St",
+   "city": "Newport",
+   "id": "7abfa4ac70",
+   "inspections": [
+    {
+     "date": "2025-04-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "6-501.112",
+       "description": "Removing Dead or Trapped Birds, Insects, Rodents and other Pest"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Newport Masonic Hall Kitchen",
+   "zip": "19804"
+  },
+  {
+   "address": "601 W Newport Pike",
+   "city": "Newport",
+   "id": "e10c0549c9",
+   "inspections": [
+    {
+     "date": "2025-10-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-501.19",
+       "description": "Time as a Public Health Control"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-07",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "name": "Newport Restaurant",
+   "zip": "19804"
+  },
+  {
+   "address": "208 West Market Street",
+   "city": "Newport",
+   "id": "b0c06a7a0d",
+   "inspections": [
+    {
+     "date": "2025-11-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-301.14",
+       "description": "When to Wash"
+      },
+      {
+       "code": "3-301.11",
+       "description": "Preventing Contamination from Hands"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      }
+     ]
+    }
+   ],
+   "name": "Plaza Family Restaurant (Closed)",
+   "zip": "19804"
+  }
+ ],
+ "slug": "newport",
+ "source_updated": "2026-10-09",
+ "town": "Newport"
+}

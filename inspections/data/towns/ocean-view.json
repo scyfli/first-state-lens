@@ -1,0 +1,1732 @@
+{
+ "establishments": [
+  {
+   "address": "68 Atlantic Avenue",
+   "city": "Ocean View",
+   "id": "f34051f2b5",
+   "inspections": [
+    {
+     "date": "2025-10-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Amatos Pizza",
+   "zip": "19970"
+  },
+  {
+   "address": "2 Town Road",
+   "city": "Ocean View",
+   "id": "58a38aaa68",
+   "inspections": [
+    {
+     "date": "2025-07-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Bethany Beach Fitness LLC",
+   "zip": "19970"
+  },
+  {
+   "address": "30415 Ceder Neck Rd",
+   "city": "Ocean View",
+   "id": "b681f4489f",
+   "inspections": [
+    {
+     "date": "2025-10-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-203.12",
+       "description": "Shellstock, Maintaining Identification"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "5-501.113",
+       "description": "Covering Receptacles"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.14",
+       "description": "Cleaning Ventilation Systems, Nuisance and Discharge Prohibition"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-16",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "4-301.14",
+       "description": "Ventilation Hood Systems, Adequacy"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-203.12",
+       "description": "Shellstock, Maintaining Identification"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "4-301.14",
+       "description": "Ventilation Hood Systems, Adequacy"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "4-602.11",
+       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "Big Fish Grill Ocean View",
+   "zip": "19970"
+  },
+  {
+   "address": "30234 Cedar Neck Road",
+   "city": "Ocean View",
+   "id": "daf2acff51",
+   "inspections": [
+    {
+     "date": "2024-11-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "3-101.11",
+       "description": "Safe, Unadulterated and Honestly Presented"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-403.11",
+       "description": "Reheating for Hot Holding"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-205.10",
+       "description": "Food Equipment, Certification and Classification"
+      },
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      },
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      }
+     ]
+    }
+   ],
+   "name": "Cedar Land & Sea Kitchen",
+   "zip": "19970"
+  },
+  {
+   "address": "95 Atlantic Avenue",
+   "city": "Ocean View",
+   "id": "74849f5bd8",
+   "inspections": [
+    {
+     "date": "2026-08-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-303.11",
+       "description": "Prohibition-Jewelry"
+      },
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    },
+    {
+     "date": "2025-07-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      }
+     ]
+    }
+   ],
+   "name": "Charlie Ks BBQ",
+   "zip": "19970"
+  },
+  {
+   "address": "30637 Cedar Neck Rd",
+   "city": "Ocean View",
+   "id": "f5b13500af",
+   "inspections": [
+    {
+     "date": "2026-02-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      }
+     ]
+    }
+   ],
+   "name": "CHEER Coastal Leisure Center - CHEER Inc",
+   "zip": "19970"
+  },
+  {
+   "address": "117 Atlantic Avenue",
+   "city": "Ocean View",
+   "id": "8e7ec03753",
+   "inspections": [
+    {
+     "date": "2025-04-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Drifting Grounds Coffee House - Heneghan Bartolome",
+   "zip": "19970"
+  },
+  {
+   "address": "42a Atlantic Avenue",
+   "city": "Ocean View",
+   "id": "8916e4cf8f",
+   "inspections": [
+    {
+     "date": "2025-12-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2024-11-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-203.12",
+       "description": "Shellstock, Maintaining Identification"
+      },
+      {
+       "code": "4-501.16",
+       "description": "Warewashing Sinks, Use Limitation"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      },
+      {
+       "code": "6-501.19",
+       "description": "Closing Toilet Room Doors"
+      }
+     ]
+    }
+   ],
+   "name": "Fin & Claw",
+   "zip": "19970"
+  },
+  {
+   "address": "31806 Good Earth Lane",
+   "city": "Ocean View",
+   "id": "d77b9779f3",
+   "inspections": [
+    {
+     "date": "2025-01-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      },
+      {
+       "code": "6-202.15",
+       "description": "Outer Openings, Protected"
+      }
+     ]
+    }
+   ],
+   "name": "Flavor (Closed)",
+   "zip": "19970"
+  },
+  {
+   "address": "31810 Good Earth Lane",
+   "city": "Ocean View",
+   "id": "888b2d3e51",
+   "inspections": [
+    {
+     "date": "2025-11-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-202.13",
+       "description": "Insect Control Devices, Design and Installation"
+      }
+     ]
+    }
+   ],
+   "name": "Flavor - GEM Restaurant Group LLC",
+   "zip": "19970"
+  },
+  {
+   "address": "31806 Good Earth Market Ln",
+   "city": "Ocean View",
+   "id": "f7366c919c",
+   "inspections": [
+    {
+     "date": "2025-11-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-203.12",
+       "description": "Shellstock, Maintaining Identification"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-603.11",
+       "description": "Consumption of Animal Foods that are Raw, Undercooked, or Not Otherwise Processed to Eliminate Pathogens"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Good Earth Market - GEM Restaurant Group LLC",
+   "zip": "19970"
+  },
+  {
+   "address": "34960 Atlantic Ave",
+   "city": "Ocean View",
+   "id": "a1a16d6331",
+   "inspections": [
+    {
+     "date": "2025-06-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      }
+     ]
+    }
+   ],
+   "name": "Hockers Bbq",
+   "zip": "19970"
+  },
+  {
+   "address": "30244 Cedar Neck Road",
+   "city": "Ocean View",
+   "id": "8f2a1cb06d",
+   "inspections": [
+    {
+     "date": "2025-07-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-203.12",
+       "description": "Shellstock, Maintaining Identification"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "5-202.13",
+       "description": "Backflow Prevention, Air Gap"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      }
+     ]
+    }
+   ],
+   "name": "Hockers Family Restaurant & Crabhouse",
+   "zip": "19970"
+  },
+  {
+   "address": "34960 Atlantic Ave",
+   "city": "Ocean View",
+   "id": "2f75d45af8",
+   "inspections": [
+    {
+     "date": "2025-06-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "5-103.11",
+       "description": "Capacity-Quantity and Availability"
+      },
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Hockers Grocery & Deli(MOB)",
+   "zip": "19970"
+  },
+  {
+   "address": "27 Atlantic Avenue",
+   "city": "Ocean View",
+   "id": "a46fff97bd",
+   "inspections": [
+    {
+     "date": "2026-02-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.19",
+       "description": "Time as a Public Health Control"
+      },
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      },
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      }
+     ]
+    },
+    {
+     "date": "2025-06-25",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "6-501.19",
+       "description": "Closing Toilet Room Doors"
+      }
+     ]
+    },
+    {
+     "date": "2024-12-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "3-303.11",
+       "description": "Ice Used as Exterior Coolant, Prohibited as Ingredient"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "6-202.15",
+       "description": "Outer Openings, Protected"
+      },
+      {
+       "code": "6-501.113",
+       "description": "Storing Maintenance Tools"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      },
+      {
+       "code": "6-501.19",
+       "description": "Closing Toilet Room Doors"
+      },
+      {
+       "code": "7-209.11",
+       "description": "Storage-Other Personal Care Items"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    }
+   ],
+   "name": "Honeys Farm Fresh Gourmet Kitchen-Ocean View",
+   "zip": "19970"
+  },
+  {
+   "address": "3 Town Road",
+   "city": "Ocean View",
+   "id": "5b594ebceb",
+   "inspections": [
+    {
+     "date": "2025-07-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    }
+   ],
+   "name": "JUICEBOX",
+   "zip": "19970"
+  },
+  {
+   "address": "120 Atlantic Ave",
+   "city": "Ocean View",
+   "id": "d202e50052",
+   "inspections": [
+    {
+     "date": "2026-04-28",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2026-04-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    },
+    {
+     "date": "2025-10-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    }
+   ],
+   "name": "Lord Baltimore Elementary - Indian River School D",
+   "zip": "19970"
+  },
+  {
+   "address": "29265 Marshy Hope Way",
+   "city": "Ocean View",
+   "id": "05c545cbda",
+   "inspections": [
+    {
+     "date": "2025-08-25",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Mason Dixon VFW Post #7234",
+   "zip": "19970"
+  },
+  {
+   "address": "35002 Atlantic Avenue",
+   "city": "Ocean View",
+   "id": "9a6275c81f",
+   "inspections": [
+    {
+     "date": "2025-10-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "McDonalds Ocean View - The Meoli Companies - #412",
+   "zip": "19970"
+  },
+  {
+   "address": "30447 Cedar Neck Road #4",
+   "city": "Ocean View",
+   "id": "719bbb98b2",
+   "inspections": [
+    {
+     "date": "2025-12-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-101.19",
+       "description": "Nonfood-Contact Surfaces"
+      },
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      }
+     ]
+    },
+    {
+     "date": "2025-05-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-101.16",
+       "description": "Sponges Use Limitation"
+      },
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2024-11-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-101.16",
+       "description": "Sponges Use Limitation"
+      },
+      {
+       "code": "4-101.19",
+       "description": "Nonfood-Contact Surfaces"
+      },
+      {
+       "code": "4-202.18",
+       "description": "Ventilation Hood Systems, Filters"
+      },
+      {
+       "code": "4-203.12",
+       "description": "Temperature Measuring Devices, Ambient Air and Water-Accuracy"
+      },
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "6-305.11",
+       "description": "Designation-Dressing Areas and Lockers"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      },
+      {
+       "code": "6-501.19",
+       "description": "Closing Toilet Room Doors"
+      },
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      }
+     ]
+    }
+   ],
+   "name": "Munchies Grill",
+   "zip": "19970"
+  },
+  {
+   "address": "29 N Atlantic Ave #f",
+   "city": "Ocean View",
+   "id": "e7bcd5b6b0",
+   "inspections": [
+    {
+     "date": "2026-04-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-09-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      }
+     ]
+    }
+   ],
+   "name": "Northeast Seafood Kitchen - SoDel Concepts II LLC",
+   "zip": "19970"
+  },
+  {
+   "address": "85 Atlantic Ave",
+   "city": "Ocean View",
+   "id": "52dae92b8e",
+   "inspections": [
+    {
+     "date": "2026-04-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-203.12",
+       "description": "Shellstock, Maintaining Identification"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      },
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      }
+     ]
+    },
+    {
+     "date": "2025-09-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-25",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    }
+   ],
+   "name": "Ocean View Brewing Company - Southern Delaware Bre",
+   "zip": "19970"
+  },
+  {
+   "address": "67 Central Ave",
+   "city": "Ocean View",
+   "id": "42f241bb11",
+   "inspections": [
+    {
+     "date": "2024-10-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    }
+   ],
+   "name": "Ocean View Presbyterian Church",
+   "zip": "19970"
+  },
+  {
+   "address": "42 Atlantic Avenue",
+   "city": "Ocean View",
+   "id": "d8a4e0d727",
+   "inspections": [
+    {
+     "date": "2026-04-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.113",
+       "description": "Storing Maintenance Tools"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    },
+    {
+     "date": "2026-03-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-602.11",
+       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-20",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "6-101.11",
+       "description": "Surface Characteristics-Indoor Areas"
+      },
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      },
+      {
+       "code": "6-201.12",
+       "description": "Floors, Walls, and Ceilings, Utility Lines"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-18",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "3-101.11",
+       "description": "Safe, Unadulterated and Honestly Presented"
+      },
+      {
+       "code": "3-202.15",
+       "description": "Package Integrity"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      },
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      },
+      {
+       "code": "7-207.11",
+       "description": "Restriction and Storage-Medicines"
+      }
+     ]
+    }
+   ],
+   "name": "Ocean View Restaurant - Artisan Restaurant Develop",
+   "zip": "19970"
+  },
+  {
+   "address": "35083 Atlantic Ave",
+   "city": "Ocean View",
+   "id": "75a2b50b9f",
+   "inspections": [
+    {
+     "date": "2025-07-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    }
+   ],
+   "name": "Order Of Eagles",
+   "zip": "19970"
+  },
+  {
+   "address": "29 C Atlantic Avenue",
+   "city": "Ocean View",
+   "id": "381471706d",
+   "inspections": [
+    {
+     "date": "2025-06-25",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-202.13",
+       "description": "Insect Control Devices, Design and Installation"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      },
+      {
+       "code": "7-206.11",
+       "description": "Restricted Use Pesticides, Criteria"
+      }
+     ]
+    }
+   ],
+   "name": "Papa Johns",
+   "zip": "19970"
+  },
+  {
+   "address": "58 Atlantic Ave",
+   "city": "Ocean View",
+   "id": "cd9d4e2ab6",
+   "inspections": [
+    {
+     "date": "2026-02-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-08-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-22",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "4-202.18",
+       "description": "Ventilation Hood Systems, Filters"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-202.15",
+       "description": "Package Integrity"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-202.18",
+       "description": "Ventilation Hood Systems, Filters"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-602.11",
+       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Royal Farms #176",
+   "zip": "19970"
+  },
+  {
+   "address": "7 Club House Drive",
+   "city": "Ocean View",
+   "id": "f5ff08133f",
+   "inspections": [
+    {
+     "date": "2026-01-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-202.15",
+       "description": "Package Integrity"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      }
+     ]
+    },
+    {
+     "date": "2025-06-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2024-12-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-305.11",
+       "description": "Designation-Dressing Areas and Lockers"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "7-207.11",
+       "description": "Restriction and Storage-Medicines"
+      }
+     ]
+    }
+   ],
+   "name": "Sussex Concessions LLC - Coastal Kitchen at Bear T",
+   "zip": "19970"
+  },
+  {
+   "address": "7 Clubhouse Dr",
+   "city": "Ocean View",
+   "id": "4a482e8009",
+   "inspections": [
+    {
+     "date": "2025-06-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      }
+     ]
+    }
+   ],
+   "name": "Sussex Concessions LLC - Cub Shack",
+   "zip": "19970"
+  },
+  {
+   "address": "84 Atlantic Ave",
+   "city": "Ocean View",
+   "id": "059a144b34",
+   "inspections": [
+    {
+     "date": "2024-11-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      }
+     ]
+    }
+   ],
+   "name": "The Caf+� on 26 - The Caf+� on 26 Inc",
+   "zip": "19970"
+  },
+  {
+   "address": "84 Atlantic Ave",
+   "city": "Ocean View",
+   "id": "eec2903593",
+   "inspections": [
+    {
+     "date": "2025-12-19",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      }
+     ]
+    },
+    {
+     "date": "2025-06-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.13",
+       "description": "Thawing"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    }
+   ],
+   "name": "The Caf� on 26 - The Caf� on 26 Inc",
+   "zip": "19970"
+  },
+  {
+   "address": "38430 Resort Rv Circle",
+   "city": "Ocean View",
+   "id": "60ae5753ee",
+   "inspections": [
+    {
+     "date": "2026-08-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-202.14",
+       "description": "Toilet Rooms, Enclosed"
+      }
+     ]
+    },
+    {
+     "date": "2025-06-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      }
+     ]
+    }
+   ],
+   "name": "The Sweet Shoppe",
+   "zip": "19970"
+  },
+  {
+   "address": "3 Town Road",
+   "city": "Ocean View",
+   "id": "8e26b19a8e",
+   "inspections": [
+    {
+     "date": "2025-07-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    }
+   ],
+   "name": "Third Day Granola and Baking Company (Closed)",
+   "zip": "19970"
+  },
+  {
+   "address": "117 Atlantic Avenue Bldg 1D",
+   "city": "Ocean View",
+   "id": "83c655f483",
+   "inspections": [
+    {
+     "date": "2025-06-24",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-04-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-07",
+     "type": "Follow-up",
+     "violations": []
+    }
+   ],
+   "name": "Yellow Submarine (Stationary Mobile Unit) - Henegh",
+   "zip": "19970"
+  }
+ ],
+ "slug": "ocean-view",
+ "source_updated": "2026-10-09",
+ "town": "Ocean View"
+}

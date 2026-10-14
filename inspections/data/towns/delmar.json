@@ -1,0 +1,245 @@
+{
+ "establishments": [
+  {
+   "address": "38661 Sussex Highway",
+   "city": "Delmar",
+   "id": "1925f4bd41",
+   "inspections": [
+    {
+     "date": "2026-07-31",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "6-501.14",
+       "description": "Cleaning Ventilation Systems, Nuisance and Discharge Prohibition"
+      }
+     ]
+    },
+    {
+     "date": "2026-02-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "7-208.11",
+       "description": "Storage-First Aid Supplies"
+      }
+     ]
+    },
+    {
+     "date": "2025-08-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      }
+     ]
+    }
+   ],
+   "name": "Asian House",
+   "zip": "19940"
+  },
+  {
+   "address": "38660 Sussex Highway Unit #8",
+   "city": "Delmar",
+   "id": "d4d7a707f5",
+   "inspections": [
+    {
+     "date": "2025-03-19",
+     "type": "Complaint",
+     "violations": []
+    }
+   ],
+   "name": "jbcrunch - jbcrunch llc",
+   "zip": "19940"
+  },
+  {
+   "address": "38667 Sussex Hwy",
+   "city": "Delmar",
+   "id": "815c9e338f",
+   "inspections": [
+    {
+     "date": "2025-01-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "6-202.11",
+       "description": "Light Bulbs, Protective Shielding"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "McDonalds Restaurant - Delmar - Welburn DE Holdin",
+   "zip": "19940"
+  },
+  {
+   "address": "20 Pennsylvania Ave",
+   "city": "Delmar",
+   "id": "bfe1d8903f",
+   "inspections": [
+    {
+     "date": "2025-09-18",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-25",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-204.11",
+       "description": "Ventilation Hood Systems, Drip Prevention"
+      }
+     ]
+    }
+   ],
+   "name": "Milanos Pizzeria",
+   "zip": "19940"
+  },
+  {
+   "address": "38613 Benro Drive Unit 7 & 8",
+   "city": "Delmar",
+   "id": "69721fb72a",
+   "inspections": [
+    {
+     "date": "2026-02-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-06-18",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-15",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2025-01-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "5-202.13",
+       "description": "Backflow Prevention, Air Gap"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    }
+   ],
+   "name": "Pizza King - Baynum Enterprises Inc",
+   "zip": "19940"
+  },
+  {
+   "address": "38650 Sussex Hwy",
+   "city": "Delmar",
+   "id": "2fcfe8ccec",
+   "inspections": [
+    {
+     "date": "2026-03-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-09-18",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-25",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      }
+     ]
+    }
+   ],
+   "name": "Taste Of China",
+   "zip": "19940"
+  }
+ ],
+ "slug": "delmar",
+ "source_updated": "2026-10-09",
+ "town": "Delmar"
+}

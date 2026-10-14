@@ -1,0 +1,6350 @@
+{
+ "establishments": [
+  {
+   "address": "26370 Bay Farm Rd",
+   "city": "Millsboro",
+   "id": "17f25be41c",
+   "inspections": [
+    {
+     "date": "2026-09-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      }
+     ]
+    }
+   ],
+   "name": "Afc Sushi @ Harris Teeter #336",
+   "zip": "19966"
+  },
+  {
+   "address": "20750 John J Williams Hwy",
+   "city": "Millsboro",
+   "id": "d1ab09a83c",
+   "inspections": [
+    {
+     "date": "2025-09-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "3-403.11",
+       "description": "Reheating for Hot Holding"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    }
+   ],
+   "name": "Amore Pizza & Subs",
+   "zip": "19966"
+  },
+  {
+   "address": "24851 John J Williams Hwy",
+   "city": "Millsboro",
+   "id": "3fcf7cbab1",
+   "inspections": [
+    {
+     "date": "2026-06-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      }
+     ]
+    },
+    {
+     "date": "2025-07-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-305.12",
+       "description": "Food Storage, Prohibited Areas"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      }
+     ]
+    }
+   ],
+   "name": "Anon Stop #4",
+   "zip": "19966"
+  },
+  {
+   "address": "28669 Dupont Hwy",
+   "city": "Millsboro",
+   "id": "18566106fa",
+   "inspections": [
+    {
+     "date": "2026-04-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      }
+     ]
+    },
+    {
+     "date": "2026-04-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "5-103.11",
+       "description": "Capacity-Quantity and Availability"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2026-03-31",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "5-103.11",
+       "description": "Capacity-Quantity and Availability"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-10-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-502.11",
+       "description": "Good Repair and Calibration"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      },
+      {
+       "code": "8-201.11",
+       "description": "When Plans Are Required"
+      }
+     ]
+    }
+   ],
+   "name": "Arbys Cato #1918 - Millsboro",
+   "zip": "19966"
+  },
+  {
+   "address": "26670 Centerview Dr Unit 15",
+   "city": "Millsboro",
+   "id": "a828531075",
+   "inspections": [
+    {
+     "date": "2026-04-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      }
+     ]
+    },
+    {
+     "date": "2025-11-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "3-304.14",
+       "description": "Wiping Cloths, Use Limitation"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2024-11-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      }
+     ]
+    }
+   ],
+   "name": "Asian Express",
+   "zip": "19966"
+  },
+  {
+   "address": "25938 Plaza Dr Unit 4",
+   "city": "Millsboro",
+   "id": "b27f44e342",
+   "inspections": [
+    {
+     "date": "2026-05-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "6-202.15",
+       "description": "Outer Openings, Protected"
+      }
+     ]
+    },
+    {
+     "date": "2025-10-29",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-10-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-202.15",
+       "description": "Outer Openings, Protected"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.12",
+       "description": "Cutting Surfaces"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "6-501.113",
+       "description": "Storing Maintenance Tools"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-07",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    }
+   ],
+   "name": "Bello Gino Pizzeria",
+   "zip": "19966"
+  },
+  {
+   "address": "26676 Centerview Dr",
+   "city": "Millsboro",
+   "id": "8784cf5c80",
+   "inspections": [
+    {
+     "date": "2025-10-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-08",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2024-11-13",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "5-202.12",
+       "description": "Handwashing Sinks, Installation"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-202.12",
+       "description": "Handwashing Sinks, Installation"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-202.13",
+       "description": "Insect Control Devices, Design and Installation"
+      }
+     ]
+    }
+   ],
+   "name": "BJs Wholesale Club - BJs Wholesale Club Inc",
+   "zip": "19966"
+  },
+  {
+   "address": "32612 Long Neck Rd",
+   "city": "Millsboro",
+   "id": "25509883c9",
+   "inspections": [
+    {
+     "date": "2026-03-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-101.16",
+       "description": "Sponges Use Limitation"
+      }
+     ]
+    },
+    {
+     "date": "2024-12-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      }
+     ]
+    }
+   ],
+   "name": "Bona Pizza",
+   "zip": "19966"
+  },
+  {
+   "address": "36932 Silicato Drive",
+   "city": "Millsboro",
+   "id": "b76d32e145",
+   "inspections": [
+    {
+     "date": "2026-05-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.12",
+       "description": "Cutting Surfaces"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    },
+    {
+     "date": "2025-11-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "6-301.14",
+       "description": "Handwashing Signage"
+      }
+     ]
+    },
+    {
+     "date": "2025-05-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    },
+    {
+     "date": "2024-12-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-301.11",
+       "description": "Preventing Contamination from Hands"
+      },
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-202.15",
+       "description": "Outer Openings, Protected"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Brick Works Brewery & Eats",
+   "zip": "19966"
+  },
+  {
+   "address": "22518 Phillips Hill Road",
+   "city": "Millsboro",
+   "id": "d4d4f6e21d",
+   "inspections": [
+    {
+     "date": "2025-08-19",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      }
+     ]
+    }
+   ],
+   "name": "Brittingham Farms",
+   "zip": "19966"
+  },
+  {
+   "address": "25938 Plaza Drive Unit 5 Bldg D",
+   "city": "Millsboro",
+   "id": "93094e1ff6",
+   "inspections": [
+    {
+     "date": "2026-05-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Capriottis Sandwich Shop",
+   "zip": "19966"
+  },
+  {
+   "address": "30141 Commerce Dr",
+   "city": "Millsboro",
+   "id": "0b8e49140a",
+   "inspections": [
+    {
+     "date": "2026-01-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    }
+   ],
+   "name": "Chick-fil-a Restaurant (Closed)",
+   "zip": "19966"
+  },
+  {
+   "address": "28544 Dupont Highway Unit 10",
+   "city": "Millsboro",
+   "id": "60ac8d8577",
+   "inspections": [
+    {
+     "date": "2026-04-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "7-208.11",
+       "description": "Storage-First Aid Supplies"
+      },
+      {
+       "code": "7-209.11",
+       "description": "Storage-Other Personal Care Items"
+      }
+     ]
+    },
+    {
+     "date": "2025-10-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.12",
+       "description": "Cutting Surfaces"
+      },
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-21",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2024-10-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      }
+     ]
+    }
+   ],
+   "name": "China One",
+   "zip": "19966"
+  },
+  {
+   "address": "234 Main St",
+   "city": "Millsboro",
+   "id": "86ce101fe5",
+   "inspections": [
+    {
+     "date": "2026-07-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-301.11",
+       "description": "Preventing Contamination from Hands"
+      },
+      {
+       "code": "6-202.15",
+       "description": "Outer Openings, Protected"
+      }
+     ]
+    },
+    {
+     "date": "2025-12-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      }
+     ]
+    }
+   ],
+   "name": "Chopsticks",
+   "zip": "19966"
+  },
+  {
+   "address": "28280 John J Williams Hwy",
+   "city": "Millsboro",
+   "id": "eb5d548774",
+   "inspections": [
+    {
+     "date": "2026-09-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "4-501.12",
+       "description": "Cutting Surfaces"
+      }
+     ]
+    }
+   ],
+   "name": "Conti Holdings LLC Rust Sub & Sand Station",
+   "zip": "19966"
+  },
+  {
+   "address": "28521 N Dupont Hwy Unit 2",
+   "city": "Millsboro",
+   "id": "0d461bcf49",
+   "inspections": [
+    {
+     "date": "2026-05-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "4-501.12",
+       "description": "Cutting Surfaces"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Country Kitchen Family Restaurant",
+   "zip": "19966"
+  },
+  {
+   "address": "32600 Long Neck Road",
+   "city": "Millsboro",
+   "id": "50fe95237b",
+   "inspections": [
+    {
+     "date": "2026-02-12",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2026-01-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    },
+    {
+     "date": "2026-01-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    },
+    {
+     "date": "2026-01-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    },
+    {
+     "date": "2025-09-22",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
+     "date": "2025-08-27",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      }
+     ]
+    },
+    {
+     "date": "2025-07-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-501.13",
+       "description": "Thawing"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "4-702.11",
+       "description": "Before Use After Cleaning"
+      },
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      }
+     ]
+    },
+    {
+     "date": "2025-07-22",
+     "type": "Complaint",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      }
+     ]
+    }
+   ],
+   "name": "Crab Barn Restaurant - CDFFllc",
+   "zip": "19966"
+  },
+  {
+   "address": "129 Main Street",
+   "city": "Millsboro",
+   "id": "8222b70657",
+   "inspections": [
+    {
+     "date": "2026-02-26",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    }
+   ],
+   "name": "Dairy Queen #40782 - Millsboro -� Mills 40782 LLC",
+   "zip": "19966"
+  },
+  {
+   "address": "98 Rudder Rd Suite 3",
+   "city": "Millsboro",
+   "id": "dec2e320c4",
+   "inspections": [
+    {
+     "date": "2026-08-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-06-25",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "4-101.16",
+       "description": "Sponges Use Limitation"
+      },
+      {
+       "code": "5-203.12",
+       "description": "Toilets and Urinals"
+      },
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    }
+   ],
+   "name": "DeLizias Pizza",
+   "zip": "19966"
+  },
+  {
+   "address": "3 Back Bay Park Center",
+   "city": "Millsboro",
+   "id": "8a6a0e42b9",
+   "inspections": [
+    {
+     "date": "2026-01-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-301.14",
+       "description": "Handwashing Signage"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Dominos Pizza #4424",
+   "zip": "19966"
+  },
+  {
+   "address": "28521 DuPont Bvd",
+   "city": "Millsboro",
+   "id": "a218b78f80",
+   "inspections": [
+    {
+     "date": "2026-01-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Dominos Pizza #4466",
+   "zip": "19966"
+  },
+  {
+   "address": "28521 DuPont Blvd",
+   "city": "Millsboro",
+   "id": "0de1e1ce52",
+   "inspections": [
+    {
+     "date": "2025-11-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      }
+     ]
+    },
+    {
+     "date": "2024-12-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Dominos Pizza (Closed)",
+   "zip": "19966"
+  },
+  {
+   "address": "25938 John J Williams Hwy",
+   "city": "Millsboro",
+   "id": "ef5b48e193",
+   "inspections": [
+    {
+     "date": "2025-12-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-101.11",
+       "description": "Safe, Unadulterated and Honestly Presented"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    },
+    {
+     "date": "2025-12-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-101.11",
+       "description": "Safe, Unadulterated and Honestly Presented"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    }
+   ],
+   "name": "Dunkin - Franchise Management Services Inc - #34",
+   "zip": "19966"
+  },
+  {
+   "address": "29346 Iron Branch Rd",
+   "city": "Millsboro",
+   "id": "4702caa275",
+   "inspections": [
+    {
+     "date": "2026-03-31",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-202.14",
+       "description": "Toilet Rooms, Enclosed"
+      }
+     ]
+    },
+    {
+     "date": "2025-09-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-202.15",
+       "description": "Package Integrity"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    }
+   ],
+   "name": "East Millsboro Elementary - Indian River School Di",
+   "zip": "19966"
+  },
+  {
+   "address": "31507 Oak Orchard Road",
+   "city": "Millsboro",
+   "id": "4919350e16",
+   "inspections": [
+    {
+     "date": "2026-03-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-101.11",
+       "description": "Surface Characteristics-Indoor Areas"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Fat Vinnys Wings & Things Takeout (Closed)",
+   "zip": "19966"
+  },
+  {
+   "address": "2 Nanticoke Crossing Shopping Cente",
+   "city": "Millsboro",
+   "id": "170645c0e3",
+   "inspections": [
+    {
+     "date": "2026-03-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      }
+     ]
+    },
+    {
+     "date": "2025-10-08",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "3-301.11",
+       "description": "Preventing Contamination from Hands"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    },
+    {
+     "date": "2025-09-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "2-301.15",
+       "description": "Where to Wash"
+      },
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "3-301.11",
+       "description": "Preventing Contamination from Hands"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "4-501.12",
+       "description": "Cutting Surfaces"
+      },
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-702.11",
+       "description": "Before Use After Cleaning"
+      },
+      {
+       "code": "6-501.114",
+       "description": "Maintaining Premises, Unnecessary Items and Litter"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-21",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-04-04",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "3-301.11",
+       "description": "Preventing Contamination from Hands"
+      },
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "3-501.13",
+       "description": "Thawing"
+      },
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-702.11",
+       "description": "Before Use After Cleaning"
+      },
+      {
+       "code": "4-903.12",
+       "description": "Prohibitions"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-25",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "3-301.11",
+       "description": "Preventing Contamination from Hands"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "3-501.13",
+       "description": "Thawing"
+      },
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-702.11",
+       "description": "Before Use After Cleaning"
+      },
+      {
+       "code": "4-903.12",
+       "description": "Prohibitions"
+      },
+      {
+       "code": "6-501.114",
+       "description": "Maintaining Premises, Unnecessary Items and Litter"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-301.11",
+       "description": "Preventing Contamination from Hands"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-304.14",
+       "description": "Wiping Cloths, Use Limitation"
+      },
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "4-903.12",
+       "description": "Prohibitions"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-303.11",
+       "description": "Intensity-Lighting"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    }
+   ],
+   "name": "First Wok",
+   "zip": "19966"
+  },
+  {
+   "address": "28544 Dupont Hwy Suite 8",
+   "city": "Millsboro",
+   "id": "959525949b",
+   "inspections": [
+    {
+     "date": "2025-02-18",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "Food Lion - Food Lion LLC - #875",
+   "zip": "19966"
+  },
+  {
+   "address": "25939 John J Williams Hwy",
+   "city": "Millsboro",
+   "id": "0216767a37",
+   "inspections": [
+    {
+     "date": "2026-05-28",
+     "type": "Complaint",
+     "violations": []
+    },
+    {
+     "date": "2025-10-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-501.112",
+       "description": "Mechanical Warewashing Equipment, Hot Water Sanitization Temperatures"
+      },
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Giant Food - Giant of Maryland LLC - #2351",
+   "zip": "19966"
+  },
+  {
+   "address": "26396 Bay Farm Road Unite 8A",
+   "city": "Millsboro",
+   "id": "9434cbbd44",
+   "inspections": [
+    {
+     "date": "2026-05-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-301.11",
+       "description": "Preventing Contamination from Hands"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2024-11-20",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2024-10-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "3-301.11",
+       "description": "Preventing Contamination from Hands"
+      },
+      {
+       "code": "4-101.16",
+       "description": "Sponges Use Limitation"
+      },
+      {
+       "code": "4-501.16",
+       "description": "Warewashing Sinks, Use Limitation"
+      },
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "5-202.12",
+       "description": "Handwashing Sinks, Installation"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "Golden Wok Chinese Restaurant",
+   "zip": "19966"
+  },
+  {
+   "address": "3021 Commerce Drive",
+   "city": "Millsboro",
+   "id": "a3d355b167",
+   "inspections": [
+    {
+     "date": "2025-09-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    }
+   ],
+   "name": "Grotto Pizza #106 - Commerce Drive Millsboro",
+   "zip": "19966"
+  },
+  {
+   "address": "28552 Dupont Boulevard",
+   "city": "Millsboro",
+   "id": "e3d5293095",
+   "inspections": [
+    {
+     "date": "2026-02-19",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-202.15",
+       "description": "Outer Openings, Protected"
+      }
+     ]
+    }
+   ],
+   "name": "Hardees of Millsboro",
+   "zip": "19966"
+  },
+  {
+   "address": "26370 Bay Farm Rd",
+   "city": "Millsboro",
+   "id": "602a2024ca",
+   "inspections": [
+    {
+     "date": "2026-02-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-203.12",
+       "description": "Shellstock, Maintaining Identification"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "Harris Teeter #336",
+   "zip": "19966"
+  },
+  {
+   "address": "32087 Holly Lake Rd",
+   "city": "Millsboro",
+   "id": "649a2dca09",
+   "inspections": [
+    {
+     "date": "2026-04-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      }
+     ]
+    }
+   ],
+   "name": "Holly Lake Camp Store",
+   "zip": "19966"
+  },
+  {
+   "address": "32688 Oak Orchard Rd",
+   "city": "Millsboro",
+   "id": "b677dc7567",
+   "inspections": [
+    {
+     "date": "2026-01-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      }
+     ]
+    }
+   ],
+   "name": "Indian River VFC",
+   "zip": "19966"
+  },
+  {
+   "address": "28662 DuPont Blvd Suite C",
+   "city": "Millsboro",
+   "id": "ae25808150",
+   "inspections": [
+    {
+     "date": "2026-02-19",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      }
+     ]
+    }
+   ],
+   "name": "Jersey Mikes Subs-Millsboro",
+   "zip": "19966"
+  },
+  {
+   "address": "30058 John J Williams Hwy",
+   "city": "Millsboro",
+   "id": "ac96498275",
+   "inspections": [
+    {
+     "date": "2026-06-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-501.114",
+       "description": "Maintaining Premises, Unnecessary Items and Litter"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-12-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      },
+      {
+       "code": "4-903.12",
+       "description": "Prohibitions"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      },
+      {
+       "code": "6-202.15",
+       "description": "Outer Openings, Protected"
+      },
+      {
+       "code": "6-501.114",
+       "description": "Maintaining Premises, Unnecessary Items and Litter"
+      },
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      },
+      {
+       "code": "7-207.11",
+       "description": "Restriction and Storage-Medicines"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-21",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-02-28",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "3-305.15",
+       "description": "Food Preparation Sink"
+      },
+      {
+       "code": "5-202.13",
+       "description": "Backflow Prevention, Air Gap"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-23",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "5-202.13",
+       "description": "Backflow Prevention, Air Gap"
+      },
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-08",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "3-305.15",
+       "description": "Food Preparation Sink"
+      },
+      {
+       "code": "5-202.13",
+       "description": "Backflow Prevention, Air Gap"
+      },
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    },
+    {
+     "date": "2024-12-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.12",
+       "description": "Cutting Surfaces"
+      },
+      {
+       "code": "5-202.13",
+       "description": "Backflow Prevention, Air Gap"
+      },
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      }
+     ]
+    }
+   ],
+   "name": "K & K Gas & Deli",
+   "zip": "19966"
+  },
+  {
+   "address": "314 Wilson Hwy",
+   "city": "Millsboro",
+   "id": "fc287c781a",
+   "inspections": [
+    {
+     "date": "2026-05-21",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2026-05-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "8-201.11",
+       "description": "When Plans Are Required"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    },
+    {
+     "date": "2026-04-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "8-201.11",
+       "description": "When Plans Are Required"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-24",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-03-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "4-301.14",
+       "description": "Ventilation Hood Systems, Adequacy"
+      }
+     ]
+    }
+   ],
+   "name": "Kaans Bakery",
+   "zip": "19966"
+  },
+  {
+   "address": "303 Main Street",
+   "city": "Millsboro",
+   "id": "b083e4b94a",
+   "inspections": [
+    {
+     "date": "2026-09-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      }
+     ]
+    },
+    {
+     "date": "2025-09-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-202.15",
+       "description": "Outer Openings, Protected"
+      }
+     ]
+    }
+   ],
+   "name": "Kaisys Delights",
+   "zip": "19966"
+  },
+  {
+   "address": "28605 Dupont Blvd",
+   "city": "Millsboro",
+   "id": "b8872e16e0",
+   "inspections": [
+    {
+     "date": "2026-09-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "5-501.17",
+       "description": "Toilet Room Receptacle, Covered"
+      },
+      {
+       "code": "6-301.14",
+       "description": "Handwashing Signage"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2026-03-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-09-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-501.113",
+       "description": "Covering Receptacles"
+      },
+      {
+       "code": "5-501.115",
+       "description": "Maintaining Refuse Areas and Enclosures"
+      }
+     ]
+    }
+   ],
+   "name": "La Tonalteca-Millsboro",
+   "zip": "19966"
+  },
+  {
+   "address": "213 Main Street",
+   "city": "Millsboro",
+   "id": "686f21e178",
+   "inspections": [
+    {
+     "date": "2026-01-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      }
+     ]
+    }
+   ],
+   "name": "Lani Lous Brew",
+   "zip": "19966"
+  },
+  {
+   "address": "31507 Oak Orchard Road",
+   "city": "Millsboro",
+   "id": "d60ef70fae",
+   "inspections": [
+    {
+     "date": "2024-10-07",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-601.12",
+       "description": "Honestly Presented"
+      },
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      },
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      },
+      {
+       "code": "3-701.11",
+       "description": "Discarding or Reconditioning Unsafe, Adulterated, or Contaminated Food"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "3-601.12",
+       "description": "Honestly Presented"
+      },
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      },
+      {
+       "code": "3-701.11",
+       "description": "Discarding or Reconditioning Unsafe, Adulterated, or Contaminated Food"
+      }
+     ]
+    }
+   ],
+   "name": "Liberty Gas & Shore Stop (Closed)",
+   "zip": "19966"
+  },
+  {
+   "address": "Suite 7 26089 Shoppes At Long Neck",
+   "city": "Millsboro",
+   "id": "b3cf196eea",
+   "inspections": [
+    {
+     "date": "2026-01-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-28",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-01-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    }
+   ],
+   "name": "Long Neck CHEER Senior Center - CHEER Inc",
+   "zip": "19966"
+  },
+  {
+   "address": "32362 Long Neck Rd Unit3",
+   "city": "Millsboro",
+   "id": "b09a8e693d",
+   "inspections": [
+    {
+     "date": "2025-11-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-101.19",
+       "description": "Nonfood-Contact Surfaces"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      }
+     ]
+    },
+    {
+     "date": "2024-11-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      }
+     ]
+    }
+   ],
+   "name": "Long Neck Deli",
+   "zip": "19966"
+  },
+  {
+   "address": "25935 Plaza Dr Unit 5",
+   "city": "Millsboro",
+   "id": "d326db7b82",
+   "inspections": [
+    {
+     "date": "2026-09-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      },
+      {
+       "code": "6-202.15",
+       "description": "Outer Openings, Protected"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2026-03-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "3-501.13",
+       "description": "Thawing"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      }
+     ]
+    },
+    {
+     "date": "2025-08-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "3-501.13",
+       "description": "Thawing"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-303.11",
+       "description": "Ice Used as Exterior Coolant, Prohibited as Ingredient"
+      },
+      {
+       "code": "3-501.13",
+       "description": "Thawing"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      }
+     ]
+    }
+   ],
+   "name": "Long Neck Diner",
+   "zip": "19966"
+  },
+  {
+   "address": "26098 John J Williams Hwy",
+   "city": "Millsboro",
+   "id": "bac17ccf56",
+   "inspections": [
+    {
+     "date": "2026-05-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-301.14",
+       "description": "When to Wash"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-501.114",
+       "description": "Maintaining Premises, Unnecessary Items and Litter"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "7-207.11",
+       "description": "Restriction and Storage-Medicines"
+      }
+     ]
+    },
+    {
+     "date": "2025-11-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "2-301.12",
+       "description": "Cleaning Procedure"
+      },
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "4-602.11",
+       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
+      },
+      {
+       "code": "4-602.11",
+       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "4-903.12",
+       "description": "Prohibitions"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
+     "date": "2025-05-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-202.15",
+       "description": "Outer Openings, Protected"
+      }
+     ]
+    },
+    {
+     "date": "2024-12-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      }
+     ]
+    }
+   ],
+   "name": "Long Neck Pizza & Grill",
+   "zip": "19966"
+  },
+  {
+   "address": "31502 Oak Orchard Road",
+   "city": "Millsboro",
+   "id": "0fc1694a1f",
+   "inspections": [
+    {
+     "date": "2026-09-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    },
+    {
+     "date": "2025-09-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-13",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-02-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-301.11",
+       "description": "Preventing Contamination from Hands"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    }
+   ],
+   "name": "Los Mayas Mexican Restaurant",
+   "zip": "19966"
+  },
+  {
+   "address": "32008 Longneck Rd",
+   "city": "Millsboro",
+   "id": "8db21331f5",
+   "inspections": [
+    {
+     "date": "2026-04-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    }
+   ],
+   "name": "Madis Fresh Catch Seafood",
+   "zip": "19966"
+  },
+  {
+   "address": "24943 John J Williams Hwy",
+   "city": "Millsboro",
+   "id": "407a4878fe",
+   "inspections": [
+    {
+     "date": "2025-10-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    },
+    {
+     "date": "2025-05-06",
+     "type": "Complaint",
+     "violations": []
+    },
+    {
+     "date": "2024-10-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-501.112",
+       "description": "Removing Dead or Trapped Birds, Insects, Rodents and other Pest"
+      }
+     ]
+    }
+   ],
+   "name": "McDonalds (Long Neck) - The Meoli Companies - #31",
+   "zip": "19966"
+  },
+  {
+   "address": "30255 Commerce Dr",
+   "city": "Millsboro",
+   "id": "729ad1c4ec",
+   "inspections": [
+    {
+     "date": "2026-02-26",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-19",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    }
+   ],
+   "name": "McDonalds AJM Ent - The Meoli Companies - #34154",
+   "zip": "19966"
+  },
+  {
+   "address": "PO Box 1320 29005 John J Willaims H",
+   "city": "Millsboro",
+   "id": "0219b0d1ad",
+   "inspections": [
+    {
+     "date": "2026-08-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2026-07-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-12-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      }
+     ]
+    },
+    {
+     "date": "2025-05-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.114",
+       "description": "Maintaining Premises, Unnecessary Items and Litter"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-202.12",
+       "description": "Heating, Ventilation, Air Conditioning System Vents"
+      }
+     ]
+    }
+   ],
+   "name": "Mountaire Poultry Plant",
+   "zip": "19966"
+  },
+  {
+   "address": "226 Main St",
+   "city": "Millsboro",
+   "id": "c30b14a287",
+   "inspections": [
+    {
+     "date": "2025-11-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    },
+    {
+     "date": "2024-12-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.112",
+       "description": "Removing Dead or Trapped Birds, Insects, Rodents and other Pest"
+      }
+     ]
+    }
+   ],
+   "name": "Nectar Cafe & Juice Bar",
+   "zip": "19966"
+  },
+  {
+   "address": "32369 Longneck Road #10",
+   "city": "Millsboro",
+   "id": "92c02078c6",
+   "inspections": [
+    {
+     "date": "2025-07-25",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-07-10",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-07-10",
+     "type": "Complaint",
+     "violations": []
+    },
+    {
+     "date": "2025-05-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      }
+     ]
+    }
+   ],
+   "name": "No 1 Fresh Steamed Crabs (CLOSED)",
+   "zip": "19966"
+  },
+  {
+   "address": "109 Main Street",
+   "city": "Millsboro",
+   "id": "0ac22e29c3",
+   "inspections": [
+    {
+     "date": "2026-09-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
+     "date": "2026-03-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-301.14",
+       "description": "Handwashing Signage"
+      }
+     ]
+    }
+   ],
+   "name": "Nossa Casa Brazilian Steakhouse",
+   "zip": "19966"
+  },
+  {
+   "address": "26089 Shoppes of Long Neck",
+   "city": "Millsboro",
+   "id": "880a430826",
+   "inspections": [
+    {
+     "date": "2026-05-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-202.15",
+       "description": "Outer Openings, Protected"
+      }
+     ]
+    },
+    {
+     "date": "2025-10-27",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-501.114",
+       "description": "Maintaining Premises, Unnecessary Items and Litter"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-101.11",
+       "description": "Characteristics-Materials for Construction and Repair"
+      }
+     ]
+    }
+   ],
+   "name": "Ocean Grill II",
+   "zip": "19966"
+  },
+  {
+   "address": "32497 Long Neck Rd",
+   "city": "Millsboro",
+   "id": "c038a5d95c",
+   "inspections": [
+    {
+     "date": "2026-05-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-101.11",
+       "description": "Surface Characteristics-Indoor Areas"
+      }
+     ]
+    }
+   ],
+   "name": "Old World Breads Bakery - Old World Breads Inc -",
+   "zip": "19966"
+  },
+  {
+   "address": "28417 Dupont Blvd Ut 5",
+   "city": "Millsboro",
+   "id": "3cf57b5651",
+   "inspections": [
+    {
+     "date": "2026-01-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-301.14",
+       "description": "Handwashing Signage"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
+     "date": "2026-01-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "6-301.14",
+       "description": "Handwashing Signage"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      },
+      {
+       "code": "6-202.15",
+       "description": "Outer Openings, Protected"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      }
+     ]
+    }
+   ],
+   "name": "Papa Johns",
+   "zip": "19966"
+  },
+  {
+   "address": "28417 Dupont Blvd Ut 5",
+   "city": "Millsboro",
+   "id": "5ebd04c6df",
+   "inspections": [
+    {
+     "date": "2024-12-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-202.15",
+       "description": "Outer Openings, Protected"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    }
+   ],
+   "name": "Papa Johns (Closed)",
+   "zip": "19966"
+  },
+  {
+   "address": "27344 Bay Rd",
+   "city": "Millsboro",
+   "id": "c04fb1beee",
+   "inspections": [
+    {
+     "date": "2026-08-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-09-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-501.12",
+       "description": "Outdoor Enclosure"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Paradise Grill",
+   "zip": "19966"
+  },
+  {
+   "address": "20628 Long Beach Dr",
+   "city": "Millsboro",
+   "id": "291a8bed29",
+   "inspections": [
+    {
+     "date": "2026-07-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-06-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-401.11",
+       "description": "Eating, Drinking, or Using Tobacco"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "Paradise Jackspot Cafe",
+   "zip": "19966"
+  },
+  {
+   "address": "34814 Long Neck Rd",
+   "city": "Millsboro",
+   "id": "51f378c4cc",
+   "inspections": [
+    {
+     "date": "2026-08-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2026-01-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-401.11",
+       "description": "Eating, Drinking, or Using Tobacco"
+      },
+      {
+       "code": "3-304.14",
+       "description": "Wiping Cloths, Use Limitation"
+      },
+      {
+       "code": "4-202.15",
+       "description": "Can Openers"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Paradise Pub",
+   "zip": "19966"
+  },
+  {
+   "address": "27344 Bay Rd",
+   "city": "Millsboro",
+   "id": "b80eec000e",
+   "inspections": [
+    {
+     "date": "2026-08-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Paradise Snack Shack",
+   "zip": "19966"
+  },
+  {
+   "address": "Rt 113 Unit #20",
+   "city": "Millsboro",
+   "id": "7f0c48d46f",
+   "inspections": [
+    {
+     "date": "2026-03-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "3-101.11",
+       "description": "Safe, Unadulterated and Honestly Presented"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-602.11",
+       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
+      },
+      {
+       "code": "4-602.12",
+       "description": "Cooking and Baking Equipment"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      }
+     ]
+    },
+    {
+     "date": "2025-09-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-602.11",
+       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
+      },
+      {
+       "code": "6-202.13",
+       "description": "Insect Control Devices, Design and Installation"
+      }
+     ]
+    }
+   ],
+   "name": "Pizza King - Baynum Enterprises Inc",
+   "zip": "19966"
+  },
+  {
+   "address": "28544 Dupont Blvd",
+   "city": "Millsboro",
+   "id": "eeb1822cc2",
+   "inspections": [
+    {
+     "date": "2026-03-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-03",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-03-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    }
+   ],
+   "name": "Pizza Palace",
+   "zip": "19966"
+  },
+  {
+   "address": "20301 Charlotte Boulevard",
+   "city": "Millsboro",
+   "id": "7ff44c585b",
+   "inspections": [
+    {
+     "date": "2025-05-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-203.12",
+       "description": "Shellstock, Maintaining Identification"
+      }
+     ]
+    }
+   ],
+   "name": "Plantation Lakes Golf and Country Club",
+   "zip": "19966"
+  },
+  {
+   "address": "26506 Victorias Landing Rd",
+   "city": "Millsboro",
+   "id": "7680a8400a",
+   "inspections": [
+    {
+     "date": "2026-07-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      }
+     ]
+    },
+    {
+     "date": "2025-07-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "4-702.11",
+       "description": "Before Use After Cleaning"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    }
+   ],
+   "name": "Plaza Mexico Restaurante",
+   "zip": "19966"
+  },
+  {
+   "address": "30261 Commerce Dr",
+   "city": "Millsboro",
+   "id": "f125b6417b",
+   "inspections": [
+    {
+     "date": "2025-02-19",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    }
+   ],
+   "name": "Popeyes Cato #11856 - Millsboro",
+   "zip": "19966"
+  },
+  {
+   "address": "28632 Dupont Boulevard",
+   "city": "Millsboro",
+   "id": "5d01624728",
+   "inspections": [
+    {
+     "date": "2026-02-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      }
+     ]
+    },
+    {
+     "date": "2026-01-19",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "3-301.11",
+       "description": "Preventing Contamination from Hands"
+      },
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-27",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-301.11",
+       "description": "Preventing Contamination from Hands"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Pure Fitness",
+   "zip": "19966"
+  },
+  {
+   "address": "209 Main Street Units 10-13",
+   "city": "Millsboro",
+   "id": "126c465390",
+   "inspections": [
+    {
+     "date": "2026-04-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-303.11",
+       "description": "Ice Used as Exterior Coolant, Prohibited as Ingredient"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-304.11",
+       "description": "Mechanical-Ventilation"
+      }
+     ]
+    },
+    {
+     "date": "2025-10-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-401.11",
+       "description": "Eating, Drinking, or Using Tobacco"
+      },
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-403.11",
+       "description": "Reheating for Hot Holding"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      }
+     ]
+    },
+    {
+     "date": "2024-11-18",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      }
+     ]
+    }
+   ],
+   "name": "Raices Latin Kitchen",
+   "zip": "19966"
+  },
+  {
+   "address": "24808 John J Williams Highway",
+   "city": "Millsboro",
+   "id": "d96e17dafc",
+   "inspections": [
+    {
+     "date": "2026-07-09",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2026-06-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    },
+    {
+     "date": "2026-05-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    },
+    {
+     "date": "2026-05-01",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    },
+    {
+     "date": "2026-04-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    },
+    {
+     "date": "2026-04-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      }
+     ]
+    },
+    {
+     "date": "2025-05-02",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-04-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      }
+     ]
+    }
+   ],
+   "name": "Ritas",
+   "zip": "19966"
+  },
+  {
+   "address": "212 Main St",
+   "city": "Millsboro",
+   "id": "d9e0b337b0",
+   "inspections": [
+    {
+     "date": "2026-08-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    },
+    {
+     "date": "2026-02-27",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "6-202.14",
+       "description": "Toilet Rooms, Enclosed"
+      }
+     ]
+    },
+    {
+     "date": "2025-09-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-401.11",
+       "description": "Eating, Drinking, or Using Tobacco"
+      },
+      {
+       "code": "6-202.14",
+       "description": "Toilet Rooms, Enclosed"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      },
+      {
+       "code": "6-202.14",
+       "description": "Toilet Rooms, Enclosed"
+      }
+     ]
+    }
+   ],
+   "name": "Rockys Pizza",
+   "zip": "19966"
+  },
+  {
+   "address": "26672 John J Williams Hwy",
+   "city": "Millsboro",
+   "id": "6034a2b51e",
+   "inspections": [
+    {
+     "date": "2026-01-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-28",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-02-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    }
+   ],
+   "name": "Royal Farms #123",
+   "zip": "19966"
+  },
+  {
+   "address": "30217 Commerce Dr",
+   "city": "Millsboro",
+   "id": "8ba9e70f0f",
+   "inspections": [
+    {
+     "date": "2026-01-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.18",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Disposition"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-301.14",
+       "description": "Handwashing Signage"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Royal Farms #295",
+   "zip": "19966"
+  },
+  {
+   "address": "37254 Sandpiper Rd",
+   "city": "Millsboro",
+   "id": "bf7f39872b",
+   "inspections": [
+    {
+     "date": "2025-08-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-501.113",
+       "description": "Covering Receptacles"
+      }
+     ]
+    }
+   ],
+   "name": "Seaside Bar & Grill (Closed)",
+   "zip": "19966"
+  },
+  {
+   "address": "32368 Long Neck Road",
+   "city": "Millsboro",
+   "id": "a9f63e5c68",
+   "inspections": [
+    {
+     "date": "2026-01-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-301.14",
+       "description": "Handwashing Signage"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Seaside Fish House",
+   "zip": "19966"
+  },
+  {
+   "address": "32580 River Road",
+   "city": "Millsboro",
+   "id": "068c550edd",
+   "inspections": [
+    {
+     "date": "2025-07-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-403.11",
+       "description": "Reheating for Hot Holding"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      }
+     ]
+    }
+   ],
+   "name": "Serendipity",
+   "zip": "19966"
+  },
+  {
+   "address": "26670 Centerview Drive Unit 7",
+   "city": "Millsboro",
+   "id": "f16b005346",
+   "inspections": [
+    {
+     "date": "2025-07-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-301.11",
+       "description": "Preventing Contamination from Hands"
+      },
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      },
+      {
+       "code": "7-202.12",
+       "description": "Conditions of Use"
+      }
+     ]
+    }
+   ],
+   "name": "Shahs Halal Food - ALVIFOODS24 LLC",
+   "zip": "19966"
+  },
+  {
+   "address": "32369 Long Neck Rd",
+   "city": "Millsboro",
+   "id": "41ad5c708b",
+   "inspections": [
+    {
+     "date": "2025-12-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "4-101.19",
+       "description": "Nonfood-Contact Surfaces"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-11-06",
+     "type": "Complaint",
+     "violations": [
+      {
+       "code": "4-501.14",
+       "description": "Warewashing Equipment, Cleaning Frequency"
+      },
+      {
+       "code": "6-202.15",
+       "description": "Outer Openings, Protected"
+      },
+      {
+       "code": "6-501.112",
+       "description": "Removing Dead or Trapped Birds, Insects, Rodents and other Pest"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-07-08",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    },
+    {
+     "date": "2025-06-03",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    },
+    {
+     "date": "2025-05-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      }
+     ]
+    }
+   ],
+   "name": "Shore Stop #295",
+   "zip": "19966"
+  },
+  {
+   "address": "26670 Centerview Drive",
+   "city": "Millsboro",
+   "id": "7d184cee68",
+   "inspections": [
+    {
+     "date": "2026-04-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
+     "date": "2025-05-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-301.14",
+       "description": "Handwashing Signage"
+      }
+     ]
+    }
+   ],
+   "name": "Smakn Sweets",
+   "zip": "19966"
+  },
+  {
+   "address": "28565 Dupont Boulevard",
+   "city": "Millsboro",
+   "id": "c686d6dda4",
+   "inspections": [
+    {
+     "date": "2026-01-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-202.13",
+       "description": "Insect Control Devices, Design and Installation"
+      }
+     ]
+    }
+   ],
+   "name": "Starbucks Coffee - Starbucks Corporation - #55188",
+   "zip": "19966"
+  },
+  {
+   "address": "31507 Oak Orchard Road Unit #3",
+   "city": "Millsboro",
+   "id": "1d30032a20",
+   "inspections": [
+    {
+     "date": "2025-01-31",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "6-101.11",
+       "description": "Surface Characteristics-Indoor Areas"
+      }
+     ]
+    }
+   ],
+   "name": "Stews Seafood Market (Closed)",
+   "zip": "19966"
+  },
+  {
+   "address": "26506 Victoria Landing Road",
+   "city": "Millsboro",
+   "id": "fca65106f0",
+   "inspections": [
+    {
+     "date": "2025-11-12",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-10-29",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
+     "date": "2025-10-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
+     "date": "2024-11-21",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2024-10-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    }
+   ],
+   "name": "Subway - Long Neck",
+   "zip": "19966"
+  },
+  {
+   "address": "36908 Silicato Dr Suite 13",
+   "city": "Millsboro",
+   "id": "5e16285ec5",
+   "inspections": [
+    {
+     "date": "2025-05-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "4-501.12",
+       "description": "Cutting Surfaces"
+      }
+     ]
+    }
+   ],
+   "name": "Surf Bagel Longneck - Surf Bagel Holdings LLC - #",
+   "zip": "19966"
+  },
+  {
+   "address": "32592 Long Neck Rd",
+   "city": "Millsboro",
+   "id": "657c34cf16",
+   "inspections": [
+    {
+     "date": "2025-08-27",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-501.18",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Disposition"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-501.13",
+       "description": "Thawing"
+      }
+     ]
+    }
+   ],
+   "name": "Sussex Amvets Post 2",
+   "zip": "19966"
+  },
+  {
+   "address": "28469 Lakeside Lane",
+   "city": "Millsboro",
+   "id": "7a2b1cb1d6",
+   "inspections": [
+    {
+     "date": "2026-06-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
+     "date": "2026-04-27",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    }
+   ],
+   "name": "Taquieria La Patrona",
+   "zip": "19966"
+  },
+  {
+   "address": "25935 Plaza Dr #7",
+   "city": "Millsboro",
+   "id": "54013c5435",
+   "inspections": [
+    {
+     "date": "2026-09-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-401.11",
+       "description": "Eating, Drinking, or Using Tobacco"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    },
+    {
+     "date": "2026-02-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      },
+      {
+       "code": "7-202.12",
+       "description": "Conditions of Use"
+      }
+     ]
+    },
+    {
+     "date": "2025-08-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-101.16",
+       "description": "Sponges Use Limitation"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    }
+   ],
+   "name": "Taste Garden",
+   "zip": "19966"
+  },
+  {
+   "address": "30181 Commerce Dr",
+   "city": "Millsboro",
+   "id": "382e427c4f",
+   "inspections": [
+    {
+     "date": "2026-06-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-101.11",
+       "description": "Safe, Unadulterated and Honestly Presented"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-501.12",
+       "description": "Cutting Surfaces"
+      }
+     ]
+    },
+    {
+     "date": "2025-12-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
+     "date": "2025-05-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-301.11",
+       "description": "Preventing Contamination from Hands"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-501.12",
+       "description": "Cutting Surfaces"
+      },
+      {
+       "code": "5-403.12",
+       "description": "Other Liquid Wastes and Rainwater"
+      }
+     ]
+    },
+    {
+     "date": "2024-11-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      }
+     ]
+    }
+   ],
+   "name": "Texas Roadhouse #708",
+   "zip": "19966"
+  },
+  {
+   "address": "32267 Clubhouse Way",
+   "city": "Millsboro",
+   "id": "51f22b1e37",
+   "inspections": [
+    {
+     "date": "2026-06-01",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-203.12",
+       "description": "Shellstock, Maintaining Identification"
+      },
+      {
+       "code": "3-301.11",
+       "description": "Preventing Contamination from Hands"
+      },
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "3-501.18",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Disposition"
+      },
+      {
+       "code": "4-501.12",
+       "description": "Cutting Surfaces"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-11-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-203.12",
+       "description": "Shellstock, Maintaining Identification"
+      },
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "4-501.12",
+       "description": "Cutting Surfaces"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-31",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "4-501.12",
+       "description": "Cutting Surfaces"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "The Clubhouse At Baywood - Highwater Management Ba",
+   "zip": "19966"
+  },
+  {
+   "address": "37100 Millsboro Highway",
+   "city": "Millsboro",
+   "id": "2f510f8884",
+   "inspections": [
+    {
+     "date": "2026-09-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      }
+     ]
+    },
+    {
+     "date": "2026-03-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      }
+     ]
+    }
+   ],
+   "name": "The Old Time Grill",
+   "zip": "19966"
+  },
+  {
+   "address": "32981 Peninsula Esplanade",
+   "city": "Millsboro",
+   "id": "7d328c2359",
+   "inspections": [
+    {
+     "date": "2025-08-26",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-501.116",
+       "description": "Warewashing Equipment, Determining Chemical Sanitizer Concentration"
+      },
+      {
+       "code": "4-501.12",
+       "description": "Cutting Surfaces"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "7-202.12",
+       "description": "Conditions of Use"
+      }
+     ]
+    }
+   ],
+   "name": "The Peninsula Caf� Terrace Grille",
+   "zip": "19966"
+  },
+  {
+   "address": "32981 Peninsula Esplanade",
+   "city": "Millsboro",
+   "id": "dd4529ce47",
+   "inspections": [
+    {
+     "date": "2026-05-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-301.14",
+       "description": "Handwashing Signage"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-11-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-101.11",
+       "description": "Safe, Unadulterated and Honestly Presented"
+      },
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2024-12-02",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2024-11-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-101.11",
+       "description": "Safe, Unadulterated and Honestly Presented"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    }
+   ],
+   "name": "The Peninsula Clubhouse",
+   "zip": "19966"
+  },
+  {
+   "address": "32975 Peninsula Esplanade",
+   "city": "Millsboro",
+   "id": "e39e7741e6",
+   "inspections": [
+    {
+     "date": "2026-05-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    }
+   ],
+   "name": "The Peninsula Snack Shack",
+   "zip": "19966"
+  },
+  {
+   "address": "38531 Parker Road",
+   "city": "Millsboro",
+   "id": "1e79aef00c",
+   "inspections": [
+    {
+     "date": "2026-09-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      }
+     ]
+    }
+   ],
+   "name": "The Reload",
+   "zip": "19966"
+  },
+  {
+   "address": "31457 River Rd",
+   "city": "Millsboro",
+   "id": "de8381e772",
+   "inspections": [
+    {
+     "date": "2026-08-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      }
+     ]
+    }
+   ],
+   "name": "The Riverside Grill",
+   "zip": "19966"
+  },
+  {
+   "address": "26670 Centerview Drive Unit 10 & 11",
+   "city": "Millsboro",
+   "id": "7c0f81e89e",
+   "inspections": [
+    {
+     "date": "2025-03-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "3-501.13",
+       "description": "Thawing"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.12",
+       "description": "Cutting Surfaces"
+      },
+      {
+       "code": "6-301.14",
+       "description": "Handwashing Signage"
+      },
+      {
+       "code": "7-202.12",
+       "description": "Conditions of Use"
+      }
+     ]
+    }
+   ],
+   "name": "Trebol Taco Shop (Closed)",
+   "zip": "19966"
+  },
+  {
+   "address": "36932 Silicato Drive Unit 7",
+   "city": "Millsboro",
+   "id": "7b7d73372a",
+   "inspections": [
+    {
+     "date": "2025-07-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-303.11",
+       "description": "Prohibition-Jewelry"
+      },
+      {
+       "code": "3-301.11",
+       "description": "Preventing Contamination from Hands"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      }
+     ]
+    }
+   ],
+   "name": "Two Meatballs Ristorante Pizzeria",
+   "zip": "19966"
+  },
+  {
+   "address": "222 Railroad Ave",
+   "city": "Millsboro",
+   "id": "c192a02162",
+   "inspections": [
+    {
+     "date": "2024-12-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-304.14",
+       "description": "Wiping Cloths, Use Limitation"
+      },
+      {
+       "code": "6-202.14",
+       "description": "Toilet Rooms, Enclosed"
+      }
+     ]
+    }
+   ],
+   "name": "Uptown Protein (Closed)",
+   "zip": "19966"
+  },
+  {
+   "address": "222 Railroad Street",
+   "city": "Millsboro",
+   "id": "dcc00b55d5",
+   "inspections": [
+    {
+     "date": "2025-12-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-202.14",
+       "description": "Toilet Rooms, Enclosed"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-301.14",
+       "description": "Handwashing Signage"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    }
+   ],
+   "name": "Uptown Protein-Millsboro",
+   "zip": "19966"
+  },
+  {
+   "address": "29887 John J Williams Hwy",
+   "city": "Millsboro",
+   "id": "14385e75af",
+   "inspections": [
+    {
+     "date": "2026-09-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-501.14",
+       "description": "Cleaning Ventilation Systems, Nuisance and Discharge Prohibition"
+      }
+     ]
+    },
+    {
+     "date": "2026-03-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    },
+    {
+     "date": "2025-09-18",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-403.11",
+       "description": "Reheating for Hot Holding"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      },
+      {
+       "code": "5-501.11",
+       "description": "Outdoor Storage Surface"
+      },
+      {
+       "code": "6-501.114",
+       "description": "Maintaining Premises, Unnecessary Items and Litter"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    },
+    {
+     "date": "2024-11-13",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-29",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-18",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-04",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    }
+   ],
+   "name": "Vinnys Pizza",
+   "zip": "19966"
+  },
+  {
+   "address": "24930 John J Williams Hwy",
+   "city": "Millsboro",
+   "id": "a80889c538",
+   "inspections": [
+    {
+     "date": "2026-06-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "5-501.115",
+       "description": "Maintaining Refuse Areas and Enclosures"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-17",
+     "type": "Complaint",
+     "violations": []
+    }
+   ],
+   "name": "Wawa Food Market #865",
+   "zip": "19966"
+  },
+  {
+   "address": "28606 Dupont Boulevard",
+   "city": "Millsboro",
+   "id": "79b01aca92",
+   "inspections": [
+    {
+     "date": "2026-01-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-301.11",
+       "description": "Preventing Contamination from Hands"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      }
+     ]
+    },
+    {
+     "date": "2025-08-19",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      }
+     ]
+    }
+   ],
+   "name": "Wayback Burgers",
+   "zip": "19966"
+  },
+  {
+   "address": "30250 Commerce Drive",
+   "city": "Millsboro",
+   "id": "817dd4df11",
+   "inspections": [
+    {
+     "date": "2026-08-05",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2026-07-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    }
+   ],
+   "name": "Weis Markets - Weis Markets Inc - #130",
+   "zip": "19966"
+  },
+  {
+   "address": "24832 John J Williams Hwy",
+   "city": "Millsboro",
+   "id": "a2eb34d521",
+   "inspections": [
+    {
+     "date": "2025-09-25",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      }
+     ]
+    }
+   ],
+   "name": "Weis Markets - Weis Markets Inc - #272",
+   "zip": "19966"
+  },
+  {
+   "address": "25938 Plaza Dr Unit 3",
+   "city": "Millsboro",
+   "id": "69a5407535",
+   "inspections": [
+    {
+     "date": "2024-11-06",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-301.11",
+       "description": "Preventing Contamination from Hands"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-301.14",
+       "description": "Handwashing Signage"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-301.11",
+       "description": "Preventing Contamination from Hands"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-301.14",
+       "description": "Handwashing Signage"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    }
+   ],
+   "name": "Wings To Go",
+   "zip": "19966"
+  },
+  {
+   "address": "25938 Plaza Dr Unit 3",
+   "city": "Millsboro",
+   "id": "c6e6cbad5e",
+   "inspections": [
+    {
+     "date": "2026-03-23",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2026-03-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-101.11",
+       "description": "Safe, Unadulterated and Honestly Presented"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "4-602.12",
+       "description": "Cooking and Baking Equipment"
+      }
+     ]
+    },
+    {
+     "date": "2025-09-18",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      }
+     ]
+    }
+   ],
+   "name": "Wings to Go - Millsboro",
+   "zip": "19966"
+  },
+  {
+   "address": "36908 Silicato Rd Ste 14",
+   "city": "Millsboro",
+   "id": "c39b447ae8",
+   "inspections": [
+    {
+     "date": "2026-09-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "6-304.11",
+       "description": "Mechanical-Ventilation"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    },
+    {
+     "date": "2026-09-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "6-304.11",
+       "description": "Mechanical-Ventilation"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    },
+    {
+     "date": "2026-08-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "6-304.11",
+       "description": "Mechanical-Ventilation"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    },
+    {
+     "date": "2026-06-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "6-304.11",
+       "description": "Mechanical-Ventilation"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    },
+    {
+     "date": "2026-05-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "6-304.11",
+       "description": "Mechanical-Ventilation"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    },
+    {
+     "date": "2026-04-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "6-304.11",
+       "description": "Mechanical-Ventilation"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    },
+    {
+     "date": "2026-03-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-304.11",
+       "description": "Mechanical-Ventilation"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    },
+    {
+     "date": "2026-02-18",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-304.11",
+       "description": "Mechanical-Ventilation"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    },
+    {
+     "date": "2026-01-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-304.11",
+       "description": "Mechanical-Ventilation"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    },
+    {
+     "date": "2025-10-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-303.11",
+       "description": "Intensity-Lighting"
+      },
+      {
+       "code": "6-304.11",
+       "description": "Mechanical-Ventilation"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.14",
+       "description": "Cleaning Ventilation Systems, Nuisance and Discharge Prohibition"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    },
+    {
+     "date": "2025-10-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "5-501.17",
+       "description": "Toilet Room Receptacle, Covered"
+      },
+      {
+       "code": "6-301.14",
+       "description": "Handwashing Signage"
+      },
+      {
+       "code": "6-303.11",
+       "description": "Intensity-Lighting"
+      },
+      {
+       "code": "6-304.11",
+       "description": "Mechanical-Ventilation"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    },
+    {
+     "date": "2025-08-28",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "6-304.11",
+       "description": "Mechanical-Ventilation"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    },
+    {
+     "date": "2025-08-14",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "6-304.11",
+       "description": "Mechanical-Ventilation"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    },
+    {
+     "date": "2025-06-24",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "6-304.11",
+       "description": "Mechanical-Ventilation"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    },
+    {
+     "date": "2025-06-11",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "6-304.11",
+       "description": "Mechanical-Ventilation"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "8-201.11",
+       "description": "When Plans Are Required"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    },
+    {
+     "date": "2025-05-23",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "6-304.11",
+       "description": "Mechanical-Ventilation"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "8-201.11",
+       "description": "When Plans Are Required"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-21",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "5-202.13",
+       "description": "Backflow Prevention, Air Gap"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-304.11",
+       "description": "Mechanical-Ventilation"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "8-201.11",
+       "description": "When Plans Are Required"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-101.11",
+       "description": "Safe, Unadulterated and Honestly Presented"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-501.12",
+       "description": "Cutting Surfaces"
+      },
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "5-202.13",
+       "description": "Backflow Prevention, Air Gap"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-303.11",
+       "description": "Intensity-Lighting"
+      },
+      {
+       "code": "6-304.11",
+       "description": "Mechanical-Ventilation"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    },
+    {
+     "date": "2024-11-21",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "6-304.11",
+       "description": "Mechanical-Ventilation"
+      }
+     ]
+    },
+    {
+     "date": "2024-11-08",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "6-304.11",
+       "description": "Mechanical-Ventilation"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "3-301.11",
+       "description": "Preventing Contamination from Hands"
+      },
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "6-304.11",
+       "description": "Mechanical-Ventilation"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "8-201.11",
+       "description": "When Plans Are Required"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    }
+   ],
+   "name": "Yellowfins Bar & Grill",
+   "zip": "19966"
+  }
+ ],
+ "slug": "millsboro",
+ "source_updated": "2026-10-09",
+ "town": "Millsboro"
+}

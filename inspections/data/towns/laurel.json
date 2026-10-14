@@ -1,0 +1,912 @@
+{
+ "establishments": [
+  {
+   "address": "111 Delaware Ave",
+   "city": "Laurel",
+   "id": "66da539c55",
+   "inspections": [
+    {
+     "date": "2025-10-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      }
+     ]
+    }
+   ],
+   "name": "Abbotts On The Broad Creek",
+   "zip": "19956"
+  },
+  {
+   "address": "309 N Central Ave",
+   "city": "Laurel",
+   "id": "1617bc9b0f",
+   "inspections": [
+    {
+     "date": "2025-11-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-202.15",
+       "description": "Conditioning Device, Design"
+      }
+     ]
+    },
+    {
+     "date": "2025-05-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-202.18",
+       "description": "Ventilation Hood Systems, Filters"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    }
+   ],
+   "name": "Brake Time",
+   "zip": "19956"
+  },
+  {
+   "address": "1103 South Central Ave",
+   "city": "Laurel",
+   "id": "e8ab513234",
+   "inspections": [
+    {
+     "date": "2026-05-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "name": "Bryans Bowling Center",
+   "zip": "19956"
+  },
+  {
+   "address": "30759 Sussex Hwy",
+   "city": "Laurel",
+   "id": "1a3034edee",
+   "inspections": [
+    {
+     "date": "2024-10-31",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      }
+     ]
+    }
+   ],
+   "name": "Chesapeake Country Kitchen",
+   "zip": "19956"
+  },
+  {
+   "address": "1110 W 6th St",
+   "city": "Laurel",
+   "id": "fb4d9c1567",
+   "inspections": [
+    {
+     "date": "2025-03-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      }
+     ]
+    }
+   ],
+   "name": "Children & Families First Dunbar Head Start (Close",
+   "zip": "19956"
+  },
+  {
+   "address": "11290 Trussum Pond Rd Rt 13 Market",
+   "city": "Laurel",
+   "id": "b28deb8eab",
+   "inspections": [
+    {
+     "date": "2025-03-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    }
+   ],
+   "name": "Delicias El Peque",
+   "zip": "19956"
+  },
+  {
+   "address": "15526 English Ivy Lane",
+   "city": "Laurel",
+   "id": "2d9efb4a79",
+   "inspections": [
+    {
+     "date": "2025-06-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-101.19",
+       "description": "Nonfood-Contact Surfaces"
+      }
+     ]
+    }
+   ],
+   "name": "Delmarva Christian Service Camp",
+   "zip": "19956"
+  },
+  {
+   "address": "30685 Sussex Hwy",
+   "city": "Laurel",
+   "id": "a4a1df2130",
+   "inspections": [
+    {
+     "date": "2025-05-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Dunkin - Franchise Management Services Inc - #33",
+   "zip": "19956"
+  },
+  {
+   "address": "10912 County Seat Hwy",
+   "city": "Laurel",
+   "id": "9c1f742d9c",
+   "inspections": [
+    {
+     "date": "2025-06-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    }
+   ],
+   "name": "El Primo Taquerias",
+   "zip": "19956"
+  },
+  {
+   "address": "11290 Trussum Pond Rd",
+   "city": "Laurel",
+   "id": "2f9195eee0",
+   "inspections": [
+    {
+     "date": "2026-03-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      }
+     ]
+    }
+   ],
+   "name": "El Rinconcito Latino",
+   "zip": "19956"
+  },
+  {
+   "address": "30759 Sussex Hwy",
+   "city": "Laurel",
+   "id": "0b1af0c329",
+   "inspections": [
+    {
+     "date": "2026-03-31",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-19",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Hardees",
+   "zip": "19956"
+  },
+  {
+   "address": "30425 Seaford Road",
+   "city": "Laurel",
+   "id": "822c5dc8d3",
+   "inspections": [
+    {
+     "date": "2026-02-27",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-501.14",
+       "description": "Cleaning Ventilation Systems, Nuisance and Discharge Prohibition"
+      }
+     ]
+    },
+    {
+     "date": "2025-08-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "4-204.11",
+       "description": "Ventilation Hood Systems, Drip Prevention"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-202.18",
+       "description": "Ventilation Hood Systems, Filters"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      },
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      }
+     ]
+    }
+   ],
+   "name": "K&K Mart (Closed)",
+   "zip": "19956"
+  },
+  {
+   "address": "Rt 13 Outlet",
+   "city": "Laurel",
+   "id": "d10ac5147c",
+   "inspections": [
+    {
+     "date": "2026-04-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      }
+     ]
+    }
+   ],
+   "name": "Kims Cafe",
+   "zip": "19956"
+  },
+  {
+   "address": "11290 Trussum Pond Rd",
+   "city": "Laurel",
+   "id": "d0d737139a",
+   "inspections": [
+    {
+     "date": "2025-04-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      }
+     ]
+    }
+   ],
+   "name": "La Botana Mexican Snacks",
+   "zip": "19956"
+  },
+  {
+   "address": "11290 Trussum Pond Road",
+   "city": "Laurel",
+   "id": "73c0bad8e7",
+   "inspections": [
+    {
+     "date": "2026-02-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      }
+     ]
+    }
+   ],
+   "name": "La Placita de Don Polo - Himar LLC",
+   "zip": "19956"
+  },
+  {
+   "address": "30425 Seaford Road Unit A",
+   "city": "Laurel",
+   "id": "392c16257b",
+   "inspections": [
+    {
+     "date": "2026-07-01",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      },
+      {
+       "code": "7-209.11",
+       "description": "Storage-Other Personal Care Items"
+      }
+     ]
+    }
+   ],
+   "name": "Laurel Deli Market Inc",
+   "zip": "19956"
+  },
+  {
+   "address": "Rt 13 & Rt 9",
+   "city": "Laurel",
+   "id": "504a49ac9c",
+   "inspections": [
+    {
+     "date": "2025-06-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Laurel Exxon",
+   "zip": "19956"
+  },
+  {
+   "address": "417 N Central Ave",
+   "city": "Laurel",
+   "id": "83e31d7ea2",
+   "inspections": [
+    {
+     "date": "2025-08-27",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      }
+     ]
+    }
+   ],
+   "name": "Laurel Pizzeria",
+   "zip": "19956"
+  },
+  {
+   "address": "1012 South Central Avenue",
+   "city": "Laurel",
+   "id": "1ae3754bd8",
+   "inspections": [
+    {
+     "date": "2026-03-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Laurel Star Family Restaurant",
+   "zip": "19956"
+  },
+  {
+   "address": "312 South Central Avenue",
+   "city": "Laurel",
+   "id": "62b5128533",
+   "inspections": [
+    {
+     "date": "2026-06-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-11-25",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    }
+   ],
+   "name": "No 1 Chinese Restaurant",
+   "zip": "19956"
+  },
+  {
+   "address": "30214 Sussex Hwy Unit #6",
+   "city": "Laurel",
+   "id": "6358627cfe",
+   "inspections": [
+    {
+     "date": "2025-07-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    }
+   ],
+   "name": "Panda Tokyo",
+   "zip": "19956"
+  },
+  {
+   "address": "Rt 13 Market",
+   "city": "Laurel",
+   "id": "82bb451f86",
+   "inspections": [
+    {
+     "date": "2025-08-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Peggys Kitchen",
+   "zip": "19956"
+  },
+  {
+   "address": "30739 Sussex Hwy",
+   "city": "Laurel",
+   "id": "3419251e65",
+   "inspections": [
+    {
+     "date": "2026-03-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    }
+   ],
+   "name": "R & R Grill and Bar",
+   "zip": "19956"
+  },
+  {
+   "address": "Us Rt 13 & State Rt 24",
+   "city": "Laurel",
+   "id": "c300d591d5",
+   "inspections": [
+    {
+     "date": "2026-05-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-05-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    }
+   ],
+   "name": "Royal Farms #171",
+   "zip": "19956"
+  },
+  {
+   "address": "30214 Sussex Highway Unit 3",
+   "city": "Laurel",
+   "id": "b2fa6a7fcf",
+   "inspections": [
+    {
+     "date": "2026-03-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    }
+   ],
+   "name": "Sabor A Casa",
+   "zip": "19956"
+  },
+  {
+   "address": "30428 Sussex Hwy",
+   "city": "Laurel",
+   "id": "72fcc99d3a",
+   "inspections": [
+    {
+     "date": "2025-07-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "name": "Smash N Dash",
+   "zip": "19956"
+  },
+  {
+   "address": "30182 Sussex Hwy",
+   "city": "Laurel",
+   "id": "ef731f672a",
+   "inspections": [
+    {
+     "date": "2026-06-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-06-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Subway",
+   "zip": "19956"
+  },
+  {
+   "address": "30661 W Sussex Hwy",
+   "city": "Laurel",
+   "id": "c97ec6efbc",
+   "inspections": [
+    {
+     "date": "2026-02-27",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2026-02-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "5-202.13",
+       "description": "Backflow Prevention, Air Gap"
+      },
+      {
+       "code": "6-202.11",
+       "description": "Light Bulbs, Protective Shielding"
+      }
+     ]
+    },
+    {
+     "date": "2025-07-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "6-501.14",
+       "description": "Cleaning Ventilation Systems, Nuisance and Discharge Prohibition"
+      }
+     ]
+    }
+   ],
+   "name": "Tacos Chabelita",
+   "zip": "19956"
+  },
+  {
+   "address": "30661 Sussex Hwy",
+   "city": "Laurel",
+   "id": "cc445b59e7",
+   "inspections": [
+    {
+     "date": "2024-11-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      }
+     ]
+    }
+   ],
+   "name": "Tacos Chabelita Mobile",
+   "zip": "19956"
+  },
+  {
+   "address": "Rt 13 Market",
+   "city": "Laurel",
+   "id": "fbeee10ebc",
+   "inspections": [
+    {
+     "date": "2025-03-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    }
+   ],
+   "name": "The Pizza Cafe",
+   "zip": "19956"
+  },
+  {
+   "address": "11290 Trussum Pond Rd",
+   "city": "Laurel",
+   "id": "0903d106bc",
+   "inspections": [
+    {
+     "date": "2025-03-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-204.11",
+       "description": "Ventilation Hood Systems, Drip Prevention"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    }
+   ],
+   "name": "The Shanty Seafood Restaurant and Admirals Quarter",
+   "zip": "19956"
+  },
+  {
+   "address": "10912 County Seat Hwy",
+   "city": "Laurel",
+   "id": "b16f5f6995",
+   "inspections": [
+    {
+     "date": "2025-05-27",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Tienda La Hispanita",
+   "zip": "19956"
+  }
+ ],
+ "slug": "laurel",
+ "source_updated": "2026-10-09",
+ "town": "Laurel"
+}

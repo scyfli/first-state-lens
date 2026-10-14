@@ -1,0 +1,73 @@
+{
+ "establishments": [
+  {
+   "address": "10 E Market St",
+   "city": "Port Penn",
+   "id": "1fe5201bdf",
+   "inspections": [
+    {
+     "date": "2025-04-17",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "5-202.13",
+       "description": "Backflow Prevention, Air Gap"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-202.13",
+       "description": "Backflow Prevention, Air Gap"
+      }
+     ]
+    }
+   ],
+   "name": "Kellys Tavern",
+   "zip": "19731"
+  },
+  {
+   "address": "2 South Congress Street",
+   "city": "Port Penn",
+   "id": "242e343dc9",
+   "inspections": [
+    {
+     "date": "2026-04-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      }
+     ]
+    }
+   ],
+   "name": "Mommas Nashville Kitchen - Lofton Enterprise Grou",
+   "zip": "19731"
+  }
+ ],
+ "slug": "port-penn",
+ "source_updated": "2026-10-09",
+ "town": "Port Penn"
+}

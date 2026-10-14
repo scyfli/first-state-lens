@@ -1,0 +1,1448 @@
+{
+ "establishments": [
+  {
+   "address": "16388 Samuel Paynter Blvd",
+   "city": "Milton",
+   "id": "53760f8327",
+   "inspections": [
+    {
+     "date": "2026-04-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-303.11",
+       "description": "Prohibition-Jewelry"
+      },
+      {
+       "code": "2-401.11",
+       "description": "Eating, Drinking, or Using Tobacco"
+      },
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    },
+    {
+     "date": "2025-09-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Abbotts Grill 2",
+   "zip": "19968"
+  },
+  {
+   "address": "200 Broadkill Road",
+   "city": "Milton",
+   "id": "912c393c39",
+   "inspections": [
+    {
+     "date": "2025-04-25",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "BEACHES SEAFOOD OF MILTON LLC (Closed)",
+   "zip": "19968"
+  },
+  {
+   "address": "1000 Atlantic Ave",
+   "city": "Milton",
+   "id": "3f8181b117",
+   "inspections": [
+    {
+     "date": "2025-05-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-101.16",
+       "description": "Sponges Use Limitation"
+      },
+      {
+       "code": "4-201.11",
+       "description": "Equipment and Utensils-Durability and Strength"
+      },
+      {
+       "code": "6-101.11",
+       "description": "Surface Characteristics-Indoor Areas"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    }
+   ],
+   "name": "Broadkiln VFW #6984",
+   "zip": "19968"
+  },
+  {
+   "address": "128 Broadkill Road",
+   "city": "Milton",
+   "id": "dd274b2ee9",
+   "inspections": [
+    {
+     "date": "2026-07-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "6-101.11",
+       "description": "Surface Characteristics-Indoor Areas"
+      }
+     ]
+    },
+    {
+     "date": "2026-01-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      }
+     ]
+    },
+    {
+     "date": "2025-07-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      }
+     ]
+    }
+   ],
+   "name": "China Wok",
+   "zip": "19968"
+  },
+  {
+   "address": "6 Cannery Village Center",
+   "city": "Milton",
+   "id": "2b67d503e5",
+   "inspections": [
+    {
+     "date": "2026-05-26",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-303.11",
+       "description": "Prohibition-Jewelry"
+      },
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "4-501.14",
+       "description": "Warewashing Equipment, Cleaning Frequency"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      },
+      {
+       "code": "6-201.12",
+       "description": "Floors, Walls, and Ceilings, Utility Lines"
+      },
+      {
+       "code": "6-201.16",
+       "description": "Wall and Ceiling Coverings and Coatings"
+      },
+      {
+       "code": "6-304.11",
+       "description": "Mechanical-Ventilation"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      },
+      {
+       "code": "6-501.112",
+       "description": "Removing Dead or Trapped Birds, Insects, Rodents and other Pest"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    }
+   ],
+   "name": "Dogfish Head Craft Brewery",
+   "zip": "19968"
+  },
+  {
+   "address": "PO Box 129",
+   "city": "Milton",
+   "id": "f4566c211d",
+   "inspections": [
+    {
+     "date": "2024-10-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-202.13",
+       "description": "Backflow Prevention, Air Gap"
+      }
+     ]
+    }
+   ],
+   "name": "Eagles Nest Family Worship Ctr",
+   "zip": "19968"
+  },
+  {
+   "address": "110 Broadkill Rd",
+   "city": "Milton",
+   "id": "feb31ff20c",
+   "inspections": [
+    {
+     "date": "2025-02-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-101.16",
+       "description": "Sponges Use Limitation"
+      }
+     ]
+    }
+   ],
+   "name": "Food Lion - Food Lion LLC - #2561",
+   "zip": "19968"
+  },
+  {
+   "address": "21232 Ironthrone Drive Unit 6",
+   "city": "Milton",
+   "id": "8777f474ce",
+   "inspections": [
+    {
+     "date": "2026-08-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-101.16",
+       "description": "Sponges Use Limitation"
+      }
+     ]
+    }
+   ],
+   "name": "Gaia Coffee Co",
+   "zip": "19968"
+  },
+  {
+   "address": "28615 Lewes Georgetown Highway",
+   "city": "Milton",
+   "id": "d5fb6594af",
+   "inspections": [
+    {
+     "date": "2025-02-14",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "4-101.11",
+       "description": "Characteristics-Materials for Construction and Repair"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "6-501.14",
+       "description": "Cleaning Ventilation Systems, Nuisance and Discharge Prohibition"
+      }
+     ]
+    }
+   ],
+   "name": "Hammer and Horns (Closed)",
+   "zip": "19968"
+  },
+  {
+   "address": "110 Broadkill Road",
+   "city": "Milton",
+   "id": "f9baeaccbd",
+   "inspections": [
+    {
+     "date": "2026-01-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-101.11",
+       "description": "Surface Characteristics-Indoor Areas"
+      }
+     ]
+    }
+   ],
+   "name": "Hissho Sushi @ Food Lion #2561",
+   "zip": "19968"
+  },
+  {
+   "address": "400 Mulberry St",
+   "city": "Milton",
+   "id": "6a01fd190c",
+   "inspections": [
+    {
+     "date": "2025-04-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-202.13",
+       "description": "Backflow Prevention, Air Gap"
+      },
+      {
+       "code": "5-402.12",
+       "description": "Grease Trap"
+      }
+     ]
+    }
+   ],
+   "name": "HO Brittingham Elementary School",
+   "zip": "19968"
+  },
+  {
+   "address": "105 Union Street",
+   "city": "Milton",
+   "id": "a94daee9b6",
+   "inspections": [
+    {
+     "date": "2026-08-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2026-02-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-06-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Irish Eyes Pub & Restaurant - Milton",
+   "zip": "19968"
+  },
+  {
+   "address": "105 Federal Street Unit B",
+   "city": "Milton",
+   "id": "6681df1eec",
+   "inspections": [
+    {
+     "date": "2026-09-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "8-201.11",
+       "description": "When Plans Are Required"
+      }
+     ]
+    },
+    {
+     "date": "2026-08-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "8-201.11",
+       "description": "When Plans Are Required"
+      }
+     ]
+    },
+    {
+     "date": "2025-07-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "6-101.11",
+       "description": "Surface Characteristics-Indoor Areas"
+      },
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      }
+     ]
+    }
+   ],
+   "name": "LAGO Asian Cuisine & Sushi Bar - LAGO Hospitality",
+   "zip": "19968"
+  },
+  {
+   "address": "28376 Martins Farm Road",
+   "city": "Milton",
+   "id": "8d4c37ac1c",
+   "inspections": [
+    {
+     "date": "2025-04-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Lavender Fields at Warrington Manor",
+   "zip": "19968"
+  },
+  {
+   "address": "16391 Harbeson Road",
+   "city": "Milton",
+   "id": "d02b990acc",
+   "inspections": [
+    {
+     "date": "2025-10-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-18",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-103.11",
+       "description": "Capacity-Quantity and Availability"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    }
+   ],
+   "name": "Mariner Middle School",
+   "zip": "19968"
+  },
+  {
+   "address": "24899 Broadkill Rd",
+   "city": "Milton",
+   "id": "02701da78b",
+   "inspections": [
+    {
+     "date": "2025-02-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-202.12",
+       "description": "Handwashing Sinks, Installation"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    }
+   ],
+   "name": "Milton CHEER Senior Center - CHEER Inc",
+   "zip": "19968"
+  },
+  {
+   "address": "116 Magnolia Street",
+   "city": "Milton",
+   "id": "f2b4aa050f",
+   "inspections": [
+    {
+     "date": "2026-04-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-102.11",
+       "description": "Characteristics-Single-Service and Single-Use"
+      }
+     ]
+    },
+    {
+     "date": "2025-10-01",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-101.16",
+       "description": "Sponges Use Limitation"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "6-101.11",
+       "description": "Surface Characteristics-Indoor Areas"
+      }
+     ]
+    }
+   ],
+   "name": "Milton Delux",
+   "zip": "19968"
+  },
+  {
+   "address": "116 Front St",
+   "city": "Milton",
+   "id": "7d6d6c50c6",
+   "inspections": [
+    {
+     "date": "2025-10-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-202.15",
+       "description": "Can Openers"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-202.13",
+       "description": "Backflow Prevention, Air Gap"
+      }
+     ]
+    }
+   ],
+   "name": "Milton Fire Co",
+   "zip": "19968"
+  },
+  {
+   "address": "122 Ellendale Rd",
+   "city": "Milton",
+   "id": "5fa33881ab",
+   "inspections": [
+    {
+     "date": "2025-08-18",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Milton Quick Stop",
+   "zip": "19968"
+  },
+  {
+   "address": "110 Union St",
+   "city": "Milton",
+   "id": "457bc1949c",
+   "inspections": [
+    {
+     "date": "2026-07-27",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-101.16",
+       "description": "Sponges Use Limitation"
+      }
+     ]
+    },
+    {
+     "date": "2026-07-27",
+     "type": "Complaint",
+     "violations": []
+    },
+    {
+     "date": "2025-06-27",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "4-101.11",
+       "description": "Characteristics-Materials for Construction and Repair"
+      },
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-303.11",
+       "description": "Intensity-Lighting"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      },
+      {
+       "code": "6-501.114",
+       "description": "Maintaining Premises, Unnecessary Items and Litter"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      },
+      {
+       "code": "7-202.12",
+       "description": "Conditions of Use"
+      }
+     ]
+    },
+    {
+     "date": "2025-06-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-101.11",
+       "description": "Characteristics-Materials for Construction and Repair"
+      },
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-303.11",
+       "description": "Intensity-Lighting"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      },
+      {
+       "code": "6-501.114",
+       "description": "Maintaining Premises, Unnecessary Items and Litter"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      },
+      {
+       "code": "7-202.12",
+       "description": "Conditions of Use"
+      }
+     ]
+    }
+   ],
+   "name": "Milton Theatre (the)",
+   "zip": "19968"
+  },
+  {
+   "address": "618 Mulberry Street",
+   "city": "Milton",
+   "id": "abf42fdbb1",
+   "inspections": [
+    {
+     "date": "2025-12-19",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Miltonian Pizzeria Inc",
+   "zip": "19968"
+  },
+  {
+   "address": "21241 Iron Throne Rd",
+   "city": "Milton",
+   "id": "71b511be5a",
+   "inspections": [
+    {
+     "date": "2025-10-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    }
+   ],
+   "name": "Pizza Machine Dewey Beer Co",
+   "zip": "19968"
+  },
+  {
+   "address": "900 Palmer St Unit 8",
+   "city": "Milton",
+   "id": "b094be8444",
+   "inspections": [
+    {
+     "date": "2026-08-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-12-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Po Boys Creole Restaurant",
+   "zip": "19968"
+  },
+  {
+   "address": "27052 Broadkill Road",
+   "city": "Milton",
+   "id": "a3f334c081",
+   "inspections": [
+    {
+     "date": "2026-05-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.114",
+       "description": "Maintaining Premises, Unnecessary Items and Litter"
+      }
+     ]
+    },
+    {
+     "date": "2025-05-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Rookery Golf Club",
+   "zip": "19968"
+  },
+  {
+   "address": "122 Mulberry Street",
+   "city": "Milton",
+   "id": "d0917adc77",
+   "inspections": [
+    {
+     "date": "2026-03-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-09-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Tequila Real Mexican Grill",
+   "zip": "19968"
+  },
+  {
+   "address": "211 Broadkill Rd",
+   "city": "Milton",
+   "id": "f39cfc4fa3",
+   "inspections": [
+    {
+     "date": "2026-08-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-202.15",
+       "description": "Outer Openings, Protected"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
+     "date": "2026-02-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      }
+     ]
+    },
+    {
+     "date": "2025-06-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-303.11",
+       "description": "Prohibition-Jewelry"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "The Backyard",
+   "zip": "19968"
+  },
+  {
+   "address": "Broadkill Beach",
+   "city": "Milton",
+   "id": "c5e7e4d51a",
+   "inspections": [
+    {
+     "date": "2026-07-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-101.16",
+       "description": "Sponges Use Limitation"
+      }
+     ]
+    },
+    {
+     "date": "2025-06-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-303.11",
+       "description": "Prohibition-Jewelry"
+      },
+      {
+       "code": "4-301.14",
+       "description": "Ventilation Hood Systems, Adequacy"
+      }
+     ]
+    }
+   ],
+   "name": "The Broadkill Store",
+   "zip": "19968"
+  },
+  {
+   "address": "109 Union Street",
+   "city": "Milton",
+   "id": "e3074cb839",
+   "inspections": [
+    {
+     "date": "2026-02-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-401.11",
+       "description": "Eating, Drinking, or Using Tobacco"
+      },
+      {
+       "code": "4-101.11",
+       "description": "Characteristics-Materials for Construction and Repair"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
+     "date": "2025-06-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-401.11",
+       "description": "Eating, Drinking, or Using Tobacco"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-304.14",
+       "description": "Wiping Cloths, Use Limitation"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-303.11",
+       "description": "Intensity-Lighting"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "The Dough Bar",
+   "zip": "19968"
+  },
+  {
+   "address": "76394 Samuel Paynters Blvd",
+   "city": "Milton",
+   "id": "e0c7f1bd93",
+   "inspections": [
+    {
+     "date": "2025-05-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-401.11",
+       "description": "Eating, Drinking, or Using Tobacco"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "6-202.12",
+       "description": "Heating, Ventilation, Air Conditioning System Vents"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "The Nook (Closed)",
+   "zip": "19968"
+  },
+  {
+   "address": "105 Federal Street",
+   "city": "Milton",
+   "id": "152aec36a0",
+   "inspections": [
+    {
+     "date": "2024-11-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      },
+      {
+       "code": "4-101.11",
+       "description": "Characteristics-Materials for Construction and Repair"
+      }
+     ]
+    }
+   ],
+   "name": "The Noshery (Closed)",
+   "zip": "19968"
+  },
+  {
+   "address": "16388 Samuel Paynter Blvd #4",
+   "city": "Milton",
+   "id": "2c1070f3fd",
+   "inspections": [
+    {
+     "date": "2025-10-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "4-202.18",
+       "description": "Ventilation Hood Systems, Filters"
+      }
+     ]
+    },
+    {
+     "date": "2024-12-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-202.12",
+       "description": "Heating, Ventilation, Air Conditioning System Vents"
+      }
+     ]
+    }
+   ],
+   "name": "Titanic Pizza",
+   "zip": "19968"
+  },
+  {
+   "address": "102 Federal Street",
+   "city": "Milton",
+   "id": "8f7b42001b",
+   "inspections": [
+    {
+     "date": "2026-05-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "4-101.16",
+       "description": "Sponges Use Limitation"
+      },
+      {
+       "code": "6-101.11",
+       "description": "Surface Characteristics-Indoor Areas"
+      },
+      {
+       "code": "6-201.12",
+       "description": "Floors, Walls, and Ceilings, Utility Lines"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-10-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-303.11",
+       "description": "Prohibition-Jewelry"
+      },
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "4-101.16",
+       "description": "Sponges Use Limitation"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "5-501.115",
+       "description": "Maintaining Refuse Areas and Enclosures"
+      },
+      {
+       "code": "6-101.11",
+       "description": "Surface Characteristics-Indoor Areas"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      },
+      {
+       "code": "6-202.16",
+       "description": "Exterior Walls and Roofs, Protective Barrier"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      },
+      {
+       "code": "6-501.114",
+       "description": "Maintaining Premises, Unnecessary Items and Litter"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-202.18",
+       "description": "Shellstock Identification"
+      },
+      {
+       "code": "3-203.12",
+       "description": "Shellstock, Maintaining Identification"
+      },
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "3-304.14",
+       "description": "Wiping Cloths, Use Limitation"
+      },
+      {
+       "code": "4-101.16",
+       "description": "Sponges Use Limitation"
+      },
+      {
+       "code": "4-501.14",
+       "description": "Warewashing Equipment, Cleaning Frequency"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "5-501.110",
+       "description": "Storage Refuse, Recyclables and Returnables"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-301.14",
+       "description": "When to Wash"
+      },
+      {
+       "code": "2-303.11",
+       "description": "Prohibition-Jewelry"
+      },
+      {
+       "code": "2-401.11",
+       "description": "Eating, Drinking, or Using Tobacco"
+      },
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "3-301.11",
+       "description": "Preventing Contamination from Hands"
+      },
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "4-101.16",
+       "description": "Sponges Use Limitation"
+      },
+      {
+       "code": "5-202.13",
+       "description": "Backflow Prevention, Air Gap"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    }
+   ],
+   "name": "Zava Cafe - LAGO Hospitality Group LLC",
+   "zip": "19968"
+  }
+ ],
+ "slug": "milton",
+ "source_updated": "2026-10-09",
+ "town": "Milton"
+}

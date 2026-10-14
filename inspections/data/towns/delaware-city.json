@@ -1,0 +1,372 @@
+{
+ "establishments": [
+  {
+   "address": "600 5th Street",
+   "city": "Delaware City",
+   "id": "0be5360254",
+   "inspections": [
+    {
+     "date": "2026-05-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-301.14",
+       "description": "Handwashing Signage"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    }
+   ],
+   "name": "Delaware City Citgo",
+   "zip": "19706"
+  },
+  {
+   "address": "815 5th Street",
+   "city": "Delaware City",
+   "id": "3cbb070f86",
+   "inspections": [
+    {
+     "date": "2025-02-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      }
+     ]
+    }
+   ],
+   "name": "Delaware City Fire Company",
+   "zip": "19706"
+  },
+  {
+   "address": "30 Clinton Street",
+   "city": "Delaware City",
+   "id": "22d3b30ab3",
+   "inspections": [
+    {
+     "date": "2026-03-19",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-305.14",
+       "description": "Food Preparation"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    },
+    {
+     "date": "2025-05-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2024-11-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-202.12",
+       "description": "Heating, Ventilation, Air Conditioning System Vents"
+      }
+     ]
+    }
+   ],
+   "name": "Dolly Spanks",
+   "zip": "19706"
+  },
+  {
+   "address": "107 Fifth St",
+   "city": "Delaware City",
+   "id": "71f8948bb7",
+   "inspections": [
+    {
+     "date": "2026-09-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-05-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      }
+     ]
+    }
+   ],
+   "name": "Kathys Crab House & Family Restaurant",
+   "zip": "19706"
+  },
+  {
+   "address": "502 5th Street",
+   "city": "Delaware City",
+   "id": "401117aa02",
+   "inspections": [
+    {
+     "date": "2026-03-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-304.11",
+       "description": "Food Contact with Equipment, Utensils, and Linens"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-18",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "name": "La Matesina Pizza and Pasta",
+   "zip": "19706"
+  },
+  {
+   "address": "94 Clinton Street",
+   "city": "Delaware City",
+   "id": "cd6fc4eb8f",
+   "inspections": [
+    {
+     "date": "2025-03-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-205.10",
+       "description": "Food Equipment, Certification and Classification"
+      }
+     ]
+    }
+   ],
+   "name": "Sabatinas Sandwich Shop (Closed)",
+   "zip": "19706"
+  },
+  {
+   "address": "795 Cox Neck Road",
+   "city": "Delaware City",
+   "id": "12fbaad3c6",
+   "inspections": [
+    {
+     "date": "2026-09-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      },
+      {
+       "code": "4-501.112",
+       "description": "Mechanical Warewashing Equipment, Hot Water Sanitization Temperatures"
+      }
+     ]
+    }
+   ],
+   "name": "Southern Elementary - Colonial School District",
+   "zip": "19706"
+  },
+  {
+   "address": "900 5th St",
+   "city": "Delaware City",
+   "id": "e8b1e3ee0c",
+   "inspections": [
+    {
+     "date": "2026-03-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      }
+     ]
+    }
+   ],
+   "name": "Sundays Caf� 64 LLC",
+   "zip": "19706"
+  },
+  {
+   "address": "88 Clinton Street",
+   "city": "Delaware City",
+   "id": "6c829a0c65",
+   "inspections": [
+    {
+     "date": "2026-03-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.14",
+       "description": "Food Preparation"
+      }
+     ]
+    },
+    {
+     "date": "2025-05-23",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
+    {
+     "date": "2025-05-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
+    {
+     "date": "2024-11-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    }
+   ],
+   "name": "The Cake Sisters",
+   "zip": "19706"
+  }
+ ],
+ "slug": "delaware-city",
+ "source_updated": "2026-10-09",
+ "town": "Delaware City"
+}

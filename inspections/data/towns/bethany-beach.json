@@ -1,0 +1,4406 @@
+{
+ "establishments": [
+  {
+   "address": "14 N Pennsylvania Ave",
+   "city": "Bethany Beach",
+   "id": "eb80d61d69",
+   "inspections": [
+    {
+     "date": "2025-10-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-303.11",
+       "description": "Ice Used as Exterior Coolant, Prohibited as Ingredient"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      }
+     ]
+    }
+   ],
+   "name": "14 Global LLC",
+   "zip": "19930"
+  },
+  {
+   "address": "33230 Coastal Highway",
+   "city": "Bethany Beach",
+   "id": "9c4808abb3",
+   "inspections": [
+    {
+     "date": "2026-08-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-303.11",
+       "description": "Prohibition-Jewelry"
+      },
+      {
+       "code": "3-305.15",
+       "description": "Food Preparation Sink"
+      },
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      },
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      },
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "4-602.11",
+       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-202.13",
+       "description": "Insect Control Devices, Design and Installation"
+      },
+      {
+       "code": "6-403.11",
+       "description": "Designated Areas-Employee Accommodations for eating / drinking/smoking"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
+     "date": "2025-06-26",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "3-603.11",
+       "description": "Consumption of Animal Foods that are Raw, Undercooked, or Not Otherwise Processed to Eliminate Pathogens"
+      },
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      }
+     ]
+    }
+   ],
+   "name": "19DOUGH1 - SANDY PONY DONUTS INC",
+   "zip": "19930"
+  },
+  {
+   "address": "33548 Market Place",
+   "city": "Bethany Beach",
+   "id": "212c2cf71f",
+   "inspections": [
+    {
+     "date": "2026-03-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    }
+   ],
+   "name": "Armands Pizza",
+   "zip": "19930"
+  },
+  {
+   "address": "33550 Marketplace Suite #2c",
+   "city": "Bethany Beach",
+   "id": "aa9aebcf69",
+   "inspections": [
+    {
+     "date": "2025-08-21",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-07-28",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "7-206.11",
+       "description": "Restricted Use Pesticides, Criteria"
+      }
+     ]
+    },
+    {
+     "date": "2025-06-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      },
+      {
+       "code": "7-206.11",
+       "description": "Restricted Use Pesticides, Criteria"
+      }
+     ]
+    }
+   ],
+   "name": "Ba Roos Ice Cream",
+   "zip": "19930"
+  },
+  {
+   "address": "109 Garfield Parkway",
+   "city": "Bethany Beach",
+   "id": "64f342d7d2",
+   "inspections": [
+    {
+     "date": "2026-06-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      }
+     ]
+    },
+    {
+     "date": "2025-05-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      }
+     ]
+    }
+   ],
+   "name": "Baja Beach House & Grill",
+   "zip": "19930"
+  },
+  {
+   "address": "123 Garfield Pkwy Unit 2 Lighthouse",
+   "city": "Bethany Beach",
+   "id": "247936b11f",
+   "inspections": [
+    {
+     "date": "2026-03-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "name": "Beach Break Bakrie & Cafe",
+   "zip": "19930"
+  },
+  {
+   "address": "100 Garfield Parkway Unit 4",
+   "city": "Bethany Beach",
+   "id": "e4f83790c1",
+   "inspections": [
+    {
+     "date": "2026-03-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      }
+     ]
+    }
+   ],
+   "name": "Bethany Beach Sugar Shack",
+   "zip": "19930"
+  },
+  {
+   "address": "6 N Pennsylvania Ave",
+   "city": "Bethany Beach",
+   "id": "2048c60c54",
+   "inspections": [
+    {
+     "date": "2026-04-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.113",
+       "description": "Storing Maintenance Tools"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2026-04-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "5-501.113",
+       "description": "Covering Receptacles"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.113",
+       "description": "Storing Maintenance Tools"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-09-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    }
+   ],
+   "name": "Bethany Blues - Starboard & Blues Group",
+   "zip": "19930"
+  },
+  {
+   "address": "39817 Hickman Rd",
+   "city": "Bethany Beach",
+   "id": "2820a5548d",
+   "inspections": [
+    {
+     "date": "2026-07-31",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.15",
+       "description": "Gloves, Use Limitation"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    }
+   ],
+   "name": "Bethany Boathouse",
+   "zip": "19930"
+  },
+  {
+   "address": "792A Garfield Parkway",
+   "city": "Bethany Beach",
+   "id": "90a6ed6f8c",
+   "inspections": [
+    {
+     "date": "2026-08-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    },
+    {
+     "date": "2026-07-31",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "6-305.11",
+       "description": "Designation-Dressing Areas and Lockers"
+      },
+      {
+       "code": "6-501.17",
+       "description": "Absorbent Materials on Floors, Use Limitation"
+      }
+     ]
+    },
+    {
+     "date": "2026-02-26",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-305.11",
+       "description": "Designation-Dressing Areas and Lockers"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-08-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-305.11",
+       "description": "Designation-Dressing Areas and Lockers"
+      },
+      {
+       "code": "6-501.17",
+       "description": "Absorbent Materials on Floors, Use Limitation"
+      },
+      {
+       "code": "7-206.11",
+       "description": "Restricted Use Pesticides, Criteria"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "4-101.19",
+       "description": "Nonfood-Contact Surfaces"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "6-305.11",
+       "description": "Designation-Dressing Areas and Lockers"
+      },
+      {
+       "code": "6-501.17",
+       "description": "Absorbent Materials on Floors, Use Limitation"
+      }
+     ]
+    }
+   ],
+   "name": "Bethany Diner - Bethany Diner INC",
+   "zip": "19930"
+  },
+  {
+   "address": "27099 Coastal Hwy",
+   "city": "Bethany Beach",
+   "id": "433e7ec197",
+   "inspections": [
+    {
+     "date": "2025-08-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-303.11",
+       "description": "Prohibition-Jewelry"
+      },
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "5-202.13",
+       "description": "Backflow Prevention, Air Gap"
+      },
+      {
+       "code": "6-501.114",
+       "description": "Maintaining Premises, Unnecessary Items and Litter"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "BIG CHILL BEACH CLUB - Lavida Hospitality Group -",
+   "zip": "19930"
+  },
+  {
+   "address": "1111 DE-1",
+   "city": "Bethany Beach",
+   "id": "ff22e67a51",
+   "inspections": [
+    {
+     "date": "2026-05-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "5-501.113",
+       "description": "Covering Receptacles"
+      },
+      {
+       "code": "6-101.11",
+       "description": "Surface Characteristics-Indoor Areas"
+      },
+      {
+       "code": "6-305.11",
+       "description": "Designation-Dressing Areas and Lockers"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      }
+     ]
+    },
+    {
+     "date": "2025-09-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      }
+     ]
+    }
+   ],
+   "name": "Bluecoast - SoDel Concepts II LLC",
+   "zip": "19930"
+  },
+  {
+   "address": "123 Garfield Parkway",
+   "city": "Bethany Beach",
+   "id": "256139dd1b",
+   "inspections": [
+    {
+     "date": "2025-06-25",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    }
+   ],
+   "name": "Candy Kitchen - B2 - 123 Garfield Pkwy",
+   "zip": "19930"
+  },
+  {
+   "address": "100 Garfield Parkway",
+   "city": "Bethany Beach",
+   "id": "618f9e86e6",
+   "inspections": [
+    {
+     "date": "2026-03-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      }
+     ]
+    }
+   ],
+   "name": "Candy Kitchen - B3 - 100 Garfield Pkwy",
+   "zip": "19930"
+  },
+  {
+   "address": "Route One & West Way Drive",
+   "city": "Bethany Beach",
+   "id": "29b885cbdf",
+   "inspections": [
+    {
+     "date": "2026-08-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-501.17",
+       "description": "Toilet Room Receptacle, Covered"
+      }
+     ]
+    }
+   ],
+   "name": "Candy Kitchen - Sea Colony",
+   "zip": "19930"
+  },
+  {
+   "address": "33260 Coastal Hwy Ut 8",
+   "city": "Bethany Beach",
+   "id": "6ad6fb9a3c",
+   "inspections": [
+    {
+     "date": "2025-04-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-301.14",
+       "description": "When to Wash"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-501.114",
+       "description": "Maintaining Premises, Unnecessary Items and Litter"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "China Express",
+   "zip": "19930"
+  },
+  {
+   "address": "210 Garfield Parkway",
+   "city": "Bethany Beach",
+   "id": "d66d38d817",
+   "inspections": [
+    {
+     "date": "2026-03-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-204.17",
+       "description": "Ice Units, Separation of Drains"
+      },
+      {
+       "code": "5-202.13",
+       "description": "Backflow Prevention, Air Gap"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      }
+     ]
+    }
+   ],
+   "name": "Claws Seafood House - Bethany",
+   "zip": "19930"
+  },
+  {
+   "address": "759C Garfield Parkway",
+   "city": "Bethany Beach",
+   "id": "f8bf31d4bf",
+   "inspections": [
+    {
+     "date": "2025-07-31",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    }
+   ],
+   "name": "Clove & Cedar Coffeebar",
+   "zip": "19930"
+  },
+  {
+   "address": "765 Garfield Parkway",
+   "city": "Bethany Beach",
+   "id": "e50644e888",
+   "inspections": [
+    {
+     "date": "2026-05-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      }
+     ]
+    }
+   ],
+   "name": "Coastal Freeze (MOB)",
+   "zip": "19930"
+  },
+  {
+   "address": "776 Garfield Parkway 776 Garfield",
+   "city": "Bethany Beach",
+   "id": "1590db8bf5",
+   "inspections": [
+    {
+     "date": "2026-09-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
+     "date": "2026-03-27",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "7-209.11",
+       "description": "Storage-Other Personal Care Items"
+      }
+     ]
+    },
+    {
+     "date": "2025-09-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-202.15",
+       "description": "Outer Openings, Protected"
+      }
+     ]
+    }
+   ],
+   "name": "Cocolo Sushi",
+   "zip": "19930"
+  },
+  {
+   "address": "33034 Coastal Highway",
+   "city": "Bethany Beach",
+   "id": "3e8110a817",
+   "inspections": [
+    {
+     "date": "2024-12-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      },
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      }
+     ]
+    }
+   ],
+   "name": "Cottage Caf+� - SoDel Concepts II LLC",
+   "zip": "19930"
+  },
+  {
+   "address": "33034 Coastal Highway",
+   "city": "Bethany Beach",
+   "id": "c3ad60da29",
+   "inspections": [
+    {
+     "date": "2026-01-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "5-501.113",
+       "description": "Covering Receptacles"
+      },
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      }
+     ]
+    },
+    {
+     "date": "2025-06-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-602.11",
+       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
+      }
+     ]
+    }
+   ],
+   "name": "Cottage Caf� - SoDel Concepts II LLC",
+   "zip": "19930"
+  },
+  {
+   "address": "100 Garfield Pkwy",
+   "city": "Bethany Beach",
+   "id": "d9029ef1d7",
+   "inspections": [
+    {
+     "date": "2025-04-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.13",
+       "description": "Thawing"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      }
+     ]
+    }
+   ],
+   "name": "Dbs Fries (Closed)",
+   "zip": "19930"
+  },
+  {
+   "address": "100 Garfield Parkway",
+   "city": "Bethany Beach",
+   "id": "efe82d03da",
+   "inspections": [
+    {
+     "date": "2026-04-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      }
+     ]
+    }
+   ],
+   "name": "DBS Fries - Common Ground Hospitality LLC",
+   "zip": "19930"
+  },
+  {
+   "address": "100 Garfield Parkway",
+   "city": "Bethany Beach",
+   "id": "4c89c0609e",
+   "inspections": [
+    {
+     "date": "2025-04-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      }
+     ]
+    }
+   ],
+   "name": "Dbs Seafood (Closed)",
+   "zip": "19930"
+  },
+  {
+   "address": "101 Garfield Pkwy",
+   "city": "Bethany Beach",
+   "id": "8d1b4d0c91",
+   "inspections": [
+    {
+     "date": "2026-08-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      },
+      {
+       "code": "5-501.17",
+       "description": "Toilet Room Receptacle, Covered"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
+     "date": "2025-06-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "4-203.12",
+       "description": "Temperature Measuring Devices, Ambient Air and Water-Accuracy"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    }
+   ],
+   "name": "Dickeys Frozen Custard (101 Garfield)",
+   "zip": "19930"
+  },
+  {
+   "address": "97 Garfield Pkwy",
+   "city": "Bethany Beach",
+   "id": "76b9597cb0",
+   "inspections": [
+    {
+     "date": "2026-08-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      },
+      {
+       "code": "5-501.17",
+       "description": "Toilet Room Receptacle, Covered"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
+     "date": "2025-06-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    }
+   ],
+   "name": "Dickeys Frozen Custard (97 Garfield)",
+   "zip": "19930"
+  },
+  {
+   "address": "789 Garfield Pkwy",
+   "city": "Bethany Beach",
+   "id": "e9420e5a4c",
+   "inspections": [
+    {
+     "date": "2026-02-26",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-203.12",
+       "description": "Shellstock, Maintaining Identification"
+      },
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      }
+     ]
+    },
+    {
+     "date": "2025-08-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-203.12",
+       "description": "Shellstock, Maintaining Identification"
+      },
+      {
+       "code": "3-603.11",
+       "description": "Consumption of Animal Foods that are Raw, Undercooked, or Not Otherwise Processed to Eliminate Pathogens"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-202.15",
+       "description": "Package Integrity"
+      },
+      {
+       "code": "3-203.12",
+       "description": "Shellstock, Maintaining Identification"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    }
+   ],
+   "name": "DiFebos Bethany Restaurant - DiFebo Restaurants",
+   "zip": "19930"
+  },
+  {
+   "address": "788 Garfield Parkway",
+   "city": "Bethany Beach",
+   "id": "3b05bf727a",
+   "inspections": [
+    {
+     "date": "2026-02-26",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-202.15",
+       "description": "Package Integrity"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "7-207.11",
+       "description": "Restriction and Storage-Medicines"
+      }
+     ]
+    },
+    {
+     "date": "2025-08-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "5-202.13",
+       "description": "Backflow Prevention, Air Gap"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      },
+      {
+       "code": "7-207.11",
+       "description": "Restriction and Storage-Medicines"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      },
+      {
+       "code": "6-305.11",
+       "description": "Designation-Dressing Areas and Lockers"
+      },
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      }
+     ]
+    }
+   ],
+   "name": "DiFebos Market - DiFebo Restaurants",
+   "zip": "19930"
+  },
+  {
+   "address": "33364 S Pennsylvania Ave",
+   "city": "Bethany Beach",
+   "id": "ad2682efac",
+   "inspections": [
+    {
+     "date": "2026-01-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    },
+    {
+     "date": "2024-12-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    }
+   ],
+   "name": "Dunkin - Baskin Robbins - Franchise Management Se",
+   "zip": "19930"
+  },
+  {
+   "address": "39682 Sunrise Court",
+   "city": "Bethany Beach",
+   "id": "e38dc4977b",
+   "inspections": [
+    {
+     "date": "2025-07-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      }
+     ]
+    }
+   ],
+   "name": "Fenwick Ice Company - Bethany",
+   "zip": "19930"
+  },
+  {
+   "address": "33544 Market Place",
+   "city": "Bethany Beach",
+   "id": "15efddfaf1",
+   "inspections": [
+    {
+     "date": "2025-10-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-501.12",
+       "description": "Cutting Surfaces"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-602.11",
+       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-16",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2024-10-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-203.12",
+       "description": "Shellstock, Maintaining Identification"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-501.12",
+       "description": "Cutting Surfaces"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-602.11",
+       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-202.12",
+       "description": "Heating, Ventilation, Air Conditioning System Vents"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    }
+   ],
+   "name": "Fins Ale House - Bethany",
+   "zip": "19930"
+  },
+  {
+   "address": "111 Garfield Parkway",
+   "city": "Bethany Beach",
+   "id": "67d8646b22",
+   "inspections": [
+    {
+     "date": "2025-09-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      }
+     ]
+    }
+   ],
+   "name": "Five Guys",
+   "zip": "19930"
+  },
+  {
+   "address": "34444 Coastal Hwy",
+   "city": "Bethany Beach",
+   "id": "25f29669fa",
+   "inspections": [
+    {
+     "date": "2026-07-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-202.15",
+       "description": "Outer Openings, Protected"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
+     "date": "2025-06-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Grotto Pizza #108 - South Bethany",
+   "zip": "19930"
+  },
+  {
+   "address": "791 Garfield Pky",
+   "city": "Bethany Beach",
+   "id": "8b70a2ca49",
+   "inspections": [
+    {
+     "date": "2026-05-18",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      },
+      {
+       "code": "6-501.110",
+       "description": "Using Dressing Rooms and Lockers"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2026-05-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-202.13",
+       "description": "Backflow Prevention, Air Gap"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      },
+      {
+       "code": "6-501.110",
+       "description": "Using Dressing Rooms and Lockers"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "6-501.19",
+       "description": "Closing Toilet Room Doors"
+      },
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      },
+      {
+       "code": "6-305.11",
+       "description": "Designation-Dressing Areas and Lockers"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Grotto Pizza #113 - Bethany",
+   "zip": "19930"
+  },
+  {
+   "address": "98 Garfield Parkway",
+   "city": "Bethany Beach",
+   "id": "caea8a2e79",
+   "inspections": [
+    {
+     "date": "2026-03-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-203.12",
+       "description": "Shellstock, Maintaining Identification"
+      },
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    },
+    {
+     "date": "2025-08-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-602.11",
+       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-24",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-02-19",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-203.12",
+       "description": "Shellstock, Maintaining Identification"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Harvest Tide Steakhouse",
+   "zip": "19930"
+  },
+  {
+   "address": "97 Garfield Pkwy",
+   "city": "Bethany Beach",
+   "id": "1b8187a019",
+   "inspections": [
+    {
+     "date": "2026-06-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    },
+    {
+     "date": "2025-05-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Heidaway Restaurant - HHH Group LLC",
+   "zip": "19930"
+  },
+  {
+   "address": "695 Bethany Loop",
+   "city": "Bethany Beach",
+   "id": "2049ee770d",
+   "inspections": [
+    {
+     "date": "2026-03-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-502.12",
+       "description": "Single-Service and Single-Use Articles, Required Use"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "7-206.11",
+       "description": "Restricted Use Pesticides, Criteria"
+      },
+      {
+       "code": "7-207.11",
+       "description": "Restriction and Storage-Medicines"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      },
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      }
+     ]
+    }
+   ],
+   "name": "Hockers G&E@ Salt Pond",
+   "zip": "19930"
+  },
+  {
+   "address": "8 North Pennsylvania Avenue",
+   "city": "Bethany Beach",
+   "id": "4a3118c55a",
+   "inspections": [
+    {
+     "date": "2025-07-31",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    }
+   ],
+   "name": "Juicebox",
+   "zip": "19930"
+  },
+  {
+   "address": "101 Garfield Pky",
+   "city": "Bethany Beach",
+   "id": "4ff13083bc",
+   "inspections": [
+    {
+     "date": "2026-04-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-305.11",
+       "description": "Designation-Dressing Areas and Lockers"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-25",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    }
+   ],
+   "name": "Kohr Bros Frozen Custard - Kohr Bros Inc - #3",
+   "zip": "19930"
+  },
+  {
+   "address": "699 Bethany Loop Unit 2",
+   "city": "Bethany Beach",
+   "id": "0a952e3e48",
+   "inspections": [
+    {
+     "date": "2026-02-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      }
+     ]
+    },
+    {
+     "date": "2025-07-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "name": "Ledo Pizza",
+   "zip": "19930"
+  },
+  {
+   "address": "99 Garfield Parkway Unit 9",
+   "city": "Bethany Beach",
+   "id": "2719613b31",
+   "inspections": [
+    {
+     "date": "2026-01-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-303.11",
+       "description": "Ice Used as Exterior Coolant, Prohibited as Ingredient"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2024-12-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-101.16",
+       "description": "Sponges Use Limitation"
+      },
+      {
+       "code": "7-206.11",
+       "description": "Restricted Use Pesticides, Criteria"
+      }
+     ]
+    }
+   ],
+   "name": "Lillis Place",
+   "zip": "19930"
+  },
+  {
+   "address": "97 Garfield Pkwy",
+   "city": "Bethany Beach",
+   "id": "fe828efe29",
+   "inspections": [
+    {
+     "date": "2026-06-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Mangos",
+   "zip": "19930"
+  },
+  {
+   "address": "28635 Coastal Hwy",
+   "city": "Bethany Beach",
+   "id": "2bd4e88d25",
+   "inspections": [
+    {
+     "date": "2025-12-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-403.11",
+       "description": "Reheating for Hot Holding"
+      },
+      {
+       "code": "6-202.13",
+       "description": "Insect Control Devices, Design and Installation"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
+     "date": "2025-06-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-101.11",
+       "description": "Safe, Unadulterated and Honestly Presented"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-202.13",
+       "description": "Backflow Prevention, Air Gap"
+      }
+     ]
+    },
+    {
+     "date": "2024-12-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      }
+     ]
+    }
+   ],
+   "name": "Matts Fish Camp Bethany - SoDel Concepts II LLC",
+   "zip": "19930"
+  },
+  {
+   "address": "99 Garfield Parkway",
+   "city": "Bethany Beach",
+   "id": "674c7119ce",
+   "inspections": [
+    {
+     "date": "2026-06-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    }
+   ],
+   "name": "Maureens Ice Cream & Desserts",
+   "zip": "19930"
+  },
+  {
+   "address": "US Rt 1 & Addy Rd",
+   "city": "Bethany Beach",
+   "id": "f3590c53bc",
+   "inspections": [
+    {
+     "date": "2026-04-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.14",
+       "description": "Wiping Cloths, Use Limitation"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "5-501.113",
+       "description": "Covering Receptacles"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "McDonalds Restaurant - Bethany - Welburn DE Hold",
+   "zip": "19930"
+  },
+  {
+   "address": "222 Jefferson Bridge Rd",
+   "city": "Bethany Beach",
+   "id": "4eab2c38f5",
+   "inspections": [
+    {
+     "date": "2025-07-31",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-203.12",
+       "description": "Shellstock, Maintaining Identification"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    }
+   ],
+   "name": "Mickeys Family Crabhouse",
+   "zip": "19930"
+  },
+  {
+   "address": "34444 Coastal Hwy York Beach Mall",
+   "city": "Bethany Beach",
+   "id": "d68c218081",
+   "inspections": [
+    {
+     "date": "2026-03-27",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      }
+     ]
+    }
+   ],
+   "name": "Misaki",
+   "zip": "19930"
+  },
+  {
+   "address": "33260 Coastal Hwy",
+   "city": "Bethany Beach",
+   "id": "cb0360aa1d",
+   "inspections": [
+    {
+     "date": "2026-04-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      },
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      }
+     ]
+    },
+    {
+     "date": "2026-03-27",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "3-101.11",
+       "description": "Safe, Unadulterated and Honestly Presented"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      },
+      {
+       "code": "6-303.11",
+       "description": "Intensity-Lighting"
+      },
+      {
+       "code": "6-403.11",
+       "description": "Designated Areas-Employee Accommodations for eating / drinking/smoking"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      },
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    },
+    {
+     "date": "2026-03-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-101.16",
+       "description": "Sponges Use Limitation"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-303.11",
+       "description": "Intensity-Lighting"
+      },
+      {
+       "code": "6-403.11",
+       "description": "Designated Areas-Employee Accommodations for eating / drinking/smoking"
+      },
+      {
+       "code": "6-501.112",
+       "description": "Removing Dead or Trapped Birds, Insects, Rodents and other Pest"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      },
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-28",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "3-304.14",
+       "description": "Wiping Cloths, Use Limitation"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      },
+      {
+       "code": "6-501.112",
+       "description": "Removing Dead or Trapped Birds, Insects, Rodents and other Pest"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-17",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "3-304.14",
+       "description": "Wiping Cloths, Use Limitation"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-501.112",
+       "description": "Removing Dead or Trapped Birds, Insects, Rodents and other Pest"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "3-304.14",
+       "description": "Wiping Cloths, Use Limitation"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-501.112",
+       "description": "Removing Dead or Trapped Birds, Insects, Rodents and other Pest"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    }
+   ],
+   "name": "Moes Deli",
+   "zip": "19930"
+  },
+  {
+   "address": "39597 Jefferson Bridge Rd",
+   "city": "Bethany Beach",
+   "id": "f79040452f",
+   "inspections": [
+    {
+     "date": "2025-09-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.12",
+       "description": "Food Storage, Prohibited Areas"
+      },
+      {
+       "code": "5-202.11",
+       "description": "Approved System and Cleanable Fixtures"
+      }
+     ]
+    }
+   ],
+   "name": "Moo Cow Cone",
+   "zip": "19930"
+  },
+  {
+   "address": "784 Garfield Parkway",
+   "city": "Bethany Beach",
+   "id": "af95be4f49",
+   "inspections": [
+    {
+     "date": "2026-02-26",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      }
+     ]
+    },
+    {
+     "date": "2025-08-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-101.19",
+       "description": "Nonfood-Contact Surfaces"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      }
+     ]
+    }
+   ],
+   "name": "No 1 Chinese Restaurant",
+   "zip": "19930"
+  },
+  {
+   "address": "99 Hollywood Street",
+   "city": "Bethany Beach",
+   "id": "5713f21629",
+   "inspections": [
+    {
+     "date": "2026-02-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-203.12",
+       "description": "Shellstock, Maintaining Identification"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "7-207.11",
+       "description": "Restriction and Storage-Medicines"
+      }
+     ]
+    },
+    {
+     "date": "2025-06-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-203.12",
+       "description": "Shellstock, Maintaining Identification"
+      },
+      {
+       "code": "4-202.18",
+       "description": "Ventilation Hood Systems, Filters"
+      },
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "Ocean 99 - Anchor Hospitality Inc",
+   "zip": "19930"
+  },
+  {
+   "address": "769 Garfield Pky",
+   "city": "Bethany Beach",
+   "id": "ba4a183b59",
+   "inspections": [
+    {
+     "date": "2025-10-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-301.14",
+       "description": "Ventilation Hood Systems, Adequacy"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      }
+     ]
+    },
+    {
+     "date": "2024-11-11",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      }
+     ]
+    },
+    {
+     "date": "2024-11-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-203.12",
+       "description": "Shellstock, Maintaining Identification"
+      },
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      }
+     ]
+    }
+   ],
+   "name": "Off The Hook Restaurant - Common Ground Hospitalit",
+   "zip": "19930"
+  },
+  {
+   "address": "114 Garfield Pkwy",
+   "city": "Bethany Beach",
+   "id": "71096d76cb",
+   "inspections": [
+    {
+     "date": "2025-04-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      }
+     ]
+    }
+   ],
+   "name": "Parkway Restaurant",
+   "zip": "19930"
+  },
+  {
+   "address": "121 Campbell Place",
+   "city": "Bethany Beach",
+   "id": "32e143f969",
+   "inspections": [
+    {
+     "date": "2026-08-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.15",
+       "description": "Food Preparation Sink"
+      },
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-202.16",
+       "description": "Exterior Walls and Roofs, Protective Barrier"
+      }
+     ]
+    },
+    {
+     "date": "2025-08-25",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "4-501.12",
+       "description": "Cutting Surfaces"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    }
+   ],
+   "name": "Patsys Gourmet",
+   "zip": "19930"
+  },
+  {
+   "address": "105 B Garfield Pkwy",
+   "city": "Bethany Beach",
+   "id": "22fcf02d3b",
+   "inspections": [
+    {
+     "date": "2025-04-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      }
+     ]
+    }
+   ],
+   "name": "Penguin Diner",
+   "zip": "19930"
+  },
+  {
+   "address": "120 A Central Ave",
+   "city": "Bethany Beach",
+   "id": "4b7c27ac6f",
+   "inspections": [
+    {
+     "date": "2026-08-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "5-501.17",
+       "description": "Toilet Room Receptacle, Covered"
+      }
+     ]
+    },
+    {
+     "date": "2025-08-25",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      }
+     ]
+    }
+   ],
+   "name": "Pie",
+   "zip": "19930"
+  },
+  {
+   "address": "101 Garfield Parkway Store #10",
+   "city": "Bethany Beach",
+   "id": "507dfb482e",
+   "inspections": [
+    {
+     "date": "2026-04-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      }
+     ]
+    }
+   ],
+   "name": "Pomodoro Pizzeria",
+   "zip": "19930"
+  },
+  {
+   "address": "695 Bethany Loop",
+   "city": "Bethany Beach",
+   "id": "1da91a0997",
+   "inspections": [
+    {
+     "date": "2026-06-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-501.114",
+       "description": "Maintaining Premises, Unnecessary Items and Litter"
+      }
+     ]
+    }
+   ],
+   "name": "RH Friendly Inc Sushi @ G & E Market",
+   "zip": "19930"
+  },
+  {
+   "address": "765 Garfield Parkway",
+   "city": "Bethany Beach",
+   "id": "a66ef5aaca",
+   "inspections": [
+    {
+     "date": "2026-03-26",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      },
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      }
+     ]
+    }
+   ],
+   "name": "Ritas Italian Ice",
+   "zip": "19930"
+  },
+  {
+   "address": "107 Garfield Parkway",
+   "city": "Bethany Beach",
+   "id": "dea700a8c5",
+   "inspections": [
+    {
+     "date": "2025-10-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-203.12",
+       "description": "Shellstock, Maintaining Identification"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      },
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      },
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    }
+   ],
+   "name": "Ropewalk Bethany Beach",
+   "zip": "19930"
+  },
+  {
+   "address": "34444 Coastal Hwy",
+   "city": "Bethany Beach",
+   "id": "aee1971df3",
+   "inspections": [
+    {
+     "date": "2025-08-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Rosenfelds Jewish Delicatessen",
+   "zip": "19930"
+  },
+  {
+   "address": "Salt Pond Golf Club",
+   "city": "Bethany Beach",
+   "id": "f737e32ac7",
+   "inspections": [
+    {
+     "date": "2025-07-31",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "3-403.11",
+       "description": "Reheating for Hot Holding"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    }
+   ],
+   "name": "Salt Pond Golf Club",
+   "zip": "19930"
+  },
+  {
+   "address": "115 Garfield Pkwy Unit 2",
+   "city": "Bethany Beach",
+   "id": "53c3b32558",
+   "inspections": [
+    {
+     "date": "2026-05-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.14",
+       "description": "Wiping Cloths, Use Limitation"
+      },
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      },
+      {
+       "code": "6-501.113",
+       "description": "Storing Maintenance Tools"
+      }
+     ]
+    },
+    {
+     "date": "2026-04-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "3-304.14",
+       "description": "Wiping Cloths, Use Limitation"
+      },
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-501.113",
+       "description": "Storing Maintenance Tools"
+      },
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      },
+      {
+       "code": "7-206.11",
+       "description": "Restricted Use Pesticides, Criteria"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "7-206.11",
+       "description": "Restricted Use Pesticides, Criteria"
+      }
+     ]
+    }
+   ],
+   "name": "SANDY PONY DONUTS - SANDY PONY DONUTS INC",
+   "zip": "19930"
+  },
+  {
+   "address": "32919 Coastal Highway",
+   "city": "Bethany Beach",
+   "id": "f7cfd8231b",
+   "inspections": [
+    {
+     "date": "2026-07-31",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      }
+     ]
+    },
+    {
+     "date": "2025-05-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "SANDY PONY DONUTS - SANDY PONY DONUTS INC",
+   "zip": "19930"
+  },
+  {
+   "address": "98 Garfield Parkway",
+   "city": "Bethany Beach",
+   "id": "85e0ad0213",
+   "inspections": [
+    {
+     "date": "2026-04-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-501.113",
+       "description": "Storing Maintenance Tools"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    }
+   ],
+   "name": "Shore Break",
+   "zip": "19930"
+  },
+  {
+   "address": "33230 Coastal Highway",
+   "city": "Bethany Beach",
+   "id": "039ba65c8f",
+   "inspections": [
+    {
+     "date": "2026-08-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-303.11",
+       "description": "Prohibition-Jewelry"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
+     "date": "2025-06-26",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-602.11",
+       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      },
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      },
+      {
+       "code": "7-206.11",
+       "description": "Restricted Use Pesticides, Criteria"
+      }
+     ]
+    }
+   ],
+   "name": "SOFT SWIRL - SANDY PONY DONUTS INC",
+   "zip": "19930"
+  },
+  {
+   "address": "33260 Coastal Hwy Seaside Village",
+   "city": "Bethany Beach",
+   "id": "4f42051892",
+   "inspections": [
+    {
+     "date": "2026-07-31",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-202.18",
+       "description": "Shellstock Identification"
+      },
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      },
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      }
+     ]
+    },
+    {
+     "date": "2025-06-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-203.12",
+       "description": "Shellstock, Maintaining Identification"
+      }
+     ]
+    }
+   ],
+   "name": "South Bethany Seafood Market",
+   "zip": "19930"
+  },
+  {
+   "address": "32979 Coastal Hwy",
+   "city": "Bethany Beach",
+   "id": "00ed91554b",
+   "inspections": [
+    {
+     "date": "2026-08-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2025-05-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      },
+      {
+       "code": "4-101.16",
+       "description": "Sponges Use Limitation"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "name": "Sugar Planet Bethany",
+   "zip": "19930"
+  },
+  {
+   "address": "33548 Market Place At Sea Colony",
+   "city": "Bethany Beach",
+   "id": "39f0dc09b7",
+   "inspections": [
+    {
+     "date": "2026-04-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-303.11",
+       "description": "Ice Used as Exterior Coolant, Prohibited as Ingredient"
+      },
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "8-201.11",
+       "description": "When Plans Are Required"
+      }
+     ]
+    },
+    {
+     "date": "2025-12-09",
+     "type": "Complaint",
+     "violations": [
+      {
+       "code": "5-202.13",
+       "description": "Backflow Prevention, Air Gap"
+      },
+      {
+       "code": "6-202.15",
+       "description": "Outer Openings, Protected"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-09-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "4-301.14",
+       "description": "Ventilation Hood Systems, Adequacy"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-202.13",
+       "description": "Backflow Prevention, Air Gap"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-06-11",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-05-28",
+     "type": "Complaint",
+     "violations": []
+    },
+    {
+     "date": "2025-03-26",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-03-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "4-101.16",
+       "description": "Sponges Use Limitation"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "5-501.116",
+       "description": "Cleaning Receptacles"
+      },
+      {
+       "code": "6-202.12",
+       "description": "Heating, Ventilation, Air Conditioning System Vents"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Summer Salts Beach Grill",
+   "zip": "19930"
+  },
+  {
+   "address": "100 Garfield Pkwy Unit 5",
+   "city": "Bethany Beach",
+   "id": "7806a3048e",
+   "inspections": [
+    {
+     "date": "2025-04-25",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.114",
+       "description": "Maintaining Premises, Unnecessary Items and Litter"
+      },
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      }
+     ]
+    }
+   ],
+   "name": "Sunshine Baguette",
+   "zip": "19930"
+  },
+  {
+   "address": "100 Garfield Pky",
+   "city": "Bethany Beach",
+   "id": "1c945b4169",
+   "inspections": [
+    {
+     "date": "2025-04-25",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "7-206.11",
+       "description": "Restricted Use Pesticides, Criteria"
+      }
+     ]
+    }
+   ],
+   "name": "Sunshine Crepes",
+   "zip": "19930"
+  },
+  {
+   "address": "786 Garfield Parkway",
+   "city": "Bethany Beach",
+   "id": "ba258b0043",
+   "inspections": [
+    {
+     "date": "2025-12-19",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      }
+     ]
+    },
+    {
+     "date": "2025-06-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "4-202.18",
+       "description": "Ventilation Hood Systems, Filters"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    }
+   ],
+   "name": "Surfin Bettys Burger Bar",
+   "zip": "19930"
+  },
+  {
+   "address": "100 Garfield Pkwy",
+   "city": "Bethany Beach",
+   "id": "1fef4e5968",
+   "inspections": [
+    {
+     "date": "2025-03-14",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    }
+   ],
+   "name": "Surfs Up (Closed)",
+   "zip": "19930"
+  },
+  {
+   "address": "761 Garfield Pkwy",
+   "city": "Bethany Beach",
+   "id": "ef847a2713",
+   "inspections": [
+    {
+     "date": "2024-11-11",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2024-11-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-203.12",
+       "description": "Temperature Measuring Devices, Ambient Air and Water-Accuracy"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      }
+     ]
+    }
+   ],
+   "name": "Taste Events (Closed)",
+   "zip": "19930"
+  },
+  {
+   "address": "699 Bethany Loop",
+   "city": "Bethany Beach",
+   "id": "1973c9c449",
+   "inspections": [
+    {
+     "date": "2026-04-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      },
+      {
+       "code": "6-202.15",
+       "description": "Outer Openings, Protected"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      }
+     ]
+    }
+   ],
+   "name": "The Rusty Cup Bar and Grill",
+   "zip": "19930"
+  },
+  {
+   "address": "2 Edgewater House",
+   "city": "Bethany Beach",
+   "id": "d0558b506c",
+   "inspections": [
+    {
+     "date": "2026-09-24",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2026-09-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      }
+     ]
+    }
+   ],
+   "name": "The Sandbar - Sea Colony Recreation Association",
+   "zip": "19930"
+  },
+  {
+   "address": "33363 Edgewater House Rd",
+   "city": "Bethany Beach",
+   "id": "34d7daffc9",
+   "inspections": [
+    {
+     "date": "2025-06-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      }
+     ]
+    }
+   ],
+   "name": "The Sandbar on the Promenade - Sea Colony Recreati",
+   "zip": "19930"
+  },
+  {
+   "address": "108 Garfield Parkway",
+   "city": "Bethany Beach",
+   "id": "fb1454a760",
+   "inspections": [
+    {
+     "date": "2026-06-01",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "6-101.11",
+       "description": "Surface Characteristics-Indoor Areas"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-25",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      }
+     ]
+    }
+   ],
+   "name": "Three Blonde Bakers",
+   "zip": "19930"
+  },
+  {
+   "address": "98 Garfield Pkwy Unit 9",
+   "city": "Bethany Beach",
+   "id": "69232a2c56",
+   "inspections": [
+    {
+     "date": "2025-06-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-203.12",
+       "description": "Shellstock, Maintaining Identification"
+      }
+     ]
+    }
+   ],
+   "name": "Topsail Steamer",
+   "zip": "19930"
+  },
+  {
+   "address": "97 Garfield Pkwy #7",
+   "city": "Bethany Beach",
+   "id": "312c9fa05e",
+   "inspections": [
+    {
+     "date": "2026-08-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      },
+      {
+       "code": "7-202.12",
+       "description": "Conditions of Use"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
+     "date": "2025-08-26",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      }
+     ]
+    },
+    {
+     "date": "2025-07-28",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "4-101.16",
+       "description": "Sponges Use Limitation"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      }
+     ]
+    },
+    {
+     "date": "2025-06-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "4-101.16",
+       "description": "Sponges Use Limitation"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      }
+     ]
+    }
+   ],
+   "name": "Tropical Treats",
+   "zip": "19930"
+  },
+  {
+   "address": "698 Bethany Loop",
+   "city": "Bethany Beach",
+   "id": "cca9ef3508",
+   "inspections": [
+    {
+     "date": "2025-07-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-102.11",
+       "description": "Surface Characteristics-Outdoor Areas"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Upscale Crab and Seafood - Bethany (MOB)",
+   "zip": "19930"
+  },
+  {
+   "address": "774 Garfield Pkwy",
+   "city": "Bethany Beach",
+   "id": "5a43037e93",
+   "inspections": [
+    {
+     "date": "2026-02-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Wawa Food Market #836",
+   "zip": "19930"
+  },
+  {
+   "address": "699 Bethany Loop Unit 1",
+   "city": "Bethany Beach",
+   "id": "d8db20e0e6",
+   "inspections": [
+    {
+     "date": "2025-09-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      },
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      }
+     ]
+    }
+   ],
+   "name": "Yellowfins Bar & Grill (Closed)",
+   "zip": "19930"
+  },
+  {
+   "address": "98 Garfield Parkway",
+   "city": "Bethany Beach",
+   "id": "745232183a",
+   "inspections": [
+    {
+     "date": "2026-03-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-202.15",
+       "description": "Package Integrity"
+      },
+      {
+       "code": "3-303.11",
+       "description": "Ice Used as Exterior Coolant, Prohibited as Ingredient"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      }
+     ]
+    },
+    {
+     "date": "2025-08-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-19",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-603.11",
+       "description": "Consumption of Animal Foods that are Raw, Undercooked, or Not Otherwise Processed to Eliminate Pathogens"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Zoca Restaurant",
+   "zip": "19930"
+  }
+ ],
+ "slug": "bethany-beach",
+ "source_updated": "2026-10-09",
+ "town": "Bethany Beach"
+}

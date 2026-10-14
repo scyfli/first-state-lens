@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Restaurant inspections in Fenwick Island, DE: violations on record from the state | First State Lens</title>
+<meta name="description" content="Every food establishment in Fenwick Island, Delaware in the state&#x27;s inspection violation file, A to Z, with each inspection date, inspection type and violation in the state&#x27;s own words, October 1, 2024 to October 7, 2026." />
+<link rel="canonical" href="https://firststatelens.com/inspections/fenwick-island/" />
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+<meta name="theme-color" content="#030712" />
+<meta name="geo.region" content="US-DE" />
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="First State Lens" />
+<meta property="og:title" content="Restaurant inspections in Fenwick Island, DE: violations on record from the state" />
+<meta property="og:description" content="Every food establishment in Fenwick Island, Delaware in the state&#x27;s inspection violation file, A to Z, with each inspection date, inspection type and violation in the state&#x27;s own words, October 1, 2024 to October 7, 2026." />
+<meta property="og:url" content="https://firststatelens.com/inspections/fenwick-island/" />
+<meta property="og:image" content="https://firststatelens.com/assets/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Restaurant inspections in Fenwick Island, DE: violations on record from the state" />
+<meta name="twitter:description" content="Every food establishment in Fenwick Island, Delaware in the state&#x27;s inspection violation file, A to Z, with each inspection date, inspection type and violation in the state&#x27;s own words, October 1, 2024 to October 7, 2026." />
+<meta name="twitter:image" content="https://firststatelens.com/assets/og-image.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/fsl.css" />
+<style>
+  :root { --accent-primary: var(--cyan-400); }
+  .title-eyebrow { color: var(--cyan-400); border-color: rgba(34,211,238,0.25); background: rgba(34,211,238,0.05); }
+  .title-eyebrow::before { background: var(--cyan-400); box-shadow: 0 0 6px var(--cyan-400); }
+  .neutrality { border-left-color: var(--cyan-400); }
+  .neutrality a, .fact a, .src a, .about a { color: var(--text-primary); }
+  .crumbs { font-size: 13px; color: var(--text-tertiary); margin-bottom: 18px; }
+  .crumbs a { color: var(--text-secondary); }
+  .fact { font-size: 14px; color: var(--text-secondary); line-height: 1.6; max-width: 860px; margin-top: 12px; }
+  .fact strong { color: var(--text-primary); }
+  .src { font-size: 12px; color: var(--text-tertiary); margin-top: 10px; max-width: 860px; }
+  .about { max-width: 860px; margin-left: 20px; }
+  .about li { font-size: 14px; color: var(--text-secondary); line-height: 1.6; margin: 6px 0; }
+  .jump { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 14px; margin: 14px 0 4px; max-width: 980px; }
+  .jump a { color: var(--text-secondary); }
+  .jump strong { color: var(--text-primary); }
+  .est { border-top: 1px solid var(--border-subtle); padding: 14px 0 10px; max-width: 980px; }
+  .est h3 { font-family: 'Space Grotesk', sans-serif; font-size: 17px; color: var(--text-primary); font-weight: 600; }
+  .est .addr { font-size: 13px; color: var(--text-tertiary); margin: 2px 0 6px; }
+  .est h4 { font-size: 13.5px; color: var(--text-primary); font-weight: 500; margin: 10px 0 4px; }
+  .est ul { margin: 0 0 0 20px; }
+  .est li { font-size: 14px; color: var(--text-secondary); line-height: 1.55; }
+  .est .c { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--text-tertiary); margin-right: 6px; }
+  .est .nv { font-size: 13.5px; color: var(--text-tertiary); font-style: italic; margin-left: 20px; }
+  .towns { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 8px 18px; max-width: 980px; padding: 0; list-style: none; }
+  .towns a { color: var(--text-primary); font-size: 14px; }
+  .search label { display: block; font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--text-tertiary); margin-bottom: 8px; }
+  .search input { width: 100%; max-width: 560px; background: var(--surface-base); color: var(--text-primary); border: 1px solid var(--border-strong); border-radius: 8px; padding: 10px 12px; font-size: 15px; }
+  .results { list-style: none; padding: 0; margin-top: 14px; max-width: 980px; }
+  .results li { border-top: 1px solid var(--border-subtle); padding: 10px 0; font-size: 14px; color: var(--text-secondary); }
+  .results a { color: var(--text-primary); font-weight: 600; }
+  .results .meta { display: block; font-size: 13px; color: var(--text-tertiary); }
+  .pager { display: flex; gap: 16px; flex-wrap: wrap; font-size: 14px; margin-top: 24px; }
+  .pager a { color: var(--text-secondary); }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://firststatelens.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Restaurant inspections",
+      "item": "https://firststatelens.com/inspections/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Fenwick Island",
+      "item": "https://firststatelens.com/inspections/fenwick-island/"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<!-- generated by etl/pages/inspection_pages.py; edits here are overwritten -->
+<div class="container">
+
+  <header class="topbar">
+    <a class="brand" href="/" style="text-decoration:none;color:inherit;">
+      <div class="brand-mark">FS</div>
+      <div class="brand-text">
+        <div class="brand-name">First State Lens</div>
+        <div class="brand-tagline">Civic Analytics Lab · Delaware</div>
+      </div>
+    </a>
+    <div class="topbar-meta">
+      <div class="meta-item"><span>STATE DATA AS OF OCTOBER 9, 2026</span></div>
+    </div>
+  </header>
+
+  <main>
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › <a href="/inspections/">Restaurant inspections</a> › <span aria-current="page">Fenwick Island</span></nav>
+  <div class="title-block">
+    <span class="title-eyebrow">Restaurant inspections · Fenwick Island, Delaware</span>
+    <h1 class="title-h1">Restaurant inspections in <span class="highlight">Fenwick Island</span></h1>
+    <p class="title-sub">Every food establishment in Fenwick Island, Delaware in the state&#x27;s inspection violation file, A to Z, with each inspection date, inspection type and violation in the state&#x27;s own words, October 1, 2024 to October 7, 2026.</p>
+  </div>
+
+  <p class="neutrality">
+    <strong>How to read this.</strong> Each entry is a violation recorded at a state food inspection, in the state's own words, as the Delaware Division of Public Health, Office of Food Protection published it. A violation is not a closure. The state says many violations can be corrected on the spot during the inspection, and its inspection report marks those, but the public data file does not say which ones were, so this page cannot show that. We give no grades or scores and do not rank or label any establishment. Establishments are listed A to Z and inspections by date, newest first. This is the record as the state published it: if this page and the state's record differ, the state is right and we fix this page. <a href="https://dhss.delaware.gov/dph/homepage/about/sections/hsp/licenses-and-permits/food-protection/feirfaq/">The state's inspection FAQ</a> explains the categories of violations and when a restaurant is closed.
+  </p>
+
+  <section class="section" aria-labelledby="about-title">
+    <div class="section-head"><h2 class="section-title" id="about-title">What this page shows</h2><span class="section-meta">STATE DATA AS OF OCTOBER 9, 2026</span></div>
+    <p class="fact">33 establishments in Fenwick Island appear in the state's file. Each one shows every inspection in the file, newest first, with each violation in the state's own words and the code the state lists for it. Inspections run from October 1, 2024 to October 7, 2026. <a href="/inspections/">What the file includes and leaves out.</a></p>
+    <nav class="jump" aria-label="Jump to a letter"><a href="#l-b">B</a> <a href="#l-d">D</a> <a href="#l-f">F</a> <a href="#l-g">G</a> <a href="#l-h">H</a> <a href="#l-j">J</a> <a href="#l-k">K</a> <a href="#l-m">M</a> <a href="#l-n">N</a> <a href="#l-o">O</a> <a href="#l-r">R</a> <a href="#l-s">S</a> <a href="#l-t">T</a> <a href="#l-y">Y</a></nav>
+    <p class="src">Source: <a href="https://data.delaware.gov/Health/Food-Establishment-Inspection-Violations/384s-wygj">Delaware Division of Public Health, Office of Food Protection, Food Establishment Inspection Violations</a> (data.delaware.gov, dataset 384s-wygj), as updated by the state on October 9, 2026.</p>
+  </section>
+
+  <section class="section" aria-labelledby="l-b">
+    <div class="section-head"><h2 class="section-title" id="l-b">B</h2></div>
+    <article class="est" id="e-eb69a1f357">
+      <h3>B Juiced Fenwick Island</h3>
+      <p class="addr">300 Coastal Highway, Fenwick Island, DE 19944</p>
+      <h4><time datetime="2026-07-17">July 17, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-501.16</span>Time/Temperature Control for Safety Food, Hot and Cold Holding</li><li><span class="c">6-202.14</span>Toilet Rooms, Enclosed</li><li><span class="c">6-301.12</span>Hand Drying Provision</li></ul>
+      <h4><time datetime="2026-05-08">May 8, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">6-501.11</span>Repairing-Premises, Structures, Attachments, and Fixtures-Methods</li><li><span class="c">6-501.111</span>Controlling Pests</li></ul>
+      <h4><time datetime="2025-05-23">May 23, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">6-201.11</span>Floors, Walls and Ceilings-Cleanability</li><li><span class="c">6-201.13</span>Floor and Wall Junctures, Coved, and Enclosed or Sealed</li></ul>
+    </article>
+    <article class="est" id="e-a6dd891e2b">
+      <h3>Bahamas Crab Shack</h3>
+      <p class="addr">37085 Coastal Highway, Fenwick Island, DE 19944</p>
+      <h4><time datetime="2026-06-10">June 10, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-307.11</span>Miscellaneous Sources of Contamination</li><li><span class="c">5-501.116</span>Cleaning Receptacles</li><li><span class="c">8-304.11</span>Responsibilities of the Permit Holder</li></ul>
+      <h4><time datetime="2025-05-08">May 8, 2025</time> · Follow-up inspection</h4>
+      <ul><li><span class="c">2-102.12</span>Certified Food Protection Manager</li><li><span class="c">3-305.11</span>Food Storage-Preventing Contamination from the Premises</li><li><span class="c">3-307.11</span>Miscellaneous Sources of Contamination</li><li><span class="c">3-501.17</span>Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking</li></ul>
+      <h4><time datetime="2025-04-24">April 24, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-102.12</span>Certified Food Protection Manager</li><li><span class="c">2-201.11</span>Responsibility of Permit Holder, Person in Charge, and Conditional Employees</li><li><span class="c">3-302.11</span>Packaged and Unpackaged Food-Separation, Packaging, and Segregation</li><li><span class="c">3-305.11</span>Food Storage-Preventing Contamination from the Premises</li><li><span class="c">3-307.11</span>Miscellaneous Sources of Contamination</li><li><span class="c">3-501.17</span>Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">6-501.11</span>Repairing-Premises, Structures, Attachments, and Fixtures-Methods</li><li><span class="c">6-501.111</span>Controlling Pests</li><li><span class="c">6-501.114</span>Maintaining Premises, Unnecessary Items and Litter</li></ul>
+    </article>
+  </section>
+  <section class="section" aria-labelledby="l-d">
+    <div class="section-head"><h2 class="section-title" id="l-d">D</h2></div>
+    <article class="est" id="e-1a2a145ef4">
+      <h3>Dirty Harrys Restaurant</h3>
+      <p class="addr">1 Fenwick Ctr, Fenwick Island, DE 19944</p>
+      <h4><time datetime="2026-03-11">March 11, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">4-903.11</span>Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing</li><li><span class="c">5-501.115</span>Maintaining Refuse Areas and Enclosures</li><li><span class="c">6-201.11</span>Floors, Walls and Ceilings-Cleanability</li><li><span class="c">7-201.11</span>Separation-Storage</li><li><span class="c">7-206.11</span>Restricted Use Pesticides, Criteria</li></ul>
+      <h4><time datetime="2025-08-29">August 29, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">4-903.11</span>Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing</li><li><span class="c">6-501.111</span>Controlling Pests</li><li><span class="c">6-501.112</span>Removing Dead or Trapped Birds, Insects, Rodents and other Pest</li><li><span class="c">6-501.12</span>Cleaning, Frequency and Restrictions</li><li><span class="c">7-201.11</span>Separation-Storage</li></ul>
+      <h4><time datetime="2025-02-25">February 25, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">4-903.11</span>Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing</li><li><span class="c">6-201.13</span>Floor and Wall Junctures, Coved, and Enclosed or Sealed</li></ul>
+    </article>
+    <article class="est" id="e-32b9224ac0">
+      <h3>Dunkin - Franchise Management Services Inc - #34</h3>
+      <p class="addr">40055 Unit 1 Light House, Fenwick Island, DE 19944</p>
+      <h4><time datetime="2025-06-30">June 30, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">4-501.114</span>Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness</li><li><span class="c">5-205.15</span>System Maintained in Good Repair</li><li><span class="c">5-501.113</span>Covering Receptacles</li></ul>
+    </article>
+  </section>
+  <section class="section" aria-labelledby="l-f">
+    <div class="section-head"><h2 class="section-title" id="l-f">F</h2></div>
+    <article class="est" id="e-a31becfb93">
+      <h3>Fenwick Island Social</h3>
+      <p class="addr">100 Coastal Hwy, Fenwick Island, DE 19944</p>
+      <h4><time datetime="2026-04-21">April 21, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">4-501.11</span>Good Repair and Proper Adjustment-Equipment</li><li><span class="c">5-205.11</span>Using a Handwashing Sink-Operation and Maintenance</li><li><span class="c">6-201.13</span>Floor and Wall Junctures, Coved, and Enclosed or Sealed</li><li><span class="c">6-202.15</span>Outer Openings, Protected</li><li><span class="c">6-501.11</span>Repairing-Premises, Structures, Attachments, and Fixtures-Methods</li><li><span class="c">7-102.11</span>Common Name-Working Containers</li></ul>
+      <h4><time datetime="2025-09-29">September 29, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-302.11</span>Packaged and Unpackaged Food-Separation, Packaging, and Segregation</li><li><span class="c">4-502.13</span>Single-Service and Single-Use Articles-Use Limitations</li></ul>
+    </article>
+    <article class="est" id="e-b8fb2096fe">
+      <h3>FENWICK ISLAND STATE PARK CONCESSION STAND - JAY V</h3>
+      <p class="addr">36839 Coastal Hwy, Fenwick Island, DE 19944</p>
+      <h4><time datetime="2026-08-04">August 4, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-305.15</span>Food Preparation Sink</li><li><span class="c">7-301.11</span>Separation-Storage and Display, Stock and Retail Sale</li></ul>
+      <h4><time datetime="2025-06-30">June 30, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">5-501.111</span>Area, Enclosures and Receptacles, Good Repair</li><li><span class="c">6-501.11</span>Repairing-Premises, Structures, Attachments, and Fixtures-Methods</li></ul>
+    </article>
+    <article class="est" id="e-c69f3dad00">
+      <h3>Fenwick Pub</h3>
+      <p class="addr">305 Coastal Highway Unit #1 And #2, Fenwick Island, DE 19944</p>
+      <h4><time datetime="2026-03-04">March 4, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">5-205.15</span>System Maintained in Good Repair</li></ul>
+      <h4><time datetime="2026-02-18">February 18, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-501.16</span>Time/Temperature Control for Safety Food, Hot and Cold Holding</li><li><span class="c">4-203.12</span>Temperature Measuring Devices, Ambient Air and Water-Accuracy</li><li><span class="c">4-502.13</span>Single-Service and Single-Use Articles-Use Limitations</li><li><span class="c">5-205.15</span>System Maintained in Good Repair</li><li><span class="c">6-201.13</span>Floor and Wall Junctures, Coved, and Enclosed or Sealed</li><li><span class="c">6-501.11</span>Repairing-Premises, Structures, Attachments, and Fixtures-Methods</li><li><span class="c">6-501.111</span>Controlling Pests</li><li><span class="c">6-501.12</span>Cleaning, Frequency and Restrictions</li></ul>
+      <h4><time datetime="2026-02-04">February 4, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-102.12</span>Certified Food Protection Manager</li><li><span class="c">2-201.11</span>Responsibility of Permit Holder, Person in Charge, and Conditional Employees</li><li><span class="c">3-203.12</span>Shellstock, Maintaining Identification</li><li><span class="c">3-302.12</span>Food Storage Containers Identified with Common Name of Food</li><li><span class="c">3-501.16</span>Time/Temperature Control for Safety Food, Hot and Cold Holding</li><li><span class="c">4-302.14</span>Sanitizing Solutions, Testing Devices</li><li><span class="c">4-502.13</span>Single-Service and Single-Use Articles-Use Limitations</li><li><span class="c">5-205.15</span>System Maintained in Good Repair</li><li><span class="c">6-201.13</span>Floor and Wall Junctures, Coved, and Enclosed or Sealed</li><li><span class="c">6-501.11</span>Repairing-Premises, Structures, Attachments, and Fixtures-Methods</li><li><span class="c">6-501.111</span>Controlling Pests</li><li><span class="c">6-501.12</span>Cleaning, Frequency and Restrictions</li></ul>
+      <h4><time datetime="2025-06-23">June 23, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-501.16</span>Time/Temperature Control for Safety Food, Hot and Cold Holding</li><li><span class="c">4-101.19</span>Nonfood-Contact Surfaces</li><li><span class="c">4-502.13</span>Single-Service and Single-Use Articles-Use Limitations</li><li><span class="c">5-205.15</span>System Maintained in Good Repair</li></ul>
+    </article>
+    <article class="est" id="e-609752c422">
+      <h3>Fenwick Shores Tapestry Collection by Hilton - San</h3>
+      <p class="addr">1501 Coastal Highway, Fenwick Island, DE 19944</p>
+      <h4><time datetime="2025-08-01">August 1, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">4-301.14</span>Ventilation Hood Systems, Adequacy</li><li><span class="c">4-502.13</span>Single-Service and Single-Use Articles-Use Limitations</li><li><span class="c">5-205.15</span>System Maintained in Good Repair</li></ul>
+    </article>
+    <article class="est" id="e-454d1066d5">
+      <h3>Fishers Popcorn Fenwick Island - Fishers Popcorn</h3>
+      <p class="addr">37081 Coastal Highway, Fenwick Island, DE 19944</p>
+      <h4><time datetime="2025-04-24">April 24, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">4-302.14</span>Sanitizing Solutions, Testing Devices</li><li><span class="c">6-501.11</span>Repairing-Premises, Structures, Attachments, and Fixtures-Methods</li><li><span class="c">6-501.111</span>Controlling Pests</li><li><span class="c">6-501.112</span>Removing Dead or Trapped Birds, Insects, Rodents and other Pest</li></ul>
+    </article>
+  </section>
+  <section class="section" aria-labelledby="l-g">
+    <div class="section-head"><h2 class="section-title" id="l-g">G</h2></div>
+    <article class="est" id="e-b7e3a76c25">
+      <h3>Grab &amp; Go Taco -Fenwick</h3>
+      <p class="addr">37081 Coastal Hwy, Fenwick Island, DE 19944</p>
+      <h4><time datetime="2025-05-21">May 21, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-302.11</span>Packaged and Unpackaged Food-Separation, Packaging, and Segregation</li><li><span class="c">6-501.111</span>Controlling Pests</li><li><span class="c">7-201.11</span>Separation-Storage</li></ul>
+    </article>
+  </section>
+  <section class="section" aria-labelledby="l-h">
+    <div class="section-head"><h2 class="section-title" id="l-h">H</h2></div>
+    <article class="est" id="e-b2c712038c">
+      <h3>Harpoon Hannas</h3>
+      <p class="addr">39064 Harpoon Rd, Fenwick Island, DE 19944</p>
+      <h4><time datetime="2026-01-07">January 7, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-304.12</span>In-Use Utensils, Between-Use Storage</li><li><span class="c">4-502.13</span>Single-Service and Single-Use Articles-Use Limitations</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">6-201.11</span>Floors, Walls and Ceilings-Cleanability</li><li><span class="c">6-305.11</span>Designation-Dressing Areas and Lockers</li><li><span class="c">6-501.12</span>Cleaning, Frequency and Restrictions</li><li><span class="c">7-201.11</span>Separation-Storage</li></ul>
+      <h4><time datetime="2025-06-23">June 23, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-303.11</span>Ice Used as Exterior Coolant, Prohibited as Ingredient</li><li><span class="c">3-501.16</span>Time/Temperature Control for Safety Food, Hot and Cold Holding</li><li><span class="c">4-301.14</span>Ventilation Hood Systems, Adequacy</li><li><span class="c">4-501.114</span>Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness</li><li><span class="c">4-502.13</span>Single-Service and Single-Use Articles-Use Limitations</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">6-501.12</span>Cleaning, Frequency and Restrictions</li><li><span class="c">7-206.11</span>Restricted Use Pesticides, Criteria</li></ul>
+      <h4><time datetime="2024-12-19">December 19, 2024</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-403.11</span>Reheating for Hot Holding</li><li><span class="c">3-701.11</span>Discarding or Reconditioning Unsafe, Adulterated, or Contaminated Food</li><li><span class="c">4-301.14</span>Ventilation Hood Systems, Adequacy</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">6-201.11</span>Floors, Walls and Ceilings-Cleanability</li><li><span class="c">6-201.13</span>Floor and Wall Junctures, Coved, and Enclosed or Sealed</li><li><span class="c">6-501.11</span>Repairing-Premises, Structures, Attachments, and Fixtures-Methods</li><li><span class="c">6-501.111</span>Controlling Pests</li></ul>
+    </article>
+    <article class="est" id="e-c228a9e1e9">
+      <h3>Hersheys Ice Cream Corner</h3>
+      <p class="addr">Coastal Hwy &amp; Rt 54, Fenwick Island, DE 19944</p>
+      <h4><time datetime="2025-06-30">June 30, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-102.12</span>Certified Food Protection Manager</li><li><span class="c">2-402.11</span>Effectiveness-Hair Restraints</li><li><span class="c">3-501.16</span>Time/Temperature Control for Safety Food, Hot and Cold Holding</li><li><span class="c">4-302.14</span>Sanitizing Solutions, Testing Devices</li><li><span class="c">5-205.15</span>System Maintained in Good Repair</li><li><span class="c">5-501.113</span>Covering Receptacles</li><li><span class="c">7-201.11</span>Separation-Storage</li></ul>
+    </article>
+    <article class="est" id="e-0552a6923e">
+      <h3>High Stakes Bar &amp; Grill</h3>
+      <p class="addr">38993 Beacon Drive, Fenwick Island, DE 19944</p>
+      <h4><time datetime="2026-04-21">April 21, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-302.11</span>Packaged and Unpackaged Food-Separation, Packaging, and Segregation</li><li><span class="c">3-303.11</span>Ice Used as Exterior Coolant, Prohibited as Ingredient</li><li><span class="c">3-305.11</span>Food Storage-Preventing Contamination from the Premises</li><li><span class="c">3-403.11</span>Reheating for Hot Holding</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">6-305.11</span>Designation-Dressing Areas and Lockers</li><li><span class="c">6-501.111</span>Controlling Pests</li><li><span class="c">6-501.12</span>Cleaning, Frequency and Restrictions</li><li><span class="c">7-201.11</span>Separation-Storage</li></ul>
+      <h4><time datetime="2025-03-31">March 31, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-102.12</span>Certified Food Protection Manager</li><li><span class="c">3-302.11</span>Packaged and Unpackaged Food-Separation, Packaging, and Segregation</li><li><span class="c">3-501.17</span>Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">6-501.111</span>Controlling Pests</li><li><span class="c">6-501.12</span>Cleaning, Frequency and Restrictions</li></ul>
+    </article>
+    <article class="est" id="e-809728c2ef">
+      <h3>High Tide Coffee and Bowls - HTCB LLC</h3>
+      <p class="addr">1204 Coastal Highway, Fenwick Island, DE 19944</p>
+      <h4><time datetime="2025-05-23">May 23, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">4-204.112</span>Temperature Measuring Devices-Functionality</li><li><span class="c">6-202.15</span>Outer Openings, Protected</li></ul>
+    </article>
+    <article class="est" id="e-f9b35b701e">
+      <h3>House of Sauce</h3>
+      <p class="addr">300 Coastal Highway Unit 21, Fenwick Island, DE 19944</p>
+      <h4><time datetime="2026-06-10">June 10, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-307.11</span>Miscellaneous Sources of Contamination</li><li><span class="c">4-501.15</span>Warewashing Machines, Manufacturers� Operating Instructions</li><li><span class="c">6-101.11</span>Surface Characteristics-Indoor Areas</li><li><span class="c">6-201.11</span>Floors, Walls and Ceilings-Cleanability</li></ul>
+      <h4><time datetime="2026-06-08">June 8, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-103.11</span>Person-In-Charge-Duties</li><li><span class="c">3-202.15</span>Package Integrity</li><li><span class="c">3-302.11</span>Packaged and Unpackaged Food-Separation, Packaging, and Segregation</li><li><span class="c">3-501.13</span>Thawing</li><li><span class="c">3-501.16</span>Time/Temperature Control for Safety Food, Hot and Cold Holding</li><li><span class="c">4-302.14</span>Sanitizing Solutions, Testing Devices</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">6-201.12</span>Floors, Walls, and Ceilings, Utility Lines</li><li><span class="c">6-501.11</span>Repairing-Premises, Structures, Attachments, and Fixtures-Methods</li><li><span class="c">6-501.111</span>Controlling Pests</li><li><span class="c">6-501.12</span>Cleaning, Frequency and Restrictions</li><li><span class="c">8-405.11</span>Timely Correction</li></ul>
+      <h4><time datetime="2026-05-08">May 8, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">4-302.14</span>Sanitizing Solutions, Testing Devices</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">6-201.12</span>Floors, Walls, and Ceilings, Utility Lines</li><li><span class="c">6-501.11</span>Repairing-Premises, Structures, Attachments, and Fixtures-Methods</li><li><span class="c">6-501.111</span>Controlling Pests</li><li><span class="c">6-501.12</span>Cleaning, Frequency and Restrictions</li><li><span class="c">6-501.14</span>Cleaning Ventilation Systems, Nuisance and Discharge Prohibition</li><li><span class="c">7-201.11</span>Separation-Storage</li><li><span class="c">8-405.11</span>Timely Correction</li></ul>
+      <h4><time datetime="2026-04-24">April 24, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-501.13</span>Thawing</li><li><span class="c">4-302.14</span>Sanitizing Solutions, Testing Devices</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">6-201.12</span>Floors, Walls, and Ceilings, Utility Lines</li><li><span class="c">6-501.11</span>Repairing-Premises, Structures, Attachments, and Fixtures-Methods</li><li><span class="c">6-501.111</span>Controlling Pests</li><li><span class="c">6-501.12</span>Cleaning, Frequency and Restrictions</li><li><span class="c">6-501.14</span>Cleaning Ventilation Systems, Nuisance and Discharge Prohibition</li><li><span class="c">8-405.11</span>Timely Correction</li></ul>
+      <h4><time datetime="2026-04-10">April 10, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-302.11</span>Packaged and Unpackaged Food-Separation, Packaging, and Segregation</li><li><span class="c">3-303.11</span>Ice Used as Exterior Coolant, Prohibited as Ingredient</li><li><span class="c">3-501.13</span>Thawing</li><li><span class="c">3-501.16</span>Time/Temperature Control for Safety Food, Hot and Cold Holding</li><li><span class="c">4-302.14</span>Sanitizing Solutions, Testing Devices</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">6-201.12</span>Floors, Walls, and Ceilings, Utility Lines</li><li><span class="c">6-501.11</span>Repairing-Premises, Structures, Attachments, and Fixtures-Methods</li><li><span class="c">6-501.111</span>Controlling Pests</li><li><span class="c">6-501.12</span>Cleaning, Frequency and Restrictions</li><li><span class="c">6-501.14</span>Cleaning Ventilation Systems, Nuisance and Discharge Prohibition</li><li><span class="c">8-405.11</span>Timely Correction</li></ul>
+      <h4><time datetime="2026-03-27">March 27, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-103.11</span>Person-In-Charge-Duties</li><li><span class="c">3-202.15</span>Package Integrity</li><li><span class="c">3-501.16</span>Time/Temperature Control for Safety Food, Hot and Cold Holding</li><li><span class="c">4-302.14</span>Sanitizing Solutions, Testing Devices</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">6-201.12</span>Floors, Walls, and Ceilings, Utility Lines</li><li><span class="c">6-501.11</span>Repairing-Premises, Structures, Attachments, and Fixtures-Methods</li><li><span class="c">6-501.111</span>Controlling Pests</li><li><span class="c">6-501.112</span>Removing Dead or Trapped Birds, Insects, Rodents and other Pest</li><li><span class="c">6-501.12</span>Cleaning, Frequency and Restrictions</li><li><span class="c">8-405.11</span>Timely Correction</li></ul>
+      <h4><time datetime="2025-08-21">August 21, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-303.11</span>Ice Used as Exterior Coolant, Prohibited as Ingredient</li><li><span class="c">3-307.11</span>Miscellaneous Sources of Contamination</li><li><span class="c">4-202.18</span>Ventilation Hood Systems, Filters</li><li><span class="c">4-204.120</span>Equipment Compartments, Drainage</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">4-903.11</span>Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing</li><li><span class="c">4-904.11</span>Kitchenware and Tableware-Preventing Contamination</li><li><span class="c">5-501.115</span>Maintaining Refuse Areas and Enclosures</li><li><span class="c">6-501.111</span>Controlling Pests</li><li><span class="c">6-501.112</span>Removing Dead or Trapped Birds, Insects, Rodents and other Pest</li><li><span class="c">6-501.12</span>Cleaning, Frequency and Restrictions</li><li><span class="c">7-201.11</span>Separation-Storage</li></ul>
+      <h4><time datetime="2025-02-11">February 11, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-201.11</span>Responsibility of Permit Holder, Person in Charge, and Conditional Employees</li><li><span class="c">3-501.16</span>Time/Temperature Control for Safety Food, Hot and Cold Holding</li><li><span class="c">3-603.11</span>Consumption of Animal Foods that are Raw, Undercooked, or Not Otherwise Processed to Eliminate Pathogens</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">5-205.15</span>System Maintained in Good Repair</li><li><span class="c">6-202.110</span>Outdoor refuse Areas, Curbed and Graded to Drain</li><li><span class="c">6-501.11</span>Repairing-Premises, Structures, Attachments, and Fixtures-Methods</li><li><span class="c">6-501.12</span>Cleaning, Frequency and Restrictions</li></ul>
+      <h4><time datetime="2025-02-11">February 11, 2025</time> · Follow-up inspection</h4>
+      <p class="nv">No violation listed for this inspection in the state's file.</p>
+      <h4><time datetime="2025-01-28">January 28, 2025</time> · Complaint inspection</h4>
+      <ul><li><span class="c">3-307.11</span>Miscellaneous Sources of Contamination</li><li><span class="c">4-602.12</span>Cooking and Baking Equipment</li><li><span class="c">6-501.11</span>Repairing-Premises, Structures, Attachments, and Fixtures-Methods</li><li><span class="c">6-501.111</span>Controlling Pests</li><li><span class="c">6-501.112</span>Removing Dead or Trapped Birds, Insects, Rodents and other Pest</li><li><span class="c">6-501.12</span>Cleaning, Frequency and Restrictions</li></ul>
+    </article>
+    <article class="est" id="e-bcb77c4e18">
+      <h3>Hungry Viking</h3>
+      <p class="addr">Coastal Hwy &amp; Rt 54, Fenwick Island, DE 19944</p>
+      <h4><time datetime="2026-08-03">August 3, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-302.11</span>Packaged and Unpackaged Food-Separation, Packaging, and Segregation</li><li><span class="c">4-502.13</span>Single-Service and Single-Use Articles-Use Limitations</li></ul>
+      <h4><time datetime="2025-06-30">June 30, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-102.12</span>Certified Food Protection Manager</li><li><span class="c">3-304.12</span>In-Use Utensils, Between-Use Storage</li><li><span class="c">4-302.14</span>Sanitizing Solutions, Testing Devices</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">5-501.113</span>Covering Receptacles</li><li><span class="c">6-201.13</span>Floor and Wall Junctures, Coved, and Enclosed or Sealed</li><li><span class="c">6-501.12</span>Cleaning, Frequency and Restrictions</li></ul>
+    </article>
+  </section>
+  <section class="section" aria-labelledby="l-j">
+    <div class="section-head"><h2 class="section-title" id="l-j">J</h2></div>
+    <article class="est" id="e-cc5130334c">
+      <h3>Jimmys Kitchen The House Of Chipped Beef</h3>
+      <p class="addr">Ocean Bay Plaza Units 6 A &amp; B, Fenwick Island, DE 19944</p>
+      <h4><time datetime="2026-08-03">August 3, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-303.11</span>Prohibition-Jewelry</li><li><span class="c">2-402.11</span>Effectiveness-Hair Restraints</li><li><span class="c">3-501.14</span>Cooling</li></ul>
+      <h4><time datetime="2025-09-08">September 8, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">5-205.15</span>System Maintained in Good Repair</li><li><span class="c">6-501.11</span>Repairing-Premises, Structures, Attachments, and Fixtures-Methods</li></ul>
+    </article>
+    <article class="est" id="e-fdfc3da782">
+      <h3>JRs Seafood Shack - Fenwick</h3>
+      <p class="addr">1500 Coastal Hwy #1, Fenwick Island, DE 19944</p>
+      <h4><time datetime="2025-12-19">December 19, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-501.16</span>Time/Temperature Control for Safety Food, Hot and Cold Holding</li><li><span class="c">4-501.11</span>Good Repair and Proper Adjustment-Equipment</li></ul>
+      <h4><time datetime="2025-05-28">May 28, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-203.12</span>Shellstock, Maintaining Identification</li><li><span class="c">3-302.11</span>Packaged and Unpackaged Food-Separation, Packaging, and Segregation</li><li><span class="c">4-501.11</span>Good Repair and Proper Adjustment-Equipment</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">6-501.11</span>Repairing-Premises, Structures, Attachments, and Fixtures-Methods</li></ul>
+      <h4><time datetime="2024-11-25">November 25, 2024</time> · Routine inspection</h4>
+      <ul><li><span class="c">4-501.11</span>Good Repair and Proper Adjustment-Equipment</li><li><span class="c">6-501.11</span>Repairing-Premises, Structures, Attachments, and Fixtures-Methods</li><li><span class="c">6-501.12</span>Cleaning, Frequency and Restrictions</li><li><span class="c">7-102.11</span>Common Name-Working Containers</li></ul>
+    </article>
+  </section>
+  <section class="section" aria-labelledby="l-k">
+    <div class="section-head"><h2 class="section-title" id="l-k">K</h2></div>
+    <article class="est" id="e-2ccff9f841">
+      <h3>Kohr Bros Frozen Custard - Kohr Bros Inc - #3</h3>
+      <p class="addr">Ocean Blvd, Fenwick Island, DE 19944</p>
+      <h4><time datetime="2025-07-23">July 23, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-302.12</span>Food Storage Containers Identified with Common Name of Food</li><li><span class="c">5-205.11</span>Using a Handwashing Sink-Operation and Maintenance</li></ul>
+    </article>
+  </section>
+  <section class="section" aria-labelledby="l-m">
+    <div class="section-head"><h2 class="section-title" id="l-m">M</h2></div>
+    <article class="est" id="e-82140bb9b0">
+      <h3>Mancinis Brick Oven</h3>
+      <p class="addr">907 Coastal Hwy, Fenwick Island, DE 19944</p>
+      <h4><time datetime="2025-10-21">October 21, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-102.12</span>Certified Food Protection Manager</li><li><span class="c">3-203.12</span>Shellstock, Maintaining Identification</li><li><span class="c">3-501.16</span>Time/Temperature Control for Safety Food, Hot and Cold Holding</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">4-903.11</span>Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing</li><li><span class="c">6-501.111</span>Controlling Pests</li></ul>
+      <h4><time datetime="2025-04-23">April 23, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-203.12</span>Shellstock, Maintaining Identification</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">6-501.11</span>Repairing-Premises, Structures, Attachments, and Fixtures-Methods</li><li><span class="c">6-501.12</span>Cleaning, Frequency and Restrictions</li></ul>
+      <h4><time datetime="2024-10-23">October 23, 2024</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-203.12</span>Shellstock, Maintaining Identification</li><li><span class="c">3-501.16</span>Time/Temperature Control for Safety Food, Hot and Cold Holding</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">6-201.11</span>Floors, Walls and Ceilings-Cleanability</li><li><span class="c">6-301.11</span>Handwashing Cleanser, Availability</li><li><span class="c">6-501.12</span>Cleaning, Frequency and Restrictions</li></ul>
+      <h4><time datetime="2024-10-23">October 23, 2024</time> · Complaint inspection</h4>
+      <ul><li><span class="c">3-501.16</span>Time/Temperature Control for Safety Food, Hot and Cold Holding</li></ul>
+    </article>
+    <article class="est" id="e-6304c0809f">
+      <h3>Matteos Salsa Loco (Closed)</h3>
+      <p class="addr">305 Coastal Highway Unit #1 And #2, Fenwick Island, DE 19944</p>
+      <h4><time datetime="2024-12-20">December 20, 2024</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-102.12</span>Certified Food Protection Manager</li><li><span class="c">4-101.19</span>Nonfood-Contact Surfaces</li><li><span class="c">4-501.114</span>Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">4-602.12</span>Cooking and Baking Equipment</li><li><span class="c">5-205.15</span>System Maintained in Good Repair</li><li><span class="c">6-201.13</span>Floor and Wall Junctures, Coved, and Enclosed or Sealed</li><li><span class="c">6-501.112</span>Removing Dead or Trapped Birds, Insects, Rodents and other Pest</li><li><span class="c">6-501.12</span>Cleaning, Frequency and Restrictions</li></ul>
+    </article>
+    <article class="est" id="e-ef881c089f">
+      <h3>Matts Fish Camp Fenwick - SoDel Concepts II LLC</h3>
+      <p class="addr">700 Coastal Highway, Fenwick Island, DE 19944</p>
+      <h4><time datetime="2026-03-09">March 9, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-302.11</span>Packaged and Unpackaged Food-Separation, Packaging, and Segregation</li><li><span class="c">4-501.11</span>Good Repair and Proper Adjustment-Equipment</li><li><span class="c">4-501.16</span>Warewashing Sinks, Use Limitation</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">6-501.11</span>Repairing-Premises, Structures, Attachments, and Fixtures-Methods</li></ul>
+      <h4><time datetime="2025-08-21">August 21, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-302.11</span>Packaged and Unpackaged Food-Separation, Packaging, and Segregation</li><li><span class="c">4-502.13</span>Single-Service and Single-Use Articles-Use Limitations</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li></ul>
+      <h4><time datetime="2025-02-25">February 25, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-203.12</span>Shellstock, Maintaining Identification</li><li><span class="c">3-501.16</span>Time/Temperature Control for Safety Food, Hot and Cold Holding</li><li><span class="c">3-501.16</span>Time/Temperature Control for Safety Food, Hot and Cold Holding</li><li><span class="c">4-501.16</span>Warewashing Sinks, Use Limitation</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li></ul>
+    </article>
+  </section>
+  <section class="section" aria-labelledby="l-n">
+    <div class="section-head"><h2 class="section-title" id="l-n">N</h2></div>
+    <article class="est" id="e-bf39e0a01b">
+      <h3>Nantuckets</h3>
+      <p class="addr">601 Coastal Hwy, Fenwick Island, DE 19944</p>
+      <h4><time datetime="2025-10-01">October 1, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">5-205.15</span>System Maintained in Good Repair</li><li><span class="c">6-201.13</span>Floor and Wall Junctures, Coved, and Enclosed or Sealed</li><li><span class="c">6-501.111</span>Controlling Pests</li></ul>
+    </article>
+  </section>
+  <section class="section" aria-labelledby="l-o">
+    <div class="section-head"><h2 class="section-title" id="l-o">O</h2></div>
+    <article class="est" id="e-30ae4e8ee3">
+      <h3>Ocean Side Pizza and Subs</h3>
+      <p class="addr">205 Coastal Hwy Unit 2, Fenwick Island, DE 19944</p>
+      <h4><time datetime="2026-05-06">May 6, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">4-502.13</span>Single-Service and Single-Use Articles-Use Limitations</li><li><span class="c">6-201.11</span>Floors, Walls and Ceilings-Cleanability</li><li><span class="c">6-501.16</span>Drying Mops</li><li><span class="c">7-102.11</span>Common Name-Working Containers</li></ul>
+      <h4><time datetime="2025-04-14">April 14, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">6-101.11</span>Surface Characteristics-Indoor Areas</li><li><span class="c">6-201.13</span>Floor and Wall Junctures, Coved, and Enclosed or Sealed</li></ul>
+    </article>
+    <article class="est" id="e-a598884d2b">
+      <h3>One Coastal</h3>
+      <p class="addr">101 Coastal Highway Unit 6, Fenwick Island, DE 19944</p>
+      <h4><time datetime="2026-05-06">May 6, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-302.11</span>Packaged and Unpackaged Food-Separation, Packaging, and Segregation</li><li><span class="c">3-304.12</span>In-Use Utensils, Between-Use Storage</li><li><span class="c">6-501.11</span>Repairing-Premises, Structures, Attachments, and Fixtures-Methods</li></ul>
+      <h4><time datetime="2025-10-01">October 1, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-302.11</span>Packaged and Unpackaged Food-Separation, Packaging, and Segregation</li><li><span class="c">6-501.11</span>Repairing-Premises, Structures, Attachments, and Fixtures-Methods</li><li><span class="c">6-501.12</span>Cleaning, Frequency and Restrictions</li><li><span class="c">7-208.11</span>Storage-First Aid Supplies</li></ul>
+    </article>
+    <article class="est" id="e-1173adf089">
+      <h3>Our Harvest</h3>
+      <p class="addr">1106 Coastal Hwy, Fenwick Island, DE 19944</p>
+      <h4><time datetime="2025-10-15">October 15, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-302.11</span>Packaged and Unpackaged Food-Separation, Packaging, and Segregation</li><li><span class="c">5-205.15</span>System Maintained in Good Repair</li><li><span class="c">6-501.11</span>Repairing-Premises, Structures, Attachments, and Fixtures-Methods</li></ul>
+      <h4><time datetime="2025-03-27">March 27, 2025</time> · Follow-up inspection</h4>
+      <ul><li><span class="c">6-305.11</span>Designation-Dressing Areas and Lockers</li></ul>
+      <h4><time datetime="2025-03-26">March 26, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-203.12</span>Shellstock, Maintaining Identification</li><li><span class="c">3-302.12</span>Food Storage Containers Identified with Common Name of Food</li><li><span class="c">4-501.11</span>Good Repair and Proper Adjustment-Equipment</li><li><span class="c">5-202.13</span>Backflow Prevention, Air Gap</li><li><span class="c">6-305.11</span>Designation-Dressing Areas and Lockers</li></ul>
+    </article>
+  </section>
+  <section class="section" aria-labelledby="l-r">
+    <div class="section-head"><h2 class="section-title" id="l-r">R</h2></div>
+    <article class="est" id="e-eaa3bfcb59">
+      <h3>Royal Farms #044</h3>
+      <p class="addr">701 Coastal Highway, Fenwick Island, DE 19944</p>
+      <h4><time datetime="2025-11-10">November 10, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">5-205.11</span>Using a Handwashing Sink-Operation and Maintenance</li><li><span class="c">5-501.113</span>Covering Receptacles</li><li><span class="c">6-201.13</span>Floor and Wall Junctures, Coved, and Enclosed or Sealed</li><li><span class="c">6-501.16</span>Drying Mops</li></ul>
+      <h4><time datetime="2024-11-19">November 19, 2024</time> · Routine inspection</h4>
+      <ul><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">5-203.12</span>Toilets and Urinals</li><li><span class="c">6-301.12</span>Hand Drying Provision</li></ul>
+    </article>
+    <article class="est" id="e-7c6fbab81b">
+      <h3>Rusty Jimmies Crabs &amp; Seafood Market</h3>
+      <p class="addr">300 Coastal Hwy, Fenwick Island, DE 19944</p>
+      <h4><time datetime="2026-07-17">July 17, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-102.12</span>Certified Food Protection Manager</li><li><span class="c">3-302.12</span>Food Storage Containers Identified with Common Name of Food</li><li><span class="c">6-101.11</span>Surface Characteristics-Indoor Areas</li></ul>
+      <h4><time datetime="2025-08-27">August 27, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-501.17</span>Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking</li><li><span class="c">4-501.11</span>Good Repair and Proper Adjustment-Equipment</li><li><span class="c">4-502.13</span>Single-Service and Single-Use Articles-Use Limitations</li><li><span class="c">5-205.11</span>Using a Handwashing Sink-Operation and Maintenance</li><li><span class="c">6-201.13</span>Floor and Wall Junctures, Coved, and Enclosed or Sealed</li><li><span class="c">6-501.11</span>Repairing-Premises, Structures, Attachments, and Fixtures-Methods</li><li><span class="c">6-501.111</span>Controlling Pests</li></ul>
+    </article>
+  </section>
+  <section class="section" aria-labelledby="l-s">
+    <div class="section-head"><h2 class="section-title" id="l-s">S</h2></div>
+    <article class="est" id="e-f6f3802b47">
+      <h3>Surf Bagel Fenwick - Surf Bagel Holdings LLC - #S</h3>
+      <p class="addr">1007 Coastal Highway, Fenwick Island, DE 19944</p>
+      <h4><time datetime="2026-01-12">January 12, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li></ul>
+    </article>
+    <article class="est" id="e-0dca619167">
+      <h3>Surfs Edge Deli and Pizzeria</h3>
+      <p class="addr">100 Coastal Hwy Unit 4, Fenwick Island, DE 19944</p>
+      <h4><time datetime="2025-10-01">October 1, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-302.11</span>Packaged and Unpackaged Food-Separation, Packaging, and Segregation</li><li><span class="c">3-501.16</span>Time/Temperature Control for Safety Food, Hot and Cold Holding</li><li><span class="c">6-501.11</span>Repairing-Premises, Structures, Attachments, and Fixtures-Methods</li><li><span class="c">6-501.111</span>Controlling Pests</li></ul>
+    </article>
+  </section>
+  <section class="section" aria-labelledby="l-t">
+    <div class="section-head"><h2 class="section-title" id="l-t">T</h2></div>
+    <article class="est" id="e-151f9a16d8">
+      <h3>The Station</h3>
+      <p class="addr">1406 Coastal Hwy, Fenwick Island, DE 19944</p>
+      <h4><time datetime="2026-01-12">January 12, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-203.12</span>Shellstock, Maintaining Identification</li><li><span class="c">4-501.114</span>Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness</li><li><span class="c">5-501.113</span>Covering Receptacles</li><li><span class="c">6-101.11</span>Surface Characteristics-Indoor Areas</li><li><span class="c">6-301.12</span>Hand Drying Provision</li><li><span class="c">6-501.111</span>Controlling Pests</li></ul>
+      <h4><time datetime="2025-06-23">June 23, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-203.12</span>Shellstock, Maintaining Identification</li><li><span class="c">3-302.12</span>Food Storage Containers Identified with Common Name of Food</li><li><span class="c">3-304.12</span>In-Use Utensils, Between-Use Storage</li><li><span class="c">3-501.16</span>Time/Temperature Control for Safety Food, Hot and Cold Holding</li><li><span class="c">6-305.11</span>Designation-Dressing Areas and Lockers</li><li><span class="c">7-201.11</span>Separation-Storage</li></ul>
+    </article>
+    <article class="est" id="e-522cec9724">
+      <h3>Twilleys Hot Dog Hut LLC</h3>
+      <p class="addr">300 Coastal Hwy Unit 8-9, Fenwick Island, DE 19944</p>
+      <h4><time datetime="2026-08-10">August 10, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-402.11</span>Effectiveness-Hair Restraints</li><li><span class="c">3-301.11</span>Preventing Contamination from Hands</li><li><span class="c">3-302.12</span>Food Storage Containers Identified with Common Name of Food</li><li><span class="c">3-304.12</span>In-Use Utensils, Between-Use Storage</li><li><span class="c">3-305.11</span>Food Storage-Preventing Contamination from the Premises</li><li><span class="c">3-501.14</span>Cooling</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">4-602.11</span>Equipment Food-Contact Surfaces and Utensils-Frequency</li><li><span class="c">4-904.11</span>Kitchenware and Tableware-Preventing Contamination</li><li><span class="c">5-501.17</span>Toilet Room Receptacle, Covered</li><li><span class="c">6-202.14</span>Toilet Rooms, Enclosed</li></ul>
+      <h4><time datetime="2025-04-23">April 23, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">4-903.11</span>Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing</li><li><span class="c">5-205.15</span>System Maintained in Good Repair</li><li><span class="c">6-201.11</span>Floors, Walls and Ceilings-Cleanability</li><li><span class="c">6-501.12</span>Cleaning, Frequency and Restrictions</li></ul>
+    </article>
+  </section>
+  <section class="section" aria-labelledby="l-y">
+    <div class="section-head"><h2 class="section-title" id="l-y">Y</h2></div>
+    <article class="est" id="e-2545d4b5f4">
+      <h3>Yuzu Sushi FI</h3>
+      <p class="addr">300 Coastal Highway, Fenwick Island, DE 19944</p>
+      <h4><time datetime="2025-09-05">September 5, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-102.12</span>Certified Food Protection Manager</li><li><span class="c">3-302.12</span>Food Storage Containers Identified with Common Name of Food</li><li><span class="c">7-209.11</span>Storage-Other Personal Care Items</li></ul>
+    </article>
+  </section>
+  <section class="section" aria-labelledby="src-title">
+    <div class="section-head"><h2 class="section-title" id="src-title">Questions about a report</h2></div>
+    <p class="fact">Questions about an inspection report go to the Office of Food Protection at 302-744-4546, the number the state lists with the data.</p>
+  </section>
+  <nav class="pager" aria-label="More inspections"><a href="/inspections/">Search every Delaware establishment</a></nav>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-build">RESTAURANT INSPECTIONS · SOURCE: DELAWARE DIVISION OF PUBLIC HEALTH, OFFICE OF FOOD PROTECTION · STATE DATA AS OF OCTOBER 9, 2026</div>
+    <div class="footer-links">
+      <a href="/inspections/">Delaware restaurant inspections</a>
+      <a href="https://data.delaware.gov/Health/Food-Establishment-Inspection-Violations/384s-wygj">State inspection data (primary source)</a>
+      <a href="/">First State Lens home</a>
+    </div>
+    <div>First State Lens is a FirmSide AI Civic Analytics Lab project. Nonpartisan. Every figure is sourced to a public record. We show you the data; you decide.</div>
+  </footer>
+
+</div>
+</body>
+</html>

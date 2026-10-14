@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Restaurant inspections in Wyoming, DE: violations on record from the state | First State Lens</title>
+<meta name="description" content="Every food establishment in Wyoming, Delaware in the state&#x27;s inspection violation file, A to Z, with each inspection date, inspection type and violation in the state&#x27;s own words, October 1, 2024 to October 7, 2026." />
+<link rel="canonical" href="https://firststatelens.com/inspections/wyoming/" />
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+<meta name="theme-color" content="#030712" />
+<meta name="geo.region" content="US-DE" />
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="First State Lens" />
+<meta property="og:title" content="Restaurant inspections in Wyoming, DE: violations on record from the state" />
+<meta property="og:description" content="Every food establishment in Wyoming, Delaware in the state&#x27;s inspection violation file, A to Z, with each inspection date, inspection type and violation in the state&#x27;s own words, October 1, 2024 to October 7, 2026." />
+<meta property="og:url" content="https://firststatelens.com/inspections/wyoming/" />
+<meta property="og:image" content="https://firststatelens.com/assets/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Restaurant inspections in Wyoming, DE: violations on record from the state" />
+<meta name="twitter:description" content="Every food establishment in Wyoming, Delaware in the state&#x27;s inspection violation file, A to Z, with each inspection date, inspection type and violation in the state&#x27;s own words, October 1, 2024 to October 7, 2026." />
+<meta name="twitter:image" content="https://firststatelens.com/assets/og-image.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/fsl.css" />
+<style>
+  :root { --accent-primary: var(--cyan-400); }
+  .title-eyebrow { color: var(--cyan-400); border-color: rgba(34,211,238,0.25); background: rgba(34,211,238,0.05); }
+  .title-eyebrow::before { background: var(--cyan-400); box-shadow: 0 0 6px var(--cyan-400); }
+  .neutrality { border-left-color: var(--cyan-400); }
+  .neutrality a, .fact a, .src a, .about a { color: var(--text-primary); }
+  .crumbs { font-size: 13px; color: var(--text-tertiary); margin-bottom: 18px; }
+  .crumbs a { color: var(--text-secondary); }
+  .fact { font-size: 14px; color: var(--text-secondary); line-height: 1.6; max-width: 860px; margin-top: 12px; }
+  .fact strong { color: var(--text-primary); }
+  .src { font-size: 12px; color: var(--text-tertiary); margin-top: 10px; max-width: 860px; }
+  .about { max-width: 860px; margin-left: 20px; }
+  .about li { font-size: 14px; color: var(--text-secondary); line-height: 1.6; margin: 6px 0; }
+  .jump { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 14px; margin: 14px 0 4px; max-width: 980px; }
+  .jump a { color: var(--text-secondary); }
+  .jump strong { color: var(--text-primary); }
+  .est { border-top: 1px solid var(--border-subtle); padding: 14px 0 10px; max-width: 980px; }
+  .est h3 { font-family: 'Space Grotesk', sans-serif; font-size: 17px; color: var(--text-primary); font-weight: 600; }
+  .est .addr { font-size: 13px; color: var(--text-tertiary); margin: 2px 0 6px; }
+  .est h4 { font-size: 13.5px; color: var(--text-primary); font-weight: 500; margin: 10px 0 4px; }
+  .est ul { margin: 0 0 0 20px; }
+  .est li { font-size: 14px; color: var(--text-secondary); line-height: 1.55; }
+  .est .c { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--text-tertiary); margin-right: 6px; }
+  .est .nv { font-size: 13.5px; color: var(--text-tertiary); font-style: italic; margin-left: 20px; }
+  .towns { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 8px 18px; max-width: 980px; padding: 0; list-style: none; }
+  .towns a { color: var(--text-primary); font-size: 14px; }
+  .search label { display: block; font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--text-tertiary); margin-bottom: 8px; }
+  .search input { width: 100%; max-width: 560px; background: var(--surface-base); color: var(--text-primary); border: 1px solid var(--border-strong); border-radius: 8px; padding: 10px 12px; font-size: 15px; }
+  .results { list-style: none; padding: 0; margin-top: 14px; max-width: 980px; }
+  .results li { border-top: 1px solid var(--border-subtle); padding: 10px 0; font-size: 14px; color: var(--text-secondary); }
+  .results a { color: var(--text-primary); font-weight: 600; }
+  .results .meta { display: block; font-size: 13px; color: var(--text-tertiary); }
+  .pager { display: flex; gap: 16px; flex-wrap: wrap; font-size: 14px; margin-top: 24px; }
+  .pager a { color: var(--text-secondary); }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://firststatelens.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Restaurant inspections",
+      "item": "https://firststatelens.com/inspections/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Wyoming",
+      "item": "https://firststatelens.com/inspections/wyoming/"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<!-- generated by etl/pages/inspection_pages.py; edits here are overwritten -->
+<div class="container">
+
+  <header class="topbar">
+    <a class="brand" href="/" style="text-decoration:none;color:inherit;">
+      <div class="brand-mark">FS</div>
+      <div class="brand-text">
+        <div class="brand-name">First State Lens</div>
+        <div class="brand-tagline">Civic Analytics Lab · Delaware</div>
+      </div>
+    </a>
+    <div class="topbar-meta">
+      <div class="meta-item"><span>STATE DATA AS OF OCTOBER 9, 2026</span></div>
+    </div>
+  </header>
+
+  <main>
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › <a href="/inspections/">Restaurant inspections</a> › <span aria-current="page">Wyoming</span></nav>
+  <div class="title-block">
+    <span class="title-eyebrow">Restaurant inspections · Wyoming, Delaware</span>
+    <h1 class="title-h1">Restaurant inspections in <span class="highlight">Wyoming</span></h1>
+    <p class="title-sub">Every food establishment in Wyoming, Delaware in the state&#x27;s inspection violation file, A to Z, with each inspection date, inspection type and violation in the state&#x27;s own words, October 1, 2024 to October 7, 2026.</p>
+  </div>
+
+  <p class="neutrality">
+    <strong>How to read this.</strong> Each entry is a violation recorded at a state food inspection, in the state's own words, as the Delaware Division of Public Health, Office of Food Protection published it. A violation is not a closure. The state says many violations can be corrected on the spot during the inspection, and its inspection report marks those, but the public data file does not say which ones were, so this page cannot show that. We give no grades or scores and do not rank or label any establishment. Establishments are listed A to Z and inspections by date, newest first. This is the record as the state published it: if this page and the state's record differ, the state is right and we fix this page. <a href="https://dhss.delaware.gov/dph/homepage/about/sections/hsp/licenses-and-permits/food-protection/feirfaq/">The state's inspection FAQ</a> explains the categories of violations and when a restaurant is closed.
+  </p>
+
+  <section class="section" aria-labelledby="about-title">
+    <div class="section-head"><h2 class="section-title" id="about-title">What this page shows</h2><span class="section-meta">STATE DATA AS OF OCTOBER 9, 2026</span></div>
+    <p class="fact">46 establishments in Wyoming appear in the state's file. Each one shows every inspection in the file, newest first, with each violation in the state's own words and the code the state lists for it. Inspections run from October 1, 2024 to October 7, 2026. <a href="/inspections/">What the file includes and leaves out.</a></p>
+    <nav class="jump" aria-label="Jump to a letter"><a href="#l-a">A</a> <a href="#l-b">B</a> <a href="#l-c">C</a> <a href="#l-e">E</a> <a href="#l-f">F</a> <a href="#l-h">H</a> <a href="#l-k">K</a> <a href="#l-m">M</a> <a href="#l-o">O</a> <a href="#l-p">P</a> <a href="#l-r">R</a> <a href="#l-s">S</a> <a href="#l-t">T</a> <a href="#l-w">W</a> <a href="#l-z">Z</a></nav>
+    <p class="src">Source: <a href="https://data.delaware.gov/Health/Food-Establishment-Inspection-Violations/384s-wygj">Delaware Division of Public Health, Office of Food Protection, Food Establishment Inspection Violations</a> (data.delaware.gov, dataset 384s-wygj), as updated by the state on October 9, 2026.</p>
+  </section>
+
+  <section class="section" aria-labelledby="l-a">
+    <div class="section-head"><h2 class="section-title" id="l-a">A</h2></div>
+    <article class="est" id="e-225e432cef">
+      <h3>African Fusion</h3>
+      <p class="addr">4200 n dupont hwy, Wyoming, DE 19901</p>
+      <h4><time datetime="2026-08-13">August 13, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-103.11</span>Person-In-Charge-Duties</li><li><span class="c">3-302.11</span>Packaged and Unpackaged Food-Separation, Packaging, and Segregation</li><li><span class="c">4-501.114</span>Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness</li></ul>
+    </article>
+  </section>
+  <section class="section" aria-labelledby="l-b">
+    <div class="section-head"><h2 class="section-title" id="l-b">B</h2></div>
+    <article class="est" id="e-3c69c428bc">
+      <h3>Buckleys Tavern</h3>
+      <p class="addr">5812 Kennett Pike, Wyoming, DE 19807</p>
+      <h4><time datetime="2025-06-18">June 18, 2025</time> · Follow-up inspection</h4>
+      <p class="nv">No violation listed for this inspection in the state's file.</p>
+      <h4><time datetime="2025-06-12">June 12, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-401.11</span>Eating, Drinking, or Using Tobacco</li><li><span class="c">3-305.11</span>Food Storage-Preventing Contamination from the Premises</li><li><span class="c">3-501.17</span>Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking</li><li><span class="c">4-302.14</span>Sanitizing Solutions, Testing Devices</li><li><span class="c">5-202.12</span>Handwashing Sinks, Installation</li><li><span class="c">6-301.14</span>Handwashing Signage</li></ul>
+      <h4><time datetime="2024-10-11">October 11, 2024</time> · Follow-up inspection</h4>
+      <p class="nv">No violation listed for this inspection in the state's file.</p>
+      <h4><time datetime="2024-10-08">October 8, 2024</time> · Complaint inspection</h4>
+      <ul><li><span class="c">4-602.13</span>Nonfood Contact Surfaces</li><li><span class="c">6-501.111</span>Controlling Pests</li><li><span class="c">8-404.11</span>Ceasing Operations and Reporting</li></ul>
+    </article>
+  </section>
+  <section class="section" aria-labelledby="l-c">
+    <div class="section-head"><h2 class="section-title" id="l-c">C</h2></div>
+    <article class="est" id="e-03752b72ff">
+      <h3>Checkers - Wilmington - NEEHIL LLC</h3>
+      <p class="addr">1503 North Dupont Highway, Wyoming, DE 19720</p>
+      <h4><time datetime="2026-09-14">September 14, 2026</time> · Routine inspection</h4>
+      <p class="nv">No violation listed for this inspection in the state's file.</p>
+      <h4><time datetime="2026-09-04">September 4, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-401.11</span>Eating, Drinking, or Using Tobacco</li><li><span class="c">3-302.12</span>Food Storage Containers Identified with Common Name of Food</li><li><span class="c">3-305.11</span>Food Storage-Preventing Contamination from the Premises</li><li><span class="c">8-301.11</span>Prerequisite for Operation</li></ul>
+      <h4><time datetime="2025-10-20">October 20, 2025</time> · Follow-up inspection</h4>
+      <p class="nv">No violation listed for this inspection in the state's file.</p>
+      <h4><time datetime="2025-10-09">October 9, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-501.16</span>Time/Temperature Control for Safety Food, Hot and Cold Holding</li><li><span class="c">5-202.12</span>Handwashing Sinks, Installation</li></ul>
+      <h4><time datetime="2025-01-15">January 15, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">5-205.11</span>Using a Handwashing Sink-Operation and Maintenance</li></ul>
+    </article>
+    <article class="est" id="e-ed091da878">
+      <h3>Chick-fil-A New Castle FSU - Franzidge LLC - #3905</h3>
+      <p class="addr">107 s dupont hwy, Wyoming, DE 19720</p>
+      <h4><time datetime="2025-04-21">April 21, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">6-202.13</span>Insect Control Devices, Design and Installation</li></ul>
+    </article>
+    <article class="est" id="e-e0d555fc3b">
+      <h3>Chinatown Buffet</h3>
+      <p class="addr">18701 Coastal Hwy Suite 12, Wyoming, DE 19971</p>
+      <h4><time datetime="2026-03-18">March 18, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-305.11</span>Food Storage-Preventing Contamination from the Premises</li><li><span class="c">3-501.16</span>Time/Temperature Control for Safety Food, Hot and Cold Holding</li><li><span class="c">6-201.11</span>Floors, Walls and Ceilings-Cleanability</li><li><span class="c">7-102.11</span>Common Name-Working Containers</li><li><span class="c">7-209.11</span>Storage-Other Personal Care Items</li></ul>
+      <h4><time datetime="2025-09-08">September 8, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">6-301.11</span>Handwashing Cleanser, Availability</li></ul>
+      <h4><time datetime="2025-03-04">March 4, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-305.11</span>Food Storage-Preventing Contamination from the Premises</li><li><span class="c">3-501.13</span>Thawing</li><li><span class="c">3-501.16</span>Time/Temperature Control for Safety Food, Hot and Cold Holding</li><li><span class="c">4-204.112</span>Temperature Measuring Devices-Functionality</li></ul>
+      <h4><time datetime="2024-10-02">October 2, 2024</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-401.11</span>Eating, Drinking, or Using Tobacco</li><li><span class="c">3-302.12</span>Food Storage Containers Identified with Common Name of Food</li><li><span class="c">3-305.11</span>Food Storage-Preventing Contamination from the Premises</li><li><span class="c">5-205.11</span>Using a Handwashing Sink-Operation and Maintenance</li><li><span class="c">6-501.14</span>Cleaning Ventilation Systems, Nuisance and Discharge Prohibition</li></ul>
+    </article>
+  </section>
+  <section class="section" aria-labelledby="l-e">
+    <div class="section-head"><h2 class="section-title" id="l-e">E</h2></div>
+    <article class="est" id="e-7cb37c6a62">
+      <h3>El Sabor De Honduras LLC (mob)</h3>
+      <p class="addr">897 Elk Mills Road, Wyoming, DE 21921</p>
+      <h4><time datetime="2026-07-31">July 31, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-304.12</span>In-Use Utensils, Between-Use Storage</li><li><span class="c">6-301.12</span>Hand Drying Provision</li></ul>
+      <h4><time datetime="2025-07-08">July 8, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-302.11</span>Packaged and Unpackaged Food-Separation, Packaging, and Segregation</li><li><span class="c">3-501.17</span>Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking</li><li><span class="c">5-205.11</span>Using a Handwashing Sink-Operation and Maintenance</li></ul>
+    </article>
+    <article class="est" id="e-fb0a23b081">
+      <h3>Elite Softee Inc 2 (MOB)</h3>
+      <p class="addr">14 Crouch Chapel Road, Wyoming, DE 21921</p>
+      <h4><time datetime="2025-10-21">October 21, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-102.12</span>Certified Food Protection Manager</li></ul>
+    </article>
+  </section>
+  <section class="section" aria-labelledby="l-f">
+    <div class="section-head"><h2 class="section-title" id="l-f">F</h2></div>
+    <article class="est" id="e-16a8bb69e1">
+      <h3>Fifer - Fifer Orchards Inc - #Donut Production</h3>
+      <p class="addr">1919 Allabands Mill Road, Wyoming, DE 19934</p>
+      <h4><time datetime="2025-04-08">April 8, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-302.11</span>Packaged and Unpackaged Food-Separation, Packaging, and Segregation</li><li><span class="c">3-501.17</span>Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li></ul>
+    </article>
+    <article class="est" id="e-ea8930ca27">
+      <h3>Fifer - Fifer Orchards Inc - #Fifers Farm Store</h3>
+      <p class="addr">1919 Allabands Mill Rd, Wyoming, DE 19934</p>
+      <h4><time datetime="2026-08-20">August 20, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-102.12</span>Certified Food Protection Manager</li><li><span class="c">7-206.11</span>Restricted Use Pesticides, Criteria</li></ul>
+      <h4><time datetime="2025-08-27">August 27, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-201.11</span>Responsibility of Permit Holder, Person in Charge, and Conditional Employees</li><li><span class="c">2-402.11</span>Effectiveness-Hair Restraints</li><li><span class="c">3-501.17</span>Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking</li></ul>
+    </article>
+  </section>
+  <section class="section" aria-labelledby="l-h">
+    <div class="section-head"><h2 class="section-title" id="l-h">H</h2></div>
+    <article class="est" id="e-35643908d1">
+      <h3>Hockers Grocery &amp; Deli</h3>
+      <p class="addr">34960 Unit 1 Atlantic Ave, Wyoming, DE 19970</p>
+      <h4><time datetime="2026-02-17">February 17, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">4-501.11</span>Good Repair and Proper Adjustment-Equipment</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">5-205.11</span>Using a Handwashing Sink-Operation and Maintenance</li><li><span class="c">6-501.11</span>Repairing-Premises, Structures, Attachments, and Fixtures-Methods</li><li><span class="c">6-501.12</span>Cleaning, Frequency and Restrictions</li></ul>
+      <h4><time datetime="2025-08-19">August 19, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">4-501.11</span>Good Repair and Proper Adjustment-Equipment</li><li><span class="c">4-501.14</span>Warewashing Equipment, Cleaning Frequency</li><li><span class="c">5-205.11</span>Using a Handwashing Sink-Operation and Maintenance</li><li><span class="c">6-201.13</span>Floor and Wall Junctures, Coved, and Enclosed or Sealed</li></ul>
+      <h4><time datetime="2025-02-05">February 5, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-202.15</span>Package Integrity</li><li><span class="c">4-501.11</span>Good Repair and Proper Adjustment-Equipment</li><li><span class="c">4-501.14</span>Warewashing Equipment, Cleaning Frequency</li><li><span class="c">5-205.11</span>Using a Handwashing Sink-Operation and Maintenance</li><li><span class="c">6-201.13</span>Floor and Wall Junctures, Coved, and Enclosed or Sealed</li><li><span class="c">6-305.11</span>Designation-Dressing Areas and Lockers</li><li><span class="c">6-501.12</span>Cleaning, Frequency and Restrictions</li></ul>
+    </article>
+    <article class="est" id="e-19306501a2">
+      <h3>Hockers Super Center</h3>
+      <p class="addr">34960 Unit 4 Atlantic Ave, Wyoming, DE 19970</p>
+      <h4><time datetime="2026-08-04">August 4, 2026</time> · Complaint inspection</h4>
+      <p class="nv">No violation listed for this inspection in the state's file.</p>
+      <h4><time datetime="2026-02-17">February 17, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">4-501.11</span>Good Repair and Proper Adjustment-Equipment</li><li><span class="c">5-205.15</span>System Maintained in Good Repair</li><li><span class="c">6-201.13</span>Floor and Wall Junctures, Coved, and Enclosed or Sealed</li><li><span class="c">6-305.11</span>Designation-Dressing Areas and Lockers</li><li><span class="c">6-501.12</span>Cleaning, Frequency and Restrictions</li><li><span class="c">6-501.16</span>Drying Mops</li></ul>
+      <h4><time datetime="2025-02-05">February 5, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">4-501.11</span>Good Repair and Proper Adjustment-Equipment</li></ul>
+    </article>
+    <article class="est" id="e-459a430262">
+      <h3>Holmes Hoagies</h3>
+      <p class="addr">405 Philadelphia Pike, Wyoming, DE 19809</p>
+      <h4><time datetime="2025-09-30">September 30, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-302.12</span>Food Storage Containers Identified with Common Name of Food</li><li><span class="c">3-501.17</span>Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking</li></ul>
+    </article>
+  </section>
+  <section class="section" aria-labelledby="l-k">
+    <div class="section-head"><h2 class="section-title" id="l-k">K</h2></div>
+    <article class="est" id="e-960c116aaa">
+      <h3>Krazy Kats Cafe-Montchanin</h3>
+      <p class="addr">528 Montchanin Road, Wyoming, DE 19710</p>
+      <h4><time datetime="2026-09-23">September 23, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-305.15</span>Food Preparation Sink</li><li><span class="c">6-303.11</span>Intensity-Lighting</li></ul>
+      <h4><time datetime="2026-09-18">September 18, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-305.15</span>Food Preparation Sink</li><li><span class="c">3-501.16</span>Time/Temperature Control for Safety Food, Hot and Cold Holding</li><li><span class="c">4-302.14</span>Sanitizing Solutions, Testing Devices</li><li><span class="c">6-303.11</span>Intensity-Lighting</li></ul>
+    </article>
+  </section>
+  <section class="section" aria-labelledby="l-m">
+    <div class="section-head"><h2 class="section-title" id="l-m">M</h2></div>
+    <article class="est" id="e-d8d5f656fd">
+      <h3>McDonalds - SR95TK5+CR95TK5 LLC - #2774</h3>
+      <p class="addr">333 North DuPont Highway, Wyoming, DE 19977</p>
+      <h4><time datetime="2026-05-06">May 6, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">6-301.12</span>Hand Drying Provision</li></ul>
+      <h4><time datetime="2025-05-12">May 12, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-402.11</span>Effectiveness-Hair Restraints</li><li><span class="c">4-501.11</span>Good Repair and Proper Adjustment-Equipment</li><li><span class="c">4-903.11</span>Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing</li><li><span class="c">6-301.12</span>Hand Drying Provision</li></ul>
+      <h4><time datetime="2024-11-13">November 13, 2024</time> · Routine inspection</h4>
+      <ul><li><span class="c">4-501.114</span>Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">4-903.11</span>Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing</li><li><span class="c">5-103.11</span>Capacity-Quantity and Availability</li><li><span class="c">6-301.12</span>Hand Drying Provision</li></ul>
+    </article>
+    <article class="est" id="e-62f3651b79">
+      <h3>Mike &amp; Mels Family Restaurant - MMW Restaurant I</h3>
+      <p class="addr">108 North Railroad Avenue, Wyoming, DE 19934</p>
+      <h4><time datetime="2026-09-09">September 9, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-301.14</span>When to Wash</li><li><span class="c">2-402.11</span>Effectiveness-Hair Restraints</li><li><span class="c">3-305.11</span>Food Storage-Preventing Contamination from the Premises</li><li><span class="c">4-101.19</span>Nonfood-Contact Surfaces</li><li><span class="c">4-301.14</span>Ventilation Hood Systems, Adequacy</li><li><span class="c">4-903.11</span>Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing</li><li><span class="c">6-201.11</span>Floors, Walls and Ceilings-Cleanability</li><li><span class="c">6-202.12</span>Heating, Ventilation, Air Conditioning System Vents</li><li><span class="c">6-202.15</span>Outer Openings, Protected</li><li><span class="c">6-301.14</span>Handwashing Signage</li><li><span class="c">6-501.11</span>Repairing-Premises, Structures, Attachments, and Fixtures-Methods</li><li><span class="c">6-501.11</span>Repairing-Premises, Structures, Attachments, and Fixtures-Methods</li><li><span class="c">8-301.11</span>Prerequisite for Operation</li></ul>
+      <h4><time datetime="2026-09-03">September 3, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-401.11</span>Eating, Drinking, or Using Tobacco</li><li><span class="c">3-305.11</span>Food Storage-Preventing Contamination from the Premises</li><li><span class="c">3-501.16</span>Time/Temperature Control for Safety Food, Hot and Cold Holding</li><li><span class="c">3-501.18</span>Ready-To-Eat Time/Temperature Control for Safety Food, Disposition</li><li><span class="c">4-101.19</span>Nonfood-Contact Surfaces</li><li><span class="c">4-301.14</span>Ventilation Hood Systems, Adequacy</li><li><span class="c">4-301.14</span>Ventilation Hood Systems, Adequacy</li><li><span class="c">4-501.114</span>Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness</li><li><span class="c">4-903.11</span>Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing</li><li><span class="c">4-903.11</span>Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing</li><li><span class="c">5-203.14</span>Backflow Prevention Device, When Required</li><li><span class="c">5-203.14</span>Backflow Prevention Device, When Required</li><li><span class="c">5-205.15</span>System Maintained in Good Repair</li><li><span class="c">5-205.15</span>System Maintained in Good Repair</li><li><span class="c">6-201.11</span>Floors, Walls and Ceilings-Cleanability</li><li><span class="c">6-201.11</span>Floors, Walls and Ceilings-Cleanability</li><li><span class="c">6-202.12</span>Heating, Ventilation, Air Conditioning System Vents</li><li><span class="c">6-202.15</span>Outer Openings, Protected</li><li><span class="c">6-301.12</span>Hand Drying Provision</li><li><span class="c">6-301.14</span>Handwashing Signage</li><li><span class="c">6-301.14</span>Handwashing Signage</li><li><span class="c">6-501.11</span>Repairing-Premises, Structures, Attachments, and Fixtures-Methods</li><li><span class="c">6-501.11</span>Repairing-Premises, Structures, Attachments, and Fixtures-Methods</li><li><span class="c">8-301.11</span>Prerequisite for Operation</li><li><span class="c">8-301.11</span>Prerequisite for Operation</li></ul>
+      <h4><time datetime="2026-09-03">September 3, 2026</time> · Complaint inspection</h4>
+      <ul><li><span class="c">2-301.14</span>When to Wash</li><li><span class="c">2-402.11</span>Effectiveness-Hair Restraints</li><li><span class="c">3-501.16</span>Time/Temperature Control for Safety Food, Hot and Cold Holding</li><li><span class="c">6-501.11</span>Repairing-Premises, Structures, Attachments, and Fixtures-Methods</li></ul>
+      <h4><time datetime="2026-04-15">April 15, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-401.11</span>Eating, Drinking, or Using Tobacco</li><li><span class="c">3-501.16</span>Time/Temperature Control for Safety Food, Hot and Cold Holding</li><li><span class="c">3-501.18</span>Ready-To-Eat Time/Temperature Control for Safety Food, Disposition</li><li><span class="c">4-301.14</span>Ventilation Hood Systems, Adequacy</li><li><span class="c">4-501.114</span>Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness</li><li><span class="c">4-903.11</span>Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing</li><li><span class="c">5-203.14</span>Backflow Prevention Device, When Required</li><li><span class="c">5-205.15</span>System Maintained in Good Repair</li><li><span class="c">6-201.11</span>Floors, Walls and Ceilings-Cleanability</li><li><span class="c">6-301.12</span>Hand Drying Provision</li><li><span class="c">6-301.14</span>Handwashing Signage</li><li><span class="c">6-501.11</span>Repairing-Premises, Structures, Attachments, and Fixtures-Methods</li><li><span class="c">8-301.11</span>Prerequisite for Operation</li></ul>
+      <h4><time datetime="2025-10-23">October 23, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-402.11</span>Effectiveness-Hair Restraints</li><li><span class="c">3-302.11</span>Packaged and Unpackaged Food-Separation, Packaging, and Segregation</li><li><span class="c">3-304.12</span>In-Use Utensils, Between-Use Storage</li><li><span class="c">4-101.19</span>Nonfood-Contact Surfaces</li><li><span class="c">4-602.11</span>Equipment Food-Contact Surfaces and Utensils-Frequency</li><li><span class="c">6-201.11</span>Floors, Walls and Ceilings-Cleanability</li><li><span class="c">6-501.11</span>Repairing-Premises, Structures, Attachments, and Fixtures-Methods</li><li><span class="c">7-102.11</span>Common Name-Working Containers</li></ul>
+      <h4><time datetime="2025-04-17">April 17, 2025</time> · Follow-up inspection</h4>
+      <ul><li><span class="c">6-303.11</span>Intensity-Lighting</li></ul>
+      <h4><time datetime="2025-04-14">April 14, 2025</time> · Follow-up inspection</h4>
+      <ul><li><span class="c">5-205.15</span>System Maintained in Good Repair</li><li><span class="c">6-303.11</span>Intensity-Lighting</li></ul>
+      <h4><time datetime="2025-04-08">April 8, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-401.11</span>Eating, Drinking, or Using Tobacco</li><li><span class="c">3-302.12</span>Food Storage Containers Identified with Common Name of Food</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">5-205.15</span>System Maintained in Good Repair</li><li><span class="c">6-303.11</span>Intensity-Lighting</li><li><span class="c">6-501.16</span>Drying Mops</li></ul>
+      <h4><time datetime="2024-12-19">December 19, 2024</time> · Follow-up inspection</h4>
+      <p class="nv">No violation listed for this inspection in the state's file.</p>
+    </article>
+    <article class="est" id="e-1355521e42">
+      <h3>Miyagi Ramen Bar</h3>
+      <p class="addr">19266 Coastal Hwy Unit 6, Wyoming, DE 19971</p>
+      <h4><time datetime="2026-09-11">September 11, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-305.11</span>Food Storage-Preventing Contamination from the Premises</li><li><span class="c">3-307.11</span>Miscellaneous Sources of Contamination</li><li><span class="c">5-205.11</span>Using a Handwashing Sink-Operation and Maintenance</li></ul>
+      <h4><time datetime="2026-03-11">March 11, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-302.11</span>Packaged and Unpackaged Food-Separation, Packaging, and Segregation</li></ul>
+      <h4><time datetime="2025-09-18">September 18, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">4-501.11</span>Good Repair and Proper Adjustment-Equipment</li><li><span class="c">5-205.15</span>System Maintained in Good Repair</li><li><span class="c">6-301.11</span>Handwashing Cleanser, Availability</li></ul>
+      <h4><time datetime="2025-03-14">March 14, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">5-205.11</span>Using a Handwashing Sink-Operation and Maintenance</li><li><span class="c">5-205.15</span>System Maintained in Good Repair</li><li><span class="c">6-201.11</span>Floors, Walls and Ceilings-Cleanability</li><li><span class="c">6-301.11</span>Handwashing Cleanser, Availability</li><li><span class="c">6-501.16</span>Drying Mops</li></ul>
+    </article>
+    <article class="est" id="e-dccccd32a5">
+      <h3>Mother and Daughter Kitchen</h3>
+      <p class="addr">1160 B White Oak Road, Wyoming, DE 19901</p>
+      <h4><time datetime="2026-03-06">March 6, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-304.12</span>In-Use Utensils, Between-Use Storage</li><li><span class="c">4-101.19</span>Nonfood-Contact Surfaces</li></ul>
+      <h4><time datetime="2025-02-27">February 27, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">4-301.12</span>Manual Warewashing, Sink Compartment Requirements</li><li><span class="c">7-102.11</span>Common Name-Working Containers</li></ul>
+    </article>
+    <article class="est" id="e-7e0cf4082d">
+      <h3>Mr Softee of Delmar (MOB)</h3>
+      <p class="addr">14 Crouch Chapel Road, Wyoming, DE 21921</p>
+      <h4><time datetime="2025-11-06">November 6, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-102.12</span>Certified Food Protection Manager</li></ul>
+    </article>
+    <article class="est" id="e-70f5636d1b">
+      <h3>Murphs Irish Pub</h3>
+      <p class="addr">401 Philadelphia Pike, Wyoming, DE 19809</p>
+      <h4><time datetime="2025-11-12">November 12, 2025</time> · Follow-up inspection</h4>
+      <ul><li><span class="c">2-102.12</span>Certified Food Protection Manager</li></ul>
+      <h4><time datetime="2025-10-28">October 28, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-102.12</span>Certified Food Protection Manager</li><li><span class="c">2-103.11</span>Person-In-Charge-Duties</li><li><span class="c">2-501.11</span>Clean-up of Vomiting and Diarrheal Events</li><li><span class="c">3-302.12</span>Food Storage Containers Identified with Common Name of Food</li><li><span class="c">3-304.12</span>In-Use Utensils, Between-Use Storage</li><li><span class="c">3-305.12</span>Food Storage, Prohibited Areas</li><li><span class="c">3-501.17</span>Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking</li><li><span class="c">5-501.17</span>Toilet Room Receptacle, Covered</li></ul>
+    </article>
+  </section>
+  <section class="section" aria-labelledby="l-o">
+    <div class="section-head"><h2 class="section-title" id="l-o">O</h2></div>
+    <article class="est" id="e-513bc5009f">
+      <h3>Olive Garden Christiana - Darden Restaurants Inc</h3>
+      <p class="addr">1279 New Churchmans Rd, Wyoming, DE 19713</p>
+      <h4><time datetime="2025-08-21">August 21, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-305.11</span>Food Storage-Preventing Contamination from the Premises</li><li><span class="c">6-301.12</span>Hand Drying Provision</li></ul>
+      <h4><time datetime="2025-01-28">January 28, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">5-103.12</span>Pressure</li><li><span class="c">6-301.14</span>Handwashing Signage</li><li><span class="c">7-201.11</span>Separation-Storage</li></ul>
+    </article>
+  </section>
+  <section class="section" aria-labelledby="l-p">
+    <div class="section-head"><h2 class="section-title" id="l-p">P</h2></div>
+    <article class="est" id="e-e81123e072">
+      <h3>Pit Daddy BBQ</h3>
+      <p class="addr">63 West Big Woods Road, Wyoming, DE 19977</p>
+      <h4><time datetime="2025-03-06">March 6, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">5-501.114</span>Using Drain Plugs</li></ul>
+    </article>
+    <article class="est" id="e-7b7fbf8272">
+      <h3>Prosperos pizza - prosperos pizza llc - #Wilming</h3>
+      <p class="addr">14 Carpenter Station Road, Wyoming, DE 19810</p>
+      <h4><time datetime="2026-06-12">June 12, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">6-201.11</span>Floors, Walls and Ceilings-Cleanability</li></ul>
+      <h4><time datetime="2026-06-08">June 8, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-302.12</span>Food Storage Containers Identified with Common Name of Food</li><li><span class="c">3-501.17</span>Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking</li><li><span class="c">3-501.19</span>Time as a Public Health Control</li><li><span class="c">6-201.11</span>Floors, Walls and Ceilings-Cleanability</li><li><span class="c">6-301.12</span>Hand Drying Provision</li><li><span class="c">6-501.16</span>Drying Mops</li></ul>
+      <h4><time datetime="2024-12-05">December 5, 2024</time> · Follow-up inspection</h4>
+      <p class="nv">No violation listed for this inspection in the state's file.</p>
+      <h4><time datetime="2024-11-21">November 21, 2024</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-102.12</span>Certified Food Protection Manager</li><li><span class="c">2-103.11</span>Person-In-Charge-Duties</li><li><span class="c">2-301.15</span>Where to Wash</li><li><span class="c">2-501.11</span>Clean-up of Vomiting and Diarrheal Events</li><li><span class="c">3-302.12</span>Food Storage Containers Identified with Common Name of Food</li><li><span class="c">3-304.12</span>In-Use Utensils, Between-Use Storage</li><li><span class="c">3-305.11</span>Food Storage-Preventing Contamination from the Premises</li><li><span class="c">3-501.17</span>Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking</li><li><span class="c">3-602.11</span>Food Labels</li><li><span class="c">4-204.112</span>Temperature Measuring Devices-Functionality</li><li><span class="c">4-302.14</span>Sanitizing Solutions, Testing Devices</li><li><span class="c">5-205.11</span>Using a Handwashing Sink-Operation and Maintenance</li><li><span class="c">6-501.16</span>Drying Mops</li></ul>
+    </article>
+    <article class="est" id="e-7204de71af">
+      <h3>Purebread Deli- Churchmans Rd</h3>
+      <p class="addr">1309 New Churchmans Road, Wyoming, DE 19713</p>
+      <h4><time datetime="2025-10-01">October 1, 2025</time> · Follow-up inspection</h4>
+      <p class="nv">No violation listed for this inspection in the state's file.</p>
+      <h4><time datetime="2025-09-24">September 24, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-102.11</span>Demonstration of Knowledge</li><li><span class="c">3-501.16</span>Time/Temperature Control for Safety Food, Hot and Cold Holding</li></ul>
+    </article>
+  </section>
+  <section class="section" aria-labelledby="l-r">
+    <div class="section-head"><h2 class="section-title" id="l-r">R</h2></div>
+    <article class="est" id="e-0611eab94e">
+      <h3>Raspados Bayu (MOB)</h3>
+      <p class="addr">9 Hunter Road, Wyoming, DE 19720</p>
+      <h4><time datetime="2025-05-27">May 27, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-103.11</span>Person-In-Charge-Duties</li><li><span class="c">4-302.14</span>Sanitizing Solutions, Testing Devices</li></ul>
+    </article>
+    <article class="est" id="e-869fe5f5fd">
+      <h3>Red Lobster #6319</h3>
+      <p class="addr">1249 New Churchmans Rd, Wyoming, DE 19713</p>
+      <h4><time datetime="2026-01-05">January 5, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">4-302.12</span>Food Temperature Measuring Devices</li></ul>
+      <h4><time datetime="2024-10-25">October 25, 2024</time> · Routine inspection</h4>
+      <ul><li><span class="c">4-204.112</span>Temperature Measuring Devices-Functionality</li><li><span class="c">4-501.112</span>Mechanical Warewashing Equipment, Hot Water Sanitization Temperatures</li></ul>
+    </article>
+    <article class="est" id="e-ad27663dd3">
+      <h3>Ricardo Mexican Cuisine &amp; Pizza (Closed)</h3>
+      <p class="addr">4817 Governor Printz Boulevard, Wyoming, DE 19809</p>
+      <h4><time datetime="2024-10-17">October 17, 2024</time> · Follow-up inspection</h4>
+      <p class="nv">No violation listed for this inspection in the state's file.</p>
+      <h4><time datetime="2024-10-03">October 3, 2024</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-103.11</span>Person-In-Charge-Duties</li><li><span class="c">2-501.11</span>Clean-up of Vomiting and Diarrheal Events</li><li><span class="c">3-304.12</span>In-Use Utensils, Between-Use Storage</li><li><span class="c">3-305.11</span>Food Storage-Preventing Contamination from the Premises</li><li><span class="c">3-501.17</span>Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking</li><li><span class="c">3-501.18</span>Ready-To-Eat Time/Temperature Control for Safety Food, Disposition</li><li><span class="c">5-202.12</span>Handwashing Sinks, Installation</li><li><span class="c">6-301.11</span>Handwashing Cleanser, Availability</li></ul>
+    </article>
+  </section>
+  <section class="section" aria-labelledby="l-s">
+    <div class="section-head"><h2 class="section-title" id="l-s">S</h2></div>
+    <article class="est" id="e-768ae4acf5">
+      <h3>Saketumi</h3>
+      <p class="addr">18814 Hwy One, Wyoming, DE 19971</p>
+      <h4><time datetime="2026-08-17">August 17, 2026</time> · Routine inspection</h4>
+      <p class="nv">No violation listed for this inspection in the state's file.</p>
+      <h4><time datetime="2026-08-07">August 7, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-102.11</span>Demonstration of Knowledge</li><li><span class="c">2-102.11</span>Demonstration of Knowledge</li><li><span class="c">2-102.12</span>Certified Food Protection Manager</li><li><span class="c">2-102.12</span>Certified Food Protection Manager</li><li><span class="c">3-302.11</span>Packaged and Unpackaged Food-Separation, Packaging, and Segregation</li><li><span class="c">3-302.11</span>Packaged and Unpackaged Food-Separation, Packaging, and Segregation</li><li><span class="c">6-202.13</span>Insect Control Devices, Design and Installation</li><li><span class="c">6-202.13</span>Insect Control Devices, Design and Installation</li><li><span class="c">8-405.11</span>Timely Correction</li></ul>
+      <h4><time datetime="2026-07-24">July 24, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-102.11</span>Demonstration of Knowledge</li><li><span class="c">2-102.12</span>Certified Food Protection Manager</li><li><span class="c">2-201.11</span>Responsibility of Permit Holder, Person in Charge, and Conditional Employees</li><li><span class="c">3-101.11</span>Safe, Unadulterated and Honestly Presented</li><li><span class="c">3-302.11</span>Packaged and Unpackaged Food-Separation, Packaging, and Segregation</li><li><span class="c">3-302.11</span>Packaged and Unpackaged Food-Separation, Packaging, and Segregation</li><li><span class="c">3-501.16</span>Time/Temperature Control for Safety Food, Hot and Cold Holding</li><li><span class="c">5-205.11</span>Using a Handwashing Sink-Operation and Maintenance</li><li><span class="c">6-202.13</span>Insect Control Devices, Design and Installation</li></ul>
+      <h4><time datetime="2026-05-12">May 12, 2026</time> · Routine inspection</h4>
+      <p class="nv">No violation listed for this inspection in the state's file.</p>
+      <h4><time datetime="2026-05-06">May 6, 2026</time> · Complaint inspection</h4>
+      <ul><li><span class="c">3-304.14</span>Wiping Cloths, Use Limitation</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li></ul>
+      <h4><time datetime="2026-03-16">March 16, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-302.11</span>Packaged and Unpackaged Food-Separation, Packaging, and Segregation</li><li><span class="c">3-305.11</span>Food Storage-Preventing Contamination from the Premises</li><li><span class="c">5-205.15</span>System Maintained in Good Repair</li><li><span class="c">6-201.11</span>Floors, Walls and Ceilings-Cleanability</li><li><span class="c">6-501.14</span>Cleaning Ventilation Systems, Nuisance and Discharge Prohibition</li></ul>
+      <h4><time datetime="2025-09-15">September 15, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-302.11</span>Packaged and Unpackaged Food-Separation, Packaging, and Segregation</li><li><span class="c">3-305.11</span>Food Storage-Preventing Contamination from the Premises</li><li><span class="c">3-307.11</span>Miscellaneous Sources of Contamination</li><li><span class="c">4-602.13</span>Nonfood Contact Surfaces</li><li><span class="c">5-205.11</span>Using a Handwashing Sink-Operation and Maintenance</li><li><span class="c">6-201.11</span>Floors, Walls and Ceilings-Cleanability</li><li><span class="c">6-301.12</span>Hand Drying Provision</li></ul>
+      <h4><time datetime="2025-03-04">March 4, 2025</time> · Follow-up inspection</h4>
+      <p class="nv">No violation listed for this inspection in the state's file.</p>
+      <h4><time datetime="2025-02-17">February 17, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">4-602.11</span>Equipment Food-Contact Surfaces and Utensils-Frequency</li><li><span class="c">6-201.11</span>Floors, Walls and Ceilings-Cleanability</li><li><span class="c">6-501.111</span>Controlling Pests</li><li><span class="c">6-501.12</span>Cleaning, Frequency and Restrictions</li><li><span class="c">6-501.14</span>Cleaning Ventilation Systems, Nuisance and Discharge Prohibition</li><li><span class="c">7-201.11</span>Separation-Storage</li><li><span class="c">8-103.12</span>Conformance with Approved Procedures</li></ul>
+      <h4><time datetime="2024-10-02">October 2, 2024</time> · Follow-up inspection</h4>
+      <p class="nv">No violation listed for this inspection in the state's file.</p>
+    </article>
+    <article class="est" id="e-f3923e9d83">
+      <h3>Satisfried Concessions - Satisfried Concessions LL</h3>
+      <p class="addr">501 Hollering Hill Road, Wyoming, DE 19934</p>
+      <h4><time datetime="2025-09-30">September 30, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li></ul>
+    </article>
+    <article class="est" id="e-2454a00e3c">
+      <h3>Satisfried Concessions Servicing Area - Satisfried</h3>
+      <p class="addr">501 Hollering Hill Road, Wyoming, DE 19934</p>
+      <h4><time datetime="2025-01-29">January 29, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-305.11</span>Food Storage-Preventing Contamination from the Premises</li></ul>
+    </article>
+    <article class="est" id="e-b5e25fba9b">
+      <h3>Sgcs Enterprises/st Georges Country Store</h3>
+      <p class="addr">1 Delaware Street, Wyoming, DE 19733</p>
+      <h4><time datetime="2026-06-23">June 23, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">4-302.12</span>Food Temperature Measuring Devices</li></ul>
+      <h4><time datetime="2025-04-16">April 16, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">6-301.11</span>Handwashing Cleanser, Availability</li><li><span class="c">6-301.12</span>Hand Drying Provision</li></ul>
+    </article>
+    <article class="est" id="e-8cc0705494">
+      <h3>Star Grill/ Delaware Halal Food Mobile</h3>
+      <p class="addr">400 MLK Jr Blvd Wilmington DE, Wyoming, DE</p>
+      <h4><time datetime="2025-04-21">April 21, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">8-301.11</span>Prerequisite for Operation</li></ul>
+    </article>
+    <article class="est" id="e-49c5f235e1">
+      <h3>Stingray - ARG Sting Rehoboth LLC</h3>
+      <p class="addr">59 Lake Ave, Wyoming, DE 19971</p>
+      <h4><time datetime="2026-01-02">January 2, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-302.12</span>Food Storage Containers Identified with Common Name of Food</li><li><span class="c">3-304.12</span>In-Use Utensils, Between-Use Storage</li><li><span class="c">5-205.15</span>System Maintained in Good Repair</li><li><span class="c">6-201.11</span>Floors, Walls and Ceilings-Cleanability</li><li><span class="c">6-301.12</span>Hand Drying Provision</li><li><span class="c">7-209.11</span>Storage-Other Personal Care Items</li></ul>
+      <h4><time datetime="2024-11-20">November 20, 2024</time> · Routine inspection</h4>
+      <ul><li><span class="c">6-301.11</span>Handwashing Cleanser, Availability</li></ul>
+    </article>
+    <article class="est" id="e-f6f96f95e3">
+      <h3>Surf and Turf</h3>
+      <p class="addr">947 Dupont Highway, Wyoming, DE 19963</p>
+      <h4><time datetime="2026-07-24">July 24, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-302.12</span>Food Storage Containers Identified with Common Name of Food</li><li><span class="c">3-305.11</span>Food Storage-Preventing Contamination from the Premises</li><li><span class="c">3-501.14</span>Cooling</li><li><span class="c">4-501.11</span>Good Repair and Proper Adjustment-Equipment</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li></ul>
+      <h4><time datetime="2026-01-29">January 29, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-302.11</span>Packaged and Unpackaged Food-Separation, Packaging, and Segregation</li><li><span class="c">3-302.12</span>Food Storage Containers Identified with Common Name of Food</li><li><span class="c">4-501.11</span>Good Repair and Proper Adjustment-Equipment</li><li><span class="c">4-501.114</span>Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness</li><li><span class="c">4-502.13</span>Single-Service and Single-Use Articles-Use Limitations</li><li><span class="c">5-205.11</span>Using a Handwashing Sink-Operation and Maintenance</li><li><span class="c">5-205.15</span>System Maintained in Good Repair</li><li><span class="c">5-501.17</span>Toilet Room Receptacle, Covered</li><li><span class="c">6-202.14</span>Toilet Rooms, Enclosed</li><li><span class="c">6-403.11</span>Designated Areas-Employee Accommodations for eating / drinking/smoking</li></ul>
+      <h4><time datetime="2025-08-08">August 8, 2025</time> · Follow-up inspection</h4>
+      <ul><li><span class="c">4-903.11</span>Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing</li><li><span class="c">5-205.15</span>System Maintained in Good Repair</li><li><span class="c">6-303.11</span>Intensity-Lighting</li></ul>
+      <h4><time datetime="2025-07-23">July 23, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-301.14</span>When to Wash</li><li><span class="c">2-402.11</span>Effectiveness-Hair Restraints</li><li><span class="c">3-203.12</span>Shellstock, Maintaining Identification</li><li><span class="c">3-304.15</span>Gloves, Use Limitation</li><li><span class="c">3-402.12</span>Records, Creation, &amp; Retention</li><li><span class="c">3-501.14</span>Cooling</li><li><span class="c">3-501.17</span>Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking</li><li><span class="c">3-501.18</span>Ready-To-Eat Time/Temperature Control for Safety Food, Disposition</li><li><span class="c">4-302.14</span>Sanitizing Solutions, Testing Devices</li><li><span class="c">4-501.19</span>Manual Warewashing Equipment, Wash Solution Temperature</li><li><span class="c">4-903.11</span>Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing</li><li><span class="c">5-205.11</span>Using a Handwashing Sink-Operation and Maintenance</li><li><span class="c">5-205.15</span>System Maintained in Good Repair</li></ul>
+      <h4><time datetime="2025-01-31">January 31, 2025</time> · Follow-up inspection</h4>
+      <ul><li><span class="c">2-102.12</span>Certified Food Protection Manager</li><li><span class="c">3-305.11</span>Food Storage-Preventing Contamination from the Premises</li><li><span class="c">4-101.19</span>Nonfood-Contact Surfaces</li><li><span class="c">6-202.11</span>Light Bulbs, Protective Shielding</li><li><span class="c">6-303.11</span>Intensity-Lighting</li><li><span class="c">6-501.16</span>Drying Mops</li></ul>
+      <h4><time datetime="2025-01-21">January 21, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-402.11</span>Effectiveness-Hair Restraints</li><li><span class="c">3-301.11</span>Preventing Contamination from Hands</li><li><span class="c">3-302.11</span>Packaged and Unpackaged Food-Separation, Packaging, and Segregation</li><li><span class="c">3-305.11</span>Food Storage-Preventing Contamination from the Premises</li><li><span class="c">4-101.19</span>Nonfood-Contact Surfaces</li><li><span class="c">4-501.114</span>Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness</li><li><span class="c">4-602.11</span>Equipment Food-Contact Surfaces and Utensils-Frequency</li><li><span class="c">4-602.12</span>Cooking and Baking Equipment</li><li><span class="c">5-205.11</span>Using a Handwashing Sink-Operation and Maintenance</li><li><span class="c">6-202.11</span>Light Bulbs, Protective Shielding</li><li><span class="c">6-301.12</span>Hand Drying Provision</li><li><span class="c">6-301.14</span>Handwashing Signage</li><li><span class="c">6-303.11</span>Intensity-Lighting</li></ul>
+    </article>
+  </section>
+  <section class="section" aria-labelledby="l-t">
+    <div class="section-head"><h2 class="section-title" id="l-t">T</h2></div>
+    <article class="est" id="e-dc2bbe021f">
+      <h3>Tacos El Compa (MOB)</h3>
+      <p class="addr">1 Jay Drive, Wyoming, DE 19720</p>
+      <h4><time datetime="2026-03-09">March 9, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-102.12</span>Certified Food Protection Manager</li></ul>
+    </article>
+    <article class="est" id="e-4849d5de03">
+      <h3>The Country Store</h3>
+      <p class="addr">11 South Main Street, Wyoming, DE 19955</p>
+      <h4><time datetime="2026-08-18">August 18, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-102.12</span>Certified Food Protection Manager</li><li><span class="c">3-302.11</span>Packaged and Unpackaged Food-Separation, Packaging, and Segregation</li><li><span class="c">3-302.11</span>Packaged and Unpackaged Food-Separation, Packaging, and Segregation</li><li><span class="c">3-305.11</span>Food Storage-Preventing Contamination from the Premises</li><li><span class="c">4-501.11</span>Good Repair and Proper Adjustment-Equipment</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">6-303.11</span>Intensity-Lighting</li></ul>
+      <h4><time datetime="2026-08-13">August 13, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-102.12</span>Certified Food Protection Manager</li><li><span class="c">2-201.11</span>Responsibility of Permit Holder, Person in Charge, and Conditional Employees</li><li><span class="c">3-302.11</span>Packaged and Unpackaged Food-Separation, Packaging, and Segregation</li><li><span class="c">3-302.11</span>Packaged and Unpackaged Food-Separation, Packaging, and Segregation</li><li><span class="c">3-305.11</span>Food Storage-Preventing Contamination from the Premises</li><li><span class="c">3-501.16</span>Time/Temperature Control for Safety Food, Hot and Cold Holding</li><li><span class="c">4-302.14</span>Sanitizing Solutions, Testing Devices</li><li><span class="c">4-501.11</span>Good Repair and Proper Adjustment-Equipment</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">5-205.11</span>Using a Handwashing Sink-Operation and Maintenance</li><li><span class="c">6-301.12</span>Hand Drying Provision</li><li><span class="c">6-303.11</span>Intensity-Lighting</li></ul>
+      <h4><time datetime="2026-01-20">January 20, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-102.12</span>Certified Food Protection Manager</li><li><span class="c">2-201.11</span>Responsibility of Permit Holder, Person in Charge, and Conditional Employees</li><li><span class="c">2-401.11</span>Eating, Drinking, or Using Tobacco</li><li><span class="c">3-302.11</span>Packaged and Unpackaged Food-Separation, Packaging, and Segregation</li><li><span class="c">3-305.11</span>Food Storage-Preventing Contamination from the Premises</li><li><span class="c">5-205.11</span>Using a Handwashing Sink-Operation and Maintenance</li><li><span class="c">8-301.11</span>Prerequisite for Operation</li></ul>
+      <h4><time datetime="2025-07-08">July 8, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-102.12</span>Certified Food Protection Manager</li><li><span class="c">2-402.11</span>Effectiveness-Hair Restraints</li><li><span class="c">3-302.11</span>Packaged and Unpackaged Food-Separation, Packaging, and Segregation</li><li><span class="c">3-403.11</span>Reheating for Hot Holding</li><li><span class="c">3-501.14</span>Cooling</li><li><span class="c">4-204.112</span>Temperature Measuring Devices-Functionality</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">5-501.114</span>Using Drain Plugs</li><li><span class="c">6-303.11</span>Intensity-Lighting</li><li><span class="c">6-501.12</span>Cleaning, Frequency and Restrictions</li></ul>
+      <h4><time datetime="2025-04-23">April 23, 2025</time> · Complaint inspection</h4>
+      <p class="nv">No violation listed for this inspection in the state's file.</p>
+      <h4><time datetime="2025-01-03">January 3, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-102.12</span>Certified Food Protection Manager</li><li><span class="c">3-403.11</span>Reheating for Hot Holding</li><li><span class="c">3-602.11</span>Food Labels</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">4-602.13</span>Nonfood Contact Surfaces</li><li><span class="c">5-205.11</span>Using a Handwashing Sink-Operation and Maintenance</li><li><span class="c">6-202.11</span>Light Bulbs, Protective Shielding</li><li><span class="c">6-501.12</span>Cleaning, Frequency and Restrictions</li></ul>
+      <h4><time datetime="2024-11-25">November 25, 2024</time> · Complaint inspection</h4>
+      <p class="nv">No violation listed for this inspection in the state's file.</p>
+    </article>
+    <article class="est" id="e-33aa9878da">
+      <h3>The Dog House - We10 LLC</h3>
+      <p class="addr">1200 North Dupont Highway, Wyoming, DE 19720</p>
+      <h4><time datetime="2025-03-05">March 5, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li></ul>
+    </article>
+    <article class="est" id="e-1fb9e5ec3c">
+      <h3>The Seafood Cafe</h3>
+      <p class="addr">2501 Red Lion Road, Wyoming, DE 19708</p>
+      <h4><time datetime="2024-11-14">November 14, 2024</time> · Routine inspection</h4>
+      <ul><li><span class="c">6-501.114</span>Maintaining Premises, Unnecessary Items and Litter</li></ul>
+    </article>
+    <article class="est" id="e-cb8dc2b344">
+      <h3>Theos Steaks Sides &amp; Spirits</h3>
+      <p class="addr">44 Baltimore Ave, Wyoming, DE 19971</p>
+      <h4><time datetime="2026-05-26">May 26, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">4-501.114</span>Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness</li><li><span class="c">4-602.13</span>Nonfood Contact Surfaces</li><li><span class="c">7-102.11</span>Common Name-Working Containers</li></ul>
+      <h4><time datetime="2025-11-21">November 21, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">4-501.114</span>Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness</li><li><span class="c">7-102.11</span>Common Name-Working Containers</li></ul>
+      <h4><time datetime="2025-05-14">May 14, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-302.12</span>Food Storage Containers Identified with Common Name of Food</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li></ul>
+      <h4><time datetime="2024-10-22">October 22, 2024</time> · Routine inspection</h4>
+      <ul><li><span class="c">6-202.15</span>Outer Openings, Protected</li><li><span class="c">7-102.11</span>Common Name-Working Containers</li></ul>
+    </article>
+    <article class="est" id="e-dd42c94a82">
+      <h3>Travelin Toms of Dover (MOB)</h3>
+      <p class="addr">105 Whitby Lane, Wyoming, DE 21617</p>
+      <h4><time datetime="2025-10-14">October 14, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-102.12</span>Certified Food Protection Manager</li></ul>
+    </article>
+    <article class="est" id="e-4c0bb4f7b0">
+      <h3>Tre Sorelle Dolce Ice Cream &amp; Italian Ice</h3>
+      <p class="addr">27 South Railroad Avenue, Wyoming, DE 19934</p>
+      <h4><time datetime="2026-08-10">August 10, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">6-301.14</span>Handwashing Signage</li><li><span class="c">6-501.11</span>Repairing-Premises, Structures, Attachments, and Fixtures-Methods</li><li><span class="c">8-304.11</span>Responsibilities of the Permit Holder</li></ul>
+      <h4><time datetime="2026-07-31">July 31, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-103.11</span>Person-In-Charge-Duties</li><li><span class="c">4-302.14</span>Sanitizing Solutions, Testing Devices</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">6-301.14</span>Handwashing Signage</li><li><span class="c">6-501.11</span>Repairing-Premises, Structures, Attachments, and Fixtures-Methods</li><li><span class="c">8-304.11</span>Responsibilities of the Permit Holder</li></ul>
+      <h4><time datetime="2025-07-31">July 31, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-201.11</span>Responsibility of Permit Holder, Person in Charge, and Conditional Employees</li><li><span class="c">3-304.12</span>In-Use Utensils, Between-Use Storage</li><li><span class="c">5-202.12</span>Handwashing Sinks, Installation</li><li><span class="c">6-301.14</span>Handwashing Signage</li></ul>
+    </article>
+  </section>
+  <section class="section" aria-labelledby="l-w">
+    <div class="section-head"><h2 class="section-title" id="l-w">W</h2></div>
+    <article class="est" id="e-53edcc2dba">
+      <h3>W B Simpson Elementary - Caesar Rodney School D</h3>
+      <p class="addr">50 Old North Road, Wyoming, DE 19934</p>
+      <h4><time datetime="2026-09-22">September 22, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-201.11</span>Responsibility of Permit Holder, Person in Charge, and Conditional Employees</li><li><span class="c">4-501.11</span>Good Repair and Proper Adjustment-Equipment</li></ul>
+      <h4><time datetime="2026-03-19">March 19, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">8-304.11</span>Responsibilities of the Permit Holder</li></ul>
+    </article>
+    <article class="est" id="e-4885b83142">
+      <h3>Wild Quail Golf &amp; Country Club</h3>
+      <p class="addr">One Clubhouse Drive, Wyoming, DE 19934</p>
+      <h4><time datetime="2026-05-26">May 26, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-102.12</span>Certified Food Protection Manager</li><li><span class="c">3-501.19</span>Time as a Public Health Control</li><li><span class="c">4-501.114</span>Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness</li><li><span class="c">5-501.13</span>Receptacles</li><li><span class="c">6-301.14</span>Handwashing Signage</li><li><span class="c">7-207.11</span>Restriction and Storage-Medicines</li></ul>
+      <h4><time datetime="2025-04-22">April 22, 2025</time> · Follow-up inspection</h4>
+      <p class="nv">No violation listed for this inspection in the state's file.</p>
+      <h4><time datetime="2025-04-08">April 8, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-201.11</span>Responsibility of Permit Holder, Person in Charge, and Conditional Employees</li><li><span class="c">3-302.11</span>Packaged and Unpackaged Food-Separation, Packaging, and Segregation</li><li><span class="c">3-305.11</span>Food Storage-Preventing Contamination from the Premises</li><li><span class="c">3-501.18</span>Ready-To-Eat Time/Temperature Control for Safety Food, Disposition</li><li><span class="c">4-501.19</span>Manual Warewashing Equipment, Wash Solution Temperature</li><li><span class="c">4-601.11</span>Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils</li><li><span class="c">5-202.12</span>Handwashing Sinks, Installation</li><li><span class="c">5-204.11</span>Handwashing Sinks-Location and Placement</li><li><span class="c">6-301.11</span>Handwashing Cleanser, Availability</li><li><span class="c">6-301.12</span>Hand Drying Provision</li><li><span class="c">6-501.16</span>Drying Mops</li></ul>
+    </article>
+    <article class="est" id="e-91b486e275">
+      <h3>WINTERTHUR PAVILLION CAF� - Compass Group USA Inc</h3>
+      <p class="addr">Rt 52, Wyoming, DE 19735</p>
+      <h4><time datetime="2026-03-10">March 10, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">4-204.112</span>Temperature Measuring Devices-Functionality</li></ul>
+      <h4><time datetime="2025-03-21">March 21, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">3-602.11</span>Food Labels</li><li><span class="c">4-101.19</span>Nonfood-Contact Surfaces</li></ul>
+    </article>
+    <article class="est" id="e-df7aa2bf96">
+      <h3>Woodys Goodies</h3>
+      <p class="addr">240 Round Top Rd, Wyoming, DE 21628</p>
+      <h4><time datetime="2025-03-27">March 27, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-102.12</span>Certified Food Protection Manager</li></ul>
+    </article>
+    <article class="est" id="e-ada6f2d9d3">
+      <h3>WYOMING TAVERN - Wyoming Tavern Inc (FE)</h3>
+      <p class="addr">North Railroad Avenue, Wyoming, DE 19934</p>
+      <h4><time datetime="2026-03-17">March 17, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">4-101.19</span>Nonfood-Contact Surfaces</li></ul>
+      <h4><time datetime="2026-03-09">March 9, 2026</time> · Routine inspection</h4>
+      <ul><li><span class="c">4-101.19</span>Nonfood-Contact Surfaces</li><li><span class="c">4-302.14</span>Sanitizing Solutions, Testing Devices</li><li><span class="c">4-904.11</span>Kitchenware and Tableware-Preventing Contamination</li><li><span class="c">7-102.11</span>Common Name-Working Containers</li></ul>
+      <h4><time datetime="2025-08-27">August 27, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">5-501.17</span>Toilet Room Receptacle, Covered</li><li><span class="c">6-301.11</span>Handwashing Cleanser, Availability</li></ul>
+      <h4><time datetime="2025-02-26">February 26, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">6-301.14</span>Handwashing Signage</li><li><span class="c">6-403.11</span>Designated Areas-Employee Accommodations for eating / drinking/smoking</li></ul>
+    </article>
+  </section>
+  <section class="section" aria-labelledby="l-z">
+    <div class="section-head"><h2 class="section-title" id="l-z">Z</h2></div>
+    <article class="est" id="e-8aad3a7abb">
+      <h3>Zoagies (MOB)</h3>
+      <p class="addr">79 Thompson St, Wyoming, DE 08079</p>
+      <h4><time datetime="2025-06-11">June 11, 2025</time> · Routine inspection</h4>
+      <ul><li><span class="c">2-103.11</span>Person-In-Charge-Duties</li><li><span class="c">2-501.11</span>Clean-up of Vomiting and Diarrheal Events</li><li><span class="c">4-302.14</span>Sanitizing Solutions, Testing Devices</li><li><span class="c">8-304.11</span>Responsibilities of the Permit Holder</li></ul>
+    </article>
+  </section>
+  <section class="section" aria-labelledby="src-title">
+    <div class="section-head"><h2 class="section-title" id="src-title">Questions about a report</h2></div>
+    <p class="fact">Questions about an inspection report go to the Office of Food Protection at 302-744-4546, the number the state lists with the data.</p>
+  </section>
+  <nav class="pager" aria-label="More inspections"><a href="/inspections/">Search every Delaware establishment</a></nav>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-build">RESTAURANT INSPECTIONS · SOURCE: DELAWARE DIVISION OF PUBLIC HEALTH, OFFICE OF FOOD PROTECTION · STATE DATA AS OF OCTOBER 9, 2026</div>
+    <div class="footer-links">
+      <a href="/inspections/">Delaware restaurant inspections</a>
+      <a href="https://data.delaware.gov/Health/Food-Establishment-Inspection-Violations/384s-wygj">State inspection data (primary source)</a>
+      <a href="/">First State Lens home</a>
+    </div>
+    <div>First State Lens is a FirmSide AI Civic Analytics Lab project. Nonpartisan. Every figure is sourced to a public record. We show you the data; you decide.</div>
+  </footer>
+
+</div>
+</body>
+</html>

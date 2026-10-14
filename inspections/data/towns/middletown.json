@@ -1,0 +1,7185 @@
+{
+ "establishments": [
+  {
+   "address": "423 North Broad Street",
+   "city": "Middletown",
+   "id": "b8fce16b97",
+   "inspections": [
+    {
+     "date": "2025-10-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.15",
+       "description": "Food Preparation Sink"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-205.10",
+       "description": "Food Equipment, Certification and Classification"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    },
+    {
+     "date": "2024-12-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.15",
+       "description": "Food Preparation Sink"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-501.14",
+       "description": "Cleaning Ventilation Systems, Nuisance and Discharge Prohibition"
+      }
+     ]
+    }
+   ],
+   "name": "1861",
+   "zip": "19709"
+  },
+  {
+   "address": "701 N Broad Street",
+   "city": "Middletown",
+   "id": "30ce40b270",
+   "inspections": [
+    {
+     "date": "2026-08-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      }
+     ]
+    },
+    {
+     "date": "2026-01-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-101.11",
+       "description": "Assignment of Responsibility"
+      },
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "name": "A & R Bakery",
+   "zip": "19709"
+  },
+  {
+   "address": "460 E Main St",
+   "city": "Middletown",
+   "id": "e1dd883517",
+   "inspections": [
+    {
+     "date": "2026-04-27",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.13",
+       "description": "Thawing"
+      }
+     ]
+    },
+    {
+     "date": "2024-11-26",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      }
+     ]
+    },
+    {
+     "date": "2024-11-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    }
+   ],
+   "name": "Acme Market Store - Albertsons Companies Inc -",
+   "zip": "19709"
+  },
+  {
+   "address": "1235 Cedar Lane Road",
+   "city": "Middletown",
+   "id": "ceab586d2c",
+   "inspections": [
+    {
+     "date": "2026-03-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    },
+    {
+     "date": "2025-10-07",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-09-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    },
+    {
+     "date": "2025-05-28",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-01",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    }
+   ],
+   "name": "Alfred Waters Middle School",
+   "zip": "19709"
+  },
+  {
+   "address": "320 Dove Run Centre Blvd",
+   "city": "Middletown",
+   "id": "733f0906b3",
+   "inspections": [
+    {
+     "date": "2025-06-18",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-06-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.110",
+       "description": "Mechanical Warewashing Equipment, Wash Solution Temperature"
+      }
+     ]
+    },
+    {
+     "date": "2024-11-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.11",
+       "description": "Frozen Food"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    }
+   ],
+   "name": "APPLEBEES NEIGHBORHOOD BAR & GRILL - APPLE DELAWA",
+   "zip": "19709"
+  },
+  {
+   "address": "1080 Bunker Hill Rd",
+   "city": "Middletown",
+   "id": "8b8cc04703",
+   "inspections": [
+    {
+     "date": "2025-10-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      }
+     ]
+    }
+   ],
+   "name": "Appoquinimink High School Culinary Arts Kitchen",
+   "zip": "19709"
+  },
+  {
+   "address": "1080 Bunker Hill Rd",
+   "city": "Middletown",
+   "id": "2e60d7499d",
+   "inspections": [
+    {
+     "date": "2026-09-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.110",
+       "description": "Mechanical Warewashing Equipment, Wash Solution Temperature"
+      }
+     ]
+    }
+   ],
+   "name": "Appoquinimink High School Main Kitchen",
+   "zip": "19709"
+  },
+  {
+   "address": "248 Dove Run",
+   "city": "Middletown",
+   "id": "547ff54ffb",
+   "inspections": [
+    {
+     "date": "2026-09-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2026-02-06",
+     "type": "Complaint",
+     "violations": []
+    },
+    {
+     "date": "2025-09-30",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "4-205.10",
+       "description": "Food Equipment, Certification and Classification"
+      }
+     ]
+    },
+    {
+     "date": "2025-08-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.11",
+       "description": "Food Contact with Equipment, Utensils, and Linens"
+      },
+      {
+       "code": "4-205.10",
+       "description": "Food Equipment, Certification and Classification"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-08",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2024-12-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-602.11",
+       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
+      }
+     ]
+    }
+   ],
+   "name": "Asian City",
+   "zip": "19709"
+  },
+  {
+   "address": "4456 Summit Bridge Road",
+   "city": "Middletown",
+   "id": "f161786a35",
+   "inspections": [
+    {
+     "date": "2026-02-04",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2026-01-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-602.11",
+       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
+      }
+     ]
+    }
+   ],
+   "name": "Atexquita Middletown",
+   "zip": "19709"
+  },
+  {
+   "address": "1919 Saint Augustine Road",
+   "city": "Middletown",
+   "id": "d777b31ea7",
+   "inspections": [
+    {
+     "date": "2025-04-17",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2025-03-27",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "3-501.18",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Disposition"
+      },
+      {
+       "code": "5-202.13",
+       "description": "Backflow Prevention, Air Gap"
+      }
+     ]
+    }
+   ],
+   "name": "Augustine Tavern",
+   "zip": "19709"
+  },
+  {
+   "address": "101 Back Creek Dr",
+   "city": "Middletown",
+   "id": "81cd7d153e",
+   "inspections": [
+    {
+     "date": "2026-06-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.18",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Disposition"
+      },
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    },
+    {
+     "date": "2025-05-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "3-501.18",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Disposition"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    }
+   ],
+   "name": "Back Creek Golf Club",
+   "zip": "19709"
+  },
+  {
+   "address": "320 Auto Park Drive",
+   "city": "Middletown",
+   "id": "153b34ad2f",
+   "inspections": [
+    {
+     "date": "2025-12-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      }
+     ]
+    }
+   ],
+   "name": "Birdies Links And Drinks",
+   "zip": "19709"
+  },
+  {
+   "address": "826 Kohl Ave Bldg C",
+   "city": "Middletown",
+   "id": "d3f279770b",
+   "inspections": [
+    {
+     "date": "2025-05-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.11",
+       "description": "Food Contact with Equipment, Utensils, and Linens"
+      },
+      {
+       "code": "3-501.19",
+       "description": "Time as a Public Health Control"
+      }
+     ]
+    },
+    {
+     "date": "2024-11-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "4-602.11",
+       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "Blue Mezcal Restaurant - Blue Mezcal Group - #103",
+   "zip": "19709"
+  },
+  {
+   "address": "200 Casa Drive",
+   "city": "Middletown",
+   "id": "15e6d60ac7",
+   "inspections": [
+    {
+     "date": "2026-08-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    },
+    {
+     "date": "2026-02-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-501.110",
+       "description": "Mechanical Warewashing Equipment, Wash Solution Temperature"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
+     "date": "2026-01-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-501.110",
+       "description": "Mechanical Warewashing Equipment, Wash Solution Temperature"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
+     "date": "2025-11-19",
+     "type": "Complaint",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      }
+     ]
+    }
+   ],
+   "name": "Bob Evans Restaurant #541 - Bob Evans Restaurants",
+   "zip": "19709"
+  },
+  {
+   "address": "378 Brick Mill Road",
+   "city": "Middletown",
+   "id": "b5adbed8d3",
+   "inspections": [
+    {
+     "date": "2026-03-13",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2026-03-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-103.11",
+       "description": "Capacity-Quantity and Availability"
+      },
+      {
+       "code": "5-202.12",
+       "description": "Handwashing Sinks, Installation"
+      }
+     ]
+    }
+   ],
+   "name": "Brick Mill Early Childhood Center",
+   "zip": "19709"
+  },
+  {
+   "address": "1915 Lake Seymour Drive",
+   "city": "Middletown",
+   "id": "26a97b4671",
+   "inspections": [
+    {
+     "date": "2026-07-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-602.12",
+       "description": "Cooking and Baking Equipment"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2025-09-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-21",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "name": "Bubbakoos Burritos",
+   "zip": "19709"
+  },
+  {
+   "address": "540 W Main St",
+   "city": "Middletown",
+   "id": "f6d48fe417",
+   "inspections": [
+    {
+     "date": "2025-10-01",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      }
+     ]
+    }
+   ],
+   "name": "Buffalo Wild Wings - High 5 Hospitality LLC - #32",
+   "zip": "19709"
+  },
+  {
+   "address": "600 Ash Blvd",
+   "city": "Middletown",
+   "id": "845c72f91b",
+   "inspections": [
+    {
+     "date": "2025-05-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    },
+    {
+     "date": "2024-11-01",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-15",
+     "type": "Complaint",
+     "violations": []
+    }
+   ],
+   "name": "Burger King (Closed)",
+   "zip": "19709"
+  },
+  {
+   "address": "600 Ash Blvd",
+   "city": "Middletown",
+   "id": "ef6254dcb4",
+   "inspections": [
+    {
+     "date": "2026-05-19",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    },
+    {
+     "date": "2025-09-25",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-602.11",
+       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
+      }
+     ]
+    }
+   ],
+   "name": "Burger King - Cape King LLC - #103",
+   "zip": "19709"
+  },
+  {
+   "address": "743 N Broad St",
+   "city": "Middletown",
+   "id": "5e6c87bd41",
+   "inspections": [
+    {
+     "date": "2025-09-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    }
+   ],
+   "name": "Capriottis DE010",
+   "zip": "19709"
+  },
+  {
+   "address": "264 Dove Run Centre",
+   "city": "Middletown",
+   "id": "091e6aca2d",
+   "inspections": [
+    {
+     "date": "2025-09-30",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-08-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-21",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-03",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-03-03",
+     "type": "Complaint",
+     "violations": []
+    },
+    {
+     "date": "2025-01-07",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2024-12-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    }
+   ],
+   "name": "Carusos Bistro",
+   "zip": "19709"
+  },
+  {
+   "address": "1100 Saint Annes Boulevard",
+   "city": "Middletown",
+   "id": "0de73504a7",
+   "inspections": [
+    {
+     "date": "2026-08-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    }
+   ],
+   "name": "Casa 19",
+   "zip": "19709"
+  },
+  {
+   "address": "2518 N Dupont Pkwy",
+   "city": "Middletown",
+   "id": "96210460ab",
+   "inspections": [
+    {
+     "date": "2025-03-18",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "4-205.10",
+       "description": "Food Equipment, Certification and Classification"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-205.10",
+       "description": "Food Equipment, Certification and Classification"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "Catracho Food Truck (MOB)",
+   "zip": "19709"
+  },
+  {
+   "address": "1221 Cedar Lane Road",
+   "city": "Middletown",
+   "id": "65d78a4e9c",
+   "inspections": [
+    {
+     "date": "2026-09-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-01",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-501.17",
+       "description": "Toilet Room Receptacle, Covered"
+      }
+     ]
+    }
+   ],
+   "name": "Cedar Lane Early Childcare Center",
+   "zip": "19709"
+  },
+  {
+   "address": "1259 Cedar Lane Rd",
+   "city": "Middletown",
+   "id": "02574a6c66",
+   "inspections": [
+    {
+     "date": "2026-03-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.18",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Disposition"
+      }
+     ]
+    }
+   ],
+   "name": "Cedar Lane Ele School",
+   "zip": "19709"
+  },
+  {
+   "address": "701 S Ridge Ave",
+   "city": "Middletown",
+   "id": "a6e830a49d",
+   "inspections": [
+    {
+     "date": "2025-05-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-602.12",
+       "description": "Cooking and Baking Equipment"
+      }
+     ]
+    }
+   ],
+   "name": "Chick-fil-A Middletown",
+   "zip": "19709"
+  },
+  {
+   "address": "484 E Main St",
+   "city": "Middletown",
+   "id": "13562f1017",
+   "inspections": [
+    {
+     "date": "2025-08-26",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
+     "date": "2024-12-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-205.10",
+       "description": "Food Equipment, Certification and Classification"
+      }
+     ]
+    }
+   ],
+   "name": "China King Chinese Restaurant",
+   "zip": "19709"
+  },
+  {
+   "address": "4437 Summit Bridge Rd",
+   "city": "Middletown",
+   "id": "f192d37799",
+   "inspections": [
+    {
+     "date": "2026-08-19",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      }
+     ]
+    },
+    {
+     "date": "2025-10-16",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-10-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-101.11",
+       "description": "Characteristics-Materials for Construction and Repair"
+      },
+      {
+       "code": "4-501.115",
+       "description": "Manual Warewashing Equipment, Chemical Sanitization Using Detergent-Sanitizers"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-101.11",
+       "description": "Safe, Unadulterated and Honestly Presented"
+      },
+      {
+       "code": "3-304.11",
+       "description": "Food Contact with Equipment, Utensils, and Linens"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    }
+   ],
+   "name": "China Wok",
+   "zip": "19709"
+  },
+  {
+   "address": "655 Middletown Warwick Rd",
+   "city": "Middletown",
+   "id": "c0676a90c2",
+   "inspections": [
+    {
+     "date": "2026-05-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-301.14",
+       "description": "Handwashing Signage"
+      }
+     ]
+    }
+   ],
+   "name": "Chipotle Mexican Grill #2483 - Middletown",
+   "zip": "19709"
+  },
+  {
+   "address": "520 Ernst Way",
+   "city": "Middletown",
+   "id": "3fc2636121",
+   "inspections": [
+    {
+     "date": "2026-08-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.112",
+       "description": "Mechanical Warewashing Equipment, Hot Water Sanitization Temperatures"
+      }
+     ]
+    },
+    {
+     "date": "2026-07-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.112",
+       "description": "Mechanical Warewashing Equipment, Hot Water Sanitization Temperatures"
+      }
+     ]
+    }
+   ],
+   "name": "Chipotle Mexican Grill #5387 - Bayberry Middletown",
+   "zip": "19709"
+  },
+  {
+   "address": "300 South Scott Street",
+   "city": "Middletown",
+   "id": "b0de94b700",
+   "inspections": [
+    {
+     "date": "2026-01-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    }
+   ],
+   "name": "City Fare/MOT Senior Center",
+   "zip": "19709"
+  },
+  {
+   "address": "422 E Main Street #424",
+   "city": "Middletown",
+   "id": "52c74bc0c5",
+   "inspections": [
+    {
+     "date": "2026-06-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    }
+   ],
+   "name": "Curry & Cocktails",
+   "zip": "19709"
+  },
+  {
+   "address": "814 Kohl Ave",
+   "city": "Middletown",
+   "id": "9f30e731ca",
+   "inspections": [
+    {
+     "date": "2025-08-25",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      }
+     ]
+    },
+    {
+     "date": "2024-12-18",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      }
+     ]
+    }
+   ],
+   "name": "Curry & Spice Bar",
+   "zip": "19709"
+  },
+  {
+   "address": "464 W Main Street",
+   "city": "Middletown",
+   "id": "a3dc014bb4",
+   "inspections": [
+    {
+     "date": "2026-07-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      }
+     ]
+    },
+    {
+     "date": "2025-10-07",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-10-01",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.11",
+       "description": "Food Contact with Equipment, Utensils, and Linens"
+      },
+      {
+       "code": "3-305.15",
+       "description": "Food Preparation Sink"
+      }
+     ]
+    }
+   ],
+   "name": "Cuzinos Family Kitchen",
+   "zip": "19709"
+  },
+  {
+   "address": "772 Middletown-warwick Rd @ Rt 301",
+   "city": "Middletown",
+   "id": "41f52bcb7e",
+   "inspections": [
+    {
+     "date": "2026-08-31",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-202.12",
+       "description": "Handwashing Sinks, Installation"
+      }
+     ]
+    },
+    {
+     "date": "2026-02-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      }
+     ]
+    }
+   ],
+   "name": "Dairy Queen - Middletown - Fisk Jordan Enterprises",
+   "zip": "19709"
+  },
+  {
+   "address": "143 E Lake St",
+   "city": "Middletown",
+   "id": "9828851e71",
+   "inspections": [
+    {
+     "date": "2026-04-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      }
+     ]
+    }
+   ],
+   "name": "Dale Church",
+   "zip": "19709"
+  },
+  {
+   "address": "405 Middletown Warwick Road",
+   "city": "Middletown",
+   "id": "7b4544e445",
+   "inspections": [
+    {
+     "date": "2025-08-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "4-602.11",
+       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
+      }
+     ]
+    },
+    {
+     "date": "2024-12-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-304.15",
+       "description": "Gloves, Use Limitation"
+      },
+      {
+       "code": "3-501.18",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Disposition"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      }
+     ]
+    }
+   ],
+   "name": "Dash-In #1407",
+   "zip": "19709"
+  },
+  {
+   "address": "2 East Main Street",
+   "city": "Middletown",
+   "id": "95f69aea3e",
+   "inspections": [
+    {
+     "date": "2025-12-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "Delaware Chicken and Gyro DCG",
+   "zip": "19709"
+  },
+  {
+   "address": "810 Kohl Ave",
+   "city": "Middletown",
+   "id": "d708a72667",
+   "inspections": [
+    {
+     "date": "2025-05-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      }
+     ]
+    }
+   ],
+   "name": "Dickeys BBQ Pit Restaurant",
+   "zip": "19709"
+  },
+  {
+   "address": "4416 Summit Bridge Road",
+   "city": "Middletown",
+   "id": "4f61cdb305",
+   "inspections": [
+    {
+     "date": "2026-08-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      }
+     ]
+    },
+    {
+     "date": "2026-02-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2026-01-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    }
+   ],
+   "name": "Dominos Pizza #4446",
+   "zip": "19709"
+  },
+  {
+   "address": "2472 N Dupont Pkwy",
+   "city": "Middletown",
+   "id": "8a5b56c19e",
+   "inspections": [
+    {
+     "date": "2026-08-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
+     "date": "2026-02-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      }
+     ]
+    },
+    {
+     "date": "2026-01-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    }
+   ],
+   "name": "Dominos Pizza #4494",
+   "zip": "19709"
+  },
+  {
+   "address": "2480 Dupont Parkway",
+   "city": "Middletown",
+   "id": "ffd2750add",
+   "inspections": [
+    {
+     "date": "2026-04-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      }
+     ]
+    },
+    {
+     "date": "2026-01-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    }
+   ],
+   "name": "DUNKIN - AARK NETWORK - #343879",
+   "zip": "19709"
+  },
+  {
+   "address": "362 E Main St",
+   "city": "Middletown",
+   "id": "aef8291364",
+   "inspections": [
+    {
+     "date": "2026-02-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    },
+    {
+     "date": "2025-12-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    }
+   ],
+   "name": "Dunkin Donuts - Henu Enterprises LLC - #340434",
+   "zip": "19709"
+  },
+  {
+   "address": "4495 Summit Bridge Rd",
+   "city": "Middletown",
+   "id": "d7d60254e4",
+   "inspections": [
+    {
+     "date": "2026-05-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-05",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-01-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "name": "Dunkin Donuts - Henu Enterprises LLC - #353102",
+   "zip": "19709"
+  },
+  {
+   "address": "755 Middletown Warwick Road",
+   "city": "Middletown",
+   "id": "db1e1a5f00",
+   "inspections": [
+    {
+     "date": "2026-05-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      }
+     ]
+    }
+   ],
+   "name": "Dunkin Donuts - Henu Enterprises LLC - #357211",
+   "zip": "19709"
+  },
+  {
+   "address": "13 North Broad St",
+   "city": "Middletown",
+   "id": "4739508836",
+   "inspections": [
+    {
+     "date": "2025-01-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "El Nevado Ii",
+   "zip": "19709"
+  },
+  {
+   "address": "250 East Hampden Road",
+   "city": "Middletown",
+   "id": "3e54396f0f",
+   "inspections": [
+    {
+     "date": "2026-08-18",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      },
+      {
+       "code": "4-602.12",
+       "description": "Cooking and Baking Equipment"
+      }
+     ]
+    },
+    {
+     "date": "2026-04-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    },
+    {
+     "date": "2025-08-14",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "6-202.14",
+       "description": "Toilet Rooms, Enclosed"
+      }
+     ]
+    },
+    {
+     "date": "2025-08-07",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "6-202.14",
+       "description": "Toilet Rooms, Enclosed"
+      }
+     ]
+    },
+    {
+     "date": "2025-08-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "3-304.14",
+       "description": "Wiping Cloths, Use Limitation"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "3-501.18",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Disposition"
+      },
+      {
+       "code": "4-203.13",
+       "description": "Pressure Measuring Devices, Mechanical Warewashing Equipment"
+      },
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-602.12",
+       "description": "Cooking and Baking Equipment"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    }
+   ],
+   "name": "Encompass Health Rehabilitation Hospital Of Middle",
+   "zip": "19709"
+  },
+  {
+   "address": "701 N Broad St",
+   "city": "Middletown",
+   "id": "56d799de3d",
+   "inspections": [
+    {
+     "date": "2026-07-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "Eshs Produce",
+   "zip": "19709"
+  },
+  {
+   "address": "316 South Ridge Avenue",
+   "city": "Middletown",
+   "id": "da705b0306",
+   "inspections": [
+    {
+     "date": "2026-03-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    },
+    {
+     "date": "2025-06-20",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      }
+     ]
+    },
+    {
+     "date": "2025-05-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "3-501.19",
+       "description": "Time as a Public Health Control"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    }
+   ],
+   "name": "Everest Indian Cuisine",
+   "zip": "19709"
+  },
+  {
+   "address": "504 South Broad Street",
+   "city": "Middletown",
+   "id": "1ad6c2e35e",
+   "inspections": [
+    {
+     "date": "2026-09-18",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.110",
+       "description": "Mechanical Warewashing Equipment, Wash Solution Temperature"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.18",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Disposition"
+      }
+     ]
+    }
+   ],
+   "name": "Everett Meredith Middle School",
+   "zip": "19709"
+  },
+  {
+   "address": "416 South Ridge Avenue",
+   "city": "Middletown",
+   "id": "c8793fe769",
+   "inspections": [
+    {
+     "date": "2026-08-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      }
+     ]
+    }
+   ],
+   "name": "Farmhouse Middletown LLC",
+   "zip": "19709"
+  },
+  {
+   "address": "709 N Broad St",
+   "city": "Middletown",
+   "id": "56c6930c07",
+   "inspections": [
+    {
+     "date": "2026-06-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.13",
+       "description": "Thawing"
+      },
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      }
+     ]
+    },
+    {
+     "date": "2025-10-01",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-18",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "name": "Fiesta Deli & Market",
+   "zip": "19709"
+  },
+  {
+   "address": "431 E Main St",
+   "city": "Middletown",
+   "id": "38a944c1eb",
+   "inspections": [
+    {
+     "date": "2025-04-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-602.11",
+       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "Fiesta Tapatia Mexican Restaurant - Middletown - F",
+   "zip": "19709"
+  },
+  {
+   "address": "109 Patriot Drive",
+   "city": "Middletown",
+   "id": "889e9c6d57",
+   "inspections": [
+    {
+     "date": "2026-08-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    },
+    {
+     "date": "2026-02-27",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2026-02-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-204.115",
+       "description": "Warewashing Machines, Temperature Measuring Devices"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-04",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2025-03-18",
+     "type": "Complaint",
+     "violations": []
+    },
+    {
+     "date": "2025-02-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.112",
+       "description": "Removing Dead or Trapped Birds, Insects, Rodents and other Pest"
+      }
+     ]
+    }
+   ],
+   "name": "First State Brewing Company",
+   "zip": "19709"
+  },
+  {
+   "address": "325 Middletown Warwick Road",
+   "city": "Middletown",
+   "id": "d366da3d64",
+   "inspections": [
+    {
+     "date": "2026-06-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.112",
+       "description": "Mechanical Warewashing Equipment, Hot Water Sanitization Temperatures"
+      }
+     ]
+    }
+   ],
+   "name": "First Watch Restaurant-Middletown",
+   "zip": "19709"
+  },
+  {
+   "address": "501 Middletown-warwick Rd",
+   "city": "Middletown",
+   "id": "2178074110",
+   "inspections": [
+    {
+     "date": "2025-12-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
+     "date": "2025-12-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "Food Lion - Food Lion LLC - #1369",
+   "zip": "19709"
+  },
+  {
+   "address": "2392 Dupont Parkway",
+   "city": "Middletown",
+   "id": "593cf47302",
+   "inspections": [
+    {
+     "date": "2025-03-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      }
+     ]
+    }
+   ],
+   "name": "Fratellis",
+   "zip": "19709"
+  },
+  {
+   "address": "645 South Ridge Avenue",
+   "city": "Middletown",
+   "id": "e0577fea75",
+   "inspections": [
+    {
+     "date": "2026-03-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "Freddys Frozen Custard",
+   "zip": "19709"
+  },
+  {
+   "address": "1 East Whittington Way",
+   "city": "Middletown",
+   "id": "b0d56cfd8f",
+   "inspections": [
+    {
+     "date": "2025-03-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "Frog Hollow Golf Club & Restaurant",
+   "zip": "19709"
+  },
+  {
+   "address": "200 Dove Run Dr",
+   "city": "Middletown",
+   "id": "296c26ef80",
+   "inspections": [
+    {
+     "date": "2026-05-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      }
+     ]
+    },
+    {
+     "date": "2025-08-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    },
+    {
+     "date": "2025-08-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
+     "date": "2024-12-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-501.116",
+       "description": "Cleaning Receptacles"
+      }
+     ]
+    }
+   ],
+   "name": "Giant Food - Giant of Maryland LLC - #388",
+   "zip": "19709"
+  },
+  {
+   "address": "5429 Peterson Road",
+   "city": "Middletown",
+   "id": "e1927583e3",
+   "inspections": [
+    {
+     "date": "2026-01-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      }
+     ]
+    }
+   ],
+   "name": "Good News Natural Foods",
+   "zip": "19709"
+  },
+  {
+   "address": "2476 North Dupont Pkwy",
+   "city": "Middletown",
+   "id": "272368accc",
+   "inspections": [
+    {
+     "date": "2026-08-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    },
+    {
+     "date": "2026-01-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      }
+     ]
+    }
+   ],
+   "name": "Great Wall",
+   "zip": "19709"
+  },
+  {
+   "address": "416 S Ridge Rd",
+   "city": "Middletown",
+   "id": "779189c7b5",
+   "inspections": [
+    {
+     "date": "2025-06-30",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-06-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2024-11-26",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "6-301.14",
+       "description": "Handwashing Signage"
+      }
+     ]
+    }
+   ],
+   "name": "Greene Turtle (the) (Closed)",
+   "zip": "19709"
+  },
+  {
+   "address": "315 Auto Park Dr",
+   "city": "Middletown",
+   "id": "1376fe7fcb",
+   "inspections": [
+    {
+     "date": "2026-06-26",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.112",
+       "description": "Mechanical Warewashing Equipment, Hot Water Sanitization Temperatures"
+      },
+      {
+       "code": "4-501.14",
+       "description": "Warewashing Equipment, Cleaning Frequency"
+      }
+     ]
+    },
+    {
+     "date": "2025-12-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.11",
+       "description": "Food Contact with Equipment, Utensils, and Linens"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
+     "date": "2025-12-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.11",
+       "description": "Food Contact with Equipment, Utensils, and Linens"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "Grotto Pizza # 209 - Middletown",
+   "zip": "19709"
+  },
+  {
+   "address": "7 W Main Street",
+   "city": "Middletown",
+   "id": "b99b0ed617",
+   "inspections": [
+    {
+     "date": "2025-09-04",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2025-07-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    }
+   ],
+   "name": "Haagen-Dazs",
+   "zip": "19709"
+  },
+  {
+   "address": "117 Sandhill Dr",
+   "city": "Middletown",
+   "id": "f08b22e92b",
+   "inspections": [
+    {
+     "date": "2026-08-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-202.12",
+       "description": "Handwashing Sinks, Installation"
+      }
+     ]
+    }
+   ],
+   "name": "Hampton Inn Middletown",
+   "zip": "19709"
+  },
+  {
+   "address": "340 Dove Run Center",
+   "city": "Middletown",
+   "id": "c7ff53f32f",
+   "inspections": [
+    {
+     "date": "2025-06-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.19",
+       "description": "Time as a Public Health Control"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    },
+    {
+     "date": "2024-12-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      }
+     ]
+    }
+   ],
+   "name": "Hardees of Middletown - OTAC Inc",
+   "zip": "19709"
+  },
+  {
+   "address": "4390 Summit Bridge Road Ste 1",
+   "city": "Middletown",
+   "id": "9926b8f6f8",
+   "inspections": [
+    {
+     "date": "2026-07-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.12",
+       "description": "Food Storage, Prohibited Areas"
+      },
+      {
+       "code": "4-602.12",
+       "description": "Cooking and Baking Equipment"
+      },
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
+    {
+     "date": "2025-10-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-602.11",
+       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-30",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "Harpers Sandwiches and Such",
+   "zip": "19701"
+  },
+  {
+   "address": "315 Auto Park Drive",
+   "city": "Middletown",
+   "id": "b028e6827c",
+   "inspections": [
+    {
+     "date": "2025-01-24",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    },
+    {
+     "date": "2024-12-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    }
+   ],
+   "name": "Holiday Inn Express & Suites",
+   "zip": "19709"
+  },
+  {
+   "address": "305 Middletown Warwick Road",
+   "city": "Middletown",
+   "id": "fac5ca1428",
+   "inspections": [
+    {
+     "date": "2026-05-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.110",
+       "description": "Mechanical Warewashing Equipment, Wash Solution Temperature"
+      },
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    }
+   ],
+   "name": "Honeygrow Middletown",
+   "zip": "19709"
+  },
+  {
+   "address": "5350 Summit Bridge Road #114",
+   "city": "Middletown",
+   "id": "1112b6d737",
+   "inspections": [
+    {
+     "date": "2025-12-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
+     "date": "2025-12-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    }
+   ],
+   "name": "Hong Kong",
+   "zip": "19709"
+  },
+  {
+   "address": "496 Middletown Warwick Road",
+   "city": "Middletown",
+   "id": "f545bb0aaa",
+   "inspections": [
+    {
+     "date": "2026-06-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.112",
+       "description": "Mechanical Warewashing Equipment, Hot Water Sanitization Temperatures"
+      }
+     ]
+    },
+    {
+     "date": "2026-05-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.112",
+       "description": "Mechanical Warewashing Equipment, Hot Water Sanitization Temperatures"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
+     "date": "2026-05-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.112",
+       "description": "Mechanical Warewashing Equipment, Hot Water Sanitization Temperatures"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
+     "date": "2026-05-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      },
+      {
+       "code": "4-501.110",
+       "description": "Mechanical Warewashing Equipment, Wash Solution Temperature"
+      },
+      {
+       "code": "6-301.14",
+       "description": "Handwashing Signage"
+      },
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
+    {
+     "date": "2025-08-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    },
+    {
+     "date": "2024-12-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "3-501.18",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Disposition"
+      }
+     ]
+    },
+    {
+     "date": "2024-12-17",
+     "type": "Complaint",
+     "violations": []
+    }
+   ],
+   "name": "IHOP Restaurant",
+   "zip": "19709"
+  },
+  {
+   "address": "17 Wood Street",
+   "city": "Middletown",
+   "id": "bd459b6aa0",
+   "inspections": [
+    {
+     "date": "2026-02-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.19",
+       "description": "Time as a Public Health Control"
+      },
+      {
+       "code": "4-602.11",
+       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-18",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-18",
+     "type": "Follow-up",
+     "violations": []
+    }
+   ],
+   "name": "Jackson House",
+   "zip": "19709"
+  },
+  {
+   "address": "568 West Main Street",
+   "city": "Middletown",
+   "id": "1e8dc80498",
+   "inspections": [
+    {
+     "date": "2026-03-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-602.11",
+       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
+      }
+     ]
+    },
+    {
+     "date": "2026-03-26",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-602.11",
+       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
+      }
+     ]
+    },
+    {
+     "date": "2025-08-01",
+     "type": "Complaint",
+     "violations": []
+    },
+    {
+     "date": "2025-04-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-305.14",
+       "description": "Food Preparation"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      },
+      {
+       "code": "5-501.17",
+       "description": "Toilet Room Receptacle, Covered"
+      },
+      {
+       "code": "6-403.11",
+       "description": "Designated Areas-Employee Accommodations for eating / drinking/smoking"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    }
+   ],
+   "name": "Jakess Wayback Burgers",
+   "zip": "19709"
+  },
+  {
+   "address": "600 North Broad Street Stes 16& 17",
+   "city": "Middletown",
+   "id": "c3505fb8f1",
+   "inspections": [
+    {
+     "date": "2025-01-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.110",
+       "description": "Mechanical Warewashing Equipment, Wash Solution Temperature"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "Jamaican Cafe Cuisine 2 LLC (Closed)",
+   "zip": "19709"
+  },
+  {
+   "address": "1004 Bunker Hill Road Unit D",
+   "city": "Middletown",
+   "id": "30a9078c99",
+   "inspections": [
+    {
+     "date": "2026-09-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "5-202.12",
+       "description": "Handwashing Sinks, Installation"
+      }
+     ]
+    },
+    {
+     "date": "2026-09-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "5-202.12",
+       "description": "Handwashing Sinks, Installation"
+      }
+     ]
+    },
+    {
+     "date": "2026-02-18",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-17",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2025-04-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      },
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    }
+   ],
+   "name": "Jersey Mikes Subs - High 5 Hospitality LLC - #35",
+   "zip": "19709"
+  },
+  {
+   "address": "417 South Ridge Ave",
+   "city": "Middletown",
+   "id": "a74719ef9d",
+   "inspections": [
+    {
+     "date": "2026-06-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      }
+     ]
+    },
+    {
+     "date": "2025-05-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.11",
+       "description": "Food Contact with Equipment, Utensils, and Linens"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-301.14",
+       "description": "Handwashing Signage"
+      }
+     ]
+    },
+    {
+     "date": "2024-11-26",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2024-11-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-501.110",
+       "description": "Mechanical Warewashing Equipment, Wash Solution Temperature"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "Kiku Japanese Steakhouse",
+   "zip": "19709"
+  },
+  {
+   "address": "713 Mapleton Avenue",
+   "city": "Middletown",
+   "id": "d42a25446c",
+   "inspections": [
+    {
+     "date": "2026-03-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "3-501.19",
+       "description": "Time as a Public Health Control"
+      },
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      }
+     ]
+    }
+   ],
+   "name": "La Pizzeria Metro at Whitehall - Mindelah Inc - #1",
+   "zip": "19709"
+  },
+  {
+   "address": "316 Auto Park Drive",
+   "city": "Middletown",
+   "id": "90ec80467c",
+   "inspections": [
+    {
+     "date": "2025-02-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "3-501.18",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Disposition"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "La Vida Hospitality Group",
+   "zip": "19709"
+  },
+  {
+   "address": "600 North Broad Street",
+   "city": "Middletown",
+   "id": "eaeb6fdc34",
+   "inspections": [
+    {
+     "date": "2026-09-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    },
+    {
+     "date": "2026-09-04",
+     "type": "Complaint",
+     "violations": []
+    },
+    {
+     "date": "2026-04-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-101.11",
+       "description": "Safe, Unadulterated and Honestly Presented"
+      },
+      {
+       "code": "4-501.110",
+       "description": "Mechanical Warewashing Equipment, Wash Solution Temperature"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2026-03-25",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-101.11",
+       "description": "Safe, Unadulterated and Honestly Presented"
+      },
+      {
+       "code": "4-501.110",
+       "description": "Mechanical Warewashing Equipment, Wash Solution Temperature"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2025-05-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
+     "date": "2024-11-01",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      }
+     ]
+    }
+   ],
+   "name": "Land of Spice Desi Farmers Market",
+   "zip": "19709"
+  },
+  {
+   "address": "359 Auto Park Drive",
+   "city": "Middletown",
+   "id": "c1517bde80",
+   "inspections": [
+    {
+     "date": "2026-07-31",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2026-07-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-202.12",
+       "description": "Handwashing Sinks, Installation"
+      }
+     ]
+    },
+    {
+     "date": "2026-07-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-202.12",
+       "description": "Handwashing Sinks, Installation"
+      }
+     ]
+    },
+    {
+     "date": "2026-06-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-202.12",
+       "description": "Handwashing Sinks, Installation"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-11",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "name": "Lidl",
+   "zip": "19709"
+  },
+  {
+   "address": "1100 St Annes Blvd",
+   "city": "Middletown",
+   "id": "af8e18a346",
+   "inspections": [
+    {
+     "date": "2025-08-25",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2025-07-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      }
+     ]
+    },
+    {
+     "date": "2025-07-29",
+     "type": "Complaint",
+     "violations": []
+    },
+    {
+     "date": "2025-07-11",
+     "type": "Complaint",
+     "violations": []
+    },
+    {
+     "date": "2025-01-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      }
+     ]
+    }
+   ],
+   "name": "Lore (Closed)",
+   "zip": "19709"
+  },
+  {
+   "address": "600 N Broad St Unit #18",
+   "city": "Middletown",
+   "id": "b65428d877",
+   "inspections": [
+    {
+     "date": "2026-07-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      }
+     ]
+    },
+    {
+     "date": "2025-10-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-301.14",
+       "description": "Handwashing Signage"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-14",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-01-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    }
+   ],
+   "name": "Los Machados Mexican Restaurant",
+   "zip": "19709"
+  },
+  {
+   "address": "250 Dove Run Shopping Center",
+   "city": "Middletown",
+   "id": "87b15c17b6",
+   "inspections": [
+    {
+     "date": "2026-09-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      }
+     ]
+    }
+   ],
+   "name": "Los Portales Mexican Restaurant",
+   "zip": "19709"
+  },
+  {
+   "address": "830 Kohl Ave",
+   "city": "Middletown",
+   "id": "eb82c40ce3",
+   "inspections": [
+    {
+     "date": "2026-06-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      }
+     ]
+    },
+    {
+     "date": "2025-05-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
+     "date": "2024-11-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-602.11",
+       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      }
+     ]
+    }
+   ],
+   "name": "Lunas Pizzeria & Italian Grill - Luna DT Inc",
+   "zip": "19709"
+  },
+  {
+   "address": "300 S Scott St",
+   "city": "Middletown",
+   "id": "5a96d12459",
+   "inspections": [
+    {
+     "date": "2026-01-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    }
+   ],
+   "name": "M O T Senior Center",
+   "zip": "19709"
+  },
+  {
+   "address": "1611 Lake Seymour Drive",
+   "city": "Middletown",
+   "id": "7ccd02a9d5",
+   "inspections": [
+    {
+     "date": "2025-03-07",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-02-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    }
+   ],
+   "name": "Mango Mango",
+   "zip": "19709"
+  },
+  {
+   "address": "400 W Main St",
+   "city": "Middletown",
+   "id": "7f1032ca5c",
+   "inspections": [
+    {
+     "date": "2026-04-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      }
+     ]
+    },
+    {
+     "date": "2025-08-25",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      }
+     ]
+    }
+   ],
+   "name": "Manhattan Bagel",
+   "zip": "19709"
+  },
+  {
+   "address": "411 Merrimac Ave",
+   "city": "Middletown",
+   "id": "111a1002df",
+   "inspections": [
+    {
+     "date": "2025-01-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-301.14",
+       "description": "When to Wash"
+      }
+     ]
+    }
+   ],
+   "name": "Marriott Fairfield Middletown",
+   "zip": "19709"
+  },
+  {
+   "address": "115 Littondale Ct",
+   "city": "Middletown",
+   "id": "8b8836f40b",
+   "inspections": [
+    {
+     "date": "2025-05-30",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-05-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.13",
+       "description": "Temperature Measuring Devices, Manual and Mechanical Warewashing"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    }
+   ],
+   "name": "Marthas Ice Cream (mob)",
+   "zip": "19709"
+  },
+  {
+   "address": "873 N Broad St",
+   "city": "Middletown",
+   "id": "ada92ecb2e",
+   "inspections": [
+    {
+     "date": "2025-09-23",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-09-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    }
+   ],
+   "name": "Marthas Ice Cream Shop LLC",
+   "zip": "19709"
+  },
+  {
+   "address": "580 Middletown-warwick Rd",
+   "city": "Middletown",
+   "id": "a817b44665",
+   "inspections": [
+    {
+     "date": "2026-08-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      },
+      {
+       "code": "4-501.110",
+       "description": "Mechanical Warewashing Equipment, Wash Solution Temperature"
+      }
+     ]
+    }
+   ],
+   "name": "McDonalds - Dukart Management LLC - #20274",
+   "zip": "19709"
+  },
+  {
+   "address": "745 Middletown Warwick Rd",
+   "city": "Middletown",
+   "id": "88ab848272",
+   "inspections": [
+    {
+     "date": "2026-06-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    },
+    {
+     "date": "2025-10-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-602.11",
+       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      }
+     ]
+    }
+   ],
+   "name": "Metro Diner - Middletown - MD PA-S Jersey LLC - #",
+   "zip": "19709"
+  },
+  {
+   "address": "875 N Broad St",
+   "city": "Middletown",
+   "id": "0ab97fea57",
+   "inspections": [
+    {
+     "date": "2025-09-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "Mid County Lanes LLC",
+   "zip": "19709"
+  },
+  {
+   "address": "701 N Broad Street",
+   "city": "Middletown",
+   "id": "4cf9568356",
+   "inspections": [
+    {
+     "date": "2025-03-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "2-501.11",
+       "description": "Clean-up of Vomiting and Diarrheal Events"
+      },
+      {
+       "code": "4-205.10",
+       "description": "Food Equipment, Certification and Classification"
+      }
+     ]
+    }
+   ],
+   "name": "Middletown Bulk Foods",
+   "zip": "19709"
+  },
+  {
+   "address": "405 East Main Street Unit 12",
+   "city": "Middletown",
+   "id": "4b4c98cbc7",
+   "inspections": [
+    {
+     "date": "2025-10-31",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-501.18",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Disposition"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    }
+   ],
+   "name": "Middletown Creamery - Middletown Creamery LLC",
+   "zip": "19709"
+  },
+  {
+   "address": "5240 Summit Bridge Rd Rte 896-301 S",
+   "city": "Middletown",
+   "id": "83064e27ca",
+   "inspections": [
+    {
+     "date": "2026-04-27",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "8-404.11",
+       "description": "Ceasing Operations and Reporting"
+      }
+     ]
+    },
+    {
+     "date": "2025-05-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.11",
+       "description": "Food Contact with Equipment, Utensils, and Linens"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-301.14",
+       "description": "Handwashing Signage"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-11",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.11",
+       "description": "Food Contact with Equipment, Utensils, and Linens"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-202.13",
+       "description": "Backflow Prevention, Air Gap"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    }
+   ],
+   "name": "Middletown Family Restaurant & Diner",
+   "zip": "19709"
+  },
+  {
+   "address": "Appoquinimink School District 120 S",
+   "city": "Middletown",
+   "id": "8a4fb67bfb",
+   "inspections": [
+    {
+     "date": "2026-03-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-602.11",
+       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
+      }
+     ]
+    }
+   ],
+   "name": "Middletown High School-Culinary Arts",
+   "zip": "19709"
+  },
+  {
+   "address": "120 Silver Lake Rd",
+   "city": "Middletown",
+   "id": "0ea40028ed",
+   "inspections": [
+    {
+     "date": "2025-04-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    }
+   ],
+   "name": "Middletown High School-Main Kitchen",
+   "zip": "19709"
+  },
+  {
+   "address": "528 Middletown Warwick Road",
+   "city": "Middletown",
+   "id": "fb60b90fa2",
+   "inspections": [
+    {
+     "date": "2026-09-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      }
+     ]
+    },
+    {
+     "date": "2026-02-18",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-17",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-602.11",
+       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
+      }
+     ]
+    }
+   ],
+   "name": "Middletown Pizza and Restaurant - Seasons Pizza",
+   "zip": "19709"
+  },
+  {
+   "address": "701 N Broad St",
+   "city": "Middletown",
+   "id": "d9945281f4",
+   "inspections": [
+    {
+     "date": "2026-04-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
+     "date": "2025-09-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-301.14",
+       "description": "When to Wash"
+      },
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      }
+     ]
+    }
+   ],
+   "name": "Millers Country Kitchen",
+   "zip": "19709"
+  },
+  {
+   "address": "701 N Broad Street",
+   "city": "Middletown",
+   "id": "e4bb7a658a",
+   "inspections": [
+    {
+     "date": "2026-07-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      }
+     ]
+    }
+   ],
+   "name": "Millers Country Kitchen II",
+   "zip": "19709"
+  },
+  {
+   "address": "631 Bayview Road",
+   "city": "Middletown",
+   "id": "73f46c474d",
+   "inspections": [
+    {
+     "date": "2025-01-15",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "4-205.10",
+       "description": "Food Equipment, Certification and Classification"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-205.10",
+       "description": "Food Equipment, Certification and Classification"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "name": "Mulligans",
+   "zip": "19709"
+  },
+  {
+   "address": "1147 Cardigan Road",
+   "city": "Middletown",
+   "id": "626505c38d",
+   "inspections": [
+    {
+     "date": "2026-04-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      }
+     ]
+    }
+   ],
+   "name": "Namaste Cafe (MOB)",
+   "zip": "19709"
+  },
+  {
+   "address": "1903 Lake Seymour Drive",
+   "city": "Middletown",
+   "id": "dea68a3bd7",
+   "inspections": [
+    {
+     "date": "2025-06-18",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      }
+     ]
+    },
+    {
+     "date": "2024-12-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      }
+     ]
+    }
+   ],
+   "name": "Namasthe India",
+   "zip": "19709"
+  },
+  {
+   "address": "822 Kohl Avenue",
+   "city": "Middletown",
+   "id": "f17dde056a",
+   "inspections": [
+    {
+     "date": "2026-07-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "5-204.11",
+       "description": "Handwashing Sinks-Location and Placement"
+      },
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
+    {
+     "date": "2026-06-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
+    {
+     "date": "2025-06-30",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      }
+     ]
+    },
+    {
+     "date": "2025-05-28",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2025-05-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2024-11-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    }
+   ],
+   "name": "Nazs Halal - Naz Halal Food LLC - #102",
+   "zip": "19709"
+  },
+  {
+   "address": "749 North Broad Street",
+   "city": "Middletown",
+   "id": "e856b7360f",
+   "inspections": [
+    {
+     "date": "2025-05-16",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-05-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-202.13",
+       "description": "Backflow Prevention, Air Gap"
+      }
+     ]
+    }
+   ],
+   "name": "New Castle Lodge",
+   "zip": "19709"
+  },
+  {
+   "address": "428 E Main Street",
+   "city": "Middletown",
+   "id": "65a2385526",
+   "inspections": [
+    {
+     "date": "2026-10-01",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      },
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
+     "date": "2026-09-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      },
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
+     "date": "2025-09-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      }
+     ]
+    },
+    {
+     "date": "2025-05-09",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    }
+   ],
+   "name": "Ochinilis Steaks",
+   "zip": "19709"
+  },
+  {
+   "address": "921 Middletown-warwick Rd",
+   "city": "Middletown",
+   "id": "85fd4d7ad1",
+   "inspections": [
+    {
+     "date": "2026-05-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      },
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      }
+     ]
+    },
+    {
+     "date": "2025-10-16",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-09-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.18",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Disposition"
+      },
+      {
+       "code": "4-302.13",
+       "description": "Temperature Measuring Devices, Manual and Mechanical Warewashing"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-24",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-01-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-501.110",
+       "description": "Mechanical Warewashing Equipment, Wash Solution Temperature"
+      }
+     ]
+    }
+   ],
+   "name": "Opportunity 301 LLC",
+   "zip": "19709"
+  },
+  {
+   "address": "503 Merrimac Avenue",
+   "city": "Middletown",
+   "id": "9d09d57be1",
+   "inspections": [
+    {
+     "date": "2026-04-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
+     "date": "2025-05-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-301.14",
+       "description": "When to Wash"
+      },
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    }
+   ],
+   "name": "Outback Steakhouse",
+   "zip": "19709"
+  },
+  {
+   "address": "663 Middletown Warrick Road",
+   "city": "Middletown",
+   "id": "13022ae02f",
+   "inspections": [
+    {
+     "date": "2025-07-17",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2025-06-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
+     "date": "2024-12-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      }
+     ]
+    }
+   ],
+   "name": "PANDA EXPRESS - PANDA EXPRESS INC - #2653",
+   "zip": "19709"
+  },
+  {
+   "address": "386 E Main St",
+   "city": "Middletown",
+   "id": "99f97d5817",
+   "inspections": [
+    {
+     "date": "2026-07-08",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2025-12-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-202.12",
+       "description": "Handwashing Sinks, Installation"
+      },
+      {
+       "code": "5-202.13",
+       "description": "Backflow Prevention, Air Gap"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "name": "Papa Johns",
+   "zip": "19709"
+  },
+  {
+   "address": "311 N Broad St",
+   "city": "Middletown",
+   "id": "2b32729b92",
+   "inspections": [
+    {
+     "date": "2024-12-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-301.11",
+       "description": "Preventing Contamination from Hands"
+      },
+      {
+       "code": "3-304.11",
+       "description": "Food Contact with Equipment, Utensils, and Linens"
+      }
+     ]
+    }
+   ],
+   "name": "Pats Pizzeria of Middletown - Pats Pizzeria LLC",
+   "zip": "19709"
+  },
+  {
+   "address": "9 West Main Street",
+   "city": "Middletown",
+   "id": "97f4bfc3b9",
+   "inspections": [
+    {
+     "date": "2025-09-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      }
+     ]
+    }
+   ],
+   "name": "Philly Pretzel Factory- West Main St",
+   "zip": "19709"
+  },
+  {
+   "address": "721 N Broad Street",
+   "city": "Middletown",
+   "id": "66541d4461",
+   "inspections": [
+    {
+     "date": "2025-10-02",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-09-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-30",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "name": "Pho Viet (Closed)",
+   "zip": "19709"
+  },
+  {
+   "address": "1 West Main Street",
+   "city": "Middletown",
+   "id": "ff07ef8039",
+   "inspections": [
+    {
+     "date": "2025-09-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.11",
+       "description": "Food Contact with Equipment, Utensils, and Linens"
+      },
+      {
+       "code": "3-501.19",
+       "description": "Time as a Public Health Control"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-602.11",
+       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-29",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-01-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-202.12",
+       "description": "Handwashing Sinks, Installation"
+      }
+     ]
+    }
+   ],
+   "name": "Pithari - Pats Pizzeria LLC",
+   "zip": "19709"
+  },
+  {
+   "address": "5350 Summit Bridge Suite 112",
+   "city": "Middletown",
+   "id": "1d39737853",
+   "inspections": [
+    {
+     "date": "2025-12-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.18",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Disposition"
+      },
+      {
+       "code": "3-501.19",
+       "description": "Time as a Public Health Control"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-03",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "Pizza Di Napoli",
+   "zip": "19709"
+  },
+  {
+   "address": "832 Kohl Ave",
+   "city": "Middletown",
+   "id": "e66eb56ce0",
+   "inspections": [
+    {
+     "date": "2026-05-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-14",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
+     "date": "2024-12-18",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "name": "Playa Bowls - Gee Bowls Inc",
+   "zip": "19709"
+  },
+  {
+   "address": "701 North Broad Street",
+   "city": "Middletown",
+   "id": "13f89a0432",
+   "inspections": [
+    {
+     "date": "2026-07-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      }
+     ]
+    },
+    {
+     "date": "2025-09-29",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-09-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
+     "date": "2024-11-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-402.12",
+       "description": "Grease Trap"
+      }
+     ]
+    },
+    {
+     "date": "2024-11-07",
+     "type": "Complaint",
+     "violations": []
+    }
+   ],
+   "name": "Pleasant Valley Dairy",
+   "zip": "19709"
+  },
+  {
+   "address": "476 Middletown Warwick Road",
+   "city": "Middletown",
+   "id": "711d058dd6",
+   "inspections": [
+    {
+     "date": "2026-09-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-301.11",
+       "description": "Preventing Contamination from Hands"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    },
+    {
+     "date": "2026-02-18",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      }
+     ]
+    }
+   ],
+   "name": "Poke Bros Vi - Middletown - Poke Bros DE LLC - #12",
+   "zip": "19709"
+  },
+  {
+   "address": "1615 Lake Seymour Drive",
+   "city": "Middletown",
+   "id": "4166932795",
+   "inspections": [
+    {
+     "date": "2026-08-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    }
+   ],
+   "name": "Primo Hoagies 1615",
+   "zip": "19709"
+  },
+  {
+   "address": "103 Patriot Drive",
+   "city": "Middletown",
+   "id": "4edf0c2d15",
+   "inspections": [
+    {
+     "date": "2026-05-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      },
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    },
+    {
+     "date": "2026-05-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    },
+    {
+     "date": "2025-07-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    }
+   ],
+   "name": "Randazzo Italian",
+   "zip": "19709"
+  },
+  {
+   "address": "140 Commerce Drive",
+   "city": "Middletown",
+   "id": "70aaee426a",
+   "inspections": [
+    {
+     "date": "2026-03-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    },
+    {
+     "date": "2026-01-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    }
+   ],
+   "name": "Red Robin Gourmet Burger & Brews 751",
+   "zip": "19709"
+  },
+  {
+   "address": "406 S Cass Street",
+   "city": "Middletown",
+   "id": "c0bdcfa862",
+   "inspections": [
+    {
+     "date": "2025-04-10",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-25",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "name": "Rhythm & Brews (MOB) (Closed)",
+   "zip": "19709"
+  },
+  {
+   "address": "401 B E Main Street",
+   "city": "Middletown",
+   "id": "c4cbe56cd0",
+   "inspections": [
+    {
+     "date": "2025-09-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-21",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "3-305.15",
+       "description": "Food Preparation Sink"
+      },
+      {
+       "code": "5-202.13",
+       "description": "Backflow Prevention, Air Gap"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-10",
+     "type": "Complaint",
+     "violations": []
+    }
+   ],
+   "name": "Roma Pizza",
+   "zip": "19709"
+  },
+  {
+   "address": "840 Middletown Warwick Rd",
+   "city": "Middletown",
+   "id": "405a29592e",
+   "inspections": [
+    {
+     "date": "2026-08-26",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2026-08-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.14",
+       "description": "Handwashing Signage"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    },
+    {
+     "date": "2026-02-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-301.14",
+       "description": "When to Wash"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-11",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "Royal Farms #236",
+   "zip": "19709"
+  },
+  {
+   "address": "474 W Main St",
+   "city": "Middletown",
+   "id": "410378ddfe",
+   "inspections": [
+    {
+     "date": "2026-04-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.110",
+       "description": "Mechanical Warewashing Equipment, Wash Solution Temperature"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      }
+     ]
+    },
+    {
+     "date": "2026-04-01",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.110",
+       "description": "Mechanical Warewashing Equipment, Wash Solution Temperature"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      }
+     ]
+    },
+    {
+     "date": "2026-03-18",
+     "type": "Complaint",
+     "violations": [
+      {
+       "code": "4-501.110",
+       "description": "Mechanical Warewashing Equipment, Wash Solution Temperature"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      }
+     ]
+    },
+    {
+     "date": "2025-06-13",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "6-501.13",
+       "description": "Cleaning Floors, Dustless Methods"
+      }
+     ]
+    },
+    {
+     "date": "2025-05-19",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-602.12",
+       "description": "Cooking and Baking Equipment"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-501.13",
+       "description": "Cleaning Floors, Dustless Methods"
+      }
+     ]
+    },
+    {
+     "date": "2024-11-19",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      }
+     ]
+    }
+   ],
+   "name": "Ruby Tuesday Restaurant #4442 (Closed)",
+   "zip": "19709"
+  },
+  {
+   "address": "350 Noxontown Road",
+   "city": "Middletown",
+   "id": "c347a3b2a9",
+   "inspections": [
+    {
+     "date": "2024-11-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      }
+     ]
+    }
+   ],
+   "name": "Saint Andrews School - SAGE Dining Services Inc",
+   "zip": "19709"
+  },
+  {
+   "address": "492-494 East Main St",
+   "city": "Middletown",
+   "id": "9042a2ec5d",
+   "inspections": [
+    {
+     "date": "2026-06-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      }
+     ]
+    },
+    {
+     "date": "2024-12-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "3-501.18",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Disposition"
+      }
+     ]
+    }
+   ],
+   "name": "Saladworks",
+   "zip": "19709"
+  },
+  {
+   "address": "5695 Summit Bridge Rd",
+   "city": "Middletown",
+   "id": "3a165a1a4f",
+   "inspections": [
+    {
+     "date": "2025-06-06",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "Sgt Wm Lloyd Nelson Vfw Post 3792",
+   "zip": "19709"
+  },
+  {
+   "address": "400 South Ridge Ave",
+   "city": "Middletown",
+   "id": "9bc56e17ce",
+   "inspections": [
+    {
+     "date": "2026-02-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-602.11",
+       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      }
+     ]
+    }
+   ],
+   "name": "Shaka Ramen",
+   "zip": "19709"
+  },
+  {
+   "address": "307 North Broad Street",
+   "city": "Middletown",
+   "id": "995817087f",
+   "inspections": [
+    {
+     "date": "2025-10-01",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-09-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-203.11",
+       "description": "Handwashing Sinks-Numbers and Capacities"
+      }
+     ]
+    },
+    {
+     "date": "2024-12-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      }
+     ]
+    }
+   ],
+   "name": "Shing Kwong Restaurant",
+   "zip": "19709"
+  },
+  {
+   "address": "4434 Summit Bridge Rd",
+   "city": "Middletown",
+   "id": "35e3a4e80f",
+   "inspections": [
+    {
+     "date": "2026-01-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-602.11",
+       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
+      }
+     ]
+    }
+   ],
+   "name": "Shore Stop #271",
+   "zip": "19709"
+  },
+  {
+   "address": "38 E Main St",
+   "city": "Middletown",
+   "id": "ca1d1d887b",
+   "inspections": [
+    {
+     "date": "2026-02-26",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "Shore Stop #277 (Closed)",
+   "zip": "19709"
+  },
+  {
+   "address": "200 E Cochran Street",
+   "city": "Middletown",
+   "id": "9f3944a36d",
+   "inspections": [
+    {
+     "date": "2025-04-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    }
+   ],
+   "name": "Silver Lake Elementary School",
+   "zip": "19709"
+  },
+  {
+   "address": "1901 Lake Seymour Drive",
+   "city": "Middletown",
+   "id": "32e190a984",
+   "inspections": [
+    {
+     "date": "2026-08-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    },
+    {
+     "date": "2025-09-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      }
+     ]
+    }
+   ],
+   "name": "Singas Famous PIzza",
+   "zip": "19709"
+  },
+  {
+   "address": "701 N Broad St",
+   "city": "Middletown",
+   "id": "7b21512625",
+   "inspections": [
+    {
+     "date": "2026-01-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-18",
+     "type": "Complaint",
+     "violations": []
+    }
+   ],
+   "name": "Smuckers Pretzels",
+   "zip": "19709"
+  },
+  {
+   "address": "935 McKim St",
+   "city": "Middletown",
+   "id": "910e379b83",
+   "inspections": [
+    {
+     "date": "2026-04-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    }
+   ],
+   "name": "Snowfox - Weis Markets 109",
+   "zip": "19709"
+  },
+  {
+   "address": "431 Middletown Warwick Road",
+   "city": "Middletown",
+   "id": "4702d3f9dc",
+   "inspections": [
+    {
+     "date": "2026-05-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      }
+     ]
+    },
+    {
+     "date": "2025-10-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    }
+   ],
+   "name": "Sprouts Farmers Market - SFM LLC - #817",
+   "zip": "19709"
+  },
+  {
+   "address": "211 Silver Lake Road",
+   "city": "Middletown",
+   "id": "e6dbfc760d",
+   "inspections": [
+    {
+     "date": "2025-12-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      }
+     ]
+    },
+    {
+     "date": "2024-11-22",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      }
+     ]
+    },
+    {
+     "date": "2024-11-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    }
+   ],
+   "name": "St Annes Episcopal School",
+   "zip": "19709"
+  },
+  {
+   "address": "555 Hyetts Corner Rd",
+   "city": "Middletown",
+   "id": "c7d3ad6c16",
+   "inspections": [
+    {
+     "date": "2026-09-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      }
+     ]
+    },
+    {
+     "date": "2026-03-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    }
+   ],
+   "name": "St Georges Culinary Arts",
+   "zip": "19709"
+  },
+  {
+   "address": "555 Hyetts Corner Rd",
+   "city": "Middletown",
+   "id": "177f865a38",
+   "inspections": [
+    {
+     "date": "2026-09-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-801.11",
+       "description": "Pasteurized Foods, Prohibited Re-Service, and Prohibited Foods"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-11",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    }
+   ],
+   "name": "St Georges High School Cafeteria - New Castle Cou",
+   "zip": "19709"
+  },
+  {
+   "address": "371 E Main St",
+   "city": "Middletown",
+   "id": "c3d2f49883",
+   "inspections": [
+    {
+     "date": "2026-04-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      }
+     ]
+    }
+   ],
+   "name": "St Josephs Church",
+   "zip": "19709"
+  },
+  {
+   "address": "454 E Main St",
+   "city": "Middletown",
+   "id": "1ae8764a1c",
+   "inspections": [
+    {
+     "date": "2026-01-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    },
+    {
+     "date": "2025-07-02",
+     "type": "Complaint",
+     "violations": []
+    },
+    {
+     "date": "2024-10-29",
+     "type": "Complaint",
+     "violations": []
+    }
+   ],
+   "name": "Starbucks Coffee - Starbucks Corporation - #10899",
+   "zip": "19709"
+  },
+  {
+   "address": "1004 Bunker Hill Rd",
+   "city": "Middletown",
+   "id": "651bad79ae",
+   "inspections": [
+    {
+     "date": "2026-07-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.110",
+       "description": "Mechanical Warewashing Equipment, Wash Solution Temperature"
+      }
+     ]
+    },
+    {
+     "date": "2026-01-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-301.14",
+       "description": "Handwashing Signage"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "Starbucks Coffee - Starbucks Corporation - #49664",
+   "zip": "19709"
+  },
+  {
+   "address": "701 North Broad St",
+   "city": "Middletown",
+   "id": "121d35a002",
+   "inspections": [
+    {
+     "date": "2026-03-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-25",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      }
+     ]
+    }
+   ],
+   "name": "Stoltzfus BBQ -Middletown",
+   "zip": "19709"
+  },
+  {
+   "address": "12 West Main Street",
+   "city": "Middletown",
+   "id": "44da7135cb",
+   "inspections": [
+    {
+     "date": "2026-06-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    },
+    {
+     "date": "2025-12-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
+     "date": "2025-12-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-21",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "name": "Sullys Irish Pub",
+   "zip": "19709"
+  },
+  {
+   "address": "1470 Aviator Way",
+   "city": "Middletown",
+   "id": "c27153255a",
+   "inspections": [
+    {
+     "date": "2025-10-07",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-10-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "name": "Summit Campus Crystal Run Elementary School",
+   "zip": "19709"
+  },
+  {
+   "address": "554 Old Summit Bridge Rd",
+   "city": "Middletown",
+   "id": "dc7b3c928c",
+   "inspections": [
+    {
+     "date": "2026-04-27",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      }
+     ]
+    }
+   ],
+   "name": "Summit U M C Kitchen",
+   "zip": "19709"
+  },
+  {
+   "address": "350 Dove Run Centre Drive",
+   "city": "Middletown",
+   "id": "979277cfab",
+   "inspections": [
+    {
+     "date": "2026-09-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      }
+     ]
+    },
+    {
+     "date": "2026-03-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    }
+   ],
+   "name": "Surf Bagel Middletown - Surf Bagel Holdings LLC -",
+   "zip": "19709"
+  },
+  {
+   "address": "572-574 W Main St",
+   "city": "Middletown",
+   "id": "b47c7350c9",
+   "inspections": [
+    {
+     "date": "2025-04-29",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "Sushi Yama",
+   "zip": "19709"
+  },
+  {
+   "address": "1 Shallcross Place",
+   "city": "Middletown",
+   "id": "f58d9402cb",
+   "inspections": [
+    {
+     "date": "2025-10-27",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
+     "date": "2025-10-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "name": "Sweet Dreams Confections Company",
+   "zip": "19709"
+  },
+  {
+   "address": "582 Middletown Warwick Road",
+   "city": "Middletown",
+   "id": "bb59396218",
+   "inspections": [
+    {
+     "date": "2025-04-08",
+     "type": "Complaint",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      }
+     ]
+    }
+   ],
+   "name": "Taco Bell #040061 - Delaware Restaurants LLC",
+   "zip": "19709"
+  },
+  {
+   "address": "361 Middletown Warwick Road",
+   "city": "Middletown",
+   "id": "2f284fd674",
+   "inspections": [
+    {
+     "date": "2026-06-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.110",
+       "description": "Mechanical Warewashing Equipment, Wash Solution Temperature"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "Target T-2908",
+   "zip": "19709"
+  },
+  {
+   "address": "741 Middletown Warwick Road",
+   "city": "Middletown",
+   "id": "e9fddd108d",
+   "inspections": [
+    {
+     "date": "2026-04-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.110",
+       "description": "Mechanical Warewashing Equipment, Wash Solution Temperature"
+      },
+      {
+       "code": "4-501.112",
+       "description": "Mechanical Warewashing Equipment, Hot Water Sanitization Temperatures"
+      }
+     ]
+    },
+    {
+     "date": "2026-04-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.110",
+       "description": "Mechanical Warewashing Equipment, Wash Solution Temperature"
+      },
+      {
+       "code": "4-501.112",
+       "description": "Mechanical Warewashing Equipment, Hot Water Sanitization Temperatures"
+      },
+      {
+       "code": "5-202.12",
+       "description": "Handwashing Sinks, Installation"
+      }
+     ]
+    },
+    {
+     "date": "2025-06-17",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-05-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.110",
+       "description": "Mechanical Warewashing Equipment, Wash Solution Temperature"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-02",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "4-501.110",
+       "description": "Mechanical Warewashing Equipment, Wash Solution Temperature"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    }
+   ],
+   "name": "Texas Roadhouse #499",
+   "zip": "19701"
+  },
+  {
+   "address": "402 South Ridge Avenue",
+   "city": "Middletown",
+   "id": "0a88fa8bb4",
+   "inspections": [
+    {
+     "date": "2025-10-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "name": "The Crab Cake Company",
+   "zip": "19709"
+  },
+  {
+   "address": "106 Sandhill Drive",
+   "city": "Middletown",
+   "id": "bb6df360c4",
+   "inspections": [
+    {
+     "date": "2025-09-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-29",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-01-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    }
+   ],
+   "name": "Toba Gourmet",
+   "zip": "19709"
+  },
+  {
+   "address": "714 Ash Blvd",
+   "city": "Middletown",
+   "id": "42bd41d468",
+   "inspections": [
+    {
+     "date": "2026-04-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2025-10-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.15",
+       "description": "Food Preparation Sink"
+      },
+      {
+       "code": "5-203.13",
+       "description": "Service Sink"
+      },
+      {
+       "code": "5-204.11",
+       "description": "Handwashing Sinks-Location and Placement"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    },
+    {
+     "date": "2025-09-16",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "3-305.15",
+       "description": "Food Preparation Sink"
+      },
+      {
+       "code": "5-203.11",
+       "description": "Handwashing Sinks-Numbers and Capacities"
+      },
+      {
+       "code": "5-203.13",
+       "description": "Service Sink"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    },
+    {
+     "date": "2025-08-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.15",
+       "description": "Food Preparation Sink"
+      },
+      {
+       "code": "3-501.18",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Disposition"
+      },
+      {
+       "code": "5-203.11",
+       "description": "Handwashing Sinks-Numbers and Capacities"
+      },
+      {
+       "code": "5-203.13",
+       "description": "Service Sink"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    },
+    {
+     "date": "2024-12-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.11",
+       "description": "Food Contact with Equipment, Utensils, and Linens"
+      },
+      {
+       "code": "3-305.15",
+       "description": "Food Preparation Sink"
+      },
+      {
+       "code": "5-203.13",
+       "description": "Service Sink"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    }
+   ],
+   "name": "Tom Foolerys Restaurant and Bar - Biddle Associat",
+   "zip": "19709"
+  },
+  {
+   "address": "529 Maiden Court",
+   "city": "Middletown",
+   "id": "2db473f5a5",
+   "inspections": [
+    {
+     "date": "2026-08-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      }
+     ]
+    }
+   ],
+   "name": "Two Friends Coffee (MOB)",
+   "zip": "19709"
+  },
+  {
+   "address": "840 Kohl Ave",
+   "city": "Middletown",
+   "id": "38473d3db3",
+   "inspections": [
+    {
+     "date": "2025-09-10",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
+     "date": "2025-08-25",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-14",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    },
+    {
+     "date": "2024-12-18",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.18",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Disposition"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    }
+   ],
+   "name": "Two Stones Pub (Closed)",
+   "zip": "19709"
+  },
+  {
+   "address": "413 E Main Street",
+   "city": "Middletown",
+   "id": "ba820d6c07",
+   "inspections": [
+    {
+     "date": "2025-10-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      }
+     ]
+    }
+   ],
+   "name": "Vickys Famous Fried Fish",
+   "zip": "19709"
+  },
+  {
+   "address": "27 West Green Street",
+   "city": "Middletown",
+   "id": "9d2dd4a4a5",
+   "inspections": [
+    {
+     "date": "2026-02-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-301.11",
+       "description": "Preventing Contamination from Hands"
+      }
+     ]
+    }
+   ],
+   "name": "Volunteer Hose Company Of Middletown",
+   "zip": "19709"
+  },
+  {
+   "address": "598 W Main St",
+   "city": "Middletown",
+   "id": "67dd53612a",
+   "inspections": [
+    {
+     "date": "2026-06-26",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      },
+      {
+       "code": "6-301.14",
+       "description": "Handwashing Signage"
+      }
+     ]
+    },
+    {
+     "date": "2025-12-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.14",
+       "description": "Food Preparation"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "3-305.14",
+       "description": "Food Preparation"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    }
+   ],
+   "name": "Waffle House #1512 - East Coast Waffles - #1512",
+   "zip": "19709"
+  },
+  {
+   "address": "705 Middletown Warwick Rd",
+   "city": "Middletown",
+   "id": "ca26da032a",
+   "inspections": [
+    {
+     "date": "2026-06-26",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    }
+   ],
+   "name": "Walmart Super Center - Middletown - Walmart Inc -",
+   "zip": "19709"
+  },
+  {
+   "address": "690 Middletown Odessa Rd",
+   "city": "Middletown",
+   "id": "9d813a50e7",
+   "inspections": [
+    {
+     "date": "2026-07-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      }
+     ]
+    },
+    {
+     "date": "2026-01-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    },
+    {
+     "date": "2026-01-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    }
+   ],
+   "name": "Wawa Food Market #859",
+   "zip": "19709"
+  },
+  {
+   "address": "935 McKim Street",
+   "city": "Middletown",
+   "id": "a5d9bd5853",
+   "inspections": [
+    {
+     "date": "2026-01-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "Weis Markets - Weis Markets Inc - #109",
+   "zip": "19709"
+  },
+  {
+   "address": "150 Commerce Dr",
+   "city": "Middletown",
+   "id": "e462ccf13d",
+   "inspections": [
+    {
+     "date": "2026-04-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    }
+   ],
+   "name": "Westown Movies - Milford Movies 9 LLC",
+   "zip": "19709"
+  },
+  {
+   "address": "401 E Main Sreet",
+   "city": "Middletown",
+   "id": "d282f4dfe5",
+   "inspections": [
+    {
+     "date": "2026-06-24",
+     "type": "Complaint",
+     "violations": [
+      {
+       "code": "3-501.14",
+       "description": "Cooling"
+      }
+     ]
+    },
+    {
+     "date": "2026-02-26",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2026-02-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-18",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      }
+     ]
+    }
+   ],
+   "name": "Youngs Bbq",
+   "zip": "19709"
+  },
+  {
+   "address": "432 Georgiana Dr",
+   "city": "Middletown",
+   "id": "09a120c1be",
+   "inspections": [
+    {
+     "date": "2025-05-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "3-501.19",
+       "description": "Time as a Public Health Control"
+      }
+     ]
+    }
+   ],
+   "name": "Zaikka on Wheels(MOB) - Jai Sairam LLC",
+   "zip": "19709"
+  }
+ ],
+ "slug": "middletown",
+ "source_updated": "2026-10-09",
+ "town": "Middletown"
+}

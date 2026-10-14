@@ -1,0 +1,233 @@
+{
+ "establishments": [
+  {
+   "address": "4 Jerome Drive",
+   "city": "Cheswold",
+   "id": "7a2f336e30",
+   "inspections": [
+    {
+     "date": "2025-06-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-303.11",
+       "description": "Prohibition-Jewelry"
+      }
+     ]
+    },
+    {
+     "date": "2024-12-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "Dominos Pizza (Closed)",
+   "zip": "19901"
+  },
+  {
+   "address": "6349 N Dupont Hwy",
+   "city": "Cheswold",
+   "id": "2bb39b6604",
+   "inspections": [
+    {
+     "date": "2026-04-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    }
+   ],
+   "name": "Dsta",
+   "zip": "19936"
+  },
+  {
+   "address": "761 Main Street",
+   "city": "Cheswold",
+   "id": "37153bf617",
+   "inspections": [
+    {
+     "date": "2026-08-11",
+     "type": "Complaint",
+     "violations": []
+    },
+    {
+     "date": "2026-06-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "4-101.19",
+       "description": "Nonfood-Contact Surfaces"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
+     "date": "2025-12-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      },
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      },
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      }
+     ]
+    },
+    {
+     "date": "2025-07-02",
+     "type": "Complaint",
+     "violations": []
+    },
+    {
+     "date": "2025-06-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      },
+      {
+       "code": "4-205.10",
+       "description": "Food Equipment, Certification and Classification"
+      },
+      {
+       "code": "6-202.15",
+       "description": "Outer Openings, Protected"
+      }
+     ]
+    },
+    {
+     "date": "2024-12-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "4-101.16",
+       "description": "Sponges Use Limitation"
+      },
+      {
+       "code": "6-202.15",
+       "description": "Outer Openings, Protected"
+      }
+     ]
+    }
+   ],
+   "name": "Polisenos Pizzeria",
+   "zip": "19936"
+  },
+  {
+   "address": "761 Main Street",
+   "city": "Cheswold",
+   "id": "f70a389068",
+   "inspections": [
+    {
+     "date": "2025-10-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-302.16",
+       "description": "Hose, Construction and Identification"
+      },
+      {
+       "code": "6-202.14",
+       "description": "Toilet Rooms, Enclosed"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-14",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "4-101.16",
+       "description": "Sponges Use Limitation"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-101.16",
+       "description": "Sponges Use Limitation"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    }
+   ],
+   "name": "Shore Stop #232",
+   "zip": "19901"
+  }
+ ],
+ "slug": "cheswold",
+ "source_updated": "2026-10-09",
+ "town": "Cheswold"
+}

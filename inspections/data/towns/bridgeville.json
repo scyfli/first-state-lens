@@ -1,0 +1,676 @@
+{
+ "establishments": [
+  {
+   "address": "20494 Sussex Highway",
+   "city": "Bridgeville",
+   "id": "c571c203e0",
+   "inspections": [
+    {
+     "date": "2025-05-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-401.11",
+       "description": "Eating, Drinking, or Using Tobacco"
+      },
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "4-101.16",
+       "description": "Sponges Use Limitation"
+      },
+      {
+       "code": "6-501.19",
+       "description": "Closing Toilet Room Doors"
+      }
+     ]
+    }
+   ],
+   "name": "7-Eleven #41263A",
+   "zip": "19933"
+  },
+  {
+   "address": "113 Market Street",
+   "city": "Bridgeville",
+   "id": "92743708a3",
+   "inspections": [
+    {
+     "date": "2026-04-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      }
+     ]
+    }
+   ],
+   "name": "Ariannas Mexican Food Mobile #1",
+   "zip": "19933"
+  },
+  {
+   "address": "9577 Bridgeville Ctr Unit 3",
+   "city": "Bridgeville",
+   "id": "c014fbfa8b",
+   "inspections": [
+    {
+     "date": "2026-08-19",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "6-501.114",
+       "description": "Maintaining Premises, Unnecessary Items and Litter"
+      }
+     ]
+    },
+    {
+     "date": "2026-01-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-303.11",
+       "description": "Prohibition-Jewelry"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "6-201.15",
+       "description": "Floor Covering, Mats and Duckboards"
+      },
+      {
+       "code": "6-202.12",
+       "description": "Heating, Ventilation, Air Conditioning System Vents"
+      },
+      {
+       "code": "6-303.11",
+       "description": "Intensity-Lighting"
+      },
+      {
+       "code": "6-501.113",
+       "description": "Storing Maintenance Tools"
+      },
+      {
+       "code": "6-501.114",
+       "description": "Maintaining Premises, Unnecessary Items and Litter"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      }
+     ]
+    }
+   ],
+   "name": "China Wok",
+   "zip": "19933"
+  },
+  {
+   "address": "18541 S Main St",
+   "city": "Bridgeville",
+   "id": "613bf0cff4",
+   "inspections": [
+    {
+     "date": "2026-07-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-101.16",
+       "description": "Sponges Use Limitation"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2025-09-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-101.11",
+       "description": "Surface Characteristics-Indoor Areas"
+      },
+      {
+       "code": "6-501.113",
+       "description": "Storing Maintenance Tools"
+      },
+      {
+       "code": "6-501.114",
+       "description": "Maintaining Premises, Unnecessary Items and Litter"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
+     "date": "2024-12-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-305.12",
+       "description": "Food Storage, Prohibited Areas"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-303.11",
+       "description": "Intensity-Lighting"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.114",
+       "description": "Maintaining Premises, Unnecessary Items and Litter"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Don Chuy Mexican Restaurant - M&M Los Dos Amigos i",
+   "zip": "19933"
+  },
+  {
+   "address": "10609 Seashore Hwy",
+   "city": "Bridgeville",
+   "id": "2f91bef340",
+   "inspections": [
+    {
+     "date": "2026-08-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-101.16",
+       "description": "Sponges Use Limitation"
+      },
+      {
+       "code": "6-202.11",
+       "description": "Light Bulbs, Protective Shielding"
+      }
+     ]
+    },
+    {
+     "date": "2026-03-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "4-401.11",
+       "description": "Equipment, Clothes Washers, Dryers and Storage Cabinets, Contamination Prevention-Location"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      },
+      {
+       "code": "6-303.11",
+       "description": "Intensity-Lighting"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.114",
+       "description": "Maintaining Premises, Unnecessary Items and Litter"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
+     "date": "2025-06-27",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      },
+      {
+       "code": "4-101.16",
+       "description": "Sponges Use Limitation"
+      },
+      {
+       "code": "6-101.11",
+       "description": "Surface Characteristics-Indoor Areas"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2024-12-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "4-101.16",
+       "description": "Sponges Use Limitation"
+      },
+      {
+       "code": "4-602.11",
+       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
+      },
+      {
+       "code": "6-501.114",
+       "description": "Maintaining Premises, Unnecessary Items and Litter"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "M L Country Store",
+   "zip": "19933"
+  },
+  {
+   "address": "Rt 404 & Rt 13",
+   "city": "Bridgeville",
+   "id": "2bd9f8870b",
+   "inspections": [
+    {
+     "date": "2025-10-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-101.11",
+       "description": "Surface Characteristics-Indoor Areas"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Mcdonalds Of Bridgeville - The Meoli Companies -",
+   "zip": "19933"
+  },
+  {
+   "address": "9537 Bridgeville Center Rd Ste 2 &",
+   "city": "Bridgeville",
+   "id": "48b1cd2cc5",
+   "inspections": [
+    {
+     "date": "2025-04-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Pizza King - Baynum Enterprises Inc",
+   "zip": "19933"
+  },
+  {
+   "address": "18657 Sussex Hwy",
+   "city": "Bridgeville",
+   "id": "db4f4eeb9c",
+   "inspections": [
+    {
+     "date": "2026-02-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.19",
+       "description": "Time as a Public Health Control"
+      }
+     ]
+    }
+   ],
+   "name": "Royal Farms #109",
+   "zip": "19933"
+  },
+  {
+   "address": "18757 Sussex Hwy",
+   "city": "Bridgeville",
+   "id": "4376ab2bdd",
+   "inspections": [
+    {
+     "date": "2025-02-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Sonic #85402",
+   "zip": "19933"
+  },
+  {
+   "address": "201 Waterside Dr",
+   "city": "Bridgeville",
+   "id": "fe33ca8ccc",
+   "inspections": [
+    {
+     "date": "2026-04-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    },
+    {
+     "date": "2025-05-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Sugar Beet Market",
+   "zip": "19933"
+  },
+  {
+   "address": "9843 Seashore Hwy",
+   "city": "Bridgeville",
+   "id": "9706b981df",
+   "inspections": [
+    {
+     "date": "2026-01-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-101.16",
+       "description": "Sponges Use Limitation"
+      }
+     ]
+    },
+    {
+     "date": "2024-12-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      }
+     ]
+    }
+   ],
+   "name": "The Frozen Farmer - The Frozen Farmer LLC",
+   "zip": "19933"
+  },
+  {
+   "address": "1 Heritage Shores Circle",
+   "city": "Bridgeville",
+   "id": "cff390b5ec",
+   "inspections": [
+    {
+     "date": "2026-08-19",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2026-01-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-202.12",
+       "description": "Handwashing Sinks, Installation"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-05-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-402.11",
+       "description": "Backflow Prevention"
+      },
+      {
+       "code": "5-502.11",
+       "description": "Frequency-Removal"
+      },
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-303.11",
+       "description": "Prohibition-Jewelry"
+      },
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "5-501.113",
+       "description": "Covering Receptacles"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "The Heritage Club House",
+   "zip": "19933"
+  },
+  {
+   "address": "613 S Main St",
+   "city": "Bridgeville",
+   "id": "f5c5959d36",
+   "inspections": [
+    {
+     "date": "2024-10-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-101.11",
+       "description": "Surface Characteristics-Indoor Areas"
+      }
+     ]
+    }
+   ],
+   "name": "Tonys Pizza Italian Restaurant",
+   "zip": "19933"
+  },
+  {
+   "address": "9045 Redden Road",
+   "city": "Bridgeville",
+   "id": "bf1726a7a8",
+   "inspections": [
+    {
+     "date": "2025-02-25",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "TS Smith Orchard Point Market",
+   "zip": "19933"
+  },
+  {
+   "address": "119 Market Street",
+   "city": "Bridgeville",
+   "id": "f491628aea",
+   "inspections": [
+    {
+     "date": "2025-10-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-101.16",
+       "description": "Sponges Use Limitation"
+      }
+     ]
+    }
+   ],
+   "name": "Victorias Ice Cream",
+   "zip": "19933"
+  }
+ ],
+ "slug": "bridgeville",
+ "source_updated": "2026-10-09",
+ "town": "Bridgeville"
+}

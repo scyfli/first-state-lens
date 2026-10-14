@@ -1,0 +1,313 @@
+{
+ "dashboard": "inspections",
+ "dates_after_source_update": [
+  "2026-11-18",
+  "2026-12-03"
+ ],
+ "generated_at": "2026-10-14T17:27:39Z",
+ "row_counts": {
+  "establishments": 3716,
+  "inspections": 9137,
+  "rows_after_source_update": 10,
+  "rows_before_window": 0,
+  "rows_in": 33459,
+  "rows_incomplete": 0,
+  "rows_used": 33449,
+  "towns": 55,
+  "violations": 32530
+ },
+ "rows_updated_at": "2026-10-09T07:31:10Z",
+ "source": {
+  "api": "https://data.delaware.gov/resource/384s-wygj.json",
+  "dataset": "384s-wygj",
+  "license": "Public Domain",
+  "name": "Food Establishment Inspection Violations",
+  "publisher": "Delaware Department of Health and Social Services, Division of Public Health, Office of Food Protection",
+  "publishing": "Weekly; the state keeps about the past two years",
+  "url": "https://data.delaware.gov/Health/Food-Establishment-Inspection-Violations/384s-wygj"
+ },
+ "source_updated": "2026-10-09",
+ "towns": [
+  {
+   "establishments": 95,
+   "slug": "bear",
+   "town": "Bear"
+  },
+  {
+   "establishments": 85,
+   "slug": "bethany-beach",
+   "town": "Bethany Beach"
+  },
+  {
+   "establishments": 15,
+   "slug": "bridgeville",
+   "town": "Bridgeville"
+  },
+  {
+   "establishments": 42,
+   "slug": "camden",
+   "town": "Camden"
+  },
+  {
+   "establishments": 3,
+   "slug": "camden-wyoming",
+   "town": "Camden Wyoming"
+  },
+  {
+   "establishments": 4,
+   "slug": "cheswold",
+   "town": "Cheswold"
+  },
+  {
+   "establishments": 40,
+   "slug": "claymont",
+   "town": "Claymont"
+  },
+  {
+   "establishments": 9,
+   "slug": "clayton",
+   "town": "Clayton"
+  },
+  {
+   "establishments": 12,
+   "slug": "dagsboro",
+   "town": "Dagsboro"
+  },
+  {
+   "establishments": 9,
+   "slug": "delaware-city",
+   "town": "Delaware City"
+  },
+  {
+   "establishments": 6,
+   "slug": "delmar",
+   "town": "Delmar"
+  },
+  {
+   "establishments": 29,
+   "slug": "dewey-beach",
+   "town": "Dewey Beach"
+  },
+  {
+   "establishments": 344,
+   "slug": "dover",
+   "town": "Dover"
+  },
+  {
+   "establishments": 3,
+   "slug": "ellendale",
+   "town": "Ellendale"
+  },
+  {
+   "establishments": 4,
+   "slug": "elsmere",
+   "town": "Elsmere"
+  },
+  {
+   "establishments": 2,
+   "slug": "farmington",
+   "town": "Farmington"
+  },
+  {
+   "establishments": 16,
+   "slug": "felton",
+   "town": "Felton"
+  },
+  {
+   "establishments": 33,
+   "slug": "fenwick-island",
+   "town": "Fenwick Island"
+  },
+  {
+   "establishments": 13,
+   "slug": "frankford",
+   "town": "Frankford"
+  },
+  {
+   "establishments": 17,
+   "slug": "frederica",
+   "town": "Frederica"
+  },
+  {
+   "establishments": 56,
+   "slug": "georgetown",
+   "town": "Georgetown"
+  },
+  {
+   "establishments": 13,
+   "slug": "greenville",
+   "town": "Greenville"
+  },
+  {
+   "establishments": 9,
+   "slug": "greenwood",
+   "town": "Greenwood"
+  },
+  {
+   "establishments": 2,
+   "slug": "harbeson",
+   "town": "Harbeson"
+  },
+  {
+   "establishments": 35,
+   "slug": "harrington",
+   "town": "Harrington"
+  },
+  {
+   "establishments": 3,
+   "slug": "hartly",
+   "town": "Hartly"
+  },
+  {
+   "establishments": 45,
+   "slug": "hockessin",
+   "town": "Hockessin"
+  },
+  {
+   "establishments": 3,
+   "slug": "houston",
+   "town": "Houston"
+  },
+  {
+   "establishments": 32,
+   "slug": "laurel",
+   "town": "Laurel"
+  },
+  {
+   "establishments": 105,
+   "slug": "lewes",
+   "town": "Lewes"
+  },
+  {
+   "establishments": 6,
+   "slug": "lincoln",
+   "town": "Lincoln"
+  },
+  {
+   "establishments": 1,
+   "slug": "little-creek",
+   "town": "Little Creek"
+  },
+  {
+   "establishments": 11,
+   "slug": "magnolia",
+   "town": "Magnolia"
+  },
+  {
+   "establishments": 6,
+   "slug": "marydel",
+   "town": "Marydel"
+  },
+  {
+   "establishments": 169,
+   "slug": "middletown",
+   "town": "Middletown"
+  },
+  {
+   "establishments": 128,
+   "slug": "milford",
+   "town": "Milford"
+  },
+  {
+   "establishments": 105,
+   "slug": "millsboro",
+   "town": "Millsboro"
+  },
+  {
+   "establishments": 24,
+   "slug": "millville",
+   "town": "Millville"
+  },
+  {
+   "establishments": 32,
+   "slug": "milton",
+   "town": "Milton"
+  },
+  {
+   "establishments": 233,
+   "slug": "new-castle",
+   "town": "New Castle"
+  },
+  {
+   "establishments": 430,
+   "slug": "newark",
+   "town": "Newark"
+  },
+  {
+   "establishments": 8,
+   "slug": "newport",
+   "town": "Newport"
+  },
+  {
+   "establishments": 34,
+   "slug": "ocean-view",
+   "town": "Ocean View"
+  },
+  {
+   "establishments": 5,
+   "slug": "odessa",
+   "town": "Odessa"
+  },
+  {
+   "establishments": 1,
+   "slug": "peipsic",
+   "town": "Peipsic"
+  },
+  {
+   "establishments": 2,
+   "slug": "port-penn",
+   "town": "Port Penn"
+  },
+  {
+   "establishments": 207,
+   "slug": "rehoboth-beach",
+   "town": "Rehoboth Beach"
+  },
+  {
+   "establishments": 62,
+   "slug": "seaford",
+   "town": "Seaford"
+  },
+  {
+   "establishments": 59,
+   "slug": "selbyville",
+   "town": "Selbyville"
+  },
+  {
+   "establishments": 65,
+   "slug": "smyrna",
+   "town": "Smyrna"
+  },
+  {
+   "establishments": 3,
+   "slug": "stanton",
+   "town": "Stanton"
+  },
+  {
+   "establishments": 16,
+   "slug": "townsend",
+   "town": "Townsend"
+  },
+  {
+   "establishments": 976,
+   "slug": "wilmington",
+   "town": "Wilmington"
+  },
+  {
+   "establishments": 3,
+   "slug": "woodside",
+   "town": "Woodside"
+  },
+  {
+   "establishments": 46,
+   "slug": "wyoming",
+   "town": "Wyoming"
+  }
+ ],
+ "window": {
+  "date_max": "2026-10-07",
+  "date_min": "2024-10-01",
+  "start": "2023-10-09",
+  "years": 3
+ }
+}

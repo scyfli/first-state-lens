@@ -1,0 +1,249 @@
+{
+ "establishments": [
+  {
+   "address": "8609 3rd St",
+   "city": "Lincoln",
+   "id": "fe77dcf685",
+   "inspections": [
+    {
+     "date": "2026-04-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-202.11",
+       "description": "Approved System and Cleanable Fixtures"
+      },
+      {
+       "code": "6-501.114",
+       "description": "Maintaining Premises, Unnecessary Items and Litter"
+      }
+     ]
+    }
+   ],
+   "name": "Evelyn I Morris Early Childhood Center",
+   "zip": "19960"
+  },
+  {
+   "address": "20037 Fleatown Rd",
+   "city": "Lincoln",
+   "id": "32cb3caadd",
+   "inspections": [
+    {
+     "date": "2026-05-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "5-103.11",
+       "description": "Capacity-Quantity and Availability"
+      }
+     ]
+    }
+   ],
+   "name": "Fat Vinnys Wings & Things (MOB)",
+   "zip": "19960"
+  },
+  {
+   "address": "8405 Front Street",
+   "city": "Lincoln",
+   "id": "a4eac3a9fe",
+   "inspections": [
+    {
+     "date": "2026-05-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "5-501.115",
+       "description": "Maintaining Refuse Areas and Enclosures"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    },
+    {
+     "date": "2025-10-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-201.11",
+       "description": "Equipment and Utensils-Durability and Strength"
+      },
+      {
+       "code": "4-501.12",
+       "description": "Cutting Surfaces"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-305.15",
+       "description": "Food Preparation Sink"
+      },
+      {
+       "code": "5-501.11",
+       "description": "Outdoor Storage Surface"
+      },
+      {
+       "code": "6-501.114",
+       "description": "Maintaining Premises, Unnecessary Items and Litter"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      }
+     ]
+    }
+   ],
+   "name": "Little Lincoln Store The",
+   "zip": "19960"
+  },
+  {
+   "address": "20639 Fleatown Road",
+   "city": "Lincoln",
+   "id": "da3fc68b1c",
+   "inspections": [
+    {
+     "date": "2026-03-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-303.11",
+       "description": "Prohibition-Jewelry"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "4-101.16",
+       "description": "Sponges Use Limitation"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-501.114",
+       "description": "Maintaining Premises, Unnecessary Items and Litter"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    }
+   ],
+   "name": "Los Plebes Taco Shop",
+   "zip": "19960"
+  },
+  {
+   "address": "10120 Dupont Hwy",
+   "city": "Lincoln",
+   "id": "07ae41fbfe",
+   "inspections": [
+    {
+     "date": "2026-08-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    }
+   ],
+   "name": "Wilsons Auction",
+   "zip": "19960"
+  },
+  {
+   "address": "10120 Dupont Hwy",
+   "city": "Lincoln",
+   "id": "e2b74d62fc",
+   "inspections": [
+    {
+     "date": "2026-08-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    }
+   ],
+   "name": "Wilsons Auction Annex",
+   "zip": "19960"
+  }
+ ],
+ "slug": "lincoln",
+ "source_updated": "2026-10-09",
+ "town": "Lincoln"
+}

@@ -1,0 +1,209 @@
+{
+ "establishments": [
+  {
+   "address": "109 Main St",
+   "city": "Odessa",
+   "id": "9a71407886",
+   "inspections": [
+    {
+     "date": "2025-05-09",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-25",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    }
+   ],
+   "name": "Cantwells Tavern - Ashby INC - #107",
+   "zip": "19730"
+  },
+  {
+   "address": "102 North 5th Street",
+   "city": "Odessa",
+   "id": "c07e8eb2a3",
+   "inspections": [
+    {
+     "date": "2026-06-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      }
+     ]
+    },
+    {
+     "date": "2025-10-17",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "4-205.10",
+       "description": "Food Equipment, Certification and Classification"
+      }
+     ]
+    },
+    {
+     "date": "2025-09-26",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      },
+      {
+       "code": "4-205.10",
+       "description": "Food Equipment, Certification and Classification"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      }
+     ]
+    }
+   ],
+   "name": "Corner Grounds Cafe",
+   "zip": "19730"
+  },
+  {
+   "address": "513 Main Street",
+   "city": "Odessa",
+   "id": "eebd8ba8e1",
+   "inspections": [
+    {
+     "date": "2025-09-26",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-09-05",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      }
+     ]
+    },
+    {
+     "date": "2025-08-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      }
+     ]
+    },
+    {
+     "date": "2024-12-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-304.11",
+       "description": "Clean Condition-Outer Clothing"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "Lorenzos Pizza",
+   "zip": "19730"
+  },
+  {
+   "address": "304 Main Street",
+   "city": "Odessa",
+   "id": "ceb24ba444",
+   "inspections": [
+    {
+     "date": "2025-01-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    }
+   ],
+   "name": "Odessa Fire Company",
+   "zip": "19730"
+  },
+  {
+   "address": "412 N 6th St",
+   "city": "Odessa",
+   "id": "0d1d09f962",
+   "inspections": [
+    {
+     "date": "2026-02-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-205.10",
+       "description": "Food Equipment, Certification and Classification"
+      }
+     ]
+    }
+   ],
+   "name": "Sunoco",
+   "zip": "19730"
+  }
+ ],
+ "slug": "odessa",
+ "source_updated": "2026-10-09",
+ "town": "Odessa"
+}

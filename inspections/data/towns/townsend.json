@@ -1,0 +1,542 @@
+{
+ "establishments": [
+  {
+   "address": "316 Main Street",
+   "city": "Townsend",
+   "id": "3b1b8112dd",
+   "inspections": [
+    {
+     "date": "2025-09-30",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "4-205.10",
+       "description": "Food Equipment, Certification and Classification"
+      }
+     ]
+    },
+    {
+     "date": "2025-09-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "4-205.10",
+       "description": "Food Equipment, Certification and Classification"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
+     "date": "2025-06-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.112",
+       "description": "Mechanical Warewashing Equipment, Hot Water Sanitization Temperatures"
+      },
+      {
+       "code": "5-202.12",
+       "description": "Handwashing Sinks, Installation"
+      }
+     ]
+    }
+   ],
+   "name": "Bellas Bliss",
+   "zip": "19734"
+  },
+  {
+   "address": "120 Blackbirdforest Rd",
+   "city": "Townsend",
+   "id": "b24417807f",
+   "inspections": [
+    {
+     "date": "2025-04-22",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-04-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "Blackbird Community Ctr",
+   "zip": "19734"
+  },
+  {
+   "address": "101 Karins Blvd",
+   "city": "Townsend",
+   "id": "136bdabd1b",
+   "inspections": [
+    {
+     "date": "2026-06-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      }
+     ]
+    },
+    {
+     "date": "2025-06-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      }
+     ]
+    }
+   ],
+   "name": "Cafe 10:31",
+   "zip": "19734"
+  },
+  {
+   "address": "320 Main Street",
+   "city": "Townsend",
+   "id": "2b8f69678b",
+   "inspections": [
+    {
+     "date": "2025-04-16",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-03-05",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-01-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-304.15",
+       "description": "Gloves, Use Limitation"
+      },
+      {
+       "code": "3-305.15",
+       "description": "Food Preparation Sink"
+      }
+     ]
+    }
+   ],
+   "name": "Cafe Delight Featuring JJS Coffee",
+   "zip": "19734"
+  },
+  {
+   "address": "Tony Marchio Drive",
+   "city": "Townsend",
+   "id": "f3da5a52da",
+   "inspections": [
+    {
+     "date": "2025-10-27",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-10-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "name": "Fair View Campus Culinary Arts",
+   "zip": "19734"
+  },
+  {
+   "address": "209 Main St",
+   "city": "Townsend",
+   "id": "37408cd56d",
+   "inspections": [
+    {
+     "date": "2026-04-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-18",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "name": "Immanuel U M C",
+   "zip": "19734"
+  },
+  {
+   "address": "325 Main St",
+   "city": "Townsend",
+   "id": "9609d5e37e",
+   "inspections": [
+    {
+     "date": "2026-02-26",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "Little Italy - TRIO ENTERPRISES LLC",
+   "zip": "19734"
+  },
+  {
+   "address": "3147 Dupont Parkway",
+   "city": "Townsend",
+   "id": "62cc782085",
+   "inspections": [
+    {
+     "date": "2026-08-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      },
+      {
+       "code": "6-202.15",
+       "description": "Outer Openings, Protected"
+      }
+     ]
+    },
+    {
+     "date": "2026-01-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-19",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "Odessa Diner",
+   "zip": "19734"
+  },
+  {
+   "address": "1131 Fieldsboro Rd",
+   "city": "Townsend",
+   "id": "5a87037c49",
+   "inspections": [
+    {
+     "date": "2026-04-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-402.11",
+       "description": "Conveniently Located"
+      }
+     ]
+    }
+   ],
+   "name": "Odessa National Clubhouse",
+   "zip": "19734"
+  },
+  {
+   "address": "4235 S Dupont Parkway",
+   "city": "Townsend",
+   "id": "232f82fc6e",
+   "inspections": [
+    {
+     "date": "2026-02-26",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-602.11",
+       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-602.11",
+       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
+      }
+     ]
+    },
+    {
+     "date": "2024-11-21",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "name": "Shore Stop #227",
+   "zip": "19734"
+  },
+  {
+   "address": "4296 N Dupont Parkway",
+   "city": "Townsend",
+   "id": "c56b8584c1",
+   "inspections": [
+    {
+     "date": "2024-11-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "Shore Stop #260",
+   "zip": "19734"
+  },
+  {
+   "address": "5988 Summit Bridge Road",
+   "city": "Townsend",
+   "id": "bce7f30215",
+   "inspections": [
+    {
+     "date": "2026-02-26",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      }
+     ]
+    }
+   ],
+   "name": "Townsend Deli",
+   "zip": "19734"
+  },
+  {
+   "address": "126 Main Street",
+   "city": "Townsend",
+   "id": "b6eac13757",
+   "inspections": [
+    {
+     "date": "2025-10-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.110",
+       "description": "Mechanical Warewashing Equipment, Wash Solution Temperature"
+      }
+     ]
+    }
+   ],
+   "name": "Townsend Elementary School",
+   "zip": "19734"
+  },
+  {
+   "address": "107 Main Street",
+   "city": "Townsend",
+   "id": "225f9c03be",
+   "inspections": [
+    {
+     "date": "2024-11-12",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2024-10-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.18",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Disposition"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "name": "Townsend Fire Co",
+   "zip": "19734"
+  },
+  {
+   "address": "4092 Dupont Pkwy",
+   "city": "Townsend",
+   "id": "cba4d87af9",
+   "inspections": [
+    {
+     "date": "2025-05-05",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "name": "Willey Farms - Willeys Inc",
+   "zip": "19734"
+  },
+  {
+   "address": "4092 Dupont Parkway",
+   "city": "Townsend",
+   "id": "a456c16652",
+   "inspections": [
+    {
+     "date": "2025-04-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "Willeys on a Roll",
+   "zip": "19734"
+  }
+ ],
+ "slug": "townsend",
+ "source_updated": "2026-10-09",
+ "town": "Townsend"
+}

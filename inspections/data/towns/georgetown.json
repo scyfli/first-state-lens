@@ -1,0 +1,2078 @@
+{
+ "establishments": [
+  {
+   "address": "21179 College Drive",
+   "city": "Georgetown",
+   "id": "721997d0c4",
+   "inspections": [
+    {
+     "date": "2026-03-31",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      }
+     ]
+    }
+   ],
+   "name": "A Taste of Royalty",
+   "zip": "19947"
+  },
+  {
+   "address": "21553 Rudder Ln Sussex County Airpo",
+   "city": "Georgetown",
+   "id": "375b0a1f37",
+   "inspections": [
+    {
+     "date": "2025-07-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "6-202.15",
+       "description": "Outer Openings, Protected"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "6-501.14",
+       "description": "Cleaning Ventilation Systems, Nuisance and Discharge Prohibition"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    }
+   ],
+   "name": "Arenas Georgetown - Deli Days LLC",
+   "zip": "19947"
+  },
+  {
+   "address": "6 College Park Lane Ste 7",
+   "city": "Georgetown",
+   "id": "4a4b0c6a0d",
+   "inspections": [
+    {
+     "date": "2025-10-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-204.11",
+       "description": "Ventilation Hood Systems, Drip Prevention"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      }
+     ]
+    }
+   ],
+   "name": "Bella Capri Italian Family Restaurant",
+   "zip": "19947"
+  },
+  {
+   "address": "432 East Market St",
+   "city": "Georgetown",
+   "id": "cd036daddc",
+   "inspections": [
+    {
+     "date": "2025-06-26",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Calderon Market LLC",
+   "zip": "19947"
+  },
+  {
+   "address": "21179 College Dr",
+   "city": "Georgetown",
+   "id": "fc66282a69",
+   "inspections": [
+    {
+     "date": "2025-03-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      }
+     ]
+    }
+   ],
+   "name": "Carter Kitchen @ Del Tech Community College",
+   "zip": "19947"
+  },
+  {
+   "address": "101 E Market St",
+   "city": "Georgetown",
+   "id": "eb81e177d5",
+   "inspections": [
+    {
+     "date": "2025-01-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    }
+   ],
+   "name": "Carusos Pizza & Pasta",
+   "zip": "19947"
+  },
+  {
+   "address": "26351 Patriots Way",
+   "city": "Georgetown",
+   "id": "1e94f4f94b",
+   "inspections": [
+    {
+     "date": "2025-01-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      }
+     ]
+    }
+   ],
+   "name": "Children & Families First Stockley (Closed)",
+   "zip": "19947"
+  },
+  {
+   "address": "401 College Park Ln Suite 7",
+   "city": "Georgetown",
+   "id": "9e91a69439",
+   "inspections": [
+    {
+     "date": "2026-06-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      }
+     ]
+    },
+    {
+     "date": "2025-12-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-05",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-01-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-302.12",
+       "description": "Food Temperature Measuring Devices"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-501.14",
+       "description": "Cleaning Ventilation Systems, Nuisance and Discharge Prohibition"
+      }
+     ]
+    }
+   ],
+   "name": "China Wok",
+   "zip": "19947"
+  },
+  {
+   "address": "21179 College Drive",
+   "city": "Georgetown",
+   "id": "19e1c1252b",
+   "inspections": [
+    {
+     "date": "2025-05-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "6-101.11",
+       "description": "Surface Characteristics-Indoor Areas"
+      }
+     ]
+    }
+   ],
+   "name": "Cindys Meals On Wheels Mobile (MOB)",
+   "zip": "19947"
+  },
+  {
+   "address": "413 South Bedford St",
+   "city": "Georgetown",
+   "id": "23de1ed458",
+   "inspections": [
+    {
+     "date": "2026-05-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    }
+   ],
+   "name": "Da Nizza Pizza Georgetown (MOB)",
+   "zip": "19947"
+  },
+  {
+   "address": "16 North Railroad Avenue",
+   "city": "Georgetown",
+   "id": "64c95fda32",
+   "inspections": [
+    {
+     "date": "2025-10-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "Delaware Nutrition",
+   "zip": "19947"
+  },
+  {
+   "address": "20775 Dupont Boulevard",
+   "city": "Georgetown",
+   "id": "456147dad8",
+   "inspections": [
+    {
+     "date": "2025-09-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Dominos Pizza (Closed)",
+   "zip": "19947"
+  },
+  {
+   "address": "2 Georgetown Plaza",
+   "city": "Georgetown",
+   "id": "2073c1eb11",
+   "inspections": [
+    {
+     "date": "2025-01-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "6-501.14",
+       "description": "Cleaning Ventilation Systems, Nuisance and Discharge Prohibition"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      },
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      }
+     ]
+    }
+   ],
+   "name": "DQ Grill & Chill (Closed)",
+   "zip": "19947"
+  },
+  {
+   "address": "2 Georgetown Plaza",
+   "city": "Georgetown",
+   "id": "2d99864aaf",
+   "inspections": [
+    {
+     "date": "2026-01-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    }
+   ],
+   "name": "DQ Grill & Chill - Schatz Treats LLC - Georgetown",
+   "zip": "19947"
+  },
+  {
+   "address": "16982 Wilson Hill Road",
+   "city": "Georgetown",
+   "id": "ca9ad90725",
+   "inspections": [
+    {
+     "date": "2025-03-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-401.11",
+       "description": "Eating, Drinking, or Using Tobacco"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    }
+   ],
+   "name": "El Gordo Taco MX",
+   "zip": "19947"
+  },
+  {
+   "address": "6 College Park Ln Suite 6",
+   "city": "Georgetown",
+   "id": "7fc073709d",
+   "inspections": [
+    {
+     "date": "2025-10-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-204.11",
+       "description": "Ventilation Hood Systems, Drip Prevention"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    }
+   ],
+   "name": "EL GRAN CHARRO MEXICAN STORE AND RESTAURANT LLC",
+   "zip": "19947"
+  },
+  {
+   "address": "22277 Lewes Georgetown Hwy",
+   "city": "Georgetown",
+   "id": "e031dca165",
+   "inspections": [
+    {
+     "date": "2025-01-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    }
+   ],
+   "name": "El Picante Latin Restaurant LLC",
+   "zip": "19947"
+  },
+  {
+   "address": "4 Highland Terrace",
+   "city": "Georgetown",
+   "id": "9ca45c0979",
+   "inspections": [
+    {
+     "date": "2025-07-31",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-101.11",
+       "description": "Surface Characteristics-Indoor Areas"
+      },
+      {
+       "code": "6-202.15",
+       "description": "Outer Openings, Protected"
+      }
+     ]
+    }
+   ],
+   "name": "Everlasting Hope Ministries Mobile Unit",
+   "zip": "19947"
+  },
+  {
+   "address": "21710 Roth Avenue",
+   "city": "Georgetown",
+   "id": "54514a3a57",
+   "inspections": [
+    {
+     "date": "2026-09-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-403.11",
+       "description": "Reheating for Hot Holding"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      }
+     ]
+    }
+   ],
+   "name": "Fins Oyster Bar & Grill - Georgetown",
+   "zip": "19947"
+  },
+  {
+   "address": "115 East Market Street",
+   "city": "Georgetown",
+   "id": "a197f2a0bf",
+   "inspections": [
+    {
+     "date": "2026-05-01",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-10-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    },
+    {
+     "date": "2024-11-01",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-204.11",
+       "description": "Ventilation Hood Systems, Drip Prevention"
+      },
+      {
+       "code": "5-202.13",
+       "description": "Backflow Prevention, Air Gap"
+      }
+     ]
+    }
+   ],
+   "name": "Georgetown Family Restaurant Inc",
+   "zip": "19947"
+  },
+  {
+   "address": "3 Georgetown Plaza",
+   "city": "Georgetown",
+   "id": "a28a7d5da8",
+   "inspections": [
+    {
+     "date": "2026-02-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-06-25",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "6-501.14",
+       "description": "Cleaning Ventilation Systems, Nuisance and Discharge Prohibition"
+      }
+     ]
+    }
+   ],
+   "name": "Georgetown Pizza Palace",
+   "zip": "19947"
+  },
+  {
+   "address": "20893 Dupont Blvd",
+   "city": "Georgetown",
+   "id": "f0665c76ff",
+   "inspections": [
+    {
+     "date": "2026-03-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Harvest Diner",
+   "zip": "19947"
+  },
+  {
+   "address": "28 Georgetown Plaza",
+   "city": "Georgetown",
+   "id": "58d0a08a18",
+   "inspections": [
+    {
+     "date": "2026-05-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
+     "date": "2025-11-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
+     "date": "2025-05-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "6-303.11",
+       "description": "Intensity-Lighting"
+      }
+     ]
+    }
+   ],
+   "name": "J & J Bagel",
+   "zip": "19947"
+  },
+  {
+   "address": "118 North Race Street",
+   "city": "Georgetown",
+   "id": "01f6d1d379",
+   "inspections": [
+    {
+     "date": "2026-02-25",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
+     "date": "2025-07-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "6-201.12",
+       "description": "Floors, Walls, and Ceilings, Utility Lines"
+      }
+     ]
+    }
+   ],
+   "name": "Joes Market La Mexicana Tienda Y Taqueria",
+   "zip": "19947"
+  },
+  {
+   "address": "20633 Dupont Boulevard",
+   "city": "Georgetown",
+   "id": "6f178de121",
+   "inspections": [
+    {
+     "date": "2025-03-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      }
+     ]
+    }
+   ],
+   "name": "JoJos Express",
+   "zip": "19947"
+  },
+  {
+   "address": "7 East Market Street",
+   "city": "Georgetown",
+   "id": "35f5936da5",
+   "inspections": [
+    {
+     "date": "2026-05-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      }
+     ]
+    }
+   ],
+   "name": "Karmic Creations",
+   "zip": "19947"
+  },
+  {
+   "address": "21179 College Dr",
+   "city": "Georgetown",
+   "id": "bbf4f39443",
+   "inspections": [
+    {
+     "date": "2026-01-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      }
+     ]
+    },
+    {
+     "date": "2025-07-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.14",
+       "description": "Wiping Cloths, Use Limitation"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      }
+     ]
+    }
+   ],
+   "name": "Lighthouse Cove & Catering @ Del Tech - M & P Adve",
+   "zip": "19947"
+  },
+  {
+   "address": "432 E Market St",
+   "city": "Georgetown",
+   "id": "5228280dc9",
+   "inspections": [
+    {
+     "date": "2025-10-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Little Caesars",
+   "zip": "19947"
+  },
+  {
+   "address": "432 E Market St",
+   "city": "Georgetown",
+   "id": "080c0dc490",
+   "inspections": [
+    {
+     "date": "2025-01-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    }
+   ],
+   "name": "Little Caesars (Closed)",
+   "zip": "19947"
+  },
+  {
+   "address": "206 N Race Street",
+   "city": "Georgetown",
+   "id": "bc326c2026",
+   "inspections": [
+    {
+     "date": "2025-10-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      },
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      }
+     ]
+    },
+    {
+     "date": "2024-11-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-603.16",
+       "description": "Rinsing Procedures"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-202.14",
+       "description": "Toilet Rooms, Enclosed"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "Little Mexico",
+   "zip": "19947"
+  },
+  {
+   "address": "110 Kimmey Street Suite 102",
+   "city": "Georgetown",
+   "id": "b255735899",
+   "inspections": [
+    {
+     "date": "2025-03-26",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      }
+     ]
+    }
+   ],
+   "name": "Los Karnales",
+   "zip": "19947"
+  },
+  {
+   "address": "20817 Dupont Hwy",
+   "city": "Georgetown",
+   "id": "23c994c5c5",
+   "inspections": [
+    {
+     "date": "2025-04-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "McDonalds - The Meoli Companies - #4959",
+   "zip": "19947"
+  },
+  {
+   "address": "22297 Dupont Hwy",
+   "city": "Georgetown",
+   "id": "826efc1329",
+   "inspections": [
+    {
+     "date": "2025-05-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    }
+   ],
+   "name": "Microtel Inn And Suites",
+   "zip": "19947"
+  },
+  {
+   "address": "22426 Sussex Pines Rd",
+   "city": "Georgetown",
+   "id": "2c823b7650",
+   "inspections": [
+    {
+     "date": "2025-05-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      }
+     ]
+    },
+    {
+     "date": "2024-11-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    }
+   ],
+   "name": "Mulligans Pointe",
+   "zip": "19947"
+  },
+  {
+   "address": "139 East Market Street",
+   "city": "Georgetown",
+   "id": "734d2f9322",
+   "inspections": [
+    {
+     "date": "2026-04-01",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-09-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-26",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    }
+   ],
+   "name": "New No1 Chinese Restaurant",
+   "zip": "19947"
+  },
+  {
+   "address": "664 N Bedford St",
+   "city": "Georgetown",
+   "id": "d786730c7c",
+   "inspections": [
+    {
+     "date": "2025-03-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      }
+     ]
+    }
+   ],
+   "name": "North Georgetown Elementary-� - Indian River Sch",
+   "zip": "19947"
+  },
+  {
+   "address": "21779 College Drive",
+   "city": "Georgetown",
+   "id": "13bf783779",
+   "inspections": [
+    {
+     "date": "2025-10-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      }
+     ]
+    }
+   ],
+   "name": "On a Rollll",
+   "zip": "19947"
+  },
+  {
+   "address": "25 Georgetown Plaza",
+   "city": "Georgetown",
+   "id": "f667888251",
+   "inspections": [
+    {
+     "date": "2026-02-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    },
+    {
+     "date": "2025-07-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-27",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-501.14",
+       "description": "Cleaning Ventilation Systems, Nuisance and Discharge Prohibition"
+      }
+     ]
+    }
+   ],
+   "name": "Ortiz Bakery",
+   "zip": "19947"
+  },
+  {
+   "address": "22303 Dupont Boulevard",
+   "city": "Georgetown",
+   "id": "5ba51250dc",
+   "inspections": [
+    {
+     "date": "2026-08-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      }
+     ]
+    },
+    {
+     "date": "2025-08-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-402.11",
+       "description": "Fixed Equipment, Spacing or Sealing-Installation"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "4-904.11",
+       "description": "Kitchenware and Tableware-Preventing Contamination"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-301.14",
+       "description": "Handwashing Signage"
+      }
+     ]
+    }
+   ],
+   "name": "PAM Health Rehabilitation Hospital - Georgetown -",
+   "zip": "19947"
+  },
+  {
+   "address": "200 Savannah Rd",
+   "city": "Georgetown",
+   "id": "4495cdc81b",
+   "inspections": [
+    {
+     "date": "2025-09-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-303.11",
+       "description": "Intensity-Lighting"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "7-209.11",
+       "description": "Storage-Other Personal Care Items"
+      }
+     ]
+    }
+   ],
+   "name": "Perdue Farms Cafeteria",
+   "zip": "19947"
+  },
+  {
+   "address": "401 College Dr Sute 1 & 2",
+   "city": "Georgetown",
+   "id": "988ccdb37c",
+   "inspections": [
+    {
+     "date": "2026-05-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2024-11-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    }
+   ],
+   "name": "Pizza King - Baynum Enterprises Inc",
+   "zip": "19947"
+  },
+  {
+   "address": "522 N Bedford St",
+   "city": "Georgetown",
+   "id": "1ef1331be7",
+   "inspections": [
+    {
+     "date": "2025-04-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-101.16",
+       "description": "Sponges Use Limitation"
+      },
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      }
+     ]
+    },
+    {
+     "date": "2024-11-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    }
+   ],
+   "name": "Restaurante Celajes Tacana",
+   "zip": "19947"
+  },
+  {
+   "address": "110 N Race St Suite106",
+   "city": "Georgetown",
+   "id": "49dd8c63e5",
+   "inspections": [
+    {
+     "date": "2026-02-26",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      }
+     ]
+    },
+    {
+     "date": "2025-07-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      }
+     ]
+    }
+   ],
+   "name": "Restaurante Mi Laurita",
+   "zip": "19947"
+  },
+  {
+   "address": "21092 Arrow Safety Rd",
+   "city": "Georgetown",
+   "id": "dfe9cc6369",
+   "inspections": [
+    {
+     "date": "2024-12-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    }
+   ],
+   "name": "Royal Farms #219",
+   "zip": "19947"
+  },
+  {
+   "address": "21 Georgetown Plaza",
+   "city": "Georgetown",
+   "id": "d784483f02",
+   "inspections": [
+    {
+     "date": "2025-06-25",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      }
+     ]
+    }
+   ],
+   "name": "Sol Azteca",
+   "zip": "19947"
+  },
+  {
+   "address": "201 College Park Lane",
+   "city": "Georgetown",
+   "id": "894158c605",
+   "inspections": [
+    {
+     "date": "2025-06-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "name": "Starbucks Coffee - Starbucks Corporation - #50514",
+   "zip": "19947"
+  },
+  {
+   "address": "26072 Dupont Blvd",
+   "city": "Georgetown",
+   "id": "5f3d3f1c3a",
+   "inspections": [
+    {
+     "date": "2026-06-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-07-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      }
+     ]
+    }
+   ],
+   "name": "Stockley Tavern",
+   "zip": "19947"
+  },
+  {
+   "address": "6 College Park Lane Suite 15",
+   "city": "Georgetown",
+   "id": "409beb0197",
+   "inspections": [
+    {
+     "date": "2026-05-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-202.11",
+       "description": "Light Bulbs, Protective Shielding"
+      }
+     ]
+    },
+    {
+     "date": "2025-06-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "6-202.11",
+       "description": "Light Bulbs, Protective Shielding"
+      }
+     ]
+    }
+   ],
+   "name": "Subway #22952",
+   "zip": "19947"
+  },
+  {
+   "address": "21655 Biden Ave",
+   "city": "Georgetown",
+   "id": "a255434de8",
+   "inspections": [
+    {
+     "date": "2026-08-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      }
+     ]
+    },
+    {
+     "date": "2025-09-12",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "4-101.19",
+       "description": "Nonfood-Contact Surfaces"
+      },
+      {
+       "code": "4-205.10",
+       "description": "Food Equipment, Certification and Classification"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    },
+    {
+     "date": "2025-09-11",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "4-101.19",
+       "description": "Nonfood-Contact Surfaces"
+      },
+      {
+       "code": "4-205.10",
+       "description": "Food Equipment, Certification and Classification"
+      },
+      {
+       "code": "4-302.13",
+       "description": "Temperature Measuring Devices, Manual and Mechanical Warewashing"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    },
+    {
+     "date": "2025-08-19",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "4-101.19",
+       "description": "Nonfood-Contact Surfaces"
+      },
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      },
+      {
+       "code": "4-205.10",
+       "description": "Food Equipment, Certification and Classification"
+      },
+      {
+       "code": "4-302.13",
+       "description": "Temperature Measuring Devices, Manual and Mechanical Warewashing"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "5-103.11",
+       "description": "Capacity-Quantity and Availability"
+      },
+      {
+       "code": "5-501.17",
+       "description": "Toilet Room Receptacle, Covered"
+      },
+      {
+       "code": "7-209.11",
+       "description": "Storage-Other Personal Care Items"
+      }
+     ]
+    }
+   ],
+   "name": "Sun Behavioral - Unidine",
+   "zip": "19947"
+  },
+  {
+   "address": "23203 Dupont Boulevard",
+   "city": "Georgetown",
+   "id": "448e42bda0",
+   "inspections": [
+    {
+     "date": "2025-10-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-202.15",
+       "description": "Outer Openings, Protected"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    }
+   ],
+   "name": "Sussex Correctional Institution",
+   "zip": "19947"
+  },
+  {
+   "address": "23207 Dupont Boulevard",
+   "city": "Georgetown",
+   "id": "edcedcdfeb",
+   "inspections": [
+    {
+     "date": "2025-10-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    }
+   ],
+   "name": "Sussex Violation of Probation Center",
+   "zip": "19947"
+  },
+  {
+   "address": "24 Georgetown Plaza",
+   "city": "Georgetown",
+   "id": "8e7964eebd",
+   "inspections": [
+    {
+     "date": "2026-05-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.112",
+       "description": "Removing Dead or Trapped Birds, Insects, Rodents and other Pest"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-10-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Thai Bistro - Georgetown",
+   "zip": "19947"
+  },
+  {
+   "address": "411 Kimmey Street",
+   "city": "Georgetown",
+   "id": "105c813eda",
+   "inspections": [
+    {
+     "date": "2026-02-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      }
+     ]
+    },
+    {
+     "date": "2026-02-09",
+     "type": "Complaint",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      }
+     ]
+    }
+   ],
+   "name": "The Springboard Collaborative",
+   "zip": "19947"
+  },
+  {
+   "address": "6 College Park Drive Unit 10",
+   "city": "Georgetown",
+   "id": "57b411f6e4",
+   "inspections": [
+    {
+     "date": "2026-09-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      }
+     ]
+    }
+   ],
+   "name": "Umami Sushi and Ramen Bar",
+   "zip": "19947"
+  },
+  {
+   "address": "4 College Park Lane",
+   "city": "Georgetown",
+   "id": "c846c028b6",
+   "inspections": [
+    {
+     "date": "2025-06-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Walmart Super Center - Georgetown - Walmart Inc -",
+   "zip": "19947"
+  },
+  {
+   "address": "20938 Dupont Boulevard",
+   "city": "Georgetown",
+   "id": "14a53c3ed1",
+   "inspections": [
+    {
+     "date": "2025-06-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Wawa Food Market #884",
+   "zip": "19947"
+  }
+ ],
+ "slug": "georgetown",
+ "source_updated": "2026-10-09",
+ "town": "Georgetown"
+}

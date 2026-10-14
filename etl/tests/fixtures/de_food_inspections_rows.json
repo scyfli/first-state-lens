@@ -1,0 +1,294 @@
+[
+ {
+  "geocoded_column": {
+   "human_address": "{\"address\": \"518 New Castle Avenue\", \"city\": \"Wilmington\", \"state\": \"DE\", \"zip\": \"19801\"}",
+   "latitude": "39.72786",
+   "longitude": "-75.54332"
+  },
+  "insp_date": "2025-05-05T00:00:00.000",
+  "insp_type": "Routine",
+  "restaddress": "518 New Castle Avenue",
+  "restcity": "Wilmington",
+  "restname": "3 Cs Deli",
+  "restzip": "19801",
+  "vio_desc": "Food Storage Containers Identified with Common Name of Food",
+  "violation": "3-302.12"
+ },
+ {
+  "insp_date": "2025-05-05T00:00:00.000",
+  "insp_type": "Routine",
+  "restaddress": "518 New Castle Avenue",
+  "restcity": "Wilmington",
+  "restname": "3 Cs Deli",
+  "restzip": "19801",
+  "vio_desc": "Time/Temperature Control for Safety Food, Hot and Cold Holding",
+  "violation": "3-501.16"
+ },
+ {
+  "insp_date": "2025-05-05T00:00:00.000",
+  "insp_type": "Routine",
+  "restaddress": "518 New Castle Avenue",
+  "restcity": "Wilmington",
+  "restname": "3 Cs Deli",
+  "restzip": "19801",
+  "vio_desc": "Sanitizing Solutions, Testing Devices",
+  "violation": "4-302.14"
+ },
+ {
+  "insp_date": "2025-05-05T00:00:00.000",
+  "insp_type": "Routine",
+  "restaddress": "518 New Castle Avenue",
+  "restcity": "Wilmington",
+  "restname": "3 Cs Deli",
+  "restzip": "19801",
+  "vio_desc": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils",
+  "violation": "4-601.11"
+ },
+ {
+  "insp_date": "2025-05-05T00:00:00.000",
+  "insp_type": "Routine",
+  "restaddress": "518 New Castle Avenue",
+  "restcity": "Wilmington",
+  "restname": "3 Cs Deli",
+  "restzip": "19801",
+  "vio_desc": "Handwashing Cleanser, Availability",
+  "violation": "6-301.11"
+ },
+ {
+  "insp_date": "2025-05-05T00:00:00.000",
+  "insp_type": "Routine",
+  "restaddress": "518 New Castle Avenue",
+  "restcity": "Wilmington",
+  "restname": "3 Cs Deli",
+  "restzip": "19801",
+  "vio_desc": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods",
+  "violation": "6-501.11"
+ },
+ {
+  "insp_date": "2025-05-05T00:00:00.000",
+  "insp_type": "Routine",
+  "restaddress": "518 New Castle Avenue",
+  "restcity": "Wilmington",
+  "restname": "3 Cs Deli",
+  "restzip": "19801",
+  "vio_desc": "Cleaning, Frequency and Restrictions",
+  "violation": "6-501.12"
+ },
+ {
+  "insp_date": "2025-05-05T00:00:00.000",
+  "insp_type": "Routine",
+  "restaddress": "518 New Castle Avenue",
+  "restcity": "Wilmington",
+  "restname": "3 Cs Deli",
+  "restzip": "19801",
+  "vio_desc": "Cleaning Ventilation Systems, Nuisance and Discharge Prohibition",
+  "violation": "6-501.14"
+ },
+ {
+  "insp_date": "2025-05-13T00:00:00.000",
+  "insp_type": "Follow-up",
+  "restaddress": "518 New Castle Avenue",
+  "restcity": "Wilmington",
+  "restname": "3 Cs Deli",
+  "restzip": "19801",
+  "vio_desc": "Food Storage Containers Identified with Common Name of Food",
+  "violation": "3-302.12"
+ },
+ {
+  "insp_date": "2025-05-22T00:00:00.000",
+  "insp_type": "Follow-up",
+  "restaddress": "518 New Castle Avenue",
+  "restcity": "Wilmington",
+  "restname": "3 Cs Deli",
+  "restzip": "19801"
+ },
+ {
+  "insp_date": "2026-06-08T00:00:00.000",
+  "insp_type": "Routine",
+  "restaddress": "518 New Castle Avenue",
+  "restcity": "Wilmington",
+  "restname": "3 Cs Deli",
+  "restzip": "19801",
+  "vio_desc": "Other Forms of Information",
+  "violation": "3-602.12"
+ },
+ {
+  "insp_date": "2026-06-08T00:00:00.000",
+  "insp_type": "Routine",
+  "restaddress": "518 New Castle Avenue",
+  "restcity": "Wilmington",
+  "restname": "3 Cs Deli",
+  "restzip": "19801",
+  "vio_desc": "Temperature Measuring Devices-Functionality",
+  "violation": "4-204.112"
+ },
+ {
+  "insp_date": "2026-06-08T00:00:00.000",
+  "insp_type": "Routine",
+  "restaddress": "518 New Castle Avenue",
+  "restcity": "Wilmington",
+  "restname": "3 Cs Deli",
+  "restzip": "19801",
+  "vio_desc": "Toilet Room Receptacle, Covered",
+  "violation": "5-501.17"
+ },
+ {
+  "insp_date": "2026-07-08T00:00:00.000",
+  "insp_type": "Routine",
+  "restaddress": "23 Bellevue Str Store 1",
+  "restcity": "Dewey  Beach",
+  "restname": "Vanderwendes At Dewey",
+  "restzip": "19971",
+  "vio_desc": "Certified Food Protection Manager",
+  "violation": "2-102.12"
+ },
+ {
+  "insp_date": "2026-07-08T00:00:00.000",
+  "insp_type": "Routine",
+  "restaddress": "23 Bellevue Str Store 1",
+  "restcity": "Dewey  Beach",
+  "restname": "Vanderwendes At Dewey",
+  "restzip": "19971",
+  "vio_desc": "Sanitizing Solutions, Testing Devices",
+  "violation": "4-302.14"
+ },
+ {
+  "insp_date": "2026-07-08T00:00:00.000",
+  "insp_type": "Routine",
+  "restaddress": "23 Bellevue Str Store 1",
+  "restcity": "Dewey  Beach",
+  "restname": "Vanderwendes At Dewey",
+  "restzip": "19971",
+  "vio_desc": "Toilet Rooms, Enclosed",
+  "violation": "6-202.14"
+ },
+ {
+  "insp_date": "2026-07-08T00:00:00.000",
+  "insp_type": "Routine",
+  "restaddress": "23 Bellevue Str Store 1",
+  "restcity": "Dewey  Beach",
+  "restname": "Vanderwendes At Dewey",
+  "restzip": "19971",
+  "vio_desc": "Handwashing Signage",
+  "violation": "6-301.14"
+ },
+ {
+  "insp_date": "2025-09-23T00:00:00.000",
+  "insp_type": "Routine",
+  "restcity": "Wilmington",
+  "restname": "Dueling Rabbits",
+  "restzip": "19801",
+  "vio_desc": "Wall and Ceiling Coverings and Coatings",
+  "violation": "6-201.16"
+ },
+ {
+  "insp_date": "2025-01-31T00:00:00.000",
+  "insp_type": "Routine",
+  "restaddress": "158 E Main St",
+  "restcity": "Newark",
+  "restname": "Klondike Kates",
+  "restzip": "19711",
+  "vio_desc": "Handwashing Cleanser, Availability",
+  "violation": "6-301.11"
+ },
+ {
+  "insp_date": "2026-11-18T00:00:00.000",
+  "insp_type": "Routine",
+  "restaddress": "3014 North Dupont Highway",
+  "restcity": "Camden",
+  "restname": "Dairy Queen (Camden)",
+  "restzip": "19934",
+  "vio_desc": "Effectiveness-Hair Restraints",
+  "violation": "2-402.11"
+ },
+ {
+  "insp_date": "2026-11-18T00:00:00.000",
+  "insp_type": "Routine",
+  "restaddress": "3014 North Dupont Highway",
+  "restcity": "Camden",
+  "restname": "Dairy Queen (Camden)",
+  "restzip": "19934",
+  "vio_desc": "Nonfood-Contact Surfaces",
+  "violation": "4-101.19"
+ },
+ {
+  "insp_date": "2026-11-18T00:00:00.000",
+  "insp_type": "Routine",
+  "restaddress": "3014 North Dupont Highway",
+  "restcity": "Camden",
+  "restname": "Dairy Queen (Camden)",
+  "restzip": "19934",
+  "vio_desc": "Good Repair and Proper Adjustment-Equipment",
+  "violation": "4-501.11"
+ },
+ {
+  "insp_date": "2026-11-18T00:00:00.000",
+  "insp_type": "Routine",
+  "restaddress": "3014 North Dupont Highway",
+  "restcity": "Camden",
+  "restname": "Dairy Queen (Camden)",
+  "restzip": "19934",
+  "vio_desc": "Rinsing Procedures",
+  "violation": "4-603.16"
+ },
+ {
+  "insp_date": "2026-11-18T00:00:00.000",
+  "insp_type": "Routine",
+  "restaddress": "3014 North Dupont Highway",
+  "restcity": "Camden",
+  "restname": "Dairy Queen (Camden)",
+  "restzip": "19934",
+  "vio_desc": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing",
+  "violation": "4-903.11"
+ },
+ {
+  "insp_date": "2026-11-18T00:00:00.000",
+  "insp_type": "Routine",
+  "restaddress": "3014 North Dupont Highway",
+  "restcity": "Camden",
+  "restname": "Dairy Queen (Camden)",
+  "restzip": "19934",
+  "vio_desc": "Using Drain Plugs",
+  "violation": "5-501.114"
+ },
+ {
+  "insp_date": "2026-11-18T00:00:00.000",
+  "insp_type": "Routine",
+  "restaddress": "3014 North Dupont Highway",
+  "restcity": "Camden",
+  "restname": "Dairy Queen (Camden)",
+  "restzip": "19934",
+  "vio_desc": "Floors, Walls and Ceilings-Cleanability",
+  "violation": "6-201.11"
+ },
+ {
+  "insp_date": "2026-11-18T00:00:00.000",
+  "insp_type": "Routine",
+  "restaddress": "3014 North Dupont Highway",
+  "restcity": "Camden",
+  "restname": "Dairy Queen (Camden)",
+  "restzip": "19934",
+  "vio_desc": "Cleaning, Frequency and Restrictions",
+  "violation": "6-501.12"
+ },
+ {
+  "insp_date": "2026-12-03T00:00:00.000",
+  "insp_type": "Routine",
+  "restaddress": "108 North Railroad Avenue",
+  "restcity": "Wyoming",
+  "restname": "Mike & Mels Family Restaurant - MMW Restaurant I",
+  "restzip": "19934",
+  "vio_desc": "Time/Temperature Control for Safety Food, Hot and Cold Holding",
+  "violation": "3-501.16"
+ },
+ {
+  "insp_date": "2026-12-03T00:00:00.000",
+  "insp_type": "Routine",
+  "restaddress": "108 North Railroad Avenue",
+  "restcity": "Wyoming",
+  "restname": "Mike & Mels Family Restaurant - MMW Restaurant I",
+  "restzip": "19934",
+  "vio_desc": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods",
+  "violation": "6-501.11"
+ }
+]

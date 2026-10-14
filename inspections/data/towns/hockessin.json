@@ -1,0 +1,1851 @@
+{
+ "establishments": [
+  {
+   "address": "701 Ace Memorial Drive",
+   "city": "Hockessin",
+   "id": "cc047d127a",
+   "inspections": [
+    {
+     "date": "2024-10-21",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "6-501.14",
+       "description": "Cleaning Ventilation Systems, Nuisance and Discharge Prohibition"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "2-301.14",
+       "description": "When to Wash"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "6-501.14",
+       "description": "Cleaning Ventilation Systems, Nuisance and Discharge Prohibition"
+      }
+     ]
+    }
+   ],
+   "name": "2 Fat Guys American Grill",
+   "zip": "19707"
+  },
+  {
+   "address": "128 Lantana Dr",
+   "city": "Hockessin",
+   "id": "17da940b6f",
+   "inspections": [
+    {
+     "date": "2026-06-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    }
+   ],
+   "name": "Acme Market Store - Albertsons Companies Inc -",
+   "zip": "19707"
+  },
+  {
+   "address": "425 Hockessin Corner",
+   "city": "Hockessin",
+   "id": "ac0acb5a51",
+   "inspections": [
+    {
+     "date": "2025-04-14",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-04-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      }
+     ]
+    }
+   ],
+   "name": "Back Burner",
+   "zip": "19707"
+  },
+  {
+   "address": "120 Lantana Dr",
+   "city": "Hockessin",
+   "id": "0df04e838b",
+   "inspections": [
+    {
+     "date": "2026-08-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "6-501.19",
+       "description": "Closing Toilet Room Doors"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-03",
+     "type": "Follow-up",
+     "violations": []
+    }
+   ],
+   "name": "Capriottis DE130",
+   "zip": "19707"
+  },
+  {
+   "address": "711 Ace Memorial Dr",
+   "city": "Hockessin",
+   "id": "c78d53c45a",
+   "inspections": [
+    {
+     "date": "2024-10-22",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      },
+      {
+       "code": "6-202.14",
+       "description": "Toilet Rooms, Enclosed"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-21",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      },
+      {
+       "code": "6-202.14",
+       "description": "Toilet Rooms, Enclosed"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      },
+      {
+       "code": "8-404.11",
+       "description": "Ceasing Operations and Reporting"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-301.11",
+       "description": "Preventing Contamination from Hands"
+      },
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "6-202.14",
+       "description": "Toilet Rooms, Enclosed"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      }
+     ]
+    }
+   ],
+   "name": "Casa Puebla Restaurant (Closed)",
+   "zip": "19707"
+  },
+  {
+   "address": "7181 Lancaster Pike",
+   "city": "Hockessin",
+   "id": "72196d77e4",
+   "inspections": [
+    {
+     "date": "2025-06-27",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      }
+     ]
+    }
+   ],
+   "name": "Casapullas Hockessin Subs & Steaks",
+   "zip": "19707"
+  },
+  {
+   "address": "717 Loveville Road",
+   "city": "Hockessin",
+   "id": "b72fe4de77",
+   "inspections": [
+    {
+     "date": "2025-01-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      }
+     ]
+    }
+   ],
+   "name": "Delaware Korean United Methodist Church",
+   "zip": "19707"
+  },
+  {
+   "address": "7288 Lancaster Pike",
+   "city": "Hockessin",
+   "id": "056055b9af",
+   "inspections": [
+    {
+     "date": "2026-06-26",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-31",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      }
+     ]
+    }
+   ],
+   "name": "Docs Meat Market",
+   "zip": "19707"
+  },
+  {
+   "address": "144 Lantana Dr",
+   "city": "Hockessin",
+   "id": "a47dd8d914",
+   "inspections": [
+    {
+     "date": "2026-06-03",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2026-05-27",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "3-304.14",
+       "description": "Wiping Cloths, Use Limitation"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-501.13",
+       "description": "Thawing"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-03",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      }
+     ]
+    }
+   ],
+   "name": "Drip Cafe- Hockessin - Drip Cafe LLC",
+   "zip": "19707"
+  },
+  {
+   "address": "7454 Lancaster Pike Unit 2",
+   "city": "Hockessin",
+   "id": "fef42632d4",
+   "inspections": [
+    {
+     "date": "2026-05-27",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      }
+     ]
+    }
+   ],
+   "name": "Dunkin - RSD Donuts LLC",
+   "zip": "19707"
+  },
+  {
+   "address": "7313 Lancaster Pike",
+   "city": "Hockessin",
+   "id": "1ce09dcfc6",
+   "inspections": [
+    {
+     "date": "2025-03-27",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-03-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "name": "Famous Rivera Grill Restaurant",
+   "zip": "19707"
+  },
+  {
+   "address": "80 Lantana Drive Lantana Square",
+   "city": "Hockessin",
+   "id": "c1466d4408",
+   "inspections": [
+    {
+     "date": "2026-04-23",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2026-04-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "5-103.11",
+       "description": "Capacity-Quantity and Availability"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    }
+   ],
+   "name": "Friendlys - Hockessin - RRC Restaurants",
+   "zip": "19707"
+  },
+  {
+   "address": "7288 Lancaster Pike #4b",
+   "city": "Hockessin",
+   "id": "bd66dcbd49",
+   "inspections": [
+    {
+     "date": "2026-08-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-101.19",
+       "description": "Nonfood-Contact Surfaces"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-31",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    }
+   ],
+   "name": "Golden City Chinese Restaurant",
+   "zip": "19707"
+  },
+  {
+   "address": "683 Yorklyn Rd",
+   "city": "Hockessin",
+   "id": "d88ed9dce9",
+   "inspections": [
+    {
+     "date": "2025-02-19",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-02-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "name": "Grave Craze",
+   "zip": "19707"
+  },
+  {
+   "address": "228 Lantana Drive",
+   "city": "Hockessin",
+   "id": "674db32dca",
+   "inspections": [
+    {
+     "date": "2025-08-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-202.13",
+       "description": "Insect Control Devices, Design and Installation"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Harpers Asian Bistro",
+   "zip": "19707"
+  },
+  {
+   "address": "735 Meeting House Rd",
+   "city": "Hockessin",
+   "id": "68568bce4a",
+   "inspections": [
+    {
+     "date": "2025-10-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      }
+     ]
+    }
+   ],
+   "name": "Henry B du Pont Middle School - Red Clay Consolid",
+   "zip": "19707"
+  },
+  {
+   "address": "100 Fitness Way",
+   "city": "Hockessin",
+   "id": "ec8ac2a4bc",
+   "inspections": [
+    {
+     "date": "2025-03-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "3-304.14",
+       "description": "Wiping Cloths, Use Limitation"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "name": "Hockessin Athletic Club & Wellness Center",
+   "zip": "19707"
+  },
+  {
+   "address": "1225 Old Lancaster Pike",
+   "city": "Hockessin",
+   "id": "f7952c055d",
+   "inspections": [
+    {
+     "date": "2026-04-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
+     "date": "2026-04-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "name": "Hockessin Memorial Hall",
+   "zip": "19707"
+  },
+  {
+   "address": "1336 Old Lancaster Pike",
+   "city": "Hockessin",
+   "id": "d533a90c11",
+   "inspections": [
+    {
+     "date": "2025-09-05",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-09-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "name": "House Of William And Merry the",
+   "zip": "19707"
+  },
+  {
+   "address": "700 Lantana Dr",
+   "city": "Hockessin",
+   "id": "39e3704a28",
+   "inspections": [
+    {
+     "date": "2025-03-26",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    }
+   ],
+   "name": "La Tonalteca- Lantana Drive",
+   "zip": "19707"
+  },
+  {
+   "address": "1318 Old Lancaster Pike",
+   "city": "Hockessin",
+   "id": "71652d1032",
+   "inspections": [
+    {
+     "date": "2026-08-11",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2026-07-31",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "5-501.17",
+       "description": "Toilet Room Receptacle, Covered"
+      }
+     ]
+    },
+    {
+     "date": "2024-12-20",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2024-12-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "name": "Letties Kitchen",
+   "zip": "19707"
+  },
+  {
+   "address": "723 Ace Memorial Drive",
+   "city": "Hockessin",
+   "id": "853c3acfae",
+   "inspections": [
+    {
+     "date": "2026-07-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-202.18",
+       "description": "Ventilation Hood Systems, Filters"
+      },
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      },
+      {
+       "code": "6-303.11",
+       "description": "Intensity-Lighting"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      }
+     ]
+    }
+   ],
+   "name": "Luigis Cafe",
+   "zip": "19707"
+  },
+  {
+   "address": "711 Ace Memorial Drive",
+   "city": "Hockessin",
+   "id": "a116c780c2",
+   "inspections": [
+    {
+     "date": "2026-02-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "3-501.18",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Disposition"
+      },
+      {
+       "code": "6-202.14",
+       "description": "Toilet Rooms, Enclosed"
+      }
+     ]
+    }
+   ],
+   "name": "Mar y Tierra LLC",
+   "zip": "19707"
+  },
+  {
+   "address": "7288 Lancaster Pike Unit 2B",
+   "city": "Hockessin",
+   "id": "df6f40142c",
+   "inspections": [
+    {
+     "date": "2026-06-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-101.11",
+       "description": "Characteristics-Materials for Construction and Repair"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      }
+     ]
+    },
+    {
+     "date": "2024-11-15",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2024-10-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-301.11",
+       "description": "Preventing Contamination from Hands"
+      },
+      {
+       "code": "3-301.11",
+       "description": "Preventing Contamination from Hands"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-501.116",
+       "description": "Warewashing Equipment, Determining Chemical Sanitizer Concentration"
+      }
+     ]
+    }
+   ],
+   "name": "Mexican Table the",
+   "zip": "19707"
+  },
+  {
+   "address": "707 Ace Memorial Dr",
+   "city": "Hockessin",
+   "id": "51dbe8d762",
+   "inspections": [
+    {
+     "date": "2026-08-25",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-101.19",
+       "description": "Nonfood-Contact Surfaces"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-301.14",
+       "description": "When to Wash"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    }
+   ],
+   "name": "New Dragon Chinese Restaurant",
+   "zip": "19707"
+  },
+  {
+   "address": "1340 Little Baltimore Rd",
+   "city": "Hockessin",
+   "id": "63a2b3b85f",
+   "inspections": [
+    {
+     "date": "2026-09-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      }
+     ]
+    }
+   ],
+   "name": "North Star Elementary School - Red Clay Consolidat",
+   "zip": "19707"
+  },
+  {
+   "address": "6949 Lancaster Pike",
+   "city": "Hockessin",
+   "id": "78a90e960e",
+   "inspections": [
+    {
+     "date": "2026-09-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    }
+   ],
+   "name": "Northeast Crab Company (mob)",
+   "zip": "19707"
+  },
+  {
+   "address": "703 Ace Memorial Dr",
+   "city": "Hockessin",
+   "id": "a07da3ecfc",
+   "inspections": [
+    {
+     "date": "2026-07-24",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "4-101.19",
+       "description": "Nonfood-Contact Surfaces"
+      },
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "6-501.112",
+       "description": "Removing Dead or Trapped Birds, Insects, Rodents and other Pest"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Okura Japanese Restaurant",
+   "zip": "19707"
+  },
+  {
+   "address": "222 Lantana Drive",
+   "city": "Hockessin",
+   "id": "13971ecaa6",
+   "inspections": [
+    {
+     "date": "2025-09-04",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
+     "date": "2025-09-03",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "5-103.11",
+       "description": "Capacity-Quantity and Availability"
+      },
+      {
+       "code": "5-202.12",
+       "description": "Handwashing Sinks, Installation"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      },
+      {
+       "code": "8-404.11",
+       "description": "Ceasing Operations and Reporting"
+      }
+     ]
+    },
+    {
+     "date": "2025-08-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "5-103.11",
+       "description": "Capacity-Quantity and Availability"
+      },
+      {
+       "code": "5-202.12",
+       "description": "Handwashing Sinks, Installation"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    }
+   ],
+   "name": "Papa Johns #1323",
+   "zip": "19707"
+  },
+  {
+   "address": "5821 Limestone Rd",
+   "city": "Hockessin",
+   "id": "2809791ee1",
+   "inspections": [
+    {
+     "date": "2026-09-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
+     "date": "2026-09-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "3-501.13",
+       "description": "Thawing"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-01",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      }
+     ]
+    }
+   ],
+   "name": "Pike Creek Crossing",
+   "zip": "19707"
+  },
+  {
+   "address": "7454 Lancaster Pk Suite A",
+   "city": "Hockessin",
+   "id": "f23fa101a2",
+   "inspections": [
+    {
+     "date": "2026-07-31",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "3-501.19",
+       "description": "Time as a Public Health Control"
+      },
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      },
+      {
+       "code": "6-303.11",
+       "description": "Intensity-Lighting"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-17",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2024-10-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-301.14",
+       "description": "When to Wash"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-501.15",
+       "description": "Cooling Methods"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Primas Pizza & Pasta",
+   "zip": "19707"
+  },
+  {
+   "address": "7288 Lancaster Pike",
+   "city": "Hockessin",
+   "id": "32c809e5ea",
+   "inspections": [
+    {
+     "date": "2026-06-26",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2026-06-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2024-11-12",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2024-10-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    }
+   ],
+   "name": "Quinns Cafe",
+   "zip": "19707"
+  },
+  {
+   "address": "400 Lantana Sq",
+   "city": "Hockessin",
+   "id": "57acbfb460",
+   "inspections": [
+    {
+     "date": "2026-08-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-501.13",
+       "description": "Thawing"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "3-501.18",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Disposition"
+      },
+      {
+       "code": "4-101.19",
+       "description": "Nonfood-Contact Surfaces"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "6-303.11",
+       "description": "Intensity-Lighting"
+      }
+     ]
+    }
+   ],
+   "name": "Redfire Grill & Steakhouse - Platinum Dining Group",
+   "zip": "19707"
+  },
+  {
+   "address": "7313 Lancaster Pike",
+   "city": "Hockessin",
+   "id": "c7b0c8f41a",
+   "inspections": [
+    {
+     "date": "2026-08-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
+     "date": "2026-07-31",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-02",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-31",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Ritas Water Ice",
+   "zip": "19707"
+  },
+  {
+   "address": "6900 Lancaster Pike",
+   "city": "Hockessin",
+   "id": "c545ca0693",
+   "inspections": [
+    {
+     "date": "2024-10-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    }
+   ],
+   "name": "Sanford School - Compass Group USA Inc",
+   "zip": "19707"
+  },
+  {
+   "address": "7456 Lancaster Pike Suite H",
+   "city": "Hockessin",
+   "id": "8cffd59914",
+   "inspections": [
+    {
+     "date": "2025-06-27",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "name": "Six Paupers Tavern & Restaurant",
+   "zip": "19707"
+  },
+  {
+   "address": "6280 Limestone Rd Unit #5",
+   "city": "Hockessin",
+   "id": "47be20f251",
+   "inspections": [
+    {
+     "date": "2026-05-18",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      }
+     ]
+    }
+   ],
+   "name": "Starbucks Coffee - Starbucks Corporation - #19208",
+   "zip": "19707"
+  },
+  {
+   "address": "7313 Lancaster Pike #5",
+   "city": "Hockessin",
+   "id": "7c1f3ee461",
+   "inspections": [
+    {
+     "date": "2025-06-27",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "name": "Stone Mill Pizza",
+   "zip": "19707"
+  },
+  {
+   "address": "128 Lantana Drive",
+   "city": "Hockessin",
+   "id": "43868dfa79",
+   "inspections": [
+    {
+     "date": "2026-06-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "3-402.12",
+       "description": "Records, Creation, & Retention"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      }
+     ]
+    },
+    {
+     "date": "2026-06-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-402.12",
+       "description": "Records, Creation, & Retention"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      }
+     ]
+    }
+   ],
+   "name": "Sushi Maru Express",
+   "zip": "19707"
+  },
+  {
+   "address": "7460 Lancaster Pike Suite C & D",
+   "city": "Hockessin",
+   "id": "077b9ddeee",
+   "inspections": [
+    {
+     "date": "2026-08-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      }
+     ]
+    },
+    {
+     "date": "2025-01-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "3-304.14",
+       "description": "Wiping Cloths, Use Limitation"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-501.14",
+       "description": "Cleaning Ventilation Systems, Nuisance and Discharge Prohibition"
+      }
+     ]
+    }
+   ],
+   "name": "The Perfect Cup Cafe",
+   "zip": "19707"
+  },
+  {
+   "address": "6949 Lancaster Pike",
+   "city": "Hockessin",
+   "id": "0f46df96be",
+   "inspections": [
+    {
+     "date": "2025-05-13",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-05-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "name": "The Well Coffee House & Market Place",
+   "zip": "19707"
+  },
+  {
+   "address": "7460 Lancaster Pk",
+   "city": "Hockessin",
+   "id": "a2a277fba3",
+   "inspections": [
+    {
+     "date": "2026-06-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "3-501.19",
+       "description": "Time as a Public Health Control"
+      },
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      }
+     ]
+    },
+    {
+     "date": "2026-05-27",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "3-501.19",
+       "description": "Time as a Public Health Control"
+      },
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-25",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "name": "Two Cousins Pizza - R Grigoli Enterprises Inc",
+   "zip": "19707"
+  },
+  {
+   "address": "2025 Graves Rd",
+   "city": "Hockessin",
+   "id": "59e82a9444",
+   "inspections": [
+    {
+     "date": "2026-03-31",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2026-03-25",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-202.12",
+       "description": "Handwashing Sinks, Installation"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    }
+   ],
+   "name": "William F Cooke Jr Elementary School - Red Clay Co",
+   "zip": "19707"
+  },
+  {
+   "address": "1512 Brackenville Rd",
+   "city": "Hockessin",
+   "id": "091cec5694",
+   "inspections": [
+    {
+     "date": "2025-09-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "name": "Wilm Communuty Evang Church",
+   "zip": "19707"
+  },
+  {
+   "address": "1310 Little Baltimore Rd",
+   "city": "Hockessin",
+   "id": "37f6dbdbd4",
+   "inspections": [
+    {
+     "date": "2026-06-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    },
+    {
+     "date": "2025-09-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "name": "Woodside Farm -The Stand",
+   "zip": "19707"
+  }
+ ],
+ "slug": "hockessin",
+ "source_updated": "2026-10-09",
+ "town": "Hockessin"
+}

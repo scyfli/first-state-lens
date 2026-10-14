@@ -1,0 +1,92 @@
+{
+ "establishments": [
+  {
+   "address": "283 Front Street",
+   "city": "Peipsic",
+   "id": "d6ade557e6",
+   "inspections": [
+    {
+     "date": "2026-08-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
+    {
+     "date": "2026-07-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "2-401.11",
+       "description": "Eating, Drinking, or Using Tobacco"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "6-301.14",
+       "description": "Handwashing Signage"
+      },
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
+    {
+     "date": "2025-10-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-202.18",
+       "description": "Shellstock Identification"
+      },
+      {
+       "code": "3-402.12",
+       "description": "Records, Creation, & Retention"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    }
+   ],
+   "name": "Sambos Tavern",
+   "zip": "19901"
+  }
+ ],
+ "slug": "peipsic",
+ "source_updated": "2026-10-09",
+ "town": "Peipsic"
+}

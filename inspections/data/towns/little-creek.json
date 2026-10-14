@@ -1,0 +1,34 @@
+{
+ "establishments": [
+  {
+   "address": "311 Main Street",
+   "city": "Little Creek",
+   "id": "17bd3900f9",
+   "inspections": [
+    {
+     "date": "2026-02-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      }
+     ]
+    }
+   ],
+   "name": "Little Creek Vfc",
+   "zip": "19961"
+  }
+ ],
+ "slug": "little-creek",
+ "source_updated": "2026-10-09",
+ "town": "Little Creek"
+}

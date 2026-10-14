@@ -1,0 +1,99 @@
+{
+ "establishments": [
+  {
+   "address": "18752 Harbeosn Rd",
+   "city": "Harbeson",
+   "id": "f47457f0c4",
+   "inspections": [
+    {
+     "date": "2025-06-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-202.11",
+       "description": "Approved System and Cleanable Fixtures"
+      },
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    },
+    {
+     "date": "2024-10-31",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-401.11",
+       "description": "Equipment, Clothes Washers, Dryers and Storage Cabinets, Contamination Prevention-Location"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-202.12",
+       "description": "Heating, Ventilation, Air Conditioning System Vents"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-501.114",
+       "description": "Maintaining Premises, Unnecessary Items and Litter"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "name": "Eastern Quality Vending @ Allen-harim Food (Closed",
+   "zip": "19951"
+  },
+  {
+   "address": "26454 Lewes-Georgetown HWY",
+   "city": "Harbeson",
+   "id": "7cebe89d65",
+   "inspections": [
+    {
+     "date": "2026-02-25",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-202.11",
+       "description": "Approved System and Cleanable Fixtures"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    }
+   ],
+   "name": "Royal Farms #296",
+   "zip": "19951"
+  }
+ ],
+ "slug": "harbeson",
+ "source_updated": "2026-10-09",
+ "town": "Harbeson"
+}
