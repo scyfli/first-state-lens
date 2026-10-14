@@ -1,0 +1,5056 @@
+{
+  "contracts": [
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS20704A-ACFT_M&R",
+      "description": "AIRCRAFT MAINTENANCE AND REPAIR",
+      "first_month": "2022-07",
+      "fy_spend": 325904.14,
+      "last_month": "2025-12",
+      "vendor": "SUMMIT AVIATION INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS26704-ACFT_M&R",
+      "description": "AIRCRAFT MAINTENANCE AND REPAIR",
+      "first_month": "2026-01",
+      "fy_spend": 1557316.61,
+      "last_month": "2026-07",
+      "vendor": "SUMMIT AVIATION INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23705-ALL_HAZ_EX",
+      "description": "ALL HAZARDS EXERCISE PROGRAM",
+      "first_month": "2024-04",
+      "fy_spend": 55551.86,
+      "last_month": "2026-03",
+      "vendor": "TETRA TECH INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23705-ALL_HAZ_EX",
+      "description": "ALL HAZARDS EXERCISE PROGRAM",
+      "first_month": "2024-01",
+      "fy_spend": 225526.08,
+      "last_month": "2026-07",
+      "vendor": "THE OLSON GROUP LTD"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25915-AM_TRANSPORT",
+      "description": "AMBULANCE AND MEDICAL TRANSPORT VEHICLES",
+      "first_month": "2025-11",
+      "fy_spend": 1170000.0,
+      "last_month": "2025-12",
+      "vendor": "TESCO SPECIALTY VEHICLES LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21043-AMMUNITION",
+      "description": "AMMUNITION AND TARGETS",
+      "first_month": "2022-07",
+      "fy_spend": 1067953.31,
+      "last_month": "2026-07",
+      "vendor": "GEORGE J PETRONIS ENT INC DBA THE GUN SHOP"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21043-AMMUNITION",
+      "description": "AMMUNITION AND TARGETS",
+      "first_month": "2022-11",
+      "fy_spend": 378264.08,
+      "last_month": "2026-02",
+      "vendor": "LAWMEN SUPPLY CO OF NEW JERSEY INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24910-APPR_SVC",
+      "description": "APPRAISAL SERVICES",
+      "first_month": "2025-09",
+      "fy_spend": 6050.0,
+      "last_month": "2026-06",
+      "vendor": "ANC VALUATIONS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24910-APPR_SVC",
+      "description": "APPRAISAL SERVICES",
+      "first_month": "2025-05",
+      "fy_spend": 178500.0,
+      "last_month": "2026-07",
+      "vendor": "CUSHMAN & WAKEFIELD"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24910-APPR_SVC",
+      "description": "APPRAISAL SERVICES",
+      "first_month": "2025-02",
+      "fy_spend": 31400.0,
+      "last_month": "2026-06",
+      "vendor": "DOVER CONSULTING SERVICES"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24910-APPR_SVC",
+      "description": "APPRAISAL SERVICES",
+      "first_month": "2025-02",
+      "fy_spend": 232569.98,
+      "last_month": "2026-06",
+      "vendor": "KAREN H BELINKO APPRAISALS LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22906-REVIEW",
+      "description": "ARPA INVESTMENT COMPLIANCE REVIEW",
+      "first_month": "2024-03",
+      "fy_spend": 1110447.9,
+      "last_month": "2026-06",
+      "vendor": "BDO USA PC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22906-REVIEW",
+      "description": "ARPA INVESTMENT COMPLIANCE REVIEW",
+      "first_month": "2023-04",
+      "fy_spend": 58185.4,
+      "last_month": "2026-04",
+      "vendor": "BERRY DUNN MCNEIL & PARKER LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22906-REVIEW",
+      "description": "ARPA INVESTMENT COMPLIANCE REVIEW",
+      "first_month": "2022-09",
+      "fy_spend": 381697.33,
+      "last_month": "2026-07",
+      "vendor": "BOOTH MANAGEMENT CONSULTING LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22906-REVIEW",
+      "description": "ARPA INVESTMENT COMPLIANCE REVIEW",
+      "first_month": "2023-10",
+      "fy_spend": 238327.5,
+      "last_month": "2026-07",
+      "vendor": "UHY ADVISORS MID-ATLANTIC INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS26948-ART_SUPPLY",
+      "description": "ART SUPPLIES",
+      "first_month": "2026-04",
+      "fy_spend": 2240.37,
+      "last_month": "2026-06",
+      "vendor": "BLICK ART MATERIALS LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS26948-ART_SUPPLY",
+      "description": "ART SUPPLIES",
+      "first_month": "2026-05",
+      "fy_spend": 1257.59,
+      "last_month": "2026-07",
+      "vendor": "CHARLES J BECKER & BRO INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24030-AUCTIONEER",
+      "description": "AUCTIONEER SERVICES",
+      "first_month": "2025-04",
+      "fy_spend": 168379.59,
+      "last_month": "2026-07",
+      "vendor": "US GOVBIDS DBA: AUCTION LIQUIDATION SERVICES"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21745-AV_EQPTCONF",
+      "description": "AUDIO VISUAL EQUIPMENT AND AUDIO VISUAL WEB CONFERENCING",
+      "first_month": "2024-01",
+      "fy_spend": 287049.0,
+      "last_month": "2026-02",
+      "vendor": "A3 COMMUNICATIONS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21745-AV_EQPTCONF",
+      "description": "AUDIO VISUAL EQUIPMENT AND AUDIO VISUAL WEB CONFERENCING",
+      "first_month": "2022-07",
+      "fy_spend": 2876437.0,
+      "last_month": "2026-04",
+      "vendor": "ASSURANCE MEDIA LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21745-AV_EQPTCONF",
+      "description": "AUDIO VISUAL EQUIPMENT AND AUDIO VISUAL WEB CONFERENCING",
+      "first_month": "2023-03",
+      "fy_spend": 256947.71,
+      "last_month": "2026-02",
+      "vendor": "AVI-SPL LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21745-AV_EQPTCONF",
+      "description": "AUDIO VISUAL EQUIPMENT AND AUDIO VISUAL WEB CONFERENCING",
+      "first_month": "2022-07",
+      "fy_spend": 59528.46,
+      "last_month": "2025-08",
+      "vendor": "DELAWARE AUDIO VISUAL INTEGRATION & DESIGN"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS20007-AUTO_PARTS",
+      "description": "AUTO PARTS AND BATTERIES",
+      "first_month": "2023-09",
+      "fy_spend": 14968.91,
+      "last_month": "2025-08",
+      "vendor": "FACTORY MOTOR PARTS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS20007-AUTO_PARTS",
+      "description": "AUTO PARTS AND BATTERIES",
+      "first_month": "2022-07",
+      "fy_spend": 10455.45,
+      "last_month": "2025-08",
+      "vendor": "SP AUTO PARTS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25007-AUTO_PARTS",
+      "description": "AUTO PARTS AND BATTERIES",
+      "first_month": "2025-07",
+      "fy_spend": 6420.98,
+      "last_month": "2026-01",
+      "vendor": "FLEETPRIDE INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25007-AUTO_PARTS",
+      "description": "AUTO PARTS AND BATTERIES",
+      "first_month": "2025-07",
+      "fy_spend": 1218387.76,
+      "last_month": "2026-07",
+      "vendor": "GENUINE PARTS COMPANY"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25007-AUTO_PARTS",
+      "description": "AUTO PARTS AND BATTERIES",
+      "first_month": "2025-07",
+      "fy_spend": 170390.11,
+      "last_month": "2026-07",
+      "vendor": "RC HOLLOWAY CO LP"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25007-AUTO_PARTS",
+      "description": "AUTO PARTS AND BATTERIES",
+      "first_month": "2026-01",
+      "fy_spend": 50744.72,
+      "last_month": "2026-06",
+      "vendor": "RC HOLLOWAY COMPANY L/P"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25007-AUTO_PARTS",
+      "description": "AUTO PARTS AND BATTERIES",
+      "first_month": "2025-07",
+      "fy_spend": 25197.71,
+      "last_month": "2026-05",
+      "vendor": "TRI-STATE BATTERY"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25007A-AUTO_ PARTS",
+      "description": "AUTO PARTS AND BATTERIES - SUPPLEMENTAL",
+      "first_month": "2026-01",
+      "fy_spend": 223910.74,
+      "last_month": "2026-07",
+      "vendor": "FISHER AUTO PARTS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25007A-AUTO_ PARTS",
+      "description": "AUTO PARTS AND BATTERIES - SUPPLEMENTAL",
+      "first_month": "2025-11",
+      "fy_spend": 87827.24,
+      "last_month": "2025-12",
+      "vendor": "FISHER AUTO PARTS INC T/A MANLOVE AUTO PARTS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25007A-AUTO_ PARTS",
+      "description": "AUTO PARTS AND BATTERIES - SUPPLEMENTAL",
+      "first_month": "2026-03",
+      "fy_spend": 206269.16,
+      "last_month": "2026-07",
+      "vendor": "SP AUTO PARTS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25585-BODY_ARMOR",
+      "description": "BODY ARMOR AND BALLISTIC RESISTANT PRODUCTS",
+      "first_month": "2025-12",
+      "fy_spend": 16158.62,
+      "last_month": "2026-06",
+      "vendor": "CENTRAL LAKE ARMOR EXPRESS INC DBA AMOR EXPRESS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25585-BODY_ARMOR",
+      "description": "BODY ARMOR AND BALLISTIC RESISTANT PRODUCTS",
+      "first_month": "2025-11",
+      "fy_spend": 37191.34,
+      "last_month": "2026-07",
+      "vendor": "GH ARMOR"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25585-BODY_ARMOR",
+      "description": "BODY ARMOR AND BALLISTIC RESISTANT PRODUCTS",
+      "first_month": "2026-01",
+      "fy_spend": 81568.72,
+      "last_month": "2026-04",
+      "vendor": "POINT BLANK ENTERPRISE INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25585-BODY_ARMOR",
+      "description": "BODY ARMOR AND BALLISTIC RESISTANT PRODUCTS",
+      "first_month": "2026-05",
+      "fy_spend": 154523.38,
+      "last_month": "2026-06",
+      "vendor": "POINT BLANK ENTERPRISES INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25585-BODY_ARMOR",
+      "description": "BODY ARMOR AND BALLISTIC RESISTANT PRODUCTS",
+      "first_month": "2025-12",
+      "fy_spend": 324560.0,
+      "last_month": "2026-07",
+      "vendor": "SAFARILAND LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25585-BODY_ARMOR",
+      "description": "BODY ARMOR AND BALLISTIC RESISTANT PRODUCTS",
+      "first_month": "2026-05",
+      "fy_spend": 5019.3,
+      "last_month": "2026-07",
+      "vendor": "SURVIVAL ARMOR INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21585-BODY_ARMOR",
+      "description": "BODY ARMOR AND BALLISTIC-RESISTANT PROTECTIVE PRODUCTS",
+      "first_month": "2023-07",
+      "fy_spend": 11010.6,
+      "last_month": "2025-10",
+      "vendor": "CENTRAL LAKE ARMOR EXPRESS INC DBA AMOR EXPRESS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21585-BODY_ARMOR",
+      "description": "BODY ARMOR AND BALLISTIC-RESISTANT PROTECTIVE PRODUCTS",
+      "first_month": "2022-09",
+      "fy_spend": 7497.95,
+      "last_month": "2025-11",
+      "vendor": "GH ARMOR"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21585-BODY_ARMOR",
+      "description": "BODY ARMOR AND BALLISTIC-RESISTANT PROTECTIVE PRODUCTS",
+      "first_month": "2025-07",
+      "fy_spend": 240599.7,
+      "last_month": "2025-09",
+      "vendor": "POINT BLANK ENTERPRISE INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21585-BODY_ARMOR",
+      "description": "BODY ARMOR AND BALLISTIC-RESISTANT PROTECTIVE PRODUCTS",
+      "first_month": "2022-07",
+      "fy_spend": 218911.64,
+      "last_month": "2025-12",
+      "vendor": "POINT BLANK ENTERPRISES INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21585-BODY_ARMOR",
+      "description": "BODY ARMOR AND BALLISTIC-RESISTANT PROTECTIVE PRODUCTS",
+      "first_month": "2022-07",
+      "fy_spend": 99320.5,
+      "last_month": "2026-02",
+      "vendor": "SAFARILAND LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21585-BODY_ARMOR",
+      "description": "BODY ARMOR AND BALLISTIC-RESISTANT PROTECTIVE PRODUCTS",
+      "first_month": "2023-02",
+      "fy_spend": 86112.78,
+      "last_month": "2025-10",
+      "vendor": "SURVIVAL ARMOR INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS17788-BODY_CAM",
+      "description": "BODY CAMERAS AND RELATED DATA STORAGE / MANAGEMENT",
+      "first_month": "2023-07",
+      "fy_spend": 1335333.43,
+      "last_month": "2026-02",
+      "vendor": "AXON ENTERPRISE INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23365-BOTTLE_WAT",
+      "description": "BOTTLED WATER AND COOLER RENTAL",
+      "first_month": "2023-08",
+      "fy_spend": 379497.95,
+      "last_month": "2026-07",
+      "vendor": "EASTERN SHORE COFFEE & WATER"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23005-BREAD_PROD",
+      "description": "BREAD AND BREAD PRODUCTS",
+      "first_month": "2024-01",
+      "fy_spend": 88444.3,
+      "last_month": "2026-01",
+      "vendor": "151 FOODS DBA AMOROSO BAKING"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23005-BREAD_PROD",
+      "description": "BREAD AND BREAD PRODUCTS",
+      "first_month": "2026-02",
+      "fy_spend": 41387.8,
+      "last_month": "2026-04",
+      "vendor": "151 FOODS LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23005-BREAD_PROD",
+      "description": "BREAD AND BREAD PRODUCTS",
+      "first_month": "2024-07",
+      "fy_spend": 971820.95,
+      "last_month": "2026-04",
+      "vendor": "SCHMIDT BAKING COMPANY INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23783-BAS",
+      "description": "BUILDING AUTOMATION SERVICES",
+      "first_month": "2023-02",
+      "fy_spend": 1030.48,
+      "last_month": "2025-10",
+      "vendor": "MODERN CONTROLS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23783-BAS",
+      "description": "BUILDING AUTOMATION SERVICES",
+      "first_month": "2023-02",
+      "fy_spend": 177852.19,
+      "last_month": "2026-02",
+      "vendor": "RADIUS SYSTEMS LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25937-BULK_LPG",
+      "description": "BULK LIQUIFIED PETROLEUM GAS - PROPANE",
+      "first_month": "2026-02",
+      "fy_spend": 3146.81,
+      "last_month": "2026-03",
+      "vendor": "ATLANTIC PETROLEUM"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23090-BCARDS_ENV",
+      "description": "BUSINESS CARDS AND ENVELOPES",
+      "first_month": "2026-06",
+      "fy_spend": 2859.72,
+      "last_month": "2026-06",
+      "vendor": "ANCAR ENT DBA ALPHAGRAPHICS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23090-BCARDS_ENV",
+      "description": "BUSINESS CARDS AND ENVELOPES",
+      "first_month": "2023-05",
+      "fy_spend": 57428.53,
+      "last_month": "2026-07",
+      "vendor": "TAYLOR PRINT IMPRESSIONS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS13699-CFIS",
+      "description": "CAMPAIGN FINANCE INFORMATION SYSTEM (CFIS)",
+      "first_month": "2023-07",
+      "fy_spend": 68500.0,
+      "last_month": "2026-04",
+      "vendor": "PCC TECHNOLOGY INC DBA CIVIX"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25720-CHILD_SEAT",
+      "description": "CHILD SAFETY SEATS",
+      "first_month": "2025-09",
+      "fy_spend": 15369.24,
+      "last_month": "2025-12",
+      "vendor": "WESTERN RESERVE DISTRIBUTING DBA CHILD SOURCE"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22632-RECRUIT",
+      "description": "CLASSIFICATION, RECRUITMENT, ONBOARDING, AND OFFBOARDING SYSTEM",
+      "first_month": "2023-07",
+      "fy_spend": 291000.0,
+      "last_month": "2026-06",
+      "vendor": "JOBAPS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22199-CLASSIFIED",
+      "description": "CLASSIFIED ADVERTISEMENTS",
+      "first_month": "2022-07",
+      "fy_spend": 250151.97,
+      "last_month": "2026-04",
+      "vendor": "INDEPENDENT NEWSMEDIA INC USA"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22199-CLASSIFIED",
+      "description": "CLASSIFIED ADVERTISEMENTS",
+      "first_month": "2022-08",
+      "fy_spend": 51023.12,
+      "last_month": "2025-08",
+      "vendor": "THE NEWS JOURNAL"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22199-CLASSIFIED",
+      "description": "CLASSIFIED ADVERTISEMENTS",
+      "first_month": "2025-09",
+      "fy_spend": 210665.86,
+      "last_month": "2026-04",
+      "vendor": "WILMINGTON NEWS JOURNAL"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS26199-CLASSIFIED",
+      "description": "CLASSIFIED ADVERTISEMENTS",
+      "first_month": "2026-05",
+      "fy_spend": 64890.3,
+      "last_month": "2026-07",
+      "vendor": "GANNETT DELAWARE LOCALIQ (WNJ)"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS26199-CLASSIFIED",
+      "description": "CLASSIFIED ADVERTISEMENTS",
+      "first_month": "2026-05",
+      "fy_spend": 45092.57,
+      "last_month": "2026-07",
+      "vendor": "INDEPENDENT NEWSMEDIA INC USA"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS26951-CCSS_VAN",
+      "description": "CLOSED CIRCUIT SURVEILLANCE SYSTEM",
+      "first_month": "2026-06",
+      "fy_spend": 214892.0,
+      "last_month": "2026-06",
+      "vendor": "CRIME POINT INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23070-CLOTHING",
+      "description": "CLOTHING, FOOTWEAR AND SCRUBS",
+      "first_month": "2024-03",
+      "fy_spend": 85722.38,
+      "last_month": "2026-05",
+      "vendor": "A T D AMERICAN CO"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23070-CLOTHING",
+      "description": "CLOTHING, FOOTWEAR AND SCRUBS",
+      "first_month": "2024-03",
+      "fy_spend": 162215.48,
+      "last_month": "2026-07",
+      "vendor": "BOB BARKER COMPANY INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23070-CLOTHING",
+      "description": "CLOTHING, FOOTWEAR AND SCRUBS",
+      "first_month": "2024-03",
+      "fy_spend": 31165.7,
+      "last_month": "2025-10",
+      "vendor": "DOVER ARMY NAVY STORE"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23070-CLOTHING",
+      "description": "CLOTHING, FOOTWEAR AND SCRUBS",
+      "first_month": "2024-03",
+      "fy_spend": 381189.04,
+      "last_month": "2026-07",
+      "vendor": "GRAVES UNIFORMS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23070-CLOTHING",
+      "description": "CLOTHING, FOOTWEAR AND SCRUBS",
+      "first_month": "2024-03",
+      "fy_spend": 764846.9,
+      "last_month": "2026-07",
+      "vendor": "HANOVER UNIFORM COMPANY"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23070-CLOTHING",
+      "description": "CLOTHING, FOOTWEAR AND SCRUBS",
+      "first_month": "2024-02",
+      "fy_spend": 145862.82,
+      "last_month": "2026-07",
+      "vendor": "REMLINE CORP"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23070-CLOTHING",
+      "description": "CLOTHING, FOOTWEAR AND SCRUBS",
+      "first_month": "2024-03",
+      "fy_spend": 1275.91,
+      "last_month": "2025-12",
+      "vendor": "SAF-GARD"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23070-CLOTHING",
+      "description": "CLOTHING, FOOTWEAR AND SCRUBS",
+      "first_month": "2026-03",
+      "fy_spend": 2299.93,
+      "last_month": "2026-03",
+      "vendor": "SAF-GARD SAFETY SHOE CO"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS17793-CLOUD_SOL",
+      "description": "CLOUD SOLUTIONS",
+      "first_month": "2025-03",
+      "fy_spend": 300000.0,
+      "last_month": "2025-12",
+      "vendor": "DELOITTE CONSULTING LLP"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS17793-CLOUD_SOL",
+      "description": "CLOUD SOLUTIONS",
+      "first_month": "2022-07",
+      "fy_spend": 61476.03,
+      "last_month": "2026-07",
+      "vendor": "STRATEGIC COMMUNICATIONS LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24923-CNA_TUIT",
+      "description": "CNA TUITION",
+      "first_month": "2024-05",
+      "fy_spend": 5050.0,
+      "last_month": "2026-03",
+      "vendor": "BEAR PROFESSIONAL INSTITUTE INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24923-CNA_TUIT",
+      "description": "CNA TUITION",
+      "first_month": "2024-01",
+      "fy_spend": 7435.0,
+      "last_month": "2026-01",
+      "vendor": "SUSSEX COUNTY VOC TECH SCHOOL"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22044-COFFEE_TEA",
+      "description": "COFFEE AND TEA",
+      "first_month": "2022-10",
+      "fy_spend": 2976.62,
+      "last_month": "2025-09",
+      "vendor": "EASTERN SHORE COFFEE & WATER"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25044-COFFEE_TEA",
+      "description": "COFFEE AND TEA",
+      "first_month": "2025-10",
+      "fy_spend": 24626.92,
+      "last_month": "2026-07",
+      "vendor": "EASTERN SHORE COFFEE & WATER"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25044-COFFEE_TEA",
+      "description": "COFFEE AND TEA",
+      "first_month": "2025-10",
+      "fy_spend": 68.0,
+      "last_month": "2026-02",
+      "vendor": "GOLDEN MADE KAFE INTL LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25044-COFFEE_TEA",
+      "description": "COFFEE AND TEA",
+      "first_month": "2026-03",
+      "fy_spend": 9382.24,
+      "last_month": "2026-03",
+      "vendor": "INTERSTATE GOURMET COFFEE ROASTERS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22498A-REPAIR_SVC",
+      "description": "COLLISION REPAIR SERVICES",
+      "first_month": "2022-08",
+      "fy_spend": 1077075.35,
+      "last_month": "2026-07",
+      "vendor": "B&G AUTO BODY INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22498A-REPAIR_SVC",
+      "description": "COLLISION REPAIR SERVICES",
+      "first_month": "2023-07",
+      "fy_spend": 127786.4,
+      "last_month": "2026-04",
+      "vendor": "D&G INC DBA FRED DRAKE AUTOMOTIVE"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22498A-REPAIR_SVC",
+      "description": "COLLISION REPAIR SERVICES",
+      "first_month": "2022-08",
+      "fy_spend": 222750.34,
+      "last_month": "2026-07",
+      "vendor": "FIRST STATE MOTORS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22498A-REPAIR_SVC",
+      "description": "COLLISION REPAIR SERVICES",
+      "first_month": "2022-09",
+      "fy_spend": 6031.35,
+      "last_month": "2025-08",
+      "vendor": "HERTRICH COLLISION CENTER (OF SEAFORD)"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22498A-REPAIR_SVC",
+      "description": "COLLISION REPAIR SERVICES",
+      "first_month": "2025-10",
+      "fy_spend": 29401.69,
+      "last_month": "2026-04",
+      "vendor": "HERTRICH COLLISION CENTER OF BEAR"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22498A-REPAIR_SVC",
+      "description": "COLLISION REPAIR SERVICES",
+      "first_month": "2024-06",
+      "fy_spend": 98726.03,
+      "last_month": "2026-06",
+      "vendor": "HERTRICH COLLISION CENTER OF DOVER"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22498A-REPAIR_SVC",
+      "description": "COLLISION REPAIR SERVICES",
+      "first_month": "2024-06",
+      "fy_spend": 16445.2,
+      "last_month": "2026-01",
+      "vendor": "HERTRICH COLLISION CENTER OF MILLSBORO"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22498A-REPAIR_SVC",
+      "description": "COLLISION REPAIR SERVICES",
+      "first_month": "2022-08",
+      "fy_spend": 331213.16,
+      "last_month": "2026-07",
+      "vendor": "IG BURTON AND COMPANY INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22498A-REPAIR_SVC",
+      "description": "COLLISION REPAIR SERVICES",
+      "first_month": "2024-08",
+      "fy_spend": 16832.84,
+      "last_month": "2025-12",
+      "vendor": "WAYSIDE OPERATIONS INC DBA WAYSIDE BODY SHOP"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22686-FOODSV_EQ",
+      "description": "COMMERCIAL FOOD SERVICE EQUIPMENT",
+      "first_month": "2023-07",
+      "fy_spend": 317167.46,
+      "last_month": "2026-06",
+      "vendor": "11400 INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22686-FOODSV_EQ",
+      "description": "COMMERCIAL FOOD SERVICE EQUIPMENT",
+      "first_month": "2022-11",
+      "fy_spend": 5056.96,
+      "last_month": "2026-06",
+      "vendor": "PENN JERSEY PAPER"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24861-TWR_MAINT",
+      "description": "COMMUNICATION TOWER MAINTENANCE",
+      "first_month": "2024-09",
+      "fy_spend": 117791.7,
+      "last_month": "2026-05",
+      "vendor": "STELLAR COMMUNICATION SYSTEMS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24861-TWR_MAINT",
+      "description": "COMMUNICATION TOWER MAINTENANCE",
+      "first_month": "2025-06",
+      "fy_spend": 11700.0,
+      "last_month": "2026-07",
+      "vendor": "WAYMAN FIRE PROTECTION INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS19091-COPIER_PRI",
+      "description": "COPIERS, PRINTERS AND MULTI-FUNCTION DEVICES",
+      "first_month": "2022-07",
+      "fy_spend": 4595834.8,
+      "last_month": "2026-06",
+      "vendor": "CANON FINANCIAL SERVICES INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS19091-COPIER_PRI",
+      "description": "COPIERS, PRINTERS AND MULTI-FUNCTION DEVICES",
+      "first_month": "2023-07",
+      "fy_spend": 115585.39,
+      "last_month": "2026-06",
+      "vendor": "HILYARDS BUSINESS SOLUTIONS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24091-COPIER_PRI",
+      "description": "COPIERS, PRINTERS AND MULTI-FUNCTION DEVICES",
+      "first_month": "2024-09",
+      "fy_spend": 3858296.94,
+      "last_month": "2026-06",
+      "vendor": "CANON FINANCIAL SERVICES INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24091-COPIER_PRI",
+      "description": "COPIERS, PRINTERS AND MULTI-FUNCTION DEVICES",
+      "first_month": "2026-03",
+      "fy_spend": 3911.0,
+      "last_month": "2026-03",
+      "vendor": "CANON USA INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24091-COPIER_PRI",
+      "description": "COPIERS, PRINTERS AND MULTI-FUNCTION DEVICES",
+      "first_month": "2025-08",
+      "fy_spend": 160587.37,
+      "last_month": "2026-07",
+      "vendor": "HILYARDS BUSINESS SOLUTIONS"
+    },
+    {
+      "award_type": "GSA",
+      "contract_number": "GSA19062-CORPORATE",
+      "description": "CORPORATE PERFORMANCE MANAGEMENT",
+      "first_month": "2023-09",
+      "fy_spend": 77676.0,
+      "last_month": "2025-09",
+      "vendor": "SOLVER INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23566-COURIERSVC",
+      "description": "COURIER SERVICES",
+      "first_month": "2023-01",
+      "fy_spend": 246195.13,
+      "last_month": "2026-06",
+      "vendor": "BROOKS COURIER SERVICE INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22789-CI_TECH",
+      "description": "CRIMINAL INTEL PLATFORM TECHNICIAN",
+      "first_month": "2022-07",
+      "fy_spend": 73342.5,
+      "last_month": "2026-07",
+      "vendor": "HTSS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21441A-DATA_CBL",
+      "description": "DATA AND VOICE STRUCTURED CABLING",
+      "first_month": "2022-09",
+      "fy_spend": 2153132.97,
+      "last_month": "2026-03",
+      "vendor": "ADVANTECH"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21441A-DATA_CBL",
+      "description": "DATA AND VOICE STRUCTURED CABLING",
+      "first_month": "2025-07",
+      "fy_spend": 677084.17,
+      "last_month": "2026-03",
+      "vendor": "ARUGIE ENTERPRISES CORP DBA: ARG COMMUNICATIONS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21441A-DATA_CBL",
+      "description": "DATA AND VOICE STRUCTURED CABLING",
+      "first_month": "2022-07",
+      "fy_spend": 4418073.0,
+      "last_month": "2026-04",
+      "vendor": "ASSURANCE MEDIA LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21441A-DATA_CBL",
+      "description": "DATA AND VOICE STRUCTURED CABLING",
+      "first_month": "2024-12",
+      "fy_spend": 185723.0,
+      "last_month": "2026-06",
+      "vendor": "BATTAGLIA ELECTRIC INC DBA BATTAGLIA INTEGRATED TECH"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21441A-DATA_CBL",
+      "description": "DATA AND VOICE STRUCTURED CABLING",
+      "first_month": "2025-08",
+      "fy_spend": 36000.0,
+      "last_month": "2025-09",
+      "vendor": "TANGENT CABLE SYSTEMS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21441A-DATA_CBL",
+      "description": "DATA AND VOICE STRUCTURED CABLING",
+      "first_month": "2026-05",
+      "fy_spend": 154390.0,
+      "last_month": "2026-05",
+      "vendor": "TROY VENTURES LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS20579-DATACOMM",
+      "description": "DATA COMMUNICATIONS PRODUCTS AND SERVICES",
+      "first_month": "2022-07",
+      "fy_spend": 82550.69,
+      "last_month": "2026-04",
+      "vendor": "CRADLEPOINT INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS20579-DATACOMM",
+      "description": "DATA COMMUNICATIONS PRODUCTS AND SERVICES",
+      "first_month": "2022-07",
+      "fy_spend": 19954.0,
+      "last_month": "2026-01",
+      "vendor": "JUNIPER NETWORKS (US) INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24488-DENS",
+      "description": "DELAWARE EMERGENCY NOTIFICATION SYSTEM",
+      "first_month": "2025-08",
+      "fy_spend": 47495.25,
+      "last_month": "2025-08",
+      "vendor": "RAVE WIRELESS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS20872-GRANT_PC",
+      "description": "DEMA GRANT PROGRAM CONSULTANT",
+      "first_month": "2022-07",
+      "fy_spend": 37555.0,
+      "last_month": "2025-11",
+      "vendor": "INNOVATIVE EMERGENCY MANAGEMENT INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23483-DESIGN_LAYOUT",
+      "description": "DESIGN AND LAYOUT SERVICES",
+      "first_month": "2024-04",
+      "fy_spend": 15905.0,
+      "last_month": "2026-07",
+      "vendor": "ASSOCIATES INTERNATIONAL INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23483-DESIGN_LAYOUT",
+      "description": "DESIGN AND LAYOUT SERVICES",
+      "first_month": "2025-08",
+      "fy_spend": 30175.7,
+      "last_month": "2026-07",
+      "vendor": "RED INC COMMUNICATIONS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21753-DRN_SWRMNT",
+      "description": "DRAIN AND SEWER MAINTENANCE",
+      "first_month": "2023-03",
+      "fy_spend": 22716.0,
+      "last_month": "2026-03",
+      "vendor": "JOSEPH A COCHRAN & SONS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21753-DRN_SWRMNT",
+      "description": "DRAIN AND SEWER MAINTENANCE",
+      "first_month": "2024-01",
+      "fy_spend": 17190.6,
+      "last_month": "2026-02",
+      "vendor": "MIKES PROFESSIONAL DRAIN SERVICES LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS26753-DRN_SWRMTN",
+      "description": "DRAIN AND SEWER MAINTENANCE",
+      "first_month": "2026-04",
+      "fy_spend": 11210.0,
+      "last_month": "2026-06",
+      "vendor": "JOSEPH A COCHRAN & SONS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS26753-DRN_SWRMTN",
+      "description": "DRAIN AND SEWER MAINTENANCE",
+      "first_month": "2026-04",
+      "fy_spend": 5376.8,
+      "last_month": "2026-06",
+      "vendor": "MIKES PROFESSIONAL DRAIN SERVICES LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS20715-DRUGTESTING",
+      "description": "DRUG & ALCOHOL TESTING (VARIOUS) AND RELATED MATERIALS",
+      "first_month": "2022-07",
+      "fy_spend": 96818.0,
+      "last_month": "2026-01",
+      "vendor": "BAYHEALTH OCUPATIONAL HEALTH"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS20715-DRUGTESTING",
+      "description": "DRUG & ALCOHOL TESTING (VARIOUS) AND RELATED MATERIALS",
+      "first_month": "2022-07",
+      "fy_spend": 33413.53,
+      "last_month": "2025-12",
+      "vendor": "TRUESCREEN INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25715-DRUGTESTING",
+      "description": "DRUG AND ALCOHOL TESTING (VARIOUS) AND RELATED MATERIALS",
+      "first_month": "2026-02",
+      "fy_spend": 39369.0,
+      "last_month": "2026-07",
+      "vendor": "ARCPOINT LABS OF WILMINGTON DE"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25715-DRUGTESTING",
+      "description": "DRUG AND ALCOHOL TESTING (VARIOUS) AND RELATED MATERIALS",
+      "first_month": "2026-02",
+      "fy_spend": 79934.0,
+      "last_month": "2026-06",
+      "vendor": "BAYHEALTH OCCUPATIONAL HEALTH"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22047-DRY_CLEAN",
+      "description": "DRY CLEANING SERVICES",
+      "first_month": "2022-07",
+      "fy_spend": 474106.0,
+      "last_month": "2026-07",
+      "vendor": "CAPITOL CLEANERS & LAUNDERERS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS20730-DSP_TEST",
+      "description": "DSP EMPLOYMENT TESTING SERVICES",
+      "first_month": "2025-05",
+      "fy_spend": 140687.5,
+      "last_month": "2026-07",
+      "vendor": "TALOGY LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24752-DSP_RANGE_MO",
+      "description": "DSP FIRING RANGE MAINTENANCE AND OPERATION",
+      "first_month": "2025-01",
+      "fy_spend": 251275.0,
+      "last_month": "2026-06",
+      "vendor": "SAF ENG ASSOCIATES INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21895-AIR_PURIF",
+      "description": "DTCC AIR PURIFIERS",
+      "first_month": "2023-07",
+      "fy_spend": 101850.0,
+      "last_month": "2026-03",
+      "vendor": "TIMILON CORPORATION DBA ENVIROKLENZ"
+    },
+    {
+      "award_type": "GSA",
+      "contract_number": "GSA19062E-EAGENT",
+      "description": "EAGENT SOLUTION AND SUPPORT",
+      "first_month": "2022-07",
+      "fy_spend": 207250.36,
+      "last_month": "2026-01",
+      "vendor": "DIVERSE COMPUTING INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21748-ELECTRICIAN",
+      "description": "ELECTRICAL CONTRACTOR",
+      "first_month": "2022-07",
+      "fy_spend": 91887.53,
+      "last_month": "2026-07",
+      "vendor": "DIAMOND ELECTRIC INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21748-ELECTRICIAN",
+      "description": "ELECTRICAL CONTRACTOR",
+      "first_month": "2022-10",
+      "fy_spend": 331309.55,
+      "last_month": "2026-06",
+      "vendor": "ELECTRICAL INTEGRITY LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21748-ELECTRICIAN",
+      "description": "ELECTRICAL CONTRACTOR",
+      "first_month": "2022-08",
+      "fy_spend": 11568.0,
+      "last_month": "2026-03",
+      "vendor": "H AND A ELECTRIC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21748-ELECTRICIAN",
+      "description": "ELECTRICAL CONTRACTOR",
+      "first_month": "2022-07",
+      "fy_spend": 94766.0,
+      "last_month": "2026-06",
+      "vendor": "MASTEN ELECTRIC INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21748-ELECTRICIAN",
+      "description": "ELECTRICAL CONTRACTOR",
+      "first_month": "2023-07",
+      "fy_spend": 276479.75,
+      "last_month": "2026-07",
+      "vendor": "R&R ELECTRIC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21748-ELECTRICIAN",
+      "description": "ELECTRICAL CONTRACTOR",
+      "first_month": "2022-11",
+      "fy_spend": 81017.08,
+      "last_month": "2026-07",
+      "vendor": "TOWLES ELECTRIC INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22748A-ELECTRICIA",
+      "description": "ELECTRICAL CONTRACTOR (SUPPLEMENTAL)",
+      "first_month": "2022-11",
+      "fy_spend": 1050.0,
+      "last_month": "2026-05",
+      "vendor": "FILEC SERVICES LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22748A-ELECTRICIA",
+      "description": "ELECTRICAL CONTRACTOR (SUPPLEMENTAL)",
+      "first_month": "2022-08",
+      "fy_spend": 46300.0,
+      "last_month": "2026-06",
+      "vendor": "PREFERRED ELECTRIC INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22748A-ELECTRICIA",
+      "description": "ELECTRICAL CONTRACTOR (SUPPLEMENTAL)",
+      "first_month": "2023-05",
+      "fy_spend": 50582.76,
+      "last_month": "2026-06",
+      "vendor": "PSC CONTRACTING INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23236-ELEV_INSP",
+      "description": "ELEVATOR AND ESCALATOR INSPECTIONS",
+      "first_month": "2023-11",
+      "fy_spend": 29778.5,
+      "last_month": "2026-07",
+      "vendor": "ATIS ELEVATOR INSPECTION"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22626-ERVEH_WARN",
+      "description": "EMERGENCY VEHICLE WARNING SYSTEMS AND EQUIPMENT",
+      "first_month": "2022-08",
+      "fy_spend": 27483.15,
+      "last_month": "2025-12",
+      "vendor": "CHAS S WINNER INC DBA WINNER FORD"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22626-ERVEH_WARN",
+      "description": "EMERGENCY VEHICLE WARNING SYSTEMS AND EQUIPMENT",
+      "first_month": "2022-07",
+      "fy_spend": 1500.0,
+      "last_month": "2025-12",
+      "vendor": "DELMARVA COMMUNICATIONS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22626-ERVEH_WARN",
+      "description": "EMERGENCY VEHICLE WARNING SYSTEMS AND EQUIPMENT",
+      "first_month": "2024-12",
+      "fy_spend": 177847.72,
+      "last_month": "2025-08",
+      "vendor": "GLOBAL PUBLIC SAFETY LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22626-ERVEH_WARN",
+      "description": "EMERGENCY VEHICLE WARNING SYSTEMS AND EQUIPMENT",
+      "first_month": "2024-03",
+      "fy_spend": 756003.5,
+      "last_month": "2026-04",
+      "vendor": "ISLAND TECH SERVICES LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24706-EMPL_VERIF",
+      "description": "EMPLOYMENT VERIFICATION SERVICES",
+      "first_month": "2024-08",
+      "fy_spend": 44665.3,
+      "last_month": "2026-07",
+      "vendor": "FRONTLINE SOLUTIONS D/B/A UCONFIRM"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS26090-ENVELOPES",
+      "description": "ENVELOPES",
+      "first_month": "2026-05",
+      "fy_spend": 7044.58,
+      "last_month": "2026-06",
+      "vendor": "TAYLOR PRINT IMPRESSIONS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25582-EQUIPMAINT",
+      "description": "EQUIPMENT MAINTENANCE MANAGEMENT PROGRAM",
+      "first_month": "2025-05",
+      "fy_spend": 440528.1,
+      "last_month": "2026-07",
+      "vendor": "ELECTRONIC RISKS CONSULTANT INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25582-EQUIPMAINT",
+      "description": "EQUIPMENT MAINTENANCE MANAGEMENT PROGRAM",
+      "first_month": "2025-07",
+      "fy_spend": 242710.13,
+      "last_month": "2026-07",
+      "vendor": "REMI HOLDINGS LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24577-MRO",
+      "description": "FACILITIES MRO AND SUPPLIES",
+      "first_month": "2025-01",
+      "fy_spend": 201336.22,
+      "last_month": "2026-07",
+      "vendor": "FASTENAL COMPANY"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24577-MRO",
+      "description": "FACILITIES MRO AND SUPPLIES",
+      "first_month": "2025-01",
+      "fy_spend": 22685.32,
+      "last_month": "2026-07",
+      "vendor": "MIDWEST MOTOR SUPPLY CO INC/DBA/KIMBALL MIDWEST"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24577-MRO",
+      "description": "FACILITIES MRO AND SUPPLIES",
+      "first_month": "2025-03",
+      "fy_spend": 336372.44,
+      "last_month": "2026-03",
+      "vendor": "SID TOOL CO INC D/B/A MSC INDUSTRIAL SUPPLY CO"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24577-MRO",
+      "description": "FACILITIES MRO AND SUPPLIES",
+      "first_month": "2025-02",
+      "fy_spend": 1242217.07,
+      "last_month": "2026-07",
+      "vendor": "WW GRAINGER INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25577-MRO",
+      "description": "FACILITIES MRO AND SUPPLIES - SUPPLEMENTAL",
+      "first_month": "2026-03",
+      "fy_spend": 8169.2,
+      "last_month": "2026-07",
+      "vendor": "MIDWEST MOTOR SUPPLY CO INC/DBA/KIMBALL MIDWEST"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25577-MRO",
+      "description": "FACILITIES MRO AND SUPPLIES - SUPPLEMENTAL",
+      "first_month": "2026-05",
+      "fy_spend": 236951.07,
+      "last_month": "2026-07",
+      "vendor": "THE SHERWIN-WILLIAMS COMPANY"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25577-MRO",
+      "description": "FACILITIES MRO AND SUPPLIES - SUPPLEMENTAL",
+      "first_month": "2026-05",
+      "fy_spend": 419750.18,
+      "last_month": "2026-07",
+      "vendor": "UNITED ELECTRIC SUPPLY CO INC"
+    },
+    {
+      "award_type": "GSA",
+      "contract_number": "GSA17008-FAC_MGMT",
+      "description": "FACILITY MANAGEMENT SOFTWARE",
+      "first_month": "2022-07",
+      "fy_spend": 432913.26,
+      "last_month": "2026-06",
+      "vendor": "ASSETWORKS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22775-DSTR_RCVRY",
+      "description": "FIRE AND WATER DAMAGE REMEDIATION SERVICES",
+      "first_month": "2023-01",
+      "fy_spend": 450222.58,
+      "last_month": "2026-06",
+      "vendor": "ENVIRONMENTAL SERVICES INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22775-DSTR_RCVRY",
+      "description": "FIRE AND WATER DAMAGE REMEDIATION SERVICES",
+      "first_month": "2023-03",
+      "fy_spend": 667343.46,
+      "last_month": "2026-06",
+      "vendor": "THE RESTORATION GROUP"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22855-FFPC",
+      "description": "FIRE FIGHTER PROTECTIVE CLOTHING",
+      "first_month": "2023-09",
+      "fy_spend": 89304.34,
+      "last_month": "2026-07",
+      "vendor": "AMERICAN PUBLIC SAFEY LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21259-FIRE_SUPPR",
+      "description": "FIRE SUPPRESSION SERVICES, INSPECTIONS AND TESTING",
+      "first_month": "2022-07",
+      "fy_spend": 465463.34,
+      "last_month": "2026-07",
+      "vendor": "HOOPES FIRE PREVENTION"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21259-FIRE_SUPPR",
+      "description": "FIRE SUPPRESSION SERVICES, INSPECTIONS AND TESTING",
+      "first_month": "2024-07",
+      "fy_spend": 262276.18,
+      "last_month": "2026-04",
+      "vendor": "MARMIC FIRE & SAFETY DBA ANACONDA PROTECTIVE CONCEPTS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21526-MAINT_REP",
+      "description": "FLEET MAINTENANCE AND REPAIR",
+      "first_month": "2022-07",
+      "fy_spend": 18886.22,
+      "last_month": "2026-06",
+      "vendor": "ALL MOBILITY SOLUTIONS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21526-MAINT_REP",
+      "description": "FLEET MAINTENANCE AND REPAIR",
+      "first_month": "2023-05",
+      "fy_spend": 335820.79,
+      "last_month": "2026-07",
+      "vendor": "BAYSHORE FORD TRUCK SALES INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21526-MAINT_REP",
+      "description": "FLEET MAINTENANCE AND REPAIR",
+      "first_month": "2024-07",
+      "fy_spend": 221192.44,
+      "last_month": "2026-07",
+      "vendor": "BOULEVARD AUTO SALES"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21526-MAINT_REP",
+      "description": "FLEET MAINTENANCE AND REPAIR",
+      "first_month": "2022-07",
+      "fy_spend": 19881.22,
+      "last_month": "2026-07",
+      "vendor": "CLARKSVILLE AUTO SERVICE CENTER INC DBA OCEAN AREA TIRE"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21526-MAINT_REP",
+      "description": "FLEET MAINTENANCE AND REPAIR",
+      "first_month": "2022-07",
+      "fy_spend": 16524.77,
+      "last_month": "2026-06",
+      "vendor": "D&G INC DBA FRED DRAKE AUTOMOTIVE"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21526-MAINT_REP",
+      "description": "FLEET MAINTENANCE AND REPAIR",
+      "first_month": "2022-08",
+      "fy_spend": 7318.61,
+      "last_month": "2026-05",
+      "vendor": "DD & G LLC DBA OCEAN AREA TIRE"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21526-MAINT_REP",
+      "description": "FLEET MAINTENANCE AND REPAIR",
+      "first_month": "2023-01",
+      "fy_spend": 14754.13,
+      "last_month": "2026-05",
+      "vendor": "FOX RUN AUTOMOTIVE"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21526-MAINT_REP",
+      "description": "FLEET MAINTENANCE AND REPAIR",
+      "first_month": "2024-07",
+      "fy_spend": 77174.29,
+      "last_month": "2026-07",
+      "vendor": "FREDERICK FORD"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21526-MAINT_REP",
+      "description": "FLEET MAINTENANCE AND REPAIR",
+      "first_month": "2025-07",
+      "fy_spend": 61813.69,
+      "last_month": "2026-07",
+      "vendor": "HERTRICH CAPITAL"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21526-MAINT_REP",
+      "description": "FLEET MAINTENANCE AND REPAIR",
+      "first_month": "2024-07",
+      "fy_spend": 104639.17,
+      "last_month": "2026-04",
+      "vendor": "HERTRICH CHEVROLET OF DOVER"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21526-MAINT_REP",
+      "description": "FLEET MAINTENANCE AND REPAIR",
+      "first_month": "2024-07",
+      "fy_spend": 52619.86,
+      "last_month": "2026-07",
+      "vendor": "HERTRICH FORD LINCOLN"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21526-MAINT_REP",
+      "description": "FLEET MAINTENANCE AND REPAIR",
+      "first_month": "2022-07",
+      "fy_spend": 61459.57,
+      "last_month": "2026-07",
+      "vendor": "IG BURTON AND COMPANY"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21526-MAINT_REP",
+      "description": "FLEET MAINTENANCE AND REPAIR",
+      "first_month": "2022-07",
+      "fy_spend": 33010.1,
+      "last_month": "2026-07",
+      "vendor": "IG BURTON CHEVROLET OF SEAFORD LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21526-MAINT_REP",
+      "description": "FLEET MAINTENANCE AND REPAIR",
+      "first_month": "2022-07",
+      "fy_spend": 50854.93,
+      "last_month": "2026-07",
+      "vendor": "IG BURTON OF LEWES LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21526-MAINT_REP",
+      "description": "FLEET MAINTENANCE AND REPAIR",
+      "first_month": "2022-07",
+      "fy_spend": 23227.44,
+      "last_month": "2026-07",
+      "vendor": "IG BURTON OF SMYRNA LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21526-MAINT_REP",
+      "description": "FLEET MAINTENANCE AND REPAIR",
+      "first_month": "2023-02",
+      "fy_spend": 6364.19,
+      "last_month": "2026-07",
+      "vendor": "PORTER AUTO GROUP"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21526-MAINT_REP",
+      "description": "FLEET MAINTENANCE AND REPAIR",
+      "first_month": "2022-07",
+      "fy_spend": 537745.98,
+      "last_month": "2026-07",
+      "vendor": "TRANS PLUS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21526-MAINT_REP",
+      "description": "FLEET MAINTENANCE AND REPAIR",
+      "first_month": "2022-07",
+      "fy_spend": 38856.31,
+      "last_month": "2026-07",
+      "vendor": "WALLS SERVICE CENTER"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21526-MAINT_REP",
+      "description": "FLEET MAINTENANCE AND REPAIR",
+      "first_month": "2022-07",
+      "fy_spend": 59401.01,
+      "last_month": "2026-07",
+      "vendor": "WILLIAM T WADKINS GARAGE INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24526-MAINT_REP",
+      "description": "FLEET MAINTENANCE AND REPAIR, KENT COUNTY SUPPLEMENTAL",
+      "first_month": "2025-02",
+      "fy_spend": 4860.56,
+      "last_month": "2026-07",
+      "vendor": "I G BURTON TOYOTA DOVER"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23931-SP_TRACK",
+      "description": "FLEET MANAGEMENT TECHNOLOGIES WITH RELATED SOFTWARE SOLUTIONS",
+      "first_month": "2024-06",
+      "fy_spend": 164287.07,
+      "last_month": "2026-06",
+      "vendor": "ADVANTAGE ASSET TRACKING CORPORATION"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25717-FLIGHT_TRN",
+      "description": "FLIGHT TRAINING AND RECERTIFICATION",
+      "first_month": "2025-01",
+      "fy_spend": 107200.0,
+      "last_month": "2026-03",
+      "vendor": "BELL TEXTRON INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25717-FLIGHT_TRN",
+      "description": "FLIGHT TRAINING AND RECERTIFICATION",
+      "first_month": "2025-06",
+      "fy_spend": 132000.0,
+      "last_month": "2026-01",
+      "vendor": "HELICOPTER INSTITUTE"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23719-FOOD",
+      "description": "FOOD",
+      "first_month": "2024-07",
+      "fy_spend": 657468.6,
+      "last_month": "2026-04",
+      "vendor": "US FOODS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25728-FOOD_PROD",
+      "description": "FOOD PRODUCTS AND SERVICES (PACKAGED AND MEATS)",
+      "first_month": "2025-07",
+      "fy_spend": 373999.9,
+      "last_month": "2026-05",
+      "vendor": "GLOBAL FOODS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25728-FOOD_PROD",
+      "description": "FOOD PRODUCTS AND SERVICES (PACKAGED AND MEATS)",
+      "first_month": "2025-07",
+      "fy_spend": 922143.61,
+      "last_month": "2026-05",
+      "vendor": "GOOD SOURCE SOLUTIONS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25728-FOOD_PROD",
+      "description": "FOOD PRODUCTS AND SERVICES (PACKAGED AND MEATS)",
+      "first_month": "2025-07",
+      "fy_spend": 835730.77,
+      "last_month": "2026-07",
+      "vendor": "SODY ENTERPRISES INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25728-FOOD_PROD",
+      "description": "FOOD PRODUCTS AND SERVICES (PACKAGED AND MEATS)",
+      "first_month": "2025-07",
+      "fy_spend": 840449.92,
+      "last_month": "2026-04",
+      "vendor": "SYSCO EASTERN MARYLAND LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25728-FOOD_PROD",
+      "description": "FOOD PRODUCTS AND SERVICES (PACKAGED AND MEATS)",
+      "first_month": "2025-07",
+      "fy_spend": 482105.06,
+      "last_month": "2026-07",
+      "vendor": "TRIPLE C FOODS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25070-FOOTWEAR",
+      "description": "FOOTWEAR",
+      "first_month": "2026-05",
+      "fy_spend": 2892.85,
+      "last_month": "2026-07",
+      "vendor": "DOVER ARMY NAVY STORE"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25070-FOOTWEAR",
+      "description": "FOOTWEAR",
+      "first_month": "2026-05",
+      "fy_spend": 13669.25,
+      "last_month": "2026-07",
+      "vendor": "GRAVES UNIFORMS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25070-FOOTWEAR",
+      "description": "FOOTWEAR",
+      "first_month": "2026-05",
+      "fy_spend": 3363.6,
+      "last_month": "2026-07",
+      "vendor": "RED WING SHOES"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25070-FOOTWEAR",
+      "description": "FOOTWEAR",
+      "first_month": "2026-05",
+      "fy_spend": 27240.45,
+      "last_month": "2026-07",
+      "vendor": "SAF-GARD SAFETY SHOE CO"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24754-FA_EXAMINE",
+      "description": "FORENSIC FIREARMS EXAMINER",
+      "first_month": "2025-02",
+      "fy_spend": 49300.0,
+      "last_month": "2026-06",
+      "vendor": "3521 BALLISTICS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24754-FA_EXAMINE",
+      "description": "FORENSIC FIREARMS EXAMINER",
+      "first_month": "2024-01",
+      "fy_spend": 125600.0,
+      "last_month": "2026-07",
+      "vendor": "BAKER HILL BALLISTICS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23836-FRNSC_TST",
+      "description": "FORENSIC TESTING SUPPORT",
+      "first_month": "2025-11",
+      "fy_spend": 4199.0,
+      "last_month": "2026-05",
+      "vendor": "NMS LABS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24157-FUEL_MGMT",
+      "description": "FUEL MANAGEMENT",
+      "first_month": "2025-06",
+      "fy_spend": 13739846.78,
+      "last_month": "2026-07",
+      "vendor": "CORPAY TECHNOLOGIES OPERATING COMPANY LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21479-FURNITURE",
+      "description": "FURNITURE",
+      "first_month": "2022-07",
+      "fy_spend": 467119.12,
+      "last_month": "2026-06",
+      "vendor": "AMERICAN DESIGN ASSOCIATES"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21479-FURNITURE",
+      "description": "FURNITURE",
+      "first_month": "2025-12",
+      "fy_spend": 48782.76,
+      "last_month": "2025-12",
+      "vendor": "BRENNANS OFFICE FURNITURE"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21479-FURNITURE",
+      "description": "FURNITURE",
+      "first_month": "2024-03",
+      "fy_spend": 351186.4,
+      "last_month": "2026-07",
+      "vendor": "BRENNANS OFFICE INTERIORS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21479-FURNITURE",
+      "description": "FURNITURE",
+      "first_month": "2022-07",
+      "fy_spend": 419862.74,
+      "last_month": "2026-06",
+      "vendor": "BRENNANS OFFICE INTERIORS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21479-FURNITURE",
+      "description": "FURNITURE",
+      "first_month": "2022-07",
+      "fy_spend": 1618101.71,
+      "last_month": "2026-06",
+      "vendor": "CORPORATE INTERIORS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21479-FURNITURE",
+      "description": "FURNITURE",
+      "first_month": "2022-07",
+      "fy_spend": 5384176.57,
+      "last_month": "2026-06",
+      "vendor": "DOURON INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21479-FURNITURE",
+      "description": "FURNITURE",
+      "first_month": "2023-01",
+      "fy_spend": 64081.1,
+      "last_month": "2026-03",
+      "vendor": "EDUCATIONAL FURNITURE SOLUTIONS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21479-FURNITURE",
+      "description": "FURNITURE",
+      "first_month": "2022-07",
+      "fy_spend": 9575267.63,
+      "last_month": "2026-06",
+      "vendor": "G A BLANCO AND SONS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21479-FURNITURE",
+      "description": "FURNITURE",
+      "first_month": "2022-07",
+      "fy_spend": 910822.29,
+      "last_month": "2026-07",
+      "vendor": "INDIANA FURNITURE INDUSTRIES"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21479-FURNITURE",
+      "description": "FURNITURE",
+      "first_month": "2024-09",
+      "fy_spend": 35943.46,
+      "last_month": "2026-05",
+      "vendor": "JASPER SEATING COMPANY INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21479-FURNITURE",
+      "description": "FURNITURE",
+      "first_month": "2023-08",
+      "fy_spend": 28051.11,
+      "last_month": "2026-02",
+      "vendor": "STAPLES"
+    },
+    {
+      "award_type": "GSA",
+      "contract_number": "GSA22067-ARCHIVE_SCAN",
+      "description": "GENERAL PURPOSE COMMERCIAL INFORMATION TECHNOLOGY EQUIPMENT, SOFTWARE & SERVICES",
+      "first_month": "2023-04",
+      "fy_spend": 89028.41,
+      "last_month": "2026-03",
+      "vendor": "QUALITY ASSOCIATES INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24679-GEN_PM_REP",
+      "description": "GENERATOR MAINTENANCE AND REPAIR",
+      "first_month": "2024-07",
+      "fy_spend": 204395.5,
+      "last_month": "2026-07",
+      "vendor": "PREMIUM POWER SERVICES LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24679-GEN_PM_REP",
+      "description": "GENERATOR MAINTENANCE AND REPAIR",
+      "first_month": "2024-09",
+      "fy_spend": 26915.06,
+      "last_month": "2026-05",
+      "vendor": "V A TRUCK & TRAILER REPAIR LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23230-GLASS_REPR",
+      "description": "GLASS REPAIR AND REPLACEMENT FOR STATE VEHICLES AND HEAVY EQUIPMENT",
+      "first_month": "2023-04",
+      "fy_spend": 106037.0,
+      "last_month": "2026-07",
+      "vendor": "BETTS TEXACO AND B&G GLASS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23230-GLASS_REPR",
+      "description": "GLASS REPAIR AND REPLACEMENT FOR STATE VEHICLES AND HEAVY EQUIPMENT",
+      "first_month": "2023-04",
+      "fy_spend": 6696.56,
+      "last_month": "2025-11",
+      "vendor": "CLEARVISION GLASS LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25673-GRND_MAINT",
+      "description": "GROUND MAINTENANCE WITH RELATED EQUIPMENT, ACCESSORIES & SUPPLIES",
+      "first_month": "2025-07",
+      "fy_spend": 226911.48,
+      "last_month": "2026-07",
+      "vendor": "DEERE & COMPANY"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23731-HAZARDS",
+      "description": "HAZARDS MITIGATION SERVICES",
+      "first_month": "2023-09",
+      "fy_spend": 524261.63,
+      "last_month": "2026-06",
+      "vendor": "LEWIS ENVIRONMENTAL"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23731-HAZARDS",
+      "description": "HAZARDS MITIGATION SERVICES",
+      "first_month": "2023-08",
+      "fy_spend": 118697.08,
+      "last_month": "2026-07",
+      "vendor": "MILLER ENVIRONMENTAL GROUP"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23750-EQUIP_HD",
+      "description": "HEAVY CONSTRUCTION EQUIPMENT WITH RELATED ATTACHMENTS AND TECHNOLOGY",
+      "first_month": "2024-09",
+      "fy_spend": 2272497.0,
+      "last_month": "2026-04",
+      "vendor": "CATERPILLAR INC / CARTER MACHINERY"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23750-EQUIP_HD",
+      "description": "HEAVY CONSTRUCTION EQUIPMENT WITH RELATED ATTACHMENTS AND TECHNOLOGY",
+      "first_month": "2025-08",
+      "fy_spend": 275022.23,
+      "last_month": "2025-09",
+      "vendor": "CNH INDUSTRIAL AMERICA LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23750-EQUIP_HD",
+      "description": "HEAVY CONSTRUCTION EQUIPMENT WITH RELATED ATTACHMENTS AND TECHNOLOGY",
+      "first_month": "2025-07",
+      "fy_spend": 11247.36,
+      "last_month": "2025-07",
+      "vendor": "GRADALL INDUSTRIES LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23750-EQUIP_HD",
+      "description": "HEAVY CONSTRUCTION EQUIPMENT WITH RELATED ATTACHMENTS AND TECHNOLOGY",
+      "first_month": "2024-04",
+      "fy_spend": 972280.36,
+      "last_month": "2026-04",
+      "vendor": "JOHN DEERE SHARED SERVICES LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22617-HVY_TRUCKS",
+      "description": "HEAVY DUTY TRUCKS, PARTS AND SERVICE",
+      "first_month": "2022-07",
+      "fy_spend": 4063514.0,
+      "last_month": "2025-08",
+      "vendor": "TRANSTECK INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21652-HVY_EQP_PA",
+      "description": "HEAVY DUTY VEHICLE PARTS AND ACCESSORIES",
+      "first_month": "2022-07",
+      "fy_spend": 219022.23,
+      "last_month": "2026-05",
+      "vendor": "ALAMO GROUP TX INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21652-HVY_EQP_PA",
+      "description": "HEAVY DUTY VEHICLE PARTS AND ACCESSORIES",
+      "first_month": "2022-07",
+      "fy_spend": 193804.16,
+      "last_month": "2026-06",
+      "vendor": "ATLANTIC MACHINERY INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21652-HVY_EQP_PA",
+      "description": "HEAVY DUTY VEHICLE PARTS AND ACCESSORIES",
+      "first_month": "2025-08",
+      "fy_spend": 232853.31,
+      "last_month": "2026-07",
+      "vendor": "BAYLOR"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21652-HVY_EQP_PA",
+      "description": "HEAVY DUTY VEHICLE PARTS AND ACCESSORIES",
+      "first_month": "2026-02",
+      "fy_spend": 117.68,
+      "last_month": "2026-02",
+      "vendor": "BLUE HEN SPRING WORKS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21652-HVY_EQP_PA",
+      "description": "HEAVY DUTY VEHICLE PARTS AND ACCESSORIES",
+      "first_month": "2022-07",
+      "fy_spend": 3401.62,
+      "last_month": "2026-07",
+      "vendor": "BLUE HEN SPRING WORKS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21652-HVY_EQP_PA",
+      "description": "HEAVY DUTY VEHICLE PARTS AND ACCESSORIES",
+      "first_month": "2024-07",
+      "fy_spend": 212321.72,
+      "last_month": "2026-07",
+      "vendor": "CERTIFIED POWER INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21652-HVY_EQP_PA",
+      "description": "HEAVY DUTY VEHICLE PARTS AND ACCESSORIES",
+      "first_month": "2022-12",
+      "fy_spend": 22760.7,
+      "last_month": "2025-12",
+      "vendor": "DELMARA FLUID POWER INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21652-HVY_EQP_PA",
+      "description": "HEAVY DUTY VEHICLE PARTS AND ACCESSORIES",
+      "first_month": "2022-11",
+      "fy_spend": 16628.85,
+      "last_month": "2025-10",
+      "vendor": "DELMARVA FLUID POWER INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21652-HVY_EQP_PA",
+      "description": "HEAVY DUTY VEHICLE PARTS AND ACCESSORIES",
+      "first_month": "2022-07",
+      "fy_spend": 109536.97,
+      "last_month": "2026-07",
+      "vendor": "EASTERN SHORE EQUIP CO INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21652-HVY_EQP_PA",
+      "description": "HEAVY DUTY VEHICLE PARTS AND ACCESSORIES",
+      "first_month": "2022-07",
+      "fy_spend": 7825.99,
+      "last_month": "2026-06",
+      "vendor": "ELLIOTT & FRANTZ INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21652-HVY_EQP_PA",
+      "description": "HEAVY DUTY VEHICLE PARTS AND ACCESSORIES",
+      "first_month": "2022-07",
+      "fy_spend": 134033.36,
+      "last_month": "2026-07",
+      "vendor": "FLEETPRIDE INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21652-HVY_EQP_PA",
+      "description": "HEAVY DUTY VEHICLE PARTS AND ACCESSORIES",
+      "first_month": "2022-07",
+      "fy_spend": 2858.79,
+      "last_month": "2025-12",
+      "vendor": "GROFF TRACTOR MID ATLANTIC LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21652-HVY_EQP_PA",
+      "description": "HEAVY DUTY VEHICLE PARTS AND ACCESSORIES",
+      "first_month": "2022-07",
+      "fy_spend": 7732.9,
+      "last_month": "2025-09",
+      "vendor": "INTERSTATE SPRING & ALIGNMENT INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21652-HVY_EQP_PA",
+      "description": "HEAVY DUTY VEHICLE PARTS AND ACCESSORIES",
+      "first_month": "2025-09",
+      "fy_spend": 25152.36,
+      "last_month": "2026-06",
+      "vendor": "JAMES RIVER EQUIPMENT"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21652-HVY_EQP_PA",
+      "description": "HEAVY DUTY VEHICLE PARTS AND ACCESSORIES",
+      "first_month": "2022-07",
+      "fy_spend": 377373.57,
+      "last_month": "2026-04",
+      "vendor": "JESCO INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21652-HVY_EQP_PA",
+      "description": "HEAVY DUTY VEHICLE PARTS AND ACCESSORIES",
+      "first_month": "2022-07",
+      "fy_spend": 268.94,
+      "last_month": "2025-10",
+      "vendor": "LAWSON PRODUCTS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21652-HVY_EQP_PA",
+      "description": "HEAVY DUTY VEHICLE PARTS AND ACCESSORIES",
+      "first_month": "2022-08",
+      "fy_spend": 16232.99,
+      "last_month": "2026-03",
+      "vendor": "MCCLUNG LOGAN EQUIPMENT CO"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21652-HVY_EQP_PA",
+      "description": "HEAVY DUTY VEHICLE PARTS AND ACCESSORIES",
+      "first_month": "2025-01",
+      "fy_spend": 15560.44,
+      "last_month": "2025-12",
+      "vendor": "MEADOWS HYDRAULICS SALES & SERVICE INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21652-HVY_EQP_PA",
+      "description": "HEAVY DUTY VEHICLE PARTS AND ACCESSORIES",
+      "first_month": "2022-07",
+      "fy_spend": 13189.54,
+      "last_month": "2026-07",
+      "vendor": "R C HOLLOWAY COMPANY L/P"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21652-HVY_EQP_PA",
+      "description": "HEAVY DUTY VEHICLE PARTS AND ACCESSORIES",
+      "first_month": "2023-07",
+      "fy_spend": 23179.84,
+      "last_month": "2026-05",
+      "vendor": "RC HOLLOWAY CO LP"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21652-HVY_EQP_PA",
+      "description": "HEAVY DUTY VEHICLE PARTS AND ACCESSORIES",
+      "first_month": "2024-09",
+      "fy_spend": 13783.87,
+      "last_month": "2026-04",
+      "vendor": "RG INDUSTRIES INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21652-HVY_EQP_PA",
+      "description": "HEAVY DUTY VEHICLE PARTS AND ACCESSORIES",
+      "first_month": "2022-07",
+      "fy_spend": 188553.38,
+      "last_month": "2026-07",
+      "vendor": "TRANSTECK INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS20714-MATTRESS",
+      "description": "HOSPITALITY AND INSTITUTIONAL MATTRESSES, BEDDING AND SUPPLIES",
+      "first_month": "2022-07",
+      "fy_spend": 9481.9,
+      "last_month": "2025-10",
+      "vendor": "BOB BARKER COMPANY INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS20714-MATTRESS",
+      "description": "HOSPITALITY AND INSTITUTIONAL MATTRESSES, BEDDING AND SUPPLIES",
+      "first_month": "2022-09",
+      "fy_spend": 49064.25,
+      "last_month": "2025-11",
+      "vendor": "CORNERSTONE DETENTION PRODUCTS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS20714-MATTRESS",
+      "description": "HOSPITALITY AND INSTITUTIONAL MATTRESSES, BEDDING AND SUPPLIES",
+      "first_month": "2024-10",
+      "fy_spend": 12900.0,
+      "last_month": "2025-08",
+      "vendor": "MTJ AMERICAN"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25714-MATTRESS",
+      "description": "HOSPITALITY AND INSTITUTIONAL MATTRESSES, BEDDING AND SUPPLIES",
+      "first_month": "2025-11",
+      "fy_spend": 14745.5,
+      "last_month": "2026-07",
+      "vendor": "BOB BARKER COMPANY INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25714-MATTRESS",
+      "description": "HOSPITALITY AND INSTITUTIONAL MATTRESSES, BEDDING AND SUPPLIES",
+      "first_month": "2025-11",
+      "fy_spend": 2435.2,
+      "last_month": "2025-11",
+      "vendor": "HEALTHCARE WHOLESALE LINEN"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22749-HVAC",
+      "description": "HVAC COMPONENTS, PARTS AND FILTERS",
+      "first_month": "2023-03",
+      "fy_spend": 47010.94,
+      "last_month": "2025-12",
+      "vendor": "AMERICAN AIR FILTER DBA NATIONAL AIR FILTER"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22749-HVAC",
+      "description": "HVAC COMPONENTS, PARTS AND FILTERS",
+      "first_month": "2023-08",
+      "fy_spend": 15445.4,
+      "last_month": "2026-07",
+      "vendor": "FERGUSON ENTERPRISES LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23749A-HVAC",
+      "description": "HVAC COMPONENTS, PARTS AND FILTERS (SUPPLEMENTAL)",
+      "first_month": "2023-09",
+      "fy_spend": 73263.66,
+      "last_month": "2026-06",
+      "vendor": "FERGUSON ENTERPRISES LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22035-ICE_CREAM",
+      "description": "ICE CREAM",
+      "first_month": "2023-01",
+      "fy_spend": 173992.95,
+      "last_month": "2026-06",
+      "vendor": "GEORGEOS WATER ICE INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22035-ICE_CREAM",
+      "description": "ICE CREAM",
+      "first_month": "2023-01",
+      "fy_spend": 77599.22,
+      "last_month": "2025-12",
+      "vendor": "HERSHEY CREAMERY COMPANY"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS26035-ICE_CREAM",
+      "description": "ICE CREAM",
+      "first_month": "2026-03",
+      "fy_spend": 25502.0,
+      "last_month": "2026-03",
+      "vendor": "GEORGEOS WATER ICE INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS26035-ICE_CREAM",
+      "description": "ICE CREAM",
+      "first_month": "2026-01",
+      "fy_spend": 100942.26,
+      "last_month": "2026-07",
+      "vendor": "HERSHEY CREAMERY COMPANY"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22610-ICEMAC_PMR",
+      "description": "ICE MACHINE & REFRIGERATION PREVENTATIVE MAINTENANCE AND REPAIR",
+      "first_month": "2023-04",
+      "fy_spend": 102852.03,
+      "last_month": "2026-06",
+      "vendor": "THE ELECTRIC MOTOR REPAIR COMPANY"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25942-PENSION_IVV",
+      "description": "INDEPENDENT VERIFICATION AND VALIDATION - PENSION MODERNIZATION",
+      "first_month": "2025-09",
+      "fy_spend": 432289.6,
+      "last_month": "2026-07",
+      "vendor": "LINEA SOLUTIONS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS26760-INFEC_WASTE",
+      "description": "INFECTIOUS WASTE PICK-UP & DISPOSAL",
+      "first_month": "2026-04",
+      "fy_spend": 5027.4,
+      "last_month": "2026-07",
+      "vendor": "BIOMEDICAL WASTE SERVICES INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS26760-INFEC_WASTE",
+      "description": "INFECTIOUS WASTE PICK-UP & DISPOSAL",
+      "first_month": "2026-04",
+      "fy_spend": 11282.05,
+      "last_month": "2026-07",
+      "vendor": "CHOICE MEDWASTE LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21760-INFEC_WASTE",
+      "description": "INFECTIOUS WASTE PICK-UP AND DISPOSAL",
+      "first_month": "2022-07",
+      "fy_spend": 1561.18,
+      "last_month": "2026-02",
+      "vendor": "ADVANT-EDGE SOLUTIONS OF MIDDLE ATLANTIC INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21760-INFEC_WASTE",
+      "description": "INFECTIOUS WASTE PICK-UP AND DISPOSAL",
+      "first_month": "2022-07",
+      "fy_spend": 15202.1,
+      "last_month": "2026-04",
+      "vendor": "BIOMEDICAL WASTE SERVICES INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21760-INFEC_WASTE",
+      "description": "INFECTIOUS WASTE PICK-UP AND DISPOSAL",
+      "first_month": "2022-07",
+      "fy_spend": 38370.8,
+      "last_month": "2026-05",
+      "vendor": "CHOICE MEDWASTE LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22108-FLOORING",
+      "description": "INTERIOR FLOORING",
+      "first_month": "2022-10",
+      "fy_spend": 589027.98,
+      "last_month": "2026-07",
+      "vendor": "CORPORATE INTERIORS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22108-FLOORING",
+      "description": "INTERIOR FLOORING",
+      "first_month": "2024-06",
+      "fy_spend": 14821.5,
+      "last_month": "2025-12",
+      "vendor": "CREATIVE FLOORING CONTRACTORS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22108-FLOORING",
+      "description": "INTERIOR FLOORING",
+      "first_month": "2022-11",
+      "fy_spend": 2517029.82,
+      "last_month": "2026-07",
+      "vendor": "TRI-STATE CARPET INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24602-LINGUIST",
+      "description": "INTERPRETATION AND TRANSLATION SERVICES - FOREIGN LANGUAGES",
+      "first_month": "2024-08",
+      "fy_spend": 19790.4,
+      "last_month": "2026-06",
+      "vendor": "911 INTERPRETERS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24602-LINGUIST",
+      "description": "INTERPRETATION AND TRANSLATION SERVICES - FOREIGN LANGUAGES",
+      "first_month": "2024-08",
+      "fy_spend": 3531.64,
+      "last_month": "2026-07",
+      "vendor": "ACCENT ON LANGUAGES"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24602-LINGUIST",
+      "description": "INTERPRETATION AND TRANSLATION SERVICES - FOREIGN LANGUAGES",
+      "first_month": "2025-07",
+      "fy_spend": 377762.0,
+      "last_month": "2026-06",
+      "vendor": "ACCURATE LANGUAGE SERVICES"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24602-LINGUIST",
+      "description": "INTERPRETATION AND TRANSLATION SERVICES - FOREIGN LANGUAGES",
+      "first_month": "2024-08",
+      "fy_spend": 306782.17,
+      "last_month": "2026-07",
+      "vendor": "BACK TO BASICS LEARNING DYNAMICS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24602-LINGUIST",
+      "description": "INTERPRETATION AND TRANSLATION SERVICES - FOREIGN LANGUAGES",
+      "first_month": "2024-08",
+      "fy_spend": 1188.63,
+      "last_month": "2026-07",
+      "vendor": "BROMBERG ASSOCIATES"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24602-LINGUIST",
+      "description": "INTERPRETATION AND TRANSLATION SERVICES - FOREIGN LANGUAGES",
+      "first_month": "2025-07",
+      "fy_spend": 180.0,
+      "last_month": "2025-07",
+      "vendor": "CORPORATE TRANSLATION SERVICES"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24602-LINGUIST",
+      "description": "INTERPRETATION AND TRANSLATION SERVICES - FOREIGN LANGUAGES",
+      "first_month": "2025-01",
+      "fy_spend": 63210.31,
+      "last_month": "2026-06",
+      "vendor": "CORPORATE TRANSLATION SERVICES LLC DBA LANGUAGE LINK"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24602-LINGUIST",
+      "description": "INTERPRETATION AND TRANSLATION SERVICES - FOREIGN LANGUAGES",
+      "first_month": "2024-07",
+      "fy_spend": 1052.5,
+      "last_month": "2025-09",
+      "vendor": "DEAFINITIONS INTERPRETING"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24602-LINGUIST",
+      "description": "INTERPRETATION AND TRANSLATION SERVICES - FOREIGN LANGUAGES",
+      "first_month": "2024-11",
+      "fy_spend": 59268.38,
+      "last_month": "2026-05",
+      "vendor": "HOLA DELAWARE LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24602-LINGUIST",
+      "description": "INTERPRETATION AND TRANSLATION SERVICES - FOREIGN LANGUAGES",
+      "first_month": "2024-10",
+      "fy_spend": 1686.81,
+      "last_month": "2026-05",
+      "vendor": "HUMAN TOUCH TRANSLATIONS LTD"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24602-LINGUIST",
+      "description": "INTERPRETATION AND TRANSLATION SERVICES - FOREIGN LANGUAGES",
+      "first_month": "2025-07",
+      "fy_spend": 2043.75,
+      "last_month": "2025-07",
+      "vendor": "INDUS TRANSLATION SERVICES INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24602-LINGUIST",
+      "description": "INTERPRETATION AND TRANSLATION SERVICES - FOREIGN LANGUAGES",
+      "first_month": "2024-07",
+      "fy_spend": 50985.55,
+      "last_month": "2026-05",
+      "vendor": "LANGUAGE LIAISONS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24602-LINGUIST",
+      "description": "INTERPRETATION AND TRANSLATION SERVICES - FOREIGN LANGUAGES",
+      "first_month": "2024-11",
+      "fy_spend": 165877.37,
+      "last_month": "2026-06",
+      "vendor": "LINGUISTICA INTERNATIONAL"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24602-LINGUIST",
+      "description": "INTERPRETATION AND TRANSLATION SERVICES - FOREIGN LANGUAGES",
+      "first_month": "2024-08",
+      "fy_spend": 473.76,
+      "last_month": "2026-07",
+      "vendor": "LIONBRIDGE TECHNOLOGIES LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24602-LINGUIST",
+      "description": "INTERPRETATION AND TRANSLATION SERVICES - FOREIGN LANGUAGES",
+      "first_month": "2024-08",
+      "fy_spend": 3993.79,
+      "last_month": "2025-12",
+      "vendor": "MORNINGSIDE LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24602-LINGUIST",
+      "description": "INTERPRETATION AND TRANSLATION SERVICES - FOREIGN LANGUAGES",
+      "first_month": "2025-08",
+      "fy_spend": 1520.0,
+      "last_month": "2025-08",
+      "vendor": "NINETEEN AND THIRTY ONE DEAFINITIONS INTERPRETING"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24602-LINGUIST",
+      "description": "INTERPRETATION AND TRANSLATION SERVICES - FOREIGN LANGUAGES",
+      "first_month": "2026-04",
+      "fy_spend": 52.6,
+      "last_month": "2026-04",
+      "vendor": "OFFICEMOTIVE INC DBA CAPITAL TYPING"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24602-LINGUIST",
+      "description": "INTERPRETATION AND TRANSLATION SERVICES - FOREIGN LANGUAGES",
+      "first_month": "2024-07",
+      "fy_spend": 181969.75,
+      "last_month": "2026-07",
+      "vendor": "PARA-PLUS TRANSLATIONS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24604-SIGN_LANG",
+      "description": "INTERPRETATION SERVICES - SIGN LANGUAGE",
+      "first_month": "2025-07",
+      "fy_spend": 1713.0,
+      "last_month": "2026-05",
+      "vendor": "ACCESS INTERPRETING INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24604-SIGN_LANG",
+      "description": "INTERPRETATION SERVICES - SIGN LANGUAGE",
+      "first_month": "2024-07",
+      "fy_spend": 12420.0,
+      "last_month": "2026-07",
+      "vendor": "AD ASTRA INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24604-SIGN_LANG",
+      "description": "INTERPRETATION SERVICES - SIGN LANGUAGE",
+      "first_month": "2024-09",
+      "fy_spend": 518806.98,
+      "last_month": "2026-07",
+      "vendor": "AMERICAN SIGN LANGUAGE INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24604-SIGN_LANG",
+      "description": "INTERPRETATION SERVICES - SIGN LANGUAGE",
+      "first_month": "2024-07",
+      "fy_spend": 159372.25,
+      "last_month": "2026-06",
+      "vendor": "ASL CONNECTIONS LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24604-SIGN_LANG",
+      "description": "INTERPRETATION SERVICES - SIGN LANGUAGE",
+      "first_month": "2024-07",
+      "fy_spend": 10078.1,
+      "last_month": "2026-07",
+      "vendor": "BETSY TUCKER"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24604-SIGN_LANG",
+      "description": "INTERPRETATION SERVICES - SIGN LANGUAGE",
+      "first_month": "2026-05",
+      "fy_spend": 79972.25,
+      "last_month": "2026-07",
+      "vendor": "COMMUNICATION ACCESS PARTNERS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24604-SIGN_LANG",
+      "description": "INTERPRETATION SERVICES - SIGN LANGUAGE",
+      "first_month": "2025-08",
+      "fy_spend": 317804.75,
+      "last_month": "2026-04",
+      "vendor": "DEAFINITIONS & INTERPRETING INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24604-SIGN_LANG",
+      "description": "INTERPRETATION SERVICES - SIGN LANGUAGE",
+      "first_month": "2024-08",
+      "fy_spend": 144691.05,
+      "last_month": "2025-10",
+      "vendor": "DEAFINITIONS & INTERPRETING LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24604-SIGN_LANG",
+      "description": "INTERPRETATION SERVICES - SIGN LANGUAGE",
+      "first_month": "2024-07",
+      "fy_spend": 1079.5,
+      "last_month": "2025-09",
+      "vendor": "MDS INTERPRETING INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24604-SIGN_LANG",
+      "description": "INTERPRETATION SERVICES - SIGN LANGUAGE",
+      "first_month": "2024-08",
+      "fy_spend": 3056.22,
+      "last_month": "2026-04",
+      "vendor": "MDS INTERPRETING LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23603-JAN_CAF-SP",
+      "description": "JANITORIAL AND CAFETERIA SUPPLIES",
+      "first_month": "2023-08",
+      "fy_spend": 76061.48,
+      "last_month": "2026-07",
+      "vendor": "ACTION UNLIMITED RESOURCES INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23603-JAN_CAF-SP",
+      "description": "JANITORIAL AND CAFETERIA SUPPLIES",
+      "first_month": "2023-06",
+      "fy_spend": 394318.21,
+      "last_month": "2026-07",
+      "vendor": "AE MOORE JANITORIAL INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23603-JAN_CAF-SP",
+      "description": "JANITORIAL AND CAFETERIA SUPPLIES",
+      "first_month": "2023-07",
+      "fy_spend": 106761.92,
+      "last_month": "2026-07",
+      "vendor": "IMPERIAL BAG"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23603-JAN_CAF-SP",
+      "description": "JANITORIAL AND CAFETERIA SUPPLIES",
+      "first_month": "2024-09",
+      "fy_spend": 639761.08,
+      "last_month": "2026-07",
+      "vendor": "STATE JANITORIAL SUPPLY"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23603-JAN_CAF-SP",
+      "description": "JANITORIAL AND CAFETERIA SUPPLIES",
+      "first_month": "2023-07",
+      "fy_spend": 219.76,
+      "last_month": "2026-05",
+      "vendor": "WB MASON CO INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS10551-JANITORIAL_SA",
+      "description": "JANITORIAL SERVICES",
+      "first_month": "2022-07",
+      "fy_spend": 6505652.82,
+      "last_month": "2026-07",
+      "vendor": "DELAWARE ASSOCIATION OF REHABILITATION FACILITIES"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21612-JANITORIAL",
+      "description": "JANITORIAL SERVICES",
+      "first_month": "2022-07",
+      "fy_spend": 288569.2,
+      "last_month": "2026-05",
+      "vendor": "4SYT INDUSTRIES LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21612-JANITORIAL",
+      "description": "JANITORIAL SERVICES",
+      "first_month": "2022-07",
+      "fy_spend": 1372570.84,
+      "last_month": "2026-06",
+      "vendor": "INTERSTATE PREMIUM SERVICES"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21612-JANITORIAL",
+      "description": "JANITORIAL SERVICES",
+      "first_month": "2022-07",
+      "fy_spend": 2933730.11,
+      "last_month": "2026-07",
+      "vendor": "MID-ATLANTIC SERVICES A-TEAM CORP"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS20637-K9_SECUR",
+      "description": "K-9 SECURITY, DETECTION AND TRACKING DOGS",
+      "first_month": "2022-07",
+      "fy_spend": 45000.0,
+      "last_month": "2025-07",
+      "vendor": "VOHNE LICHE KENNELS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25637-K9_SECUR",
+      "description": "K-9 SECURITY, DETECTION AND TRACKING DOGS",
+      "first_month": "2025-09",
+      "fy_spend": 104500.0,
+      "last_month": "2026-03",
+      "vendor": "BRAVO TEAM K9 LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22661-KITCHENPMR",
+      "description": "KITCHEN EQUIPMENT PREVENTATIVE MAINTENANCE AND REPAIR",
+      "first_month": "2023-04",
+      "fy_spend": 430830.01,
+      "last_month": "2026-07",
+      "vendor": "THE ELECTRIC MOTOR REPAIR COMPANY (EMR)"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23170-LAB_GAS",
+      "description": "LAB AND COMPRESSED GASES",
+      "first_month": "2024-07",
+      "fy_spend": 52714.84,
+      "last_month": "2026-07",
+      "vendor": "LINDE GAS & EQUIPMENT"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25026A-LAB_SUPP",
+      "description": "LABORATORY SUPPLIES - CONTROLLED SUBSTANCES",
+      "first_month": "2025-10",
+      "fy_spend": 1937.1,
+      "last_month": "2026-01",
+      "vendor": "CAYMAN CHEMICAL"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25026A-LAB_SUPP",
+      "description": "LABORATORY SUPPLIES - CONTROLLED SUBSTANCES",
+      "first_month": "2026-01",
+      "fy_spend": 7340.22,
+      "last_month": "2026-02",
+      "vendor": "NETA SCIENTIFIC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22026-LAB_SUPP",
+      "description": "LABORATORY SUPPLIES AND EQUIPMENT",
+      "first_month": "2022-08",
+      "fy_spend": 11118.5,
+      "last_month": "2026-01",
+      "vendor": "NETA SCIENTIFIC INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25026-LAB_SUPP",
+      "description": "LABORATORY SUPPLIES AND EQUIPMENT",
+      "first_month": "2025-05",
+      "fy_spend": 394996.78,
+      "last_month": "2026-07",
+      "vendor": "AGILENT TECHNOLOGIES INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25026-LAB_SUPP",
+      "description": "LABORATORY SUPPLIES AND EQUIPMENT",
+      "first_month": "2025-09",
+      "fy_spend": 10099.72,
+      "last_month": "2026-07",
+      "vendor": "CAROLINA BIOLOGICAL SUPPLY COMPANY"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25026-LAB_SUPP",
+      "description": "LABORATORY SUPPLIES AND EQUIPMENT",
+      "first_month": "2025-08",
+      "fy_spend": 304831.33,
+      "last_month": "2026-07",
+      "vendor": "FISHER SCIENTIFIC COMPANY LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25026-LAB_SUPP",
+      "description": "LABORATORY SUPPLIES AND EQUIPMENT",
+      "first_month": "2025-12",
+      "fy_spend": 619.53,
+      "last_month": "2026-07",
+      "vendor": "PACIFIC STAR CORPORATION"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25026-LAB_SUPP",
+      "description": "LABORATORY SUPPLIES AND EQUIPMENT",
+      "first_month": "2025-09",
+      "fy_spend": 331346.44,
+      "last_month": "2026-06",
+      "vendor": "PROMEGA CORPORATION"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25026-LAB_SUPP",
+      "description": "LABORATORY SUPPLIES AND EQUIPMENT",
+      "first_month": "2025-10",
+      "fy_spend": 1467.15,
+      "last_month": "2026-07",
+      "vendor": "TAYLOR DISTRIBUTION GROUP LLC DBA TDG SCIENTIFIC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25026-LAB_SUPP",
+      "description": "LABORATORY SUPPLIES AND EQUIPMENT",
+      "first_month": "2025-08",
+      "fy_spend": 6651.83,
+      "last_month": "2025-09",
+      "vendor": "THOMAS SCIENTIFIC LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25026-LAB_SUPP",
+      "description": "LABORATORY SUPPLIES AND EQUIPMENT",
+      "first_month": "2025-08",
+      "fy_spend": 466626.12,
+      "last_month": "2026-07",
+      "vendor": "VWR INTERNATIONAL LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22161-LAUNDRY",
+      "description": "LAUNDRY SUPPLIES AND EQUIPMENT",
+      "first_month": "2022-07",
+      "fy_spend": 35640.43,
+      "last_month": "2026-04",
+      "vendor": "DIAMOND CHEMICAL COMPANY"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22707-TACTICAL",
+      "description": "LAW ENFORCEMENT AND HOMELAND SECURITY EQUIPMENT AND SUPPLIES",
+      "first_month": "2022-07",
+      "fy_spend": 1155484.44,
+      "last_month": "2026-06",
+      "vendor": "ATLANTIC TACTICAL"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22707-TACTICAL",
+      "description": "LAW ENFORCEMENT AND HOMELAND SECURITY EQUIPMENT AND SUPPLIES",
+      "first_month": "2025-11",
+      "fy_spend": 3145.44,
+      "last_month": "2025-11",
+      "vendor": "SIG SAUER INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23707A-TACTICAL",
+      "description": "LAW ENFORCEMENT AND HOMELAND SECURITY EQUIPMENT AND SUPPLIES (SUPPLEMENTAL)",
+      "first_month": "2023-08",
+      "fy_spend": 92152.41,
+      "last_month": "2026-07",
+      "vendor": "AMERICAN PUBLIC SAFEY LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23707A-TACTICAL",
+      "description": "LAW ENFORCEMENT AND HOMELAND SECURITY EQUIPMENT AND SUPPLIES (SUPPLEMENTAL)",
+      "first_month": "2023-07",
+      "fy_spend": 37849.33,
+      "last_month": "2026-07",
+      "vendor": "MES/LAWMEN SUPPLY CO"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23062-LAWN_CUTTI",
+      "description": "LAWN CARE SERVICES",
+      "first_month": "2023-03",
+      "fy_spend": 2525132.24,
+      "last_month": "2026-07",
+      "vendor": "PRIORITY SERVICES LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24062A-LAWN_CUTTI",
+      "description": "LAWN CARE SERVICES - SUPPLEMENTAL - VETERAN CEMETERY",
+      "first_month": "2024-01",
+      "fy_spend": 111099.22,
+      "last_month": "2026-04",
+      "vendor": "OBSERVATION POINT MANAGEMENT"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23822-LIFE_CONF",
+      "description": "LIFE CONFERENCE PLANNING AND COORDINATION",
+      "first_month": "2023-04",
+      "fy_spend": 140938.4,
+      "last_month": "2026-07",
+      "vendor": "EVENTFUL CONNECTIONS LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21778-SAFETY_SUP",
+      "description": "LIFE SAFETY SUPPLIES AND SERVICES",
+      "first_month": "2022-07",
+      "fy_spend": 20232.19,
+      "last_month": "2026-03",
+      "vendor": "FASTENAL COMPANY"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21778-SAFETY_SUP",
+      "description": "LIFE SAFETY SUPPLIES AND SERVICES",
+      "first_month": "2025-04",
+      "fy_spend": 13815.21,
+      "last_month": "2026-03",
+      "vendor": "JW WORKZONE SUPPLIES LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS26778-SAFETY_SUP",
+      "description": "LIFE SAFETY SUPPLIES AND SERVICES",
+      "first_month": "2026-04",
+      "fy_spend": 11269.09,
+      "last_month": "2026-07",
+      "vendor": "FASTENAL COMPANY"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22576-MAILEQUIP",
+      "description": "MAILROOM EQUIPMENT, SUPPLIES AND MAINTENANCE",
+      "first_month": "2024-07",
+      "fy_spend": 112516.44,
+      "last_month": "2026-04",
+      "vendor": "DMT SOLUTIONS GLOBAL CORPORATION DBA BLUECREST"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22576-MAILEQUIP",
+      "description": "MAILROOM EQUIPMENT, SUPPLIES AND MAINTENANCE",
+      "first_month": "2023-01",
+      "fy_spend": 439967.91,
+      "last_month": "2026-07",
+      "vendor": "PITNEY BOWES INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22576-MAILEQUIP",
+      "description": "MAILROOM EQUIPMENT, SUPPLIES AND MAINTENANCE",
+      "first_month": "2023-03",
+      "fy_spend": 48689.9,
+      "last_month": "2026-01",
+      "vendor": "QUADIENT/NEOPOST"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23921-OUTBOARD",
+      "description": "MARINE CRAFT",
+      "first_month": "2024-08",
+      "fy_spend": 58221.5,
+      "last_month": "2026-06",
+      "vendor": "CENTRAL FLORIDA YAMAHA INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25638A-MARKET_ADV",
+      "description": "MARKETING, PUBLIC RELATION SERVICES, ADVERTISING AND MEDIA BUYING",
+      "first_month": "2025-04",
+      "fy_spend": 680939.5,
+      "last_month": "2026-07",
+      "vendor": "A BRIGHT IDEA"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25638A-MARKET_ADV",
+      "description": "MARKETING, PUBLIC RELATION SERVICES, ADVERTISING AND MEDIA BUYING",
+      "first_month": "2025-04",
+      "fy_spend": 11925456.46,
+      "last_month": "2026-07",
+      "vendor": "ALOYSIUS BUTLER AND CLARK ASSOCIATES INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25638A-MARKET_ADV",
+      "description": "MARKETING, PUBLIC RELATION SERVICES, ADVERTISING AND MEDIA BUYING",
+      "first_month": "2025-11",
+      "fy_spend": 66000.0,
+      "last_month": "2026-06",
+      "vendor": "CHATTERBLAST MEDIA"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25638A-MARKET_ADV",
+      "description": "MARKETING, PUBLIC RELATION SERVICES, ADVERTISING AND MEDIA BUYING",
+      "first_month": "2025-04",
+      "fy_spend": 1230518.59,
+      "last_month": "2026-07",
+      "vendor": "DEARDORFF ASSOCS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25638A-MARKET_ADV",
+      "description": "MARKETING, PUBLIC RELATION SERVICES, ADVERTISING AND MEDIA BUYING",
+      "first_month": "2025-04",
+      "fy_spend": 46178.11,
+      "last_month": "2026-04",
+      "vendor": "EPIC MARKETING CONSULTANTS CORPORATION"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25638A-MARKET_ADV",
+      "description": "MARKETING, PUBLIC RELATION SERVICES, ADVERTISING AND MEDIA BUYING",
+      "first_month": "2025-07",
+      "fy_spend": 2493581.56,
+      "last_month": "2026-07",
+      "vendor": "MARKETSMITH INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25638A-MARKET_ADV",
+      "description": "MARKETING, PUBLIC RELATION SERVICES, ADVERTISING AND MEDIA BUYING",
+      "first_month": "2025-03",
+      "fy_spend": 634418.54,
+      "last_month": "2026-06",
+      "vendor": "MILES PARTNERSHIP LLLP"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25638A-MARKET_ADV",
+      "description": "MARKETING, PUBLIC RELATION SERVICES, ADVERTISING AND MEDIA BUYING",
+      "first_month": "2025-06",
+      "fy_spend": 4551.76,
+      "last_month": "2025-10",
+      "vendor": "REMLINE CORP"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25638A-MARKET_ADV",
+      "description": "MARKETING, PUBLIC RELATION SERVICES, ADVERTISING AND MEDIA BUYING",
+      "first_month": "2025-01",
+      "fy_spend": 2366271.54,
+      "last_month": "2026-07",
+      "vendor": "TAPP NETWORK"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23747-MASONRY",
+      "description": "MASONRY REPAIR",
+      "first_month": "2023-12",
+      "fy_spend": 129195.0,
+      "last_month": "2026-07",
+      "vendor": "ENTERPRISE MASONRY CORPORATION"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23747-MASONRY",
+      "description": "MASONRY REPAIR",
+      "first_month": "2025-07",
+      "fy_spend": 188300.0,
+      "last_month": "2025-07",
+      "vendor": "PAULS POINTING INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23747-MASONRY",
+      "description": "MASONRY REPAIR",
+      "first_month": "2025-10",
+      "fy_spend": 128834.08,
+      "last_month": "2026-06",
+      "vendor": "THE BORSELLO COMPANIES INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23712-PHYTESTLAB",
+      "description": "MEDICAL PHYSICALS AND LABORATORY TESTING SERVICES",
+      "first_month": "2023-11",
+      "fy_spend": 108640.0,
+      "last_month": "2026-06",
+      "vendor": "BAYHEALTH MEDICAL CENTER INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23712-PHYTESTLAB",
+      "description": "MEDICAL PHYSICALS AND LABORATORY TESTING SERVICES",
+      "first_month": "2023-12",
+      "fy_spend": 151220.0,
+      "last_month": "2026-06",
+      "vendor": "CARDIOKINETICS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22866-MED_SUPPLY",
+      "description": "MEDICAL SUPPLY SOLUTIONS",
+      "first_month": "2022-08",
+      "fy_spend": 290672.8,
+      "last_month": "2026-04",
+      "vendor": "SCHOOL HEALTH CORPORATION"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23751-EQUIP_MED",
+      "description": "MEDIUM DUTY AND COMPACT CONSTRUCTION EQUIPMENT WITH RELATED ATTACHMENTS",
+      "first_month": "2026-04",
+      "fy_spend": 181156.52,
+      "last_month": "2026-04",
+      "vendor": "JCB INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24462-MICRO_CONV",
+      "description": "MICROGRAPHIC AND CONVERSION SERVICES",
+      "first_month": "2025-03",
+      "fy_spend": 20764.45,
+      "last_month": "2026-05",
+      "vendor": "COURT RECORD & DATA MANAGEMENT SERVICES INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24462-MICRO_CONV",
+      "description": "MICROGRAPHIC AND CONVERSION SERVICES",
+      "first_month": "2025-08",
+      "fy_spend": 124400.17,
+      "last_month": "2026-06",
+      "vendor": "DATA MANAGEMENT INTERNATIONALE"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22036A-MILK_DAIRY",
+      "description": "MILK, DAIRY AND JUICE PRODUCTS",
+      "first_month": "2024-07",
+      "fy_spend": 1035565.48,
+      "last_month": "2026-07",
+      "vendor": "CLOVERLAND FARMS DAIRY"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22036A-MILK_DAIRY",
+      "description": "MILK, DAIRY AND JUICE PRODUCTS",
+      "first_month": "2022-08",
+      "fy_spend": 4589684.84,
+      "last_month": "2026-06",
+      "vendor": "HY-POINT DAIRY"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24010-MOBILE_DVR",
+      "description": "MOBILE DVR SYSTEM",
+      "first_month": "2024-10",
+      "fy_spend": 168856.6,
+      "last_month": "2026-07",
+      "vendor": "IVS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21867-MTMS",
+      "description": "MOBILE TRUCK MONITORING SYSTEM",
+      "first_month": "2025-05",
+      "fy_spend": 92400.0,
+      "last_month": "2026-07",
+      "vendor": "MODAXO TRAFFIC MANAGEMENT USA INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS26009A-MOTOR_OIL",
+      "description": "MOTOR OIL, LUBRICANTS AND ANTIFREEZE",
+      "first_month": "2026-01",
+      "fy_spend": 1943.4,
+      "last_month": "2026-01",
+      "vendor": "FISHER AUTO PARTS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS26009A-MOTOR_OIL",
+      "description": "MOTOR OIL, LUBRICANTS AND ANTIFREEZE",
+      "first_month": "2026-02",
+      "fy_spend": 28669.5,
+      "last_month": "2026-07",
+      "vendor": "FISHER AUTO PARTS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS26009A-MOTOR_OIL",
+      "description": "MOTOR OIL, LUBRICANTS AND ANTIFREEZE",
+      "first_month": "2026-02",
+      "fy_spend": 479.98,
+      "last_month": "2026-02",
+      "vendor": "LUBE SQUAD OF MARYLAND LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS26009A-MOTOR_OIL",
+      "description": "MOTOR OIL, LUBRICANTS AND ANTIFREEZE",
+      "first_month": "2026-03",
+      "fy_spend": 39147.23,
+      "last_month": "2026-07",
+      "vendor": "MOOVE NA DISTRIBUTION LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS26009A-MOTOR_OIL",
+      "description": "MOTOR OIL, LUBRICANTS AND ANTIFREEZE",
+      "first_month": "2026-01",
+      "fy_spend": 27652.24,
+      "last_month": "2026-02",
+      "vendor": "PETROCHOICE LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22009-MOTOR_OIL",
+      "description": "MOTOR OIL, RE-REFINED MOTOR OIL, LUBRICANTS, AND ANTIFREEZE",
+      "first_month": "2022-07",
+      "fy_spend": 93101.73,
+      "last_month": "2025-12",
+      "vendor": "PETROCHOICE LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25702-MOTO_ATV",
+      "description": "MOTORCYCLES, ATV, UTV, AND GOLF CARTS",
+      "first_month": "2025-10",
+      "fy_spend": 141706.86,
+      "last_month": "2026-01",
+      "vendor": "BOB\ufffdS USED PARTS DBA BOB\ufffdS BMW MOTORCYCLES"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21583-MULCH",
+      "description": "MULCH, SAND, OTHER GROUND SURFACING",
+      "first_month": "2022-07",
+      "fy_spend": 789230.09,
+      "last_month": "2026-07",
+      "vendor": "LIBERTY PARKS AND PLAYGROUNDS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS19694-VEH_RENTAL",
+      "description": "NATIONWIDE VEHICLE RENTAL",
+      "first_month": "2022-07",
+      "fy_spend": 7257.85,
+      "last_month": "2025-09",
+      "vendor": "THE ENTERPRISE SUSIDIARIES"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23014-VEHICLES",
+      "description": "NEW VEHICLES - MODEL YEAR 2024 OR LATER",
+      "first_month": "2023-12",
+      "fy_spend": 24117223.0,
+      "last_month": "2026-07",
+      "vendor": "HERTRICH FLEET SERVICES INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23014-VEHICLES",
+      "description": "NEW VEHICLES - MODEL YEAR 2024 OR LATER",
+      "first_month": "2023-12",
+      "fy_spend": 224640.0,
+      "last_month": "2025-10",
+      "vendor": "IG BURTON CDJR"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23014-VEHICLES",
+      "description": "NEW VEHICLES - MODEL YEAR 2024 OR LATER",
+      "first_month": "2025-02",
+      "fy_spend": 474058.0,
+      "last_month": "2025-12",
+      "vendor": "IG BURTON CHEV"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23014-VEHICLES",
+      "description": "NEW VEHICLES - MODEL YEAR 2024 OR LATER",
+      "first_month": "2023-10",
+      "fy_spend": 1015159.48,
+      "last_month": "2026-07",
+      "vendor": "PACIFICO FORD INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23014-VEHICLES",
+      "description": "NEW VEHICLES - MODEL YEAR 2024 OR LATER",
+      "first_month": "2024-01",
+      "fy_spend": 3370800.0,
+      "last_month": "2025-11",
+      "vendor": "ROHRER ENTERPRISES INC DBA ROHRER BUS SALES"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23014-VEHICLES",
+      "description": "NEW VEHICLES - MODEL YEAR 2024 OR LATER",
+      "first_month": "2025-07",
+      "fy_spend": 4637941.0,
+      "last_month": "2026-07",
+      "vendor": "WINNER FORD"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23810-BEARCAT",
+      "description": "NON-TACTICAL ARMORED VEHICLES AND VEHICLE ARMORING SERVICES",
+      "first_month": "2026-02",
+      "fy_spend": 430011.0,
+      "last_month": "2026-02",
+      "vendor": "LENCO INDUSTRIES INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23878-OFF_MONITO",
+      "description": "OFFENDER MONITORING PRODUCTS AND SERVICES",
+      "first_month": "2023-10",
+      "fy_spend": 1491410.8,
+      "last_month": "2026-07",
+      "vendor": "BI INCORPORATED"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23489-OFFICSUPPL",
+      "description": "OFFICE SUPPLIES AND ACCESSORIES",
+      "first_month": "2026-03",
+      "fy_spend": 18633.27,
+      "last_month": "2026-06",
+      "vendor": "STAPLES"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23489-OFFICSUPPL",
+      "description": "OFFICE SUPPLIES AND ACCESSORIES",
+      "first_month": "2023-08",
+      "fy_spend": 4194623.47,
+      "last_month": "2026-06",
+      "vendor": "STAPLES BUSINESS ADVANTAGE"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23489-OFFICSUPPL",
+      "description": "OFFICE SUPPLIES AND ACCESSORIES",
+      "first_month": "2023-08",
+      "fy_spend": 39414.07,
+      "last_month": "2026-07",
+      "vendor": "WB MASON CO INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22406-DATA_STOR",
+      "description": "OFFSITE DATA STORAGE",
+      "first_month": "2025-07",
+      "fy_spend": 115638.36,
+      "last_month": "2026-07",
+      "vendor": "IRON MOUNTAIN INFORMATION MANAGEMENT LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25816-OC-PHLEBOT",
+      "description": "ON-CALL PHLEBOTOMIST SERVICES",
+      "first_month": "2025-07",
+      "fy_spend": 198448.0,
+      "last_month": "2026-07",
+      "vendor": "THE LAB AT SEASCAPE"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21413-PCKG_DLVRY",
+      "description": "PACKAGE DELIVERY SERVICES",
+      "first_month": "2022-07",
+      "fy_spend": 79995.86,
+      "last_month": "2026-07",
+      "vendor": "FEDEX"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22770-PAINT_SVCS",
+      "description": "PAINTING SERVICES",
+      "first_month": "2022-07",
+      "fy_spend": 36199.0,
+      "last_month": "2025-11",
+      "vendor": "BL WARD & ASSOCIATES LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22770-PAINT_SVCS",
+      "description": "PAINTING SERVICES",
+      "first_month": "2022-07",
+      "fy_spend": 465550.5,
+      "last_month": "2026-03",
+      "vendor": "BRUSHSTROKES INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22770-PAINT_SVCS",
+      "description": "PAINTING SERVICES",
+      "first_month": "2022-08",
+      "fy_spend": 110504.07,
+      "last_month": "2025-12",
+      "vendor": "GERARDI CONSTRUCTION"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22770-PAINT_SVCS",
+      "description": "PAINTING SERVICES",
+      "first_month": "2024-01",
+      "fy_spend": 320585.0,
+      "last_month": "2026-04",
+      "vendor": "JAMESTOWN PAINTING AND DECORATING INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS26770-PAINT_SVCS",
+      "description": "PAINTING SERVICES",
+      "first_month": "2026-04",
+      "fy_spend": 148777.65,
+      "last_month": "2026-07",
+      "vendor": "BRUSHSTROKES INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS26770-PAINT_SVCS",
+      "description": "PAINTING SERVICES",
+      "first_month": "2026-05",
+      "fy_spend": 164285.0,
+      "last_month": "2026-07",
+      "vendor": "JAMESTOWN PAINTING AND DECORATING INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25694-VEH_RENTAL",
+      "description": "PASSENGER VEHICLE AND BOX TRUCK RENTALS",
+      "first_month": "2025-10",
+      "fy_spend": 76630.36,
+      "last_month": "2026-07",
+      "vendor": "EAN SERVICES LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25694-VEH_RENTAL",
+      "description": "PASSENGER VEHICLE AND BOX TRUCK RENTALS",
+      "first_month": "2025-05",
+      "fy_spend": 271907.42,
+      "last_month": "2026-07",
+      "vendor": "THE HERTZ COPORATION"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24935-PENSION",
+      "description": "PENSION ADMINISTRATION SOFTWARE SOLUTION AND SERVICES",
+      "first_month": "2025-11",
+      "fy_spend": 633528.57,
+      "last_month": "2025-11",
+      "vendor": "TELUS HEALTH"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23575-PERSONAL_CARE",
+      "description": "PERSONAL CARE PRODUCTS",
+      "first_month": "2024-01",
+      "fy_spend": 161205.15,
+      "last_month": "2026-07",
+      "vendor": "BOB BARKER COMPANY INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22080-PEST_CONTROL",
+      "description": "PEST CONTROL SERVICES",
+      "first_month": "2022-07",
+      "fy_spend": 24140.0,
+      "last_month": "2026-07",
+      "vendor": "1ST STATE PEST & HOME SERVICES LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22080A-PEST_CNTR",
+      "description": "PEST CONTROL SERVICES (SUPPLEMENTAL)",
+      "first_month": "2022-08",
+      "fy_spend": 276397.54,
+      "last_month": "2026-07",
+      "vendor": "TRI COUNTY TERMITE & PEST CONTROL INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24641-PLAYGROUND",
+      "description": "PLAYGROUND AND RECREATION EQUIPMENT AND ACCESSORIES",
+      "first_month": "2025-11",
+      "fy_spend": 5150.0,
+      "last_month": "2025-11",
+      "vendor": "CHARLES J BECKER & BROS INC T/A BECKERS SCHOOL SUPPLIES"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24641-PLAYGROUND",
+      "description": "PLAYGROUND AND RECREATION EQUIPMENT AND ACCESSORIES",
+      "first_month": "2024-10",
+      "fy_spend": 248099.65,
+      "last_month": "2026-07",
+      "vendor": "CUNNINGHAM RECREATION"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24641-PLAYGROUND",
+      "description": "PLAYGROUND AND RECREATION EQUIPMENT AND ACCESSORIES",
+      "first_month": "2024-10",
+      "fy_spend": 31597.0,
+      "last_month": "2026-07",
+      "vendor": "GENERAL RECREATION INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24641-PLAYGROUND",
+      "description": "PLAYGROUND AND RECREATION EQUIPMENT AND ACCESSORIES",
+      "first_month": "2024-10",
+      "fy_spend": 1559549.55,
+      "last_month": "2026-07",
+      "vendor": "LIBERTY PARKS AND PLAYGROUNDS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24639-POLICE_RAD",
+      "description": "POLICE RADAR, LIDAR, PARTS AND EQUIPMENT",
+      "first_month": "2025-07",
+      "fy_spend": 252624.26,
+      "last_month": "2026-06",
+      "vendor": "APPLIED CONCEPTS INC (DBA STALKER RADAR)"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24639-POLICE_RAD",
+      "description": "POLICE RADAR, LIDAR, PARTS AND EQUIPMENT",
+      "first_month": "2024-12",
+      "fy_spend": 4819.5,
+      "last_month": "2026-04",
+      "vendor": "KUSTOM SIGNALS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24165-PORT_TOILET",
+      "description": "PORTABLE TOILETS \ufffd RENTAL AND SERVICING",
+      "first_month": "2025-07",
+      "fy_spend": 247623.42,
+      "last_month": "2026-06",
+      "vendor": "ARROW LEASING CORP"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24165-PORT_TOILET",
+      "description": "PORTABLE TOILETS \ufffd RENTAL AND SERVICING",
+      "first_month": "2025-07",
+      "fy_spend": 6970.0,
+      "last_month": "2025-08",
+      "vendor": "UNITED RENTALS (NORTH AMERICA) INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24165-PORT_TOILET",
+      "description": "PORTABLE TOILETS \ufffd RENTAL AND SERVICING",
+      "first_month": "2025-03",
+      "fy_spend": 62956.55,
+      "last_month": "2026-07",
+      "vendor": "UNITED RENTALS NORTH AMERICA INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22356-PRESORT",
+      "description": "PRE-SORT MAIL SERVICES",
+      "first_month": "2023-07",
+      "fy_spend": 1531087.91,
+      "last_month": "2026-07",
+      "vendor": "MAILROOM SYSTEMS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21807-PBT_INST",
+      "description": "PRELIMINARY BREATH TESTING (PBT) INSTRUMENT",
+      "first_month": "2022-10",
+      "fy_spend": 2450.0,
+      "last_month": "2025-10",
+      "vendor": "INTOXIMETERS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25807A-PBT_INST",
+      "description": "PRELIMINARY BREATH TESTING (PBT) INSTRUMENT",
+      "first_month": "2026-02",
+      "fy_spend": 3987.76,
+      "last_month": "2026-07",
+      "vendor": "INTOXIMETERS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21079A-CHILLER_MA",
+      "description": "PREVENTATIVE MAINTENANCE AND SERVICE - CHILLERS",
+      "first_month": "2024-08",
+      "fy_spend": 117484.3,
+      "last_month": "2025-11",
+      "vendor": "STATEWIDE MECHANICALINC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25079-CHILL_HVAC",
+      "description": "PREVENTATIVE MAINTENANCE AND SERVICE - CHILLERS AND HVAC",
+      "first_month": "2025-11",
+      "fy_spend": 12072.5,
+      "last_month": "2026-01",
+      "vendor": "SEIBERLICH TRANE ENERGY SERVICES"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25079-CHILL_HVAC",
+      "description": "PREVENTATIVE MAINTENANCE AND SERVICE - CHILLERS AND HVAC",
+      "first_month": "2026-02",
+      "fy_spend": 287897.59,
+      "last_month": "2026-07",
+      "vendor": "STATEWIDE MECHANICAL"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24046-ELEV_MAIN",
+      "description": "PREVENTATIVE MAINTENANCE, ELEVATORS AND ESCALATORS",
+      "first_month": "2024-07",
+      "fy_spend": 616524.25,
+      "last_month": "2026-06",
+      "vendor": "DELAWARE ELEVATOR INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24811-PRINT_SVC",
+      "description": "PRINT SERVICES",
+      "first_month": "2025-01",
+      "fy_spend": 16753.32,
+      "last_month": "2026-07",
+      "vendor": "ANCAR ENT DBA ALPHAGRAPHICS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24811-PRINT_SVC",
+      "description": "PRINT SERVICES",
+      "first_month": "2024-11",
+      "fy_spend": 11545.68,
+      "last_month": "2026-07",
+      "vendor": "ARIHANT ENTERPRISE LLC DBA ALPHAGRAPHICS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24811-PRINT_SVC",
+      "description": "PRINT SERVICES",
+      "first_month": "2024-08",
+      "fy_spend": 233737.0,
+      "last_month": "2026-07",
+      "vendor": "ASSOCIATES INTERNATIONAL INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24811-PRINT_SVC",
+      "description": "PRINT SERVICES",
+      "first_month": "2025-06",
+      "fy_spend": 19640.33,
+      "last_month": "2026-04",
+      "vendor": "AZTEC COPIES"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24811-PRINT_SVC",
+      "description": "PRINT SERVICES",
+      "first_month": "2024-07",
+      "fy_spend": 137174.71,
+      "last_month": "2026-07",
+      "vendor": "KM PRINTING LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24811-PRINT_SVC",
+      "description": "PRINT SERVICES",
+      "first_month": "2026-02",
+      "fy_spend": 12955.25,
+      "last_month": "2026-07",
+      "vendor": "MINUTEMAN PRESS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24811-PRINT_SVC",
+      "description": "PRINT SERVICES",
+      "first_month": "2024-07",
+      "fy_spend": 60898.63,
+      "last_month": "2026-07",
+      "vendor": "REPROGRAPHICS CENTER INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24811-PRINT_SVC",
+      "description": "PRINT SERVICES",
+      "first_month": "2024-09",
+      "fy_spend": 216382.9,
+      "last_month": "2026-03",
+      "vendor": "RRD"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24811-PRINT_SVC",
+      "description": "PRINT SERVICES",
+      "first_month": "2024-09",
+      "fy_spend": 110522.5,
+      "last_month": "2026-04",
+      "vendor": "TAYLOR PRINT IMPRESSIONS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24811-PRINT_SVC",
+      "description": "PRINT SERVICES",
+      "first_month": "2025-04",
+      "fy_spend": 10849.89,
+      "last_month": "2025-12",
+      "vendor": "UNION PRESS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24811-PRINT_SVC",
+      "description": "PRINT SERVICES",
+      "first_month": "2024-08",
+      "fy_spend": 13940.0,
+      "last_month": "2025-12",
+      "vendor": "VANGUARD DIRECT"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24811-PRINT_SVC",
+      "description": "PRINT SERVICES",
+      "first_month": "2024-09",
+      "fy_spend": 59142.91,
+      "last_month": "2026-07",
+      "vendor": "WILLIAM N CANN INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25811-PRINT_SVC",
+      "description": "PRINT SERVICES, SUPPLEMENTAL",
+      "first_month": "2026-04",
+      "fy_spend": 7531.0,
+      "last_month": "2026-04",
+      "vendor": "M&M DISPLAY DBA M&M PRINT SOLUTIONS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25811-PRINT_SVC",
+      "description": "PRINT SERVICES, SUPPLEMENTAL",
+      "first_month": "2025-09",
+      "fy_spend": 117082.4,
+      "last_month": "2026-07",
+      "vendor": "MCCLAFFERTY PRINTING"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25811-PRINT_SVC",
+      "description": "PRINT SERVICES, SUPPLEMENTAL",
+      "first_month": "2026-03",
+      "fy_spend": 117000.0,
+      "last_month": "2026-03",
+      "vendor": "RELYCO SALES INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25811-PRINT_SVC",
+      "description": "PRINT SERVICES, SUPPLEMENTAL",
+      "first_month": "2025-08",
+      "fy_spend": 49640.0,
+      "last_month": "2025-10",
+      "vendor": "RYDIN"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25811-PRINT_SVC",
+      "description": "PRINT SERVICES, SUPPLEMENTAL",
+      "first_month": "2026-01",
+      "fy_spend": 47400.0,
+      "last_month": "2026-01",
+      "vendor": "VERITRACE INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24877-PASS",
+      "description": "PROCUREMENT ACQUISITION SUPPORT SERVICES",
+      "first_month": "2025-07",
+      "fy_spend": 180381.25,
+      "last_month": "2025-12",
+      "vendor": "MATHTECH INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS26877-PASS",
+      "description": "PROCUREMENT ACQUISITION SUPPORT SERVICES",
+      "first_month": "2026-01",
+      "fy_spend": 234631.25,
+      "last_month": "2026-06",
+      "vendor": "MATHTECH INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS20662-PRODUCE",
+      "description": "PRODUCE",
+      "first_month": "2022-07",
+      "fy_spend": 14053.43,
+      "last_month": "2025-08",
+      "vendor": "J AMBROGI FOOD DISTRIBUTION"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS20662-PRODUCE",
+      "description": "PRODUCE",
+      "first_month": "2025-08",
+      "fy_spend": 2144.9,
+      "last_month": "2025-08",
+      "vendor": "SEASHORE FRUIT & PRODUCE CO"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS20662-PRODUCE",
+      "description": "PRODUCE",
+      "first_month": "2022-07",
+      "fy_spend": 1397.55,
+      "last_month": "2025-07",
+      "vendor": "SEASHORE FRUIT AND PRODUCE"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS20662-PRODUCE",
+      "description": "PRODUCE",
+      "first_month": "2022-07",
+      "fy_spend": 157653.3,
+      "last_month": "2025-08",
+      "vendor": "THE CLASS PRODUCE GROUP"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25662-PRODUCE",
+      "description": "PRODUCE",
+      "first_month": "2025-11",
+      "fy_spend": 292526.18,
+      "last_month": "2026-07",
+      "vendor": "J AMBROGI FOOD DISTRIBUTION"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25662-PRODUCE",
+      "description": "PRODUCE",
+      "first_month": "2025-09",
+      "fy_spend": 12734.5,
+      "last_month": "2026-07",
+      "vendor": "SEASHORE FRUIT & PRODUCE CO"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25662-PRODUCE",
+      "description": "PRODUCE",
+      "first_month": "2025-11",
+      "fy_spend": 9078.5,
+      "last_month": "2026-07",
+      "vendor": "TEDDY BEAR FRESH PRODUCE LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25662-PRODUCE",
+      "description": "PRODUCE",
+      "first_month": "2025-09",
+      "fy_spend": 766569.55,
+      "last_month": "2026-07",
+      "vendor": "THE CLASS PRODUCE GROUP"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22337-PRO_MOVING",
+      "description": "PROFESSIONAL MOVING SERVICES",
+      "first_month": "2023-05",
+      "fy_spend": 255907.39,
+      "last_month": "2026-03",
+      "vendor": "DELAWARE MOVING & STORAGE"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22337-PRO_MOVING",
+      "description": "PROFESSIONAL MOVING SERVICES",
+      "first_month": "2025-08",
+      "fy_spend": 203577.65,
+      "last_month": "2026-07",
+      "vendor": "HOPKINS AND SONS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25659-PROFTRNG",
+      "description": "PROFESSIONAL TRAINING SERVICES",
+      "first_month": "2026-05",
+      "fy_spend": 6300.0,
+      "last_month": "2026-05",
+      "vendor": "MAINLINE ADVISORY & CONSULTING GROUP LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25659-PROFTRNG",
+      "description": "PROFESSIONAL TRAINING SERVICES",
+      "first_month": "2026-06",
+      "fy_spend": 7485.0,
+      "last_month": "2026-06",
+      "vendor": "NEW HORIZONS LEARNING LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25659-PROFTRNG",
+      "description": "PROFESSIONAL TRAINING SERVICES",
+      "first_month": "2026-01",
+      "fy_spend": 51740.0,
+      "last_month": "2026-03",
+      "vendor": "PROJECT MANAGEMENT EXPERTS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25659-PROFTRNG",
+      "description": "PROFESSIONAL TRAINING SERVICES",
+      "first_month": "2026-06",
+      "fy_spend": 5063.0,
+      "last_month": "2026-07",
+      "vendor": "THIRD SIGHT LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21756-PSYCH_SVCS",
+      "description": "PSYCHOLOGICAL SERVICES",
+      "first_month": "2022-07",
+      "fy_spend": 50960.0,
+      "last_month": "2026-05",
+      "vendor": "ATLANTIC OCCUPSYCH INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21756-PSYCH_SVCS",
+      "description": "PSYCHOLOGICAL SERVICES",
+      "first_month": "2022-07",
+      "fy_spend": 148280.0,
+      "last_month": "2026-07",
+      "vendor": "FORENSIC & LAW ENFORCEMENT SERVICES"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21676-COMMEQUIP",
+      "description": "PUBLIC SAFETY COMMUNICATIONS PRODUCTS, SERVICES AND SOLUTIONS",
+      "first_month": "2025-07",
+      "fy_spend": 1063254.89,
+      "last_month": "2025-10",
+      "vendor": "MOTOROLA SOLUTIONS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22795-PPE_DVC_SV",
+      "description": "PUBLIC SAFETY PPE, DEVICES & SERVICES",
+      "first_month": "2022-09",
+      "fy_spend": 256414.36,
+      "last_month": "2026-05",
+      "vendor": "GEN-EL SAFETY & INDUSTRIAL PRODUCTS LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22795-PPE_DVC_SV",
+      "description": "PUBLIC SAFETY PPE, DEVICES & SERVICES",
+      "first_month": "2022-12",
+      "fy_spend": 10992.7,
+      "last_month": "2025-12",
+      "vendor": "SAFEWARE INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24886-PS_VIDEO",
+      "description": "PUBLIC SAFETY/LAW ENFORCEMENT VIDEO PRODUCTS, SERVICES, AND SOLUTIONS",
+      "first_month": "2025-01",
+      "fy_spend": 264782.6,
+      "last_month": "2026-04",
+      "vendor": "AXON ENTERPRISE INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23675-PUBLIC_UTY",
+      "description": "PUBLIC UTILITY",
+      "first_month": "2023-10",
+      "fy_spend": 365922.0,
+      "last_month": "2026-04",
+      "vendor": "ALTEC INDUSTRIES INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24868-RAD_PLANNING",
+      "description": "RADIOLOGICAL PLANNING SERVICES",
+      "first_month": "2025-02",
+      "fy_spend": 64680.0,
+      "last_month": "2026-07",
+      "vendor": "SRC LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24868-RAD_PLANNING",
+      "description": "RADIOLOGICAL PLANNING SERVICES",
+      "first_month": "2025-05",
+      "fy_spend": 15579.14,
+      "last_month": "2026-07",
+      "vendor": "TETRA TECH INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24868-RAD_PLANNING",
+      "description": "RADIOLOGICAL PLANNING SERVICES",
+      "first_month": "2025-03",
+      "fy_spend": 28671.66,
+      "last_month": "2026-06",
+      "vendor": "THE OLSON GROUP"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21002-GASOLINE",
+      "description": "REFORMULATED GASOLINE",
+      "first_month": "2022-07",
+      "fy_spend": 201141.02,
+      "last_month": "2026-07",
+      "vendor": "CATO INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21002-GASOLINE",
+      "description": "REFORMULATED GASOLINE",
+      "first_month": "2022-07",
+      "fy_spend": 917673.06,
+      "last_month": "2026-07",
+      "vendor": "GRIFFITH ENERGY SVCS INC DBA CARL KING"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS10412-REMAN_TONER",
+      "description": "REMANUFACTURED TONER CARTRIDGES",
+      "first_month": "2022-07",
+      "fy_spend": 5853.0,
+      "last_month": "2026-06",
+      "vendor": "KENT-SUSSEX INDUSTRIES INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21677-RENT_EQPT",
+      "description": "RENTAL EQUIPMENT",
+      "first_month": "2022-07",
+      "fy_spend": 113293.78,
+      "last_month": "2026-01",
+      "vendor": "HERC RENTALS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21677-RENT_EQPT",
+      "description": "RENTAL EQUIPMENT",
+      "first_month": "2022-07",
+      "fy_spend": 10149.0,
+      "last_month": "2025-11",
+      "vendor": "SUNBELT RENTALS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21677-RENT_EQPT",
+      "description": "RENTAL EQUIPMENT",
+      "first_month": "2022-07",
+      "fy_spend": 57531.82,
+      "last_month": "2025-08",
+      "vendor": "UNITED RENTALS (NORTH AMERICA) INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25677-RENT_EQUIP",
+      "description": "RENTAL EQUIPMENT",
+      "first_month": "2025-10",
+      "fy_spend": 208062.42,
+      "last_month": "2025-10",
+      "vendor": "HERC RENTALS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25677-RENT_EQUIP",
+      "description": "RENTAL EQUIPMENT",
+      "first_month": "2025-12",
+      "fy_spend": 3797.0,
+      "last_month": "2026-07",
+      "vendor": "SUNBELT RENTALS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25677-RENT_EQUIP",
+      "description": "RENTAL EQUIPMENT",
+      "first_month": "2025-09",
+      "fy_spend": 237694.56,
+      "last_month": "2026-07",
+      "vendor": "UNITED RENTALS (NORTH AMERICA) INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22722-ROADMAIN",
+      "description": "ROADWAY MAINTENANCE EQUIPMENT",
+      "first_month": "2022-08",
+      "fy_spend": 58292.23,
+      "last_month": "2025-08",
+      "vendor": "ALAMO INDUSTRIAL INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22722-ROADMAIN",
+      "description": "ROADWAY MAINTENANCE EQUIPMENT",
+      "first_month": "2025-09",
+      "fy_spend": 160730.0,
+      "last_month": "2026-05",
+      "vendor": "ALAMO MUNICIPAL MOWING SOLUTIONS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22722-ROADMAIN",
+      "description": "ROADWAY MAINTENANCE EQUIPMENT",
+      "first_month": "2022-09",
+      "fy_spend": 38630.22,
+      "last_month": "2026-01",
+      "vendor": "CRAFCO INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS26722-RDWY_EQP",
+      "description": "ROADWAY MAINTENANCE EQUIPMENT",
+      "first_month": "2026-04",
+      "fy_spend": 11502.63,
+      "last_month": "2026-04",
+      "vendor": "CRAFCO INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21469-ROCKSALT",
+      "description": "ROCK SALT, SOLAR SALT AND ICE MELT",
+      "first_month": "2022-09",
+      "fy_spend": 5430984.91,
+      "last_month": "2026-06",
+      "vendor": "EASTERN SALT COMPANY INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24926-RFG_INSP",
+      "description": "ROOFING AND BUILDING ENVELOPE INSPECTION SERVICES",
+      "first_month": "2025-12",
+      "fy_spend": 12754.0,
+      "last_month": "2025-12",
+      "vendor": "BLUEFIN LLC DBA MANTIS INNOVATION LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24926-RFG_INSP",
+      "description": "ROOFING AND BUILDING ENVELOPE INSPECTION SERVICES",
+      "first_month": "2026-05",
+      "fy_spend": 58882.5,
+      "last_month": "2026-07",
+      "vendor": "ROOFING RESOURCES INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24926-RFG_INSP",
+      "description": "ROOFING AND BUILDING ENVELOPE INSPECTION SERVICES",
+      "first_month": "2025-07",
+      "fy_spend": 256266.14,
+      "last_month": "2026-04",
+      "vendor": "ROOFING RESOURCES LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21893-ANALYTICS",
+      "description": "SAS SOFTWARE AND PROFESSIONAL SERVICES",
+      "first_month": "2022-09",
+      "fy_spend": 1301647.49,
+      "last_month": "2026-07",
+      "vendor": "EXECUTIVE INFORMATION SYSTEMS LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23765-SCHL_SUP",
+      "description": "SCHOOL INSTRUCTIONAL, ARTS & CRAFTS, RECREATIONAL AND THERAPEUTIC SUPPLIES",
+      "first_month": "2024-01",
+      "fy_spend": 385358.67,
+      "last_month": "2026-07",
+      "vendor": "LAKESHORE LEARNING MATERIALS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24608-DOC_DESTRUCT",
+      "description": "SECURED DOCUMENT AND DATA DESTRUCTION",
+      "first_month": "2025-04",
+      "fy_spend": 179637.91,
+      "last_month": "2026-03",
+      "vendor": "IRON MOUNTAIN INFORMATION MANAGEMENT LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24363-ARMEDSECUR",
+      "description": "SECURITY OFFICER SERVICES - ARMED",
+      "first_month": "2024-07",
+      "fy_spend": 1333174.8,
+      "last_month": "2026-04",
+      "vendor": "SUNSTATES SECURITY LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22208-SECURITY",
+      "description": "SECURITY OFFICER SERVICES - UNARMED",
+      "first_month": "2024-02",
+      "fy_spend": 196281.1,
+      "last_month": "2026-07",
+      "vendor": "SECURITY GUARD INC T/A GETTIER SECURITY"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22208-SECURITY",
+      "description": "SECURITY OFFICER SERVICES - UNARMED",
+      "first_month": "2022-07",
+      "fy_spend": 1574680.53,
+      "last_month": "2026-07",
+      "vendor": "SUNSTATES SECURITY LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22208-SECURITY",
+      "description": "SECURITY OFFICER SERVICES - UNARMED",
+      "first_month": "2022-07",
+      "fy_spend": 1663946.96,
+      "last_month": "2026-07",
+      "vendor": "UNIVERSAL PROTECTION SERVICE LLC DBA\ufffd ALLIED UNIVERSAL SECURITY SERVICES"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23854A-SIGNS",
+      "description": "SIGNS AND SIGN INSTALLATION",
+      "first_month": "2024-03",
+      "fy_spend": 3374.44,
+      "last_month": "2026-02",
+      "vendor": "DBYD / DELAWARE SIGN SHOP"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25061-WASTE_RECYCL",
+      "description": "SINGLE STREAM RECYCLING AND SOLID WASTE REMOVAL",
+      "first_month": "2025-09",
+      "fy_spend": 285153.75,
+      "last_month": "2026-07",
+      "vendor": "CASELLA WASTE SYSTEMS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25061-WASTE_RECYCL",
+      "description": "SINGLE STREAM RECYCLING AND SOLID WASTE REMOVAL",
+      "first_month": "2025-07",
+      "fy_spend": 3271839.61,
+      "last_month": "2026-07",
+      "vendor": "WASTE MANAGEMENT OF DELAWARE INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25270-SNOW_REMOVE",
+      "description": "SNOW AND ICE REMOVAL",
+      "first_month": "2026-01",
+      "fy_spend": 265249.14,
+      "last_month": "2026-04",
+      "vendor": "GERARDI CONSTRUCTION INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25270-SNOW_REMOVE",
+      "description": "SNOW AND ICE REMOVAL",
+      "first_month": "2025-11",
+      "fy_spend": 356476.75,
+      "last_month": "2026-03",
+      "vendor": "PRIORITY SERVICES LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25016-SPEC_PAPER",
+      "description": "SPECIALTY PAPER",
+      "first_month": "2025-07",
+      "fy_spend": 8747.2,
+      "last_month": "2025-08",
+      "vendor": "BW WILSON PAPER CO"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS20144-STENO_SVC",
+      "description": "STENOGRAPHIC REPORTER AND TRANSCRIPTION SERVICES",
+      "first_month": "2022-07",
+      "fy_spend": 167765.44,
+      "last_month": "2026-02",
+      "vendor": "VERITEXT"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS20144-STENO_SVC",
+      "description": "STENOGRAPHIC REPORTER AND TRANSCRIPTION SERVICES",
+      "first_month": "2022-07",
+      "fy_spend": 50999.96,
+      "last_month": "2026-06",
+      "vendor": "WILCOX & FETZER/LEXITAS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25144-STENO_SVC",
+      "description": "STENOGRAPHIC REPORTER AND TRANSCRIPTION SERVICES",
+      "first_month": "2026-02",
+      "fy_spend": 2910.89,
+      "last_month": "2026-07",
+      "vendor": "LEXITAS/WILCOX & FETZER"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25144-STENO_SVC",
+      "description": "STENOGRAPHIC REPORTER AND TRANSCRIPTION SERVICES",
+      "first_month": "2026-02",
+      "fy_spend": 129009.12,
+      "last_month": "2026-06",
+      "vendor": "VERITEXT LEGAL SOLUTIONS LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22458-STORAGEBOX",
+      "description": "STORAGE BOXES - ACID FREE AND DOUBLE-WALLED",
+      "first_month": "2022-07",
+      "fy_spend": 54241.9,
+      "last_month": "2026-07",
+      "vendor": "THE PAIGE COMPANY"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25863A-SURVEYEQUIP_SVCS",
+      "description": "SURVEY EQUIPMENT SERVICES",
+      "first_month": "2025-06",
+      "fy_spend": 60035.1,
+      "last_month": "2026-05",
+      "vendor": "LEICA GEOSYSTEMS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21112-TEMP_EMPL",
+      "description": "TEMPORARY EMPLOYMENT SERVICES",
+      "first_month": "2023-07",
+      "fy_spend": 1791854.45,
+      "last_month": "2026-02",
+      "vendor": "22ND CENTURY TECHNOLOGIES INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21112-TEMP_EMPL",
+      "description": "TEMPORARY EMPLOYMENT SERVICES",
+      "first_month": "2022-07",
+      "fy_spend": 313967.94,
+      "last_month": "2026-02",
+      "vendor": "ABACUS CORPORATION"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21112-TEMP_EMPL",
+      "description": "TEMPORARY EMPLOYMENT SERVICES",
+      "first_month": "2023-07",
+      "fy_spend": 754382.21,
+      "last_month": "2025-11",
+      "vendor": "ABILITY NETWORK OF DELAWARE (AND)"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21112-TEMP_EMPL",
+      "description": "TEMPORARY EMPLOYMENT SERVICES",
+      "first_month": "2023-07",
+      "fy_spend": 8594197.5,
+      "last_month": "2026-02",
+      "vendor": "ACRO SERVICE CORP"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21112-TEMP_EMPL",
+      "description": "TEMPORARY EMPLOYMENT SERVICES",
+      "first_month": "2024-12",
+      "fy_spend": 47408.61,
+      "last_month": "2026-02",
+      "vendor": "ALL-PRO PLACEMENT SERVICE INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21112-TEMP_EMPL",
+      "description": "TEMPORARY EMPLOYMENT SERVICES",
+      "first_month": "2023-01",
+      "fy_spend": 8676.24,
+      "last_month": "2025-11",
+      "vendor": "ATHENA CONSULTING LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21112-TEMP_EMPL",
+      "description": "TEMPORARY EMPLOYMENT SERVICES",
+      "first_month": "2025-08",
+      "fy_spend": 41147.29,
+      "last_month": "2026-02",
+      "vendor": "BUZZCLAN LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21112-TEMP_EMPL",
+      "description": "TEMPORARY EMPLOYMENT SERVICES",
+      "first_month": "2023-07",
+      "fy_spend": 18731.47,
+      "last_month": "2025-08",
+      "vendor": "COGENT INFOTECH CORPORATION"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21112-TEMP_EMPL",
+      "description": "TEMPORARY EMPLOYMENT SERVICES",
+      "first_month": "2025-09",
+      "fy_spend": 1164328.52,
+      "last_month": "2026-02",
+      "vendor": "DELMARVA TEMPORARY STAFFING"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21112-TEMP_EMPL",
+      "description": "TEMPORARY EMPLOYMENT SERVICES",
+      "first_month": "2023-07",
+      "fy_spend": 598212.5,
+      "last_month": "2025-08",
+      "vendor": "DELMARVA TEMPORARY STAFFING INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21112-TEMP_EMPL",
+      "description": "TEMPORARY EMPLOYMENT SERVICES",
+      "first_month": "2022-07",
+      "fy_spend": 709134.54,
+      "last_month": "2026-02",
+      "vendor": "EXPRESS EMPLOYMENT PROFESSIONALS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21112-TEMP_EMPL",
+      "description": "TEMPORARY EMPLOYMENT SERVICES",
+      "first_month": "2025-08",
+      "fy_spend": 6260736.38,
+      "last_month": "2026-02",
+      "vendor": "GOODWILL INDUSTRIES OF DELAWARE AND DELAWARE COUNTY PA"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21112-TEMP_EMPL",
+      "description": "TEMPORARY EMPLOYMENT SERVICES",
+      "first_month": "2023-07",
+      "fy_spend": 1074272.87,
+      "last_month": "2025-07",
+      "vendor": "GOODWILL OF DELAWARE"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21112-TEMP_EMPL",
+      "description": "TEMPORARY EMPLOYMENT SERVICES",
+      "first_month": "2022-07",
+      "fy_spend": 466531.4,
+      "last_month": "2026-01",
+      "vendor": "PREMIER STAFFING SOURCE"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21112-TEMP_EMPL",
+      "description": "TEMPORARY EMPLOYMENT SERVICES",
+      "first_month": "2023-07",
+      "fy_spend": 1055720.52,
+      "last_month": "2025-11",
+      "vendor": "PREMIER STAFFING SOURCE INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25112-TEMP_EMPL",
+      "description": "TEMPORARY EMPLOYMENT SERVICES",
+      "first_month": "2025-12",
+      "fy_spend": 3110266.89,
+      "last_month": "2026-07",
+      "vendor": "22ND CENTURY TECHNOLOGIES INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25112-TEMP_EMPL",
+      "description": "TEMPORARY EMPLOYMENT SERVICES",
+      "first_month": "2026-02",
+      "fy_spend": 52174.42,
+      "last_month": "2026-07",
+      "vendor": "ABACUS SERVICE CORPORATION"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25112-TEMP_EMPL",
+      "description": "TEMPORARY EMPLOYMENT SERVICES",
+      "first_month": "2025-12",
+      "fy_spend": 1046815.22,
+      "last_month": "2026-07",
+      "vendor": "ABILITY NETWORK OF DELAWARE (AND)"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25112-TEMP_EMPL",
+      "description": "TEMPORARY EMPLOYMENT SERVICES",
+      "first_month": "2026-03",
+      "fy_spend": 4013560.96,
+      "last_month": "2026-07",
+      "vendor": "ACRO SERVICE CORP"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25112-TEMP_EMPL",
+      "description": "TEMPORARY EMPLOYMENT SERVICES",
+      "first_month": "2026-02",
+      "fy_spend": 676662.8,
+      "last_month": "2026-02",
+      "vendor": "ACRO SERVICE CORPORATION"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25112-TEMP_EMPL",
+      "description": "TEMPORARY EMPLOYMENT SERVICES",
+      "first_month": "2026-03",
+      "fy_spend": 76034.25,
+      "last_month": "2026-07",
+      "vendor": "APPTAD INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25112-TEMP_EMPL",
+      "description": "TEMPORARY EMPLOYMENT SERVICES",
+      "first_month": "2026-02",
+      "fy_spend": 20611.16,
+      "last_month": "2026-07",
+      "vendor": "AROHA TECHNOLOGIES INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25112-TEMP_EMPL",
+      "description": "TEMPORARY EMPLOYMENT SERVICES",
+      "first_month": "2025-12",
+      "fy_spend": 320927.19,
+      "last_month": "2026-07",
+      "vendor": "ATHENA CONSULTING LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25112-TEMP_EMPL",
+      "description": "TEMPORARY EMPLOYMENT SERVICES",
+      "first_month": "2026-04",
+      "fy_spend": 142750.98,
+      "last_month": "2026-07",
+      "vendor": "CODE DIFFERENTLY"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25112-TEMP_EMPL",
+      "description": "TEMPORARY EMPLOYMENT SERVICES",
+      "first_month": "2026-02",
+      "fy_spend": 55353.51,
+      "last_month": "2026-03",
+      "vendor": "CODE DIFFERENTLY LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25112-TEMP_EMPL",
+      "description": "TEMPORARY EMPLOYMENT SERVICES",
+      "first_month": "2026-06",
+      "fy_spend": 8335.6,
+      "last_month": "2026-06",
+      "vendor": "DATAMANUSA LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25112-TEMP_EMPL",
+      "description": "TEMPORARY EMPLOYMENT SERVICES",
+      "first_month": "2026-03",
+      "fy_spend": 169.92,
+      "last_month": "2026-06",
+      "vendor": "MOXIEIT SOLUTIONS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25112-TEMP_EMPL",
+      "description": "TEMPORARY EMPLOYMENT SERVICES",
+      "first_month": "2026-02",
+      "fy_spend": 3998259.58,
+      "last_month": "2026-07",
+      "vendor": "PREMIER STAFFING SOURCE"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25112-TEMP_EMPL",
+      "description": "TEMPORARY EMPLOYMENT SERVICES",
+      "first_month": "2026-02",
+      "fy_spend": 58266.59,
+      "last_month": "2026-07",
+      "vendor": "ROSE INTERNATIONAL INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25112-TEMP_EMPL",
+      "description": "TEMPORARY EMPLOYMENT SERVICES",
+      "first_month": "2026-01",
+      "fy_spend": 60929.72,
+      "last_month": "2026-07",
+      "vendor": "TRYFACTA INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22113-TEMPMED",
+      "description": "TEMPORARY MEDICAL STAFFING",
+      "first_month": "2022-07",
+      "fy_spend": 4007702.33,
+      "last_month": "2026-07",
+      "vendor": "22ND CENTURY TECHNOLOGIES INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22113-TEMPMED",
+      "description": "TEMPORARY MEDICAL STAFFING",
+      "first_month": "2024-12",
+      "fy_spend": 792627.53,
+      "last_month": "2026-06",
+      "vendor": "AMERGIS HEALTHCARE STAFFING INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22113-TEMPMED",
+      "description": "TEMPORARY MEDICAL STAFFING",
+      "first_month": "2022-07",
+      "fy_spend": 5063392.32,
+      "last_month": "2026-06",
+      "vendor": "CELL STAFF LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22113-TEMPMED",
+      "description": "TEMPORARY MEDICAL STAFFING",
+      "first_month": "2026-05",
+      "fy_spend": 13698.45,
+      "last_month": "2026-06",
+      "vendor": "COGENT INFOTECH CORPORARTION"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22113-TEMPMED",
+      "description": "TEMPORARY MEDICAL STAFFING",
+      "first_month": "2023-02",
+      "fy_spend": 286447.01,
+      "last_month": "2026-07",
+      "vendor": "FAVORITE HEALTHCARE STAFFING LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22113-TEMPMED",
+      "description": "TEMPORARY MEDICAL STAFFING",
+      "first_month": "2022-11",
+      "fy_spend": 16343.1,
+      "last_month": "2026-06",
+      "vendor": "INGENESIS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22113-TEMPMED",
+      "description": "TEMPORARY MEDICAL STAFFING",
+      "first_month": "2025-09",
+      "fy_spend": 7049.25,
+      "last_month": "2025-09",
+      "vendor": "INNOZA TECH LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22113-TEMPMED",
+      "description": "TEMPORARY MEDICAL STAFFING",
+      "first_month": "2024-09",
+      "fy_spend": 47343.7,
+      "last_month": "2026-06",
+      "vendor": "PREMIER STAFFING SOURCE INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22113-TEMPMED",
+      "description": "TEMPORARY MEDICAL STAFFING",
+      "first_month": "2022-07",
+      "fy_spend": 70084.86,
+      "last_month": "2026-06",
+      "vendor": "SHORE STAFFING INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22113-TEMPMED",
+      "description": "TEMPORARY MEDICAL STAFFING",
+      "first_month": "2022-07",
+      "fy_spend": 359467.86,
+      "last_month": "2026-07",
+      "vendor": "WORLDWIDE TRAVEL STAFFING LIMITED"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS20739-PROJECT_MGMT",
+      "description": "TEMPORARY PROJECT REPRESENTATIVES",
+      "first_month": "2022-07",
+      "fy_spend": 156235.85,
+      "last_month": "2026-05",
+      "vendor": "SYNERFAC INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25739-PROJECT_MGMT",
+      "description": "TEMPORARY PROJECT REPRESENTATIVES",
+      "first_month": "2025-09",
+      "fy_spend": 30286.5,
+      "last_month": "2026-07",
+      "vendor": "SYNERFAC INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24004-TIRES",
+      "description": "TIRES, TUBES AND SERVICES",
+      "first_month": "2024-11",
+      "fy_spend": 15855.44,
+      "last_month": "2026-05",
+      "vendor": "BRIDGESTONE AMERICAS TIRE OPERATIONS LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24004-TIRES",
+      "description": "TIRES, TUBES AND SERVICES",
+      "first_month": "2025-04",
+      "fy_spend": 94987.52,
+      "last_month": "2025-12",
+      "vendor": "MICHELIN NORTH AMERICA"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24004-TIRES",
+      "description": "TIRES, TUBES AND SERVICES",
+      "first_month": "2024-08",
+      "fy_spend": 1081340.69,
+      "last_month": "2026-07",
+      "vendor": "THE GOODYEAR TIRE & RUBBER COMPANY"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24053-TOWING",
+      "description": "TOWING AND FLATBED TRUCK SERVICES",
+      "first_month": "2024-07",
+      "fy_spend": 61034.33,
+      "last_month": "2026-07",
+      "vendor": "B&F TOWING CO"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24053-TOWING",
+      "description": "TOWING AND FLATBED TRUCK SERVICES",
+      "first_month": "2024-07",
+      "fy_spend": 46077.5,
+      "last_month": "2026-07",
+      "vendor": "BETTS GARAGE"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24053-TOWING",
+      "description": "TOWING AND FLATBED TRUCK SERVICES",
+      "first_month": "2024-07",
+      "fy_spend": 30723.0,
+      "last_month": "2026-07",
+      "vendor": "CRAIGS TOWING"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24053-TOWING",
+      "description": "TOWING AND FLATBED TRUCK SERVICES",
+      "first_month": "2025-07",
+      "fy_spend": 37737.0,
+      "last_month": "2026-07",
+      "vendor": "JS BENNETT & SON INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21881-TRAILERS",
+      "description": "TRAILERS AND TANKERS WITH RELATED EQUIPMENT, ACCESSORIES AND SERVICES",
+      "first_month": "2022-09",
+      "fy_spend": 154694.14,
+      "last_month": "2026-03",
+      "vendor": "DELWOOD TRAILER SALES"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS26881-TRAILERS",
+      "description": "TRAILERS AND TANKERS WITH RELATED EQUIPMENT, ACCESSORIES AND SERVICES",
+      "first_month": "2026-04",
+      "fy_spend": 85474.0,
+      "last_month": "2026-07",
+      "vendor": "DELWOOD TRAILER SALES INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21550-ULSD",
+      "description": "ULTRA-LOW SULFUR DIESEL",
+      "first_month": "2022-07",
+      "fy_spend": 2047041.48,
+      "last_month": "2026-07",
+      "vendor": "CATO INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21550-ULSD",
+      "description": "ULTRA-LOW SULFUR DIESEL",
+      "first_month": "2026-02",
+      "fy_spend": 841884.07,
+      "last_month": "2026-07",
+      "vendor": "GRIFFITH ENERGY SVCS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21550-ULSD",
+      "description": "ULTRA-LOW SULFUR DIESEL",
+      "first_month": "2022-07",
+      "fy_spend": 696336.97,
+      "last_month": "2025-12",
+      "vendor": "GRIFFITH ENERGY SVCS INC DBA CARL KING"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS21780-ULSHEATOIL",
+      "description": "ULTRA-LOW SULFUR HEATING OIL",
+      "first_month": "2022-07",
+      "fy_spend": 285158.47,
+      "last_month": "2026-06",
+      "vendor": "GRIFFITH ENERGY SVCS INC DBA CARL KING"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS26950-WASTE_SVC",
+      "description": "USED OIL AND FLUID WASTE SERVICES",
+      "first_month": "2026-03",
+      "fy_spend": 2945.0,
+      "last_month": "2026-07",
+      "vendor": "MILLER ENVIRONMENTAL GROUP INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS26950-WASTE_SVC",
+      "description": "USED OIL AND FLUID WASTE SERVICES",
+      "first_month": "2026-03",
+      "fy_spend": 235.0,
+      "last_month": "2026-04",
+      "vendor": "SAFETY-KLEEN SYSTEMS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS23405-VEHLIFT",
+      "description": "VEHICLE LIFTS AND GARAGE ASSOCIATED EQUIPMENT",
+      "first_month": "2024-03",
+      "fy_spend": 340492.76,
+      "last_month": "2026-06",
+      "vendor": "MOHAWK LIFT LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS16555A-VEHICLE_TR",
+      "description": "VEHICLE TRACKING SYSTEM (REBID)",
+      "first_month": "2022-07",
+      "fy_spend": 633402.45,
+      "last_month": "2026-07",
+      "vendor": "TRACK STAR INTERNATIONAL INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS20735-VEH_UPFIT",
+      "description": "VEHICLE UPFITTING",
+      "first_month": "2022-07",
+      "fy_spend": 25000.02,
+      "last_month": "2025-11",
+      "vendor": "DELMARVA COMMUNICATIONS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS20735-VEH_UPFIT",
+      "description": "VEHICLE UPFITTING",
+      "first_month": "2022-08",
+      "fy_spend": 3878.84,
+      "last_month": "2025-07",
+      "vendor": "MAGNUM ELECTRONICS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25735-VEH_UPFIT",
+      "description": "VEHICLE UPFITTING",
+      "first_month": "2025-11",
+      "fy_spend": 30678.91,
+      "last_month": "2026-04",
+      "vendor": "DELMARVA COMMUNICATIONS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25735-VEH_UPFIT",
+      "description": "VEHICLE UPFITTING",
+      "first_month": "2025-12",
+      "fy_spend": 7900.0,
+      "last_month": "2026-03",
+      "vendor": "MAGNUM ELECTRONICS INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25922-WRAP_DECAL",
+      "description": "VEHICLE WRAP AND DECAL SERVICES",
+      "first_month": "2026-05",
+      "fy_spend": 3400.0,
+      "last_month": "2026-05",
+      "vendor": "SPRAY LESS LLC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS25922-WRAP_DECAL",
+      "description": "VEHICLE WRAP AND DECAL SERVICES",
+      "first_month": "2025-07",
+      "fy_spend": 83991.63,
+      "last_month": "2026-07",
+      "vendor": "TECHNIKAL SIGNS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS24927A-VET_SVCS",
+      "description": "VETERINARY SERVICES",
+      "first_month": "2024-09",
+      "fy_spend": 7683.0,
+      "last_month": "2026-07",
+      "vendor": "BAY ANIMAL HOSPITAL"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22235-WATER_TREAT",
+      "description": "WATER TREATMENT",
+      "first_month": "2022-07",
+      "fy_spend": 220868.62,
+      "last_month": "2026-06",
+      "vendor": "KLENZOID INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22235-WATER_TREAT",
+      "description": "WATER TREATMENT",
+      "first_month": "2022-07",
+      "fy_spend": 12414.4,
+      "last_month": "2026-04",
+      "vendor": "SYNTEC CORP"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS22235-WATER_TREAT",
+      "description": "WATER TREATMENT",
+      "first_month": "2024-02",
+      "fy_spend": 49548.0,
+      "last_month": "2026-07",
+      "vendor": "TUSTIN WATER SOLUTIONS"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS20384-CELL_DATA_SVC",
+      "description": "WIRELESS DATA, VOICE AND ACCESSORIES",
+      "first_month": "2025-10",
+      "fy_spend": 419.86,
+      "last_month": "2026-04",
+      "vendor": "AT&T"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS20384-CELL_DATA_SVC",
+      "description": "WIRELESS DATA, VOICE AND ACCESSORIES",
+      "first_month": "2024-04",
+      "fy_spend": 160105.5,
+      "last_month": "2026-01",
+      "vendor": "T-MOBILE USA INC"
+    },
+    {
+      "award_type": "GSS",
+      "contract_number": "GSS20384-CELL_DATA_SVC",
+      "description": "WIRELESS DATA, VOICE AND ACCESSORIES",
+      "first_month": "2022-07",
+      "fy_spend": 8444478.16,
+      "last_month": "2026-07",
+      "vendor": "VERIZON WIRELESS - CELLCO"
+    }
+  ],
+  "coverage": {
+    "first_month": "2022-07",
+    "last_month": "2026-07",
+    "rows": 22102,
+    "spend": 1293229154.14
+  },
+  "definitions": {
+    "award_types": {
+      "GSA": "Negotiated by Government Support Services with vendors on U.S. General Services Administration schedules",
+      "GSS": "Awarded by Government Support Services through solicitation or cooperative agreement"
+    },
+    "spend_groups": {
+      "A": "State agencies",
+      "M": "Municipalities",
+      "S": "School districts"
+    }
+  },
+  "fiscal_year": 2026,
+  "fiscal_year_months": {
+    "first": "2025-07",
+    "last": "2026-06"
+  },
+  "fiscal_years": [
+    {
+      "complete": true,
+      "contracts": 246,
+      "fiscal_year": 2023,
+      "rows": 5574,
+      "spend": 333943355.11,
+      "vendors": 447
+    },
+    {
+      "complete": true,
+      "contracts": 229,
+      "fiscal_year": 2024,
+      "rows": 5625,
+      "spend": 336577534.53,
+      "vendors": 461
+    },
+    {
+      "complete": true,
+      "contracts": 242,
+      "fiscal_year": 2025,
+      "rows": 5427,
+      "spend": 313147225.23,
+      "vendors": 481
+    },
+    {
+      "complete": true,
+      "contracts": 211,
+      "fiscal_year": 2026,
+      "rows": 5150,
+      "spend": 288156844.01,
+      "vendors": 475
+    },
+    {
+      "complete": false,
+      "contracts": 119,
+      "fiscal_year": 2027,
+      "rows": 326,
+      "spend": 21404195.26,
+      "vendors": 217
+    }
+  ],
+  "kpi": {
+    "by_spend_group": {
+      "A": 218655930.73,
+      "M": 27738386.91,
+      "S": 41762526.37
+    },
+    "contracts": 211,
+    "rows": 5150,
+    "total_spend": 288156844.01,
+    "vendors": 475
+  },
+  "source": {
+    "api": "https://data.delaware.gov/resource/sifm-293u.json",
+    "dataset_id": "sifm-293u",
+    "license": "Public Domain",
+    "name": "Statewide Central Contract Spend",
+    "publisher": "Office of Management and Budget (OMB), Government Support Services (GSS)",
+    "rows_updated": "2026-09-16",
+    "url": "https://data.delaware.gov/Government-and-Finance/Statewide-Central-Contract-Spend/sifm-293u"
+  }
+}

@@ -1,0 +1,177 @@
+"""Generate the static "Contracts" section of /spending/ from spending/data/contracts-summary.json.
+
+The section is spliced into spending/index.html between the markers
+<!-- CONTRACTS:START ... --> and <!-- CONTRACTS:END -->; nothing else on the page is
+touched (its CSS sits in the page head, under "Contracts section"). All figures are written into the HTML, so the section reads the same with
+JavaScript off. A small script only adds sortable column headings on top.
+
+Run:  python3 -m etl.pages.contracts_section      (after etl.sources.de_contract_spend)
+"""
+
+from __future__ import annotations
+
+import datetime
+import html
+import json
+import sys
+from pathlib import Path
+
+from etl.pages.candidate_pages import replace_between, write_if_changed
+
+ROOT = Path(__file__).resolve().parents[2]
+DATA = ROOT / "spending" / "data" / "contracts-summary.json"
+PAGE = ROOT / "spending" / "index.html"
+START = "<!-- CONTRACTS:START"
+END = "<!-- CONTRACTS:END -->"
+
+e = lambda s: html.escape(str(s), quote=True)  # noqa: E731
+
+
+def nice_date(iso: str) -> str:
+    d = datetime.date.fromisoformat(iso)
+    return f"{d.strftime('%B')} {d.day}, {d.year}"
+
+
+def month_label(ym: str) -> str:
+    d = datetime.date(int(ym[:4]), int(ym[5:7]), 1)
+    return f"{d.strftime('%B')} {d.year}"
+
+
+def usd(x: float) -> str:
+    v = round(float(x))
+    return f"-${abs(v):,}" if v < 0 else f"${v:,}"
+
+
+SORT_JS = """<script>
+(function () {
+  var t = document.getElementById("ct-table");
+  if (!t) return;
+  var ths = t.querySelectorAll("thead th[data-sort]");
+  ths.forEach(function (th, i) {
+    var b = document.createElement("button");
+    b.type = "button";
+    b.className = "ct-sort";
+    b.textContent = th.textContent;
+    th.textContent = "";
+    th.appendChild(b);
+    b.addEventListener("click", function () {
+      var dir = th.getAttribute("aria-sort") === "ascending" ? "descending" : "ascending";
+      ths.forEach(function (o) { o.removeAttribute("aria-sort"); });
+      th.setAttribute("aria-sort", dir);
+      var col = Array.prototype.indexOf.call(th.parentNode.children, th);
+      var num = th.getAttribute("data-sort") === "num";
+      var body = t.tBodies[0];
+      var rows = Array.prototype.slice.call(body.rows);
+      rows.sort(function (a, c) {
+        var x = a.cells[col].getAttribute("data-v") || a.cells[col].textContent;
+        var y = c.cells[col].getAttribute("data-v") || c.cells[col].textContent;
+        var r = num ? (parseFloat(x) - parseFloat(y)) : x.localeCompare(y);
+        return dir === "ascending" ? r : -r;
+      });
+      rows.forEach(function (r) { body.appendChild(r); });
+    });
+  });
+})();
+</script>"""
+
+
+
+def render_block(s: dict) -> str:
+    src = s["source"]
+    cov = s["coverage"]
+    fy = s["fiscal_year"]
+    k = s["kpi"]
+    fy_span = f"{month_label(s['fiscal_year_months']['first'])} to {month_label(s['fiscal_year_months']['last'])}"
+    asof = nice_date(src["rows_updated"])
+    groups = s["definitions"]["spend_groups"]
+    src_url = e(src["url"])
+    kpi_src = f'<div class="kpi-source"><a href="{src_url}">SOURCE · OMB GSS CENTRAL CONTRACT SPEND</a> · FY{fy} · AS OF {e(asof.upper())}</div>'
+
+    group_lines = "<br>".join(f"{e(groups[g])}: {usd(k['by_spend_group'][g])}" for g in ("A", "S", "M"))
+    cards = [
+        (f"Contracts with reported spend, FY{fy}", f"{k['contracts']:,}", f"Statewide central contracts with any spend reported in fiscal year {fy} ({fy_span})."),
+        (f"Vendors with reported spend, FY{fy}", f"{k['vendors']:,}", "Vendor names as the state publishes them; one company can appear under more than one spelling."),
+        (f"Reported spend, FY{fy}", usd(k["total_spend"]), "Sum of the dataset's Total Spend field: spend identified with each vendor for each contract."),
+    ]
+    kpi_html = []
+    for label, value, ctx in cards:
+        kpi_html.append(f"""      <div class="kpi-card">
+        <div class="kpi-label">{e(label)}</div>
+        <div class="kpi-value">{e(value)}</div>
+        <div class="kpi-context">{e(ctx)}</div>
+        {kpi_src}
+      </div>""")
+    kpi_html.append(f"""      <div class="kpi-card">
+        <div class="kpi-label">Reported spend by buyer, FY{fy}</div>
+        <div class="kpi-context">{group_lines}</div>
+        {kpi_src}
+      </div>""")
+
+    rows = []
+    for t in s["contracts"]:
+        rows.append(
+            f'          <tr class="ct-row">'
+            f'<td>{e(t["description"])}</td>'
+            f'<td class="ct-num">{e(t["contract_number"])}</td>'
+            f'<td>{e(t["award_type"])}</td>'
+            f'<td>{e(t["vendor"])}</td>'
+            f'<td class="num" data-v="{t["fy_spend"]:.2f}">{usd(t["fy_spend"])}</td>'
+            f'<td class="ct-month" data-v="{e(t["first_month"])}">{e(month_label(t["first_month"]))}</td>'
+            f'<td class="ct-month" data-v="{e(t["last_month"])}">{e(month_label(t["last_month"]))}</td>'
+            f"</tr>"
+        )
+
+    return f"""{START} (generated by etl/pages/contracts_section.py from spending/data/contracts-summary.json; do not edit by hand) -->
+  <section class="section" id="contracts" aria-labelledby="contracts-title">
+    <div class="section-head">
+      <h2 class="section-title" id="contracts-title">Contracts: statewide central contracts</h2>
+      <span class="section-meta">OMB GOVERNMENT SUPPORT SERVICES · FY{fy}</span>
+    </div>
+    <div class="neutrality">
+      <p><strong>How to read this.</strong> This section uses a different source from the Online Checkbook figures above: the state's <a href="{src_url}">Statewide Central Contract Spend</a> dataset, published by the Office of Management and Budget, Government Support Services (GSS). It reports, month by month, the spend identified with each vendor on the statewide central contracts GSS runs for state agencies, school districts and municipalities. It does not list every contract the state signs, so its totals are not comparable with the Checkbook totals above.</p>
+      <p>The dataset has no contract start or end dates and no contract award values. "First month" and "Last month" below are the first and last months with spend reported in this dataset, which begins in {e(month_label(cov['first_month']))}. They are not contract start or end dates. A negative amount is shown as the state reports it.</p>
+      <p>Award type, in the state's words: GSS means contracts awarded by Government Support Services through solicitation or cooperative agreement; GSA means contracts GSS negotiated with vendors on U.S. General Services Administration schedules. Vendor names appear exactly as the state publishes them, with spacing tidied; we add no addresses or other details. The table is sorted by contract description, A to Z, and is not a ranking. We show you the data; you decide.</p>
+    </div>
+    <div class="kpi-grid" role="group" aria-label="Contract spend figures for fiscal year {fy}">
+{chr(10).join(kpi_html)}
+    </div>
+    <div class="panel">
+      <p class="ct-note">Every contract and vendor pair with spend reported in fiscal year {fy} ({e(fy_span)}), the latest fiscal year that has ended in the dataset: {len(s['contracts']):,} rows, sorted by contract description, then contract number, then vendor. With JavaScript on, select a column heading to sort by it. The full data is in <a href="/spending/data/contracts-summary.json">contracts-summary.json</a>.</p>
+      <div class="ct-wrap" tabindex="0" role="region" aria-label="Statewide central contracts table">
+      <table class="data-table" id="ct-table">
+        <caption>Statewide central contracts and vendors with spend reported in FY{fy}, sorted by contract description. Not a ranking.</caption>
+        <thead><tr>
+          <th scope="col" data-sort="text">Contract</th>
+          <th scope="col" data-sort="text">Contract number</th>
+          <th scope="col" data-sort="text">Award type</th>
+          <th scope="col" data-sort="text">Vendor</th>
+          <th scope="col" class="num" data-sort="num">Reported spend, FY{fy}</th>
+          <th scope="col" data-sort="text">First month reported</th>
+          <th scope="col" data-sort="text">Last month reported</th>
+        </tr></thead>
+        <tbody>
+{chr(10).join(rows)}
+        </tbody>
+      </table>
+      </div>
+      <p class="ct-src">Source: <a href="{src_url}">Office of Management and Budget, Government Support Services, Statewide Central Contract Spend (data.delaware.gov {e(src['dataset_id'])})</a>, public domain. Sums and counts computed by the state portal from {cov['rows']:,} monthly spend rows, {e(month_label(cov['first_month']))} to {e(month_label(cov['last_month']))}. Source data updated {e(asof)}.</p>
+    </div>
+  </section>
+  {SORT_JS}
+{END}"""
+
+
+def splice(page: str, block: str) -> str:
+    return replace_between(page, START, END, block)
+
+
+def main() -> int:
+    s = json.loads(DATA.read_text(encoding="utf-8"))
+    page = PAGE.read_text(encoding="utf-8")
+    changed = write_if_changed(PAGE, splice(page, render_block(s)))
+    print(f"spending contracts section: {'written' if changed else 'unchanged'} ({len(s['contracts'])} rows)")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

@@ -176,7 +176,7 @@ def test_page_renders_static_tables(meta, grouped):
 
 def test_page_copy_rules(meta, grouped):
     page = road_safety_page.render(_summary(meta, grouped))
-    for bad in ("\u2014", "\u2013", "&mdash;", "&ndash;"):
+    for bad in ("\u2014", "\u2013", "&" + "mdash;", "&" + "ndash;"):
         assert bad not in page
     low = page.lower()
     for word in ("worst", "best", "safest", "most dangerous", "deadliest", "better", "worse"):
