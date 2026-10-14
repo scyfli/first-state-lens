@@ -397,7 +397,7 @@ def record_article(race: dict, cand: dict, rec: dict) -> str:
     lr = r.get("legislative_record") or {"status": "absent", "absent_reason": "No legislative record on file."}
     parts.append(f'      <h4>{e(lr.get("label", "Legislative record"))}</h4>')
     if lr.get("status") == "present" and lr.get("roll_calls"):
-        rows = "".join(f'<tr><th scope="row">{e(v["bill"])}: {e(v["title"])}</th><td>{e(v["question"])}</td><td>{e(v["vote"])}</td><td>{e(nice_date(v["date"]))}</td><td>{src_link(v["source"], "Roll call")}</td></tr>' for v in lr["roll_calls"])
+        rows = "".join(f'<tr><th scope="row">{e(v["bill"])}: {e(v["title"])}</th><td data-k="Question">{e(v["question"])}</td><td data-k="Vote">{e(v["vote"])}</td><td data-k="Date">{e(nice_date(v["date"]))}</td><td data-k="Source">{src_link(v["source"], "Roll call")}</td></tr>' for v in lr["roll_calls"])
         parts.append(f'      <table class="slate rc"><caption class="sr-only">Recorded votes for {e(name)}</caption><thead><tr><th scope="col">Bill</th><th scope="col">Question</th><th scope="col">Vote</th><th scope="col">Date</th><th scope="col">Source</th></tr></thead><tbody>{rows}</tbody></table>')
     elif lr.get("status") == "link":
         parts.append(f'      <p>{e(lr["text"])} {src_link(lr["source"])}</p>')
