@@ -297,8 +297,19 @@ def results() -> dict:
     return _results_cache
 
 
-def result_table(rid: str, caption: str) -> str:
-    r = results().get(rid)
+CERTIFIED = ROOT / "candidates" / "data" / "results-2026.json"  # E5: exists only after certification
+_cert_cache: dict | None = None
+
+
+def certified() -> dict:
+    global _cert_cache
+    if _cert_cache is None:
+        _cert_cache = json.loads(CERTIFIED.read_text(encoding="utf-8"))["results"] if CERTIFIED.exists() else {}
+    return _cert_cache
+
+
+def result_table(rid: str, caption: str, r: dict | None = None) -> str:
+    r = r or results().get(rid)
     if not r:
         return ""
     rows = "\n".join(f"""        <tr>
@@ -331,6 +342,58 @@ def last_result_block(race: dict, holder_note: bool = True) -> str:
   </section>
 
 """
+
+
+def certified_block(race: dict) -> str:
+    r = certified().get(race["id"])
+    if not r:
+        return ""
+    return f"""  <section class="section" aria-labelledby="certified-title">
+    <div class="section-head"><h2 class="section-title" id="certified-title">Certified result: November 3, 2026 general election</h2></div>
+{result_table(race['id'], f"Certified 2026 general election result, {race['display']}", r)}
+    <p class="fact">These are the totals the Department of Elections published after the Boards of Canvass certified the 2026 general election. <a href="/results/2026/">Every certified 2026 result.</a></p>
+  </section>
+
+"""
+
+
+def county_certified(race: dict) -> str:
+    r = certified().get(race["id"])
+    if not r:
+        return ""
+    return f"""    <h3 class="sub-h3">Certified result: November 3, 2026</h3>
+{result_table(race['id'], f"Certified 2026 general election result, {race['display']}", r)}
+"""
+
+
+def results_page(b: dict) -> str:
+    """/results/2026/: every certified 2026 result, grouped like the ballot index. Built only after certification."""
+    by = {r["id"]: r for r in b["races"]}
+    groups = [("Federal and statewide", [x for x in ("us-senate", "us-house", "attorney-general", "state-treasurer", "auditor") if x in by]),
+              ("State Senate", [r["id"] for r in sorted((r for r in b["races"] if r["level"] == "state-senate"), key=lambda r: r["district"])]),
+              ("State House", [r["id"] for r in sorted((r for r in b["races"] if r["level"] == "state-house"), key=lambda r: r["district"])])]
+    for county, _ in COUNTIES:
+        groups.append((f"{county} County", [r["id"] for r in b["races"] if r["level"] == "county" and r["county"] == county]))
+    parts = []
+    for label, ids in groups:
+        parts.append(f'    <h2 class="section-title" style="margin-top:28px">{e(label)}</h2>')
+        for rid in ids:
+            race = by[rid]
+            parts.append(f'    <h3 class="sub-h3"><a href="{e(race["path"])}">{e(race["display"])}</a></h3>\n{result_table(rid, race["display"], certified()[rid])}')
+    title = "Delaware 2026 general election results, certified"
+    desc = "Certified statewide totals for every race on Delaware's November 3, 2026 general election ballot, from the Department of Elections, in the state's order. No winners or margins are labelled."
+    crumbs = [("Home", "/"), ("Who's on the ballot", "/candidates/"), ("2026 results", "/results/2026/")]
+    return (head(title, desc, "/results/2026/", crumbs) + f"""  <div class="title-block">
+    <span class="title-eyebrow">2026 General Election · Certified results</span>
+    <h1 class="title-h1">Delaware 2026 general election: <span class="highlight">certified results</span></h1>
+    <p class="title-sub">{e(desc)}</p>
+  </div>
+
+  <p class="neutrality"><strong>How to read this.</strong> Each table copies the Department of Elections' certified statewide totals for one contest: the candidates as the state lists them, their party, total votes and the state's percentage. We add no winner labels, margins or rankings. The Department of Elections is the authority; if this page and the state differ, the state is right and we fix this page.</p>
+  <section class="section">
+{chr(10).join(parts)}
+  </section>
+""" + foot(b))
 
 
 def county_result(race: dict) -> str:
@@ -456,7 +519,7 @@ def race_page(b: dict, race: dict, title: str, h1: str, desc: str, crumbs, pager
 
 {BANNER}
 {NEUTRALITY}
-  <section class="section" aria-labelledby="slate-title">
+{certified_block(race)}  <section class="section" aria-labelledby="slate-title">
     <div class="section-head"><h2 class="section-title" id="slate-title">Candidates on the November 3, 2026 ballot</h2></div>
 {slate_table(race, title)}
 {source_line(b)}
@@ -501,7 +564,7 @@ def county_page(b: dict, county: str, slug: str, races: list[dict]) -> str:
         sections.append(f"""  <section class="section" aria-labelledby="{e(anchor)}">
     <div class="section-head"><h2 class="section-title" id="{e(anchor)}">{e(r['display'])}</h2></div>
 {slate_table(r, r['display'])}
-{county_result(r)}  </section>
+{county_certified(r)}{county_result(r)}  </section>
 """)
     return (head(title, desc, path, crumbs) + f"""  <div class="title-block">
     <span class="title-eyebrow">2026 General Election · {e(county)} County</span>
@@ -631,6 +694,11 @@ def build_all(b: dict) -> dict:
         if not rs:
             raise RuntimeError(f"No races parsed for {county} County")
         pages[f"/candidates/{slug}/"] = county_page(b, county, slug, rs)
+    if certified():
+        missing = [r["id"] for r in b["races"] if r["id"] not in certified()]
+        if missing:
+            raise RuntimeError(f"results-2026.json lacks {len(missing)} races (e.g. {missing[:3]}); refusing to publish partial results")
+        pages["/results/2026/"] = results_page(b)
     return pages
 
 
@@ -646,7 +714,7 @@ def main() -> int:
     # E3: the hand-built U.S. House page carries the last-result block between RESULT markers.
     uh = ROOT / "candidates" / "us-house" / "index.html"
     by = {r["id"]: r for r in b["races"]}
-    block = last_result_block(by["us-house"], holder_note=False)
+    block = certified_block(by["us-house"]) + last_result_block(by["us-house"], holder_note=False)
     t = uh.read_text(encoding="utf-8")
     changed += write_if_changed(uh, replace_between(t, "<!-- RESULT:START", "<!-- RESULT:END -->", f"<!-- RESULT:START (generated by etl/pages/candidate_pages.py) -->\n{block}<!-- RESULT:END -->"))
 

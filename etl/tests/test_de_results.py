@@ -19,7 +19,7 @@ def test_parses_statewide_totals_by_column_position():
     hd39 = c["state representative district 39"]
     # this table's rows carry no data-label attributes: cells are read by header position
     assert hd39["candidates"] == [{"name": "DANIEL B. SHORT", "party": "Republican Party", "votes": 7440, "percent": 100.0}]
-    house = c["u.s. representative in congress"]
+    house = c["representative in congress"]
     assert [x["name"] for x in house["candidates"]] == ["SARAH MCBRIDE", "JOHN J. WHALEN III"]
     assert house["total_votes"] == 287830 + 209606
 
@@ -62,3 +62,29 @@ def test_build_refuses_unmatched_seat():
     reports = {2020: {}, 2022: {}, 2024: {}}
     with pytest.raises(RuntimeError, match="no GE2020 contest"):
         R.build({"races": [{"id": "us-senate", "level": "federal"}], "senate_not_on_2026_ballot": []}, reports)
+
+
+def test_canonical_titles_match_across_years():
+    assert R.canon("NCC County Council District 1") == R.canon("New Castle County Council District 1")
+    assert R.canon("SC County Council District 4") == R.canon("Sussex County Council District 4")
+    assert R.canon("KC Levy Court At-Large") == R.canon("Kent County Levy Court At-Large")
+    assert R.canon("Levy Court District 1") == R.canon("Kent County Levy Court District 1")
+    assert R.canon("U.S. Representative In Congress") == R.canon("Representative in Congress")
+    assert R.canon("NCC Sheriff") == "new castle county sheriff"
+
+
+def test_certified_refuses_partial_results():
+    report = parse()
+    ballot = {"races": [{"id": "us-house", "level": "federal"}, {"id": "state-house-39", "level": "state-house", "district": 39}]}
+    got = R.certified(ballot, report, 9999)
+    assert got["state-house-39"]["candidates"][0]["votes"] == 7440 and got["us-house"]["year"] == 9999
+    ballot["races"].append({"id": "state-house-1", "level": "state-house", "district": 1})
+    with pytest.raises(RuntimeError, match="partial"):
+        R.certified(ballot, report, 9999)
+
+
+def test_certified_refuses_unofficial_report(tmp_path):
+    f = tmp_path / "GE2026.html"
+    f.write_text(FIX.read_text(encoding="utf-8").replace("<body>", "<body>UNOFFICIAL RESULTS"), encoding="utf-8")
+    with pytest.raises(RuntimeError, match="not marked OFFICIAL"):
+        R.main_certified(2026, tmp_path, {"races": []}, str(f))

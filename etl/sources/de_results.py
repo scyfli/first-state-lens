@@ -66,6 +66,24 @@ def norm(s: str) -> str:
     return re.sub(r"\s+", " ", htmllib.unescape(s)).strip().lower()
 
 
+# The Department titles the same office differently from year to year ("NCC County Council
+# District 1" in 2022, "New Castle County Council District 7" in 2024, "Levy Court District 1"
+# in 2020). Contests are keyed by this canonical form so any year's report maps the same way.
+_CANON = [
+    (r"^ncc ", "new castle county "), (r"^kc ", "kent county "), (r"^sc ", "sussex county "),
+    (r"^levy court ", "kent county levy court "),
+    (r"^(new castle|sussex) county county council", r"\1 county council"),
+    (r"^u\.s\. representative in congress$", "representative in congress"),
+]
+
+
+def canon(title: str) -> str:
+    t = norm(title)
+    for pat, sub in _CANON:
+        t = re.sub(pat, sub, t)
+    return t
+
+
 def fetch(year: int, session: requests.Session) -> str:
     url = REPORT_URL.format(year=year)
     last = None
@@ -118,7 +136,7 @@ def parse_report(text: str, year: int) -> dict[str, dict]:
     out: dict[str, dict] = {}
     for m in _CONTEST.finditer(text):
         title = re.sub(r"\s+", " ", htmllib.unescape(re.sub(r"<[^>]+>", "", m.group(1)))).strip()
-        key = norm(title)
+        key = canon(title)
         if key in out:
             continue
         cands = []
@@ -169,7 +187,7 @@ def build(ballot: dict, reports: dict[int, dict[str, dict]]) -> dict:
     results = {}
     for race in seats:
         year, title = target_for(race)
-        c = reports[year].get(norm(title))
+        c = reports[year].get(canon(title))
         if c is None:
             raise RuntimeError(f"race {race['id']}: no GE{year} contest titled {title!r}")
         results[race["id"]] = {"year": year, "contest": c["title"], "source": REPORT_URL.format(year=year),
@@ -179,14 +197,48 @@ def build(ballot: dict, reports: dict[int, dict[str, dict]]) -> dict:
     return results
 
 
+OUT_CERTIFIED = "results-{year}.json"
+
+
+def certified(ballot: dict, report: dict[str, dict], year: int) -> dict:
+    """Map every race on the ballot to its contest in that year's (certified) report. All must match."""
+    out = {}
+    for race in ballot["races"]:
+        _, title = target_for(race)  # the title rule; the year comes from the report being read
+        c = report.get(canon(title))
+        if c is None:
+            raise RuntimeError(f"GE{year}: no contest for race {race['id']} ({title!r}); refusing to publish a partial result")
+        out[race["id"]] = {"year": year, "contest": c["title"], "source": REPORT_URL.format(year=year),
+                           "candidates": c["candidates"], "total_votes": c["total_votes"]}
+    return out
+
+
+def main_certified(year: int, out: Path, ballot: dict, html: str | None) -> int:
+    text = Path(html).read_text(encoding="utf-8-sig", errors="replace") if html else fetch(year, requests.Session())
+    up = text.upper()
+    if "UNOFFICIAL" in up or not re.search(r"(?<!UN)OFFICIAL RESULTS", up):
+        raise RuntimeError(f"GE{year} is not marked OFFICIAL RESULTS yet; publish only after the Boards of Canvass certify")
+    res = certified(ballot, parse_report(text, year), year)
+    body = {"method_version": "1.0", "year": year, "note": "Certified statewide totals per contest, as the Department of Elections reports them.",
+            "results": dict(sorted(res.items()))}
+    out.mkdir(parents=True, exist_ok=True)
+    (out / OUT_CERTIFIED.format(year=year)).write_text(json.dumps(body, indent=2, sort_keys=True, ensure_ascii=False) + "\n", encoding="utf-8")
+    print(f"certified GE{year}: {len(res)} races written to {out / OUT_CERTIFIED.format(year=year)}")
+    return 0
+
+
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--out", required=True)
     ap.add_argument("--html-dir", help="read GE<year>.html from this folder instead of the network")
     ap.add_argument("--ballot", help="path to ballot-2026.json (default: <out>/ballot-2026.json)")
+    ap.add_argument("--certified", type=int, metavar="YEAR", help="E5: write results-<YEAR>.json from the official GE<YEAR> report for every race on the ballot")
+    ap.add_argument("--html", help="with --certified: read the report from this file instead of the network")
     a = ap.parse_args(argv)
     out = Path(a.out)
     ballot = json.loads(Path(a.ballot or out / BALLOT_FILE).read_text(encoding="utf-8"))
+    if a.certified:
+        return main_certified(a.certified, out, ballot, a.html)
     s = requests.Session()
     reports = {}
     for i, y in enumerate(YEARS):
