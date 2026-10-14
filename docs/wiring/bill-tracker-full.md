@@ -73,7 +73,7 @@ run "BillsPage" etl.pages.bill_tracker_pages
 
 - Artifact path: `bill-tracker/data/` and `bill-tracker/index.html` (plus `bill-tracker/*-bills/`, `bill-tracker/*-resolutions/` if it ever splits).
 - `git add` paths: `bill-tracker/data bill-tracker/index.html` (and the group folders if split).
-- **Runtime:** the first run reads every action log, about 1,580 requests at one per 2 s (about an hour). Later runs read only new bills, bills whose status changed, and bills with activity in the last 45 days, so out of session a run is about 4 minutes (99 listing pages). `refresh-all.yml` has `timeout-minutes: 30`; mid-session weekly runs may need more. Recommended: give this puller its own weekly job (or step) with `timeout-minutes: 90`, and run it once a month with `--full` so long-quiet bills get their action log re-read.
+- **Runtime:** the first run reads every action log, about 1,580 requests at one per 2 s (about an hour). Later runs read only new bills, bills whose status changed, and bills with activity in the last 45 days, so a quiet week is shorter: measured 2026-10-14, a repeat run made 99 listing requests plus 152 action-log reads (about 10 minutes) and changed nothing. `refresh-all.yml` has `timeout-minutes: 30`; mid-session weekly runs may need more. Recommended: give this puller its own weekly job (or step) with `timeout-minutes: 90`, and run it once a month with `--full` so long-quiet bills get their action log re-read.
 - `bill-tracker-etl.yml` (daily, SB 272) runs `git add bill-tracker/data/`, which would also pick up any change to `bills-153*.json`. Harmless, but note it.
 
 ## Rolling to the 154th General Assembly (convenes 2027-01-12)

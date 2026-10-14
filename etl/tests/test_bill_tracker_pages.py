@@ -76,7 +76,7 @@ def test_default_order_is_the_legislature_numbering(data):
 def test_page_is_well_formed_and_dash_free(data):
     for path, html in bp.render(data, MANIFEST).items():
         assert well_formed(html), path
-        assert not re.search("—|–|&mdash;|&ndash;", html), path
+        assert not re.search("\\u2014|\\u2013|&mdash;|&ndash;", html), path
 
 
 def test_page_contract(data):

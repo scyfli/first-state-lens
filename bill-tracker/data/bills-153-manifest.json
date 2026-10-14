@@ -1,0 +1,34 @@
+{
+ "assembly_name": "153rd General Assembly",
+ "dashboard": "bill-tracker",
+ "generated_at": "2026-10-14T18:30:26Z",
+ "latest_action_date": "2026-10-05",
+ "latest_status_date": "2026-10-05",
+ "row_counts": {
+  "amendments_not_listed": 478,
+  "by_type": {
+   "Bill": 831,
+   "Concurrent Resolution": 378,
+   "Joint Resolution": 35,
+   "Resolution": 53,
+   "Substitute": 187
+  },
+  "items": 1484
+ },
+ "run": {
+  "action_logs_read": 1484,
+  "action_logs_reused": 0,
+  "full": false,
+  "requests": 1583,
+  "server_total": 1962
+ },
+ "session": 153,
+ "source": {
+  "action_log_endpoint": "https://legis.delaware.gov/json/BillDetail/GetRecentReportsByLegislationId",
+  "all_legislation_page": "https://legis.delaware.gov/AllLegislation",
+  "license": "Public record of the Delaware General Assembly",
+  "listing_endpoint": "https://legis.delaware.gov/json/AllLegislation/GetAllLegislation",
+  "name": "Delaware General Assembly (legis.delaware.gov)",
+  "source_updated": "The source publishes no update stamp. See latest_status_date and latest_action_date."
+ }
+}
