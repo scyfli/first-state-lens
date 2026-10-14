@@ -1,4 +1,9 @@
-"""EPA Safe Drinking Water puller — Delaware public water systems + violations.
+"""RETIRED 2026-10-14: removed from refresh-all.yml. Its STATE_CODE=DE filter is the mailing
+address state, not where a system operates (it took in 91 out-of-state systems and dropped
+1,033 of Delaware's 1,766 violations). Use etl/sources/epa_sdwis_systems.py, which filters
+on PRIMACY_AGENCY_CODE=DE. Kept for history only; do not run it.
+
+EPA Safe Drinking Water puller — Delaware public water systems + violations.
 
 Source: EPA Envirofacts SDWIS, data service (efservice), keyless.
   - WATER_SYSTEM filtered to STATE_CODE=DE (1,344 systems) — names + population.
