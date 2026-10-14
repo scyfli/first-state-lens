@@ -1,8 +1,16 @@
 {
   "lead_note": {
-    "detail": "Each water utility maintains its own inventory under EPA's Lead and Copper Rule Revisions. Check your utility directly.",
-    "headline": "Lead service lines are not centrally published at the address level in Delaware.",
+    "detail": "The state's Lead Service Line Inventory Public Transparency Dashboard shows what each public water system reported about the service line at an address, on both the utility side and the private side. Search your street address there. Some utilities also publish their own inventories, linked below. Checked October 14, 2026.",
+    "headline": "Delaware publishes service line inventories by address on a statewide map.",
     "links": [
+      {
+        "name": "Delaware Lead Service Line Inventory map (Division of Public Health)",
+        "url": "https://dhss.120water-ptd.com/"
+      },
+      {
+        "name": "Office of Drinking Water, which links the map",
+        "url": "https://dhss.delaware.gov/dph/homepage/about/sections/hsp/licenses-and-permits/odw/"
+      },
       {
         "name": "New Castle Municipal Services Commission inventory",
         "url": "https://newcastlemsc.delaware.gov/msc-lead-service-line-inventory/"

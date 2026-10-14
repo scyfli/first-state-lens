@@ -317,3 +317,9 @@ def test_slugs_unique_or_raise(built):
     s2["districts"].append(dict(s2["districts"][0], districtcode="99999"))
     with pytest.raises(RuntimeError):
         gen.build_pages(s2, salary)
+
+
+def test_unexplained_remainder_keeps_missing_ranges_unreported():
+    d = sal.parse_distribution_row(_dist_row(1.0, **{"51k_58k": 0.9}))
+    assert d["complete"] is False
+    assert d["counts"]["lt_30k"] is None

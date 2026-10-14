@@ -115,7 +115,7 @@ def fetch(
     resp = sess.get(url, headers=headers, timeout=timeout)
     elapsed_ms = int((time.monotonic() - t0) * 1000)
 
-    if 500 <= resp.status_code < 600:
+    if resp.status_code == 429 or 500 <= resp.status_code < 600:  # 429: rate limited, back off and retry (B7)
         raise TransientHTTPError(
             f"HTTP {resp.status_code} from {url} (transient; will retry)"
         )

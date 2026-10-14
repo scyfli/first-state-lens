@@ -175,14 +175,22 @@ def build(ws_rows: list[dict], ga_rows: list[dict], vio_rows: list[dict], contam
             "violations": [],
         }
 
+    # Geography: a system can carry several GEOGRAPHIC_AREA rows. Collect them all and pick
+    # deterministically (sorted), so row order never changes the output.
+    geo: dict[str, list[tuple[str, str]]] = {}
     for g in ga_rows:
         pid = (g.get("pwsid") or "").strip()
         if pid not in systems:
             continue  # geography for a system outside the regulated set is ignored, never invented
-        s = systems[pid]
-        s["county"] = county_name(g.get("county_served"))
-        city = (g.get("city_served") or "").strip()
-        s["city"] = titlecase(city) if city else None
+        geo.setdefault(pid, []).append((county_name(g.get("county_served")) or "", (g.get("city_served") or "").strip()))
+    for pid, opts in geo.items():
+        county = sorted({c for c, _ in opts if c})
+        cities = sorted({c for _, c in opts if c})
+        systems[pid]["county"] = county[0] if county else None
+        systems[pid]["city"] = titlecase(cities[0]) if cities else None
+    if systems and len(geo) < 0.5 * len(systems):
+        raise RuntimeError(f"GEOGRAPHIC_AREA covers only {len(geo)} of {len(systems)} systems; refusing to publish "
+                           f"pages without county and town (silent-zero guard).")
 
     for v in vio_rows:
         pid = (v.get("pwsid") or "").strip()
@@ -197,7 +205,7 @@ def build(ws_rows: list[dict], ga_rows: list[dict], vio_rows: list[dict], contam
             "contaminant_code": code,
             "contaminant": contaminants.get(code) if code else None,
             "category": (v.get("violation_category_code") or "").strip() or None,
-            "health_based": (v.get("is_health_based_ind") or "").strip().upper() == "Y",
+            "health_based": _yn(v.get("is_health_based_ind")),
             "rule_code": (str(v.get("rule_code")).strip() if v.get("rule_code") is not None else None),
             "violation_code": (str(v.get("violation_code")).strip() if v.get("violation_code") is not None else None),
         })
@@ -282,6 +290,18 @@ def write(out_dir: Path, data: dict, *, as_of: str, manifest_extra: dict) -> boo
     manifest.update(manifest_extra)
     (out_dir / OUT_MANIFEST).write_text(json.dumps(manifest, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     return changed
+
+
+def _yn(val) -> bool | None:
+    """EPA Y/N flag -> True/False; missing -> None (shown as 'Not reported'); anything else raises."""
+    s = (val or "").strip().upper() if isinstance(val, str) or val is None else str(val).strip().upper()
+    if s == "Y":
+        return True
+    if s == "N":
+        return False
+    if s == "":
+        return None
+    raise RuntimeError(f"unexpected is_health_based_ind value {val!r}")
 
 
 def _json(url: str):

@@ -133,7 +133,12 @@ def parse_distribution_row(row: dict) -> dict:
     total = _num(row.get("total"))
     present = {k: _num(row.get(f"staffcount_salary_{k}")) for k, _ in RANGES}
     have = sum(v for v in present.values() if v is not None)
-    complete = total is not None and abs(have - total) <= 0.15
+    # All 12 ranges published: a gap up to 0.15 is per-range rounding (0.1 seen on the state
+    # row), and nothing is filled in. Some ranges missing: they become zero only when the
+    # published ranges add up to the total exactly (0.01); otherwise they stay "Not reported".
+    all_present = all(v is not None for v in present.values())
+    gap = abs(have - total) if total is not None else None
+    complete = gap is not None and (gap <= 0.15 if all_present else gap <= 0.01 + 1e-9)
     counts = {}
     for k, _ in RANGES:
         v = present[k]
@@ -234,7 +239,12 @@ def pull(out_dir: Path) -> dict:
     }
 
     out_dir.mkdir(parents=True, exist_ok=True)
-    (out_dir / OUT_FILE).write_text(json.dumps(data, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    f = out_dir / OUT_FILE
+    if f.exists():  # a no-change refresh keeps the old stamp, so the data file does not churn (B7)
+        old = json.loads(f.read_text(encoding="utf-8"))
+        if {k: v for k, v in old.items() if k != "generated_at"} == {k: v for k, v in data.items() if k != "generated_at"}:
+            data["generated_at"] = old.get("generated_at", data["generated_at"])
+    f.write_text(json.dumps(data, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     (out_dir / OUT_MANIFEST).write_text(json.dumps({
         "generated_at": data["generated_at"], "dashboard": "schools",
         "sources": {DIST_DS: f"{PORTAL}/d/{DIST_DS}", AVG_DS: f"{PORTAL}/d/{AVG_DS}"},

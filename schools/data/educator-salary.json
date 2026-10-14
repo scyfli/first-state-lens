@@ -539,11 +539,11 @@
         "total": 81.0
       },
       "38": {
-        "complete": true,
+        "complete": false,
         "counts": {
-          "30k_37k": 0.0,
-          "37k_44k": 0.0,
-          "44k_51k": 0.0,
+          "30k_37k": null,
+          "37k_44k": null,
+          "44k_51k": null,
           "51k_58k": 3.0,
           "58k_65k": 12.0,
           "65k_72k": 18.0,
@@ -552,7 +552,7 @@
           "86k_93k": 43.6,
           "93k_100k": 27.0,
           "gt_100k": 202.0,
-          "lt_30k": 0.0
+          "lt_30k": null
         },
         "district": "New Castle County Vocational-Technical School District",
         "total": 381.1
@@ -1124,7 +1124,7 @@
       "total": 10262.3
     }
   },
-  "generated_at": "2026-10-14T17:31:17Z",
+  "generated_at": "2026-10-14T19:13:47Z",
   "license": "Delaware Open Data Portal, open data",
   "publisher": "Delaware Department of Education"
 }

@@ -284,7 +284,7 @@ def violation_rows(s: dict) -> str:
           <td data-k="Period ended">{e(nice_date(v['end']) or 'Not listed')}</td>
           <td data-k="Rule or contaminant" class="rule">{e(rule)}</td>
           <td data-k="Category">{e(cat)}</td>
-          <td data-k="Health-based">{'Yes' if v['health_based'] else 'No'}</td>
+          <td data-k="Health-based">{'Yes' if v['health_based'] is True else ('No' if v['health_based'] is False else 'Not reported')}</td>
           <td data-k="Returned to compliance">{e(nice_date(v['returned_to_compliance']) or 'No date recorded')}</td>
         </tr>""")
     return "\n".join(rows)
@@ -294,7 +294,7 @@ def render_system(s: dict, d: dict, title: str) -> str:
     path = page_path(s)
     as_of = as_of_text(d)
     n = len(s["violations"])
-    hb = sum(1 for v in s["violations"] if v["health_based"])
+    hb = sum(1 for v in s["violations"] if v["health_based"] is True)
     nr = sum(1 for v in s["violations"] if v["returned_to_compliance"] is None)
     type_label = TYPE.get(s["type"] or "", f"EPA type code {s['type'] or 'not listed'}")
     where = place_label(s)
@@ -418,11 +418,11 @@ def render_index(d: dict, lead: dict) -> str:
                     key=lambda s: (s["name"].lower(), s["pwsid"]))
     title = "Is My Water Safe? Delaware Drinking Water Systems and EPA Violations"
     desc = ("Find your Delaware public water system and read its EPA drinking water violation record: dates, rules, "
-            "health-based flags and return-to-compliance dates for every system, plus how to get your water quality report.")
+            "health-based flags and return-to-compliance dates for every community water system and every system with a violation on record, plus how to get your water quality report.")
     ld = {
         "@context": "https://schema.org", "@type": "Dataset",
         "name": "Delaware public water systems and drinking water violations",
-        "description": "Every public water system Delaware regulates and every drinking water violation EPA records for it, from the EPA Safe Drinking Water Information System (SDWIS). Nonpartisan, source-traced.",
+        "description": "Delaware's active community water systems and every Delaware public water system with a drinking water violation on record, with every violation EPA records for them, from the EPA Safe Drinking Water Information System (SDWIS). Nonpartisan, source-traced.",
         "url": SITE + "/water/", "isAccessibleForFree": True, "license": SITE + "/", "inLanguage": "en-US",
         "keywords": ["Is my water safe", "Delaware drinking water", "water quality", "EPA SDWIS",
                      "water violations", "public water systems", "Consumer Confidence Report"],
@@ -441,7 +441,7 @@ def render_index(d: dict, lead: dict) -> str:
     out.append(f"""  <div class="title-block">
     <span class="title-eyebrow">Drinking Water · Delaware</span>
     <h1 class="title-h1">Is my <span class="highlight">water</span> safe?</h1>
-    <p class="title-sub">Find your public water system and read its drinking water record from EPA: every violation, its dates, and whether the state recorded it as resolved. All {t['systems_on_record']:,} systems Delaware regulates, as retrieved {e(as_of)}.</p>
+    <p class="title-sub">Find your public water system and read its drinking water record from EPA: every violation, its dates, and whether the state recorded it as resolved. Delaware regulates {t['systems_on_record']:,} public water systems; this page covers the {t['community_active']:,} active community systems (where people live) and every other system with a violation on record, {t['pages']:,} in all, as retrieved {e(as_of)}.</p>
   </div>
 
 {INDEX_NEUTRALITY}
@@ -506,7 +506,7 @@ def render_index(d: dict, lead: dict) -> str:
 {kpi("Health-based violations", t["health_based"], "Recorded violations where a contaminant went over a federal limit or a required treatment step was not met.", src_v)}
 {kpi("No return-to-compliance date", t["no_return_to_compliance_date"], "Recorded violations with no date showing the state recorded them as resolved. Some belong to systems that are no longer active.", src_v)}
     </div>
-    <p class="src">Source: <a href="{e(d['source']['violation'])}">EPA SDWIS violation records</a> for systems with Delaware as the regulating state (PWSIDs beginning DE), retrieved {e(as_of)}. Download the <a href="/water/data/water-systems.json">full data as JSON</a>.</p>
+    <p class="src">Source: <a href="{e(d['source']['violation'])}">EPA SDWIS violation records</a> for systems with Delaware as the regulating state (PWSIDs beginning DE), retrieved {e(as_of)}. Download the <a href="/water/data/water-systems.json">data as JSON</a> (the {t['pages']:,} systems listed here and their violations; systems with no violation on record that are not community systems are counted but not listed).</p>
   </section>
 
   <section class="section" aria-labelledby="terms-title">
