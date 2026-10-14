@@ -1,0 +1,344 @@
+[
+ {
+  "month": "2018-11-01T00:00:00.000",
+  "county_desc": "Kent",
+  "crash_class_desc": "Fatality Crash",
+  "n": "3"
+ },
+ {
+  "month": "2018-11-01T00:00:00.000",
+  "county_desc": "Kent",
+  "crash_class_desc": "Non-Reportable",
+  "n": "165"
+ },
+ {
+  "month": "2018-11-01T00:00:00.000",
+  "county_desc": "Kent",
+  "crash_class_desc": "Personal Injury Crash",
+  "n": "104"
+ },
+ {
+  "month": "2018-11-01T00:00:00.000",
+  "county_desc": "Kent",
+  "crash_class_desc": "Property Damage Only",
+  "n": "341"
+ },
+ {
+  "month": "2018-11-01T00:00:00.000",
+  "county_desc": "New Castle",
+  "crash_class_desc": "Fatality Crash",
+  "n": "3"
+ },
+ {
+  "month": "2018-11-01T00:00:00.000",
+  "county_desc": "New Castle",
+  "crash_class_desc": "NA",
+  "n": "1"
+ },
+ {
+  "month": "2018-11-01T00:00:00.000",
+  "county_desc": "New Castle",
+  "crash_class_desc": "Non-Reportable",
+  "n": "413"
+ },
+ {
+  "month": "2018-11-01T00:00:00.000",
+  "county_desc": "New Castle",
+  "crash_class_desc": "Personal Injury Crash",
+  "n": "312"
+ },
+ {
+  "month": "2018-11-01T00:00:00.000",
+  "county_desc": "New Castle",
+  "crash_class_desc": "Property Damage Only",
+  "n": "1374"
+ },
+ {
+  "month": "2018-11-01T00:00:00.000",
+  "county_desc": "Sussex",
+  "crash_class_desc": "Fatality Crash",
+  "n": "3"
+ },
+ {
+  "month": "2018-11-01T00:00:00.000",
+  "county_desc": "Sussex",
+  "crash_class_desc": "Non-Reportable",
+  "n": "170"
+ },
+ {
+  "month": "2018-11-01T00:00:00.000",
+  "county_desc": "Sussex",
+  "crash_class_desc": "Personal Injury Crash",
+  "n": "106"
+ },
+ {
+  "month": "2018-11-01T00:00:00.000",
+  "county_desc": "Sussex",
+  "crash_class_desc": "Property Damage Only",
+  "n": "573"
+ },
+ {
+  "month": "2024-12-01T00:00:00.000",
+  "county_desc": "Kent",
+  "crash_class_desc": "Fatality Crash",
+  "n": "2"
+ },
+ {
+  "month": "2024-12-01T00:00:00.000",
+  "county_desc": "Kent",
+  "crash_class_desc": "Non-Reportable",
+  "n": "179"
+ },
+ {
+  "month": "2024-12-01T00:00:00.000",
+  "county_desc": "Kent",
+  "crash_class_desc": "Personal Injury Crash",
+  "n": "67"
+ },
+ {
+  "month": "2024-12-01T00:00:00.000",
+  "county_desc": "Kent",
+  "crash_class_desc": "Property Damage Only",
+  "n": "317"
+ },
+ {
+  "month": "2024-12-01T00:00:00.000",
+  "county_desc": "New Castle",
+  "crash_class_desc": "Fatality Crash",
+  "n": "5"
+ },
+ {
+  "month": "2024-12-01T00:00:00.000",
+  "county_desc": "New Castle",
+  "crash_class_desc": "Non-Reportable",
+  "n": "397"
+ },
+ {
+  "month": "2024-12-01T00:00:00.000",
+  "county_desc": "New Castle",
+  "crash_class_desc": "Personal Injury Crash",
+  "n": "252"
+ },
+ {
+  "month": "2024-12-01T00:00:00.000",
+  "county_desc": "New Castle",
+  "crash_class_desc": "Property Damage Only",
+  "n": "1284"
+ },
+ {
+  "month": "2024-12-01T00:00:00.000",
+  "county_desc": "Sussex",
+  "crash_class_desc": "Fatality Crash",
+  "n": "2"
+ },
+ {
+  "month": "2024-12-01T00:00:00.000",
+  "county_desc": "Sussex",
+  "crash_class_desc": "Non-Reportable",
+  "n": "175"
+ },
+ {
+  "month": "2024-12-01T00:00:00.000",
+  "county_desc": "Sussex",
+  "crash_class_desc": "Personal Injury Crash",
+  "n": "103"
+ },
+ {
+  "month": "2024-12-01T00:00:00.000",
+  "county_desc": "Sussex",
+  "crash_class_desc": "Property Damage Only",
+  "n": "455"
+ },
+ {
+  "month": "2025-01-01T00:00:00.000",
+  "county_desc": "Kent",
+  "crash_class_desc": "Fatality Crash",
+  "n": "1"
+ },
+ {
+  "month": "2025-01-01T00:00:00.000",
+  "county_desc": "Kent",
+  "crash_class_desc": "Non-Reportable",
+  "n": "149"
+ },
+ {
+  "month": "2025-01-01T00:00:00.000",
+  "county_desc": "Kent",
+  "crash_class_desc": "Personal Injury Crash",
+  "n": "61"
+ },
+ {
+  "month": "2025-01-01T00:00:00.000",
+  "county_desc": "Kent",
+  "crash_class_desc": "Property Damage Only",
+  "n": "328"
+ },
+ {
+  "month": "2025-01-01T00:00:00.000",
+  "county_desc": "New Castle",
+  "crash_class_desc": "Fatality Crash",
+  "n": "4"
+ },
+ {
+  "month": "2025-01-01T00:00:00.000",
+  "county_desc": "New Castle",
+  "crash_class_desc": "Non-Reportable",
+  "n": "366"
+ },
+ {
+  "month": "2025-01-01T00:00:00.000",
+  "county_desc": "New Castle",
+  "crash_class_desc": "Personal Injury Crash",
+  "n": "218"
+ },
+ {
+  "month": "2025-01-01T00:00:00.000",
+  "county_desc": "New Castle",
+  "crash_class_desc": "Property Damage Only",
+  "n": "1098"
+ },
+ {
+  "month": "2025-01-01T00:00:00.000",
+  "county_desc": "Sussex",
+  "crash_class_desc": "Non-Reportable",
+  "n": "158"
+ },
+ {
+  "month": "2025-01-01T00:00:00.000",
+  "county_desc": "Sussex",
+  "crash_class_desc": "Personal Injury Crash",
+  "n": "78"
+ },
+ {
+  "month": "2025-01-01T00:00:00.000",
+  "county_desc": "Sussex",
+  "crash_class_desc": "Property Damage Only",
+  "n": "421"
+ },
+ {
+  "month": "2026-02-01T00:00:00.000",
+  "county_desc": "Kent",
+  "crash_class_desc": "Non-Reportable",
+  "n": "148"
+ },
+ {
+  "month": "2026-02-01T00:00:00.000",
+  "county_desc": "Kent",
+  "crash_class_desc": "Personal Injury Crash",
+  "n": "65"
+ },
+ {
+  "month": "2026-02-01T00:00:00.000",
+  "county_desc": "Kent",
+  "crash_class_desc": "Property Damage Only",
+  "n": "253"
+ },
+ {
+  "month": "2026-02-01T00:00:00.000",
+  "county_desc": "New Castle",
+  "crash_class_desc": "Fatality Crash",
+  "n": "5"
+ },
+ {
+  "month": "2026-02-01T00:00:00.000",
+  "county_desc": "New Castle",
+  "crash_class_desc": "Non-Reportable",
+  "n": "400"
+ },
+ {
+  "month": "2026-02-01T00:00:00.000",
+  "county_desc": "New Castle",
+  "crash_class_desc": "Personal Injury Crash",
+  "n": "190"
+ },
+ {
+  "month": "2026-02-01T00:00:00.000",
+  "county_desc": "New Castle",
+  "crash_class_desc": "Property Damage Only",
+  "n": "980"
+ },
+ {
+  "month": "2026-02-01T00:00:00.000",
+  "county_desc": "Sussex",
+  "crash_class_desc": "Non-Reportable",
+  "n": "157"
+ },
+ {
+  "month": "2026-02-01T00:00:00.000",
+  "county_desc": "Sussex",
+  "crash_class_desc": "Personal Injury Crash",
+  "n": "66"
+ },
+ {
+  "month": "2026-02-01T00:00:00.000",
+  "county_desc": "Sussex",
+  "crash_class_desc": "Property Damage Only",
+  "n": "360"
+ },
+ {
+  "month": "2026-03-01T00:00:00.000",
+  "county_desc": "Kent",
+  "crash_class_desc": "Fatality Crash",
+  "n": "2"
+ },
+ {
+  "month": "2026-03-01T00:00:00.000",
+  "county_desc": "Kent",
+  "crash_class_desc": "Non-Reportable",
+  "n": "157"
+ },
+ {
+  "month": "2026-03-01T00:00:00.000",
+  "county_desc": "Kent",
+  "crash_class_desc": "Personal Injury Crash",
+  "n": "79"
+ },
+ {
+  "month": "2026-03-01T00:00:00.000",
+  "county_desc": "Kent",
+  "crash_class_desc": "Property Damage Only",
+  "n": "295"
+ },
+ {
+  "month": "2026-03-01T00:00:00.000",
+  "county_desc": "New Castle",
+  "crash_class_desc": "Fatality Crash",
+  "n": "3"
+ },
+ {
+  "month": "2026-03-01T00:00:00.000",
+  "county_desc": "New Castle",
+  "crash_class_desc": "Non-Reportable",
+  "n": "421"
+ },
+ {
+  "month": "2026-03-01T00:00:00.000",
+  "county_desc": "New Castle",
+  "crash_class_desc": "Personal Injury Crash",
+  "n": "241"
+ },
+ {
+  "month": "2026-03-01T00:00:00.000",
+  "county_desc": "New Castle",
+  "crash_class_desc": "Property Damage Only",
+  "n": "1010"
+ },
+ {
+  "month": "2026-03-01T00:00:00.000",
+  "county_desc": "Sussex",
+  "crash_class_desc": "Non-Reportable",
+  "n": "180"
+ },
+ {
+  "month": "2026-03-01T00:00:00.000",
+  "county_desc": "Sussex",
+  "crash_class_desc": "Personal Injury Crash",
+  "n": "79"
+ },
+ {
+  "month": "2026-03-01T00:00:00.000",
+  "county_desc": "Sussex",
+  "crash_class_desc": "Property Damage Only",
+  "n": "415"
+ }
+]

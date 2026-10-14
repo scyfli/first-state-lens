@@ -1,0 +1,21 @@
+{
+ "id": "827n-m6xc",
+ "name": "Public Crash Data",
+ "attribution": "Delaware Department of Safety and Homeland Security",
+ "rowsUpdatedAt": 1791240802,
+ "category": "Transportation",
+ "metadata": {
+  "custom_fields": {
+   "Location Intelligence": {
+    "ESRIAPIEndpoint": "https://enterprise.firstmap.delaware.gov/arcgis/rest/services/Transportation/DE_Public_Crash_Data/FeatureServer/0"
+   },
+   "Additional Information": {
+    "Publishing Timeframe": "5th day of the month",
+    "Temporal Coverage": "2009 through \u201cSix months ago\u201d",
+    "Frequency of publishing": "Monthly",
+    "IsEsriImport": "Y",
+    "Geographic Unit": "Latitude/Longitude"
+   }
+  }
+ }
+}

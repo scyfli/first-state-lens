@@ -1,0 +1,6281 @@
+{
+  "counties": [
+    "Kent",
+    "New Castle",
+    "Sussex"
+  ],
+  "coverage": {
+    "first_month": "2009-01",
+    "last_crash_date": "2026-03-31",
+    "last_month": "2026-03",
+    "last_month_partial": false
+  },
+  "kpi": {
+    "statewide": {
+      "all_reports": 36866,
+      "fatality": 98,
+      "non_reportable": 9287,
+      "personal_injury": 4942,
+      "property_damage_only": 22539
+    },
+    "year": 2025
+  },
+  "monthly": [
+    {
+      "all_reports": 255,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2009-01",
+      "non_reportable": 0,
+      "personal_injury": 54,
+      "property_damage_only": 200
+    },
+    {
+      "all_reports": 967,
+      "county": "New Castle",
+      "fatality": 5,
+      "month": "2009-01",
+      "non_reportable": 2,
+      "personal_injury": 218,
+      "property_damage_only": 742
+    },
+    {
+      "all_reports": 326,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2009-01",
+      "non_reportable": 0,
+      "personal_injury": 90,
+      "property_damage_only": 234
+    },
+    {
+      "all_reports": 207,
+      "county": "Kent",
+      "fatality": 0,
+      "month": "2009-02",
+      "non_reportable": 0,
+      "personal_injury": 50,
+      "property_damage_only": 157
+    },
+    {
+      "all_reports": 782,
+      "county": "New Castle",
+      "fatality": 2,
+      "month": "2009-02",
+      "non_reportable": 0,
+      "personal_injury": 196,
+      "property_damage_only": 584
+    },
+    {
+      "all_reports": 203,
+      "county": "Sussex",
+      "fatality": 5,
+      "month": "2009-02",
+      "non_reportable": 0,
+      "personal_injury": 51,
+      "property_damage_only": 147
+    },
+    {
+      "all_reports": 288,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2009-03",
+      "non_reportable": 0,
+      "personal_injury": 77,
+      "property_damage_only": 210
+    },
+    {
+      "all_reports": 957,
+      "county": "New Castle",
+      "fatality": 2,
+      "month": "2009-03",
+      "non_reportable": 0,
+      "personal_injury": 256,
+      "property_damage_only": 699
+    },
+    {
+      "all_reports": 212,
+      "county": "Sussex",
+      "fatality": 1,
+      "month": "2009-03",
+      "non_reportable": 0,
+      "personal_injury": 55,
+      "property_damage_only": 156
+    },
+    {
+      "all_reports": 273,
+      "county": "Kent",
+      "fatality": 4,
+      "month": "2009-04",
+      "non_reportable": 0,
+      "personal_injury": 57,
+      "property_damage_only": 212
+    },
+    {
+      "all_reports": 950,
+      "county": "New Castle",
+      "fatality": 2,
+      "month": "2009-04",
+      "non_reportable": 0,
+      "personal_injury": 281,
+      "property_damage_only": 667
+    },
+    {
+      "all_reports": 234,
+      "county": "Sussex",
+      "fatality": 0,
+      "month": "2009-04",
+      "non_reportable": 0,
+      "personal_injury": 72,
+      "property_damage_only": 162
+    },
+    {
+      "all_reports": 284,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2009-05",
+      "non_reportable": 0,
+      "personal_injury": 88,
+      "property_damage_only": 194
+    },
+    {
+      "all_reports": 1029,
+      "county": "New Castle",
+      "fatality": 2,
+      "month": "2009-05",
+      "non_reportable": 0,
+      "personal_injury": 298,
+      "property_damage_only": 729
+    },
+    {
+      "all_reports": 338,
+      "county": "Sussex",
+      "fatality": 3,
+      "month": "2009-05",
+      "non_reportable": 0,
+      "personal_injury": 96,
+      "property_damage_only": 239
+    },
+    {
+      "all_reports": 291,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2009-06",
+      "non_reportable": 0,
+      "personal_injury": 72,
+      "property_damage_only": 218
+    },
+    {
+      "all_reports": 979,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2009-06",
+      "non_reportable": 0,
+      "personal_injury": 260,
+      "property_damage_only": 715
+    },
+    {
+      "all_reports": 338,
+      "county": "Sussex",
+      "fatality": 6,
+      "month": "2009-06",
+      "non_reportable": 0,
+      "personal_injury": 110,
+      "property_damage_only": 222
+    },
+    {
+      "all_reports": 260,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2009-07",
+      "non_reportable": 0,
+      "personal_injury": 73,
+      "property_damage_only": 185
+    },
+    {
+      "all_reports": 908,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2009-07",
+      "non_reportable": 0,
+      "personal_injury": 231,
+      "property_damage_only": 673
+    },
+    {
+      "all_reports": 444,
+      "county": "Sussex",
+      "fatality": 3,
+      "month": "2009-07",
+      "non_reportable": 0,
+      "personal_injury": 130,
+      "property_damage_only": 311
+    },
+    {
+      "all_reports": 262,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2009-08",
+      "non_reportable": 0,
+      "personal_injury": 83,
+      "property_damage_only": 177
+    },
+    {
+      "all_reports": 929,
+      "county": "New Castle",
+      "fatality": 5,
+      "month": "2009-08",
+      "non_reportable": 0,
+      "personal_injury": 266,
+      "property_damage_only": 658
+    },
+    {
+      "all_reports": 392,
+      "county": "Sussex",
+      "fatality": 5,
+      "month": "2009-08",
+      "non_reportable": 0,
+      "personal_injury": 96,
+      "property_damage_only": 291
+    },
+    {
+      "all_reports": 241,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2009-09",
+      "non_reportable": 0,
+      "personal_injury": 66,
+      "property_damage_only": 173
+    },
+    {
+      "all_reports": 1008,
+      "county": "New Castle",
+      "fatality": 10,
+      "month": "2009-09",
+      "non_reportable": 0,
+      "personal_injury": 281,
+      "property_damage_only": 717
+    },
+    {
+      "all_reports": 303,
+      "county": "Sussex",
+      "fatality": 1,
+      "month": "2009-09",
+      "non_reportable": 0,
+      "personal_injury": 101,
+      "property_damage_only": 201
+    },
+    {
+      "all_reports": 304,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2009-10",
+      "non_reportable": 0,
+      "personal_injury": 74,
+      "property_damage_only": 229
+    },
+    {
+      "all_reports": 1162,
+      "county": "New Castle",
+      "fatality": 6,
+      "month": "2009-10",
+      "non_reportable": 0,
+      "personal_injury": 312,
+      "property_damage_only": 844
+    },
+    {
+      "all_reports": 316,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2009-10",
+      "non_reportable": 0,
+      "personal_injury": 98,
+      "property_damage_only": 216
+    },
+    {
+      "all_reports": 288,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2009-11",
+      "non_reportable": 0,
+      "personal_injury": 74,
+      "property_damage_only": 213
+    },
+    {
+      "all_reports": 1081,
+      "county": "New Castle",
+      "fatality": 3,
+      "month": "2009-11",
+      "non_reportable": 3,
+      "personal_injury": 247,
+      "property_damage_only": 828
+    },
+    {
+      "all_reports": 312,
+      "county": "Sussex",
+      "fatality": 6,
+      "month": "2009-11",
+      "non_reportable": 2,
+      "personal_injury": 76,
+      "property_damage_only": 228
+    },
+    {
+      "all_reports": 345,
+      "county": "Kent",
+      "fatality": 0,
+      "month": "2009-12",
+      "non_reportable": 42,
+      "personal_injury": 76,
+      "property_damage_only": 227
+    },
+    {
+      "all_reports": 1291,
+      "county": "New Castle",
+      "fatality": 3,
+      "month": "2009-12",
+      "non_reportable": 110,
+      "personal_injury": 285,
+      "property_damage_only": 893
+    },
+    {
+      "all_reports": 356,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2009-12",
+      "non_reportable": 37,
+      "personal_injury": 79,
+      "property_damage_only": 238
+    },
+    {
+      "all_reports": 428,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2010-01",
+      "non_reportable": 228,
+      "personal_injury": 50,
+      "property_damage_only": 148
+    },
+    {
+      "all_reports": 1508,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2010-01",
+      "non_reportable": 524,
+      "personal_injury": 234,
+      "property_damage_only": 746
+    },
+    {
+      "all_reports": 489,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2010-01",
+      "non_reportable": 255,
+      "personal_injury": 67,
+      "property_damage_only": 165
+    },
+    {
+      "all_reports": 446,
+      "county": "Kent",
+      "fatality": 0,
+      "month": "2010-02",
+      "non_reportable": 248,
+      "personal_injury": 59,
+      "property_damage_only": 139
+    },
+    {
+      "all_reports": 1508,
+      "county": "New Castle",
+      "fatality": 5,
+      "month": "2010-02",
+      "non_reportable": 589,
+      "personal_injury": 213,
+      "property_damage_only": 701
+    },
+    {
+      "all_reports": 492,
+      "county": "Sussex",
+      "fatality": 0,
+      "month": "2010-02",
+      "non_reportable": 263,
+      "personal_injury": 49,
+      "property_damage_only": 180
+    },
+    {
+      "all_reports": 374,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2010-03",
+      "non_reportable": 176,
+      "personal_injury": 68,
+      "property_damage_only": 128
+    },
+    {
+      "all_reports": 1475,
+      "county": "New Castle",
+      "fatality": 2,
+      "month": "2010-03",
+      "non_reportable": 529,
+      "personal_injury": 258,
+      "property_damage_only": 686
+    },
+    {
+      "all_reports": 467,
+      "county": "Sussex",
+      "fatality": 1,
+      "month": "2010-03",
+      "non_reportable": 236,
+      "personal_injury": 68,
+      "property_damage_only": 162
+    },
+    {
+      "all_reports": 434,
+      "county": "Kent",
+      "fatality": 0,
+      "month": "2010-04",
+      "non_reportable": 220,
+      "personal_injury": 74,
+      "property_damage_only": 140
+    },
+    {
+      "all_reports": 1535,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2010-04",
+      "non_reportable": 509,
+      "personal_injury": 242,
+      "property_damage_only": 780
+    },
+    {
+      "all_reports": 457,
+      "county": "Sussex",
+      "fatality": 5,
+      "month": "2010-04",
+      "non_reportable": 221,
+      "personal_injury": 75,
+      "property_damage_only": 156
+    },
+    {
+      "all_reports": 459,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2010-05",
+      "non_reportable": 219,
+      "personal_injury": 95,
+      "property_damage_only": 144
+    },
+    {
+      "all_reports": 1615,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2010-05",
+      "non_reportable": 541,
+      "personal_injury": 294,
+      "property_damage_only": 776
+    },
+    {
+      "all_reports": 512,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2010-05",
+      "non_reportable": 279,
+      "personal_injury": 73,
+      "property_damage_only": 158
+    },
+    {
+      "all_reports": 439,
+      "county": "Kent",
+      "fatality": 0,
+      "month": "2010-06",
+      "non_reportable": 209,
+      "personal_injury": 102,
+      "property_damage_only": 128
+    },
+    {
+      "all_reports": 1552,
+      "county": "New Castle",
+      "fatality": 6,
+      "month": "2010-06",
+      "non_reportable": 509,
+      "personal_injury": 255,
+      "property_damage_only": 782
+    },
+    {
+      "all_reports": 626,
+      "county": "Sussex",
+      "fatality": 3,
+      "month": "2010-06",
+      "non_reportable": 293,
+      "personal_injury": 115,
+      "property_damage_only": 215
+    },
+    {
+      "all_reports": 424,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2010-07",
+      "non_reportable": 208,
+      "personal_injury": 77,
+      "property_damage_only": 137
+    },
+    {
+      "all_reports": 1506,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2010-07",
+      "non_reportable": 505,
+      "personal_injury": 278,
+      "property_damage_only": 719
+    },
+    {
+      "all_reports": 724,
+      "county": "Sussex",
+      "fatality": 4,
+      "month": "2010-07",
+      "non_reportable": 338,
+      "personal_injury": 121,
+      "property_damage_only": 261
+    },
+    {
+      "all_reports": 433,
+      "county": "Kent",
+      "fatality": 4,
+      "month": "2010-08",
+      "non_reportable": 221,
+      "personal_injury": 67,
+      "property_damage_only": 141
+    },
+    {
+      "all_reports": 1467,
+      "county": "New Castle",
+      "fatality": 2,
+      "month": "2010-08",
+      "non_reportable": 489,
+      "personal_injury": 257,
+      "property_damage_only": 719
+    },
+    {
+      "all_reports": 644,
+      "county": "Sussex",
+      "fatality": 5,
+      "month": "2010-08",
+      "non_reportable": 283,
+      "personal_injury": 110,
+      "property_damage_only": 246
+    },
+    {
+      "all_reports": 457,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2010-09",
+      "non_reportable": 213,
+      "personal_injury": 89,
+      "property_damage_only": 154
+    },
+    {
+      "all_reports": 1658,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2010-09",
+      "non_reportable": 558,
+      "personal_injury": 291,
+      "property_damage_only": 805
+    },
+    {
+      "all_reports": 510,
+      "county": "Sussex",
+      "fatality": 1,
+      "month": "2010-09",
+      "non_reportable": 227,
+      "personal_injury": 83,
+      "property_damage_only": 199
+    },
+    {
+      "all_reports": 473,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2010-10",
+      "non_reportable": 212,
+      "personal_injury": 90,
+      "property_damage_only": 169
+    },
+    {
+      "all_reports": 1736,
+      "county": "New Castle",
+      "fatality": 3,
+      "month": "2010-10",
+      "non_reportable": 564,
+      "personal_injury": 301,
+      "property_damage_only": 868
+    },
+    {
+      "all_reports": 571,
+      "county": "Sussex",
+      "fatality": 1,
+      "month": "2010-10",
+      "non_reportable": 255,
+      "personal_injury": 86,
+      "property_damage_only": 229
+    },
+    {
+      "all_reports": 441,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2010-11",
+      "non_reportable": 191,
+      "personal_injury": 68,
+      "property_damage_only": 180
+    },
+    {
+      "all_reports": 1699,
+      "county": "New Castle",
+      "fatality": 0,
+      "month": "2010-11",
+      "non_reportable": 500,
+      "personal_injury": 308,
+      "property_damage_only": 891
+    },
+    {
+      "all_reports": 622,
+      "county": "Sussex",
+      "fatality": 4,
+      "month": "2010-11",
+      "non_reportable": 281,
+      "personal_injury": 83,
+      "property_damage_only": 254
+    },
+    {
+      "all_reports": 543,
+      "county": "Kent",
+      "fatality": 4,
+      "month": "2010-12",
+      "non_reportable": 276,
+      "personal_injury": 54,
+      "property_damage_only": 209
+    },
+    {
+      "all_reports": 1947,
+      "county": "New Castle",
+      "fatality": 5,
+      "month": "2010-12",
+      "non_reportable": 628,
+      "personal_injury": 324,
+      "property_damage_only": 990
+    },
+    {
+      "all_reports": 601,
+      "county": "Sussex",
+      "fatality": 0,
+      "month": "2010-12",
+      "non_reportable": 294,
+      "personal_injury": 76,
+      "property_damage_only": 231
+    },
+    {
+      "all_reports": 473,
+      "county": "Kent",
+      "fatality": 0,
+      "month": "2011-01",
+      "non_reportable": 206,
+      "personal_injury": 77,
+      "property_damage_only": 190
+    },
+    {
+      "all_reports": 1690,
+      "county": "New Castle",
+      "fatality": 2,
+      "month": "2011-01",
+      "non_reportable": 547,
+      "personal_injury": 242,
+      "property_damage_only": 899
+    },
+    {
+      "all_reports": 491,
+      "county": "Sussex",
+      "fatality": 1,
+      "month": "2011-01",
+      "non_reportable": 227,
+      "personal_injury": 72,
+      "property_damage_only": 191
+    },
+    {
+      "all_reports": 421,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2011-02",
+      "non_reportable": 204,
+      "personal_injury": 53,
+      "property_damage_only": 163
+    },
+    {
+      "all_reports": 1415,
+      "county": "New Castle",
+      "fatality": 2,
+      "month": "2011-02",
+      "non_reportable": 450,
+      "personal_injury": 239,
+      "property_damage_only": 724
+    },
+    {
+      "all_reports": 448,
+      "county": "Sussex",
+      "fatality": 3,
+      "month": "2011-02",
+      "non_reportable": 222,
+      "personal_injury": 67,
+      "property_damage_only": 156
+    },
+    {
+      "all_reports": 421,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2011-03",
+      "non_reportable": 221,
+      "personal_injury": 76,
+      "property_damage_only": 122
+    },
+    {
+      "all_reports": 1507,
+      "county": "New Castle",
+      "fatality": 3,
+      "month": "2011-03",
+      "non_reportable": 465,
+      "personal_injury": 235,
+      "property_damage_only": 804
+    },
+    {
+      "all_reports": 423,
+      "county": "Sussex",
+      "fatality": 4,
+      "month": "2011-03",
+      "non_reportable": 191,
+      "personal_injury": 65,
+      "property_damage_only": 163
+    },
+    {
+      "all_reports": 417,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2011-04",
+      "non_reportable": 200,
+      "personal_injury": 66,
+      "property_damage_only": 148
+    },
+    {
+      "all_reports": 1550,
+      "county": "New Castle",
+      "fatality": 3,
+      "month": "2011-04",
+      "non_reportable": 492,
+      "personal_injury": 244,
+      "property_damage_only": 811
+    },
+    {
+      "all_reports": 440,
+      "county": "Sussex",
+      "fatality": 3,
+      "month": "2011-04",
+      "non_reportable": 190,
+      "personal_injury": 86,
+      "property_damage_only": 161
+    },
+    {
+      "all_reports": 444,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2011-05",
+      "non_reportable": 202,
+      "personal_injury": 67,
+      "property_damage_only": 174
+    },
+    {
+      "all_reports": 1736,
+      "county": "New Castle",
+      "fatality": 5,
+      "month": "2011-05",
+      "non_reportable": 563,
+      "personal_injury": 310,
+      "property_damage_only": 858
+    },
+    {
+      "all_reports": 587,
+      "county": "Sussex",
+      "fatality": 0,
+      "month": "2011-05",
+      "non_reportable": 258,
+      "personal_injury": 98,
+      "property_damage_only": 231
+    },
+    {
+      "all_reports": 444,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2011-06",
+      "non_reportable": 206,
+      "personal_injury": 88,
+      "property_damage_only": 149
+    },
+    {
+      "all_reports": 1478,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2011-06",
+      "non_reportable": 480,
+      "personal_injury": 246,
+      "property_damage_only": 748
+    },
+    {
+      "all_reports": 563,
+      "county": "Sussex",
+      "fatality": 5,
+      "month": "2011-06",
+      "non_reportable": 239,
+      "personal_injury": 90,
+      "property_damage_only": 229
+    },
+    {
+      "all_reports": 430,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2011-07",
+      "non_reportable": 195,
+      "personal_injury": 84,
+      "property_damage_only": 150
+    },
+    {
+      "all_reports": 1468,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2011-07",
+      "non_reportable": 462,
+      "personal_injury": 244,
+      "property_damage_only": 758
+    },
+    {
+      "all_reports": 736,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2011-07",
+      "non_reportable": 332,
+      "personal_injury": 126,
+      "property_damage_only": 276
+    },
+    {
+      "all_reports": 417,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2011-08",
+      "non_reportable": 190,
+      "personal_injury": 79,
+      "property_damage_only": 146
+    },
+    {
+      "all_reports": 1595,
+      "county": "New Castle",
+      "fatality": 3,
+      "month": "2011-08",
+      "non_reportable": 556,
+      "personal_injury": 236,
+      "property_damage_only": 800
+    },
+    {
+      "all_reports": 608,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2011-08",
+      "non_reportable": 279,
+      "personal_injury": 104,
+      "property_damage_only": 223
+    },
+    {
+      "all_reports": 461,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2011-09",
+      "non_reportable": 217,
+      "personal_injury": 75,
+      "property_damage_only": 166
+    },
+    {
+      "all_reports": 1536,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2011-09",
+      "non_reportable": 459,
+      "personal_injury": 277,
+      "property_damage_only": 796
+    },
+    {
+      "all_reports": 571,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2011-09",
+      "non_reportable": 243,
+      "personal_injury": 89,
+      "property_damage_only": 237
+    },
+    {
+      "all_reports": 455,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2011-10",
+      "non_reportable": 207,
+      "personal_injury": 79,
+      "property_damage_only": 168
+    },
+    {
+      "all_reports": 1687,
+      "county": "New Castle",
+      "fatality": 3,
+      "month": "2011-10",
+      "non_reportable": 522,
+      "personal_injury": 301,
+      "property_damage_only": 861
+    },
+    {
+      "all_reports": 587,
+      "county": "Sussex",
+      "fatality": 3,
+      "month": "2011-10",
+      "non_reportable": 245,
+      "personal_injury": 108,
+      "property_damage_only": 231
+    },
+    {
+      "all_reports": 498,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2011-11",
+      "non_reportable": 234,
+      "personal_injury": 97,
+      "property_damage_only": 165
+    },
+    {
+      "all_reports": 1725,
+      "county": "New Castle",
+      "fatality": 3,
+      "month": "2011-11",
+      "non_reportable": 521,
+      "personal_injury": 269,
+      "property_damage_only": 932
+    },
+    {
+      "all_reports": 625,
+      "county": "Sussex",
+      "fatality": 1,
+      "month": "2011-11",
+      "non_reportable": 241,
+      "personal_injury": 89,
+      "property_damage_only": 294
+    },
+    {
+      "all_reports": 465,
+      "county": "Kent",
+      "fatality": 0,
+      "month": "2011-12",
+      "non_reportable": 241,
+      "personal_injury": 59,
+      "property_damage_only": 165
+    },
+    {
+      "all_reports": 1731,
+      "county": "New Castle",
+      "fatality": 2,
+      "month": "2011-12",
+      "non_reportable": 568,
+      "personal_injury": 284,
+      "property_damage_only": 877
+    },
+    {
+      "all_reports": 523,
+      "county": "Sussex",
+      "fatality": 4,
+      "month": "2011-12",
+      "non_reportable": 206,
+      "personal_injury": 82,
+      "property_damage_only": 231
+    },
+    {
+      "all_reports": 429,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2012-01",
+      "non_reportable": 208,
+      "personal_injury": 59,
+      "property_damage_only": 161
+    },
+    {
+      "all_reports": 1545,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2012-01",
+      "non_reportable": 493,
+      "personal_injury": 231,
+      "property_damage_only": 817
+    },
+    {
+      "all_reports": 467,
+      "county": "Sussex",
+      "fatality": 0,
+      "month": "2012-01",
+      "non_reportable": 173,
+      "personal_injury": 77,
+      "property_damage_only": 217
+    },
+    {
+      "all_reports": 408,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2012-02",
+      "non_reportable": 194,
+      "personal_injury": 68,
+      "property_damage_only": 145
+    },
+    {
+      "all_reports": 1456,
+      "county": "New Castle",
+      "fatality": 5,
+      "month": "2012-02",
+      "non_reportable": 464,
+      "personal_injury": 237,
+      "property_damage_only": 750
+    },
+    {
+      "all_reports": 437,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2012-02",
+      "non_reportable": 159,
+      "personal_injury": 70,
+      "property_damage_only": 206
+    },
+    {
+      "all_reports": 427,
+      "county": "Kent",
+      "fatality": 0,
+      "month": "2012-03",
+      "non_reportable": 204,
+      "personal_injury": 55,
+      "property_damage_only": 168
+    },
+    {
+      "all_reports": 1512,
+      "county": "New Castle",
+      "fatality": 2,
+      "month": "2012-03",
+      "non_reportable": 478,
+      "personal_injury": 253,
+      "property_damage_only": 779
+    },
+    {
+      "all_reports": 464,
+      "county": "Sussex",
+      "fatality": 0,
+      "month": "2012-03",
+      "non_reportable": 175,
+      "personal_injury": 79,
+      "property_damage_only": 210
+    },
+    {
+      "all_reports": 403,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2012-04",
+      "non_reportable": 184,
+      "personal_injury": 68,
+      "property_damage_only": 149
+    },
+    {
+      "all_reports": 1515,
+      "county": "New Castle",
+      "fatality": 7,
+      "month": "2012-04",
+      "non_reportable": 497,
+      "personal_injury": 231,
+      "property_damage_only": 780
+    },
+    {
+      "all_reports": 460,
+      "county": "Sussex",
+      "fatality": 1,
+      "month": "2012-04",
+      "non_reportable": 208,
+      "personal_injury": 73,
+      "property_damage_only": 178
+    },
+    {
+      "all_reports": 447,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2012-05",
+      "non_reportable": 205,
+      "personal_injury": 71,
+      "property_damage_only": 168
+    },
+    {
+      "all_reports": 1687,
+      "county": "New Castle",
+      "fatality": 0,
+      "month": "2012-05",
+      "non_reportable": 549,
+      "personal_injury": 298,
+      "property_damage_only": 840
+    },
+    {
+      "all_reports": 581,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2012-05",
+      "non_reportable": 255,
+      "personal_injury": 85,
+      "property_damage_only": 239
+    },
+    {
+      "all_reports": 438,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2012-06",
+      "non_reportable": 196,
+      "personal_injury": 80,
+      "property_damage_only": 160
+    },
+    {
+      "all_reports": 1611,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2012-06",
+      "non_reportable": 496,
+      "personal_injury": 308,
+      "property_damage_only": 803
+    },
+    {
+      "all_reports": 716,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2012-06",
+      "non_reportable": 291,
+      "personal_injury": 124,
+      "property_damage_only": 299
+    },
+    {
+      "all_reports": 397,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2012-07",
+      "non_reportable": 196,
+      "personal_injury": 62,
+      "property_damage_only": 136
+    },
+    {
+      "all_reports": 1507,
+      "county": "New Castle",
+      "fatality": 5,
+      "month": "2012-07",
+      "non_reportable": 498,
+      "personal_injury": 247,
+      "property_damage_only": 757
+    },
+    {
+      "all_reports": 725,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2012-07",
+      "non_reportable": 302,
+      "personal_injury": 120,
+      "property_damage_only": 301
+    },
+    {
+      "all_reports": 481,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2012-08",
+      "non_reportable": 213,
+      "personal_injury": 75,
+      "property_damage_only": 192
+    },
+    {
+      "all_reports": 1592,
+      "county": "New Castle",
+      "fatality": 3,
+      "month": "2012-08",
+      "non_reportable": 482,
+      "personal_injury": 301,
+      "property_damage_only": 806
+    },
+    {
+      "all_reports": 706,
+      "county": "Sussex",
+      "fatality": 8,
+      "month": "2012-08",
+      "non_reportable": 308,
+      "personal_injury": 116,
+      "property_damage_only": 274
+    },
+    {
+      "all_reports": 451,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2012-09",
+      "non_reportable": 214,
+      "personal_injury": 95,
+      "property_damage_only": 141
+    },
+    {
+      "all_reports": 1546,
+      "county": "New Castle",
+      "fatality": 2,
+      "month": "2012-09",
+      "non_reportable": 477,
+      "personal_injury": 288,
+      "property_damage_only": 779
+    },
+    {
+      "all_reports": 543,
+      "county": "Sussex",
+      "fatality": 5,
+      "month": "2012-09",
+      "non_reportable": 229,
+      "personal_injury": 93,
+      "property_damage_only": 216
+    },
+    {
+      "all_reports": 490,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2012-10",
+      "non_reportable": 214,
+      "personal_injury": 90,
+      "property_damage_only": 185
+    },
+    {
+      "all_reports": 1753,
+      "county": "New Castle",
+      "fatality": 5,
+      "month": "2012-10",
+      "non_reportable": 546,
+      "personal_injury": 312,
+      "property_damage_only": 890
+    },
+    {
+      "all_reports": 498,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2012-10",
+      "non_reportable": 206,
+      "personal_injury": 71,
+      "property_damage_only": 219
+    },
+    {
+      "all_reports": 446,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2012-11",
+      "non_reportable": 193,
+      "personal_injury": 63,
+      "property_damage_only": 189
+    },
+    {
+      "all_reports": 1785,
+      "county": "New Castle",
+      "fatality": 7,
+      "month": "2012-11",
+      "non_reportable": 579,
+      "personal_injury": 258,
+      "property_damage_only": 941
+    },
+    {
+      "all_reports": 597,
+      "county": "Sussex",
+      "fatality": 3,
+      "month": "2012-11",
+      "non_reportable": 243,
+      "personal_injury": 84,
+      "property_damage_only": 267
+    },
+    {
+      "all_reports": 508,
+      "county": "Kent",
+      "fatality": 4,
+      "month": "2012-12",
+      "non_reportable": 212,
+      "personal_injury": 90,
+      "property_damage_only": 202
+    },
+    {
+      "all_reports": 1717,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2012-12",
+      "non_reportable": 519,
+      "personal_injury": 267,
+      "property_damage_only": 927
+    },
+    {
+      "all_reports": 487,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2012-12",
+      "non_reportable": 192,
+      "personal_injury": 78,
+      "property_damage_only": 215
+    },
+    {
+      "all_reports": 438,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2013-01",
+      "non_reportable": 179,
+      "personal_injury": 77,
+      "property_damage_only": 181
+    },
+    {
+      "all_reports": 1613,
+      "county": "New Castle",
+      "fatality": 5,
+      "month": "2013-01",
+      "non_reportable": 468,
+      "personal_injury": 238,
+      "property_damage_only": 902
+    },
+    {
+      "all_reports": 510,
+      "county": "Sussex",
+      "fatality": 1,
+      "month": "2013-01",
+      "non_reportable": 194,
+      "personal_injury": 79,
+      "property_damage_only": 236
+    },
+    {
+      "all_reports": 442,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2013-02",
+      "non_reportable": 205,
+      "personal_injury": 55,
+      "property_damage_only": 181
+    },
+    {
+      "all_reports": 1467,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2013-02",
+      "non_reportable": 441,
+      "personal_injury": 225,
+      "property_damage_only": 797
+    },
+    {
+      "all_reports": 380,
+      "county": "Sussex",
+      "fatality": 1,
+      "month": "2013-02",
+      "non_reportable": 159,
+      "personal_injury": 58,
+      "property_damage_only": 162
+    },
+    {
+      "all_reports": 469,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2013-03",
+      "non_reportable": 209,
+      "personal_injury": 72,
+      "property_damage_only": 187
+    },
+    {
+      "all_reports": 1575,
+      "county": "New Castle",
+      "fatality": 3,
+      "month": "2013-03",
+      "non_reportable": 485,
+      "personal_injury": 260,
+      "property_damage_only": 827
+    },
+    {
+      "all_reports": 443,
+      "county": "Sussex",
+      "fatality": 0,
+      "month": "2013-03",
+      "non_reportable": 188,
+      "personal_injury": 72,
+      "property_damage_only": 183
+    },
+    {
+      "all_reports": 470,
+      "county": "Kent",
+      "fatality": 0,
+      "month": "2013-04",
+      "non_reportable": 210,
+      "personal_injury": 87,
+      "property_damage_only": 173
+    },
+    {
+      "all_reports": 1608,
+      "county": "New Castle",
+      "fatality": 3,
+      "month": "2013-04",
+      "non_reportable": 514,
+      "personal_injury": 264,
+      "property_damage_only": 827
+    },
+    {
+      "all_reports": 503,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2013-04",
+      "non_reportable": 219,
+      "personal_injury": 67,
+      "property_damage_only": 215
+    },
+    {
+      "all_reports": 492,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2013-05",
+      "non_reportable": 235,
+      "personal_injury": 81,
+      "property_damage_only": 174
+    },
+    {
+      "all_reports": 1748,
+      "county": "New Castle",
+      "fatality": 5,
+      "month": "2013-05",
+      "non_reportable": 548,
+      "personal_injury": 312,
+      "property_damage_only": 883
+    },
+    {
+      "all_reports": 588,
+      "county": "Sussex",
+      "fatality": 3,
+      "month": "2013-05",
+      "non_reportable": 241,
+      "personal_injury": 95,
+      "property_damage_only": 249
+    },
+    {
+      "all_reports": 483,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2013-06",
+      "non_reportable": 219,
+      "personal_injury": 71,
+      "property_damage_only": 191
+    },
+    {
+      "all_reports": 1674,
+      "county": "New Castle",
+      "fatality": 2,
+      "month": "2013-06",
+      "non_reportable": 502,
+      "personal_injury": 311,
+      "property_damage_only": 859
+    },
+    {
+      "all_reports": 725,
+      "county": "Sussex",
+      "fatality": 7,
+      "month": "2013-06",
+      "non_reportable": 302,
+      "personal_injury": 124,
+      "property_damage_only": 292
+    },
+    {
+      "all_reports": 486,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2013-07",
+      "non_reportable": 223,
+      "personal_injury": 88,
+      "property_damage_only": 174
+    },
+    {
+      "all_reports": 1575,
+      "county": "New Castle",
+      "fatality": 2,
+      "month": "2013-07",
+      "non_reportable": 473,
+      "personal_injury": 262,
+      "property_damage_only": 838
+    },
+    {
+      "all_reports": 810,
+      "county": "Sussex",
+      "fatality": 5,
+      "month": "2013-07",
+      "non_reportable": 340,
+      "personal_injury": 126,
+      "property_damage_only": 339
+    },
+    {
+      "all_reports": 420,
+      "county": "Kent",
+      "fatality": 0,
+      "month": "2013-08",
+      "non_reportable": 183,
+      "personal_injury": 81,
+      "property_damage_only": 156
+    },
+    {
+      "all_reports": 1580,
+      "county": "New Castle",
+      "fatality": 2,
+      "month": "2013-08",
+      "non_reportable": 501,
+      "personal_injury": 260,
+      "property_damage_only": 817
+    },
+    {
+      "all_reports": 711,
+      "county": "Sussex",
+      "fatality": 3,
+      "month": "2013-08",
+      "non_reportable": 276,
+      "personal_injury": 103,
+      "property_damage_only": 329
+    },
+    {
+      "all_reports": 473,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2013-09",
+      "non_reportable": 194,
+      "personal_injury": 99,
+      "property_damage_only": 179
+    },
+    {
+      "all_reports": 1490,
+      "county": "New Castle",
+      "fatality": 3,
+      "month": "2013-09",
+      "non_reportable": 467,
+      "personal_injury": 266,
+      "property_damage_only": 754
+    },
+    {
+      "all_reports": 554,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2013-09",
+      "non_reportable": 211,
+      "personal_injury": 106,
+      "property_damage_only": 235
+    },
+    {
+      "all_reports": 501,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2013-10",
+      "non_reportable": 209,
+      "personal_injury": 99,
+      "property_damage_only": 191
+    },
+    {
+      "all_reports": 1841,
+      "county": "New Castle",
+      "fatality": 6,
+      "month": "2013-10",
+      "non_reportable": 518,
+      "personal_injury": 293,
+      "property_damage_only": 1024
+    },
+    {
+      "all_reports": 638,
+      "county": "Sussex",
+      "fatality": 5,
+      "month": "2013-10",
+      "non_reportable": 210,
+      "personal_injury": 96,
+      "property_damage_only": 327
+    },
+    {
+      "all_reports": 504,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2013-11",
+      "non_reportable": 204,
+      "personal_injury": 73,
+      "property_damage_only": 226
+    },
+    {
+      "all_reports": 1822,
+      "county": "New Castle",
+      "fatality": 6,
+      "month": "2013-11",
+      "non_reportable": 471,
+      "personal_injury": 264,
+      "property_damage_only": 1081
+    },
+    {
+      "all_reports": 604,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2013-11",
+      "non_reportable": 224,
+      "personal_injury": 65,
+      "property_damage_only": 313
+    },
+    {
+      "all_reports": 483,
+      "county": "Kent",
+      "fatality": 0,
+      "month": "2013-12",
+      "non_reportable": 214,
+      "personal_injury": 64,
+      "property_damage_only": 205
+    },
+    {
+      "all_reports": 1793,
+      "county": "New Castle",
+      "fatality": 5,
+      "month": "2013-12",
+      "non_reportable": 519,
+      "personal_injury": 275,
+      "property_damage_only": 994
+    },
+    {
+      "all_reports": 537,
+      "county": "Sussex",
+      "fatality": 1,
+      "month": "2013-12",
+      "non_reportable": 200,
+      "personal_injury": 80,
+      "property_damage_only": 256
+    },
+    {
+      "all_reports": 529,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2014-01",
+      "non_reportable": 227,
+      "personal_injury": 74,
+      "property_damage_only": 227
+    },
+    {
+      "all_reports": 1827,
+      "county": "New Castle",
+      "fatality": 2,
+      "month": "2014-01",
+      "non_reportable": 523,
+      "personal_injury": 242,
+      "property_damage_only": 1060
+    },
+    {
+      "all_reports": 507,
+      "county": "Sussex",
+      "fatality": 1,
+      "month": "2014-01",
+      "non_reportable": 215,
+      "personal_injury": 55,
+      "property_damage_only": 236
+    },
+    {
+      "all_reports": 435,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2014-02",
+      "non_reportable": 180,
+      "personal_injury": 67,
+      "property_damage_only": 187
+    },
+    {
+      "all_reports": 1655,
+      "county": "New Castle",
+      "fatality": 2,
+      "month": "2014-02",
+      "non_reportable": 492,
+      "personal_injury": 206,
+      "property_damage_only": 955
+    },
+    {
+      "all_reports": 459,
+      "county": "Sussex",
+      "fatality": 3,
+      "month": "2014-02",
+      "non_reportable": 182,
+      "personal_injury": 52,
+      "property_damage_only": 222
+    },
+    {
+      "all_reports": 486,
+      "county": "Kent",
+      "fatality": 0,
+      "month": "2014-03",
+      "non_reportable": 227,
+      "personal_injury": 77,
+      "property_damage_only": 182
+    },
+    {
+      "all_reports": 1503,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2014-03",
+      "non_reportable": 458,
+      "personal_injury": 227,
+      "property_damage_only": 814
+    },
+    {
+      "all_reports": 552,
+      "county": "Sussex",
+      "fatality": 4,
+      "month": "2014-03",
+      "non_reportable": 194,
+      "personal_injury": 71,
+      "property_damage_only": 283
+    },
+    {
+      "all_reports": 430,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2014-04",
+      "non_reportable": 203,
+      "personal_injury": 60,
+      "property_damage_only": 164
+    },
+    {
+      "all_reports": 1478,
+      "county": "New Castle",
+      "fatality": 6,
+      "month": "2014-04",
+      "non_reportable": 379,
+      "personal_injury": 242,
+      "property_damage_only": 851
+    },
+    {
+      "all_reports": 498,
+      "county": "Sussex",
+      "fatality": 5,
+      "month": "2014-04",
+      "non_reportable": 175,
+      "personal_injury": 81,
+      "property_damage_only": 237
+    },
+    {
+      "all_reports": 432,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2014-05",
+      "non_reportable": 196,
+      "personal_injury": 79,
+      "property_damage_only": 156
+    },
+    {
+      "all_reports": 1613,
+      "county": "New Castle",
+      "fatality": 5,
+      "month": "2014-05",
+      "non_reportable": 406,
+      "personal_injury": 280,
+      "property_damage_only": 922
+    },
+    {
+      "all_reports": 593,
+      "county": "Sussex",
+      "fatality": 7,
+      "month": "2014-05",
+      "non_reportable": 207,
+      "personal_injury": 86,
+      "property_damage_only": 293
+    },
+    {
+      "all_reports": 478,
+      "county": "Kent",
+      "fatality": 4,
+      "month": "2014-06",
+      "non_reportable": 200,
+      "personal_injury": 90,
+      "property_damage_only": 184
+    },
+    {
+      "all_reports": 1717,
+      "county": "New Castle",
+      "fatality": 1,
+      "month": "2014-06",
+      "non_reportable": 437,
+      "personal_injury": 279,
+      "property_damage_only": 1000
+    },
+    {
+      "all_reports": 641,
+      "county": "Sussex",
+      "fatality": 4,
+      "month": "2014-06",
+      "non_reportable": 218,
+      "personal_injury": 122,
+      "property_damage_only": 297
+    },
+    {
+      "all_reports": 405,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2014-07",
+      "non_reportable": 154,
+      "personal_injury": 84,
+      "property_damage_only": 166
+    },
+    {
+      "all_reports": 1563,
+      "county": "New Castle",
+      "fatality": 5,
+      "month": "2014-07",
+      "non_reportable": 397,
+      "personal_injury": 292,
+      "property_damage_only": 869
+    },
+    {
+      "all_reports": 792,
+      "county": "Sussex",
+      "fatality": 3,
+      "month": "2014-07",
+      "non_reportable": 256,
+      "personal_injury": 132,
+      "property_damage_only": 401
+    },
+    {
+      "all_reports": 405,
+      "county": "Kent",
+      "fatality": 0,
+      "month": "2014-08",
+      "non_reportable": 152,
+      "personal_injury": 87,
+      "property_damage_only": 166
+    },
+    {
+      "all_reports": 1567,
+      "county": "New Castle",
+      "fatality": 5,
+      "month": "2014-08",
+      "non_reportable": 370,
+      "personal_injury": 249,
+      "property_damage_only": 943
+    },
+    {
+      "all_reports": 764,
+      "county": "Sussex",
+      "fatality": 3,
+      "month": "2014-08",
+      "non_reportable": 245,
+      "personal_injury": 135,
+      "property_damage_only": 381
+    },
+    {
+      "all_reports": 417,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2014-09",
+      "non_reportable": 160,
+      "personal_injury": 80,
+      "property_damage_only": 176
+    },
+    {
+      "all_reports": 1550,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2014-09",
+      "non_reportable": 363,
+      "personal_injury": 264,
+      "property_damage_only": 919
+    },
+    {
+      "all_reports": 566,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2014-09",
+      "non_reportable": 187,
+      "personal_injury": 104,
+      "property_damage_only": 273
+    },
+    {
+      "all_reports": 520,
+      "county": "Kent",
+      "fatality": 0,
+      "month": "2014-10",
+      "non_reportable": 205,
+      "personal_injury": 93,
+      "property_damage_only": 222
+    },
+    {
+      "all_reports": 1809,
+      "county": "New Castle",
+      "fatality": 6,
+      "month": "2014-10",
+      "non_reportable": 466,
+      "personal_injury": 274,
+      "property_damage_only": 1063
+    },
+    {
+      "all_reports": 669,
+      "county": "Sussex",
+      "fatality": 3,
+      "month": "2014-10",
+      "non_reportable": 219,
+      "personal_injury": 100,
+      "property_damage_only": 347
+    },
+    {
+      "all_reports": 542,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2014-11",
+      "non_reportable": 202,
+      "personal_injury": 78,
+      "property_damage_only": 260
+    },
+    {
+      "all_reports": 1762,
+      "county": "New Castle",
+      "fatality": 2,
+      "month": "2014-11",
+      "non_reportable": 393,
+      "personal_injury": 240,
+      "property_damage_only": 1127
+    },
+    {
+      "all_reports": 655,
+      "county": "Sussex",
+      "fatality": 4,
+      "month": "2014-11",
+      "non_reportable": 172,
+      "personal_injury": 82,
+      "property_damage_only": 397
+    },
+    {
+      "all_reports": 525,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2014-12",
+      "non_reportable": 199,
+      "personal_injury": 71,
+      "property_damage_only": 252
+    },
+    {
+      "all_reports": 1880,
+      "county": "New Castle",
+      "fatality": 5,
+      "month": "2014-12",
+      "non_reportable": 395,
+      "personal_injury": 299,
+      "property_damage_only": 1181
+    },
+    {
+      "all_reports": 515,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2014-12",
+      "non_reportable": 161,
+      "personal_injury": 75,
+      "property_damage_only": 277
+    },
+    {
+      "all_reports": 509,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2015-01",
+      "non_reportable": 173,
+      "personal_injury": 93,
+      "property_damage_only": 240
+    },
+    {
+      "all_reports": 1680,
+      "county": "New Castle",
+      "fatality": 5,
+      "month": "2015-01",
+      "non_reportable": 369,
+      "personal_injury": 245,
+      "property_damage_only": 1061
+    },
+    {
+      "all_reports": 519,
+      "county": "Sussex",
+      "fatality": 1,
+      "month": "2015-01",
+      "non_reportable": 159,
+      "personal_injury": 60,
+      "property_damage_only": 299
+    },
+    {
+      "all_reports": 499,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2015-02",
+      "non_reportable": 178,
+      "personal_injury": 78,
+      "property_damage_only": 241
+    },
+    {
+      "all_reports": 1607,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2015-02",
+      "non_reportable": 366,
+      "personal_injury": 219,
+      "property_damage_only": 1018
+    },
+    {
+      "all_reports": 564,
+      "county": "Sussex",
+      "fatality": 1,
+      "month": "2015-02",
+      "non_reportable": 172,
+      "personal_injury": 72,
+      "property_damage_only": 319
+    },
+    {
+      "all_reports": 477,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2015-03",
+      "non_reportable": 195,
+      "personal_injury": 89,
+      "property_damage_only": 192
+    },
+    {
+      "all_reports": 1679,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2015-03",
+      "non_reportable": 469,
+      "personal_injury": 245,
+      "property_damage_only": 961
+    },
+    {
+      "all_reports": 539,
+      "county": "Sussex",
+      "fatality": 3,
+      "month": "2015-03",
+      "non_reportable": 201,
+      "personal_injury": 53,
+      "property_damage_only": 282
+    },
+    {
+      "all_reports": 445,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2015-04",
+      "non_reportable": 196,
+      "personal_injury": 91,
+      "property_damage_only": 156
+    },
+    {
+      "all_reports": 1580,
+      "county": "New Castle",
+      "fatality": 1,
+      "month": "2015-04",
+      "non_reportable": 457,
+      "personal_injury": 240,
+      "property_damage_only": 882
+    },
+    {
+      "all_reports": 494,
+      "county": "Sussex",
+      "fatality": 0,
+      "month": "2015-04",
+      "non_reportable": 205,
+      "personal_injury": 69,
+      "property_damage_only": 220
+    },
+    {
+      "all_reports": 498,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2015-05",
+      "non_reportable": 208,
+      "personal_injury": 86,
+      "property_damage_only": 202
+    },
+    {
+      "all_reports": 1756,
+      "county": "New Castle",
+      "fatality": 3,
+      "month": "2015-05",
+      "non_reportable": 495,
+      "personal_injury": 298,
+      "property_damage_only": 960
+    },
+    {
+      "all_reports": 693,
+      "county": "Sussex",
+      "fatality": 5,
+      "month": "2015-05",
+      "non_reportable": 272,
+      "personal_injury": 108,
+      "property_damage_only": 308
+    },
+    {
+      "all_reports": 511,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2015-06",
+      "non_reportable": 194,
+      "personal_injury": 107,
+      "property_damage_only": 207
+    },
+    {
+      "all_reports": 1624,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2015-06",
+      "non_reportable": 469,
+      "personal_injury": 270,
+      "property_damage_only": 881
+    },
+    {
+      "all_reports": 694,
+      "county": "Sussex",
+      "fatality": 4,
+      "month": "2015-06",
+      "non_reportable": 246,
+      "personal_injury": 114,
+      "property_damage_only": 330
+    },
+    {
+      "all_reports": 480,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2015-07",
+      "non_reportable": 176,
+      "personal_injury": 88,
+      "property_damage_only": 215
+    },
+    {
+      "all_reports": 1626,
+      "county": "New Castle",
+      "fatality": 10,
+      "month": "2015-07",
+      "non_reportable": 513,
+      "personal_injury": 260,
+      "property_damage_only": 843
+    },
+    {
+      "all_reports": 860,
+      "county": "Sussex",
+      "fatality": 4,
+      "month": "2015-07",
+      "non_reportable": 331,
+      "personal_injury": 113,
+      "property_damage_only": 412
+    },
+    {
+      "all_reports": 492,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2015-08",
+      "non_reportable": 192,
+      "personal_injury": 97,
+      "property_damage_only": 200
+    },
+    {
+      "all_reports": 1736,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2015-08",
+      "non_reportable": 541,
+      "personal_injury": 281,
+      "property_damage_only": 910
+    },
+    {
+      "all_reports": 858,
+      "county": "Sussex",
+      "fatality": 5,
+      "month": "2015-08",
+      "non_reportable": 342,
+      "personal_injury": 125,
+      "property_damage_only": 386
+    },
+    {
+      "all_reports": 513,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2015-09",
+      "non_reportable": 224,
+      "personal_injury": 97,
+      "property_damage_only": 190
+    },
+    {
+      "all_reports": 1690,
+      "county": "New Castle",
+      "fatality": 6,
+      "month": "2015-09",
+      "non_reportable": 468,
+      "personal_injury": 261,
+      "property_damage_only": 955
+    },
+    {
+      "all_reports": 644,
+      "county": "Sussex",
+      "fatality": 6,
+      "month": "2015-09",
+      "non_reportable": 253,
+      "personal_injury": 86,
+      "property_damage_only": 299
+    },
+    {
+      "all_reports": 609,
+      "county": "Kent",
+      "fatality": 4,
+      "month": "2015-10",
+      "non_reportable": 236,
+      "personal_injury": 98,
+      "property_damage_only": 271
+    },
+    {
+      "all_reports": 2026,
+      "county": "New Castle",
+      "fatality": 9,
+      "month": "2015-10",
+      "non_reportable": 551,
+      "personal_injury": 329,
+      "property_damage_only": 1137
+    },
+    {
+      "all_reports": 648,
+      "county": "Sussex",
+      "fatality": 4,
+      "month": "2015-10",
+      "non_reportable": 211,
+      "personal_injury": 92,
+      "property_damage_only": 341
+    },
+    {
+      "all_reports": 558,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2015-11",
+      "non_reportable": 207,
+      "personal_injury": 92,
+      "property_damage_only": 258
+    },
+    {
+      "all_reports": 1927,
+      "county": "New Castle",
+      "fatality": 9,
+      "month": "2015-11",
+      "non_reportable": 489,
+      "personal_injury": 303,
+      "property_damage_only": 1126
+    },
+    {
+      "all_reports": 716,
+      "county": "Sussex",
+      "fatality": 3,
+      "month": "2015-11",
+      "non_reportable": 246,
+      "personal_injury": 91,
+      "property_damage_only": 376
+    },
+    {
+      "all_reports": 585,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2015-12",
+      "non_reportable": 224,
+      "personal_injury": 101,
+      "property_damage_only": 258
+    },
+    {
+      "all_reports": 2016,
+      "county": "New Castle",
+      "fatality": 2,
+      "month": "2015-12",
+      "non_reportable": 517,
+      "personal_injury": 313,
+      "property_damage_only": 1184
+    },
+    {
+      "all_reports": 663,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2015-12",
+      "non_reportable": 187,
+      "personal_injury": 99,
+      "property_damage_only": 375
+    },
+    {
+      "all_reports": 493,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2016-01",
+      "non_reportable": 182,
+      "personal_injury": 73,
+      "property_damage_only": 236
+    },
+    {
+      "all_reports": 1761,
+      "county": "New Castle",
+      "fatality": 2,
+      "month": "2016-01",
+      "non_reportable": 514,
+      "personal_injury": 267,
+      "property_damage_only": 978
+    },
+    {
+      "all_reports": 498,
+      "county": "Sussex",
+      "fatality": 5,
+      "month": "2016-01",
+      "non_reportable": 168,
+      "personal_injury": 57,
+      "property_damage_only": 268
+    },
+    {
+      "all_reports": 473,
+      "county": "Kent",
+      "fatality": 0,
+      "month": "2016-02",
+      "non_reportable": 187,
+      "personal_injury": 89,
+      "property_damage_only": 197
+    },
+    {
+      "all_reports": 1684,
+      "county": "New Castle",
+      "fatality": 3,
+      "month": "2016-02",
+      "non_reportable": 472,
+      "personal_injury": 269,
+      "property_damage_only": 940
+    },
+    {
+      "all_reports": 542,
+      "county": "Sussex",
+      "fatality": 3,
+      "month": "2016-02",
+      "non_reportable": 184,
+      "personal_injury": 49,
+      "property_damage_only": 306
+    },
+    {
+      "all_reports": 481,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2016-03",
+      "non_reportable": 196,
+      "personal_injury": 94,
+      "property_damage_only": 189
+    },
+    {
+      "all_reports": 1793,
+      "county": "New Castle",
+      "fatality": 5,
+      "month": "2016-03",
+      "non_reportable": 527,
+      "personal_injury": 267,
+      "property_damage_only": 994
+    },
+    {
+      "all_reports": 602,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2016-03",
+      "non_reportable": 194,
+      "personal_injury": 92,
+      "property_damage_only": 314
+    },
+    {
+      "all_reports": 483,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2016-04",
+      "non_reportable": 175,
+      "personal_injury": 117,
+      "property_damage_only": 188
+    },
+    {
+      "all_reports": 1701,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2016-04",
+      "non_reportable": 463,
+      "personal_injury": 273,
+      "property_damage_only": 961
+    },
+    {
+      "all_reports": 578,
+      "county": "Sussex",
+      "fatality": 3,
+      "month": "2016-04",
+      "non_reportable": 188,
+      "personal_injury": 84,
+      "property_damage_only": 303
+    },
+    {
+      "all_reports": 548,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2016-05",
+      "non_reportable": 221,
+      "personal_injury": 105,
+      "property_damage_only": 221
+    },
+    {
+      "all_reports": 1842,
+      "county": "New Castle",
+      "fatality": 5,
+      "month": "2016-05",
+      "non_reportable": 485,
+      "personal_injury": 300,
+      "property_damage_only": 1052
+    },
+    {
+      "all_reports": 735,
+      "county": "Sussex",
+      "fatality": 1,
+      "month": "2016-05",
+      "non_reportable": 237,
+      "personal_injury": 113,
+      "property_damage_only": 384
+    },
+    {
+      "all_reports": 517,
+      "county": "Kent",
+      "fatality": 4,
+      "month": "2016-06",
+      "non_reportable": 181,
+      "personal_injury": 108,
+      "property_damage_only": 224
+    },
+    {
+      "all_reports": 1867,
+      "county": "New Castle",
+      "fatality": 1,
+      "month": "2016-06",
+      "non_reportable": 474,
+      "personal_injury": 314,
+      "property_damage_only": 1078
+    },
+    {
+      "all_reports": 775,
+      "county": "Sussex",
+      "fatality": 6,
+      "month": "2016-06",
+      "non_reportable": 254,
+      "personal_injury": 103,
+      "property_damage_only": 412
+    },
+    {
+      "all_reports": 577,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2016-07",
+      "non_reportable": 213,
+      "personal_injury": 106,
+      "property_damage_only": 256
+    },
+    {
+      "all_reports": 1789,
+      "county": "New Castle",
+      "fatality": 6,
+      "month": "2016-07",
+      "non_reportable": 454,
+      "personal_injury": 269,
+      "property_damage_only": 1060
+    },
+    {
+      "all_reports": 939,
+      "county": "Sussex",
+      "fatality": 4,
+      "month": "2016-07",
+      "non_reportable": 288,
+      "personal_injury": 127,
+      "property_damage_only": 520
+    },
+    {
+      "all_reports": 511,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2016-08",
+      "non_reportable": 172,
+      "personal_injury": 98,
+      "property_damage_only": 238
+    },
+    {
+      "all_reports": 2003,
+      "county": "New Castle",
+      "fatality": 6,
+      "month": "2016-08",
+      "non_reportable": 491,
+      "personal_injury": 313,
+      "property_damage_only": 1193
+    },
+    {
+      "all_reports": 858,
+      "county": "Sussex",
+      "fatality": 0,
+      "month": "2016-08",
+      "non_reportable": 294,
+      "personal_injury": 109,
+      "property_damage_only": 455
+    },
+    {
+      "all_reports": 546,
+      "county": "Kent",
+      "fatality": 6,
+      "month": "2016-09",
+      "non_reportable": 208,
+      "personal_injury": 108,
+      "property_damage_only": 224
+    },
+    {
+      "all_reports": 1807,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2016-09",
+      "non_reportable": 434,
+      "personal_injury": 293,
+      "property_damage_only": 1076
+    },
+    {
+      "all_reports": 670,
+      "county": "Sussex",
+      "fatality": 3,
+      "month": "2016-09",
+      "non_reportable": 215,
+      "personal_injury": 90,
+      "property_damage_only": 362
+    },
+    {
+      "all_reports": 556,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2016-10",
+      "non_reportable": 202,
+      "personal_injury": 86,
+      "property_damage_only": 265
+    },
+    {
+      "all_reports": 1973,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2016-10",
+      "non_reportable": 441,
+      "personal_injury": 298,
+      "property_damage_only": 1230
+    },
+    {
+      "all_reports": 722,
+      "county": "Sussex",
+      "fatality": 3,
+      "month": "2016-10",
+      "non_reportable": 207,
+      "personal_injury": 103,
+      "property_damage_only": 409
+    },
+    {
+      "all_reports": 617,
+      "county": "Kent",
+      "fatality": 0,
+      "month": "2016-11",
+      "non_reportable": 186,
+      "personal_injury": 91,
+      "property_damage_only": 340
+    },
+    {
+      "all_reports": 2075,
+      "county": "New Castle",
+      "fatality": 6,
+      "month": "2016-11",
+      "non_reportable": 434,
+      "personal_injury": 345,
+      "property_damage_only": 1290
+    },
+    {
+      "all_reports": 800,
+      "county": "Sussex",
+      "fatality": 1,
+      "month": "2016-11",
+      "non_reportable": 194,
+      "personal_injury": 100,
+      "property_damage_only": 505
+    },
+    {
+      "all_reports": 513,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2016-12",
+      "non_reportable": 158,
+      "personal_injury": 78,
+      "property_damage_only": 274
+    },
+    {
+      "all_reports": 1941,
+      "county": "New Castle",
+      "fatality": 2,
+      "month": "2016-12",
+      "non_reportable": 426,
+      "personal_injury": 276,
+      "property_damage_only": 1237
+    },
+    {
+      "all_reports": 685,
+      "county": "Sussex",
+      "fatality": 1,
+      "month": "2016-12",
+      "non_reportable": 181,
+      "personal_injury": 88,
+      "property_damage_only": 415
+    },
+    {
+      "all_reports": 500,
+      "county": "Kent",
+      "fatality": 0,
+      "month": "2017-01",
+      "non_reportable": 181,
+      "personal_injury": 76,
+      "property_damage_only": 243
+    },
+    {
+      "all_reports": 1806,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2017-01",
+      "non_reportable": 410,
+      "personal_injury": 252,
+      "property_damage_only": 1140
+    },
+    {
+      "all_reports": 568,
+      "county": "Sussex",
+      "fatality": 3,
+      "month": "2017-01",
+      "non_reportable": 146,
+      "personal_injury": 63,
+      "property_damage_only": 356
+    },
+    {
+      "all_reports": 418,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2017-02",
+      "non_reportable": 141,
+      "personal_injury": 74,
+      "property_damage_only": 202
+    },
+    {
+      "all_reports": 1491,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2017-02",
+      "non_reportable": 346,
+      "personal_injury": 216,
+      "property_damage_only": 925
+    },
+    {
+      "all_reports": 475,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2017-02",
+      "non_reportable": 132,
+      "personal_injury": 63,
+      "property_damage_only": 278
+    },
+    {
+      "all_reports": 448,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2017-03",
+      "non_reportable": 159,
+      "personal_injury": 59,
+      "property_damage_only": 229
+    },
+    {
+      "all_reports": 1841,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2017-03",
+      "non_reportable": 394,
+      "personal_injury": 267,
+      "property_damage_only": 1176
+    },
+    {
+      "all_reports": 570,
+      "county": "Sussex",
+      "fatality": 1,
+      "month": "2017-03",
+      "non_reportable": 164,
+      "personal_injury": 76,
+      "property_damage_only": 329
+    },
+    {
+      "all_reports": 519,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2017-04",
+      "non_reportable": 186,
+      "personal_injury": 97,
+      "property_damage_only": 233
+    },
+    {
+      "all_reports": 1855,
+      "county": "New Castle",
+      "fatality": 1,
+      "month": "2017-04",
+      "non_reportable": 392,
+      "personal_injury": 291,
+      "property_damage_only": 1171
+    },
+    {
+      "all_reports": 631,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2017-04",
+      "non_reportable": 191,
+      "personal_injury": 86,
+      "property_damage_only": 352
+    },
+    {
+      "all_reports": 526,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2017-05",
+      "non_reportable": 152,
+      "personal_injury": 91,
+      "property_damage_only": 281
+    },
+    {
+      "all_reports": 2018,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2017-05",
+      "non_reportable": 471,
+      "personal_injury": 314,
+      "property_damage_only": 1229
+    },
+    {
+      "all_reports": 740,
+      "county": "Sussex",
+      "fatality": 0,
+      "month": "2017-05",
+      "non_reportable": 201,
+      "personal_injury": 96,
+      "property_damage_only": 443
+    },
+    {
+      "all_reports": 497,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2017-06",
+      "non_reportable": 141,
+      "personal_injury": 99,
+      "property_damage_only": 255
+    },
+    {
+      "all_reports": 1915,
+      "county": "New Castle",
+      "fatality": 3,
+      "month": "2017-06",
+      "non_reportable": 409,
+      "personal_injury": 303,
+      "property_damage_only": 1200
+    },
+    {
+      "all_reports": 878,
+      "county": "Sussex",
+      "fatality": 4,
+      "month": "2017-06",
+      "non_reportable": 259,
+      "personal_injury": 129,
+      "property_damage_only": 486
+    },
+    {
+      "all_reports": 523,
+      "county": "Kent",
+      "fatality": 4,
+      "month": "2017-07",
+      "non_reportable": 168,
+      "personal_injury": 76,
+      "property_damage_only": 275
+    },
+    {
+      "all_reports": 1767,
+      "county": "New Castle",
+      "fatality": 5,
+      "month": "2017-07",
+      "non_reportable": 384,
+      "personal_injury": 284,
+      "property_damage_only": 1094
+    },
+    {
+      "all_reports": 927,
+      "county": "Sussex",
+      "fatality": 1,
+      "month": "2017-07",
+      "non_reportable": 264,
+      "personal_injury": 130,
+      "property_damage_only": 532
+    },
+    {
+      "all_reports": 528,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2017-08",
+      "non_reportable": 199,
+      "personal_injury": 85,
+      "property_damage_only": 243
+    },
+    {
+      "all_reports": 1839,
+      "county": "New Castle",
+      "fatality": 2,
+      "month": "2017-08",
+      "non_reportable": 387,
+      "personal_injury": 313,
+      "property_damage_only": 1137
+    },
+    {
+      "all_reports": 926,
+      "county": "Sussex",
+      "fatality": 4,
+      "month": "2017-08",
+      "non_reportable": 274,
+      "personal_injury": 121,
+      "property_damage_only": 527
+    },
+    {
+      "all_reports": 484,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2017-09",
+      "non_reportable": 172,
+      "personal_injury": 85,
+      "property_damage_only": 224
+    },
+    {
+      "all_reports": 1757,
+      "county": "New Castle",
+      "fatality": 10,
+      "month": "2017-09",
+      "non_reportable": 363,
+      "personal_injury": 313,
+      "property_damage_only": 1071
+    },
+    {
+      "all_reports": 721,
+      "county": "Sussex",
+      "fatality": 3,
+      "month": "2017-09",
+      "non_reportable": 186,
+      "personal_injury": 107,
+      "property_damage_only": 425
+    },
+    {
+      "all_reports": 556,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2017-10",
+      "non_reportable": 154,
+      "personal_injury": 93,
+      "property_damage_only": 307
+    },
+    {
+      "all_reports": 2027,
+      "county": "New Castle",
+      "fatality": 3,
+      "month": "2017-10",
+      "non_reportable": 400,
+      "personal_injury": 314,
+      "property_damage_only": 1310
+    },
+    {
+      "all_reports": 732,
+      "county": "Sussex",
+      "fatality": 5,
+      "month": "2017-10",
+      "non_reportable": 179,
+      "personal_injury": 103,
+      "property_damage_only": 445
+    },
+    {
+      "all_reports": 528,
+      "county": "Kent",
+      "fatality": 0,
+      "month": "2017-11",
+      "non_reportable": 151,
+      "personal_injury": 96,
+      "property_damage_only": 281
+    },
+    {
+      "all_reports": 1949,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2017-11",
+      "non_reportable": 375,
+      "personal_injury": 308,
+      "property_damage_only": 1262
+    },
+    {
+      "all_reports": 782,
+      "county": "Sussex",
+      "fatality": 6,
+      "month": "2017-11",
+      "non_reportable": 209,
+      "personal_injury": 90,
+      "property_damage_only": 477
+    },
+    {
+      "all_reports": 543,
+      "county": "Kent",
+      "fatality": 0,
+      "month": "2017-12",
+      "non_reportable": 134,
+      "personal_injury": 97,
+      "property_damage_only": 312
+    },
+    {
+      "all_reports": 2147,
+      "county": "New Castle",
+      "fatality": 5,
+      "month": "2017-12",
+      "non_reportable": 428,
+      "personal_injury": 275,
+      "property_damage_only": 1439
+    },
+    {
+      "all_reports": 713,
+      "county": "Sussex",
+      "fatality": 4,
+      "month": "2017-12",
+      "non_reportable": 176,
+      "personal_injury": 111,
+      "property_damage_only": 422
+    },
+    {
+      "all_reports": 490,
+      "county": "Kent",
+      "fatality": 0,
+      "month": "2018-01",
+      "non_reportable": 159,
+      "personal_injury": 83,
+      "property_damage_only": 248
+    },
+    {
+      "all_reports": 1779,
+      "county": "New Castle",
+      "fatality": 5,
+      "month": "2018-01",
+      "non_reportable": 383,
+      "personal_injury": 228,
+      "property_damage_only": 1163
+    },
+    {
+      "all_reports": 618,
+      "county": "Sussex",
+      "fatality": 1,
+      "month": "2018-01",
+      "non_reportable": 156,
+      "personal_injury": 74,
+      "property_damage_only": 387
+    },
+    {
+      "all_reports": 522,
+      "county": "Kent",
+      "fatality": 0,
+      "month": "2018-02",
+      "non_reportable": 140,
+      "personal_injury": 81,
+      "property_damage_only": 301
+    },
+    {
+      "all_reports": 1613,
+      "county": "New Castle",
+      "fatality": 0,
+      "month": "2018-02",
+      "non_reportable": 307,
+      "personal_injury": 235,
+      "property_damage_only": 1071
+    },
+    {
+      "all_reports": 503,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2018-02",
+      "non_reportable": 132,
+      "personal_injury": 66,
+      "property_damage_only": 303
+    },
+    {
+      "all_reports": 511,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2018-03",
+      "non_reportable": 152,
+      "personal_injury": 88,
+      "property_damage_only": 269
+    },
+    {
+      "all_reports": 1802,
+      "county": "New Castle",
+      "fatality": 6,
+      "month": "2018-03",
+      "non_reportable": 392,
+      "personal_injury": 244,
+      "property_damage_only": 1160
+    },
+    {
+      "all_reports": 605,
+      "county": "Sussex",
+      "fatality": 0,
+      "month": "2018-03",
+      "non_reportable": 165,
+      "personal_injury": 58,
+      "property_damage_only": 382
+    },
+    {
+      "all_reports": 436,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2018-04",
+      "non_reportable": 129,
+      "personal_injury": 80,
+      "property_damage_only": 224
+    },
+    {
+      "all_reports": 1643,
+      "county": "New Castle",
+      "fatality": 2,
+      "month": "2018-04",
+      "non_reportable": 362,
+      "personal_injury": 248,
+      "property_damage_only": 1031
+    },
+    {
+      "all_reports": 650,
+      "county": "Sussex",
+      "fatality": 1,
+      "month": "2018-04",
+      "non_reportable": 174,
+      "personal_injury": 91,
+      "property_damage_only": 384
+    },
+    {
+      "all_reports": 530,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2018-05",
+      "non_reportable": 172,
+      "personal_injury": 85,
+      "property_damage_only": 272
+    },
+    {
+      "all_reports": 2019,
+      "county": "New Castle",
+      "fatality": 5,
+      "month": "2018-05",
+      "non_reportable": 435,
+      "personal_injury": 288,
+      "property_damage_only": 1291
+    },
+    {
+      "all_reports": 755,
+      "county": "Sussex",
+      "fatality": 6,
+      "month": "2018-05",
+      "non_reportable": 188,
+      "personal_injury": 94,
+      "property_damage_only": 467
+    },
+    {
+      "all_reports": 489,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2018-06",
+      "non_reportable": 154,
+      "personal_injury": 88,
+      "property_damage_only": 246
+    },
+    {
+      "all_reports": 1881,
+      "county": "New Castle",
+      "fatality": 0,
+      "month": "2018-06",
+      "non_reportable": 397,
+      "personal_injury": 302,
+      "property_damage_only": 1182
+    },
+    {
+      "all_reports": 845,
+      "county": "Sussex",
+      "fatality": 3,
+      "month": "2018-06",
+      "non_reportable": 227,
+      "personal_injury": 107,
+      "property_damage_only": 508
+    },
+    {
+      "all_reports": 496,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2018-07",
+      "non_reportable": 179,
+      "personal_injury": 83,
+      "property_damage_only": 231
+    },
+    {
+      "all_reports": 1802,
+      "county": "New Castle",
+      "fatality": 6,
+      "month": "2018-07",
+      "non_reportable": 398,
+      "personal_injury": 293,
+      "property_damage_only": 1105
+    },
+    {
+      "all_reports": 897,
+      "county": "Sussex",
+      "fatality": 4,
+      "month": "2018-07",
+      "non_reportable": 191,
+      "personal_injury": 131,
+      "property_damage_only": 571
+    },
+    {
+      "all_reports": 529,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2018-08",
+      "non_reportable": 159,
+      "personal_injury": 90,
+      "property_damage_only": 279
+    },
+    {
+      "all_reports": 1834,
+      "county": "New Castle",
+      "fatality": 6,
+      "month": "2018-08",
+      "non_reportable": 365,
+      "personal_injury": 272,
+      "property_damage_only": 1191
+    },
+    {
+      "all_reports": 885,
+      "county": "Sussex",
+      "fatality": 1,
+      "month": "2018-08",
+      "non_reportable": 223,
+      "personal_injury": 130,
+      "property_damage_only": 531
+    },
+    {
+      "all_reports": 510,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2018-09",
+      "non_reportable": 179,
+      "personal_injury": 82,
+      "property_damage_only": 246
+    },
+    {
+      "all_reports": 1818,
+      "county": "New Castle",
+      "fatality": 1,
+      "month": "2018-09",
+      "non_reportable": 349,
+      "personal_injury": 277,
+      "property_damage_only": 1191
+    },
+    {
+      "all_reports": 678,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2018-09",
+      "non_reportable": 167,
+      "personal_injury": 104,
+      "property_damage_only": 405
+    },
+    {
+      "all_reports": 604,
+      "county": "Kent",
+      "fatality": 4,
+      "month": "2018-10",
+      "non_reportable": 182,
+      "personal_injury": 114,
+      "property_damage_only": 304
+    },
+    {
+      "all_reports": 2067,
+      "county": "New Castle",
+      "fatality": 3,
+      "month": "2018-10",
+      "non_reportable": 410,
+      "personal_injury": 312,
+      "property_damage_only": 1342
+    },
+    {
+      "all_reports": 756,
+      "county": "Sussex",
+      "fatality": 1,
+      "month": "2018-10",
+      "non_reportable": 172,
+      "personal_injury": 99,
+      "property_damage_only": 484
+    },
+    {
+      "all_reports": 613,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2018-11",
+      "non_reportable": 165,
+      "personal_injury": 104,
+      "property_damage_only": 341
+    },
+    {
+      "all_reports": 2103,
+      "county": "New Castle",
+      "fatality": 3,
+      "month": "2018-11",
+      "non_reportable": 413,
+      "personal_injury": 312,
+      "property_damage_only": 1374
+    },
+    {
+      "all_reports": 852,
+      "county": "Sussex",
+      "fatality": 3,
+      "month": "2018-11",
+      "non_reportable": 170,
+      "personal_injury": 106,
+      "property_damage_only": 573
+    },
+    {
+      "all_reports": 544,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2018-12",
+      "non_reportable": 163,
+      "personal_injury": 75,
+      "property_damage_only": 304
+    },
+    {
+      "all_reports": 2064,
+      "county": "New Castle",
+      "fatality": 7,
+      "month": "2018-12",
+      "non_reportable": 368,
+      "personal_injury": 293,
+      "property_damage_only": 1396
+    },
+    {
+      "all_reports": 753,
+      "county": "Sussex",
+      "fatality": 3,
+      "month": "2018-12",
+      "non_reportable": 163,
+      "personal_injury": 99,
+      "property_damage_only": 488
+    },
+    {
+      "all_reports": 478,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2019-01",
+      "non_reportable": 139,
+      "personal_injury": 67,
+      "property_damage_only": 271
+    },
+    {
+      "all_reports": 1685,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2019-01",
+      "non_reportable": 281,
+      "personal_injury": 203,
+      "property_damage_only": 1196
+    },
+    {
+      "all_reports": 612,
+      "county": "Sussex",
+      "fatality": 0,
+      "month": "2019-01",
+      "non_reportable": 127,
+      "personal_injury": 79,
+      "property_damage_only": 406
+    },
+    {
+      "all_reports": 475,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2019-02",
+      "non_reportable": 167,
+      "personal_injury": 60,
+      "property_damage_only": 247
+    },
+    {
+      "all_reports": 1655,
+      "county": "New Castle",
+      "fatality": 3,
+      "month": "2019-02",
+      "non_reportable": 316,
+      "personal_injury": 247,
+      "property_damage_only": 1089
+    },
+    {
+      "all_reports": 600,
+      "county": "Sussex",
+      "fatality": 1,
+      "month": "2019-02",
+      "non_reportable": 148,
+      "personal_injury": 71,
+      "property_damage_only": 380
+    },
+    {
+      "all_reports": 508,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2019-03",
+      "non_reportable": 144,
+      "personal_injury": 68,
+      "property_damage_only": 293
+    },
+    {
+      "all_reports": 1761,
+      "county": "New Castle",
+      "fatality": 2,
+      "month": "2019-03",
+      "non_reportable": 368,
+      "personal_injury": 238,
+      "property_damage_only": 1150
+    },
+    {
+      "all_reports": 627,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2019-03",
+      "non_reportable": 138,
+      "personal_injury": 85,
+      "property_damage_only": 402
+    },
+    {
+      "all_reports": 513,
+      "county": "Kent",
+      "fatality": 0,
+      "month": "2019-04",
+      "non_reportable": 183,
+      "personal_injury": 84,
+      "property_damage_only": 245
+    },
+    {
+      "all_reports": 1725,
+      "county": "New Castle",
+      "fatality": 3,
+      "month": "2019-04",
+      "non_reportable": 354,
+      "personal_injury": 306,
+      "property_damage_only": 1062
+    },
+    {
+      "all_reports": 641,
+      "county": "Sussex",
+      "fatality": 1,
+      "month": "2019-04",
+      "non_reportable": 159,
+      "personal_injury": 80,
+      "property_damage_only": 401
+    },
+    {
+      "all_reports": 546,
+      "county": "Kent",
+      "fatality": 0,
+      "month": "2019-05",
+      "non_reportable": 151,
+      "personal_injury": 93,
+      "property_damage_only": 302
+    },
+    {
+      "all_reports": 1970,
+      "county": "New Castle",
+      "fatality": 8,
+      "month": "2019-05",
+      "non_reportable": 413,
+      "personal_injury": 335,
+      "property_damage_only": 1214
+    },
+    {
+      "all_reports": 824,
+      "county": "Sussex",
+      "fatality": 5,
+      "month": "2019-05",
+      "non_reportable": 196,
+      "personal_injury": 112,
+      "property_damage_only": 511
+    },
+    {
+      "all_reports": 520,
+      "county": "Kent",
+      "fatality": 4,
+      "month": "2019-06",
+      "non_reportable": 169,
+      "personal_injury": 76,
+      "property_damage_only": 270
+    },
+    {
+      "all_reports": 1836,
+      "county": "New Castle",
+      "fatality": 3,
+      "month": "2019-06",
+      "non_reportable": 357,
+      "personal_injury": 303,
+      "property_damage_only": 1173
+    },
+    {
+      "all_reports": 830,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2019-06",
+      "non_reportable": 200,
+      "personal_injury": 149,
+      "property_damage_only": 479
+    },
+    {
+      "all_reports": 532,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2019-07",
+      "non_reportable": 159,
+      "personal_injury": 101,
+      "property_damage_only": 270
+    },
+    {
+      "all_reports": 1806,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2019-07",
+      "non_reportable": 390,
+      "personal_injury": 290,
+      "property_damage_only": 1122
+    },
+    {
+      "all_reports": 912,
+      "county": "Sussex",
+      "fatality": 5,
+      "month": "2019-07",
+      "non_reportable": 224,
+      "personal_injury": 129,
+      "property_damage_only": 554
+    },
+    {
+      "all_reports": 506,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2019-08",
+      "non_reportable": 147,
+      "personal_injury": 80,
+      "property_damage_only": 278
+    },
+    {
+      "all_reports": 1788,
+      "county": "New Castle",
+      "fatality": 3,
+      "month": "2019-08",
+      "non_reportable": 370,
+      "personal_injury": 316,
+      "property_damage_only": 1099
+    },
+    {
+      "all_reports": 878,
+      "county": "Sussex",
+      "fatality": 7,
+      "month": "2019-08",
+      "non_reportable": 226,
+      "personal_injury": 159,
+      "property_damage_only": 486
+    },
+    {
+      "all_reports": 520,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2019-09",
+      "non_reportable": 142,
+      "personal_injury": 106,
+      "property_damage_only": 270
+    },
+    {
+      "all_reports": 1771,
+      "county": "New Castle",
+      "fatality": 6,
+      "month": "2019-09",
+      "non_reportable": 369,
+      "personal_injury": 284,
+      "property_damage_only": 1112
+    },
+    {
+      "all_reports": 679,
+      "county": "Sussex",
+      "fatality": 7,
+      "month": "2019-09",
+      "non_reportable": 186,
+      "personal_injury": 116,
+      "property_damage_only": 370
+    },
+    {
+      "all_reports": 626,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2019-10",
+      "non_reportable": 153,
+      "personal_injury": 101,
+      "property_damage_only": 370
+    },
+    {
+      "all_reports": 2019,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2019-10",
+      "non_reportable": 384,
+      "personal_injury": 340,
+      "property_damage_only": 1291
+    },
+    {
+      "all_reports": 797,
+      "county": "Sussex",
+      "fatality": 7,
+      "month": "2019-10",
+      "non_reportable": 177,
+      "personal_injury": 114,
+      "property_damage_only": 499
+    },
+    {
+      "all_reports": 599,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2019-11",
+      "non_reportable": 163,
+      "personal_injury": 86,
+      "property_damage_only": 347
+    },
+    {
+      "all_reports": 1924,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2019-11",
+      "non_reportable": 347,
+      "personal_injury": 282,
+      "property_damage_only": 1291
+    },
+    {
+      "all_reports": 861,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2019-11",
+      "non_reportable": 168,
+      "personal_injury": 88,
+      "property_damage_only": 603
+    },
+    {
+      "all_reports": 581,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2019-12",
+      "non_reportable": 165,
+      "personal_injury": 92,
+      "property_damage_only": 322
+    },
+    {
+      "all_reports": 2106,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2019-12",
+      "non_reportable": 377,
+      "personal_injury": 320,
+      "property_damage_only": 1405
+    },
+    {
+      "all_reports": 730,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2019-12",
+      "non_reportable": 161,
+      "personal_injury": 110,
+      "property_damage_only": 457
+    },
+    {
+      "all_reports": 503,
+      "county": "Kent",
+      "fatality": 0,
+      "month": "2020-01",
+      "non_reportable": 157,
+      "personal_injury": 67,
+      "property_damage_only": 279
+    },
+    {
+      "all_reports": 1675,
+      "county": "New Castle",
+      "fatality": 6,
+      "month": "2020-01",
+      "non_reportable": 313,
+      "personal_injury": 270,
+      "property_damage_only": 1086
+    },
+    {
+      "all_reports": 584,
+      "county": "Sussex",
+      "fatality": 4,
+      "month": "2020-01",
+      "non_reportable": 123,
+      "personal_injury": 110,
+      "property_damage_only": 347
+    },
+    {
+      "all_reports": 491,
+      "county": "Kent",
+      "fatality": 0,
+      "month": "2020-02",
+      "non_reportable": 140,
+      "personal_injury": 76,
+      "property_damage_only": 275
+    },
+    {
+      "all_reports": 1679,
+      "county": "New Castle",
+      "fatality": 1,
+      "month": "2020-02",
+      "non_reportable": 295,
+      "personal_injury": 283,
+      "property_damage_only": 1100
+    },
+    {
+      "all_reports": 566,
+      "county": "Sussex",
+      "fatality": 7,
+      "month": "2020-02",
+      "non_reportable": 138,
+      "personal_injury": 73,
+      "property_damage_only": 348
+    },
+    {
+      "all_reports": 390,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2020-03",
+      "non_reportable": 108,
+      "personal_injury": 58,
+      "property_damage_only": 221
+    },
+    {
+      "all_reports": 1323,
+      "county": "New Castle",
+      "fatality": 2,
+      "month": "2020-03",
+      "non_reportable": 238,
+      "personal_injury": 208,
+      "property_damage_only": 875
+    },
+    {
+      "all_reports": 566,
+      "county": "Sussex",
+      "fatality": 0,
+      "month": "2020-03",
+      "non_reportable": 127,
+      "personal_injury": 80,
+      "property_damage_only": 359
+    },
+    {
+      "all_reports": 272,
+      "county": "Kent",
+      "fatality": 0,
+      "month": "2020-04",
+      "non_reportable": 75,
+      "personal_injury": 39,
+      "property_damage_only": 158
+    },
+    {
+      "all_reports": 919,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2020-04",
+      "non_reportable": 202,
+      "personal_injury": 134,
+      "property_damage_only": 579
+    },
+    {
+      "all_reports": 312,
+      "county": "Sussex",
+      "fatality": 0,
+      "month": "2020-04",
+      "non_reportable": 85,
+      "personal_injury": 48,
+      "property_damage_only": 179
+    },
+    {
+      "all_reports": 371,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2020-05",
+      "non_reportable": 94,
+      "personal_injury": 55,
+      "property_damage_only": 221
+    },
+    {
+      "all_reports": 1102,
+      "county": "New Castle",
+      "fatality": 6,
+      "month": "2020-05",
+      "non_reportable": 250,
+      "personal_injury": 170,
+      "property_damage_only": 676
+    },
+    {
+      "all_reports": 517,
+      "county": "Sussex",
+      "fatality": 1,
+      "month": "2020-05",
+      "non_reportable": 132,
+      "personal_injury": 64,
+      "property_damage_only": 320
+    },
+    {
+      "all_reports": 432,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2020-06",
+      "non_reportable": 121,
+      "personal_injury": 84,
+      "property_damage_only": 225
+    },
+    {
+      "all_reports": 1482,
+      "county": "New Castle",
+      "fatality": 5,
+      "month": "2020-06",
+      "non_reportable": 340,
+      "personal_injury": 271,
+      "property_damage_only": 866
+    },
+    {
+      "all_reports": 740,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2020-06",
+      "non_reportable": 205,
+      "personal_injury": 124,
+      "property_damage_only": 409
+    },
+    {
+      "all_reports": 476,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2020-07",
+      "non_reportable": 131,
+      "personal_injury": 89,
+      "property_damage_only": 254
+    },
+    {
+      "all_reports": 1625,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2020-07",
+      "non_reportable": 418,
+      "personal_injury": 256,
+      "property_damage_only": 947
+    },
+    {
+      "all_reports": 821,
+      "county": "Sussex",
+      "fatality": 4,
+      "month": "2020-07",
+      "non_reportable": 225,
+      "personal_injury": 154,
+      "property_damage_only": 438
+    },
+    {
+      "all_reports": 468,
+      "county": "Kent",
+      "fatality": 4,
+      "month": "2020-08",
+      "non_reportable": 131,
+      "personal_injury": 91,
+      "property_damage_only": 242
+    },
+    {
+      "all_reports": 1768,
+      "county": "New Castle",
+      "fatality": 3,
+      "month": "2020-08",
+      "non_reportable": 412,
+      "personal_injury": 283,
+      "property_damage_only": 1070
+    },
+    {
+      "all_reports": 814,
+      "county": "Sussex",
+      "fatality": 3,
+      "month": "2020-08",
+      "non_reportable": 215,
+      "personal_injury": 124,
+      "property_damage_only": 472
+    },
+    {
+      "all_reports": 496,
+      "county": "Kent",
+      "fatality": 4,
+      "month": "2020-09",
+      "non_reportable": 151,
+      "personal_injury": 77,
+      "property_damage_only": 264
+    },
+    {
+      "all_reports": 1614,
+      "county": "New Castle",
+      "fatality": 11,
+      "month": "2020-09",
+      "non_reportable": 376,
+      "personal_injury": 279,
+      "property_damage_only": 948
+    },
+    {
+      "all_reports": 722,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2020-09",
+      "non_reportable": 192,
+      "personal_injury": 104,
+      "property_damage_only": 424
+    },
+    {
+      "all_reports": 615,
+      "county": "Kent",
+      "fatality": 0,
+      "month": "2020-10",
+      "non_reportable": 191,
+      "personal_injury": 95,
+      "property_damage_only": 329
+    },
+    {
+      "all_reports": 1760,
+      "county": "New Castle",
+      "fatality": 5,
+      "month": "2020-10",
+      "non_reportable": 361,
+      "personal_injury": 310,
+      "property_damage_only": 1084
+    },
+    {
+      "all_reports": 786,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2020-10",
+      "non_reportable": 154,
+      "personal_injury": 110,
+      "property_damage_only": 520
+    },
+    {
+      "all_reports": 517,
+      "county": "Kent",
+      "fatality": 0,
+      "month": "2020-11",
+      "non_reportable": 176,
+      "personal_injury": 74,
+      "property_damage_only": 267
+    },
+    {
+      "all_reports": 1635,
+      "county": "New Castle",
+      "fatality": 3,
+      "month": "2020-11",
+      "non_reportable": 336,
+      "personal_injury": 263,
+      "property_damage_only": 1033
+    },
+    {
+      "all_reports": 798,
+      "county": "Sussex",
+      "fatality": 4,
+      "month": "2020-11",
+      "non_reportable": 188,
+      "personal_injury": 94,
+      "property_damage_only": 512
+    },
+    {
+      "all_reports": 544,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2020-12",
+      "non_reportable": 156,
+      "personal_injury": 88,
+      "property_damage_only": 299
+    },
+    {
+      "all_reports": 1602,
+      "county": "New Castle",
+      "fatality": 5,
+      "month": "2020-12",
+      "non_reportable": 365,
+      "personal_injury": 204,
+      "property_damage_only": 1028
+    },
+    {
+      "all_reports": 680,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2020-12",
+      "non_reportable": 171,
+      "personal_injury": 77,
+      "property_damage_only": 430
+    },
+    {
+      "all_reports": 467,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2021-01",
+      "non_reportable": 138,
+      "personal_injury": 65,
+      "property_damage_only": 261
+    },
+    {
+      "all_reports": 1513,
+      "county": "New Castle",
+      "fatality": 3,
+      "month": "2021-01",
+      "non_reportable": 339,
+      "personal_injury": 224,
+      "property_damage_only": 947
+    },
+    {
+      "all_reports": 613,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2021-01",
+      "non_reportable": 156,
+      "personal_injury": 89,
+      "property_damage_only": 366
+    },
+    {
+      "all_reports": 507,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2021-02",
+      "non_reportable": 169,
+      "personal_injury": 59,
+      "property_damage_only": 276
+    },
+    {
+      "all_reports": 1422,
+      "county": "New Castle",
+      "fatality": 2,
+      "month": "2021-02",
+      "non_reportable": 319,
+      "personal_injury": 168,
+      "property_damage_only": 933
+    },
+    {
+      "all_reports": 581,
+      "county": "Sussex",
+      "fatality": 1,
+      "month": "2021-02",
+      "non_reportable": 139,
+      "personal_injury": 79,
+      "property_damage_only": 362
+    },
+    {
+      "all_reports": 494,
+      "county": "Kent",
+      "fatality": 0,
+      "month": "2021-03",
+      "non_reportable": 189,
+      "personal_injury": 76,
+      "property_damage_only": 229
+    },
+    {
+      "all_reports": 1694,
+      "county": "New Castle",
+      "fatality": 3,
+      "month": "2021-03",
+      "non_reportable": 392,
+      "personal_injury": 263,
+      "property_damage_only": 1036
+    },
+    {
+      "all_reports": 595,
+      "county": "Sussex",
+      "fatality": 1,
+      "month": "2021-03",
+      "non_reportable": 157,
+      "personal_injury": 77,
+      "property_damage_only": 360
+    },
+    {
+      "all_reports": 524,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2021-04",
+      "non_reportable": 166,
+      "personal_injury": 85,
+      "property_damage_only": 272
+    },
+    {
+      "all_reports": 1677,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2021-04",
+      "non_reportable": 391,
+      "personal_injury": 270,
+      "property_damage_only": 1012
+    },
+    {
+      "all_reports": 712,
+      "county": "Sussex",
+      "fatality": 3,
+      "month": "2021-04",
+      "non_reportable": 186,
+      "personal_injury": 101,
+      "property_damage_only": 422
+    },
+    {
+      "all_reports": 577,
+      "county": "Kent",
+      "fatality": 5,
+      "month": "2021-05",
+      "non_reportable": 183,
+      "personal_injury": 94,
+      "property_damage_only": 295
+    },
+    {
+      "all_reports": 1886,
+      "county": "New Castle",
+      "fatality": 7,
+      "month": "2021-05",
+      "non_reportable": 395,
+      "personal_injury": 298,
+      "property_damage_only": 1186
+    },
+    {
+      "all_reports": 856,
+      "county": "Sussex",
+      "fatality": 4,
+      "month": "2021-05",
+      "non_reportable": 230,
+      "personal_injury": 112,
+      "property_damage_only": 510
+    },
+    {
+      "all_reports": 548,
+      "county": "Kent",
+      "fatality": 5,
+      "month": "2021-06",
+      "non_reportable": 176,
+      "personal_injury": 96,
+      "property_damage_only": 271
+    },
+    {
+      "all_reports": 1898,
+      "county": "New Castle",
+      "fatality": 3,
+      "month": "2021-06",
+      "non_reportable": 412,
+      "personal_injury": 301,
+      "property_damage_only": 1182
+    },
+    {
+      "all_reports": 942,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2021-06",
+      "non_reportable": 242,
+      "personal_injury": 128,
+      "property_damage_only": 570
+    },
+    {
+      "all_reports": 588,
+      "county": "Kent",
+      "fatality": 5,
+      "month": "2021-07",
+      "non_reportable": 199,
+      "personal_injury": 86,
+      "property_damage_only": 298
+    },
+    {
+      "all_reports": 1855,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2021-07",
+      "non_reportable": 375,
+      "personal_injury": 306,
+      "property_damage_only": 1170
+    },
+    {
+      "all_reports": 1007,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2021-07",
+      "non_reportable": 278,
+      "personal_injury": 155,
+      "property_damage_only": 572
+    },
+    {
+      "all_reports": 541,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2021-08",
+      "non_reportable": 154,
+      "personal_injury": 82,
+      "property_damage_only": 303
+    },
+    {
+      "all_reports": 1809,
+      "county": "New Castle",
+      "fatality": 6,
+      "month": "2021-08",
+      "non_reportable": 408,
+      "personal_injury": 291,
+      "property_damage_only": 1104
+    },
+    {
+      "all_reports": 916,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2021-08",
+      "non_reportable": 247,
+      "personal_injury": 137,
+      "property_damage_only": 530
+    },
+    {
+      "all_reports": 576,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2021-09",
+      "non_reportable": 179,
+      "personal_injury": 90,
+      "property_damage_only": 306
+    },
+    {
+      "all_reports": 1838,
+      "county": "New Castle",
+      "fatality": 7,
+      "month": "2021-09",
+      "non_reportable": 438,
+      "personal_injury": 256,
+      "property_damage_only": 1137
+    },
+    {
+      "all_reports": 802,
+      "county": "Sussex",
+      "fatality": 3,
+      "month": "2021-09",
+      "non_reportable": 218,
+      "personal_injury": 113,
+      "property_damage_only": 468
+    },
+    {
+      "all_reports": 597,
+      "county": "Kent",
+      "fatality": 5,
+      "month": "2021-10",
+      "non_reportable": 165,
+      "personal_injury": 107,
+      "property_damage_only": 320
+    },
+    {
+      "all_reports": 2003,
+      "county": "New Castle",
+      "fatality": 12,
+      "month": "2021-10",
+      "non_reportable": 464,
+      "personal_injury": 320,
+      "property_damage_only": 1207
+    },
+    {
+      "all_reports": 868,
+      "county": "Sussex",
+      "fatality": 4,
+      "month": "2021-10",
+      "non_reportable": 215,
+      "personal_injury": 114,
+      "property_damage_only": 535
+    },
+    {
+      "all_reports": 664,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2021-11",
+      "non_reportable": 216,
+      "personal_injury": 85,
+      "property_damage_only": 360
+    },
+    {
+      "all_reports": 1996,
+      "county": "New Castle",
+      "fatality": 5,
+      "month": "2021-11",
+      "non_reportable": 436,
+      "personal_injury": 271,
+      "property_damage_only": 1284
+    },
+    {
+      "all_reports": 925,
+      "county": "Sussex",
+      "fatality": 1,
+      "month": "2021-11",
+      "non_reportable": 201,
+      "personal_injury": 103,
+      "property_damage_only": 620
+    },
+    {
+      "all_reports": 612,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2021-12",
+      "non_reportable": 180,
+      "personal_injury": 83,
+      "property_damage_only": 347
+    },
+    {
+      "all_reports": 1899,
+      "county": "New Castle",
+      "fatality": 6,
+      "month": "2021-12",
+      "non_reportable": 374,
+      "personal_injury": 295,
+      "property_damage_only": 1224
+    },
+    {
+      "all_reports": 764,
+      "county": "Sussex",
+      "fatality": 4,
+      "month": "2021-12",
+      "non_reportable": 167,
+      "personal_injury": 106,
+      "property_damage_only": 487
+    },
+    {
+      "all_reports": 514,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2022-01",
+      "non_reportable": 144,
+      "personal_injury": 69,
+      "property_damage_only": 299
+    },
+    {
+      "all_reports": 1573,
+      "county": "New Castle",
+      "fatality": 3,
+      "month": "2022-01",
+      "non_reportable": 368,
+      "personal_injury": 197,
+      "property_damage_only": 1005
+    },
+    {
+      "all_reports": 619,
+      "county": "Sussex",
+      "fatality": 4,
+      "month": "2022-01",
+      "non_reportable": 149,
+      "personal_injury": 73,
+      "property_damage_only": 393
+    },
+    {
+      "all_reports": 433,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2022-02",
+      "non_reportable": 152,
+      "personal_injury": 71,
+      "property_damage_only": 208
+    },
+    {
+      "all_reports": 1622,
+      "county": "New Castle",
+      "fatality": 8,
+      "month": "2022-02",
+      "non_reportable": 371,
+      "personal_injury": 208,
+      "property_damage_only": 1035
+    },
+    {
+      "all_reports": 589,
+      "county": "Sussex",
+      "fatality": 4,
+      "month": "2022-02",
+      "non_reportable": 150,
+      "personal_injury": 86,
+      "property_damage_only": 349
+    },
+    {
+      "all_reports": 493,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2022-03",
+      "non_reportable": 170,
+      "personal_injury": 63,
+      "property_damage_only": 259
+    },
+    {
+      "all_reports": 1711,
+      "county": "New Castle",
+      "fatality": 3,
+      "month": "2022-03",
+      "non_reportable": 421,
+      "personal_injury": 248,
+      "property_damage_only": 1039
+    },
+    {
+      "all_reports": 656,
+      "county": "Sussex",
+      "fatality": 5,
+      "month": "2022-03",
+      "non_reportable": 167,
+      "personal_injury": 89,
+      "property_damage_only": 395
+    },
+    {
+      "all_reports": 457,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2022-04",
+      "non_reportable": 151,
+      "personal_injury": 65,
+      "property_damage_only": 240
+    },
+    {
+      "all_reports": 1686,
+      "county": "New Castle",
+      "fatality": 2,
+      "month": "2022-04",
+      "non_reportable": 433,
+      "personal_injury": 258,
+      "property_damage_only": 993
+    },
+    {
+      "all_reports": 710,
+      "county": "Sussex",
+      "fatality": 3,
+      "month": "2022-04",
+      "non_reportable": 203,
+      "personal_injury": 102,
+      "property_damage_only": 402
+    },
+    {
+      "all_reports": 549,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2022-05",
+      "non_reportable": 186,
+      "personal_injury": 82,
+      "property_damage_only": 278
+    },
+    {
+      "all_reports": 1965,
+      "county": "New Castle",
+      "fatality": 7,
+      "month": "2022-05",
+      "non_reportable": 465,
+      "personal_injury": 303,
+      "property_damage_only": 1190
+    },
+    {
+      "all_reports": 771,
+      "county": "Sussex",
+      "fatality": 1,
+      "month": "2022-05",
+      "non_reportable": 203,
+      "personal_injury": 119,
+      "property_damage_only": 448
+    },
+    {
+      "all_reports": 499,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2022-06",
+      "non_reportable": 151,
+      "personal_injury": 88,
+      "property_damage_only": 257
+    },
+    {
+      "all_reports": 1771,
+      "county": "New Castle",
+      "fatality": 8,
+      "month": "2022-06",
+      "non_reportable": 418,
+      "personal_injury": 291,
+      "property_damage_only": 1054
+    },
+    {
+      "all_reports": 905,
+      "county": "Sussex",
+      "fatality": 1,
+      "month": "2022-06",
+      "non_reportable": 258,
+      "personal_injury": 129,
+      "property_damage_only": 517
+    },
+    {
+      "all_reports": 525,
+      "county": "Kent",
+      "fatality": 0,
+      "month": "2022-07",
+      "non_reportable": 190,
+      "personal_injury": 79,
+      "property_damage_only": 256
+    },
+    {
+      "all_reports": 1667,
+      "county": "New Castle",
+      "fatality": 2,
+      "month": "2022-07",
+      "non_reportable": 368,
+      "personal_injury": 249,
+      "property_damage_only": 1048
+    },
+    {
+      "all_reports": 964,
+      "county": "Sussex",
+      "fatality": 4,
+      "month": "2022-07",
+      "non_reportable": 255,
+      "personal_injury": 147,
+      "property_damage_only": 558
+    },
+    {
+      "all_reports": 516,
+      "county": "Kent",
+      "fatality": 4,
+      "month": "2022-08",
+      "non_reportable": 166,
+      "personal_injury": 90,
+      "property_damage_only": 256
+    },
+    {
+      "all_reports": 1741,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2022-08",
+      "non_reportable": 427,
+      "personal_injury": 242,
+      "property_damage_only": 1068
+    },
+    {
+      "all_reports": 906,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2022-08",
+      "non_reportable": 268,
+      "personal_injury": 139,
+      "property_damage_only": 497
+    },
+    {
+      "all_reports": 628,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2022-09",
+      "non_reportable": 209,
+      "personal_injury": 102,
+      "property_damage_only": 314
+    },
+    {
+      "all_reports": 1795,
+      "county": "New Castle",
+      "fatality": 8,
+      "month": "2022-09",
+      "non_reportable": 453,
+      "personal_injury": 270,
+      "property_damage_only": 1064
+    },
+    {
+      "all_reports": 809,
+      "county": "Sussex",
+      "fatality": 3,
+      "month": "2022-09",
+      "non_reportable": 229,
+      "personal_injury": 114,
+      "property_damage_only": 463
+    },
+    {
+      "all_reports": 630,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2022-10",
+      "non_reportable": 205,
+      "personal_injury": 98,
+      "property_damage_only": 325
+    },
+    {
+      "all_reports": 2042,
+      "county": "New Castle",
+      "fatality": 9,
+      "month": "2022-10",
+      "non_reportable": 442,
+      "personal_injury": 288,
+      "property_damage_only": 1303
+    },
+    {
+      "all_reports": 872,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2022-10",
+      "non_reportable": 226,
+      "personal_injury": 113,
+      "property_damage_only": 531
+    },
+    {
+      "all_reports": 626,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2022-11",
+      "non_reportable": 182,
+      "personal_injury": 88,
+      "property_damage_only": 354
+    },
+    {
+      "all_reports": 1859,
+      "county": "New Castle",
+      "fatality": 7,
+      "month": "2022-11",
+      "non_reportable": 403,
+      "personal_injury": 274,
+      "property_damage_only": 1175
+    },
+    {
+      "all_reports": 908,
+      "county": "Sussex",
+      "fatality": 3,
+      "month": "2022-11",
+      "non_reportable": 221,
+      "personal_injury": 106,
+      "property_damage_only": 578
+    },
+    {
+      "all_reports": 591,
+      "county": "Kent",
+      "fatality": 5,
+      "month": "2022-12",
+      "non_reportable": 186,
+      "personal_injury": 88,
+      "property_damage_only": 312
+    },
+    {
+      "all_reports": 1975,
+      "county": "New Castle",
+      "fatality": 8,
+      "month": "2022-12",
+      "non_reportable": 444,
+      "personal_injury": 272,
+      "property_damage_only": 1251
+    },
+    {
+      "all_reports": 868,
+      "county": "Sussex",
+      "fatality": 5,
+      "month": "2022-12",
+      "non_reportable": 208,
+      "personal_injury": 105,
+      "property_damage_only": 550
+    },
+    {
+      "all_reports": 439,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2023-01",
+      "non_reportable": 153,
+      "personal_injury": 56,
+      "property_damage_only": 227
+    },
+    {
+      "all_reports": 1594,
+      "county": "New Castle",
+      "fatality": 1,
+      "month": "2023-01",
+      "non_reportable": 384,
+      "personal_injury": 229,
+      "property_damage_only": 980
+    },
+    {
+      "all_reports": 618,
+      "county": "Sussex",
+      "fatality": 6,
+      "month": "2023-01",
+      "non_reportable": 160,
+      "personal_injury": 80,
+      "property_damage_only": 372
+    },
+    {
+      "all_reports": 426,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2023-02",
+      "non_reportable": 135,
+      "personal_injury": 56,
+      "property_damage_only": 233
+    },
+    {
+      "all_reports": 1460,
+      "county": "New Castle",
+      "fatality": 7,
+      "month": "2023-02",
+      "non_reportable": 382,
+      "personal_injury": 212,
+      "property_damage_only": 859
+    },
+    {
+      "all_reports": 596,
+      "county": "Sussex",
+      "fatality": 1,
+      "month": "2023-02",
+      "non_reportable": 164,
+      "personal_injury": 70,
+      "property_damage_only": 361
+    },
+    {
+      "all_reports": 532,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2023-03",
+      "non_reportable": 176,
+      "personal_injury": 68,
+      "property_damage_only": 287
+    },
+    {
+      "all_reports": 1735,
+      "county": "New Castle",
+      "fatality": 7,
+      "month": "2023-03",
+      "non_reportable": 399,
+      "personal_injury": 284,
+      "property_damage_only": 1045
+    },
+    {
+      "all_reports": 647,
+      "county": "Sussex",
+      "fatality": 3,
+      "month": "2023-03",
+      "non_reportable": 177,
+      "personal_injury": 95,
+      "property_damage_only": 372
+    },
+    {
+      "all_reports": 532,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2023-04",
+      "non_reportable": 176,
+      "personal_injury": 83,
+      "property_damage_only": 271
+    },
+    {
+      "all_reports": 1785,
+      "county": "New Castle",
+      "fatality": 12,
+      "month": "2023-04",
+      "non_reportable": 428,
+      "personal_injury": 238,
+      "property_damage_only": 1107
+    },
+    {
+      "all_reports": 760,
+      "county": "Sussex",
+      "fatality": 5,
+      "month": "2023-04",
+      "non_reportable": 184,
+      "personal_injury": 113,
+      "property_damage_only": 458
+    },
+    {
+      "all_reports": 552,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2023-05",
+      "non_reportable": 180,
+      "personal_injury": 81,
+      "property_damage_only": 290
+    },
+    {
+      "all_reports": 1819,
+      "county": "New Castle",
+      "fatality": 5,
+      "month": "2023-05",
+      "non_reportable": 458,
+      "personal_injury": 273,
+      "property_damage_only": 1083
+    },
+    {
+      "all_reports": 810,
+      "county": "Sussex",
+      "fatality": 4,
+      "month": "2023-05",
+      "non_reportable": 251,
+      "personal_injury": 113,
+      "property_damage_only": 442
+    },
+    {
+      "all_reports": 548,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2023-06",
+      "non_reportable": 187,
+      "personal_injury": 84,
+      "property_damage_only": 274
+    },
+    {
+      "all_reports": 1769,
+      "county": "New Castle",
+      "fatality": 2,
+      "month": "2023-06",
+      "non_reportable": 458,
+      "personal_injury": 280,
+      "property_damage_only": 1029
+    },
+    {
+      "all_reports": 898,
+      "county": "Sussex",
+      "fatality": 4,
+      "month": "2023-06",
+      "non_reportable": 260,
+      "personal_injury": 131,
+      "property_damage_only": 503
+    },
+    {
+      "all_reports": 565,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2023-07",
+      "non_reportable": 185,
+      "personal_injury": 83,
+      "property_damage_only": 296
+    },
+    {
+      "all_reports": 1752,
+      "county": "New Castle",
+      "fatality": 6,
+      "month": "2023-07",
+      "non_reportable": 456,
+      "personal_injury": 231,
+      "property_damage_only": 1059
+    },
+    {
+      "all_reports": 1034,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2023-07",
+      "non_reportable": 306,
+      "personal_injury": 134,
+      "property_damage_only": 592
+    },
+    {
+      "all_reports": 532,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2023-08",
+      "non_reportable": 173,
+      "personal_injury": 81,
+      "property_damage_only": 275
+    },
+    {
+      "all_reports": 1675,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2023-08",
+      "non_reportable": 440,
+      "personal_injury": 262,
+      "property_damage_only": 969
+    },
+    {
+      "all_reports": 847,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2023-08",
+      "non_reportable": 238,
+      "personal_injury": 131,
+      "property_damage_only": 476
+    },
+    {
+      "all_reports": 550,
+      "county": "Kent",
+      "fatality": 5,
+      "month": "2023-09",
+      "non_reportable": 166,
+      "personal_injury": 82,
+      "property_damage_only": 297
+    },
+    {
+      "all_reports": 1726,
+      "county": "New Castle",
+      "fatality": 6,
+      "month": "2023-09",
+      "non_reportable": 426,
+      "personal_injury": 229,
+      "property_damage_only": 1065
+    },
+    {
+      "all_reports": 775,
+      "county": "Sussex",
+      "fatality": 4,
+      "month": "2023-09",
+      "non_reportable": 200,
+      "personal_injury": 111,
+      "property_damage_only": 460
+    },
+    {
+      "all_reports": 636,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2023-10",
+      "non_reportable": 193,
+      "personal_injury": 108,
+      "property_damage_only": 333
+    },
+    {
+      "all_reports": 1967,
+      "county": "New Castle",
+      "fatality": 2,
+      "month": "2023-10",
+      "non_reportable": 457,
+      "personal_injury": 242,
+      "property_damage_only": 1266
+    },
+    {
+      "all_reports": 882,
+      "county": "Sussex",
+      "fatality": 3,
+      "month": "2023-10",
+      "non_reportable": 214,
+      "personal_injury": 96,
+      "property_damage_only": 569
+    },
+    {
+      "all_reports": 609,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2023-11",
+      "non_reportable": 186,
+      "personal_injury": 89,
+      "property_damage_only": 331
+    },
+    {
+      "all_reports": 1968,
+      "county": "New Castle",
+      "fatality": 5,
+      "month": "2023-11",
+      "non_reportable": 458,
+      "personal_injury": 243,
+      "property_damage_only": 1262
+    },
+    {
+      "all_reports": 897,
+      "county": "Sussex",
+      "fatality": 5,
+      "month": "2023-11",
+      "non_reportable": 189,
+      "personal_injury": 101,
+      "property_damage_only": 602
+    },
+    {
+      "all_reports": 580,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2023-12",
+      "non_reportable": 184,
+      "personal_injury": 77,
+      "property_damage_only": 316
+    },
+    {
+      "all_reports": 1937,
+      "county": "New Castle",
+      "fatality": 2,
+      "month": "2023-12",
+      "non_reportable": 425,
+      "personal_injury": 245,
+      "property_damage_only": 1265
+    },
+    {
+      "all_reports": 817,
+      "county": "Sussex",
+      "fatality": 3,
+      "month": "2023-12",
+      "non_reportable": 198,
+      "personal_injury": 90,
+      "property_damage_only": 526
+    },
+    {
+      "all_reports": 521,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2024-01",
+      "non_reportable": 175,
+      "personal_injury": 63,
+      "property_damage_only": 282
+    },
+    {
+      "all_reports": 1782,
+      "county": "New Castle",
+      "fatality": 3,
+      "month": "2024-01",
+      "non_reportable": 436,
+      "personal_injury": 215,
+      "property_damage_only": 1128
+    },
+    {
+      "all_reports": 690,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2024-01",
+      "non_reportable": 170,
+      "personal_injury": 76,
+      "property_damage_only": 442
+    },
+    {
+      "all_reports": 463,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2024-02",
+      "non_reportable": 154,
+      "personal_injury": 58,
+      "property_damage_only": 250
+    },
+    {
+      "all_reports": 1491,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2024-02",
+      "non_reportable": 395,
+      "personal_injury": 185,
+      "property_damage_only": 907
+    },
+    {
+      "all_reports": 603,
+      "county": "Sussex",
+      "fatality": 4,
+      "month": "2024-02",
+      "non_reportable": 168,
+      "personal_injury": 57,
+      "property_damage_only": 374
+    },
+    {
+      "all_reports": 503,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2024-03",
+      "non_reportable": 164,
+      "personal_injury": 93,
+      "property_damage_only": 243
+    },
+    {
+      "all_reports": 1677,
+      "county": "New Castle",
+      "fatality": 6,
+      "month": "2024-03",
+      "non_reportable": 394,
+      "personal_injury": 240,
+      "property_damage_only": 1037
+    },
+    {
+      "all_reports": 727,
+      "county": "Sussex",
+      "fatality": 1,
+      "month": "2024-03",
+      "non_reportable": 187,
+      "personal_injury": 87,
+      "property_damage_only": 452
+    },
+    {
+      "all_reports": 539,
+      "county": "Kent",
+      "fatality": 5,
+      "month": "2024-04",
+      "non_reportable": 187,
+      "personal_injury": 67,
+      "property_damage_only": 280
+    },
+    {
+      "all_reports": 1761,
+      "county": "New Castle",
+      "fatality": 6,
+      "month": "2024-04",
+      "non_reportable": 424,
+      "personal_injury": 241,
+      "property_damage_only": 1090
+    },
+    {
+      "all_reports": 742,
+      "county": "Sussex",
+      "fatality": 3,
+      "month": "2024-04",
+      "non_reportable": 204,
+      "personal_injury": 85,
+      "property_damage_only": 450
+    },
+    {
+      "all_reports": 559,
+      "county": "Kent",
+      "fatality": 5,
+      "month": "2024-05",
+      "non_reportable": 186,
+      "personal_injury": 81,
+      "property_damage_only": 287
+    },
+    {
+      "all_reports": 1912,
+      "county": "New Castle",
+      "fatality": 7,
+      "month": "2024-05",
+      "non_reportable": 440,
+      "personal_injury": 289,
+      "property_damage_only": 1176
+    },
+    {
+      "all_reports": 815,
+      "county": "Sussex",
+      "fatality": 4,
+      "month": "2024-05",
+      "non_reportable": 213,
+      "personal_injury": 117,
+      "property_damage_only": 481
+    },
+    {
+      "all_reports": 534,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2024-06",
+      "non_reportable": 190,
+      "personal_injury": 79,
+      "property_damage_only": 262
+    },
+    {
+      "all_reports": 1665,
+      "county": "New Castle",
+      "fatality": 5,
+      "month": "2024-06",
+      "non_reportable": 417,
+      "personal_injury": 233,
+      "property_damage_only": 1010
+    },
+    {
+      "all_reports": 968,
+      "county": "Sussex",
+      "fatality": 3,
+      "month": "2024-06",
+      "non_reportable": 250,
+      "personal_injury": 135,
+      "property_damage_only": 580
+    },
+    {
+      "all_reports": 525,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2024-07",
+      "non_reportable": 179,
+      "personal_injury": 76,
+      "property_damage_only": 269
+    },
+    {
+      "all_reports": 1569,
+      "county": "New Castle",
+      "fatality": 5,
+      "month": "2024-07",
+      "non_reportable": 379,
+      "personal_injury": 241,
+      "property_damage_only": 944
+    },
+    {
+      "all_reports": 975,
+      "county": "Sussex",
+      "fatality": 4,
+      "month": "2024-07",
+      "non_reportable": 257,
+      "personal_injury": 129,
+      "property_damage_only": 585
+    },
+    {
+      "all_reports": 530,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2024-08",
+      "non_reportable": 171,
+      "personal_injury": 94,
+      "property_damage_only": 263
+    },
+    {
+      "all_reports": 1754,
+      "county": "New Castle",
+      "fatality": 7,
+      "month": "2024-08",
+      "non_reportable": 416,
+      "personal_injury": 239,
+      "property_damage_only": 1092
+    },
+    {
+      "all_reports": 910,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2024-08",
+      "non_reportable": 278,
+      "personal_injury": 111,
+      "property_damage_only": 519
+    },
+    {
+      "all_reports": 502,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2024-09",
+      "non_reportable": 171,
+      "personal_injury": 79,
+      "property_damage_only": 249
+    },
+    {
+      "all_reports": 1632,
+      "county": "New Castle",
+      "fatality": 6,
+      "month": "2024-09",
+      "non_reportable": 378,
+      "personal_injury": 247,
+      "property_damage_only": 1001
+    },
+    {
+      "all_reports": 771,
+      "county": "Sussex",
+      "fatality": 0,
+      "month": "2024-09",
+      "non_reportable": 202,
+      "personal_injury": 108,
+      "property_damage_only": 461
+    },
+    {
+      "all_reports": 638,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2024-10",
+      "non_reportable": 201,
+      "personal_injury": 101,
+      "property_damage_only": 333
+    },
+    {
+      "all_reports": 1930,
+      "county": "New Castle",
+      "fatality": 5,
+      "month": "2024-10",
+      "non_reportable": 436,
+      "personal_injury": 283,
+      "property_damage_only": 1206
+    },
+    {
+      "all_reports": 937,
+      "county": "Sussex",
+      "fatality": 5,
+      "month": "2024-10",
+      "non_reportable": 234,
+      "personal_injury": 116,
+      "property_damage_only": 582
+    },
+    {
+      "all_reports": 584,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2024-11",
+      "non_reportable": 167,
+      "personal_injury": 90,
+      "property_damage_only": 325
+    },
+    {
+      "all_reports": 1855,
+      "county": "New Castle",
+      "fatality": 5,
+      "month": "2024-11",
+      "non_reportable": 406,
+      "personal_injury": 244,
+      "property_damage_only": 1200
+    },
+    {
+      "all_reports": 882,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2024-11",
+      "non_reportable": 214,
+      "personal_injury": 94,
+      "property_damage_only": 572
+    },
+    {
+      "all_reports": 565,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2024-12",
+      "non_reportable": 179,
+      "personal_injury": 67,
+      "property_damage_only": 317
+    },
+    {
+      "all_reports": 1938,
+      "county": "New Castle",
+      "fatality": 5,
+      "month": "2024-12",
+      "non_reportable": 397,
+      "personal_injury": 252,
+      "property_damage_only": 1284
+    },
+    {
+      "all_reports": 735,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2024-12",
+      "non_reportable": 175,
+      "personal_injury": 103,
+      "property_damage_only": 455
+    },
+    {
+      "all_reports": 539,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2025-01",
+      "non_reportable": 149,
+      "personal_injury": 61,
+      "property_damage_only": 328
+    },
+    {
+      "all_reports": 1686,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2025-01",
+      "non_reportable": 366,
+      "personal_injury": 218,
+      "property_damage_only": 1098
+    },
+    {
+      "all_reports": 657,
+      "county": "Sussex",
+      "fatality": 0,
+      "month": "2025-01",
+      "non_reportable": 158,
+      "personal_injury": 78,
+      "property_damage_only": 421
+    },
+    {
+      "all_reports": 398,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2025-02",
+      "non_reportable": 124,
+      "personal_injury": 47,
+      "property_damage_only": 226
+    },
+    {
+      "all_reports": 1414,
+      "county": "New Castle",
+      "fatality": 1,
+      "month": "2025-02",
+      "non_reportable": 319,
+      "personal_injury": 200,
+      "property_damage_only": 894
+    },
+    {
+      "all_reports": 590,
+      "county": "Sussex",
+      "fatality": 1,
+      "month": "2025-02",
+      "non_reportable": 140,
+      "personal_injury": 75,
+      "property_damage_only": 374
+    },
+    {
+      "all_reports": 568,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2025-03",
+      "non_reportable": 198,
+      "personal_injury": 69,
+      "property_damage_only": 299
+    },
+    {
+      "all_reports": 1597,
+      "county": "New Castle",
+      "fatality": 6,
+      "month": "2025-03",
+      "non_reportable": 408,
+      "personal_injury": 206,
+      "property_damage_only": 977
+    },
+    {
+      "all_reports": 661,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2025-03",
+      "non_reportable": 163,
+      "personal_injury": 89,
+      "property_damage_only": 407
+    },
+    {
+      "all_reports": 544,
+      "county": "Kent",
+      "fatality": 0,
+      "month": "2025-04",
+      "non_reportable": 177,
+      "personal_injury": 59,
+      "property_damage_only": 308
+    },
+    {
+      "all_reports": 1681,
+      "county": "New Castle",
+      "fatality": 7,
+      "month": "2025-04",
+      "non_reportable": 420,
+      "personal_injury": 239,
+      "property_damage_only": 1015
+    },
+    {
+      "all_reports": 688,
+      "county": "Sussex",
+      "fatality": 1,
+      "month": "2025-04",
+      "non_reportable": 163,
+      "personal_injury": 80,
+      "property_damage_only": 444
+    },
+    {
+      "all_reports": 555,
+      "county": "Kent",
+      "fatality": 5,
+      "month": "2025-05",
+      "non_reportable": 177,
+      "personal_injury": 85,
+      "property_damage_only": 288
+    },
+    {
+      "all_reports": 1824,
+      "county": "New Castle",
+      "fatality": 3,
+      "month": "2025-05",
+      "non_reportable": 396,
+      "personal_injury": 236,
+      "property_damage_only": 1189
+    },
+    {
+      "all_reports": 835,
+      "county": "Sussex",
+      "fatality": 5,
+      "month": "2025-05",
+      "non_reportable": 212,
+      "personal_injury": 126,
+      "property_damage_only": 492
+    },
+    {
+      "all_reports": 531,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2025-06",
+      "non_reportable": 143,
+      "personal_injury": 73,
+      "property_damage_only": 312
+    },
+    {
+      "all_reports": 1654,
+      "county": "New Castle",
+      "fatality": 2,
+      "month": "2025-06",
+      "non_reportable": 371,
+      "personal_injury": 236,
+      "property_damage_only": 1045
+    },
+    {
+      "all_reports": 901,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2025-06",
+      "non_reportable": 216,
+      "personal_injury": 129,
+      "property_damage_only": 554
+    },
+    {
+      "all_reports": 536,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2025-07",
+      "non_reportable": 154,
+      "personal_injury": 95,
+      "property_damage_only": 286
+    },
+    {
+      "all_reports": 1651,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2025-07",
+      "non_reportable": 383,
+      "personal_injury": 240,
+      "property_damage_only": 1024
+    },
+    {
+      "all_reports": 1022,
+      "county": "Sussex",
+      "fatality": 5,
+      "month": "2025-07",
+      "non_reportable": 273,
+      "personal_injury": 137,
+      "property_damage_only": 607
+    },
+    {
+      "all_reports": 499,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2025-08",
+      "non_reportable": 154,
+      "personal_injury": 71,
+      "property_damage_only": 271
+    },
+    {
+      "all_reports": 1606,
+      "county": "New Castle",
+      "fatality": 3,
+      "month": "2025-08",
+      "non_reportable": 421,
+      "personal_injury": 223,
+      "property_damage_only": 959
+    },
+    {
+      "all_reports": 934,
+      "county": "Sussex",
+      "fatality": 3,
+      "month": "2025-08",
+      "non_reportable": 285,
+      "personal_injury": 125,
+      "property_damage_only": 521
+    },
+    {
+      "all_reports": 583,
+      "county": "Kent",
+      "fatality": 3,
+      "month": "2025-09",
+      "non_reportable": 181,
+      "personal_injury": 82,
+      "property_damage_only": 317
+    },
+    {
+      "all_reports": 1730,
+      "county": "New Castle",
+      "fatality": 8,
+      "month": "2025-09",
+      "non_reportable": 419,
+      "personal_injury": 269,
+      "property_damage_only": 1034
+    },
+    {
+      "all_reports": 728,
+      "county": "Sussex",
+      "fatality": 2,
+      "month": "2025-09",
+      "non_reportable": 187,
+      "personal_injury": 95,
+      "property_damage_only": 444
+    },
+    {
+      "all_reports": 696,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2025-10",
+      "non_reportable": 216,
+      "personal_injury": 88,
+      "property_damage_only": 390
+    },
+    {
+      "all_reports": 1956,
+      "county": "New Castle",
+      "fatality": 2,
+      "month": "2025-10",
+      "non_reportable": 482,
+      "personal_injury": 265,
+      "property_damage_only": 1207
+    },
+    {
+      "all_reports": 921,
+      "county": "Sussex",
+      "fatality": 4,
+      "month": "2025-10",
+      "non_reportable": 246,
+      "personal_injury": 111,
+      "property_damage_only": 560
+    },
+    {
+      "all_reports": 623,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2025-11",
+      "non_reportable": 171,
+      "personal_injury": 97,
+      "property_damage_only": 354
+    },
+    {
+      "all_reports": 1826,
+      "county": "New Castle",
+      "fatality": 5,
+      "month": "2025-11",
+      "non_reportable": 417,
+      "personal_injury": 232,
+      "property_damage_only": 1172
+    },
+    {
+      "all_reports": 880,
+      "county": "Sussex",
+      "fatality": 0,
+      "month": "2025-11",
+      "non_reportable": 198,
+      "personal_injury": 96,
+      "property_damage_only": 586
+    },
+    {
+      "all_reports": 626,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2025-12",
+      "non_reportable": 169,
+      "personal_injury": 68,
+      "property_damage_only": 387
+    },
+    {
+      "all_reports": 1982,
+      "county": "New Castle",
+      "fatality": 4,
+      "month": "2025-12",
+      "non_reportable": 452,
+      "personal_injury": 262,
+      "property_damage_only": 1264
+    },
+    {
+      "all_reports": 744,
+      "county": "Sussex",
+      "fatality": 0,
+      "month": "2025-12",
+      "non_reportable": 179,
+      "personal_injury": 80,
+      "property_damage_only": 485
+    },
+    {
+      "all_reports": 524,
+      "county": "Kent",
+      "fatality": 1,
+      "month": "2026-01",
+      "non_reportable": 146,
+      "personal_injury": 64,
+      "property_damage_only": 313
+    },
+    {
+      "all_reports": 1685,
+      "county": "New Castle",
+      "fatality": 2,
+      "month": "2026-01",
+      "non_reportable": 424,
+      "personal_injury": 196,
+      "property_damage_only": 1063
+    },
+    {
+      "all_reports": 647,
+      "county": "Sussex",
+      "fatality": 0,
+      "month": "2026-01",
+      "non_reportable": 193,
+      "personal_injury": 56,
+      "property_damage_only": 398
+    },
+    {
+      "all_reports": 466,
+      "county": "Kent",
+      "fatality": 0,
+      "month": "2026-02",
+      "non_reportable": 148,
+      "personal_injury": 65,
+      "property_damage_only": 253
+    },
+    {
+      "all_reports": 1575,
+      "county": "New Castle",
+      "fatality": 5,
+      "month": "2026-02",
+      "non_reportable": 400,
+      "personal_injury": 190,
+      "property_damage_only": 980
+    },
+    {
+      "all_reports": 583,
+      "county": "Sussex",
+      "fatality": 0,
+      "month": "2026-02",
+      "non_reportable": 157,
+      "personal_injury": 66,
+      "property_damage_only": 360
+    },
+    {
+      "all_reports": 533,
+      "county": "Kent",
+      "fatality": 2,
+      "month": "2026-03",
+      "non_reportable": 157,
+      "personal_injury": 79,
+      "property_damage_only": 295
+    },
+    {
+      "all_reports": 1675,
+      "county": "New Castle",
+      "fatality": 3,
+      "month": "2026-03",
+      "non_reportable": 421,
+      "personal_injury": 241,
+      "property_damage_only": 1010
+    },
+    {
+      "all_reports": 674,
+      "county": "Sussex",
+      "fatality": 0,
+      "month": "2026-03",
+      "non_reportable": 180,
+      "personal_injury": 79,
+      "property_damage_only": 415
+    }
+  ],
+  "source": {
+    "api": "https://data.delaware.gov/resource/827n-m6xc.json",
+    "cadence": "Monthly",
+    "dataset_id": "827n-m6xc",
+    "name": "Public Crash Data",
+    "publisher": "Delaware Department of Safety and Homeland Security",
+    "publishing_timeframe": "5th day of the month",
+    "rows_updated": "2026-10-05",
+    "temporal_coverage": "2009 through \u201cSix months ago\u201d",
+    "url": "https://data.delaware.gov/Transportation/Public-Crash-Data/827n-m6xc"
+  },
+  "totals": {
+    "in_tables": 588483,
+    "no_datetime": 3,
+    "records": 588486,
+    "unclassified": 7
+  },
+  "yearly": [
+    {
+      "all_reports": 19115,
+      "county": "Statewide",
+      "fatality": 101,
+      "non_reportable": 196,
+      "personal_injury": 5029,
+      "property_damage_only": 13789,
+      "year": 2009
+    },
+    {
+      "all_reports": 3298,
+      "county": "Kent",
+      "fatality": 17,
+      "non_reportable": 42,
+      "personal_injury": 844,
+      "property_damage_only": 2395,
+      "year": 2009
+    },
+    {
+      "all_reports": 12043,
+      "county": "New Castle",
+      "fatality": 48,
+      "non_reportable": 115,
+      "personal_injury": 3131,
+      "property_damage_only": 8749,
+      "year": 2009
+    },
+    {
+      "all_reports": 3774,
+      "county": "Sussex",
+      "fatality": 36,
+      "non_reportable": 39,
+      "personal_injury": 1054,
+      "property_damage_only": 2645,
+      "year": 2009
+    },
+    {
+      "all_reports": 31272,
+      "county": "Statewide",
+      "fatality": 91,
+      "non_reportable": 12291,
+      "personal_injury": 5154,
+      "property_damage_only": 13736,
+      "year": 2010
+    },
+    {
+      "all_reports": 5351,
+      "county": "Kent",
+      "fatality": 20,
+      "non_reportable": 2621,
+      "personal_injury": 893,
+      "property_damage_only": 1817,
+      "year": 2010
+    },
+    {
+      "all_reports": 19206,
+      "county": "New Castle",
+      "fatality": 43,
+      "non_reportable": 6445,
+      "personal_injury": 3255,
+      "property_damage_only": 9463,
+      "year": 2010
+    },
+    {
+      "all_reports": 6715,
+      "county": "Sussex",
+      "fatality": 28,
+      "non_reportable": 3225,
+      "personal_injury": 1006,
+      "property_damage_only": 2456,
+      "year": 2010
+    },
+    {
+      "all_reports": 31066,
+      "county": "Statewide",
+      "fatality": 85,
+      "non_reportable": 11481,
+      "personal_injury": 5103,
+      "property_damage_only": 14397,
+      "year": 2011
+    },
+    {
+      "all_reports": 5346,
+      "county": "Kent",
+      "fatality": 17,
+      "non_reportable": 2523,
+      "personal_injury": 900,
+      "property_damage_only": 1906,
+      "year": 2011
+    },
+    {
+      "all_reports": 19118,
+      "county": "New Castle",
+      "fatality": 38,
+      "non_reportable": 6085,
+      "personal_injury": 3127,
+      "property_damage_only": 9868,
+      "year": 2011
+    },
+    {
+      "all_reports": 6602,
+      "county": "Sussex",
+      "fatality": 30,
+      "non_reportable": 2873,
+      "personal_injury": 1076,
+      "property_damage_only": 2623,
+      "year": 2011
+    },
+    {
+      "all_reports": 31232,
+      "county": "Statewide",
+      "fatality": 97,
+      "non_reportable": 11252,
+      "personal_injury": 5177,
+      "property_damage_only": 14706,
+      "year": 2012
+    },
+    {
+      "all_reports": 5325,
+      "county": "Kent",
+      "fatality": 20,
+      "non_reportable": 2433,
+      "personal_injury": 876,
+      "property_damage_only": 1996,
+      "year": 2012
+    },
+    {
+      "all_reports": 19226,
+      "county": "New Castle",
+      "fatality": 48,
+      "non_reportable": 6078,
+      "personal_injury": 3231,
+      "property_damage_only": 9869,
+      "year": 2012
+    },
+    {
+      "all_reports": 6681,
+      "county": "Sussex",
+      "fatality": 29,
+      "non_reportable": 2741,
+      "personal_injury": 1070,
+      "property_damage_only": 2841,
+      "year": 2012
+    },
+    {
+      "all_reports": 32450,
+      "county": "Statewide",
+      "fatality": 90,
+      "non_reportable": 11155,
+      "personal_injury": 5248,
+      "property_damage_only": 15957,
+      "year": 2013
+    },
+    {
+      "all_reports": 5661,
+      "county": "Kent",
+      "fatality": 12,
+      "non_reportable": 2484,
+      "personal_injury": 947,
+      "property_damage_only": 2218,
+      "year": 2013
+    },
+    {
+      "all_reports": 19786,
+      "county": "New Castle",
+      "fatality": 46,
+      "non_reportable": 5907,
+      "personal_injury": 3230,
+      "property_damage_only": 10603,
+      "year": 2013
+    },
+    {
+      "all_reports": 7003,
+      "county": "Sussex",
+      "fatality": 32,
+      "non_reportable": 2764,
+      "personal_injury": 1071,
+      "property_damage_only": 3136,
+      "year": 2013
+    },
+    {
+      "all_reports": 32739,
+      "county": "Statewide",
+      "fatality": 105,
+      "non_reportable": 9815,
+      "personal_injury": 5129,
+      "property_damage_only": 17690,
+      "year": 2014
+    },
+    {
+      "all_reports": 5604,
+      "county": "Kent",
+      "fatality": 17,
+      "non_reportable": 2305,
+      "personal_injury": 940,
+      "property_damage_only": 2342,
+      "year": 2014
+    },
+    {
+      "all_reports": 19924,
+      "county": "New Castle",
+      "fatality": 47,
+      "non_reportable": 5079,
+      "personal_injury": 3094,
+      "property_damage_only": 11704,
+      "year": 2014
+    },
+    {
+      "all_reports": 7211,
+      "county": "Sussex",
+      "fatality": 41,
+      "non_reportable": 2431,
+      "personal_injury": 1095,
+      "property_damage_only": 3644,
+      "year": 2014
+    },
+    {
+      "all_reports": 35015,
+      "county": "Statewide",
+      "fatality": 125,
+      "non_reportable": 10932,
+      "personal_injury": 5463,
+      "property_damage_only": 18495,
+      "year": 2015
+    },
+    {
+      "all_reports": 6176,
+      "county": "Kent",
+      "fatality": 26,
+      "non_reportable": 2403,
+      "personal_injury": 1117,
+      "property_damage_only": 2630,
+      "year": 2015
+    },
+    {
+      "all_reports": 20947,
+      "county": "New Castle",
+      "fatality": 61,
+      "non_reportable": 5704,
+      "personal_injury": 3264,
+      "property_damage_only": 11918,
+      "year": 2015
+    },
+    {
+      "all_reports": 7892,
+      "county": "Sussex",
+      "fatality": 38,
+      "non_reportable": 2825,
+      "personal_injury": 1082,
+      "property_damage_only": 3947,
+      "year": 2015
+    },
+    {
+      "all_reports": 36955,
+      "county": "Statewide",
+      "fatality": 109,
+      "non_reportable": 10500,
+      "personal_injury": 5752,
+      "property_damage_only": 20594,
+      "year": 2016
+    },
+    {
+      "all_reports": 6315,
+      "county": "Kent",
+      "fatality": 29,
+      "non_reportable": 2281,
+      "personal_injury": 1153,
+      "property_damage_only": 2852,
+      "year": 2016
+    },
+    {
+      "all_reports": 22236,
+      "county": "New Castle",
+      "fatality": 48,
+      "non_reportable": 5615,
+      "personal_injury": 3484,
+      "property_damage_only": 13089,
+      "year": 2016
+    },
+    {
+      "all_reports": 8404,
+      "county": "Sussex",
+      "fatality": 32,
+      "non_reportable": 2604,
+      "personal_injury": 1115,
+      "property_damage_only": 4653,
+      "year": 2016
+    },
+    {
+      "all_reports": 37145,
+      "county": "Statewide",
+      "fatality": 103,
+      "non_reportable": 9078,
+      "personal_injury": 5653,
+      "property_damage_only": 22311,
+      "year": 2017
+    },
+    {
+      "all_reports": 6070,
+      "county": "Kent",
+      "fatality": 19,
+      "non_reportable": 1938,
+      "personal_injury": 1028,
+      "property_damage_only": 3085,
+      "year": 2017
+    },
+    {
+      "all_reports": 22412,
+      "county": "New Castle",
+      "fatality": 49,
+      "non_reportable": 4759,
+      "personal_injury": 3450,
+      "property_damage_only": 14154,
+      "year": 2017
+    },
+    {
+      "all_reports": 8663,
+      "county": "Sussex",
+      "fatality": 35,
+      "non_reportable": 2381,
+      "personal_injury": 1175,
+      "property_damage_only": 5072,
+      "year": 2017
+    },
+    {
+      "all_reports": 37496,
+      "county": "Statewide",
+      "fatality": 94,
+      "non_reportable": 8640,
+      "personal_injury": 5516,
+      "property_damage_only": 23245,
+      "year": 2018
+    },
+    {
+      "all_reports": 6274,
+      "county": "Kent",
+      "fatality": 23,
+      "non_reportable": 1933,
+      "personal_injury": 1053,
+      "property_damage_only": 3265,
+      "year": 2018
+    },
+    {
+      "all_reports": 22425,
+      "county": "New Castle",
+      "fatality": 44,
+      "non_reportable": 4579,
+      "personal_injury": 3304,
+      "property_damage_only": 14497,
+      "year": 2018
+    },
+    {
+      "all_reports": 8797,
+      "county": "Sussex",
+      "fatality": 27,
+      "non_reportable": 2128,
+      "personal_injury": 1159,
+      "property_damage_only": 5483,
+      "year": 2018
+    },
+    {
+      "all_reports": 37441,
+      "county": "Statewide",
+      "fatality": 110,
+      "non_reportable": 8318,
+      "personal_injury": 5770,
+      "property_damage_only": 23237,
+      "year": 2019
+    },
+    {
+      "all_reports": 6404,
+      "county": "Kent",
+      "fatality": 21,
+      "non_reportable": 1882,
+      "personal_injury": 1014,
+      "property_damage_only": 3485,
+      "year": 2019
+    },
+    {
+      "all_reports": 22046,
+      "county": "New Castle",
+      "fatality": 48,
+      "non_reportable": 4326,
+      "personal_injury": 3464,
+      "property_damage_only": 14204,
+      "year": 2019
+    },
+    {
+      "all_reports": 8991,
+      "county": "Sussex",
+      "fatality": 41,
+      "non_reportable": 2110,
+      "personal_injury": 1292,
+      "property_damage_only": 5548,
+      "year": 2019
+    },
+    {
+      "all_reports": 31665,
+      "county": "Statewide",
+      "fatality": 103,
+      "non_reportable": 7492,
+      "personal_injury": 4986,
+      "property_damage_only": 19084,
+      "year": 2020
+    },
+    {
+      "all_reports": 5575,
+      "county": "Kent",
+      "fatality": 17,
+      "non_reportable": 1631,
+      "personal_injury": 893,
+      "property_damage_only": 3034,
+      "year": 2020
+    },
+    {
+      "all_reports": 18184,
+      "county": "New Castle",
+      "fatality": 55,
+      "non_reportable": 3906,
+      "personal_injury": 2931,
+      "property_damage_only": 11292,
+      "year": 2020
+    },
+    {
+      "all_reports": 7906,
+      "county": "Sussex",
+      "fatality": 31,
+      "non_reportable": 1955,
+      "personal_injury": 1162,
+      "property_damage_only": 4758,
+      "year": 2020
+    },
+    {
+      "all_reports": 37766,
+      "county": "Statewide",
+      "fatality": 126,
+      "non_reportable": 9293,
+      "personal_injury": 5585,
+      "property_damage_only": 22762,
+      "year": 2021
+    },
+    {
+      "all_reports": 6695,
+      "county": "Kent",
+      "fatality": 35,
+      "non_reportable": 2114,
+      "personal_injury": 1008,
+      "property_damage_only": 3538,
+      "year": 2021
+    },
+    {
+      "all_reports": 21490,
+      "county": "New Castle",
+      "fatality": 62,
+      "non_reportable": 4743,
+      "personal_injury": 3263,
+      "property_damage_only": 13422,
+      "year": 2021
+    },
+    {
+      "all_reports": 9581,
+      "county": "Sussex",
+      "fatality": 29,
+      "non_reportable": 2436,
+      "personal_injury": 1314,
+      "property_damage_only": 5802,
+      "year": 2021
+    },
+    {
+      "all_reports": 37445,
+      "county": "Statewide",
+      "fatality": 134,
+      "non_reportable": 9642,
+      "personal_injury": 5405,
+      "property_damage_only": 22264,
+      "year": 2022
+    },
+    {
+      "all_reports": 6461,
+      "county": "Kent",
+      "fatality": 28,
+      "non_reportable": 2092,
+      "personal_injury": 983,
+      "property_damage_only": 3358,
+      "year": 2022
+    },
+    {
+      "all_reports": 21407,
+      "county": "New Castle",
+      "fatality": 69,
+      "non_reportable": 5013,
+      "personal_injury": 3100,
+      "property_damage_only": 13225,
+      "year": 2022
+    },
+    {
+      "all_reports": 9577,
+      "county": "Sussex",
+      "fatality": 37,
+      "non_reportable": 2537,
+      "personal_injury": 1322,
+      "property_damage_only": 5681,
+      "year": 2022
+    },
+    {
+      "all_reports": 37269,
+      "county": "Statewide",
+      "fatality": 130,
+      "non_reportable": 9806,
+      "personal_injury": 5181,
+      "property_damage_only": 22152,
+      "year": 2023
+    },
+    {
+      "all_reports": 6501,
+      "county": "Kent",
+      "fatality": 29,
+      "non_reportable": 2094,
+      "personal_injury": 948,
+      "property_damage_only": 3430,
+      "year": 2023
+    },
+    {
+      "all_reports": 21187,
+      "county": "New Castle",
+      "fatality": 59,
+      "non_reportable": 5171,
+      "personal_injury": 2968,
+      "property_damage_only": 12989,
+      "year": 2023
+    },
+    {
+      "all_reports": 9581,
+      "county": "Sussex",
+      "fatality": 42,
+      "non_reportable": 2541,
+      "personal_injury": 1265,
+      "property_damage_only": 5733,
+      "year": 2023
+    },
+    {
+      "all_reports": 37184,
+      "county": "Statewide",
+      "fatality": 127,
+      "non_reportable": 9594,
+      "personal_injury": 5075,
+      "property_damage_only": 22388,
+      "year": 2024
+    },
+    {
+      "all_reports": 6463,
+      "county": "Kent",
+      "fatality": 31,
+      "non_reportable": 2124,
+      "personal_injury": 948,
+      "property_damage_only": 3360,
+      "year": 2024
+    },
+    {
+      "all_reports": 20966,
+      "county": "New Castle",
+      "fatality": 64,
+      "non_reportable": 4918,
+      "personal_injury": 2909,
+      "property_damage_only": 13075,
+      "year": 2024
+    },
+    {
+      "all_reports": 9755,
+      "county": "Sussex",
+      "fatality": 32,
+      "non_reportable": 2552,
+      "personal_injury": 1218,
+      "property_damage_only": 5953,
+      "year": 2024
+    },
+    {
+      "all_reports": 36866,
+      "county": "Statewide",
+      "fatality": 98,
+      "non_reportable": 9287,
+      "personal_injury": 4942,
+      "property_damage_only": 22539,
+      "year": 2025
+    },
+    {
+      "all_reports": 6698,
+      "county": "Kent",
+      "fatality": 24,
+      "non_reportable": 2013,
+      "personal_injury": 895,
+      "property_damage_only": 3766,
+      "year": 2025
+    },
+    {
+      "all_reports": 20607,
+      "county": "New Castle",
+      "fatality": 49,
+      "non_reportable": 4854,
+      "personal_injury": 2826,
+      "property_damage_only": 12878,
+      "year": 2025
+    },
+    {
+      "all_reports": 9561,
+      "county": "Sussex",
+      "fatality": 25,
+      "non_reportable": 2420,
+      "personal_injury": 1221,
+      "property_damage_only": 5895,
+      "year": 2025
+    },
+    {
+      "all_reports": 8362,
+      "county": "Statewide",
+      "fatality": 13,
+      "non_reportable": 2226,
+      "personal_injury": 1036,
+      "property_damage_only": 5087,
+      "year": 2026
+    },
+    {
+      "all_reports": 1523,
+      "county": "Kent",
+      "fatality": 3,
+      "non_reportable": 451,
+      "personal_injury": 208,
+      "property_damage_only": 861,
+      "year": 2026
+    },
+    {
+      "all_reports": 4935,
+      "county": "New Castle",
+      "fatality": 10,
+      "non_reportable": 1245,
+      "personal_injury": 627,
+      "property_damage_only": 3053,
+      "year": 2026
+    },
+    {
+      "all_reports": 1904,
+      "county": "Sussex",
+      "fatality": 0,
+      "non_reportable": 530,
+      "personal_injury": 201,
+      "property_damage_only": 1173,
+      "year": 2026
+    }
+  ]
+}

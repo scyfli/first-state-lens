@@ -1,0 +1,27 @@
+{
+  "coverage": {
+    "first_month": "2009-01",
+    "last_crash_date": "2026-03-31",
+    "last_month": "2026-03",
+    "last_month_partial": false
+  },
+  "dashboard": "road-safety",
+  "generated_at": "2026-10-14T17:27:16Z",
+  "row_counts": {
+    "monthly_rows": 621,
+    "months": 207,
+    "records": 588486,
+    "yearly_rows": 72
+  },
+  "source": {
+    "api": "https://data.delaware.gov/resource/827n-m6xc.json",
+    "cadence": "Monthly",
+    "dataset_id": "827n-m6xc",
+    "name": "Public Crash Data",
+    "publisher": "Delaware Department of Safety and Homeland Security",
+    "publishing_timeframe": "5th day of the month",
+    "rows_updated": "2026-10-05",
+    "temporal_coverage": "2009 through \u201cSix months ago\u201d",
+    "url": "https://data.delaware.gov/Transportation/Public-Crash-Data/827n-m6xc"
+  }
+}
