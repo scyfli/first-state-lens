@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Tracking Senate Bill 272 — First State Lens</title>
 <meta name="description" content="A live, nonpartisan tracker for Delaware Senate Bill 272 — project labor agreements for school construction. Status, sponsors, the action timeline, and the recorded Senate vote. Public data, sourced." />
-<link rel="canonical" href="https://firststatelens.com/bill-tracker/" />
+<link rel="canonical" href="https://firststatelens.com/bill-tracker/sb-272/" />
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
 <meta name="theme-color" content="#030712" />
 <meta name="geo.region" content="US-DE" />
@@ -15,7 +15,7 @@
 <meta property="og:site_name" content="First State Lens" />
 <meta property="og:title" content="Tracking Delaware Senate Bill 272 — First State Lens" />
 <meta property="og:description" content="A live, nonpartisan tracker for Delaware Senate Bill 272 (project labor agreements for school construction): status, sponsors, the action timeline, and the recorded Senate vote. Public data, sourced." />
-<meta property="og:url" content="https://firststatelens.com/bill-tracker/" />
+<meta property="og:url" content="https://firststatelens.com/bill-tracker/sb-272/" />
 <meta property="og:image" content="https://firststatelens.com/assets/og-image.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
@@ -30,7 +30,7 @@
   "@type": "Dataset",
   "name": "Delaware Senate Bill 272 Tracker",
   "description": "A live tracker for Delaware Senate Bill 272 — project labor agreements for school construction: current status, sponsors, the full action timeline, and how each member voted, from Open States. Nonpartisan, source-traced.",
-  "url": "https://firststatelens.com/bill-tracker/",
+  "url": "https://firststatelens.com/bill-tracker/sb-272/",
   "isAccessibleForFree": true,
   "license": "https://firststatelens.com/",
   "inLanguage": "en-US",
@@ -292,6 +292,7 @@
     <div class="footer-links">
       <a href="https://legis.delaware.gov/BillDetail?LegislationId=143370" id="official-link">legis.delaware.gov (official source)</a>
       <a href="#" id="os-link">Open States — SB 272</a>
+      <a href="/bill-tracker/">Every bill this session</a>
       <a href="/">First State Lens home</a>
     </div>
     <div>First State Lens is a FirmSide AI Civic Analytics Lab project. Nonpartisan. Every figure is sourced to a public record. We show you the data; you decide.</div>
@@ -399,7 +400,7 @@
   async function load() {
     let b;
     try {
-      const r = await fetch("./data/bill.json", { cache: "no-cache" });
+      const r = await fetch("/bill-tracker/data/bill.json", { cache: "no-cache" });
       if (!r.ok) throw new Error("HTTP " + r.status);
       b = await r.json();
     } catch (e) {
