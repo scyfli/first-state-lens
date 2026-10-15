@@ -477,3 +477,24 @@ def test_ans_cnt_103_cli_forwards_force_seed(monkeypatch: pytest.MonkeyPatch, ca
     monkeypatch.setattr(pd, "seed", fake_seed)
     assert pd.main(["--seed", "--force-seed"]) == 0
     assert capsys.readouterr().out == "seed table\npage_dates: 0 files changed\n"
+
+
+def test_ans_cnt_103_cli_lists_all_outputs_without_writing(
+    monkeypatch: pytest.MonkeyPatch, capsys: pytest.CaptureFixture[str],
+) -> None:
+    def refuse_writes(*args: object, **kwargs: object) -> None:
+        pytest.fail("--list-outputs must not write or seed")
+
+    monkeypatch.setattr(pd, "run", refuse_writes)
+    monkeypatch.setattr(pd, "seed", refuse_writes)
+    assert pd.main(["--list-outputs"]) == 0
+    files = capsys.readouterr().out.splitlines()
+    assert len(files) == len(set(files)) == 20
+    assert set(files) == {str(path.relative_to(ROOT)) for path in pd.plan_updates()}
+
+
+@pytest.mark.parametrize("flags", [["--seed"], ["--force-seed"], ["--seed", "--force-seed"]])
+def test_ans_cnt_103_list_outputs_rejects_seed_options(flags: list[str]) -> None:
+    with pytest.raises(SystemExit) as exc:
+        pd.main(["--list-outputs", *flags])
+    assert exc.value.code == 2

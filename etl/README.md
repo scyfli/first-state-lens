@@ -78,6 +78,22 @@ python -m etl.run_etl --dry-run
 
 **Note on Windows + heavy geo deps:** `geopandas`, `tobler`, `pyproj`, and `shapely` carry GDAL native bindings that can be painful to install on Windows. The transforms in `etl/transforms/apportion.py` import these lazily; tests that need them use `pytest.importorskip` so the smoke suite still runs on a Windows dev box (apportion tests skip cleanly). GitHub Actions Linux runners handle the full requirements cleanly and run every test.
 
+## Priority page dates
+
+`etl/pages/page_dates.py` tracks changes to the main content and registered data of
+18 priority pages. It keeps their visible update dates, `page-dates.json`, and
+the sitemap dates in sync, ignoring declared run timestamps.
+
+After editing a priority page or its data, run `python -m etl.pages.page_dates`
+after all page builders. Commit `page-dates.json`, `sitemap.xml`, and any stamped
+pages along with your edits. `python -m etl.pages.page_dates --list-outputs` lists
+every file the tool can write. Refresh workflows use `scripts/publish-refresh.sh`
+to do this before committing and again after rebasing a rejected push.
+
+To seed dates from full Git history, run `python -m etl.pages.page_dates --seed`.
+If `page-dates.json` already exists, reseed explicitly with
+`python -m etl.pages.page_dates --seed --force-seed`. Review and commit the outputs.
+
 ## Running in CI
 
 `.github/workflows/dgi-etl.yml` runs two jobs:

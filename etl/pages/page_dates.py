@@ -530,9 +530,15 @@ def seed(root: Path = ROOT, registry: Mapping[str, PageSpec] = REGISTRY,
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--list-outputs", action="store_true", help="List every writable file, one per line, without writing")
     parser.add_argument("--seed", action="store_true", help="Replay full git history for initial content dates")
     parser.add_argument("--force-seed", action="store_true", help="Permit --seed to replace page-dates.json")
     args = parser.parse_args(argv)
+    if args.list_outputs:
+        if args.seed or args.force_seed:
+            parser.error("--list-outputs cannot be combined with seed options")
+        print("\n".join(["page-dates.json", "sitemap.xml", *(spec.file for spec in REGISTRY.values())]))
+        return 0
     if args.force_seed and not args.seed:
         parser.error("--force-seed requires --seed")
     try:
