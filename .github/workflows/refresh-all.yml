@@ -37,6 +37,9 @@ jobs:
     name: Pull all sources + publish data
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    concurrency:
+      group: fsl-main-writers
+      cancel-in-progress: false
     permissions:
       contents: write
     steps:
@@ -124,15 +127,13 @@ jobs:
 
       - name: Commit refreshed data back to main
         if: github.event_name == 'schedule' || github.event.inputs.commit_data == 'true'
+        env:
+          REASON: ${{ github.event.inputs.reason || 'scheduled weekly refresh' }}
         run: |
           set -euxo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add schools/data schools/district schools/index.html spending/data water/data water/index.html water/system federal/data childcare/data votes/data campaign-finance/data reassessment/data inspections sitemap.xml road-safety spending/index.html
-          if git diff --cached --quiet; then
-            echo "No data changes to commit."
-            exit 0
-          fi
-          REASON="${{ github.event.inputs.reason || 'scheduled weekly refresh' }}"
-          git commit -m "refresh-all: dashboard data refresh (${REASON})"
-          git push origin HEAD:main
+          scripts/publish-refresh.sh "refresh-all: dashboard data refresh (${REASON})" \
+            schools/data schools/district schools/index.html spending/data water/data \
+            water/index.html water/system federal/data childcare/data votes/data \
+            campaign-finance/data reassessment/data inspections sitemap.xml road-safety spending/index.html

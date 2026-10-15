@@ -72,6 +72,9 @@ jobs:
     needs: smoke
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    concurrency:
+      group: fsl-main-writers
+      cancel-in-progress: false
     if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     permissions:
       contents: write
@@ -113,15 +116,10 @@ jobs:
             print(f\"{b['identifier']} ok: {len(b['sponsors'])} sponsors, {len(b['actions'])} actions, {len(b['votes'])} recorded vote(s)\")"
 
       - name: Commit refreshed data back to main (only when it changed)
+        env:
+          REASON: ${{ github.event.inputs.reason || 'scheduled weekly refresh' }}
         run: |
           set -euxo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add bill-tracker/data/
-          if git diff --cached --quiet; then
-            echo "No data changes this run — nothing to commit."
-            exit 0
-          fi
-          REASON="${{ github.event.inputs.reason || 'scheduled weekly refresh' }}"
-          git commit -m "Bill Tracker: refresh bill-tracker/data (${REASON})"
-          git push origin HEAD:main
+          scripts/publish-refresh.sh "Bill Tracker: refresh bill-tracker/data (${REASON})" bill-tracker/data/

@@ -85,6 +85,9 @@ jobs:
     needs: smoke-tests
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    concurrency:
+      group: fsl-main-writers
+      cancel-in-progress: false
     if: |
       github.event_name == 'schedule' ||
       (github.event_name == 'workflow_dispatch' &&
@@ -140,15 +143,10 @@ jobs:
         if: |
           github.event_name == 'workflow_dispatch' &&
           github.event.inputs.commit_data == 'true'
+        env:
+          REASON: ${{ github.event.inputs.reason }}
         run: |
           set -euxo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dgi-food-access/data/
-          if git diff --cached --quiet; then
-            echo "No data changes to commit."
-            exit 0
-          fi
-          REASON="${{ github.event.inputs.reason }}"
-          git commit -m "DGI ETL live run: refresh data/* (workflow_dispatch: ${REASON})"
-          git push origin HEAD:main
+          scripts/publish-refresh.sh "DGI ETL live run: refresh data/* (workflow_dispatch: ${REASON})" dgi-food-access/data/

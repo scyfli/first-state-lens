@@ -1,0 +1,21 @@
+name: Page dates (ANS-CNT-103)
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install "pytest>=8.0,<9"
+      - run: python -m pytest etl/tests/test_page_dates.py etl/tests/test_us_house_jsonld.py -q

@@ -25,6 +25,9 @@ jobs:
   bills:
     runs-on: ubuntu-latest
     timeout-minutes: 90
+    concurrency:
+      group: fsl-main-writers
+      cancel-in-progress: false
     permissions:
       contents: write
     steps:
@@ -49,8 +52,4 @@ jobs:
           set -euxo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add bill-tracker/data bill-tracker/index.html
-          git diff --cached --quiet && { echo "No changes."; exit 0; }
-          git commit -m "bills-weekly: session bill list refresh"
-          git pull --rebase origin main
-          git push origin HEAD:main
+          scripts/publish-refresh.sh "bills-weekly: session bill list refresh" bill-tracker/data bill-tracker/index.html
