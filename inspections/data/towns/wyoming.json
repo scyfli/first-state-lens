@@ -67,29 +67,6 @@
        "description": "Handwashing Signage"
       }
      ]
-    },
-    {
-     "date": "2024-10-11",
-     "type": "Follow-up",
-     "violations": []
-    },
-    {
-     "date": "2024-10-08",
-     "type": "Complaint",
-     "violations": [
-      {
-       "code": "4-602.13",
-       "description": "Nonfood Contact Surfaces"
-      },
-      {
-       "code": "6-501.111",
-       "description": "Controlling Pests"
-      },
-      {
-       "code": "8-404.11",
-       "description": "Ceasing Operations and Reporting"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -188,6 +165,24 @@
    "id": "e0d555fc3b",
    "inspections": [
     {
+     "date": "2026-10-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "3-603.11",
+       "description": "Consumption of Animal Foods that are Raw, Undercooked, or Not Otherwise Processed to Eliminate Pathogens"
+      }
+     ]
+    },
+    {
      "date": "2026-03-18",
      "type": "Routine",
      "violations": [
@@ -246,32 +241,6 @@
       {
        "code": "4-204.112",
        "description": "Temperature Measuring Devices-Functionality"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-02",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-401.11",
-       "description": "Eating, Drinking, or Using Tobacco"
-      },
-      {
-       "code": "3-302.12",
-       "description": "Food Storage Containers Identified with Common Name of Food"
-      },
-      {
-       "code": "3-305.11",
-       "description": "Food Storage-Preventing Contamination from the Premises"
-      },
-      {
-       "code": "5-205.11",
-       "description": "Using a Handwashing Sink-Operation and Maintenance"
-      },
-      {
-       "code": "6-501.14",
-       "description": "Cleaning Ventilation Systems, Nuisance and Discharge Prohibition"
       }
      ]
     }
@@ -1517,44 +1486,6 @@
      "date": "2024-10-17",
      "type": "Follow-up",
      "violations": []
-    },
-    {
-     "date": "2024-10-03",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-103.11",
-       "description": "Person-In-Charge-Duties"
-      },
-      {
-       "code": "2-501.11",
-       "description": "Clean-up of Vomiting and Diarrheal Events"
-      },
-      {
-       "code": "3-304.12",
-       "description": "In-Use Utensils, Between-Use Storage"
-      },
-      {
-       "code": "3-305.11",
-       "description": "Food Storage-Preventing Contamination from the Premises"
-      },
-      {
-       "code": "3-501.17",
-       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
-      },
-      {
-       "code": "3-501.18",
-       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Disposition"
-      },
-      {
-       "code": "5-202.12",
-       "description": "Handwashing Sinks, Installation"
-      },
-      {
-       "code": "6-301.11",
-       "description": "Handwashing Cleanser, Availability"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -1772,11 +1703,6 @@
        "description": "Conformance with Approved Procedures"
       }
      ]
-    },
-    {
-     "date": "2024-10-02",
-     "type": "Follow-up",
-     "violations": []
     }
    ],
    "mobile": false,
@@ -2536,8 +2462,76 @@
   {
    "address": null,
    "city": "Wyoming",
+   "id": "1edd9d4df0",
+   "inspections": [
+    {
+     "date": "2026-10-01",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      }
+     ]
+    },
+    {
+     "date": "2026-09-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      }
+     ]
+    }
+   ],
+   "mobile": true,
+   "name": "Travelin Toms of Centreville (MOB)",
+   "zip": null
+  },
+  {
+   "address": null,
+   "city": "Wyoming",
    "id": "dd42c94a82",
    "inspections": [
+    {
+     "date": "2026-09-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "4-101.16",
+       "description": "Sponges Use Limitation"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      }
+     ]
+    },
     {
      "date": "2025-10-14",
      "type": "Routine",
@@ -2765,7 +2759,7 @@
   {
    "address": "Rt 52",
    "city": "Wyoming",
-   "id": "91b486e275",
+   "id": "3349f29365",
    "inspections": [
     {
      "date": "2026-03-10",
@@ -2793,7 +2787,7 @@
     }
    ],
    "mobile": false,
-   "name": "WINTERTHUR PAVILLION CAF� - Compass Group USA Inc",
+   "name": "WINTERTHUR PAVILLION CAF - Compass Group USA Inc",
    "zip": "19735"
   },
   {
@@ -2920,6 +2914,6 @@
   }
  ],
  "slug": "wyoming",
- "source_updated": "2026-10-09",
+ "source_updated": "2026-10-16",
  "town": "Wyoming"
 }

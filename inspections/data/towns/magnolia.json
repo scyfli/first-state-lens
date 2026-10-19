@@ -954,6 +954,26 @@
    "zip": "19962"
   },
   {
+   "address": "11 E Walnut St",
+   "city": "Magnolia",
+   "id": "6632314e1d",
+   "inspections": [
+    {
+     "date": "2026-10-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "McIlvaine Early Childhood Center - Caesar Rodney S",
+   "zip": "19962"
+  },
+  {
    "address": "37 Petition Lane",
    "city": "Magnolia",
    "id": "dbeafffab8",
@@ -1048,6 +1068,6 @@
   }
  ],
  "slug": "magnolia",
- "source_updated": "2026-10-09",
+ "source_updated": "2026-10-16",
  "town": "Magnolia"
 }

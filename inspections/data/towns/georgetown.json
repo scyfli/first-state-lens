@@ -1,6 +1,26 @@
 {
  "establishments": [
   {
+   "address": "18066 Deer Forest Rd",
+   "city": "Georgetown",
+   "id": "f4ef8376e2",
+   "inspections": [
+    {
+     "date": "2026-09-25",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "2nd To None",
+   "zip": "19947"
+  },
+  {
    "address": "21179 College Drive",
    "city": "Georgetown",
    "id": "721997d0c4",
@@ -163,6 +183,28 @@
    "city": "Georgetown",
    "id": "eb81e177d5",
    "inspections": [
+    {
+     "date": "2026-10-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.16",
+       "description": "Using Clean Tableware for Second Portions and Refills"
+      },
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    },
     {
      "date": "2025-01-09",
      "type": "Routine",
@@ -1228,7 +1270,7 @@
   {
    "address": "664 N Bedford St",
    "city": "Georgetown",
-   "id": "d786730c7c",
+   "id": "c1dd07903e",
    "inspections": [
     {
      "date": "2025-03-17",
@@ -1242,7 +1284,7 @@
     }
    ],
    "mobile": false,
-   "name": "North Georgetown Elementary-� - Indian River Sch",
+   "name": "North Georgetown Elementary- - Indian River Schoo",
    "zip": "19947"
   },
   {
@@ -1538,6 +1580,32 @@
    "city": "Georgetown",
    "id": "49dd8c63e5",
    "inspections": [
+    {
+     "date": "2026-10-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      }
+     ]
+    },
     {
      "date": "2026-02-26",
      "type": "Routine",
@@ -2129,6 +2197,6 @@
   }
  ],
  "slug": "georgetown",
- "source_updated": "2026-10-09",
+ "source_updated": "2026-10-16",
  "town": "Georgetown"
 }

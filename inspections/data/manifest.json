@@ -1,22 +1,25 @@
 {
  "dashboard": "inspections",
  "dates_after_source_update": [
+  "2026-10-19",
+  "2026-10-20",
+  "2026-10-21",
   "2026-11-18",
   "2026-12-03"
  ],
- "generated_at": "2026-10-14T19:10:08Z",
+ "generated_at": "2026-10-19T16:29:36Z",
  "row_counts": {
-  "establishments": 3716,
-  "inspections": 9137,
-  "rows_after_source_update": 10,
+  "establishments": 3732,
+  "inspections": 9190,
+  "rows_after_source_update": 55,
   "rows_before_window": 0,
-  "rows_in": 33459,
+  "rows_in": 33519,
   "rows_incomplete": 0,
-  "rows_used": 33449,
+  "rows_used": 33464,
   "towns": 55,
-  "violations": 32530
+  "violations": 32516
  },
- "rows_updated_at": "2026-10-09T07:31:10Z",
+ "rows_updated_at": "2026-10-16T07:31:11Z",
  "source": {
   "api": "https://data.delaware.gov/resource/384s-wygj.json",
   "dataset": "384s-wygj",
@@ -26,7 +29,7 @@
   "publishing": "Weekly; the state keeps about the past two years",
   "url": "https://data.delaware.gov/Health/Food-Establishment-Inspection-Violations/384s-wygj"
  },
- "source_updated": "2026-10-09",
+ "source_updated": "2026-10-16",
  "towns": [
   {
    "establishments": 95,
@@ -44,7 +47,7 @@
    "town": "Bridgeville"
   },
   {
-   "establishments": 42,
+   "establishments": 43,
    "slug": "camden",
    "town": "Camden"
   },
@@ -59,7 +62,7 @@
    "town": "Cheswold"
   },
   {
-   "establishments": 40,
+   "establishments": 39,
    "slug": "claymont",
    "town": "Claymont"
   },
@@ -129,7 +132,7 @@
    "town": "Frederica"
   },
   {
-   "establishments": 56,
+   "establishments": 57,
    "slug": "georgetown",
    "town": "Georgetown"
   },
@@ -159,7 +162,7 @@
    "town": "Hartly"
   },
   {
-   "establishments": 45,
+   "establishments": 44,
    "slug": "hockessin",
    "town": "Hockessin"
   },
@@ -189,7 +192,7 @@
    "town": "Little Creek"
   },
   {
-   "establishments": 11,
+   "establishments": 12,
    "slug": "magnolia",
    "town": "Magnolia"
   },
@@ -199,17 +202,17 @@
    "town": "Marydel"
   },
   {
-   "establishments": 169,
+   "establishments": 173,
    "slug": "middletown",
    "town": "Middletown"
   },
   {
-   "establishments": 128,
+   "establishments": 127,
    "slug": "milford",
    "town": "Milford"
   },
   {
-   "establishments": 105,
+   "establishments": 104,
    "slug": "millsboro",
    "town": "Millsboro"
   },
@@ -224,12 +227,12 @@
    "town": "Milton"
   },
   {
-   "establishments": 233,
+   "establishments": 236,
    "slug": "new-castle",
    "town": "New Castle"
   },
   {
-   "establishments": 430,
+   "establishments": 434,
    "slug": "newark",
    "town": "Newark"
   },
@@ -259,22 +262,22 @@
    "town": "Port Penn"
   },
   {
-   "establishments": 207,
+   "establishments": 206,
    "slug": "rehoboth-beach",
    "town": "Rehoboth Beach"
   },
   {
-   "establishments": 62,
+   "establishments": 63,
    "slug": "seaford",
    "town": "Seaford"
   },
   {
-   "establishments": 59,
+   "establishments": 60,
    "slug": "selbyville",
    "town": "Selbyville"
   },
   {
-   "establishments": 65,
+   "establishments": 66,
    "slug": "smyrna",
    "town": "Smyrna"
   },
@@ -289,7 +292,7 @@
    "town": "Townsend"
   },
   {
-   "establishments": 976,
+   "establishments": 979,
    "slug": "wilmington",
    "town": "Wilmington"
   },
@@ -299,15 +302,15 @@
    "town": "Woodside"
   },
   {
-   "establishments": 46,
+   "establishments": 47,
    "slug": "wyoming",
    "town": "Wyoming"
   }
  ],
  "window": {
-  "date_max": "2026-10-07",
-  "date_min": "2024-10-01",
-  "start": "2023-10-09",
+  "date_max": "2026-10-16",
+  "date_min": "2024-10-14",
+  "start": "2023-10-16",
   "years": 3
  }
 }

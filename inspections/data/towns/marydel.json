@@ -343,9 +343,9 @@
    "zip": "19964"
   },
   {
-   "address": "377 Halltown Road",
+   "address": null,
    "city": "Marydel",
-   "id": "49d3ab632e",
+   "id": "ce40b602b2",
    "inspections": [
     {
      "date": "2026-07-14",
@@ -358,9 +358,9 @@
      ]
     }
    ],
-   "mobile": false,
-   "name": "Sheris Sweets N More",
-   "zip": "19964"
+   "mobile": true,
+   "name": "Sheris Sweets N More (MOB)",
+   "zip": null
   },
   {
    "address": "377 Halltown Road",
@@ -560,6 +560,6 @@
   }
  ],
  "slug": "marydel",
- "source_updated": "2026-10-09",
+ "source_updated": "2026-10-16",
  "town": "Marydel"
 }

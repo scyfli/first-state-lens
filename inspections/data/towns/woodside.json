@@ -160,6 +160,20 @@
    "id": "2b087573bf",
    "inspections": [
     {
+     "date": "2026-10-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      }
+     ]
+    },
+    {
      "date": "2025-03-03",
      "type": "Routine",
      "violations": [
@@ -180,6 +194,6 @@
   }
  ],
  "slug": "woodside",
- "source_updated": "2026-10-09",
+ "source_updated": "2026-10-16",
  "town": "Woodside"
 }

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-14T18:59:47Z",
+  "generated_at": "2026-10-19T16:22:53Z",
   "acs_vintage": "2019-2023 5-year",
-  "total_providers": 1189,
-  "total_capacity": 67254,
+  "total_providers": 1190,
+  "total_capacity": 67262,
   "total_children_under_6": 66258,
   "statewide_children_per_slot": 0.99,
   "by_county": [
@@ -16,14 +16,14 @@
     {
       "county": "Kent",
       "providers": 214,
-      "capacity": 10401,
+      "capacity": 10403,
       "children_under_6": 13754,
       "children_per_slot": 1.32
     },
     {
       "county": "Sussex",
-      "providers": 232,
-      "capacity": 10360,
+      "providers": 233,
+      "capacity": 10366,
       "children_under_6": 13946,
       "children_per_slot": 1.35
     }
@@ -31,14 +31,14 @@
   "stars_distribution": [
     {
       "label": "Not Participating",
-      "count": 1111
-    },
-    {
-      "label": "Three Stars",
-      "count": 20
+      "count": 1113
     },
     {
       "label": "Five Stars",
+      "count": 19
+    },
+    {
+      "label": "Three Stars",
       "count": 19
     },
     {

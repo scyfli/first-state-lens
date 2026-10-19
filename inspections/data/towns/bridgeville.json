@@ -576,36 +576,6 @@
        "description": "Cleaning, Frequency and Restrictions"
       }
      ]
-    },
-    {
-     "date": "2024-10-11",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-303.11",
-       "description": "Prohibition-Jewelry"
-      },
-      {
-       "code": "2-402.11",
-       "description": "Effectiveness-Hair Restraints"
-      },
-      {
-       "code": "3-304.12",
-       "description": "In-Use Utensils, Between-Use Storage"
-      },
-      {
-       "code": "5-501.113",
-       "description": "Covering Receptacles"
-      },
-      {
-       "code": "6-501.11",
-       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
-      },
-      {
-       "code": "6-501.12",
-       "description": "Cleaning, Frequency and Restrictions"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -686,6 +656,6 @@
   }
  ],
  "slug": "bridgeville",
- "source_updated": "2026-10-09",
+ "source_updated": "2026-10-16",
  "town": "Bridgeville"
 }

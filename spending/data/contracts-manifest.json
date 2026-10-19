@@ -1,18 +1,18 @@
 {
   "coverage": {
     "first_month": "2022-07",
-    "last_month": "2026-07",
-    "rows": 22102,
-    "spend": 1293229154.14
+    "last_month": "2026-09",
+    "rows": 22527,
+    "spend": 1313535018.08
   },
   "dashboard": "spending-contracts",
   "fiscal_year": 2026,
-  "generated_at": "2026-10-14T17:32:08Z",
+  "generated_at": "2026-10-19T16:29:24Z",
   "row_counts": {
     "contracts_in_fiscal_year": 211,
-    "source_rows": 22102,
-    "table_rows": 552,
-    "vendors_in_fiscal_year": 475
+    "source_rows": 22527,
+    "table_rows": 556,
+    "vendors_in_fiscal_year": 480
   },
   "source": {
     "api": "https://data.delaware.gov/resource/sifm-293u.json",
@@ -20,7 +20,7 @@
     "license": "Public Domain",
     "name": "Statewide Central Contract Spend",
     "publisher": "Office of Management and Budget (OMB), Government Support Services (GSS)",
-    "rows_updated": "2026-09-16",
+    "rows_updated": "2026-10-15",
     "url": "https://data.delaware.gov/Government-and-Finance/Statewide-Central-Contract-Spend/sifm-293u"
   }
 }

@@ -8,8 +8,8 @@
     "hash": "548ec76e1c6d70090185f02e5d190b0f5020ce53b1c95c610e248b00a99b036d"
   },
   "/campaign-finance/": {
-    "date": "2026-10-12",
-    "hash": "44e623449033e460e84058cb7c139248ca6238380bdc1be17ab7da3246d37bb0"
+    "date": "2026-10-19",
+    "hash": "b24719e1ba6752c51a5b876ba6cf046f6e8243693f3f87ce331ac0fb1491861c"
   },
   "/candidates/": {
     "date": "2026-10-16",
@@ -20,20 +20,20 @@
     "hash": "3f8df301baaa2351da452a8d0b6af3dcb19582b1fc0e1644e0cbd6a3b40365d9"
   },
   "/childcare/": {
-    "date": "2026-10-14",
-    "hash": "481b3bf903bc80404e71b57f330b058c7f88673bb3c065d950ec214ee537d9e7"
+    "date": "2026-10-19",
+    "hash": "54e4301bbcd974b59a0ab7e47be5c29a05916873d827ab19e8c3416cbc2db337"
   },
   "/dgi-food-access/": {
     "date": "2026-07-05",
     "hash": "4825785c91cd70b4c35bdbc5367f8a038621ea40e3503ab1582df62b49b1ac96"
   },
   "/federal/": {
-    "date": "2026-10-12",
-    "hash": "c981c958a9fea9f11f4421f8a839a1f3c8979f0a3a2dd4efbacb1adcd070a76c"
+    "date": "2026-10-19",
+    "hash": "4ce83c07b3d2967cf16dbe4b0efcfdc9bdb0299066ef04c169d56277101d7b58"
   },
   "/inspections/": {
-    "date": "2026-10-14",
-    "hash": "deb01e8aeb4d7f5686c0dff6a81a8a1840da71a3f7269755ab28f2a3a7f697c7"
+    "date": "2026-10-19",
+    "hash": "518d3cfe7efb71ac64bc9ae45227061697f5ff0b180f0696f93cf14e1dcd7cf8"
   },
   "/my-delaware/": {
     "date": "2026-10-14",
@@ -44,8 +44,8 @@
     "hash": "0fb22ad531b0298183ef7c5977a9d865a923035bbb5afae9dea5abfececd2fed"
   },
   "/reassessment/": {
-    "date": "2026-10-12",
-    "hash": "9e7f67f3eddbee6e7f0e06944e7198d80d0e20c0f21f14b0b4d034c329a7a9ea"
+    "date": "2026-10-19",
+    "hash": "2fcc645fe86c8b3203f95a278c213ba0b3cb0f039323fd357fb6056e4db8972f"
   },
   "/road-safety/": {
     "date": "2026-10-14",
@@ -56,16 +56,16 @@
     "hash": "a192fb5fb246dfef48100c08f6c3452cd0846c043512775362e76c1820796a7a"
   },
   "/spending/": {
-    "date": "2026-10-14",
-    "hash": "b44d7eb5cf1782139e749373e0ef010d07f12abfe6cf65c68fe494bd2638e325"
+    "date": "2026-10-19",
+    "hash": "310382e5641cc7074554945956e52ae3eccaffd1aba12b0fb13bbc7ea5df8195"
   },
   "/vote/": {
     "date": "2026-10-05",
     "hash": "9bf2a11a2abd03681b30c7836a24c35075115edee47fb52a2b0795803c76f786"
   },
   "/votes/": {
-    "date": "2026-10-12",
-    "hash": "b341683d2d48b2edd5c7a1503ce5f1ce1c97eeba35db9200a0170d0456407246"
+    "date": "2026-10-19",
+    "hash": "4a14a17b24c19c6c7f5eb82997d9d681cab24f88c8d979246642e99193013158"
   },
   "/water/": {
     "date": "2026-10-14",

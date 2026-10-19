@@ -21,6 +21,34 @@
    "zip": "19950"
   },
   {
+   "address": "12712 Sussex Highway",
+   "city": "Greenwood",
+   "id": "6aa7238377",
+   "inspections": [
+    {
+     "date": "2026-10-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "DELADASH #279",
+   "zip": "19950"
+  },
+  {
    "address": "12418 Sussex Hwy",
    "city": "Greenwood",
    "id": "91f891945c",
@@ -68,26 +96,6 @@
    ],
    "mobile": false,
    "name": "Greenwood CHEER Senior Center - CHEER Inc",
-   "zip": "19950"
-  },
-  {
-   "address": "12802 Mennonite School Rd",
-   "city": "Greenwood",
-   "id": "208a7548ac",
-   "inspections": [
-    {
-     "date": "2024-10-07",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "6-201.11",
-       "description": "Floors, Walls and Ceilings-Cleanability"
-      }
-     ]
-    }
-   ],
-   "mobile": false,
-   "name": "Greenwood Mennonite School",
    "zip": "19950"
   },
   {
@@ -338,6 +346,20 @@
    "id": "1b88971244",
    "inspections": [
     {
+     "date": "2026-10-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-101.16",
+       "description": "Sponges Use Limitation"
+      },
+      {
+       "code": "6-101.11",
+       "description": "Surface Characteristics-Indoor Areas"
+      }
+     ]
+    },
+    {
      "date": "2026-04-02",
      "type": "Routine",
      "violations": [
@@ -386,6 +408,6 @@
   }
  ],
  "slug": "greenwood",
- "source_updated": "2026-10-09",
+ "source_updated": "2026-10-16",
  "town": "Greenwood"
 }

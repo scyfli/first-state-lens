@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-12T18:49:46Z",
+  "generated_at": "2026-10-19T16:22:51Z",
   "fiscal_year": 2026,
   "scope": "place_of_performance=DE",
   "scope_note": "Money spent in Delaware (place of performance), not money to Delaware-based recipients.",
   "counts": {
-    "contracts": 3571,
-    "grants": 1990,
-    "direct_payments": 2990,
+    "contracts": 3612,
+    "grants": 2009,
+    "direct_payments": 3009,
     "loans": 837,
     "idvs": 0,
-    "other": 500
+    "other": 508
   },
-  "total_awards": 9888,
+  "total_awards": 9975,
   "top_contracts": [
     {
       "recipient": "AGATE CONSTRUCTION COMPANY, INC.",
@@ -148,12 +148,6 @@
       "type": "BLOCK GRANT (A)"
     },
     {
-      "recipient": "DELAWARE VETERANS HOME",
-      "amount": 96095411.05,
-      "agency": "Department of Veterans Affairs",
-      "type": "FORMULA GRANT (A)"
-    },
-    {
       "recipient": "DEPARTMENT OF EDUCATION DELAWARE",
       "amount": 79398544.0,
       "agency": "Department of Agriculture",
@@ -194,6 +188,12 @@
       "amount": 60942492.0,
       "agency": "Department of Education",
       "type": "FORMULA GRANT (A)"
+    },
+    {
+      "recipient": "UNIVERSITY OF DELAWARE",
+      "amount": 56938161.0,
+      "agency": "Department of Health and Human Services",
+      "type": "COOPERATIVE AGREEMENT (B)"
     }
   ],
   "source": {

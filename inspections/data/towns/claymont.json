@@ -42,6 +42,20 @@
    "id": "a034e036a2",
    "inspections": [
     {
+     "date": "2026-10-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    },
+    {
      "date": "2025-03-19",
      "type": "Routine",
      "violations": [
@@ -749,8 +763,22 @@
   {
    "address": "3224 Philadelphia Pike",
    "city": "Claymont",
-   "id": "ee39789b0e",
+   "id": "b37861f9c0",
    "inspections": [
+    {
+     "date": "2026-09-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
     {
      "date": "2026-01-21",
      "type": "Routine",
@@ -804,7 +832,7 @@
     }
    ],
    "mobile": false,
-   "name": "Dunkin Donuts",
+   "name": "Dunkin Donuts- Bindiya",
    "zip": "19703"
   },
   {
@@ -1140,7 +1168,7 @@
   {
    "address": "2616 Philadelphia Pike Suite E",
    "city": "Claymont",
-   "id": "b60ee96ade",
+   "id": "139dcd4722",
    "inspections": [
     {
      "date": "2025-08-18",
@@ -1166,7 +1194,7 @@
     }
    ],
    "mobile": false,
-   "name": "Los Cocteles (Claymont Ice Cream Shop) - P & J Fla",
+   "name": "Los Cocteles Claymont Ice Cream Shop - P & J Flavo",
    "zip": "19703"
   },
   {
@@ -1308,38 +1336,28 @@
    "zip": null
   },
   {
-   "address": "100 Maple Lane",
+   "address": "2702 Philadelphia Pike",
    "city": "Claymont",
-   "id": "2f2a560df3",
+   "id": "d649fc698e",
    "inspections": [
     {
-     "date": "2024-10-01",
+     "date": "2026-10-07",
      "type": "Routine",
      "violations": [
       {
-       "code": "4-501.114",
-       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
       },
       {
-       "code": "6-202.15",
-       "description": "Outer Openings, Protected"
+       "code": "6-501.16",
+       "description": "Drying Mops"
       },
       {
-       "code": "6-501.111",
-       "description": "Controlling Pests"
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
       }
      ]
-    }
-   ],
-   "mobile": false,
-   "name": "Maple Lane Elementary School - Brandywine School D",
-   "zip": "19703"
-  },
-  {
-   "address": "2702 Philadelphia Pike",
-   "city": "Claymont",
-   "id": "ce545e5199",
-   "inspections": [
+    },
     {
      "date": "2026-08-15",
      "type": "Routine",
@@ -1384,7 +1402,7 @@
     }
    ],
    "mobile": false,
-   "name": "Mcdonalds Family Restaurant",
+   "name": "Mcdonalds Family Restaurant-2702 Philadelphia Pik",
    "zip": "19703"
   },
   {
@@ -1571,6 +1589,16 @@
    "id": "69ebb6e27b",
    "inspections": [
     {
+     "date": "2026-09-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
+    {
      "date": "2026-05-29",
      "type": "Routine",
      "violations": [
@@ -1632,6 +1660,28 @@
    "city": "Claymont",
    "id": "ed99cf5b17",
    "inspections": [
+    {
+     "date": "2026-10-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "5-501.17",
+       "description": "Toilet Room Receptacle, Covered"
+      }
+     ]
+    },
     {
      "date": "2026-05-14",
      "type": "Routine",
@@ -1806,6 +1856,6 @@
   }
  ],
  "slug": "claymont",
- "source_updated": "2026-10-09",
+ "source_updated": "2026-10-16",
  "town": "Claymont"
 }

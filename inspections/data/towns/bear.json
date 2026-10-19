@@ -202,6 +202,46 @@
    "id": "ecd0c2170b",
    "inspections": [
     {
+     "date": "2026-10-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "5-501.17",
+       "description": "Toilet Room Receptacle, Covered"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-401.11",
+       "description": "Eating, Drinking, or Using Tobacco"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "5-501.17",
+       "description": "Toilet Room Receptacle, Covered"
+      }
+     ]
+    },
+    {
      "date": "2025-01-09",
      "type": "Routine",
      "violations": [
@@ -428,6 +468,52 @@
    "mobile": false,
    "name": "Bob Evans Restaurant #300 - Bob Evans Restaurants",
    "zip": "19701"
+  },
+  {
+   "address": null,
+   "city": "Bear",
+   "id": "97577d0c91",
+   "inspections": [
+    {
+     "date": "2026-10-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-01",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    }
+   ],
+   "mobile": true,
+   "name": "Bongos Ice Cream and Crepes (mob)",
+   "zip": null
   },
   {
    "address": "155 Honora Drive",
@@ -819,44 +905,6 @@
    "zip": "19701"
   },
   {
-   "address": "200 Buckley Blvd",
-   "city": "Bear",
-   "id": "71115d3077",
-   "inspections": [
-    {
-     "date": "2026-01-13",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "6-303.11",
-       "description": "Intensity-Lighting"
-      },
-      {
-       "code": "6-501.114",
-       "description": "Maintaining Premises, Unnecessary Items and Litter"
-      }
-     ]
-    },
-    {
-     "date": "2025-02-27",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "5-205.11",
-       "description": "Using a Handwashing Sink-Operation and Maintenance"
-      },
-      {
-       "code": "6-201.11",
-       "description": "Floors, Walls and Ceilings-Cleanability"
-      }
-     ]
-    }
-   ],
-   "mobile": false,
-   "name": "Dairy Queen - Bear - Fisk Jordan Enterprises LLC -",
-   "zip": "19701"
-  },
-  {
    "address": "797 Pulaski Highway Suite A",
    "city": "Bear",
    "id": "785be8596a",
@@ -1032,6 +1080,62 @@
    "id": "d7bcda7b73",
    "inspections": [
     {
+     "date": "2026-10-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
+    {
+     "date": "2026-09-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
+    {
      "date": "2026-02-27",
      "type": "Routine",
      "violations": [
@@ -1066,28 +1170,12 @@
    "id": "9bebdf6f2f",
    "inspections": [
     {
-     "date": "2026-10-03",
+     "date": "2026-10-05",
      "type": "Routine",
      "violations": [
       {
        "code": "3-305.13",
        "description": "Vended Time/Temperature Control for Safety Food, Original Container"
-      },
-      {
-       "code": "3-501.17",
-       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
-      },
-      {
-       "code": "4-302.14",
-       "description": "Sanitizing Solutions, Testing Devices"
-      },
-      {
-       "code": "4-601.11",
-       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
-      },
-      {
-       "code": "8-301.11",
-       "description": "Prerequisite for Operation"
       }
      ]
     },
@@ -1264,16 +1352,12 @@
    "id": "4b092f7496",
    "inspections": [
     {
-     "date": "2026-10-05",
+     "date": "2026-09-29",
      "type": "Routine",
      "violations": [
       {
        "code": "4-501.11",
        "description": "Good Repair and Proper Adjustment-Equipment"
-      },
-      {
-       "code": "8-301.11",
-       "description": "Prerequisite for Operation"
       }
      ]
     },
@@ -1587,16 +1671,8 @@
      "type": "Routine",
      "violations": [
       {
-       "code": "2-103.11",
-       "description": "Person-In-Charge-Duties"
-      },
-      {
        "code": "3-302.12",
        "description": "Food Storage Containers Identified with Common Name of Food"
-      },
-      {
-       "code": "3-501.17",
-       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
       },
       {
        "code": "4-101.19",
@@ -1693,6 +1769,11 @@
    "city": "Bear",
    "id": "e0f03771c4",
    "inspections": [
+    {
+     "date": "2026-09-25",
+     "type": "Routine",
+     "violations": []
+    },
     {
      "date": "2026-09-24",
      "type": "Routine",
@@ -2068,8 +2149,23 @@
   {
    "address": "1639 Pulaski Hwy",
    "city": "Bear",
-   "id": "19e9ecfd6c",
+   "id": "474c5e39ea",
    "inspections": [
+    {
+     "date": "2026-10-06",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2026-10-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
     {
      "date": "2024-12-10",
      "type": "Routine",
@@ -2086,7 +2182,7 @@
     }
    ],
    "mobile": false,
-   "name": "Los Volcanes",
+   "name": "Los Volcanes Mexican Restaurant",
    "zip": "19709"
   },
   {
@@ -2095,19 +2191,14 @@
    "id": "81141d6f73",
    "inspections": [
     {
-     "date": "2026-09-17",
-     "type": "Complaint",
+     "date": "2026-09-28",
+     "type": "Routine",
      "violations": []
     },
     {
-     "date": "2026-03-10",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "6-501.111",
-       "description": "Controlling Pests"
-      }
-     ]
+     "date": "2026-09-17",
+     "type": "Complaint",
+     "violations": []
     },
     {
      "date": "2026-03-06",
@@ -2319,28 +2410,25 @@
    "id": "bdefba29c0",
    "inspections": [
     {
+     "date": "2026-10-08",
+     "type": "Routine",
+     "violations": []
+    },
+    {
      "date": "2026-05-04",
      "type": "Routine",
      "violations": [
       {
-       "code": "2-301.14",
-       "description": "When to Wash"
-      },
-      {
-       "code": "2-301.15",
-       "description": "Where to Wash"
-      },
-      {
-       "code": "2-401.11",
-       "description": "Eating, Drinking, or Using Tobacco"
-      },
-      {
-       "code": "3-302.11",
-       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
-      },
-      {
        "code": "3-302.12",
        "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-305.14",
+       "description": "Food Preparation"
       },
       {
        "code": "3-501.13",
@@ -2351,8 +2439,8 @@
        "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
       },
       {
-       "code": "4-204.112",
-       "description": "Temperature Measuring Devices-Functionality"
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
       },
       {
        "code": "4-601.11",
@@ -2371,8 +2459,8 @@
        "description": "Using a Handwashing Sink-Operation and Maintenance"
       },
       {
-       "code": "7-301.11",
-       "description": "Separation-Storage and Display, Stock and Retail Sale"
+       "code": "5-501.16",
+       "description": "Storage Areas, Rooms and Receptacles, Capacity and Availability"
       }
      ]
     },
@@ -2680,11 +2768,6 @@
        "description": "Cleaning Ventilation Systems, Nuisance and Discharge Prohibition"
       }
      ]
-    },
-    {
-     "date": "2024-10-09",
-     "type": "Complaint",
-     "violations": []
     }
    ],
    "mobile": false,
@@ -2737,30 +2820,6 @@
    ],
    "mobile": false,
    "name": "Panda Chinese Restaurant",
-   "zip": "19701"
-  },
-  {
-   "address": "1120 Pulaski Hwy",
-   "city": "Bear",
-   "id": "8579e5ac75",
-   "inspections": [
-    {
-     "date": "2024-10-01",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-501.18",
-       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Disposition"
-      },
-      {
-       "code": "4-204.112",
-       "description": "Temperature Measuring Devices-Functionality"
-      }
-     ]
-    }
-   ],
-   "mobile": false,
-   "name": "PANDA EXPRESS - PANDA EXPRESS INC - #2634",
    "zip": "19701"
   },
   {
@@ -3480,10 +3539,6 @@
      "type": "Routine",
      "violations": [
       {
-       "code": "3-501.16",
-       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
-      },
-      {
        "code": "4-501.11",
        "description": "Good Repair and Proper Adjustment-Equipment"
       }
@@ -3703,18 +3758,9 @@
    "id": "a0ff6f8129",
    "inspections": [
     {
-     "date": "2026-03-13",
+     "date": "2026-10-02",
      "type": "Routine",
-     "violations": [
-      {
-       "code": "4-601.11",
-       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
-      },
-      {
-       "code": "6-501.111",
-       "description": "Controlling Pests"
-      }
-     ]
+     "violations": []
     },
     {
      "date": "2026-03-06",
@@ -3746,6 +3792,44 @@
    "zip": "19701"
   },
   {
+   "address": "200 Buckley Blvd",
+   "city": "Bear",
+   "id": "6c2005a759",
+   "inspections": [
+    {
+     "date": "2026-01-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-303.11",
+       "description": "Intensity-Lighting"
+      },
+      {
+       "code": "6-501.114",
+       "description": "Maintaining Premises, Unnecessary Items and Litter"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-27",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "Store 10450 G&C Bear LLC Dairy Queen - Fisk Jorda",
+   "zip": "19701"
+  },
+  {
    "address": "1225 Quintilio Drive",
    "city": "Bear",
    "id": "99846ffd7b",
@@ -3770,6 +3854,90 @@
    "city": "Bear",
    "id": "d02a534482",
    "inspections": [
+    {
+     "date": "2026-10-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      },
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "5-501.17",
+       "description": "Toilet Room Receptacle, Covered"
+      },
+      {
+       "code": "6-501.14",
+       "description": "Cleaning Ventilation Systems, Nuisance and Discharge Prohibition"
+      },
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-01",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      },
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "5-501.17",
+       "description": "Toilet Room Receptacle, Covered"
+      },
+      {
+       "code": "6-501.14",
+       "description": "Cleaning Ventilation Systems, Nuisance and Discharge Prohibition"
+      },
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
     {
      "date": "2026-03-20",
      "type": "Routine",
@@ -4308,7 +4476,21 @@
    "id": "422317331c",
    "inspections": [
     {
-     "date": "2026-01-28",
+     "date": "2026-10-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.110",
+       "description": "Mechanical Warewashing Equipment, Wash Solution Temperature"
+      },
+      {
+       "code": "4-501.112",
+       "description": "Mechanical Warewashing Equipment, Hot Water Sanitization Temperatures"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-06",
      "type": "Routine",
      "violations": [
       {
@@ -4386,6 +4568,6 @@
   }
  ],
  "slug": "bear",
- "source_updated": "2026-10-09",
+ "source_updated": "2026-10-16",
  "town": "Bear"
 }

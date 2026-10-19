@@ -566,109 +566,6 @@
    "zip": "19720"
   },
   {
-   "address": "285 Christiana Road",
-   "city": "New Castle",
-   "id": "85362829db",
-   "inspections": [
-    {
-     "date": "2025-12-26",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "5-205.11",
-       "description": "Using a Handwashing Sink-Operation and Maintenance"
-      },
-      {
-       "code": "6-301.12",
-       "description": "Hand Drying Provision"
-      },
-      {
-       "code": "6-501.12",
-       "description": "Cleaning, Frequency and Restrictions"
-      },
-      {
-       "code": "8-301.11",
-       "description": "Prerequisite for Operation"
-      }
-     ]
-    },
-    {
-     "date": "2025-12-16",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "5-205.11",
-       "description": "Using a Handwashing Sink-Operation and Maintenance"
-      },
-      {
-       "code": "6-301.12",
-       "description": "Hand Drying Provision"
-      },
-      {
-       "code": "6-501.12",
-       "description": "Cleaning, Frequency and Restrictions"
-      },
-      {
-       "code": "8-301.11",
-       "description": "Prerequisite for Operation"
-      }
-     ]
-    },
-    {
-     "date": "2025-03-06",
-     "type": "Follow-up",
-     "violations": []
-    },
-    {
-     "date": "2025-02-21",
-     "type": "Follow-up",
-     "violations": [
-      {
-       "code": "2-102.12",
-       "description": "Certified Food Protection Manager"
-      },
-      {
-       "code": "6-301.12",
-       "description": "Hand Drying Provision"
-      },
-      {
-       "code": "6-501.111",
-       "description": "Controlling Pests"
-      }
-     ]
-    },
-    {
-     "date": "2025-02-11",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-102.12",
-       "description": "Certified Food Protection Manager"
-      },
-      {
-       "code": "5-205.11",
-       "description": "Using a Handwashing Sink-Operation and Maintenance"
-      },
-      {
-       "code": "6-301.12",
-       "description": "Hand Drying Provision"
-      },
-      {
-       "code": "6-501.111",
-       "description": "Controlling Pests"
-      },
-      {
-       "code": "6-501.12",
-       "description": "Cleaning, Frequency and Restrictions"
-      }
-     ]
-    }
-   ],
-   "mobile": false,
-   "name": "Arm Enterprise",
-   "zip": "19720"
-  },
-  {
    "address": "300 Basin Rd",
    "city": "New Castle",
    "id": "525a458594",
@@ -844,6 +741,46 @@
    ],
    "mobile": false,
    "name": "Aunt Bertas Kitchen",
+   "zip": "19720"
+  },
+  {
+   "address": "531 Basin Road",
+   "city": "New Castle",
+   "id": "9c25f0caf1",
+   "inspections": [
+    {
+     "date": "2026-09-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.12",
+       "description": "Food Storage, Prohibited Areas"
+      },
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      },
+      {
+       "code": "4-502.11",
+       "description": "Good Repair and Calibration"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-201.15",
+       "description": "Floor Covering, Mats and Duckboards"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "Basin Market & Deli Inc",
    "zip": "19720"
   },
   {
@@ -1391,12 +1328,7 @@
     {
      "date": "2026-10-02",
      "type": "Routine",
-     "violations": [
-      {
-       "code": "5-202.12",
-       "description": "Handwashing Sinks, Installation"
-      }
-     ]
+     "violations": []
     },
     {
      "date": "2026-09-22",
@@ -1973,14 +1905,9 @@
    "id": "087bb21516",
    "inspections": [
     {
-     "date": "2026-09-08",
+     "date": "2026-09-29",
      "type": "Routine",
-     "violations": [
-      {
-       "code": "2-103.11",
-       "description": "Person-In-Charge-Duties"
-      }
-     ]
+     "violations": []
     },
     {
      "date": "2026-08-28",
@@ -2006,6 +1933,70 @@
    "city": "New Castle",
    "id": "67da97e9cc",
    "inspections": [
+    {
+     "date": "2026-10-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
     {
      "date": "2026-02-16",
      "type": "Routine",
@@ -2082,6 +2073,36 @@
    "id": "01821c6191",
    "inspections": [
     {
+     "date": "2026-09-25",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-301.14",
+       "description": "Handwashing Signage"
+      }
+     ]
+    },
+    {
      "date": "2024-10-30",
      "type": "Routine",
      "violations": [
@@ -2095,6 +2116,26 @@
    "mobile": false,
    "name": "Citibank",
    "zip": "19721"
+  },
+  {
+   "address": "12 Landers Lane",
+   "city": "New Castle",
+   "id": "187bd7cdc4",
+   "inspections": [
+    {
+     "date": "2026-10-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "Colwyck Elementary School - Colonial School Distri",
+   "zip": "19720"
   },
   {
    "address": "2180 New Castle Ave",
@@ -2992,10 +3033,6 @@
       {
        "code": "3-305.14",
        "description": "Food Preparation"
-      },
-      {
-       "code": "6-501.111",
-       "description": "Controlling Pests"
       }
      ]
     },
@@ -3505,16 +3542,6 @@
       {
        "code": "3-302.12",
        "description": "Food Storage Containers Identified with Common Name of Food"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-01",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "7-202.12",
-       "description": "Conditions of Use"
       }
      ]
     }
@@ -4358,28 +4385,12 @@
    "id": "57aa56e0ab",
    "inspections": [
     {
-     "date": "2026-10-03",
+     "date": "2026-10-02",
      "type": "Routine",
      "violations": [
       {
-       "code": "3-302.12",
-       "description": "Food Storage Containers Identified with Common Name of Food"
-      },
-      {
-       "code": "3-501.17",
-       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
-      },
-      {
        "code": "4-204.112",
        "description": "Temperature Measuring Devices-Functionality"
-      },
-      {
-       "code": "4-601.11",
-       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
-      },
-      {
-       "code": "8-301.11",
-       "description": "Prerequisite for Operation"
       }
      ]
     },
@@ -4609,6 +4620,24 @@
    "city": "New Castle",
    "id": "452dec9cef",
    "inspections": [
+    {
+     "date": "2026-09-25",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.110",
+       "description": "Mechanical Warewashing Equipment, Wash Solution Temperature"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    },
     {
      "date": "2025-05-07",
      "type": "Routine",
@@ -4975,7 +5004,12 @@
    "id": "75168aec25",
    "inspections": [
     {
-     "date": "2026-09-28",
+     "date": "2026-10-06",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2026-10-01",
      "type": "Routine",
      "violations": [
       {
@@ -6064,6 +6098,86 @@
    "city": "New Castle",
    "id": "fabc5b3074",
    "inspections": [
+    {
+     "date": "2026-10-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      }
+     ]
+    },
+    {
+     "date": "2026-09-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-501.13",
+       "description": "Thawing"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "3-501.18",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Disposition"
+      },
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "5-103.11",
+       "description": "Capacity-Quantity and Availability"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "5-501.17",
+       "description": "Toilet Room Receptacle, Covered"
+      },
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      }
+     ]
+    },
     {
      "date": "2026-01-05",
      "type": "Routine",
@@ -9204,16 +9318,6 @@
        "description": "Prerequisite for Operation"
       }
      ]
-    },
-    {
-     "date": "2024-10-02",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "5-202.12",
-       "description": "Handwashing Sinks, Installation"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -9568,7 +9672,7 @@
   {
    "address": "531 East Basin Road",
    "city": "New Castle",
-   "id": "d362e99c7d",
+   "id": "b7c8e3066f",
    "inspections": [
     {
      "date": "2025-09-18",
@@ -9715,7 +9819,7 @@
     }
    ],
    "mobile": false,
-   "name": "Quick Stop Mini Market",
+   "name": "Quick Stop Mini Market (Closed)",
    "zip": "19720"
   },
   {
@@ -10510,11 +10614,6 @@
        "description": "Restriction and Storage-Medicines"
       }
      ]
-    },
-    {
-     "date": "2024-10-03",
-     "type": "Follow-up",
-     "violations": []
     }
    ],
    "mobile": false,
@@ -10564,20 +10663,8 @@
        "description": "Food Storage Containers Identified with Common Name of Food"
       },
       {
-       "code": "3-501.17",
-       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
-      },
-      {
        "code": "4-204.112",
        "description": "Temperature Measuring Devices-Functionality"
-      },
-      {
-       "code": "4-302.14",
-       "description": "Sanitizing Solutions, Testing Devices"
-      },
-      {
-       "code": "4-601.11",
-       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
       },
       {
        "code": "4-601.11",
@@ -10586,10 +10673,6 @@
       {
        "code": "6-501.12",
        "description": "Cleaning, Frequency and Restrictions"
-      },
-      {
-       "code": "8-301.11",
-       "description": "Prerequisite for Operation"
       }
      ]
     },
@@ -11227,6 +11310,20 @@
    "id": "df1e65131f",
    "inspections": [
     {
+     "date": "2026-10-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    },
+    {
      "date": "2026-08-27",
      "type": "Routine",
      "violations": [
@@ -11235,20 +11332,8 @@
        "description": "Temperature Measuring Devices-Functionality"
       },
       {
-       "code": "4-204.112",
-       "description": "Temperature Measuring Devices-Functionality"
-      },
-      {
        "code": "4-501.11",
        "description": "Good Repair and Proper Adjustment-Equipment"
-      },
-      {
-       "code": "4-501.11",
-       "description": "Good Repair and Proper Adjustment-Equipment"
-      },
-      {
-       "code": "4-601.11",
-       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
       },
       {
        "code": "4-601.11",
@@ -11400,6 +11485,163 @@
    ],
    "mobile": false,
    "name": "Sunoco A plus - OM FUEL INC",
+   "zip": "19720"
+  },
+  {
+   "address": "285 Christiana Road",
+   "city": "New Castle",
+   "id": "4b06c2cbdb",
+   "inspections": [
+    {
+     "date": "2026-10-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-501.17",
+       "description": "Toilet Room Receptacle, Covered"
+      },
+      {
+       "code": "5-502.11",
+       "description": "Frequency-Removal"
+      },
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "5-501.17",
+       "description": "Toilet Room Receptacle, Covered"
+      },
+      {
+       "code": "5-502.11",
+       "description": "Frequency-Removal"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      },
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
+    {
+     "date": "2025-12-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
+    {
+     "date": "2025-03-06",
+     "type": "Follow-up",
+     "violations": []
+    },
+    {
+     "date": "2025-02-21",
+     "type": "Follow-up",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      }
+     ]
+    },
+    {
+     "date": "2025-02-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "Sunoco ARM ENTERPRISE",
    "zip": "19720"
   },
   {
@@ -11713,8 +11955,18 @@
   {
    "address": "150 South Dupont Highway",
    "city": "New Castle",
-   "id": "bcb3510bc9",
+   "id": "8995acbbf5",
    "inspections": [
+    {
+     "date": "2026-10-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
     {
      "date": "2025-03-11",
      "type": "Routine",
@@ -11793,7 +12045,7 @@
     }
    ],
    "mobile": false,
-   "name": "Suya House African Grill (NEW CASTLE)",
+   "name": "Suya House African Grill -NEW CASTLE",
    "zip": "19720"
   },
   {
@@ -12028,12 +12280,7 @@
     {
      "date": "2026-09-06",
      "type": "Routine",
-     "violations": [
-      {
-       "code": "4-302.14",
-       "description": "Sanitizing Solutions, Testing Devices"
-      }
-     ]
+     "violations": []
     },
     {
      "date": "2026-08-26",
@@ -12474,7 +12721,7 @@
    "id": "0039808f65",
    "inspections": [
     {
-     "date": "2026-09-27",
+     "date": "2026-09-25",
      "type": "Routine",
      "violations": [
       {
@@ -12482,20 +12729,8 @@
        "description": "Certified Food Protection Manager"
       },
       {
-       "code": "2-103.11",
-       "description": "Person-In-Charge-Duties"
-      },
-      {
        "code": "3-302.12",
        "description": "Food Storage Containers Identified with Common Name of Food"
-      },
-      {
-       "code": "4-303.11",
-       "description": null
-      },
-      {
-       "code": "8-301.11",
-       "description": "Prerequisite for Operation"
       }
      ]
     },
@@ -12584,24 +12819,6 @@
        "description": "Before Use After Cleaning"
       }
      ]
-    },
-    {
-     "date": "2024-10-02",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-501.13",
-       "description": "Thawing"
-      },
-      {
-       "code": "3-501.17",
-       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
-      },
-      {
-       "code": "5-205.11",
-       "description": "Using a Handwashing Sink-Operation and Maintenance"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -12683,7 +12900,7 @@
   {
    "address": "448 Moores Lane",
    "city": "New Castle",
-   "id": "6cdc4ab5ca",
+   "id": "a40d5f9cb7",
    "inspections": [
     {
      "date": "2025-11-05",
@@ -12701,7 +12918,7 @@
     }
    ],
    "mobile": false,
-   "name": "Three Ds Pizza - 3 D�s Pizza LLC",
+   "name": "Three Ds Pizza - 3 D s Pizza LLC",
    "zip": "19720"
   },
   {
@@ -12882,6 +13099,30 @@
    "zip": "19720"
   },
   {
+   "address": "701 E Basin Rd",
+   "city": "New Castle",
+   "id": "6e2dcc86c0",
+   "inspections": [
+    {
+     "date": "2026-10-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-501.11",
+       "description": "Clean-up of Vomiting and Diarrheal Events"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "Wallace Wallin School - Colonial School District",
+   "zip": "19720"
+  },
+  {
    "address": "1400 Beaver Brook Plz",
    "city": "New Castle",
    "id": "efb3075631",
@@ -12995,11 +13236,6 @@
        "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
       }
      ]
-    },
-    {
-     "date": "2024-10-02",
-     "type": "Follow-up",
-     "violations": []
     }
    ],
    "mobile": false,
@@ -13362,6 +13598,130 @@
    "id": "2b8220d923",
    "inspections": [
     {
+     "date": "2026-10-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-304.11",
+       "description": "Mechanical-Ventilation"
+      },
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-304.11",
+       "description": "Mechanical-Ventilation"
+      },
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
+    {
+     "date": "2026-09-25",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-304.11",
+       "description": "Mechanical-Ventilation"
+      },
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
+    {
      "date": "2025-10-09",
      "type": "Follow-up",
      "violations": [
@@ -13557,6 +13917,11 @@
    "id": "d6d9cda361",
    "inspections": [
     {
+     "date": "2026-09-25",
+     "type": "Routine",
+     "violations": []
+    },
+    {
      "date": "2026-09-04",
      "type": "Routine",
      "violations": [
@@ -13620,6 +13985,6 @@
   }
  ],
  "slug": "new-castle",
- "source_updated": "2026-10-09",
+ "source_updated": "2026-10-16",
  "town": "New Castle"
 }

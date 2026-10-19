@@ -113,36 +113,6 @@
        "description": "System Maintained in Good Repair"
       }
      ]
-    },
-    {
-     "date": "2024-10-01",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-102.12",
-       "description": "Certified Food Protection Manager"
-      },
-      {
-       "code": "3-101.11",
-       "description": "Safe, Unadulterated and Honestly Presented"
-      },
-      {
-       "code": "3-305.11",
-       "description": "Food Storage-Preventing Contamination from the Premises"
-      },
-      {
-       "code": "5-205.15",
-       "description": "System Maintained in Good Repair"
-      },
-      {
-       "code": "5-205.15",
-       "description": "System Maintained in Good Repair"
-      },
-      {
-       "code": "6-301.12",
-       "description": "Hand Drying Provision"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -235,7 +205,31 @@
   {
    "address": "17314 North Village Main Boulevard",
    "city": "Lewes",
-   "id": "b5bc49ea5f",
+   "id": "3cd033a1e9",
+   "inspections": [
+    {
+     "date": "2026-01-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.18",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Disposition"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "Arenas Caf 5 Points - Deli Days LLC",
+   "zip": "19958"
+  },
+  {
+   "address": "17314 North Village Main Boulevard",
+   "city": "Lewes",
+   "id": "e02ce3f9ae",
    "inspections": [
     {
      "date": "2025-02-04",
@@ -261,31 +255,7 @@
     }
    ],
    "mobile": false,
-   "name": "Arenas Caf+� 5 Points - Deli Days LLC",
-   "zip": "19958"
-  },
-  {
-   "address": "17314 North Village Main Boulevard",
-   "city": "Lewes",
-   "id": "ea0a24e97b",
-   "inspections": [
-    {
-     "date": "2026-01-23",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-501.18",
-       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Disposition"
-      },
-      {
-       "code": "4-501.11",
-       "description": "Good Repair and Proper Adjustment-Equipment"
-      }
-     ]
-    }
-   ],
-   "mobile": false,
-   "name": "Arenas Caf� 5 Points - Deli Days LLC",
+   "name": "Arenas Caf+ 5 Points - Deli Days LLC",
    "zip": "19958"
   },
   {
@@ -440,20 +410,6 @@
        "description": "Single-Service and Single-Use Articles-Use Limitations"
       }
      ]
-    },
-    {
-     "date": "2024-10-09",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-301.11",
-       "description": "Preventing Contamination from Hands"
-      },
-      {
-       "code": "4-501.12",
-       "description": "Cutting Surfaces"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -602,36 +558,6 @@
      "date": "2026-03-18",
      "type": "Routine",
      "violations": [
-      {
-       "code": "6-501.12",
-       "description": "Cleaning, Frequency and Restrictions"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-03",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-402.11",
-       "description": "Effectiveness-Hair Restraints"
-      },
-      {
-       "code": "3-302.12",
-       "description": "Food Storage Containers Identified with Common Name of Food"
-      },
-      {
-       "code": "3-305.11",
-       "description": "Food Storage-Preventing Contamination from the Premises"
-      },
-      {
-       "code": "4-903.11",
-       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
-      },
-      {
-       "code": "6-201.11",
-       "description": "Floors, Walls and Ceilings-Cleanability"
-      },
       {
        "code": "6-501.12",
        "description": "Cleaning, Frequency and Restrictions"
@@ -794,20 +720,6 @@
        "description": "Common Name-Working Containers"
       }
      ]
-    },
-    {
-     "date": "2024-10-01",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-305.11",
-       "description": "Food Storage-Preventing Contamination from the Premises"
-      },
-      {
-       "code": "6-301.14",
-       "description": "Handwashing Signage"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -826,20 +738,6 @@
       {
        "code": "4-501.11",
        "description": "Good Repair and Proper Adjustment-Equipment"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-03",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-307.11",
-       "description": "Miscellaneous Sources of Contamination"
-      },
-      {
-       "code": "5-205.15",
-       "description": "System Maintained in Good Repair"
       }
      ]
     }
@@ -1498,56 +1396,6 @@
       {
        "code": "3-602.11",
        "description": "Food Labels"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-03",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-102.12",
-       "description": "Certified Food Protection Manager"
-      },
-      {
-       "code": "2-301.14",
-       "description": "When to Wash"
-      },
-      {
-       "code": "2-303.11",
-       "description": "Prohibition-Jewelry"
-      },
-      {
-       "code": "2-402.11",
-       "description": "Effectiveness-Hair Restraints"
-      },
-      {
-       "code": "3-307.11",
-       "description": "Miscellaneous Sources of Contamination"
-      },
-      {
-       "code": "3-501.16",
-       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
-      },
-      {
-       "code": "3-602.11",
-       "description": "Food Labels"
-      },
-      {
-       "code": "4-601.11",
-       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
-      },
-      {
-       "code": "5-202.12",
-       "description": "Handwashing Sinks, Installation"
-      },
-      {
-       "code": "6-301.11",
-       "description": "Handwashing Cleanser, Availability"
-      },
-      {
-       "code": "6-301.12",
-       "description": "Hand Drying Provision"
       }
      ]
     }
@@ -2244,11 +2092,6 @@
        "description": "System Maintained in Good Repair"
       }
      ]
-    },
-    {
-     "date": "2024-10-01",
-     "type": "Follow-up",
-     "violations": []
     }
    ],
    "mobile": false,
@@ -2307,7 +2150,7 @@
   {
    "address": "108 2nd Street",
    "city": "Lewes",
-   "id": "441e9a0731",
+   "id": "9ed45e71a9",
    "inspections": [
     {
      "date": "2025-09-12",
@@ -2329,7 +2172,7 @@
     }
    ],
    "mobile": false,
-   "name": "Gaia Coffee Co",
+   "name": "Gaia Coffee Co - Lewes",
    "zip": "19958"
   },
   {
@@ -2683,11 +2526,6 @@
        "description": "Outer Openings, Protected"
       }
      ]
-    },
-    {
-     "date": "2024-10-09",
-     "type": "Follow-up",
-     "violations": []
     }
    ],
    "mobile": false,
@@ -3340,24 +3178,6 @@
        "description": "Intensity-Lighting"
       }
      ]
-    },
-    {
-     "date": "2024-10-03",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-402.11",
-       "description": "Effectiveness-Hair Restraints"
-      },
-      {
-       "code": "3-307.11",
-       "description": "Miscellaneous Sources of Contamination"
-      },
-      {
-       "code": "5-501.113",
-       "description": "Covering Receptacles"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -3439,7 +3259,7 @@
   {
    "address": "201 2nd St",
    "city": "Lewes",
-   "id": "f19af162e6",
+   "id": "f1b2386fb9",
    "inspections": [
     {
      "date": "2026-05-27",
@@ -3463,7 +3283,7 @@
     }
    ],
    "mobile": false,
-   "name": "Kings Homemade Ice Cream",
+   "name": "Kings Homemade Ice Cream - Lewes",
    "zip": "19958"
   },
   {
@@ -4193,28 +4013,6 @@
        "description": "Timely Correction"
       }
      ]
-    },
-    {
-     "date": "2024-10-01",
-     "type": "Follow-up",
-     "violations": [
-      {
-       "code": "3-305.15",
-       "description": "Food Preparation Sink"
-      },
-      {
-       "code": "5-205.15",
-       "description": "System Maintained in Good Repair"
-      },
-      {
-       "code": "6-501.16",
-       "description": "Drying Mops"
-      },
-      {
-       "code": "8-405.11",
-       "description": "Timely Correction"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -4392,20 +4190,6 @@
       {
        "code": "4-501.114",
        "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-03",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-102.12",
-       "description": "Certified Food Protection Manager"
-      },
-      {
-       "code": "4-302.14",
-       "description": "Sanitizing Solutions, Testing Devices"
       }
      ]
     }
@@ -5050,20 +4834,6 @@
        "description": "Single-Service and Single-Use Articles-Use Limitations"
       }
      ]
-    },
-    {
-     "date": "2024-10-09",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "4-502.13",
-       "description": "Single-Service and Single-Use Articles-Use Limitations"
-      },
-      {
-       "code": "5-205.15",
-       "description": "System Maintained in Good Repair"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -5283,10 +5053,126 @@
    "zip": "19958"
   },
   {
-   "address": "32882 Cedar Grove Rd",
+   "address": null,
    "city": "Lewes",
-   "id": "93550bda9e",
+   "id": "b7c08da75e",
    "inspections": [
+    {
+     "date": "2026-10-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "2-301.12",
+       "description": "Cleaning Procedure"
+      },
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-205.10",
+       "description": "Food Equipment, Certification and Classification"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "8-404.11",
+       "description": "Ceasing Operations and Reporting"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "2-301.12",
+       "description": "Cleaning Procedure"
+      },
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-205.10",
+       "description": "Food Equipment, Certification and Classification"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "8-404.11",
+       "description": "Ceasing Operations and Reporting"
+      }
+     ]
+    },
     {
      "date": "2025-10-30",
      "type": "Routine",
@@ -5298,9 +5184,9 @@
      ]
     }
    ],
-   "mobile": false,
-   "name": "Smash Mouth Burgers",
-   "zip": "19958"
+   "mobile": true,
+   "name": "Smash Mouth Burgers (MOB)",
+   "zip": null
   },
   {
    "address": "17232 North Village Main Boulevard",
@@ -6469,6 +6355,6 @@
   }
  ],
  "slug": "lewes",
- "source_updated": "2026-10-09",
+ "source_updated": "2026-10-16",
  "town": "Lewes"
 }

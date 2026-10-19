@@ -1024,6 +1024,40 @@
    "zip": "19971"
   },
   {
+   "address": "2009 Highway One",
+   "city": "Dewey Beach",
+   "id": "ee47a9b9ed",
+   "inspections": [
+    {
+     "date": "2026-04-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-301.11",
+       "description": "Preventing Contamination from Hands"
+      },
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      }
+     ]
+    },
+    {
+     "date": "2025-04-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "Starboard The - Starboard & Blues Group",
+   "zip": "19971"
+  },
+  {
    "address": "2300 Coastal Highway",
    "city": "Dewey Beach",
    "id": "74e17a5f2a",
@@ -1160,40 +1194,6 @@
    "zip": "19971"
   },
   {
-   "address": "2009 Highway One",
-   "city": "Dewey Beach",
-   "id": "cd5b6de547",
-   "inspections": [
-    {
-     "date": "2026-04-16",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-301.11",
-       "description": "Preventing Contamination from Hands"
-      },
-      {
-       "code": "3-307.11",
-       "description": "Miscellaneous Sources of Contamination"
-      }
-     ]
-    },
-    {
-     "date": "2025-04-17",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "4-501.114",
-       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
-      }
-     ]
-    }
-   ],
-   "mobile": false,
-   "name": "The Starboard - Starboard & Blues Group",
-   "zip": "19971"
-  },
-  {
    "address": "1808 Coastal Highway",
    "city": "Dewey Beach",
    "id": "9736118487",
@@ -1294,16 +1294,6 @@
       {
        "code": "7-102.11",
        "description": "Common Name-Working Containers"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-03",
-     "type": "Follow-up",
-     "violations": [
-      {
-       "code": "2-102.12",
-       "description": "Certified Food Protection Manager"
       }
      ]
     }
@@ -1418,6 +1408,6 @@
   }
  ],
  "slug": "dewey-beach",
- "source_updated": "2026-10-09",
+ "source_updated": "2026-10-16",
  "town": "Dewey Beach"
 }

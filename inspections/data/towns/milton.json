@@ -323,7 +323,7 @@
   {
    "address": "21232 Ironthrone Drive Unit 6",
    "city": "Milton",
-   "id": "8777f474ce",
+   "id": "fbc137c512",
    "inspections": [
     {
      "date": "2026-08-21",
@@ -337,7 +337,7 @@
     }
    ],
    "mobile": false,
-   "name": "Gaia Coffee Co",
+   "name": "Gaia Coffee Co - Milton",
    "zip": "19968"
   },
   {
@@ -1475,6 +1475,6 @@
   }
  ],
  "slug": "milton",
- "source_updated": "2026-10-09",
+ "source_updated": "2026-10-16",
  "town": "Milton"
 }

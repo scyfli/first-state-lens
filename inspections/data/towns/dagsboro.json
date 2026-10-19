@@ -126,28 +126,6 @@
        "description": "Timely Correction"
       }
      ]
-    },
-    {
-     "date": "2024-10-08",
-     "type": "Follow-up",
-     "violations": [
-      {
-       "code": "4-501.11",
-       "description": "Good Repair and Proper Adjustment-Equipment"
-      },
-      {
-       "code": "6-201.11",
-       "description": "Floors, Walls and Ceilings-Cleanability"
-      },
-      {
-       "code": "6-501.12",
-       "description": "Cleaning, Frequency and Restrictions"
-      },
-      {
-       "code": "8-405.11",
-       "description": "Timely Correction"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -184,11 +162,6 @@
        "description": "Handwashing Signage"
       }
      ]
-    },
-    {
-     "date": "2024-10-10",
-     "type": "Follow-up",
-     "violations": []
     }
    ],
    "mobile": false,
@@ -561,11 +534,6 @@
        "description": "Cleaning Ventilation Systems, Nuisance and Discharge Prohibition"
       }
      ]
-    },
-    {
-     "date": "2024-10-08",
-     "type": "Follow-up",
-     "violations": []
     }
    ],
    "mobile": false,
@@ -577,6 +545,24 @@
    "city": "Dagsboro",
    "id": "32e89b334a",
    "inspections": [
+    {
+     "date": "2026-10-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-502.11",
+       "description": "Good Repair and Calibration"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-305.11",
+       "description": "Designation-Dressing Areas and Lockers"
+      }
+     ]
+    },
     {
      "date": "2025-10-06",
      "type": "Follow-up",
@@ -767,6 +753,6 @@
   }
  ],
  "slug": "dagsboro",
- "source_updated": "2026-10-09",
+ "source_updated": "2026-10-16",
  "town": "Dagsboro"
 }

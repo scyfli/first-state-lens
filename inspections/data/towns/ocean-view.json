@@ -713,7 +713,7 @@
   {
    "address": "120 Atlantic Ave",
    "city": "Ocean View",
-   "id": "d202e50052",
+   "id": "4fd1f7e6de",
    "inspections": [
     {
      "date": "2026-04-28",
@@ -760,7 +760,7 @@
     }
    ],
    "mobile": false,
-   "name": "Lord Baltimore Elementary - Indian River School D",
+   "name": "Lord Baltimore Elementary - Indian River School Di",
    "zip": "19970"
   },
   {
@@ -1322,7 +1322,7 @@
   {
    "address": "35083 Atlantic Ave",
    "city": "Ocean View",
-   "id": "75a2b50b9f",
+   "id": "1f41130b05",
    "inspections": [
     {
      "date": "2025-07-28",
@@ -1360,7 +1360,7 @@
     }
    ],
    "mobile": false,
-   "name": "Order Of Eagles",
+   "name": "Order Of Eagles - Fraternal Order of Eagles",
    "zip": "19970"
   },
   {
@@ -1368,6 +1368,66 @@
    "city": "Ocean View",
    "id": "381471706d",
    "inspections": [
+    {
+     "date": "2026-10-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "5-202.11",
+       "description": "Approved System and Cleanable Fixtures"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
+     "date": "2026-09-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "3-501.19",
+       "description": "Time as a Public Health Control"
+      },
+      {
+       "code": "5-202.11",
+       "description": "Approved System and Cleanable Fixtures"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
     {
      "date": "2025-06-25",
      "type": "Routine",
@@ -1620,27 +1680,7 @@
   {
    "address": "84 Atlantic Ave",
    "city": "Ocean View",
-   "id": "059a144b34",
-   "inspections": [
-    {
-     "date": "2024-11-21",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-302.11",
-       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
-      }
-     ]
-    }
-   ],
-   "mobile": false,
-   "name": "The Caf+� on 26 - The Caf+� on 26 Inc",
-   "zip": "19970"
-  },
-  {
-   "address": "84 Atlantic Ave",
-   "city": "Ocean View",
-   "id": "eec2903593",
+   "id": "42880ff0af",
    "inspections": [
     {
      "date": "2025-12-19",
@@ -1668,7 +1708,27 @@
     }
    ],
    "mobile": false,
-   "name": "The Caf� on 26 - The Caf� on 26 Inc",
+   "name": "The Caf on 26 - The Caf on 26 Inc",
+   "zip": "19970"
+  },
+  {
+   "address": "84 Atlantic Ave",
+   "city": "Ocean View",
+   "id": "6cf17ef94a",
+   "inspections": [
+    {
+     "date": "2024-11-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "The Caf+ on 26 - The Caf+ on 26 Inc",
    "zip": "19970"
   },
   {
@@ -1748,11 +1808,6 @@
        "description": "System Maintained in Good Repair"
       }
      ]
-    },
-    {
-     "date": "2024-10-07",
-     "type": "Follow-up",
-     "violations": []
     }
    ],
    "mobile": true,
@@ -1761,6 +1816,6 @@
   }
  ],
  "slug": "ocean-view",
- "source_updated": "2026-10-09",
+ "source_updated": "2026-10-16",
  "town": "Ocean View"
 }

@@ -14,36 +14,6 @@
        "description": "Cleaning Ventilation Systems, Nuisance and Discharge Prohibition"
       }
      ]
-    },
-    {
-     "date": "2024-10-11",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-102.11",
-       "description": "Demonstration of Knowledge"
-      },
-      {
-       "code": "2-103.11",
-       "description": "Person-In-Charge-Duties"
-      },
-      {
-       "code": "2-301.14",
-       "description": "When to Wash"
-      },
-      {
-       "code": "6-501.11",
-       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
-      },
-      {
-       "code": "6-501.12",
-       "description": "Cleaning, Frequency and Restrictions"
-      },
-      {
-       "code": "6-501.14",
-       "description": "Cleaning Ventilation Systems, Nuisance and Discharge Prohibition"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -145,11 +115,6 @@
        "description": "Closing Toilet Room Doors"
       }
      ]
-    },
-    {
-     "date": "2024-10-03",
-     "type": "Follow-up",
-     "violations": []
     }
    ],
    "mobile": false,
@@ -194,32 +159,6 @@
       {
        "code": "8-404.11",
        "description": "Ceasing Operations and Reporting"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-11",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-301.11",
-       "description": "Preventing Contamination from Hands"
-      },
-      {
-       "code": "4-204.112",
-       "description": "Temperature Measuring Devices-Functionality"
-      },
-      {
-       "code": "4-302.14",
-       "description": "Sanitizing Solutions, Testing Devices"
-      },
-      {
-       "code": "6-202.14",
-       "description": "Toilet Rooms, Enclosed"
-      },
-      {
-       "code": "6-501.111",
-       "description": "Controlling Pests"
       }
      ]
     }
@@ -357,16 +296,6 @@
        "description": "Common Name-Working Containers"
       }
      ]
-    },
-    {
-     "date": "2024-10-03",
-     "type": "Follow-up",
-     "violations": [
-      {
-       "code": "6-201.11",
-       "description": "Floors, Walls and Ceilings-Cleanability"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -380,16 +309,6 @@
    "inspections": [
     {
      "date": "2026-05-27",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-501.16",
-       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-10",
      "type": "Routine",
      "violations": [
       {
@@ -950,24 +869,6 @@
        "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
       }
      ]
-    },
-    {
-     "date": "2024-10-11",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-301.14",
-       "description": "When to Wash"
-      },
-      {
-       "code": "3-501.17",
-       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
-      },
-      {
-       "code": "5-205.11",
-       "description": "Using a Handwashing Sink-Operation and Maintenance"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -1251,40 +1152,6 @@
      "date": "2024-10-17",
      "type": "Follow-up",
      "violations": []
-    },
-    {
-     "date": "2024-10-10",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-301.14",
-       "description": "When to Wash"
-      },
-      {
-       "code": "3-302.11",
-       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
-      },
-      {
-       "code": "3-305.11",
-       "description": "Food Storage-Preventing Contamination from the Premises"
-      },
-      {
-       "code": "3-501.15",
-       "description": "Cooling Methods"
-      },
-      {
-       "code": "4-302.14",
-       "description": "Sanitizing Solutions, Testing Devices"
-      },
-      {
-       "code": "6-501.111",
-       "description": "Controlling Pests"
-      },
-      {
-       "code": "6-501.12",
-       "description": "Cleaning, Frequency and Restrictions"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -1458,30 +1325,6 @@
    "zip": "19707"
   },
   {
-   "address": "6900 Lancaster Pike",
-   "city": "Hockessin",
-   "id": "c545ca0693",
-   "inspections": [
-    {
-     "date": "2024-10-09",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-305.11",
-       "description": "Food Storage-Preventing Contamination from the Premises"
-      },
-      {
-       "code": "5-205.11",
-       "description": "Using a Handwashing Sink-Operation and Maintenance"
-      }
-     ]
-    }
-   ],
-   "mobile": false,
-   "name": "Sanford School - Compass Group USA Inc",
-   "zip": "19707"
-  },
-  {
    "address": "7456 Lancaster Pike Suite H",
    "city": "Hockessin",
    "id": "8cffd59914",
@@ -1574,7 +1417,7 @@
   {
    "address": "128 Lantana Drive",
    "city": "Hockessin",
-   "id": "43868dfa79",
+   "id": "20f23c4326",
    "inspections": [
     {
      "date": "2026-06-16",
@@ -1626,7 +1469,7 @@
     }
    ],
    "mobile": false,
-   "name": "Sushi Maru Express",
+   "name": "Sushi Maru Express (Closed)",
    "zip": "19707"
   },
   {
@@ -1891,6 +1734,6 @@
   }
  ],
  "slug": "hockessin",
- "source_updated": "2026-10-09",
+ "source_updated": "2026-10-16",
  "town": "Hockessin"
 }

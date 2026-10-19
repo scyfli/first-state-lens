@@ -117,6 +117,30 @@
    "zip": "19973"
   },
   {
+   "address": "312 High St",
+   "city": "Seaford",
+   "id": "7830012415",
+   "inspections": [
+    {
+     "date": "2026-09-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-301.11",
+       "description": "Preventing Contamination from Hands"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "Bon Appetit",
+   "zip": "19973"
+  },
+  {
    "address": "24456 Sussex Hwy",
    "city": "Seaford",
    "id": "9b3aaf6788",
@@ -609,9 +633,9 @@
    "zip": "19973"
   },
   {
-   "address": "1451 Middleford Road",
+   "address": null,
    "city": "Seaford",
-   "id": "fbf4cd833f",
+   "id": "e6ee802c41",
    "inspections": [
     {
      "date": "2026-09-22",
@@ -628,9 +652,9 @@
      ]
     }
    ],
-   "mobile": false,
-   "name": "Ever Resto LLC",
-   "zip": "19973"
+   "mobile": true,
+   "name": "Ever Resto LLC (MOB)",
+   "zip": null
   },
   {
    "address": "22954 Sussex Hwy",
@@ -1132,6 +1156,132 @@
    "id": "0758f392ac",
    "inspections": [
     {
+     "date": "2026-10-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "4-204.11",
+       "description": "Ventilation Hood Systems, Drip Prevention"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-202.15",
+       "description": "Outer Openings, Protected"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "8-404.11",
+       "description": "Ceasing Operations and Reporting"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-03",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-202.15",
+       "description": "Outer Openings, Protected"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-01",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "4-204.11",
+       "description": "Ventilation Hood Systems, Drip Prevention"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-202.15",
+       "description": "Outer Openings, Protected"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "8-404.11",
+       "description": "Ceasing Operations and Reporting"
+      }
+     ]
+    },
+    {
      "date": "2026-02-11",
      "type": "Routine",
      "violations": [
@@ -1327,7 +1477,7 @@
   {
    "address": "22933 Sussex Hwy",
    "city": "Seaford",
-   "id": "de372d945a",
+   "id": "4e9fee3af4",
    "inspections": [
     {
      "date": "2025-01-17",
@@ -1357,7 +1507,7 @@
     }
    ],
    "mobile": false,
-   "name": "Papa Johns",
+   "name": "Papa Johns - Seaford",
    "zip": "19973"
   },
   {
@@ -2424,6 +2574,6 @@
   }
  ],
  "slug": "seaford",
- "source_updated": "2026-10-09",
+ "source_updated": "2026-10-16",
  "town": "Seaford"
 }

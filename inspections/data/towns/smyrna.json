@@ -1026,6 +1026,36 @@
    "id": "19f7106038",
    "inspections": [
     {
+     "date": "2026-10-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-501.113",
+       "description": "Covering Receptacles"
+      },
+      {
+       "code": "6-501.114",
+       "description": "Maintaining Premises, Unnecessary Items and Litter"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    },
+    {
      "date": "2026-04-22",
      "type": "Routine",
      "violations": [
@@ -1104,44 +1134,6 @@
        "description": "Cooking and Baking Equipment"
       }
      ]
-    },
-    {
-     "date": "2024-10-08",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-402.11",
-       "description": "Effectiveness-Hair Restraints"
-      },
-      {
-       "code": "3-302.12",
-       "description": "Food Storage Containers Identified with Common Name of Food"
-      },
-      {
-       "code": "3-307.11",
-       "description": "Miscellaneous Sources of Contamination"
-      },
-      {
-       "code": "4-601.11",
-       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
-      },
-      {
-       "code": "5-205.11",
-       "description": "Using a Handwashing Sink-Operation and Maintenance"
-      },
-      {
-       "code": "6-501.12",
-       "description": "Cleaning, Frequency and Restrictions"
-      },
-      {
-       "code": "7-209.11",
-       "description": "Storage-Other Personal Care Items"
-      },
-      {
-       "code": "8-304.11",
-       "description": "Responsibilities of the Permit Holder"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -1153,6 +1145,40 @@
    "city": "Smyrna",
    "id": "2f3fb14539",
    "inspections": [
+    {
+     "date": "2026-10-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-101.19",
+       "description": "Nonfood-Contact Surfaces"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-501.113",
+       "description": "Covering Receptacles"
+      }
+     ]
+    },
     {
      "date": "2025-12-19",
      "type": "Routine",
@@ -1354,6 +1380,20 @@
    "id": "bc3580c343",
    "inspections": [
     {
+     "date": "2026-10-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-303.11",
+       "description": "Intensity-Lighting"
+      }
+     ]
+    },
+    {
      "date": "2026-04-22",
      "type": "Routine",
      "violations": []
@@ -1440,6 +1480,36 @@
    "city": "Smyrna",
    "id": "480b81b917",
    "inspections": [
+    {
+     "date": "2026-08-18",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-501.113",
+       "description": "Covering Receptacles"
+      },
+      {
+       "code": "6-403.11",
+       "description": "Designated Areas-Employee Accommodations for eating / drinking/smoking"
+      },
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      }
+     ]
+    },
     {
      "date": "2026-02-09",
      "type": "Routine",
@@ -1872,16 +1942,6 @@
        "description": "Toilet Rooms, Enclosed"
       }
      ]
-    },
-    {
-     "date": "2024-10-07",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "8-304.11",
-       "description": "Responsibilities of the Permit Holder"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -1906,6 +1966,26 @@
    ],
    "mobile": false,
    "name": "Dominos Pizza #4442 Smyrna",
+   "zip": "19977"
+  },
+  {
+   "address": "349 N Dupont Hwy",
+   "city": "Smyrna",
+   "id": "91dfa3a239",
+   "inspections": [
+    {
+     "date": "2026-09-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "Dunkin - Franchise Management Services Inc - #33",
    "zip": "19977"
   },
   {
@@ -2254,6 +2334,40 @@
    "city": "Smyrna",
    "id": "f311d0aa1d",
    "inspections": [
+    {
+     "date": "2026-10-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-501.113",
+       "description": "Covering Receptacles"
+      },
+      {
+       "code": "6-403.11",
+       "description": "Designated Areas-Employee Accommodations for eating / drinking/smoking"
+      },
+      {
+       "code": "7-207.11",
+       "description": "Restriction and Storage-Medicines"
+      }
+     ]
+    },
     {
      "date": "2026-03-18",
      "type": "Routine",
@@ -3160,64 +3274,6 @@
     {
      "date": "2024-10-18",
      "type": "Follow-up",
-     "violations": [
-      {
-       "code": "2-103.11",
-       "description": "Person-In-Charge-Duties"
-      },
-      {
-       "code": "2-201.11",
-       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
-      },
-      {
-       "code": "3-302.12",
-       "description": "Food Storage Containers Identified with Common Name of Food"
-      },
-      {
-       "code": "3-304.12",
-       "description": "In-Use Utensils, Between-Use Storage"
-      },
-      {
-       "code": "4-204.112",
-       "description": "Temperature Measuring Devices-Functionality"
-      },
-      {
-       "code": "4-601.11",
-       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
-      },
-      {
-       "code": "4-602.13",
-       "description": "Nonfood Contact Surfaces"
-      },
-      {
-       "code": "5-205.15",
-       "description": "System Maintained in Good Repair"
-      },
-      {
-       "code": "6-201.11",
-       "description": "Floors, Walls and Ceilings-Cleanability"
-      },
-      {
-       "code": "6-202.11",
-       "description": "Light Bulbs, Protective Shielding"
-      },
-      {
-       "code": "6-501.11",
-       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
-      },
-      {
-       "code": "6-501.111",
-       "description": "Controlling Pests"
-      },
-      {
-       "code": "8-304.11",
-       "description": "Responsibilities of the Permit Holder"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-08",
-     "type": "Routine",
      "violations": [
       {
        "code": "2-103.11",
@@ -5721,64 +5777,6 @@
        "description": "Rodent Bait Stations"
       }
      ]
-    },
-    {
-     "date": "2024-10-03",
-     "type": "Follow-up",
-     "violations": [
-      {
-       "code": "3-302.11",
-       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
-      },
-      {
-       "code": "3-305.11",
-       "description": "Food Storage-Preventing Contamination from the Premises"
-      },
-      {
-       "code": "4-501.11",
-       "description": "Good Repair and Proper Adjustment-Equipment"
-      },
-      {
-       "code": "4-601.11",
-       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
-      },
-      {
-       "code": "4-602.12",
-       "description": "Cooking and Baking Equipment"
-      },
-      {
-       "code": "4-903.11",
-       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
-      },
-      {
-       "code": "5-202.12",
-       "description": "Handwashing Sinks, Installation"
-      },
-      {
-       "code": "5-205.11",
-       "description": "Using a Handwashing Sink-Operation and Maintenance"
-      },
-      {
-       "code": "5-205.15",
-       "description": "System Maintained in Good Repair"
-      },
-      {
-       "code": "5-501.113",
-       "description": "Covering Receptacles"
-      },
-      {
-       "code": "6-202.11",
-       "description": "Light Bulbs, Protective Shielding"
-      },
-      {
-       "code": "6-501.16",
-       "description": "Drying Mops"
-      },
-      {
-       "code": "7-201.11",
-       "description": "Separation-Storage"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -6226,6 +6224,6 @@
   }
  ],
  "slug": "smyrna",
- "source_updated": "2026-10-09",
+ "source_updated": "2026-10-16",
  "town": "Smyrna"
 }

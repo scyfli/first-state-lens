@@ -1,9 +1,9 @@
 {
  "establishments": [
   {
-   "address": "2114 South Dupont Highway",
+   "address": null,
    "city": "Camden",
-   "id": "779cbe7c72",
+   "id": "9888361d0e",
    "inspections": [
     {
      "date": "2026-06-02",
@@ -24,9 +24,9 @@
      ]
     }
    ],
-   "mobile": false,
-   "name": "Antojitos Mexicanos La Poblanita",
-   "zip": "19934"
+   "mobile": true,
+   "name": "Antojitos Mexicanos La Poblanita (MOB)",
+   "zip": null
   },
   {
    "address": "4110 S Dupont Hwy",
@@ -504,6 +504,26 @@
    "zip": "19934"
   },
   {
+   "address": "481 Walmart Drive",
+   "city": "Camden",
+   "id": "eacb99b346",
+   "inspections": [
+    {
+     "date": "2026-10-01",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "Camden Chicken LLC dba Popeyes",
+   "zip": "19934"
+  },
+  {
    "address": "113 W Camden Wyoming Ave",
    "city": "Camden",
    "id": "33dc4ec0ec",
@@ -536,6 +556,50 @@
    "city": "Camden",
    "id": "56a09289da",
    "inspections": [
+    {
+     "date": "2026-10-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      },
+      {
+       "code": "7-202.12",
+       "description": "Conditions of Use"
+      },
+      {
+       "code": "7-206.12",
+       "description": "Rodent Bait Stations"
+      },
+      {
+       "code": "8-404.11",
+       "description": "Ceasing Operations and Reporting"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-02",
+     "type": "Complaint",
+     "violations": [
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      },
+      {
+       "code": "7-202.12",
+       "description": "Conditions of Use"
+      },
+      {
+       "code": "7-206.12",
+       "description": "Rodent Bait Stations"
+      },
+      {
+       "code": "8-404.11",
+       "description": "Ceasing Operations and Reporting"
+      }
+     ]
+    },
     {
      "date": "2026-08-28",
      "type": "Routine",
@@ -729,36 +793,6 @@
        "description": "Handwashing Cleanser, Availability"
       }
      ]
-    },
-    {
-     "date": "2024-10-09",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-201.11",
-       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
-      },
-      {
-       "code": "3-302.12",
-       "description": "Food Storage Containers Identified with Common Name of Food"
-      },
-      {
-       "code": "3-501.18",
-       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Disposition"
-      },
-      {
-       "code": "4-302.14",
-       "description": "Sanitizing Solutions, Testing Devices"
-      },
-      {
-       "code": "6-301.11",
-       "description": "Handwashing Cleanser, Availability"
-      },
-      {
-       "code": "6-403.11",
-       "description": "Designated Areas-Employee Accommodations for eating / drinking/smoking"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -940,6 +974,20 @@
    "city": "Camden",
    "id": "ccce79ad86",
    "inspections": [
+    {
+     "date": "2026-10-07",
+     "type": "Complaint",
+     "violations": [
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      },
+      {
+       "code": "6-501.112",
+       "description": "Removing Dead or Trapped Birds, Insects, Rodents and other Pest"
+      }
+     ]
+    },
     {
      "date": "2026-09-23",
      "type": "Routine",
@@ -2325,6 +2373,38 @@
    "id": "8e1984f270",
    "inspections": [
     {
+     "date": "2026-10-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.12",
+       "description": "Cutting Surfaces"
+      },
+      {
+       "code": "6-303.11",
+       "description": "Intensity-Lighting"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-01",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.12",
+       "description": "Cutting Surfaces"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-303.11",
+       "description": "Intensity-Lighting"
+      }
+     ]
+    },
+    {
      "date": "2026-08-07",
      "type": "Complaint",
      "violations": []
@@ -2545,7 +2625,7 @@
   {
    "address": "2114 South Dupont Highway",
    "city": "Camden",
-   "id": "5b5aa51dd8",
+   "id": "f56bf567dd",
    "inspections": [
     {
      "date": "2026-03-16",
@@ -2629,7 +2709,7 @@
     }
    ],
    "mobile": false,
-   "name": "Marce Bakery& Ice Cream",
+   "name": "Marce Bakery& Ice Cream (FE)",
    "zip": "19934"
   },
   {
@@ -3476,6 +3556,20 @@
    "id": "e3a3bb3d6c",
    "inspections": [
     {
+     "date": "2026-10-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
      "date": "2026-04-15",
      "type": "Routine",
      "violations": [
@@ -3573,28 +3667,6 @@
       {
        "code": "6-301.14",
        "description": "Handwashing Signage"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-10",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-201.11",
-       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
-      },
-      {
-       "code": "3-501.17",
-       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
-      },
-      {
-       "code": "5-501.113",
-       "description": "Covering Receptacles"
-      },
-      {
-       "code": "8-301.11",
-       "description": "Prerequisite for Operation"
       }
      ]
     }
@@ -3738,6 +3810,28 @@
    "id": "cf3de43872",
    "inspections": [
     {
+     "date": "2026-09-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "3-301.11",
+       "description": "Preventing Contamination from Hands"
+      },
+      {
+       "code": "3-501.13",
+       "description": "Thawing"
+      },
+      {
+       "code": "4-501.17",
+       "description": "Warewashing Equipment, Cleaning Agents"
+      }
+     ]
+    },
+    {
      "date": "2026-03-09",
      "type": "Routine",
      "violations": [
@@ -3782,11 +3876,6 @@
        "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Disposition"
       }
      ]
-    },
-    {
-     "date": "2024-10-09",
-     "type": "Follow-up",
-     "violations": []
     }
    ],
    "mobile": false,
@@ -3928,6 +4017,6 @@
   }
  ],
  "slug": "camden",
- "source_updated": "2026-10-09",
+ "source_updated": "2026-10-16",
  "town": "Camden"
 }

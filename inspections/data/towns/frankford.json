@@ -35,7 +35,31 @@
   {
    "address": "32750 Roxana Road",
    "city": "Frankford",
-   "id": "cf0e239dcb",
+   "id": "906ba2baea",
+   "inspections": [
+    {
+     "date": "2025-08-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "Beebe Health Care South Coastal Caf",
+   "zip": "19945"
+  },
+  {
+   "address": "32750 Roxana Road",
+   "city": "Frankford",
+   "id": "18da5ef897",
    "inspections": [
     {
      "date": "2025-01-29",
@@ -66,31 +90,7 @@
     }
    ],
    "mobile": false,
-   "name": "Beebe Health Care South Coastal Caf+�",
-   "zip": "19945"
-  },
-  {
-   "address": "32750 Roxana Road",
-   "city": "Frankford",
-   "id": "991f8fc902",
-   "inspections": [
-    {
-     "date": "2025-08-14",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-302.12",
-       "description": "Food Storage Containers Identified with Common Name of Food"
-      },
-      {
-       "code": "4-501.11",
-       "description": "Good Repair and Proper Adjustment-Equipment"
-      }
-     ]
-    }
-   ],
-   "mobile": false,
-   "name": "Beebe Health Care South Coastal Caf�",
+   "name": "Beebe Health Care South Coastal Caf+",
    "zip": "19945"
   },
   {
@@ -452,7 +452,7 @@
   {
    "address": "252 Clayton Ave",
    "city": "Frankford",
-   "id": "6bb0602514",
+   "id": "cc111766ed",
    "inspections": [
     {
      "date": "2026-09-18",
@@ -528,7 +528,7 @@
     }
    ],
    "mobile": false,
-   "name": "John M Clayton Elementary - Indian River School",
+   "name": "John M Clayton Elementary - Indian River School D",
    "zip": "19945"
   },
   {
@@ -601,6 +601,6 @@
   }
  ],
  "slug": "frankford",
- "source_updated": "2026-10-09",
+ "source_updated": "2026-10-16",
  "town": "Frankford"
 }

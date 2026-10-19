@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T18:55:23Z",
+  "generated_at": "2026-10-19T16:29:04Z",
   "dashboard": "votes",
   "session": "153",
   "sources": {
@@ -13,7 +13,7 @@
   },
   "row_counts": {
     "legislators": 65,
-    "vote_events": 2005,
+    "vote_events": 2064,
     "bills_with_votes": 1043
   }
 }

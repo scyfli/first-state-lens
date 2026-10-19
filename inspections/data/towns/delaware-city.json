@@ -291,7 +291,7 @@
   {
    "address": "900 5th St",
    "city": "Delaware City",
-   "id": "e8b1e3ee0c",
+   "id": "80dc0e8f6b",
    "inspections": [
     {
      "date": "2026-03-06",
@@ -305,7 +305,7 @@
     }
    ],
    "mobile": false,
-   "name": "Sundays Caf� 64 LLC",
+   "name": "Sundays Caf 64 LLC",
    "zip": "19706"
   },
   {
@@ -376,6 +376,6 @@
   }
  ],
  "slug": "delaware-city",
- "source_updated": "2026-10-09",
+ "source_updated": "2026-10-16",
  "town": "Delaware City"
 }

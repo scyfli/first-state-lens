@@ -51,6 +51,26 @@
    "zip": "19944"
   },
   {
+   "address": "31221 Americana Parkway",
+   "city": "Selbyville",
+   "id": "a6d6809cac",
+   "inspections": [
+    {
+     "date": "2026-10-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "Afc Sushi @ Harris Teeter",
+   "zip": "19975"
+  },
+  {
    "address": "58 W Church St",
    "city": "Selbyville",
    "id": "ba1a611507",
@@ -572,36 +592,6 @@
       {
        "code": "7-207.11",
        "description": "Restriction and Storage-Medicines"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-07",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-302.11",
-       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
-      },
-      {
-       "code": "3-305.12",
-       "description": "Food Storage, Prohibited Areas"
-      },
-      {
-       "code": "4-501.16",
-       "description": "Warewashing Sinks, Use Limitation"
-      },
-      {
-       "code": "4-502.13",
-       "description": "Single-Service and Single-Use Articles-Use Limitations"
-      },
-      {
-       "code": "4-703.11",
-       "description": "Hot Water and Chemical-Methods"
-      },
-      {
-       "code": "6-501.11",
-       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
       }
      ]
     }
@@ -1138,32 +1128,6 @@
        "description": "Good Repair and Proper Adjustment-Equipment"
       }
      ]
-    },
-    {
-     "date": "2024-10-02",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-302.11",
-       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
-      },
-      {
-       "code": "4-602.11",
-       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
-      },
-      {
-       "code": "6-201.13",
-       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
-      },
-      {
-       "code": "6-501.11",
-       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
-      },
-      {
-       "code": "6-501.12",
-       "description": "Cleaning, Frequency and Restrictions"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -1274,56 +1238,6 @@
       {
        "code": "7-201.11",
        "description": "Separation-Storage"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-08",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-203.12",
-       "description": "Shellstock, Maintaining Identification"
-      },
-      {
-       "code": "3-302.11",
-       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
-      },
-      {
-       "code": "3-303.11",
-       "description": "Ice Used as Exterior Coolant, Prohibited as Ingredient"
-      },
-      {
-       "code": "3-304.12",
-       "description": "In-Use Utensils, Between-Use Storage"
-      },
-      {
-       "code": "3-603.11",
-       "description": "Consumption of Animal Foods that are Raw, Undercooked, or Not Otherwise Processed to Eliminate Pathogens"
-      },
-      {
-       "code": "4-502.13",
-       "description": "Single-Service and Single-Use Articles-Use Limitations"
-      },
-      {
-       "code": "4-601.11",
-       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
-      },
-      {
-       "code": "4-903.11",
-       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
-      },
-      {
-       "code": "6-501.12",
-       "description": "Cleaning, Frequency and Restrictions"
-      },
-      {
-       "code": "6-501.17",
-       "description": "Absorbent Materials on Floors, Use Limitation"
-      },
-      {
-       "code": "7-206.11",
-       "description": "Restricted Use Pesticides, Criteria"
       }
      ]
     }
@@ -1466,32 +1380,6 @@
       {
        "code": "6-501.111",
        "description": "Controlling Pests"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-08",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-302.11",
-       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
-      },
-      {
-       "code": "4-302.14",
-       "description": "Sanitizing Solutions, Testing Devices"
-      },
-      {
-       "code": "5-205.11",
-       "description": "Using a Handwashing Sink-Operation and Maintenance"
-      },
-      {
-       "code": "5-502.11",
-       "description": "Frequency-Removal"
-      },
-      {
-       "code": "6-301.11",
-       "description": "Handwashing Cleanser, Availability"
       }
      ]
     }
@@ -1772,7 +1660,7 @@
   {
    "address": "36666 Blue Water Run W Unit 4",
    "city": "Selbyville",
-   "id": "f387226079",
+   "id": "e44d0d734d",
    "inspections": [
     {
      "date": "2025-10-27",
@@ -1791,40 +1679,10 @@
        "description": "Common Name-Working Containers"
       }
      ]
-    },
-    {
-     "date": "2024-10-08",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-201.11",
-       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
-      },
-      {
-       "code": "3-305.11",
-       "description": "Food Storage-Preventing Contamination from the Premises"
-      },
-      {
-       "code": "3-305.14",
-       "description": "Food Preparation"
-      },
-      {
-       "code": "3-501.17",
-       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
-      },
-      {
-       "code": "7-102.11",
-       "description": "Common Name-Working Containers"
-      },
-      {
-       "code": "7-207.11",
-       "description": "Restriction and Storage-Medicines"
-      }
-     ]
     }
    ],
    "mobile": false,
-   "name": "Lunas Cactus Caf� Inc",
+   "name": "Lunas Cactus Caf Inc",
    "zip": "19975"
   },
   {
@@ -2409,7 +2267,7 @@
   {
    "address": "41 Bethany Rd",
    "city": "Selbyville",
-   "id": "20dcd5d01e",
+   "id": "db7425e230",
    "inspections": [
     {
      "date": "2026-04-13",
@@ -2469,7 +2327,7 @@
     }
    ],
    "mobile": false,
-   "name": "Phillip C Showell Elementary� - Indian River Sch",
+   "name": "Phillip C Showell Elementary - Indian River Scho",
    "zip": "19975"
   },
   {
@@ -2967,7 +2825,7 @@
   {
    "address": "80 Bethany Rd",
    "city": "Selbyville",
-   "id": "e2a8cd9a87",
+   "id": "a21f354ff0",
    "inspections": [
     {
      "date": "2026-04-13",
@@ -3005,7 +2863,7 @@
     }
    ],
    "mobile": false,
-   "name": "Selbyville Middle� - Indian River School District",
+   "name": "Selbyville Middle - Indian River School District",
    "zip": "19975"
   },
   {
@@ -3071,7 +2929,7 @@
   {
    "address": "31 Hosier Street",
    "city": "Selbyville",
-   "id": "13231a4838",
+   "id": "377cdfaaf0",
    "inspections": [
     {
      "date": "2026-04-13",
@@ -3107,7 +2965,7 @@
     }
    ],
    "mobile": false,
-   "name": "Southern DE School of Arts - Indian River School",
+   "name": "Southern DE School of Arts - Indian River School D",
    "zip": "19975"
   },
   {
@@ -3728,6 +3586,6 @@
   }
  ],
  "slug": "selbyville",
- "source_updated": "2026-10-09",
+ "source_updated": "2026-10-16",
  "town": "Selbyville"
 }

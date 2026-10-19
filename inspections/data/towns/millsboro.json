@@ -393,24 +393,6 @@
        "description": "Storing Maintenance Tools"
       }
      ]
-    },
-    {
-     "date": "2024-10-07",
-     "type": "Follow-up",
-     "violations": [
-      {
-       "code": "2-102.11",
-       "description": "Demonstration of Knowledge"
-      },
-      {
-       "code": "2-102.12",
-       "description": "Certified Food Protection Manager"
-      },
-      {
-       "code": "8-405.11",
-       "description": "Timely Correction"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -725,24 +707,6 @@
      "date": "2024-10-21",
      "type": "Follow-up",
      "violations": []
-    },
-    {
-     "date": "2024-10-08",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-307.11",
-       "description": "Miscellaneous Sources of Contamination"
-      },
-      {
-       "code": "4-502.13",
-       "description": "Single-Service and Single-Use Articles-Use Limitations"
-      },
-      {
-       "code": "4-602.13",
-       "description": "Nonfood Contact Surfaces"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -1045,7 +1009,7 @@
   {
    "address": "129 Main Street",
    "city": "Millsboro",
-   "id": "8222b70657",
+   "id": "4885f9fa6c",
    "inspections": [
     {
      "date": "2026-02-26",
@@ -1059,7 +1023,7 @@
     }
    ],
    "mobile": false,
-   "name": "Dairy Queen #40782 - Millsboro -� Mills 40782 LLC",
+   "name": "Dairy Queen #40782 - Millsboro - Mills 40782 LLC",
    "zip": "19966"
   },
   {
@@ -2178,24 +2142,6 @@
        "description": "Hand Drying Provision"
       }
      ]
-    },
-    {
-     "date": "2024-10-04",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-102.12",
-       "description": "Certified Food Protection Manager"
-      },
-      {
-       "code": "3-305.11",
-       "description": "Food Storage-Preventing Contamination from the Premises"
-      },
-      {
-       "code": "4-301.14",
-       "description": "Ventilation Hood Systems, Adequacy"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -2374,72 +2320,6 @@
    ],
    "mobile": false,
    "name": "Lani Lous Brew",
-   "zip": "19966"
-  },
-  {
-   "address": "31507 Oak Orchard Road",
-   "city": "Millsboro",
-   "id": "d60ef70fae",
-   "inspections": [
-    {
-     "date": "2024-10-07",
-     "type": "Follow-up",
-     "violations": [
-      {
-       "code": "2-102.12",
-       "description": "Certified Food Protection Manager"
-      },
-      {
-       "code": "3-601.12",
-       "description": "Honestly Presented"
-      },
-      {
-       "code": "3-602.11",
-       "description": "Food Labels"
-      },
-      {
-       "code": "3-602.11",
-       "description": "Food Labels"
-      },
-      {
-       "code": "3-701.11",
-       "description": "Discarding or Reconditioning Unsafe, Adulterated, or Contaminated Food"
-      },
-      {
-       "code": "8-405.11",
-       "description": "Timely Correction"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-04",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-102.12",
-       "description": "Certified Food Protection Manager"
-      },
-      {
-       "code": "3-501.16",
-       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
-      },
-      {
-       "code": "3-601.12",
-       "description": "Honestly Presented"
-      },
-      {
-       "code": "3-602.11",
-       "description": "Food Labels"
-      },
-      {
-       "code": "3-701.11",
-       "description": "Discarding or Reconditioning Unsafe, Adulterated, or Contaminated Food"
-      }
-     ]
-    }
-   ],
-   "mobile": false,
-   "name": "Liberty Gas & Shore Stop (Closed)",
    "zip": "19966"
   },
   {
@@ -2881,28 +2761,6 @@
      "date": "2025-05-06",
      "type": "Complaint",
      "violations": []
-    },
-    {
-     "date": "2024-10-07",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-307.11",
-       "description": "Miscellaneous Sources of Contamination"
-      },
-      {
-       "code": "4-501.11",
-       "description": "Good Repair and Proper Adjustment-Equipment"
-      },
-      {
-       "code": "5-205.15",
-       "description": "System Maintained in Good Repair"
-      },
-      {
-       "code": "6-501.112",
-       "description": "Removing Dead or Trapped Birds, Insects, Rodents and other Pest"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -3201,7 +3059,47 @@
   {
    "address": "28417 Dupont Blvd Ut 5",
    "city": "Millsboro",
-   "id": "3cf57b5651",
+   "id": "5ebd04c6df",
+   "inspections": [
+    {
+     "date": "2024-12-11",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.11",
+       "description": "Demonstration of Knowledge"
+      },
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-202.15",
+       "description": "Outer Openings, Protected"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      },
+      {
+       "code": "8-405.11",
+       "description": "Timely Correction"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "Papa Johns (Closed)",
+   "zip": "19966"
+  },
+  {
+   "address": "28417 Dupont Blvd Ut 5",
+   "city": "Millsboro",
+   "id": "883a1778a4",
    "inspections": [
     {
      "date": "2026-01-23",
@@ -3263,47 +3161,7 @@
     }
    ],
    "mobile": false,
-   "name": "Papa Johns",
-   "zip": "19966"
-  },
-  {
-   "address": "28417 Dupont Blvd Ut 5",
-   "city": "Millsboro",
-   "id": "5ebd04c6df",
-   "inspections": [
-    {
-     "date": "2024-12-11",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-102.11",
-       "description": "Demonstration of Knowledge"
-      },
-      {
-       "code": "2-102.12",
-       "description": "Certified Food Protection Manager"
-      },
-      {
-       "code": "5-205.15",
-       "description": "System Maintained in Good Repair"
-      },
-      {
-       "code": "6-202.15",
-       "description": "Outer Openings, Protected"
-      },
-      {
-       "code": "8-304.11",
-       "description": "Responsibilities of the Permit Holder"
-      },
-      {
-       "code": "8-405.11",
-       "description": "Timely Correction"
-      }
-     ]
-    }
-   ],
-   "mobile": false,
-   "name": "Papa Johns (Closed)",
+   "name": "Papa Johns - Millsboro",
    "zip": "19966"
   },
   {
@@ -3464,6 +3322,40 @@
    "id": "7f0c48d46f",
    "inspections": [
     {
+     "date": "2026-10-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-602.11",
+       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      },
+      {
+       "code": "6-301.14",
+       "description": "Handwashing Signage"
+      },
+      {
+       "code": "7-209.11",
+       "description": "Storage-Other Personal Care Items"
+      }
+     ]
+    },
+    {
      "date": "2026-03-11",
      "type": "Routine",
      "violations": [
@@ -3526,6 +3418,20 @@
    "id": "eeb1822cc2",
    "inspections": [
     {
+     "date": "2026-10-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      }
+     ]
+    },
+    {
      "date": "2026-03-09",
      "type": "Routine",
      "violations": [
@@ -3559,20 +3465,6 @@
       {
        "code": "4-602.13",
        "description": "Nonfood Contact Surfaces"
-      },
-      {
-       "code": "5-205.15",
-       "description": "System Maintained in Good Repair"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-10",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-302.11",
-       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
       },
       {
        "code": "5-205.15",
@@ -3816,7 +3708,7 @@
   {
    "address": "24808 John J Williams Highway",
    "city": "Millsboro",
-   "id": "d96e17dafc",
+   "id": "affa838388",
    "inspections": [
     {
      "date": "2026-07-09",
@@ -3934,7 +3826,7 @@
     }
    ],
    "mobile": false,
-   "name": "Ritas",
+   "name": "Ritas - Long Neck",
    "zip": "19966"
   },
   {
@@ -4185,7 +4077,7 @@
   {
    "address": "32580 River Road",
    "city": "Millsboro",
-   "id": "068c550edd",
+   "id": "e96f356885",
    "inspections": [
     {
      "date": "2025-07-10",
@@ -4217,7 +4109,7 @@
     }
    ],
    "mobile": false,
-   "name": "Serendipity",
+   "name": "Serendipity (Closed)",
    "zip": "19966"
   },
   {
@@ -4351,7 +4243,7 @@
   {
    "address": "26670 Centerview Drive",
    "city": "Millsboro",
-   "id": "7d184cee68",
+   "id": "a60fe507fb",
    "inspections": [
     {
      "date": "2026-04-28",
@@ -4387,7 +4279,7 @@
     }
    ],
    "mobile": false,
-   "name": "Smakn Sweets",
+   "name": "Smakn Sweets (Closed)",
    "zip": "19966"
   },
   {
@@ -4909,7 +4801,7 @@
   {
    "address": "32981 Peninsula Esplanade",
    "city": "Millsboro",
-   "id": "7d328c2359",
+   "id": "e9ef1bb912",
    "inspections": [
     {
      "date": "2025-08-26",
@@ -4943,7 +4835,7 @@
     }
    ],
    "mobile": false,
-   "name": "The Peninsula Caf� Terrace Grille",
+   "name": "The Peninsula Caf Terrace Grille",
    "zip": "19966"
   },
   {
@@ -5406,20 +5298,6 @@
     },
     {
      "date": "2024-10-18",
-     "type": "Follow-up",
-     "violations": [
-      {
-       "code": "2-102.12",
-       "description": "Certified Food Protection Manager"
-      },
-      {
-       "code": "8-405.11",
-       "description": "Timely Correction"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-04",
      "type": "Follow-up",
      "violations": [
       {
@@ -6450,6 +6328,6 @@
   }
  ],
  "slug": "millsboro",
- "source_updated": "2026-10-09",
+ "source_updated": "2026-10-16",
  "town": "Millsboro"
 }

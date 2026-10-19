@@ -1039,39 +1039,7 @@
   {
    "address": "33034 Coastal Highway",
    "city": "Bethany Beach",
-   "id": "3e8110a817",
-   "inspections": [
-    {
-     "date": "2024-12-02",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "4-501.11",
-       "description": "Good Repair and Proper Adjustment-Equipment"
-      },
-      {
-       "code": "4-601.11",
-       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
-      },
-      {
-       "code": "6-201.11",
-       "description": "Floors, Walls and Ceilings-Cleanability"
-      },
-      {
-       "code": "7-201.11",
-       "description": "Separation-Storage"
-      }
-     ]
-    }
-   ],
-   "mobile": false,
-   "name": "Cottage Caf+� - SoDel Concepts II LLC",
-   "zip": "19930"
-  },
-  {
-   "address": "33034 Coastal Highway",
-   "city": "Bethany Beach",
-   "id": "c3ad60da29",
+   "id": "bb5a866e7e",
    "inspections": [
     {
      "date": "2026-01-12",
@@ -1115,7 +1083,39 @@
     }
    ],
    "mobile": false,
-   "name": "Cottage Caf� - SoDel Concepts II LLC",
+   "name": "Cottage Caf - SoDel Concepts II LLC",
+   "zip": "19930"
+  },
+  {
+   "address": "33034 Coastal Highway",
+   "city": "Bethany Beach",
+   "id": "26740799e4",
+   "inspections": [
+    {
+     "date": "2024-12-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      },
+      {
+       "code": "7-201.11",
+       "description": "Separation-Storage"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "Cottage Caf+ - SoDel Concepts II LLC",
    "zip": "19930"
   },
   {
@@ -1597,64 +1597,6 @@
      "date": "2024-10-16",
      "type": "Follow-up",
      "violations": []
-    },
-    {
-     "date": "2024-10-02",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-203.12",
-       "description": "Shellstock, Maintaining Identification"
-      },
-      {
-       "code": "3-302.11",
-       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
-      },
-      {
-       "code": "4-501.11",
-       "description": "Good Repair and Proper Adjustment-Equipment"
-      },
-      {
-       "code": "4-501.12",
-       "description": "Cutting Surfaces"
-      },
-      {
-       "code": "4-601.11",
-       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
-      },
-      {
-       "code": "4-602.11",
-       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
-      },
-      {
-       "code": "5-205.11",
-       "description": "Using a Handwashing Sink-Operation and Maintenance"
-      },
-      {
-       "code": "5-205.15",
-       "description": "System Maintained in Good Repair"
-      },
-      {
-       "code": "6-202.12",
-       "description": "Heating, Ventilation, Air Conditioning System Vents"
-      },
-      {
-       "code": "6-301.11",
-       "description": "Handwashing Cleanser, Availability"
-      },
-      {
-       "code": "6-501.11",
-       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
-      },
-      {
-       "code": "6-501.12",
-       "description": "Cleaning, Frequency and Restrictions"
-      },
-      {
-       "code": "8-405.11",
-       "description": "Timely Correction"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -3373,9 +3315,59 @@
    "zip": "19930"
   },
   {
+   "address": "32919 Coastal Highway",
+   "city": "Bethany Beach",
+   "id": "f5e4432fc2",
+   "inspections": [
+    {
+     "date": "2026-07-31",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      }
+     ]
+    },
+    {
+     "date": "2025-05-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "SANDY PONY DONUTS BETHANY HWY- SANDY PONY DONUTS I",
+   "zip": "19930"
+  },
+  {
    "address": "115 Garfield Pkwy Unit 2",
    "city": "Bethany Beach",
-   "id": "53c3b32558",
+   "id": "6fdcbc3b53",
    "inspections": [
     {
      "date": "2026-05-07",
@@ -3457,57 +3449,7 @@
     }
    ],
    "mobile": false,
-   "name": "SANDY PONY DONUTS - SANDY PONY DONUTS INC",
-   "zip": "19930"
-  },
-  {
-   "address": "32919 Coastal Highway",
-   "city": "Bethany Beach",
-   "id": "f7cfd8231b",
-   "inspections": [
-    {
-     "date": "2026-07-31",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-402.11",
-       "description": "Effectiveness-Hair Restraints"
-      },
-      {
-       "code": "3-304.12",
-       "description": "In-Use Utensils, Between-Use Storage"
-      }
-     ]
-    },
-    {
-     "date": "2025-05-28",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "4-501.11",
-       "description": "Good Repair and Proper Adjustment-Equipment"
-      },
-      {
-       "code": "4-502.13",
-       "description": "Single-Service and Single-Use Articles-Use Limitations"
-      },
-      {
-       "code": "5-205.11",
-       "description": "Using a Handwashing Sink-Operation and Maintenance"
-      },
-      {
-       "code": "6-201.13",
-       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
-      },
-      {
-       "code": "6-501.12",
-       "description": "Cleaning, Frequency and Restrictions"
-      }
-     ]
-    }
-   ],
-   "mobile": false,
-   "name": "SANDY PONY DONUTS - SANDY PONY DONUTS INC",
+   "name": "SANDY PONY DONUTS GARFIELD - SANDY PONY DONUTS INC",
    "zip": "19930"
   },
   {
@@ -4486,6 +4428,6 @@
   }
  ],
  "slug": "bethany-beach",
- "source_updated": "2026-10-09",
+ "source_updated": "2026-10-16",
  "town": "Bethany Beach"
 }

@@ -476,74 +476,6 @@
    "zip": "19963"
   },
   {
-   "address": "955 N Dupont Blvd",
-   "city": "Milford",
-   "id": "1d90d2987a",
-   "inspections": [
-    {
-     "date": "2024-10-11",
-     "type": "Follow-up",
-     "violations": [
-      {
-       "code": "3-501.18",
-       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Disposition"
-      },
-      {
-       "code": "4-202.18",
-       "description": "Ventilation Hood Systems, Filters"
-      },
-      {
-       "code": "4-204.112",
-       "description": "Temperature Measuring Devices-Functionality"
-      },
-      {
-       "code": "4-302.12",
-       "description": "Food Temperature Measuring Devices"
-      },
-      {
-       "code": "4-302.14",
-       "description": "Sanitizing Solutions, Testing Devices"
-      },
-      {
-       "code": "4-501.11",
-       "description": "Good Repair and Proper Adjustment-Equipment"
-      },
-      {
-       "code": "4-502.11",
-       "description": "Good Repair and Calibration"
-      },
-      {
-       "code": "4-602.12",
-       "description": "Cooking and Baking Equipment"
-      },
-      {
-       "code": "5-501.17",
-       "description": "Toilet Room Receptacle, Covered"
-      },
-      {
-       "code": "6-202.15",
-       "description": "Outer Openings, Protected"
-      },
-      {
-       "code": "6-301.12",
-       "description": "Hand Drying Provision"
-      },
-      {
-       "code": "6-501.111",
-       "description": "Controlling Pests"
-      },
-      {
-       "code": "7-202.12",
-       "description": "Conditions of Use"
-      }
-     ]
-    }
-   ],
-   "mobile": false,
-   "name": "Aunt Marys Kitchen (Closed)",
-   "zip": "19963"
-  },
-  {
    "address": "939 N Dupont Hwy",
    "city": "Milford",
    "id": "6bf4a3903a",
@@ -1572,122 +1504,6 @@
        "description": "Cleaning, Frequency and Restrictions"
       }
      ]
-    },
-    {
-     "date": "2024-10-10",
-     "type": "Follow-up",
-     "violations": [
-      {
-       "code": "2-102.12",
-       "description": "Certified Food Protection Manager"
-      },
-      {
-       "code": "3-305.11",
-       "description": "Food Storage-Preventing Contamination from the Premises"
-      },
-      {
-       "code": "4-101.19",
-       "description": "Nonfood-Contact Surfaces"
-      },
-      {
-       "code": "4-501.11",
-       "description": "Good Repair and Proper Adjustment-Equipment"
-      },
-      {
-       "code": "4-501.12",
-       "description": "Cutting Surfaces"
-      },
-      {
-       "code": "5-202.13",
-       "description": "Backflow Prevention, Air Gap"
-      },
-      {
-       "code": "5-205.15",
-       "description": "System Maintained in Good Repair"
-      },
-      {
-       "code": "6-303.11",
-       "description": "Intensity-Lighting"
-      },
-      {
-       "code": "6-501.11",
-       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
-      },
-      {
-       "code": "6-501.111",
-       "description": "Controlling Pests"
-      },
-      {
-       "code": "6-501.113",
-       "description": "Storing Maintenance Tools"
-      },
-      {
-       "code": "6-501.12",
-       "description": "Cleaning, Frequency and Restrictions"
-      },
-      {
-       "code": "8-301.11",
-       "description": "Prerequisite for Operation"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-01",
-     "type": "Follow-up",
-     "violations": [
-      {
-       "code": "2-402.11",
-       "description": "Effectiveness-Hair Restraints"
-      },
-      {
-       "code": "4-101.19",
-       "description": "Nonfood-Contact Surfaces"
-      },
-      {
-       "code": "4-501.11",
-       "description": "Good Repair and Proper Adjustment-Equipment"
-      },
-      {
-       "code": "4-501.12",
-       "description": "Cutting Surfaces"
-      },
-      {
-       "code": "4-602.11",
-       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
-      },
-      {
-       "code": "5-202.13",
-       "description": "Backflow Prevention, Air Gap"
-      },
-      {
-       "code": "5-205.15",
-       "description": "System Maintained in Good Repair"
-      },
-      {
-       "code": "6-303.11",
-       "description": "Intensity-Lighting"
-      },
-      {
-       "code": "6-403.11",
-       "description": "Designated Areas-Employee Accommodations for eating / drinking/smoking"
-      },
-      {
-       "code": "6-501.11",
-       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
-      },
-      {
-       "code": "6-501.113",
-       "description": "Storing Maintenance Tools"
-      },
-      {
-       "code": "6-501.12",
-       "description": "Cleaning, Frequency and Restrictions"
-      },
-      {
-       "code": "8-301.11",
-       "description": "Prerequisite for Operation"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -1868,6 +1684,32 @@
    "id": "4255bf302d",
    "inspections": [
     {
+     "date": "2026-09-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-202.15",
+       "description": "Package Integrity"
+      },
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
      "date": "2026-03-25",
      "type": "Routine",
      "violations": [
@@ -1925,8 +1767,54 @@
   {
    "address": "28263 Lexus Drive",
    "city": "Milford",
-   "id": "fa30cb2688",
+   "id": "42728426e2",
    "inspections": [
+    {
+     "date": "2026-10-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "4-501.13",
+       "description": "Microwave Ovens"
+      },
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-403.11",
+       "description": "Designated Areas-Employee Accommodations for eating / drinking/smoking"
+      },
+      {
+       "code": "6-501.114",
+       "description": "Maintaining Premises, Unnecessary Items and Litter"
+      }
+     ]
+    },
     {
      "date": "2026-05-27",
      "type": "Routine",
@@ -2310,40 +2198,10 @@
        "description": "Drying Mops"
       }
      ]
-    },
-    {
-     "date": "2024-10-03",
-     "type": "Follow-up",
-     "violations": [
-      {
-       "code": "3-305.11",
-       "description": "Food Storage-Preventing Contamination from the Premises"
-      },
-      {
-       "code": "4-501.12",
-       "description": "Cutting Surfaces"
-      },
-      {
-       "code": "5-501.115",
-       "description": "Maintaining Refuse Areas and Enclosures"
-      },
-      {
-       "code": "6-501.114",
-       "description": "Maintaining Premises, Unnecessary Items and Litter"
-      },
-      {
-       "code": "6-501.12",
-       "description": "Cleaning, Frequency and Restrictions"
-      },
-      {
-       "code": "6-501.16",
-       "description": "Drying Mops"
-      }
-     ]
     }
    ],
    "mobile": false,
-   "name": "China Taste",
+   "name": "China Taste (Milford)",
    "zip": "19963"
   },
   {
@@ -2755,6 +2613,16 @@
    "id": "2299d269a6",
    "inspections": [
     {
+     "date": "2026-10-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
      "date": "2026-04-08",
      "type": "Routine",
      "violations": [
@@ -2832,44 +2700,6 @@
       {
        "code": "6-202.13",
        "description": "Insect Control Devices, Design and Installation"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-09",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-401.11",
-       "description": "Eating, Drinking, or Using Tobacco"
-      },
-      {
-       "code": "4-101.19",
-       "description": "Nonfood-Contact Surfaces"
-      },
-      {
-       "code": "4-302.14",
-       "description": "Sanitizing Solutions, Testing Devices"
-      },
-      {
-       "code": "4-501.114",
-       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
-      },
-      {
-       "code": "4-702.11",
-       "description": "Before Use After Cleaning"
-      },
-      {
-       "code": "5-205.11",
-       "description": "Using a Handwashing Sink-Operation and Maintenance"
-      },
-      {
-       "code": "6-501.12",
-       "description": "Cleaning, Frequency and Restrictions"
-      },
-      {
-       "code": "7-207.11",
-       "description": "Restriction and Storage-Medicines"
       }
      ]
     }
@@ -2962,16 +2792,6 @@
       {
        "code": "7-102.11",
        "description": "Common Name-Working Containers"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-10",
-     "type": "Follow-up",
-     "violations": [
-      {
-       "code": "4-501.11",
-       "description": "Good Repair and Proper Adjustment-Equipment"
       }
      ]
     }
@@ -4937,60 +4757,6 @@
        "description": "Designated Areas-Employee Accommodations for eating / drinking/smoking"
       }
      ]
-    },
-    {
-     "date": "2024-10-02",
-     "type": "Follow-up",
-     "violations": [
-      {
-       "code": "2-402.11",
-       "description": "Effectiveness-Hair Restraints"
-      },
-      {
-       "code": "3-302.12",
-       "description": "Food Storage Containers Identified with Common Name of Food"
-      },
-      {
-       "code": "3-305.11",
-       "description": "Food Storage-Preventing Contamination from the Premises"
-      },
-      {
-       "code": "4-101.19",
-       "description": "Nonfood-Contact Surfaces"
-      },
-      {
-       "code": "4-202.18",
-       "description": "Ventilation Hood Systems, Filters"
-      },
-      {
-       "code": "4-501.12",
-       "description": "Cutting Surfaces"
-      },
-      {
-       "code": "4-702.11",
-       "description": "Before Use After Cleaning"
-      },
-      {
-       "code": "6-202.13",
-       "description": "Insect Control Devices, Design and Installation"
-      },
-      {
-       "code": "6-202.15",
-       "description": "Outer Openings, Protected"
-      },
-      {
-       "code": "6-501.111",
-       "description": "Controlling Pests"
-      },
-      {
-       "code": "6-501.112",
-       "description": "Removing Dead or Trapped Birds, Insects, Rodents and other Pest"
-      },
-      {
-       "code": "7-102.11",
-       "description": "Common Name-Working Containers"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -5422,6 +5188,20 @@
    "id": "bcfabb4869",
    "inspections": [
     {
+     "date": "2026-10-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
      "date": "2025-10-06",
      "type": "Follow-up",
      "violations": []
@@ -5498,6 +5278,32 @@
    "city": "Milford",
    "id": "32460330c5",
    "inspections": [
+    {
+     "date": "2026-10-01",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "3-403.11",
+       "description": "Reheating for Hot Holding"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      }
+     ]
+    },
     {
      "date": "2026-04-01",
      "type": "Routine",
@@ -5621,32 +5427,6 @@
       {
        "code": "4-202.18",
        "description": "Ventilation Hood Systems, Filters"
-      },
-      {
-       "code": "4-602.13",
-       "description": "Nonfood Contact Surfaces"
-      },
-      {
-       "code": "6-501.12",
-       "description": "Cleaning, Frequency and Restrictions"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-11",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-402.11",
-       "description": "Effectiveness-Hair Restraints"
-      },
-      {
-       "code": "4-202.18",
-       "description": "Ventilation Hood Systems, Filters"
-      },
-      {
-       "code": "4-302.14",
-       "description": "Sanitizing Solutions, Testing Devices"
       },
       {
        "code": "4-602.13",
@@ -5952,7 +5732,7 @@
   {
    "address": "654 A N Dupont Blvd",
    "city": "Milford",
-   "id": "9fb081960e",
+   "id": "2c8ffb55b5",
    "inspections": [
     {
      "date": "2026-07-22",
@@ -6112,7 +5892,7 @@
     }
    ],
    "mobile": false,
-   "name": "La Tonalteca",
+   "name": "La Tonalteca-Milford",
    "zip": "19963"
   },
   {
@@ -6971,6 +6751,16 @@
    "id": "3afa287f91",
    "inspections": [
     {
+     "date": "2026-10-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      }
+     ]
+    },
+    {
      "date": "2025-10-06",
      "type": "Routine",
      "violations": [
@@ -7235,34 +7025,36 @@
    "zip": "19963"
   },
   {
-   "address": "1019 N Walnut Street",
-   "city": "Milford",
-   "id": "7dc268e0ec",
-   "inspections": [
-    {
-     "date": "2024-10-02",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "4-204.115",
-       "description": "Warewashing Machines, Temperature Measuring Devices"
-      },
-      {
-       "code": "6-301.12",
-       "description": "Hand Drying Provision"
-      }
-     ]
-    }
-   ],
-   "mobile": false,
-   "name": "Milford High School Outside Concession",
-   "zip": "19963"
-  },
-  {
    "address": "915 North Walnut Street",
    "city": "Milford",
    "id": "894d82fb33",
    "inspections": [
+    {
+     "date": "2026-10-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "5-501.114",
+       "description": "Using Drain Plugs"
+      },
+      {
+       "code": "6-202.13",
+       "description": "Insect Control Devices, Design and Installation"
+      },
+      {
+       "code": "7-202.12",
+       "description": "Conditions of Use"
+      }
+     ]
+    },
     {
      "date": "2026-04-08",
      "type": "Routine",
@@ -8117,20 +7909,6 @@
        "description": "Receptacles"
       }
      ]
-    },
-    {
-     "date": "2024-10-10",
-     "type": "Follow-up",
-     "violations": [
-      {
-       "code": "4-501.12",
-       "description": "Cutting Surfaces"
-      },
-      {
-       "code": "6-501.16",
-       "description": "Drying Mops"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -8240,43 +8018,7 @@
   {
    "address": "21 West Clarke Avenue",
    "city": "Milford",
-   "id": "eb9f523e0f",
-   "inspections": [
-    {
-     "date": "2025-02-17",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-402.11",
-       "description": "Effectiveness-Hair Restraints"
-      },
-      {
-       "code": "3-305.11",
-       "description": "Food Storage-Preventing Contamination from the Premises"
-      },
-      {
-       "code": "3-501.18",
-       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Disposition"
-      },
-      {
-       "code": "4-501.12",
-       "description": "Cutting Surfaces"
-      },
-      {
-       "code": "6-301.12",
-       "description": "Hand Drying Provision"
-      }
-     ]
-    }
-   ],
-   "mobile": false,
-   "name": "Milford Wellness Center Village Caf+� - Clarke Ave",
-   "zip": "19963"
-  },
-  {
-   "address": "21 West Clarke Avenue",
-   "city": "Milford",
-   "id": "856308750b",
+   "id": "5f95423daf",
    "inspections": [
     {
      "date": "2026-08-27",
@@ -8323,7 +8065,43 @@
     }
    ],
    "mobile": false,
-   "name": "Milford Wellness Center Village Caf� - Clarke Ave",
+   "name": "Milford Wellness Center Village Caf - Clarke Ave",
+   "zip": "19963"
+  },
+  {
+   "address": "21 West Clarke Avenue",
+   "city": "Milford",
+   "id": "a11348ce7c",
+   "inspections": [
+    {
+     "date": "2025-02-17",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-501.18",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Disposition"
+      },
+      {
+       "code": "4-501.12",
+       "description": "Cutting Surfaces"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "Milford Wellness Center Village Caf+ - Clarke Ave",
    "zip": "19963"
   },
   {
@@ -9414,6 +9192,24 @@
    "id": "996b4e3d5b",
    "inspections": [
     {
+     "date": "2026-10-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      }
+     ]
+    },
+    {
      "date": "2026-04-09",
      "type": "Routine",
      "violations": [
@@ -9516,64 +9312,6 @@
       {
        "code": "6-501.16",
        "description": "Drying Mops"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-11",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-101.11",
-       "description": "Assignment of Responsibility"
-      },
-      {
-       "code": "2-102.12",
-       "description": "Certified Food Protection Manager"
-      },
-      {
-       "code": "2-201.11",
-       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
-      },
-      {
-       "code": "3-305.11",
-       "description": "Food Storage-Preventing Contamination from the Premises"
-      },
-      {
-       "code": "3-501.16",
-       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
-      },
-      {
-       "code": "4-302.14",
-       "description": "Sanitizing Solutions, Testing Devices"
-      },
-      {
-       "code": "4-501.114",
-       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
-      },
-      {
-       "code": "4-602.11",
-       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
-      },
-      {
-       "code": "6-202.15",
-       "description": "Outer Openings, Protected"
-      },
-      {
-       "code": "6-403.11",
-       "description": "Designated Areas-Employee Accommodations for eating / drinking/smoking"
-      },
-      {
-       "code": "6-501.16",
-       "description": "Drying Mops"
-      },
-      {
-       "code": "7-102.11",
-       "description": "Common Name-Working Containers"
-      },
-      {
-       "code": "7-207.11",
-       "description": "Restriction and Storage-Medicines"
       }
      ]
     }
@@ -10122,47 +9860,7 @@
   {
    "address": "340 Ne Front St",
    "city": "Milford",
-   "id": "433ad10765",
-   "inspections": [
-    {
-     "date": "2025-03-05",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-304.12",
-       "description": "In-Use Utensils, Between-Use Storage"
-      },
-      {
-       "code": "3-305.11",
-       "description": "Food Storage-Preventing Contamination from the Premises"
-      },
-      {
-       "code": "3-501.13",
-       "description": "Thawing"
-      },
-      {
-       "code": "3-602.11",
-       "description": "Food Labels"
-      },
-      {
-       "code": "4-101.19",
-       "description": "Nonfood-Contact Surfaces"
-      },
-      {
-       "code": "4-501.114",
-       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
-      }
-     ]
-    }
-   ],
-   "mobile": false,
-   "name": "River Lights Caf+�",
-   "zip": "19963"
-  },
-  {
-   "address": "340 Ne Front St",
-   "city": "Milford",
-   "id": "530e49768c",
+   "id": "3e0cc1f5a6",
    "inspections": [
     {
      "date": "2026-02-11",
@@ -10266,7 +9964,47 @@
     }
    ],
    "mobile": false,
-   "name": "River Lights Caf�",
+   "name": "River Lights Caf",
+   "zip": "19963"
+  },
+  {
+   "address": "340 Ne Front St",
+   "city": "Milford",
+   "id": "bdaa5ff7e5",
+   "inspections": [
+    {
+     "date": "2025-03-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-501.13",
+       "description": "Thawing"
+      },
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      },
+      {
+       "code": "4-101.19",
+       "description": "Nonfood-Contact Surfaces"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "River Lights Caf+",
    "zip": "19963"
   },
   {
@@ -10485,32 +10223,6 @@
        "description": "Common Name-Working Containers"
       }
      ]
-    },
-    {
-     "date": "2024-10-10",
-     "type": "Follow-up",
-     "violations": [
-      {
-       "code": "3-305.11",
-       "description": "Food Storage-Preventing Contamination from the Premises"
-      },
-      {
-       "code": "4-101.19",
-       "description": "Nonfood-Contact Surfaces"
-      },
-      {
-       "code": "4-903.11",
-       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
-      },
-      {
-       "code": "4-903.11",
-       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
-      },
-      {
-       "code": "5-302.16",
-       "description": "Hose, Construction and Identification"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -10522,6 +10234,32 @@
    "city": "Milford",
    "id": "1322358524",
    "inspections": [
+    {
+     "date": "2026-10-06",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "5-501.113",
+       "description": "Covering Receptacles"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
     {
      "date": "2026-05-20",
      "type": "Routine",
@@ -10669,40 +10407,6 @@
        "description": "Closing Toilet Room Doors"
       }
      ]
-    },
-    {
-     "date": "2024-10-09",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-402.11",
-       "description": "Effectiveness-Hair Restraints"
-      },
-      {
-       "code": "3-202.11",
-       "description": "Temperature"
-      },
-      {
-       "code": "3-305.11",
-       "description": "Food Storage-Preventing Contamination from the Premises"
-      },
-      {
-       "code": "5-205.12",
-       "description": "Prohibiting a Cross Connection"
-      },
-      {
-       "code": "5-302.16",
-       "description": "Hose, Construction and Identification"
-      },
-      {
-       "code": "6-301.11",
-       "description": "Handwashing Cleanser, Availability"
-      },
-      {
-       "code": "6-501.19",
-       "description": "Closing Toilet Room Doors"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -10712,7 +10416,7 @@
   {
    "address": "945 N Dupont Blvd",
    "city": "Milford",
-   "id": "400768d6a1",
+   "id": "e0e96c1249",
    "inspections": [
     {
      "date": "2026-07-10",
@@ -10950,13 +10654,13 @@
     }
    ],
    "mobile": false,
-   "name": "Ruby Tuesday Restaurant #4391",
+   "name": "Ruby Tuesday Restaurant #4391 (Closed)",
    "zip": "19963"
   },
   {
-   "address": "223 Ne Front Street",
+   "address": null,
    "city": "Milford",
-   "id": "d17961291d",
+   "id": "f6dcc9eeac",
    "inspections": [
     {
      "date": "2026-09-17",
@@ -11125,33 +10829,11 @@
        "description": "Separation-Storage"
       }
      ]
-    },
-    {
-     "date": "2024-10-10",
-     "type": "Follow-up",
-     "violations": [
-      {
-       "code": "3-305.11",
-       "description": "Food Storage-Preventing Contamination from the Premises"
-      },
-      {
-       "code": "4-101.19",
-       "description": "Nonfood-Contact Surfaces"
-      },
-      {
-       "code": "5-501.13",
-       "description": "Receptacles"
-      },
-      {
-       "code": "8-304.11",
-       "description": "Responsibilities of the Permit Holder"
-      }
-     ]
     }
    ],
-   "mobile": false,
-   "name": "Sabor Latino",
-   "zip": "19963"
+   "mobile": true,
+   "name": "Sabor Latino (MOB)",
+   "zip": null
   },
   {
    "address": "1113 North Walnut Street",
@@ -12035,7 +11717,7 @@
   {
    "address": "27 South Walnut Street Suite 102",
    "city": "Milford",
-   "id": "6e35cb45e8",
+   "id": "c49e1e417a",
    "inspections": [
     {
      "date": "2025-01-16",
@@ -12069,7 +11751,7 @@
     }
    ],
    "mobile": false,
-   "name": "Stewarts Gourmet Candy & Snow Cones",
+   "name": "Stewarts Gourmet Candy & Snow Cones (Closed)",
    "zip": "19963"
   },
   {
@@ -13148,6 +12830,38 @@
    "zip": "19963"
   },
   {
+   "address": "621 North Walnut Street",
+   "city": "Milford",
+   "id": "ffac0199ea",
+   "inspections": [
+    {
+     "date": "2026-10-01",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      },
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "Tracians Catering & Grill",
+   "zip": "19963"
+  },
+  {
    "address": "215 Northeast Front Street",
    "city": "Milford",
    "id": "ebfb739603",
@@ -14179,40 +13893,6 @@
        "description": "Restriction and Storage-Medicines"
       }
      ]
-    },
-    {
-     "date": "2024-10-03",
-     "type": "Follow-up",
-     "violations": [
-      {
-       "code": "3-301.11",
-       "description": "Preventing Contamination from Hands"
-      },
-      {
-       "code": "4-101.19",
-       "description": "Nonfood-Contact Surfaces"
-      },
-      {
-       "code": "4-501.12",
-       "description": "Cutting Surfaces"
-      },
-      {
-       "code": "5-501.13",
-       "description": "Receptacles"
-      },
-      {
-       "code": "6-202.11",
-       "description": "Light Bulbs, Protective Shielding"
-      },
-      {
-       "code": "6-501.111",
-       "description": "Controlling Pests"
-      },
-      {
-       "code": "6-501.113",
-       "description": "Storing Maintenance Tools"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -14221,6 +13901,6 @@
   }
  ],
  "slug": "milford",
- "source_updated": "2026-10-09",
+ "source_updated": "2026-10-16",
  "town": "Milford"
 }

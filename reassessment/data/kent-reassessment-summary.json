@@ -7,22 +7,22 @@
     "note": "Kent was the first Delaware county reassessed; new values became live 2024-07-01 for tax year 2024, replacing a decades-old assessment basis."
   },
   "totals": {
-    "parcels_total": 83145,
-    "parcels_valued": 81237,
-    "total_assessed": 29625919000.0,
-    "land_assessed": 9165312600.0,
-    "improvement_assessed": 20460606400.0,
-    "mean_assessed": 364685.04,
-    "median_assessed": 284600.0
+    "parcels_total": 83144,
+    "parcels_valued": 81328,
+    "total_assessed": 29673977600.0,
+    "land_assessed": 9174966700.0,
+    "improvement_assessed": 20499010900.0,
+    "mean_assessed": 364867.91,
+    "median_assessed": 284800.0
   },
   "residential_medians": {
     "Single Family Dwelling": {
-      "parcels": 54498,
-      "median_assessed": 330000.0
+      "parcels": 54623,
+      "median_assessed": 330200.0
     },
     "Mobile Home": {
-      "parcels": 4947,
-      "median_assessed": 196300.0
+      "parcels": 4950,
+      "median_assessed": 196350.0
     },
     "Multi Family Dwelling": {
       "parcels": 463,
@@ -32,33 +32,33 @@
   "by_property_use": [
     {
       "use": "Single Family Dwelling",
-      "parcels": 54498,
-      "total_assessed": 18676915800.0,
-      "mean_assessed": 342708.28
+      "parcels": 54623,
+      "total_assessed": 18726813100.0,
+      "mean_assessed": 342837.51
     },
     {
       "use": "Residential - Vacant Land",
-      "parcels": 14286,
-      "total_assessed": 581939700.0,
-      "mean_assessed": 40734.96
+      "parcels": 14251,
+      "total_assessed": 579963100.0,
+      "mean_assessed": 40696.31
     },
     {
       "use": "Mobile Home",
-      "parcels": 4947,
-      "total_assessed": 969468200.0,
-      "mean_assessed": 195970.93
+      "parcels": 4950,
+      "total_assessed": 970134800.0,
+      "mean_assessed": 195986.83
     },
     {
       "use": "Agricultural w/ Residential",
-      "parcels": 1115,
-      "total_assessed": 625768600.0,
-      "mean_assessed": 561227.44
+      "parcels": 1118,
+      "total_assessed": 627308900.0,
+      "mean_assessed": 561099.19
     },
     {
       "use": "Govt/Inst - Vacant Land",
-      "parcels": 917,
-      "total_assessed": 868507500.0,
-      "mean_assessed": 947118.32
+      "parcels": 919,
+      "total_assessed": 868798800.0,
+      "mean_assessed": 945374.1
     },
     {
       "use": "Residential - Ancillary Use",
@@ -116,9 +116,9 @@
     },
     {
       "use": "Agricultural - Ancillary Use",
-      "parcels": 159,
-      "total_assessed": 53305300.0,
-      "mean_assessed": 335253.46
+      "parcels": 156,
+      "total_assessed": 53147300.0,
+      "mean_assessed": 340687.82
     },
     {
       "use": "Industrial - Vacant Land",
@@ -128,9 +128,9 @@
     },
     {
       "use": "Office - Vacant Land",
-      "parcels": 148,
-      "total_assessed": 33513500.0,
-      "mean_assessed": 226442.57
+      "parcels": 147,
+      "total_assessed": 33282700.0,
+      "mean_assessed": 226412.93
     },
     {
       "use": "Government - Municipality Owned",
@@ -146,9 +146,9 @@
     },
     {
       "use": "Agricultural - Vacant Land",
-      "parcels": 118,
-      "total_assessed": 24282100.0,
-      "mean_assessed": 205780.51
+      "parcels": 114,
+      "total_assessed": 22265500.0,
+      "mean_assessed": 195311.4
     },
     {
       "use": "Educational",
@@ -157,16 +157,16 @@
       "mean_assessed": 12978157.45
     },
     {
-      "use": "Office - Medical",
-      "parcels": 88,
-      "total_assessed": 151154700.0,
-      "mean_assessed": 1717667.05
-    },
-    {
       "use": "Industrial - Manufacturing",
       "parcels": 88,
       "total_assessed": 266695200.0,
       "mean_assessed": 3030627.27
+    },
+    {
+      "use": "Office - Medical",
+      "parcels": 88,
+      "total_assessed": 151154700.0,
+      "mean_assessed": 1717667.05
     },
     {
       "use": "CIUX Miscellaneous",
@@ -211,16 +211,16 @@
       "mean_assessed": 1281435.29
     },
     {
+      "use": "Cemeteries ",
+      "parcels": 51,
+      "total_assessed": 17641000.0,
+      "mean_assessed": 345901.96
+    },
+    {
       "use": "Auto - Dealer/Showroom",
       "parcels": 50,
       "total_assessed": 97837400.0,
       "mean_assessed": 1956748.0
-    },
-    {
-      "use": "Cemeteries ",
-      "parcels": 49,
-      "total_assessed": 16634200.0,
-      "mean_assessed": 339473.47
     },
     {
       "use": "Apartment (20-59)",
@@ -247,16 +247,22 @@
       "mean_assessed": 6210066.67
     },
     {
+      "use": "Inst - Ancillary Use",
+      "parcels": 32,
+      "total_assessed": 10421600.0,
+      "mean_assessed": 325675.0
+    },
+    {
       "use": "Public Safety",
       "parcels": 32,
       "total_assessed": 63435100.0,
       "mean_assessed": 1982346.88
     },
     {
-      "use": "Inst - Ancillary Use",
-      "parcels": 32,
-      "total_assessed": 10421600.0,
-      "mean_assessed": 325675.0
+      "use": "Government - County Owned",
+      "parcels": 31,
+      "total_assessed": 57669900.0,
+      "mean_assessed": 1860319.35
     },
     {
       "use": "Private Hall",
@@ -271,22 +277,16 @@
       "mean_assessed": 3174196.77
     },
     {
-      "use": "Government - County Owned",
-      "parcels": 31,
-      "total_assessed": 57669900.0,
-      "mean_assessed": 1860319.35
-    },
-    {
       "use": "Utility - Water/ Sewage Facility",
       "parcels": 28,
       "total_assessed": 11209500.0,
       "mean_assessed": 400339.29
     },
     {
-      "use": "Utility - Electrical Facility",
+      "use": "Hotel",
       "parcels": 24,
-      "total_assessed": 19362000.0,
-      "mean_assessed": 806750.0
+      "total_assessed": 133804000.0,
+      "mean_assessed": 5575166.67
     },
     {
       "use": "Office - Govermental Services",
@@ -295,10 +295,10 @@
       "mean_assessed": 1455479.17
     },
     {
-      "use": "Hotel",
+      "use": "Utility - Electrical Facility",
       "parcels": 24,
-      "total_assessed": 133804000.0,
-      "mean_assessed": 5575166.67
+      "total_assessed": 19362000.0,
+      "mean_assessed": 806750.0
     },
     {
       "use": "Day Care",
@@ -313,6 +313,12 @@
       "mean_assessed": 1236833.33
     },
     {
+      "use": "Retail - Ancillary Use",
+      "parcels": 17,
+      "total_assessed": 3950900.0,
+      "mean_assessed": 232405.88
+    },
+    {
       "use": "Apartment - Vacant Land",
       "parcels": 17,
       "total_assessed": 3646500.0,
@@ -325,22 +331,16 @@
       "mean_assessed": 131570.59
     },
     {
-      "use": "Retail - Ancillary Use",
-      "parcels": 17,
-      "total_assessed": 3950900.0,
-      "mean_assessed": 232405.88
+      "use": "Car Wash",
+      "parcels": 16,
+      "total_assessed": 14386500.0,
+      "mean_assessed": 899156.25
     },
     {
       "use": "Motel",
       "parcels": 16,
       "total_assessed": 23777000.0,
       "mean_assessed": 1486062.5
-    },
-    {
-      "use": "Car Wash",
-      "parcels": 16,
-      "total_assessed": 14386500.0,
-      "mean_assessed": 899156.25
     },
     {
       "use": "Residential - Condo Amenities",
@@ -355,16 +355,22 @@
       "mean_assessed": 832514.29
     },
     {
+      "use": "Club House",
+      "parcels": 13,
+      "total_assessed": 13962000.0,
+      "mean_assessed": 1074000.0
+    },
+    {
       "use": "Tavern/Bar",
       "parcels": 13,
       "total_assessed": 5110900.0,
       "mean_assessed": 393146.15
     },
     {
-      "use": "Club House",
-      "parcels": 13,
-      "total_assessed": 13962000.0,
-      "mean_assessed": 1074000.0
+      "use": "Special Use - VL",
+      "parcels": 12,
+      "total_assessed": 2603300.0,
+      "mean_assessed": 216941.67
     },
     {
       "use": "Utility - Communications",
@@ -373,10 +379,10 @@
       "mean_assessed": 789700.0
     },
     {
-      "use": "Office - Ancillary Use",
+      "use": "Government - Federally Owned",
       "parcels": 12,
-      "total_assessed": 6820700.0,
-      "mean_assessed": 568391.67
+      "total_assessed": 195355300.0,
+      "mean_assessed": 16279608.33
     },
     {
       "use": "Industrial - Distribution",
@@ -385,16 +391,10 @@
       "mean_assessed": 8717591.67
     },
     {
-      "use": "Government - Federally Owned",
+      "use": "Office - Ancillary Use",
       "parcels": 12,
-      "total_assessed": 195355300.0,
-      "mean_assessed": 16279608.33
-    },
-    {
-      "use": "Special Use - VL",
-      "parcels": 12,
-      "total_assessed": 2603300.0,
-      "mean_assessed": 216941.67
+      "total_assessed": 6820700.0,
+      "mean_assessed": 568391.67
     },
     {
       "use": "Industrial - Ancillary Use",
@@ -505,16 +505,22 @@
       "mean_assessed": 62400.0
     },
     {
+      "use": "Apartment - Ancillary Use",
+      "parcels": 3,
+      "total_assessed": 261400.0,
+      "mean_assessed": 87133.33
+    },
+    {
       "use": "Billboard",
       "parcels": 3,
       "total_assessed": 411200.0,
       "mean_assessed": 137066.67
     },
     {
-      "use": "Apartment - Ancillary Use",
+      "use": "Recreational Center",
       "parcels": 3,
-      "total_assessed": 261400.0,
-      "mean_assessed": 87133.33
+      "total_assessed": 3017700.0,
+      "mean_assessed": 1005900.0
     },
     {
       "use": "Race Track",
@@ -523,28 +529,10 @@
       "mean_assessed": 28659300.0
     },
     {
-      "use": "Recreational Center",
+      "use": "Cell Tower",
       "parcels": 2,
-      "total_assessed": 2786900.0,
-      "mean_assessed": 1393450.0
-    },
-    {
-      "use": "Conv Market",
-      "parcels": 2,
-      "total_assessed": 1278600.0,
-      "mean_assessed": 639300.0
-    },
-    {
-      "use": "Movie Theatre",
-      "parcels": 2,
-      "total_assessed": 12345200.0,
-      "mean_assessed": 6172600.0
-    },
-    {
-      "use": "Industrial - Refinery",
-      "parcels": 2,
-      "total_assessed": 1405800.0,
-      "mean_assessed": 702900.0
+      "total_assessed": 427800.0,
+      "mean_assessed": 213900.0
     },
     {
       "use": "Telecommunications",
@@ -553,10 +541,10 @@
       "mean_assessed": 907950.0
     },
     {
-      "use": "Cell Tower",
+      "use": "Industrial - Refinery",
       "parcels": 2,
-      "total_assessed": 427800.0,
-      "mean_assessed": 213900.0
+      "total_assessed": 1405800.0,
+      "mean_assessed": 702900.0
     },
     {
       "use": "Swim Club",
@@ -565,16 +553,16 @@
       "mean_assessed": 805000.0
     },
     {
-      "use": "Department Store",
-      "parcels": 1,
-      "total_assessed": 11184400.0,
-      "mean_assessed": 11184400.0
+      "use": "Movie Theatre",
+      "parcels": 2,
+      "total_assessed": 12345200.0,
+      "mean_assessed": 6172600.0
     },
     {
-      "use": "Infrastructure - Railroad Station",
-      "parcels": 1,
-      "total_assessed": 202700.0,
-      "mean_assessed": 202700.0
+      "use": "Conv Market",
+      "parcels": 2,
+      "total_assessed": 1278600.0,
+      "mean_assessed": 639300.0
     },
     {
       "use": "Casino",
@@ -589,17 +577,29 @@
       "mean_assessed": 243100.0
     },
     {
-      "use": "Discount Department Store",
+      "use": "Infrastructure - Railroad Station",
       "parcels": 1,
-      "total_assessed": 1130000.0,
-      "mean_assessed": 1130000.0
+      "total_assessed": 202700.0,
+      "mean_assessed": 202700.0
     },
     {
       "use": "Student Housing",
       "parcels": 1,
       "total_assessed": 189400.0,
       "mean_assessed": 189400.0
+    },
+    {
+      "use": "Discount Department Store",
+      "parcels": 1,
+      "total_assessed": 1130000.0,
+      "mean_assessed": 1130000.0
+    },
+    {
+      "use": "Department Store",
+      "parcels": 1,
+      "total_assessed": 11184400.0,
+      "mean_assessed": 11184400.0
     }
   ],
-  "generated_at": "2026-10-12T18:55:28Z"
+  "generated_at": "2026-10-19T16:29:08Z"
 }

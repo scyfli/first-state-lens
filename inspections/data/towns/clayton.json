@@ -124,16 +124,6 @@
        "description": "Receptacles"
       }
      ]
-    },
-    {
-     "date": "2024-10-04",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "4-101.16",
-       "description": "Sponges Use Limitation"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -440,32 +430,6 @@
        "description": "Drying Mops"
       }
      ]
-    },
-    {
-     "date": "2024-10-04",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-501.18",
-       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Disposition"
-      },
-      {
-       "code": "4-101.16",
-       "description": "Sponges Use Limitation"
-      },
-      {
-       "code": "4-302.14",
-       "description": "Sanitizing Solutions, Testing Devices"
-      },
-      {
-       "code": "5-501.19",
-       "description": "Storage Areas, Redeeming Machines, Receptacles and Waste Handling Units, Location"
-      },
-      {
-       "code": "6-301.12",
-       "description": "Hand Drying Provision"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -574,6 +538,6 @@
   }
  ],
  "slug": "clayton",
- "source_updated": "2026-10-09",
+ "source_updated": "2026-10-16",
  "town": "Clayton"
 }
