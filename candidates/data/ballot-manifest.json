@@ -1,11 +1,11 @@
 {
   "dashboard": "candidates",
   "file": "ballot-2026.json",
-  "generated_at": "2026-10-19T17:21:34Z",
+  "generated_at": "2026-10-20T15:34:27Z",
   "source": {
     "url": "https://elections.delaware.gov/candidates/candidatelist/genl_fcddt_2026.html",
     "name": "Delaware Department of Elections, Filed Candidates by Office",
-    "last_updated": "2026-10-19 12:56 PM"
+    "last_updated": "2026-10-20 10:56 AM"
   },
   "row_counts": {
     "rows": 128,
