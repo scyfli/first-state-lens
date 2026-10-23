@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T09:28:32Z",
+  "generated_at": "2026-10-23T13:52:58Z",
   "dashboard": "bill-tracker",
   "session": "153",
   "bill": "SB 272",
@@ -14,7 +14,7 @@
     }
   },
   "row_counts": {
-    "sponsors": 12,
+    "sponsors": 14,
     "actions": 8,
     "recorded_votes": 1
   }

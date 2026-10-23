@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T09:28:32Z",
+  "generated_at": "2026-10-23T13:52:58Z",
   "session": "153",
   "identifier": "SB 272",
   "title": "AN ACT TO AMEND TITLE 14 AND TITLE 29 OF THE DELAWARE CODE RELATING TO PROJECT LABOR AGREEMENTS FOR SCHOOL DISTRICT PUBLIC WORKS CONTRACTS.",
@@ -28,49 +28,59 @@
       "primary": true
     },
     {
-      "name": "Brian Pettyjohn",
+      "name": "Kimberly Williams",
       "classification": "primary",
       "primary": true
     },
     {
-      "name": "Claire Snyder-Hall",
-      "classification": "primary",
-      "primary": true
+      "name": "Kyra L. Hoffner",
+      "classification": "cosponsor",
+      "primary": false
     },
     {
       "name": "Spiros Mantzavinos",
-      "classification": "primary",
-      "primary": true
+      "classification": "cosponsor",
+      "primary": false
     },
     {
       "name": "Marie Pinkney",
-      "classification": "primary",
-      "primary": true
+      "classification": "cosponsor",
+      "primary": false
     },
     {
       "name": "Ray Seigfried",
-      "classification": "primary",
-      "primary": true
+      "classification": "cosponsor",
+      "primary": false
     },
     {
-      "name": "Bryant L. Richardson",
-      "classification": "primary",
-      "primary": true
+      "name": "Frank Burns",
+      "classification": "cosponsor",
+      "primary": false
     },
     {
       "name": "Franklin D. Cooke",
-      "classification": "primary",
-      "primary": true
+      "classification": "cosponsor",
+      "primary": false
+    },
+    {
+      "name": "Larry Lambert",
+      "classification": "cosponsor",
+      "primary": false
     },
     {
       "name": "Eric Morrison",
-      "classification": "primary",
-      "primary": true
+      "classification": "cosponsor",
+      "primary": false
+    },
+    {
+      "name": "Claire Snyder-Hall",
+      "classification": "cosponsor",
+      "primary": false
     },
     {
       "name": "Madinah Wilson-Anton",
-      "classification": "primary",
-      "primary": true
+      "classification": "cosponsor",
+      "primary": false
     }
   ],
   "actions": [
@@ -118,7 +128,7 @@
   "votes": [
     {
       "date": "2026-05-21",
-      "motion": "SM",
+      "motion": "Passage",
       "result": "pass",
       "chamber": "Senate",
       "counts": {
