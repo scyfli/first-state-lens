@@ -8,7 +8,7 @@
   "content_sha256": "55b974f1d361502e786ebe9b99e789b1950875430d7c46bdea091c0a7ef6a8cf",
   "dashboard": "water-systems",
   "data_as_of": "2026-10-14",
-  "generated_at": "2026-10-19T16:22:49Z",
+  "generated_at": "2026-10-26T16:04:53Z",
   "row_counts": {
     "community_active": 204,
     "health_based": 687,

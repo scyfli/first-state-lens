@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-19T16:22:51Z",
+  "generated_at": "2026-10-26T16:04:55Z",
   "fiscal_year": 2026,
   "scope": "place_of_performance=DE",
   "scope_note": "Money spent in Delaware (place of performance), not money to Delaware-based recipients.",
   "counts": {
-    "contracts": 3612,
-    "grants": 2009,
-    "direct_payments": 3009,
-    "loans": 837,
+    "contracts": 3636,
+    "grants": 2013,
+    "direct_payments": 3060,
+    "loans": 853,
     "idvs": 0,
-    "other": 508
+    "other": 518
   },
-  "total_awards": 9975,
+  "total_awards": 10080,
   "top_contracts": [
     {
       "recipient": "AGATE CONSTRUCTION COMPANY, INC.",
@@ -62,14 +62,14 @@
       "type": "\u2014"
     },
     {
-      "recipient": "HERMAN/JCG CO JV",
-      "amount": 17730490.68,
+      "recipient": "PHASE SENSITIVE INNOVATIONS INC",
+      "amount": 18388301.0,
       "agency": "Department of Defense",
       "type": "\u2014"
     },
     {
-      "recipient": "PHASE SENSITIVE INNOVATIONS INC",
-      "amount": 17688300.0,
+      "recipient": "HERMAN/JCG CO JV",
+      "amount": 17730490.68,
       "agency": "Department of Defense",
       "type": "\u2014"
     },
@@ -106,18 +106,6 @@
   ],
   "top_grants": [
     {
-      "recipient": "HEALTH AND SOCIAL SERVICES, DELAWARE DEPT OF",
-      "amount": 2567423000.0,
-      "agency": "Department of Health and Human Services",
-      "type": "BLOCK GRANT (A)"
-    },
-    {
-      "recipient": "HEALTH AND SOCIAL SERVICES, DELAWARE DEPT OF",
-      "amount": 2139064534.0,
-      "agency": "Department of Health and Human Services",
-      "type": "BLOCK GRANT (A)"
-    },
-    {
       "recipient": "DEPARTMENT OF SAFETY & HOMELAND SECURITY",
       "amount": 273519077.74,
       "agency": "Department of Homeland Security",
@@ -130,22 +118,10 @@
       "type": "FORMULA GRANT (A)"
     },
     {
-      "recipient": "HEALTH AND SOCIAL SERVICES, DELAWARE DEPT OF",
-      "amount": 121216818.0,
-      "agency": "Department of Health and Human Services",
-      "type": "BLOCK GRANT (A)"
-    },
-    {
       "recipient": "DELAWARE DEPARTMENT OF HEALTH AND SOCIAL SERVICES",
       "amount": 116780447.0,
       "agency": "Department of Health and Human Services",
       "type": "PROJECT GRANT (B)"
-    },
-    {
-      "recipient": "HEALTH AND SOCIAL SERVICES, DELAWARE DEPT OF",
-      "amount": 103545801.0,
-      "agency": "Department of Health and Human Services",
-      "type": "BLOCK GRANT (A)"
     },
     {
       "recipient": "DEPARTMENT OF EDUCATION DELAWARE",
@@ -172,12 +148,6 @@
       "type": "COOPERATIVE AGREEMENT (B)"
     },
     {
-      "recipient": "WESTSIDE FAMILY HEALTHCARE INC",
-      "amount": 63938796.0,
-      "agency": "Department of Health and Human Services",
-      "type": "PROJECT GRANT (B)"
-    },
-    {
       "recipient": "UNIVERSITY OF DELAWARE",
       "amount": 62932780.19,
       "agency": "Department of Health and Human Services",
@@ -194,6 +164,36 @@
       "amount": 56938161.0,
       "agency": "Department of Health and Human Services",
       "type": "COOPERATIVE AGREEMENT (B)"
+    },
+    {
+      "recipient": "TRANSPORTATION, DELAWARE DEPARTMENT OF",
+      "amount": 51016049.01,
+      "agency": "Department of Transportation",
+      "type": "FORMULA GRANT (A)"
+    },
+    {
+      "recipient": "DIAMOND STATE PORT CORPORATION",
+      "amount": 50000000.0,
+      "agency": "Department of Transportation",
+      "type": "PROJECT GRANT (B)"
+    },
+    {
+      "recipient": "DEPARTMENT OF EDUCATION DELAWARE",
+      "amount": 44206559.0,
+      "agency": "Department of Education",
+      "type": "FORMULA GRANT (A)"
+    },
+    {
+      "recipient": "DEPARTMENT OF EDUCATION DELAWARE",
+      "amount": 43045930.77,
+      "agency": "Department of Agriculture",
+      "type": "FORMULA GRANT (A)"
+    },
+    {
+      "recipient": "TRANSPORTATION, DELAWARE DEPARTMENT OF",
+      "amount": 41988257.56,
+      "agency": "Department of Transportation",
+      "type": "FORMULA GRANT (A)"
     }
   ],
   "source": {

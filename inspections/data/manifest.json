@@ -1,25 +1,22 @@
 {
  "dashboard": "inspections",
  "dates_after_source_update": [
-  "2026-10-19",
-  "2026-10-20",
-  "2026-10-21",
   "2026-11-18",
   "2026-12-03"
  ],
- "generated_at": "2026-10-19T16:29:36Z",
+ "generated_at": "2026-10-26T16:12:17Z",
  "row_counts": {
   "establishments": 3732,
-  "inspections": 9190,
-  "rows_after_source_update": 55,
+  "inspections": 9201,
+  "rows_after_source_update": 10,
   "rows_before_window": 0,
   "rows_in": 33519,
   "rows_incomplete": 0,
-  "rows_used": 33464,
+  "rows_used": 33509,
   "towns": 55,
-  "violations": 32516
+  "violations": 32561
  },
- "rows_updated_at": "2026-10-16T07:31:11Z",
+ "rows_updated_at": "2026-10-23T07:31:33Z",
  "source": {
   "api": "https://data.delaware.gov/resource/384s-wygj.json",
   "dataset": "384s-wygj",
@@ -29,7 +26,7 @@
   "publishing": "Weekly; the state keeps about the past two years",
   "url": "https://data.delaware.gov/Health/Food-Establishment-Inspection-Violations/384s-wygj"
  },
- "source_updated": "2026-10-16",
+ "source_updated": "2026-10-23",
  "towns": [
   {
    "establishments": 95,
@@ -308,9 +305,9 @@
   }
  ],
  "window": {
-  "date_max": "2026-10-16",
+  "date_max": "2026-10-21",
   "date_min": "2024-10-14",
-  "start": "2023-10-16",
+  "start": "2023-10-23",
   "years": 3
  }
 }
