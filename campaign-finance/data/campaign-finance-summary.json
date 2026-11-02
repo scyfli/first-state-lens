@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T16:10:30Z",
+  "generated_at": "2026-11-02T19:29:18Z",
   "cycle": 2026,
   "scope": "Delaware federal candidates, 2026 election cycle",
   "scope_note": "Money raised and spent by candidates for U.S. House and U.S. Senate from Delaware, as reported to the Federal Election Commission. Amounts are as-filed and the most recent filing may lag current activity. FEC registration is not the Delaware ballot: a registered candidate may or may not be certified on the November ballot.",
@@ -130,8 +130,41 @@
       "coverage_end": "2026-09-30"
     },
     {
+      "name": "SOLOMON, GAVIN",
+      "candidate_id": "S6DE00255",
+      "office": "Senate",
+      "party": "REP",
+      "incumbency": "Challenger",
+      "receipts": 0.0,
+      "disbursements": 0.0,
+      "cash_on_hand": null,
+      "coverage_end": null
+    },
+    {
+      "name": "LOUVE, MARY",
+      "candidate_id": "S6DE00230",
+      "office": "Senate",
+      "party": "DEM",
+      "incumbency": "Challenger",
+      "receipts": 0.0,
+      "disbursements": 0.0,
+      "cash_on_hand": null,
+      "coverage_end": null
+    },
+    {
       "name": "HANSEN, E. NO-TRUMP",
       "candidate_id": "S6DE00271",
+      "office": "Senate",
+      "party": "DEM",
+      "incumbency": "Challenger",
+      "receipts": 0.0,
+      "disbursements": 0.0,
+      "cash_on_hand": null,
+      "coverage_end": null
+    },
+    {
+      "name": "STEVENS, TRAVIS",
+      "candidate_id": "S6DE00222",
       "office": "Senate",
       "party": "DEM",
       "incumbency": "Challenger",
@@ -152,17 +185,6 @@
       "coverage_end": null
     },
     {
-      "name": "SOLOMON, GAVIN",
-      "candidate_id": "S6DE00248",
-      "office": "Senate",
-      "party": "REP",
-      "incumbency": "Challenger",
-      "receipts": 0.0,
-      "disbursements": 0.0,
-      "cash_on_hand": null,
-      "coverage_end": null
-    },
-    {
       "name": "HANSEN, ERIC",
       "candidate_id": "S4DE00094",
       "office": "Senate",
@@ -172,28 +194,6 @@
       "disbursements": 0.0,
       "cash_on_hand": null,
       "coverage_end": "2025-01-09"
-    },
-    {
-      "name": "LOUVE, MARY",
-      "candidate_id": "S6DE00230",
-      "office": "Senate",
-      "party": "DEM",
-      "incumbency": "Challenger",
-      "receipts": 0.0,
-      "disbursements": 0.0,
-      "cash_on_hand": null,
-      "coverage_end": null
-    },
-    {
-      "name": "SOLOMON, GAVIN",
-      "candidate_id": "S6DE00255",
-      "office": "Senate",
-      "party": "REP",
-      "incumbency": "Challenger",
-      "receipts": 0.0,
-      "disbursements": 0.0,
-      "cash_on_hand": null,
-      "coverage_end": null
     },
     {
       "name": "COPPOLA, ALEC",
@@ -207,10 +207,10 @@
       "coverage_end": null
     },
     {
-      "name": "STEVENS, TRAVIS",
-      "candidate_id": "S6DE00222",
+      "name": "SOLOMON, GAVIN",
+      "candidate_id": "S6DE00248",
       "office": "Senate",
-      "party": "DEM",
+      "party": "REP",
       "incumbency": "Challenger",
       "receipts": 0.0,
       "disbursements": 0.0,
