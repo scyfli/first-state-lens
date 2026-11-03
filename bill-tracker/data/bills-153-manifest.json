@@ -1,26 +1,26 @@
 {
  "assembly_name": "153rd General Assembly",
  "dashboard": "bill-tracker",
- "generated_at": "2026-10-14T18:30:26Z",
- "latest_action_date": "2026-10-05",
- "latest_status_date": "2026-10-05",
+ "generated_at": "2026-11-03T18:30:31Z",
+ "latest_action_date": "2026-10-30",
+ "latest_status_date": "2026-10-30",
  "row_counts": {
   "amendments_not_listed": 478,
   "by_type": {
-   "Bill": 831,
+   "Bill": 833,
    "Concurrent Resolution": 378,
    "Joint Resolution": 35,
    "Resolution": 53,
    "Substitute": 187
   },
-  "items": 1484
+  "items": 1486
  },
  "run": {
-  "action_logs_read": 1484,
+  "action_logs_read": 1486,
   "action_logs_reused": 0,
-  "full": false,
-  "requests": 1583,
-  "server_total": 1962
+  "full": true,
+  "requests": 1585,
+  "server_total": 1964
  },
  "session": 153,
  "source": {

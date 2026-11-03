@@ -20624,6 +20624,40 @@
   },
   {
    "chamber": "Senate",
+   "introduced": "2026-10-30",
+   "last_action": "Introduced and Assigned to Executive Committee in Senate",
+   "last_action_date": "2026-10-30",
+   "legislation_id": 143695,
+   "number": "SB 361",
+   "order": 211003610,
+   "primary_sponsor": "Seigfried",
+   "short_title": null,
+   "sponsor_url": "https://legis.delaware.gov/LegislatorDetail?personId=13592",
+   "status": "Executive",
+   "status_date": "2026-10-30",
+   "title": "AN ACT TO AMEND TITLE 29 OF THE DELAWARE CODE RELATING TO THE STATE EMPLOYEE BENEFITS COMMITTEE.",
+   "type": "Bill",
+   "url": "https://legis.delaware.gov/BillDetail?LegislationId=143695"
+  },
+  {
+   "chamber": "Senate",
+   "introduced": "2026-10-30",
+   "last_action": "Introduced and Assigned to Executive Committee in Senate",
+   "last_action_date": "2026-10-30",
+   "legislation_id": 143696,
+   "number": "SB 362",
+   "order": 211003620,
+   "primary_sponsor": "Seigfried",
+   "short_title": null,
+   "sponsor_url": "https://legis.delaware.gov/LegislatorDetail?personId=13592",
+   "status": "Executive",
+   "status_date": "2026-10-30",
+   "title": "AN ACT TO AMEND TITLE 16 OF THE DELAWARE CODE RELATING TO A PARKINSON'S DISEASE REGISTRY.",
+   "type": "Bill",
+   "url": "https://legis.delaware.gov/BillDetail?LegislationId=143696"
+  },
+  {
+   "chamber": "Senate",
    "introduced": "2025-01-10",
    "last_action": "Signed by Governor",
    "last_action_date": "2025-02-14",
@@ -25233,13 +25267,13 @@
  "counts": {
   "amendments_not_listed": 478,
   "by_type": {
-   "Bill": 831,
+   "Bill": 833,
    "Concurrent Resolution": 378,
    "Joint Resolution": 35,
    "Resolution": 53,
    "Substitute": 187
   },
-  "items": 1484
+  "items": 1486
  },
  "session": 153,
  "source": {
