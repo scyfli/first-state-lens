@@ -44,4 +44,3 @@
 ## More
 
 - [Sitemap](https://firststatelens.com/sitemap.xml)
-- Methodology (public mirror, forthcoming): methodology.firststatelens.com
