@@ -114,20 +114,6 @@
        "description": "Ventilation Hood Systems, Drip Prevention"
       }
      ]
-    },
-    {
-     "date": "2024-10-30",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-302.11",
-       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
-      },
-      {
-       "code": "3-307.11",
-       "description": "Miscellaneous Sources of Contamination"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -399,16 +385,6 @@
        "description": "Hand Drying Provision"
       }
      ]
-    },
-    {
-     "date": "2024-10-23",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "6-301.12",
-       "description": "Hand Drying Provision"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -571,20 +547,6 @@
        "description": "Miscellaneous Sources of Contamination"
       }
      ]
-    },
-    {
-     "date": "2024-10-28",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "4-204.11",
-       "description": "Ventilation Hood Systems, Drip Prevention"
-      },
-      {
-       "code": "5-205.11",
-       "description": "Using a Handwashing Sink-Operation and Maintenance"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -711,20 +673,6 @@
       {
        "code": "6-501.16",
        "description": "Drying Mops"
-      }
-     ]
-    },
-    {
-     "date": "2024-11-01",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "4-204.11",
-       "description": "Ventilation Hood Systems, Drip Prevention"
-      },
-      {
-       "code": "5-202.13",
-       "description": "Backflow Prevention, Air Gap"
       }
      ]
     }
@@ -858,6 +806,20 @@
    "city": "Georgetown",
    "id": "01f6d1d379",
    "inspections": [
+    {
+     "date": "2026-10-27",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    },
     {
      "date": "2026-02-25",
      "type": "Routine",
@@ -1002,6 +964,16 @@
    "city": "Georgetown",
    "id": "5228280dc9",
    "inspections": [
+    {
+     "date": "2026-10-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
     {
      "date": "2025-10-15",
      "type": "Routine",
@@ -1312,6 +1284,16 @@
    "city": "Georgetown",
    "id": "f667888251",
    "inspections": [
+    {
+     "date": "2026-09-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
     {
      "date": "2026-02-04",
      "type": "Routine",
@@ -2005,24 +1987,6 @@
        "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
       }
      ]
-    },
-    {
-     "date": "2024-10-24",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "5-205.15",
-       "description": "System Maintained in Good Repair"
-      },
-      {
-       "code": "6-202.15",
-       "description": "Outer Openings, Protected"
-      },
-      {
-       "code": "6-501.16",
-       "description": "Drying Mops"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -2043,16 +2007,6 @@
        "description": "System Maintained in Good Repair"
       }
      ]
-    },
-    {
-     "date": "2024-10-24",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "5-205.15",
-       "description": "System Maintained in Good Repair"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -2064,6 +2018,20 @@
    "city": "Georgetown",
    "id": "8e7964eebd",
    "inspections": [
+    {
+     "date": "2026-10-19",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-101.11",
+       "description": "Surface Characteristics-Indoor Areas"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      }
+     ]
+    },
     {
      "date": "2026-05-04",
      "type": "Routine",
@@ -2197,6 +2165,6 @@
   }
  ],
  "slug": "georgetown",
- "source_updated": "2026-10-30",
+ "source_updated": "2026-11-06",
  "town": "Georgetown"
 }

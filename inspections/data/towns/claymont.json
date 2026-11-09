@@ -294,6 +294,28 @@
    "id": "4d13f8b9f6",
    "inspections": [
     {
+     "date": "2026-10-27",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "4-602.11",
+       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
      "date": "2025-10-22",
      "type": "Routine",
      "violations": [
@@ -400,20 +422,6 @@
       {
        "code": "4-601.11",
        "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-16",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "4-204.112",
-       "description": "Temperature Measuring Devices-Functionality"
-      },
-      {
-       "code": "4-501.114",
-       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
       }
      ]
     }
@@ -841,6 +849,46 @@
    "id": "6ec8ab80db",
    "inspections": [
     {
+     "date": "2026-10-26",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "3-403.11",
+       "description": "Reheating for Hot Holding"
+      },
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
      "date": "2025-03-04",
      "type": "Routine",
      "violations": [
@@ -1024,60 +1072,6 @@
       {
        "code": "4-602.12",
        "description": "Cooking and Baking Equipment"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-29",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-102.12",
-       "description": "Certified Food Protection Manager"
-      },
-      {
-       "code": "2-103.11",
-       "description": "Person-In-Charge-Duties"
-      },
-      {
-       "code": "2-301.14",
-       "description": "When to Wash"
-      },
-      {
-       "code": "2-501.11",
-       "description": "Clean-up of Vomiting and Diarrheal Events"
-      },
-      {
-       "code": "3-304.12",
-       "description": "In-Use Utensils, Between-Use Storage"
-      },
-      {
-       "code": "3-305.11",
-       "description": "Food Storage-Preventing Contamination from the Premises"
-      },
-      {
-       "code": "4-202.18",
-       "description": "Ventilation Hood Systems, Filters"
-      },
-      {
-       "code": "4-302.12",
-       "description": "Food Temperature Measuring Devices"
-      },
-      {
-       "code": "4-602.12",
-       "description": "Cooking and Baking Equipment"
-      },
-      {
-       "code": "5-205.11",
-       "description": "Using a Handwashing Sink-Operation and Maintenance"
-      },
-      {
-       "code": "6-301.11",
-       "description": "Handwashing Cleanser, Availability"
-      },
-      {
-       "code": "6-301.12",
-       "description": "Hand Drying Provision"
       }
      ]
     }
@@ -1394,11 +1388,6 @@
        "description": "Responsibilities of the Permit Holder"
       }
      ]
-    },
-    {
-     "date": "2024-10-21",
-     "type": "Complaint",
-     "violations": []
     }
    ],
    "mobile": false,
@@ -1532,10 +1521,32 @@
    "zip": "19703"
   },
   {
-   "address": "31 Naamans Road",
+   "address": "3100 Naamans Road",
    "city": "Claymont",
-   "id": "25c81e4e50",
+   "id": "f5e888d41f",
    "inspections": [
+    {
+     "date": "2026-10-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
     {
      "date": "2025-03-21",
      "type": "Routine",
@@ -1856,6 +1867,6 @@
   }
  ],
  "slug": "claymont",
- "source_updated": "2026-10-30",
+ "source_updated": "2026-11-06",
  "town": "Claymont"
 }

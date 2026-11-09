@@ -429,20 +429,6 @@
        "description": "Good Repair and Proper Adjustment-Equipment"
       }
      ]
-    },
-    {
-     "date": "2024-10-14",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "4-205.10",
-       "description": "Food Equipment, Certification and Classification"
-      },
-      {
-       "code": "5-205.15",
-       "description": "System Maintained in Good Repair"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -506,20 +492,6 @@
      "date": "2025-04-10",
      "type": "Routine",
      "violations": [
-      {
-       "code": "4-501.11",
-       "description": "Good Repair and Proper Adjustment-Equipment"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-14",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-302.11",
-       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
-      },
       {
        "code": "4-501.11",
        "description": "Good Repair and Proper Adjustment-Equipment"
@@ -601,6 +573,6 @@
   }
  ],
  "slug": "frankford",
- "source_updated": "2026-10-30",
+ "source_updated": "2026-11-06",
  "town": "Frankford"
 }

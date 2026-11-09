@@ -14,20 +14,6 @@
        "description": "Drying Mops"
       }
      ]
-    },
-    {
-     "date": "2024-10-28",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "5-202.11",
-       "description": "Approved System and Cleanable Fixtures"
-      },
-      {
-       "code": "6-501.114",
-       "description": "Maintaining Premises, Unnecessary Items and Litter"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -118,36 +104,6 @@
       {
        "code": "4-501.12",
        "description": "Cutting Surfaces"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-28",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-102.12",
-       "description": "Certified Food Protection Manager"
-      },
-      {
-       "code": "3-305.15",
-       "description": "Food Preparation Sink"
-      },
-      {
-       "code": "5-501.11",
-       "description": "Outdoor Storage Surface"
-      },
-      {
-       "code": "6-501.114",
-       "description": "Maintaining Premises, Unnecessary Items and Litter"
-      },
-      {
-       "code": "6-501.12",
-       "description": "Cleaning, Frequency and Restrictions"
-      },
-      {
-       "code": "7-201.11",
-       "description": "Separation-Storage"
       }
      ]
     }
@@ -250,6 +206,6 @@
   }
  ],
  "slug": "lincoln",
- "source_updated": "2026-10-30",
+ "source_updated": "2026-11-06",
  "town": "Lincoln"
 }

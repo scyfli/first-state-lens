@@ -187,20 +187,6 @@
        "description": "Handwashing Cleanser, Availability"
       }
      ]
-    },
-    {
-     "date": "2024-10-14",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-501.17",
-       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
-      },
-      {
-       "code": "4-205.10",
-       "description": "Food Equipment, Certification and Classification"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -209,6 +195,6 @@
   }
  ],
  "slug": "odessa",
- "source_updated": "2026-10-30",
+ "source_updated": "2026-11-06",
  "town": "Odessa"
 }

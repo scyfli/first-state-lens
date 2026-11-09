@@ -49,16 +49,6 @@
      "date": "2024-12-30",
      "type": "Complaint",
      "violations": []
-    },
-    {
-     "date": "2024-10-14",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "8-304.11",
-       "description": "Responsibilities of the Permit Holder"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -390,6 +380,32 @@
    "id": "0d584d5d25",
    "inspections": [
     {
+     "date": "2026-10-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-301.14",
+       "description": "Handwashing Signage"
+      },
+      {
+       "code": "6-303.11",
+       "description": "Intensity-Lighting"
+      }
+     ]
+    },
+    {
      "date": "2026-02-20",
      "type": "Routine",
      "violations": [
@@ -597,9 +613,33 @@
    "zip": "19977"
   },
   {
+   "address": "89 Lighthouse Road",
+   "city": "Smyrna",
+   "id": "8d1044df60",
+   "inspections": [
+    {
+     "date": "2026-10-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-303.11",
+       "description": "Intensity-Lighting"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "Boondocks Restaurant & Package Store",
+   "zip": "19977"
+  },
+  {
    "address": "230 S Dupont Hwy",
    "city": "Smyrna",
-   "id": "35b65051b4",
+   "id": "57d0dad37a",
    "inspections": [
     {
      "date": "2026-06-26",
@@ -733,7 +773,7 @@
     }
    ],
    "mobile": false,
-   "name": "Brick Works Brewery & Eats",
+   "name": "Brick Works Brewery & Eats -Smyrna",
    "zip": "19977"
   },
   {
@@ -1271,6 +1311,50 @@
    "city": "Smyrna",
    "id": "648793de54",
    "inspections": [
+    {
+     "date": "2026-11-05",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-304.14",
+       "description": "Wiping Cloths, Use Limitation"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
     {
      "date": "2026-02-17",
      "type": "Routine",
@@ -1822,64 +1906,6 @@
        "description": "Handwashing Cleanser, Availability"
       }
      ]
-    },
-    {
-     "date": "2024-10-25",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-102.11",
-       "description": "Demonstration of Knowledge"
-      },
-      {
-       "code": "2-102.12",
-       "description": "Certified Food Protection Manager"
-      },
-      {
-       "code": "2-301.14",
-       "description": "When to Wash"
-      },
-      {
-       "code": "2-402.11",
-       "description": "Effectiveness-Hair Restraints"
-      },
-      {
-       "code": "3-302.11",
-       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
-      },
-      {
-       "code": "3-304.15",
-       "description": "Gloves, Use Limitation"
-      },
-      {
-       "code": "3-501.13",
-       "description": "Thawing"
-      },
-      {
-       "code": "4-501.11",
-       "description": "Good Repair and Proper Adjustment-Equipment"
-      },
-      {
-       "code": "4-502.13",
-       "description": "Single-Service and Single-Use Articles-Use Limitations"
-      },
-      {
-       "code": "4-602.11",
-       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
-      },
-      {
-       "code": "5-103.11",
-       "description": "Capacity-Quantity and Availability"
-      },
-      {
-       "code": "6-301.11",
-       "description": "Handwashing Cleanser, Availability"
-      },
-      {
-       "code": "6-301.12",
-       "description": "Hand Drying Provision"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -2313,20 +2339,38 @@
        "description": "Light Bulbs, Protective Shielding"
       }
      ]
-    },
+    }
+   ],
+   "mobile": false,
+   "name": "Food Lion - Food Lion LLC - #1426",
+   "zip": "19977"
+  },
+  {
+   "address": "101 West Fairways Circle",
+   "city": "Smyrna",
+   "id": "2cb93731a5",
+   "inspections": [
     {
-     "date": "2024-10-18",
+     "date": "2026-10-27",
      "type": "Routine",
      "violations": [
       {
-       "code": "4-602.13",
-       "description": "Nonfood Contact Surfaces"
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
       }
      ]
     }
    ],
    "mobile": false,
-   "name": "Food Lion - Food Lion LLC - #1426",
+   "name": "Garrisons Lake Golf Club - Troon Inc",
    "zip": "19977"
   },
   {
@@ -2620,16 +2664,6 @@
       {
        "code": "6-301.14",
        "description": "Handwashing Signage"
-      }
-     ]
-    },
-    {
-     "date": "2024-11-01",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "6-201.11",
-       "description": "Floors, Walls and Ceilings-Cleanability"
       }
      ]
     }
@@ -3034,52 +3068,6 @@
        "description": "Prerequisite for Operation"
       }
      ]
-    },
-    {
-     "date": "2024-11-01",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-102.12",
-       "description": "Certified Food Protection Manager"
-      },
-      {
-       "code": "2-302.11",
-       "description": "Maintenance-Fingernails"
-      },
-      {
-       "code": "2-303.11",
-       "description": "Prohibition-Jewelry"
-      },
-      {
-       "code": "2-402.11",
-       "description": "Effectiveness-Hair Restraints"
-      },
-      {
-       "code": "3-302.12",
-       "description": "Food Storage Containers Identified with Common Name of Food"
-      },
-      {
-       "code": "4-101.16",
-       "description": "Sponges Use Limitation"
-      },
-      {
-       "code": "4-602.12",
-       "description": "Cooking and Baking Equipment"
-      },
-      {
-       "code": "4-903.11",
-       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
-      },
-      {
-       "code": "6-202.11",
-       "description": "Light Bulbs, Protective Shielding"
-      },
-      {
-       "code": "6-501.112",
-       "description": "Removing Dead or Trapped Birds, Insects, Rodents and other Pest"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -3092,16 +3080,16 @@
    "id": "1b60bb0e77",
    "inspections": [
     {
-     "date": "2024-10-23",
+     "date": "2026-10-13",
      "type": "Routine",
      "violations": [
       {
-       "code": "4-501.114",
-       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
       },
       {
-       "code": "6-303.11",
-       "description": "Intensity-Lighting"
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
       }
      ]
     }
@@ -3115,6 +3103,16 @@
    "city": "Smyrna",
    "id": "21d6c1ad42",
    "inspections": [
+    {
+     "date": "2026-10-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    },
     {
      "date": "2026-03-25",
      "type": "Routine",
@@ -3264,64 +3262,6 @@
       {
        "code": "6-501.12",
        "description": "Cleaning, Frequency and Restrictions"
-      },
-      {
-       "code": "8-304.11",
-       "description": "Responsibilities of the Permit Holder"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-18",
-     "type": "Follow-up",
-     "violations": [
-      {
-       "code": "2-103.11",
-       "description": "Person-In-Charge-Duties"
-      },
-      {
-       "code": "2-201.11",
-       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
-      },
-      {
-       "code": "3-302.12",
-       "description": "Food Storage Containers Identified with Common Name of Food"
-      },
-      {
-       "code": "3-304.12",
-       "description": "In-Use Utensils, Between-Use Storage"
-      },
-      {
-       "code": "4-204.112",
-       "description": "Temperature Measuring Devices-Functionality"
-      },
-      {
-       "code": "4-601.11",
-       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
-      },
-      {
-       "code": "4-602.13",
-       "description": "Nonfood Contact Surfaces"
-      },
-      {
-       "code": "5-205.15",
-       "description": "System Maintained in Good Repair"
-      },
-      {
-       "code": "6-201.11",
-       "description": "Floors, Walls and Ceilings-Cleanability"
-      },
-      {
-       "code": "6-202.11",
-       "description": "Light Bulbs, Protective Shielding"
-      },
-      {
-       "code": "6-501.11",
-       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
-      },
-      {
-       "code": "6-501.111",
-       "description": "Controlling Pests"
       },
       {
        "code": "8-304.11",
@@ -4274,6 +4214,56 @@
    "zip": "19977"
   },
   {
+   "address": "44 West Commerce Street",
+   "city": "Smyrna",
+   "id": "6956ae0904",
+   "inspections": [
+    {
+     "date": "2026-10-26",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "5-501.113",
+       "description": "Covering Receptacles"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "Sheridans Irish Pub",
+   "zip": "19977"
+  },
+  {
    "address": "Rt 13 & Glenwood Ave",
    "city": "Smyrna",
    "id": "8eaa1bd51d",
@@ -4613,32 +4603,6 @@
        "description": "Cleaning, Frequency and Restrictions"
       }
      ]
-    },
-    {
-     "date": "2024-10-29",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-202.15",
-       "description": "Package Integrity"
-      },
-      {
-       "code": "3-301.11",
-       "description": "Preventing Contamination from Hands"
-      },
-      {
-       "code": "5-205.11",
-       "description": "Using a Handwashing Sink-Operation and Maintenance"
-      },
-      {
-       "code": "5-501.113",
-       "description": "Covering Receptacles"
-      },
-      {
-       "code": "6-202.11",
-       "description": "Light Bulbs, Protective Shielding"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -4646,10 +4610,58 @@
    "zip": "19977"
   },
   {
+   "address": "121 S School Lane",
+   "city": "Smyrna",
+   "id": "e3b0c034ef",
+   "inspections": [
+    {
+     "date": "2026-11-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.110",
+       "description": "Mechanical Warewashing Equipment, Wash Solution Temperature"
+      },
+      {
+       "code": "5-202.12",
+       "description": "Handwashing Sinks, Installation"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.110",
+       "description": "Mechanical Warewashing Equipment, Wash Solution Temperature"
+      },
+      {
+       "code": "5-202.12",
+       "description": "Handwashing Sinks, Installation"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "Smyrna Elementary School",
+   "zip": "19977"
+  },
+  {
    "address": "500 Duck Creek Parkway",
    "city": "Smyrna",
    "id": "71ef5abf9a",
    "inspections": [
+    {
+     "date": "2026-10-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    },
     {
      "date": "2026-03-30",
      "type": "Routine",
@@ -4751,6 +4763,16 @@
    "city": "Smyrna",
    "id": "863606f6f8",
    "inspections": [
+    {
+     "date": "2026-10-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
     {
      "date": "2026-06-01",
      "type": "Routine",
@@ -4884,7 +4906,7 @@
   {
    "address": "4793 Wheatleys Pond Road",
    "city": "Smyrna",
-   "id": "63823ba928",
+   "id": "eb50128e09",
    "inspections": [
     {
      "date": "2025-08-26",
@@ -4940,7 +4962,7 @@
     }
    ],
    "mobile": false,
-   "name": "Taste Of New York",
+   "name": "Taste Of New York (Closed)",
    "zip": "19977"
   },
   {
@@ -6224,6 +6246,6 @@
   }
  ],
  "slug": "smyrna",
- "source_updated": "2026-10-30",
+ "source_updated": "2026-11-06",
  "town": "Smyrna"
 }

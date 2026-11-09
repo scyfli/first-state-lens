@@ -25,6 +25,26 @@
    "zip": "19971"
   },
   {
+   "address": "18585 Coastal Hwy#6",
+   "city": "Rehoboth Beach",
+   "id": "4b96b3fa6b",
+   "inspections": [
+    {
+     "date": "2026-10-26",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "1776 Steakhouse",
+   "zip": "19971"
+  },
+  {
    "address": null,
    "city": "Rehoboth Beach",
    "id": "ec9a065a41",
@@ -92,52 +112,6 @@
       {
        "code": "6-501.12",
        "description": "Cleaning, Frequency and Restrictions"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-25",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-501.13",
-       "description": "Thawing"
-      },
-      {
-       "code": "4-204.112",
-       "description": "Temperature Measuring Devices-Functionality"
-      },
-      {
-       "code": "4-903.11",
-       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
-      },
-      {
-       "code": "5-205.11",
-       "description": "Using a Handwashing Sink-Operation and Maintenance"
-      },
-      {
-       "code": "5-402.11",
-       "description": "Backflow Prevention"
-      },
-      {
-       "code": "6-301.11",
-       "description": "Handwashing Cleanser, Availability"
-      },
-      {
-       "code": "6-301.12",
-       "description": "Hand Drying Provision"
-      },
-      {
-       "code": "6-301.14",
-       "description": "Handwashing Signage"
-      },
-      {
-       "code": "6-501.11",
-       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
-      },
-      {
-       "code": "6-501.114",
-       "description": "Maintaining Premises, Unnecessary Items and Litter"
       }
      ]
     }
@@ -587,20 +561,6 @@
      "date": "2025-05-27",
      "type": "Routine",
      "violations": [
-      {
-       "code": "6-501.12",
-       "description": "Cleaning, Frequency and Restrictions"
-      }
-     ]
-    },
-    {
-     "date": "2024-11-04",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-302.12",
-       "description": "Food Storage Containers Identified with Common Name of Food"
-      },
       {
        "code": "6-501.12",
        "description": "Cleaning, Frequency and Restrictions"
@@ -1101,6 +1061,36 @@
    "city": "Rehoboth Beach",
    "id": "736d94b313",
    "inspections": [
+    {
+     "date": "2026-10-19",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-502.13",
+       "description": "Single-Service and Single-Use Articles-Use Limitations"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "7-209.11",
+       "description": "Storage-Other Personal Care Items"
+      },
+      {
+       "code": "8-103.12",
+       "description": "Conformance with Approved Procedures"
+      }
+     ]
+    },
     {
      "date": "2026-07-30",
      "type": "Complaint",
@@ -3587,32 +3577,6 @@
        "description": "Responsibilities of the Permit Holder"
       }
      ]
-    },
-    {
-     "date": "2024-10-25",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-302.11",
-       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
-      },
-      {
-       "code": "3-603.11",
-       "description": "Consumption of Animal Foods that are Raw, Undercooked, or Not Otherwise Processed to Eliminate Pathogens"
-      },
-      {
-       "code": "4-101.11",
-       "description": "Characteristics-Materials for Construction and Repair"
-      },
-      {
-       "code": "4-903.11",
-       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
-      },
-      {
-       "code": "6-501.12",
-       "description": "Cleaning, Frequency and Restrictions"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -4668,20 +4632,6 @@
        "description": "Common Name-Working Containers"
       }
      ]
-    },
-    {
-     "date": "2024-10-30",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-301.11",
-       "description": "Preventing Contamination from Hands"
-      },
-      {
-       "code": "5-205.15",
-       "description": "System Maintained in Good Repair"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -4804,40 +4754,6 @@
        "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
       }
      ]
-    },
-    {
-     "date": "2024-11-04",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-102.12",
-       "description": "Certified Food Protection Manager"
-      },
-      {
-       "code": "3-501.19",
-       "description": "Time as a Public Health Control"
-      },
-      {
-       "code": "4-602.11",
-       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
-      },
-      {
-       "code": "6-303.11",
-       "description": "Intensity-Lighting"
-      },
-      {
-       "code": "6-304.11",
-       "description": "Mechanical-Ventilation"
-      },
-      {
-       "code": "6-501.12",
-       "description": "Cleaning, Frequency and Restrictions"
-      },
-      {
-       "code": "6-501.16",
-       "description": "Drying Mops"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -4856,16 +4772,6 @@
       {
        "code": "2-102.12",
        "description": "Certified Food Protection Manager"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-15",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-307.11",
-       "description": "Miscellaneous Sources of Contamination"
       }
      ]
     }
@@ -4978,40 +4884,6 @@
       {
        "code": "6-501.114",
        "description": "Maintaining Premises, Unnecessary Items and Litter"
-      },
-      {
-       "code": "6-501.12",
-       "description": "Cleaning, Frequency and Restrictions"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-25",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-302.12",
-       "description": "Food Storage Containers Identified with Common Name of Food"
-      },
-      {
-       "code": "3-303.11",
-       "description": "Ice Used as Exterior Coolant, Prohibited as Ingredient"
-      },
-      {
-       "code": "4-502.13",
-       "description": "Single-Service and Single-Use Articles-Use Limitations"
-      },
-      {
-       "code": "4-601.11",
-       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
-      },
-      {
-       "code": "5-205.15",
-       "description": "System Maintained in Good Repair"
-      },
-      {
-       "code": "6-301.14",
-       "description": "Handwashing Signage"
       },
       {
        "code": "6-501.12",
@@ -5478,6 +5350,16 @@
    "id": "1305067acc",
    "inspections": [
     {
+     "date": "2026-10-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
      "date": "2025-12-30",
      "type": "Routine",
      "violations": [
@@ -5534,26 +5416,6 @@
    ],
    "mobile": false,
    "name": "Kabab Falafel Addiction",
-   "zip": "19971"
-  },
-  {
-   "address": "18585 Coastal Hwy Ste 23",
-   "city": "Rehoboth Beach",
-   "id": "c15a3ad010",
-   "inspections": [
-    {
-     "date": "2024-10-29",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "4-803.11",
-       "description": "Storage of Soiled Linens"
-      }
-     ]
-    }
-   ],
-   "mobile": false,
-   "name": "Kaja Asian",
    "zip": "19971"
   },
   {
@@ -6447,20 +6309,6 @@
       {
        "code": "6-501.14",
        "description": "Cleaning Ventilation Systems, Nuisance and Discharge Prohibition"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-30",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "4-501.11",
-       "description": "Good Repair and Proper Adjustment-Equipment"
-      },
-      {
-       "code": "6-501.12",
-       "description": "Cleaning, Frequency and Restrictions"
       }
      ]
     }
@@ -7629,7 +7477,7 @@
   {
    "address": "18701 Coastal Hwy Gallery 5",
    "city": "Rehoboth Beach",
-   "id": "0ced71fe3d",
+   "id": "8fbaf7fa73",
    "inspections": [
     {
      "date": "2026-03-30",
@@ -7647,7 +7495,7 @@
     }
    ],
    "mobile": false,
-   "name": "Ritas",
+   "name": "Ritas - Midway Rehoboth Beach",
    "zip": "19971"
   },
   {
@@ -7949,6 +7797,20 @@
    "city": "Rehoboth Beach",
    "id": "73db8834b3",
    "inspections": [
+    {
+     "date": "2026-10-19",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
     {
      "date": "2026-04-20",
      "type": "Routine",
@@ -8308,6 +8170,16 @@
    "id": "27aaafc56c",
    "inspections": [
     {
+     "date": "2026-10-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
      "date": "2026-05-14",
      "type": "Routine",
      "violations": [
@@ -8574,20 +8446,6 @@
       {
        "code": "6-501.12",
        "description": "Cleaning, Frequency and Restrictions"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-28",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "4-101.16",
-       "description": "Sponges Use Limitation"
-      },
-      {
-       "code": "5-402.11",
-       "description": "Backflow Prevention"
       }
      ]
     }
@@ -9012,6 +8870,16 @@
    "id": "c847944ee4",
    "inspections": [
     {
+     "date": "2026-10-26",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
      "date": "2025-10-22",
      "type": "Routine",
      "violations": [
@@ -9160,24 +9028,6 @@
       {
        "code": "6-301.12",
        "description": "Hand Drying Provision"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-23",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "4-501.11",
-       "description": "Good Repair and Proper Adjustment-Equipment"
-      },
-      {
-       "code": "4-602.13",
-       "description": "Nonfood Contact Surfaces"
-      },
-      {
-       "code": "6-202.15",
-       "description": "Outer Openings, Protected"
       }
      ]
     }
@@ -9399,6 +9249,16 @@
    "city": "Rehoboth Beach",
    "id": "81697c930f",
    "inspections": [
+    {
+     "date": "2026-10-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-307.11",
+       "description": "Miscellaneous Sources of Contamination"
+      }
+     ]
+    },
     {
      "date": "2026-02-19",
      "type": "Routine",
@@ -9894,6 +9754,26 @@
    "zip": "19971"
   },
   {
+   "address": "35436 Wolfneck Road",
+   "city": "Rehoboth Beach",
+   "id": "092b5d20ec",
+   "inspections": [
+    {
+     "date": "2026-10-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "Wawa Food Market #849",
+   "zip": "19971"
+  },
+  {
    "address": "4493 Hwy 1",
    "city": "Rehoboth Beach",
    "id": "552045294c",
@@ -10072,6 +9952,6 @@
   }
  ],
  "slug": "rehoboth-beach",
- "source_updated": "2026-10-30",
+ "source_updated": "2026-11-06",
  "town": "Rehoboth Beach"
 }

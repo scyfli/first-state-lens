@@ -176,6 +176,38 @@
    "id": "f70a389068",
    "inspections": [
     {
+     "date": "2026-10-27",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
      "date": "2025-10-07",
      "type": "Routine",
      "violations": [
@@ -188,20 +220,6 @@
        "description": "Toilet Rooms, Enclosed"
       }
      ]
-    },
-    {
-     "date": "2024-10-14",
-     "type": "Follow-up",
-     "violations": [
-      {
-       "code": "4-101.16",
-       "description": "Sponges Use Limitation"
-      },
-      {
-       "code": "4-302.14",
-       "description": "Sanitizing Solutions, Testing Devices"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -210,6 +228,6 @@
   }
  ],
  "slug": "cheswold",
- "source_updated": "2026-10-30",
+ "source_updated": "2026-11-06",
  "town": "Cheswold"
 }

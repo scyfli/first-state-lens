@@ -1237,6 +1237,24 @@
    "id": "50a6c89f1c",
    "inspections": [
     {
+     "date": "2026-10-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-303.11",
+       "description": "Prohibition-Jewelry"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
      "date": "2026-04-17",
      "type": "Routine",
      "violations": [
@@ -1683,64 +1701,6 @@
        "description": "Drying Mops"
       }
      ]
-    },
-    {
-     "date": "2024-10-29",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-201.11",
-       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
-      },
-      {
-       "code": "3-304.15",
-       "description": "Gloves, Use Limitation"
-      },
-      {
-       "code": "3-305.11",
-       "description": "Food Storage-Preventing Contamination from the Premises"
-      },
-      {
-       "code": "4-501.17",
-       "description": "Warewashing Equipment, Cleaning Agents"
-      },
-      {
-       "code": "4-601.11",
-       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
-      },
-      {
-       "code": "4-602.11",
-       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
-      },
-      {
-       "code": "4-603.16",
-       "description": "Rinsing Procedures"
-      },
-      {
-       "code": "4-702.11",
-       "description": "Before Use After Cleaning"
-      },
-      {
-       "code": "6-202.13",
-       "description": "Insect Control Devices, Design and Installation"
-      },
-      {
-       "code": "6-301.12",
-       "description": "Hand Drying Provision"
-      },
-      {
-       "code": "6-501.11",
-       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
-      },
-      {
-       "code": "6-501.16",
-       "description": "Drying Mops"
-      },
-      {
-       "code": "7-206.11",
-       "description": "Restricted Use Pesticides, Criteria"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -1769,6 +1729,6 @@
   }
  ],
  "slug": "felton",
- "source_updated": "2026-10-30",
+ "source_updated": "2026-11-06",
  "town": "Felton"
 }

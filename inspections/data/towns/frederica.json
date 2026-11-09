@@ -92,6 +92,16 @@
    "id": "eb9ee78379",
    "inspections": [
     {
+     "date": "2026-10-19",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
      "date": "2025-09-26",
      "type": "Routine",
      "violations": [
@@ -158,36 +168,6 @@
        "description": "Rinsing Procedures"
       }
      ]
-    },
-    {
-     "date": "2024-10-18",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-402.11",
-       "description": "Effectiveness-Hair Restraints"
-      },
-      {
-       "code": "3-302.11",
-       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
-      },
-      {
-       "code": "3-305.11",
-       "description": "Food Storage-Preventing Contamination from the Premises"
-      },
-      {
-       "code": "4-101.16",
-       "description": "Sponges Use Limitation"
-      },
-      {
-       "code": "6-501.11",
-       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
-      },
-      {
-       "code": "7-206.11",
-       "description": "Restricted Use Pesticides, Criteria"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -213,44 +193,10 @@
        "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
       }
      ]
-    },
-    {
-     "date": "2024-10-31",
-     "type": "Follow-up",
-     "violations": [
-      {
-       "code": "4-302.14",
-       "description": "Sanitizing Solutions, Testing Devices"
-      },
-      {
-       "code": "5-302.16",
-       "description": "Hose, Construction and Identification"
-      }
-     ]
     }
    ],
    "mobile": false,
    "name": "DE-Turf Unique Food and Beverage (Concession North",
-   "zip": "19946"
-  },
-  {
-   "address": "4000 Bay Road",
-   "city": "Frederica",
-   "id": "cde8b45f65",
-   "inspections": [
-    {
-     "date": "2024-10-31",
-     "type": "Follow-up",
-     "violations": [
-      {
-       "code": "5-302.16",
-       "description": "Hose, Construction and Identification"
-      }
-     ]
-    }
-   ],
-   "mobile": false,
-   "name": "DE-Turf Unique Food and Beverage (Concession South",
    "zip": "19946"
   },
   {
@@ -273,16 +219,6 @@
       {
        "code": "8-304.11",
        "description": "Responsibilities of the Permit Holder"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-31",
-     "type": "Follow-up",
-     "violations": [
-      {
-       "code": "5-302.16",
-       "description": "Hose, Construction and Identification"
       }
      ]
     }
@@ -1017,6 +953,6 @@
   }
  ],
  "slug": "frederica",
- "source_updated": "2026-10-30",
+ "source_updated": "2026-11-06",
  "town": "Frederica"
 }

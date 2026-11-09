@@ -168,6 +168,26 @@
    "id": "2eae48d99a",
    "inspections": [
     {
+     "date": "2026-10-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-19",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
      "date": "2025-10-21",
      "type": "Routine",
      "violations": [
@@ -196,24 +216,6 @@
        "description": "Responsibilities of the Permit Holder"
       }
      ]
-    },
-    {
-     "date": "2024-10-23",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-305.11",
-       "description": "Food Storage-Preventing Contamination from the Premises"
-      },
-      {
-       "code": "5-203.13",
-       "description": "Service Sink"
-      },
-      {
-       "code": "7-206.11",
-       "description": "Restricted Use Pesticides, Criteria"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -222,6 +224,6 @@
   }
  ],
  "slug": "houston",
- "source_updated": "2026-10-30",
+ "source_updated": "2026-11-06",
  "town": "Houston"
 }

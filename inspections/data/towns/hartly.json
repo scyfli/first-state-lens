@@ -19,20 +19,6 @@
      "date": "2024-11-18",
      "type": "Follow-up",
      "violations": []
-    },
-    {
-     "date": "2024-10-24",
-     "type": "Follow-up",
-     "violations": [
-      {
-       "code": "4-501.19",
-       "description": "Manual Warewashing Equipment, Wash Solution Temperature"
-      },
-      {
-       "code": "5-202.12",
-       "description": "Handwashing Sinks, Installation"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -243,6 +229,6 @@
   }
  ],
  "slug": "hartly",
- "source_updated": "2026-10-30",
+ "source_updated": "2026-11-06",
  "town": "Hartly"
 }

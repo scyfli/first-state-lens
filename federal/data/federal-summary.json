@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-02T19:23:51Z",
+  "generated_at": "2026-11-09T19:42:10Z",
   "fiscal_year": 2026,
   "scope": "place_of_performance=DE",
   "scope_note": "Money spent in Delaware (place of performance), not money to Delaware-based recipients.",
   "counts": {
-    "contracts": 3638,
-    "grants": 2046,
+    "contracts": 3640,
+    "grants": 2054,
     "direct_payments": 3062,
-    "loans": 879,
+    "loans": 880,
     "idvs": 0,
     "other": 521
   },
-  "total_awards": 10146,
+  "total_awards": 10157,
   "top_contracts": [
     {
       "recipient": "AGATE CONSTRUCTION COMPANY, INC.",
@@ -27,7 +27,7 @@
     },
     {
       "recipient": "EDUCATION & TRAINING RESOURCES LLC",
-      "amount": 36652136.27,
+      "amount": 36645444.22,
       "agency": "Department of Labor",
       "type": "\u2014"
     },
@@ -68,6 +68,12 @@
       "type": "\u2014"
     },
     {
+      "recipient": "PHASE SENSITIVE INNOVATIONS INC",
+      "amount": 18234426.0,
+      "agency": "Department of Defense",
+      "type": "\u2014"
+    },
+    {
       "recipient": "HERMAN/JCG CO JV",
       "amount": 17730490.68,
       "agency": "Department of Defense",
@@ -94,12 +100,6 @@
     {
       "recipient": "CAESAR RODNEY SCHOOL DISTRICT",
       "amount": 15007444.4,
-      "agency": "Department of Defense",
-      "type": "\u2014"
-    },
-    {
-      "recipient": "CAESAR RODNEY SCHOOL DISTRICT",
-      "amount": 11977355.82,
       "agency": "Department of Defense",
       "type": "\u2014"
     }

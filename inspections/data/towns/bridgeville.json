@@ -372,6 +372,16 @@
    "id": "2bd9f8870b",
    "inspections": [
     {
+     "date": "2026-10-27",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
      "date": "2025-10-28",
      "type": "Routine",
      "violations": [
@@ -428,6 +438,26 @@
    ],
    "mobile": false,
    "name": "Royal Farms #109",
+   "zip": "19933"
+  },
+  {
+   "address": "7511 Federalsburg Rd",
+   "city": "Bridgeville",
+   "id": "19b40fed7f",
+   "inspections": [
+    {
+     "date": "2026-09-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "Snappys Grille",
    "zip": "19933"
   },
   {
@@ -583,26 +613,6 @@
    "zip": "19933"
   },
   {
-   "address": "613 S Main St",
-   "city": "Bridgeville",
-   "id": "f5c5959d36",
-   "inspections": [
-    {
-     "date": "2024-10-16",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "6-101.11",
-       "description": "Surface Characteristics-Indoor Areas"
-      }
-     ]
-    }
-   ],
-   "mobile": false,
-   "name": "Tonys Pizza Italian Restaurant",
-   "zip": "19933"
-  },
-  {
    "address": "9045 Redden Road",
    "city": "Bridgeville",
    "id": "bf1726a7a8",
@@ -656,6 +666,6 @@
   }
  ],
  "slug": "bridgeville",
- "source_updated": "2026-10-30",
+ "source_updated": "2026-11-06",
  "town": "Bridgeville"
 }

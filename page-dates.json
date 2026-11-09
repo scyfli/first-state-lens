@@ -8,8 +8,8 @@
     "hash": "b71c3299f639318fe03500b1b202ec6f773a7c51c3ab9a4abf88deacdaa9624c"
   },
   "/campaign-finance/": {
-    "date": "2026-11-02",
-    "hash": "5fd7378cf15b780889890bcf13cbd42bb4ef2e1f080fd986f7549d5287aeb0d6"
+    "date": "2026-11-09",
+    "hash": "60d17fca16dc846acae39ccf09721b2b724e90e6ac812af88a7a0a3c0911cb28"
   },
   "/candidates/": {
     "date": "2026-10-31",
@@ -20,20 +20,20 @@
     "hash": "3f8df301baaa2351da452a8d0b6af3dcb19582b1fc0e1644e0cbd6a3b40365d9"
   },
   "/childcare/": {
-    "date": "2026-11-02",
-    "hash": "24975f72c821375133878e7f6062b840fedcbaf7d4db441ce2f8829944f8442e"
+    "date": "2026-11-09",
+    "hash": "5a7b429aec720b5faf7bcf0a4cf76be825b396e0e662e486ee00951f26669263"
   },
   "/dgi-food-access/": {
     "date": "2026-07-05",
     "hash": "4825785c91cd70b4c35bdbc5367f8a038621ea40e3503ab1582df62b49b1ac96"
   },
   "/federal/": {
-    "date": "2026-11-02",
-    "hash": "0a63549abc8bad0af0662d9242bec4c08143f2906d6578c6a6551b2a6cacd1db"
+    "date": "2026-11-09",
+    "hash": "412c868ad98819093e41667b89a7dd3d18f5e111069d766f1a81889c319f8ef5"
   },
   "/inspections/": {
-    "date": "2026-11-02",
-    "hash": "cfc84115e8e25bb68cabb42c612407a6b9c4a0913a2201c20ea3a4ce9089f0ab"
+    "date": "2026-11-09",
+    "hash": "c7ed11abd364c9a0c2d643c3068e47f36de3412f661c62fe4baea0f0be5adadb"
   },
   "/my-delaware/": {
     "date": "2026-10-14",
@@ -44,8 +44,8 @@
     "hash": "0fb22ad531b0298183ef7c5977a9d865a923035bbb5afae9dea5abfececd2fed"
   },
   "/reassessment/": {
-    "date": "2026-11-02",
-    "hash": "cd9df3cf5a9cef70a9145a34bfe7409b40a16db16134f0f0a79e5e510fae95e4"
+    "date": "2026-11-09",
+    "hash": "c0292f4d2e89439a64fb662bd219037e8e87ec6d816cc573c4216a84b7b61e8f"
   },
   "/road-safety/": {
     "date": "2026-10-14",

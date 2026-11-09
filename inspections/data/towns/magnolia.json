@@ -210,6 +210,16 @@
    "id": "70123a2b60",
    "inspections": [
     {
+     "date": "2026-10-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
+    {
      "date": "2026-04-07",
      "type": "Routine",
      "violations": [
@@ -1068,6 +1078,6 @@
   }
  ],
  "slug": "magnolia",
- "source_updated": "2026-10-30",
+ "source_updated": "2026-11-06",
  "town": "Magnolia"
 }

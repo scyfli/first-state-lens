@@ -21,6 +21,26 @@
    "zip": "19701"
   },
   {
+   "address": "146 Fox Hunt Dr",
+   "city": "Bear",
+   "id": "17f1eb2fc8",
+   "inspections": [
+    {
+     "date": "2026-10-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "Acme Market Store - Albertsons Companies Inc -",
+   "zip": "19701"
+  },
+  {
    "address": "1247 Quintilio Drive",
    "city": "Bear",
    "id": "a82936f204",
@@ -475,20 +495,12 @@
    "id": "97577d0c91",
    "inspections": [
     {
-     "date": "2026-10-10",
+     "date": "2026-10-16",
      "type": "Routine",
      "violations": [
       {
        "code": "3-302.12",
        "description": "Food Storage Containers Identified with Common Name of Food"
-      },
-      {
-       "code": "4-302.14",
-       "description": "Sanitizing Solutions, Testing Devices"
-      },
-      {
-       "code": "8-301.11",
-       "description": "Prerequisite for Operation"
       }
      ]
     },
@@ -1086,14 +1098,6 @@
       {
        "code": "2-102.12",
        "description": "Certified Food Protection Manager"
-      },
-      {
-       "code": "4-302.14",
-       "description": "Sanitizing Solutions, Testing Devices"
-      },
-      {
-       "code": "8-301.11",
-       "description": "Prerequisite for Operation"
       }
      ]
     },
@@ -1311,6 +1315,20 @@
    "id": "77c43af6dd",
    "inspections": [
     {
+     "date": "2026-10-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-301.14",
+       "description": "Handwashing Signage"
+      },
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
+    {
      "date": "2024-12-02",
      "type": "Follow-up",
      "violations": []
@@ -1444,31 +1462,14 @@
    "id": "d81112e39c",
    "inspections": [
     {
-     "date": "2026-03-16",
-     "type": "Complaint",
+     "date": "2026-10-07",
+     "type": "Routine",
      "violations": []
     },
     {
-     "date": "2026-01-23",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-501.16",
-       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
-      },
-      {
-       "code": "4-302.12",
-       "description": "Food Temperature Measuring Devices"
-      },
-      {
-       "code": "6-301.11",
-       "description": "Handwashing Cleanser, Availability"
-      },
-      {
-       "code": "6-301.12",
-       "description": "Hand Drying Provision"
-      }
-     ]
+     "date": "2026-03-16",
+     "type": "Complaint",
+     "violations": []
     },
     {
      "date": "2026-01-16",
@@ -2098,6 +2099,25 @@
    "id": "6536b940c1",
    "inspections": [
     {
+     "date": "2026-10-19",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2026-10-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
      "date": "2025-08-28",
      "type": "Routine",
      "violations": [
@@ -2577,20 +2597,6 @@
        "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
       }
      ]
-    },
-    {
-     "date": "2024-10-23",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "4-501.11",
-       "description": "Good Repair and Proper Adjustment-Equipment"
-      },
-      {
-       "code": "6-501.111",
-       "description": "Controlling Pests"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -2775,10 +2781,108 @@
    "zip": "19701"
   },
   {
+   "address": "1671 Pulaski Hwy",
+   "city": "Bear",
+   "id": "732f781270",
+   "inspections": [
+    {
+     "date": "2026-10-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "NY Fried Chicken",
+   "zip": "19701"
+  },
+  {
    "address": "112 Fox Hunt Dr",
    "city": "Bear",
    "id": "69af103446",
    "inspections": [
+    {
+     "date": "2026-10-26",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "2-501.11",
+       "description": "Clean-up of Vomiting and Diarrheal Events"
+      },
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "2-501.11",
+       "description": "Clean-up of Vomiting and Diarrheal Events"
+      },
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
     {
      "date": "2026-08-27",
      "type": "Complaint",
@@ -2859,16 +2963,6 @@
       {
        "code": "4-302.12",
        "description": "Food Temperature Measuring Devices"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-25",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-402.11",
-       "description": "Effectiveness-Hair Restraints"
       }
      ]
     }
@@ -3387,28 +3481,6 @@
        "description": "Using a Handwashing Sink-Operation and Maintenance"
       }
      ]
-    },
-    {
-     "date": "2024-10-15",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-401.11",
-       "description": "Eating, Drinking, or Using Tobacco"
-      },
-      {
-       "code": "3-302.11",
-       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
-      },
-      {
-       "code": "3-501.17",
-       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
-      },
-      {
-       "code": "4-601.11",
-       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -3633,16 +3705,6 @@
        "description": "Hand Drying Provision"
       }
      ]
-    },
-    {
-     "date": "2024-10-18",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "7-102.11",
-       "description": "Common Name-Working Containers"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -3835,6 +3897,25 @@
    "id": "99846ffd7b",
    "inspections": [
     {
+     "date": "2026-10-23",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2026-10-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
      "date": "2025-02-26",
      "type": "Routine",
      "violations": [
@@ -3859,24 +3940,8 @@
      "type": "Routine",
      "violations": [
       {
-       "code": "3-305.11",
-       "description": "Food Storage-Preventing Contamination from the Premises"
-      },
-      {
-       "code": "3-501.17",
-       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
-      },
-      {
-       "code": "3-602.11",
-       "description": "Food Labels"
-      },
-      {
        "code": "4-204.112",
        "description": "Temperature Measuring Devices-Functionality"
-      },
-      {
-       "code": "4-302.14",
-       "description": "Sanitizing Solutions, Testing Devices"
       },
       {
        "code": "5-501.17",
@@ -3885,10 +3950,6 @@
       {
        "code": "6-501.14",
        "description": "Cleaning Ventilation Systems, Nuisance and Discharge Prohibition"
-      },
-      {
-       "code": "8-301.11",
-       "description": "Prerequisite for Operation"
       }
      ]
     },
@@ -4030,6 +4091,16 @@
    "city": "Bear",
    "id": "eeac4136e3",
    "inspections": [
+    {
+     "date": "2026-10-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
     {
      "date": "2026-08-13",
      "type": "Routine",
@@ -4227,6 +4298,33 @@
    "id": "80b821d50a",
    "inspections": [
     {
+     "date": "2026-10-29",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2026-10-19",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "2-501.11",
+       "description": "Clean-up of Vomiting and Diarrheal Events"
+      },
+      {
+       "code": "3-203.12",
+       "description": "Shellstock, Maintaining Identification"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
      "date": "2025-08-06",
      "type": "Routine",
      "violations": [
@@ -4362,32 +4460,6 @@
        "description": "In-Use Utensils, Between-Use Storage"
       }
      ]
-    },
-    {
-     "date": "2024-10-22",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-401.11",
-       "description": "Eating, Drinking, or Using Tobacco"
-      },
-      {
-       "code": "3-301.11",
-       "description": "Preventing Contamination from Hands"
-      },
-      {
-       "code": "3-302.11",
-       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
-      },
-      {
-       "code": "4-602.12",
-       "description": "Cooking and Baking Equipment"
-      },
-      {
-       "code": "6-301.12",
-       "description": "Hand Drying Provision"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -4476,18 +4548,9 @@
    "id": "422317331c",
    "inspections": [
     {
-     "date": "2026-10-13",
+     "date": "2026-10-16",
      "type": "Routine",
-     "violations": [
-      {
-       "code": "4-501.110",
-       "description": "Mechanical Warewashing Equipment, Wash Solution Temperature"
-      },
-      {
-       "code": "4-501.112",
-       "description": "Mechanical Warewashing Equipment, Hot Water Sanitization Temperatures"
-      }
-     ]
+     "violations": []
     },
     {
      "date": "2026-10-06",
@@ -4568,6 +4631,6 @@
   }
  ],
  "slug": "bear",
- "source_updated": "2026-10-30",
+ "source_updated": "2026-11-06",
  "town": "Bear"
 }

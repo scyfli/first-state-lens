@@ -3,7 +3,7 @@
   {
    "address": "26494 Crosswinds Landing",
    "city": "Selbyville",
-   "id": "a6d01033cf",
+   "id": "ec77073fc9",
    "inspections": [
     {
      "date": "2026-09-18",
@@ -47,13 +47,13 @@
     }
    ],
    "mobile": false,
-   "name": "38 Degrees (the Point Amenity)",
+   "name": "38 Degrees (The Point Amenity) - Bayside Resort Go",
    "zip": "19944"
   },
   {
    "address": "31221 Americana Parkway",
    "city": "Selbyville",
-   "id": "a6d6809cac",
+   "id": "2f572de89f",
    "inspections": [
     {
      "date": "2026-10-06",
@@ -67,7 +67,7 @@
     }
    ],
    "mobile": false,
-   "name": "Afc Sushi @ Harris Teeter",
+   "name": "AFC Sushi @ Harris Teeter #327",
    "zip": "19975"
   },
   {
@@ -129,7 +129,7 @@
   {
    "address": "11090 Signature Blvd",
    "city": "Selbyville",
-   "id": "90e4aa7885",
+   "id": "b65a6e82a5",
    "inspections": [
     {
      "date": "2026-03-04",
@@ -220,7 +220,7 @@
     }
    ],
    "mobile": false,
-   "name": "BAYSIDE CLUBHOUSE - Signatures",
+   "name": "BAYSIDE CLUBHOUSE Signatures - Bayside Resort Golf",
    "zip": "19975"
   },
   {
@@ -886,6 +886,16 @@
    "city": "Selbyville",
    "id": "c422ab94de",
    "inspections": [
+    {
+     "date": "2026-10-27",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
     {
      "date": "2025-12-05",
      "type": "Routine",
@@ -1688,7 +1698,7 @@
   {
    "address": "38472 duPont Blvd",
    "city": "Selbyville",
-   "id": "b207e0fb09",
+   "id": "f7ed60a4b4",
    "inspections": [
     {
      "date": "2025-09-16",
@@ -1710,7 +1720,7 @@
     }
    ],
    "mobile": false,
-   "name": "Marleys Munchies",
+   "name": "Marleys Munchies (Closed)",
    "zip": "19975"
   },
   {
@@ -2025,24 +2035,6 @@
        "description": "Controlling Pests"
       }
      ]
-    },
-    {
-     "date": "2024-10-23",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-302.11",
-       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
-      },
-      {
-       "code": "4-601.11",
-       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
-      },
-      {
-       "code": "5-205.11",
-       "description": "Using a Handwashing Sink-Operation and Maintenance"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -2172,16 +2164,6 @@
        "description": "Restriction and Storage-Medicines"
       }
      ]
-    },
-    {
-     "date": "2024-10-14",
-     "type": "Follow-up",
-     "violations": [
-      {
-       "code": "5-205.11",
-       "description": "Using a Handwashing Sink-Operation and Maintenance"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -2304,24 +2286,6 @@
       {
        "code": "6-201.13",
        "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-15",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "6-101.11",
-       "description": "Surface Characteristics-Indoor Areas"
-      },
-      {
-       "code": "6-201.13",
-       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
-      },
-      {
-       "code": "7-206.11",
-       "description": "Restricted Use Pesticides, Criteria"
       }
      ]
     }
@@ -2850,16 +2814,6 @@
        "description": "Controlling Pests"
       }
      ]
-    },
-    {
-     "date": "2024-10-15",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "6-501.11",
-       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -3256,28 +3210,6 @@
        "description": "Outdoor Storage Surface"
       }
      ]
-    },
-    {
-     "date": "2024-10-23",
-     "type": "Follow-up",
-     "violations": [
-      {
-       "code": "2-301.14",
-       "description": "When to Wash"
-      },
-      {
-       "code": "3-501.13",
-       "description": "Thawing"
-      },
-      {
-       "code": "4-205.10",
-       "description": "Food Equipment, Certification and Classification"
-      },
-      {
-       "code": "5-501.11",
-       "description": "Outdoor Storage Surface"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -3339,9 +3271,9 @@
    "zip": "19975"
   },
   {
-   "address": "31806 Lakeview Drive",
+   "address": "12021 North Haven Drive",
    "city": "Selbyville",
-   "id": "d844121139",
+   "id": "940edc70d0",
    "inspections": [
     {
      "date": "2026-09-18",
@@ -3381,7 +3313,7 @@
     }
    ],
    "mobile": false,
-   "name": "Three Penny Snack Bar",
+   "name": "Three Penny Snack Bar - Bayside Resort Golf Club",
    "zip": "19975"
   },
   {
@@ -3586,6 +3518,6 @@
   }
  ],
  "slug": "selbyville",
- "source_updated": "2026-10-30",
+ "source_updated": "2026-11-06",
  "town": "Selbyville"
 }

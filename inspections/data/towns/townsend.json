@@ -483,20 +483,6 @@
      "date": "2024-11-12",
      "type": "Follow-up",
      "violations": []
-    },
-    {
-     "date": "2024-10-14",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-501.18",
-       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Disposition"
-      },
-      {
-       "code": "4-302.14",
-       "description": "Sanitizing Solutions, Testing Devices"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -563,6 +549,6 @@
   }
  ],
  "slug": "townsend",
- "source_updated": "2026-10-30",
+ "source_updated": "2026-11-06",
  "town": "Townsend"
 }

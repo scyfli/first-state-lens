@@ -145,6 +145,31 @@
    "zip": "19711"
   },
   {
+   "address": "300 North Wakefield Drive",
+   "city": "Newark",
+   "id": "2d075944b7",
+   "inspections": [
+    {
+     "date": "2026-10-22",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2026-10-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "Academia Antonia Alonso",
+   "zip": "19702"
+  },
+  {
    "address": "100 Suburban Dr",
    "city": "Newark",
    "id": "39ac6db732",
@@ -189,6 +214,16 @@
    "city": "Newark",
    "id": "74a51c11d0",
    "inspections": [
+    {
+     "date": "2026-10-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
     {
      "date": "2025-09-23",
      "type": "Routine",
@@ -291,6 +326,16 @@
    "city": "Newark",
    "id": "f47ca58156",
    "inspections": [
+    {
+     "date": "2026-10-19",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
     {
      "date": "2026-09-22",
      "type": "Routine",
@@ -1557,6 +1602,38 @@
    "zip": "19711"
   },
   {
+   "address": "132 Christiana Mall STE 5902",
+   "city": "Newark",
+   "id": "6e4a954e42",
+   "inspections": [
+    {
+     "date": "2026-10-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "Bestar Kiosk - HCreate Inc",
+   "zip": "19702"
+  },
+  {
    "address": "230 E Main St Unit #628",
    "city": "Newark",
    "id": "2b592fa5da",
@@ -2420,10 +2497,48 @@
    "zip": "19711"
   },
   {
+   "address": "230 E Main St Suite 209",
+   "city": "Newark",
+   "id": "89a8c7b9f0",
+   "inspections": [
+    {
+     "date": "2026-10-26",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "Caf+ 67",
+   "zip": "19711"
+  },
+  {
    "address": "139 South Main Street",
    "city": "Newark",
    "id": "42d940d449",
    "inspections": [
+    {
+     "date": "2026-10-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
     {
      "date": "2025-10-17",
      "type": "Follow-up",
@@ -2526,6 +2641,24 @@
    "city": "Newark",
    "id": "aede2b8505",
    "inspections": [
+    {
+     "date": "2026-10-26",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      }
+     ]
+    },
     {
      "date": "2025-10-23",
      "type": "Routine",
@@ -2890,6 +3023,32 @@
    "city": "Newark",
    "id": "6c70b8670b",
    "inspections": [
+    {
+     "date": "2026-10-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "2-501.11",
+       "description": "Clean-up of Vomiting and Diarrheal Events"
+      },
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
     {
      "date": "2025-09-23",
      "type": "Follow-up",
@@ -3421,6 +3580,50 @@
    "city": "Newark",
    "id": "2c4e2ecbb3",
    "inspections": [
+    {
+     "date": "2026-10-26",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-401.11",
+       "description": "Eating, Drinking, or Using Tobacco"
+      },
+      {
+       "code": "5-501.17",
+       "description": "Toilet Room Receptacle, Covered"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-301.14",
+       "description": "When to Wash"
+      },
+      {
+       "code": "2-401.11",
+       "description": "Eating, Drinking, or Using Tobacco"
+      },
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "5-501.17",
+       "description": "Toilet Room Receptacle, Covered"
+      }
+     ]
+    },
     {
      "date": "2025-09-29",
      "type": "Routine",
@@ -4765,16 +4968,6 @@
        "description": "Food Temperature Measuring Devices"
       }
      ]
-    },
-    {
-     "date": "2024-10-23",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "6-301.12",
-       "description": "Hand Drying Provision"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -4894,6 +5087,34 @@
    "mobile": false,
    "name": "Dodahs Kitchen (Closed)",
    "zip": "19711"
+  },
+  {
+   "address": "132 Christiana Mall",
+   "city": "Newark",
+   "id": "4f67e6dde7",
+   "inspections": [
+    {
+     "date": "2026-10-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "Dolcella",
+   "zip": "19702"
   },
   {
    "address": "2715 Pulaski Highway",
@@ -5167,6 +5388,16 @@
    "city": "Newark",
    "id": "4d4c5f7d3b",
    "inspections": [
+    {
+     "date": "2026-10-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      }
+     ]
+    },
     {
      "date": "2025-10-03",
      "type": "Routine",
@@ -5771,7 +6002,7 @@
   {
    "address": "77 Marrows Rd",
    "city": "Newark",
-   "id": "22e58fa82e",
+   "id": "603ede7359",
    "inspections": [
     {
      "date": "2026-01-27",
@@ -5807,7 +6038,7 @@
     }
    ],
    "mobile": false,
-   "name": "El Mercadito Mexican Grocery",
+   "name": "El Mercadito Mexican Grocery (Closed)",
    "zip": "19713"
   },
   {
@@ -5948,6 +6179,34 @@
    "city": "Newark",
    "id": "c457e90510",
    "inspections": [
+    {
+     "date": "2026-10-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-103.11",
+       "description": "Capacity-Quantity and Availability"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-103.11",
+       "description": "Capacity-Quantity and Availability"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
     {
      "date": "2025-04-25",
      "type": "Routine",
@@ -6208,20 +6467,6 @@
        "description": "Controlling Pests"
       }
      ]
-    },
-    {
-     "date": "2024-10-24",
-     "type": "Follow-up",
-     "violations": [
-      {
-       "code": "4-501.112",
-       "description": "Mechanical Warewashing Equipment, Hot Water Sanitization Temperatures"
-      },
-      {
-       "code": "6-501.111",
-       "description": "Controlling Pests"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -6427,6 +6672,16 @@
    "id": "d0a17d0963",
    "inspections": [
     {
+     "date": "2026-10-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      }
+     ]
+    },
+    {
      "date": "2026-04-17",
      "type": "Routine",
      "violations": [
@@ -6587,6 +6842,16 @@
    "city": "Newark",
    "id": "ad99bd5e2d",
    "inspections": [
+    {
+     "date": "2026-10-27",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      }
+     ]
+    },
     {
      "date": "2026-04-17",
      "type": "Routine",
@@ -6771,26 +7036,9 @@
    "id": "d61f8b75b5",
    "inspections": [
     {
-     "date": "2026-05-12",
+     "date": "2026-10-15",
      "type": "Routine",
-     "violations": [
-      {
-       "code": "2-103.11",
-       "description": "Person-In-Charge-Duties"
-      },
-      {
-       "code": "3-304.11",
-       "description": "Food Contact with Equipment, Utensils, and Linens"
-      },
-      {
-       "code": "3-501.17",
-       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
-      },
-      {
-       "code": "4-302.14",
-       "description": "Sanitizing Solutions, Testing Devices"
-      }
-     ]
+     "violations": []
     },
     {
      "date": "2026-04-28",
@@ -7221,30 +7469,9 @@
    "id": "d27b1d48a7",
    "inspections": [
     {
-     "date": "2026-10-09",
+     "date": "2026-10-05",
      "type": "Routine",
-     "violations": [
-      {
-       "code": "2-103.11",
-       "description": "Person-In-Charge-Duties"
-      },
-      {
-       "code": "4-204.112",
-       "description": "Temperature Measuring Devices-Functionality"
-      },
-      {
-       "code": "4-302.14",
-       "description": "Sanitizing Solutions, Testing Devices"
-      },
-      {
-       "code": "5-501.17",
-       "description": "Toilet Room Receptacle, Covered"
-      },
-      {
-       "code": "8-301.11",
-       "description": "Prerequisite for Operation"
-      }
-     ]
+     "violations": []
     },
     {
      "date": "2026-09-29",
@@ -7462,6 +7689,11 @@
    "city": "Newark",
    "id": "346723f5c3",
    "inspections": [
+    {
+     "date": "2026-10-21",
+     "type": "Routine",
+     "violations": []
+    },
     {
      "date": "2026-10-07",
      "type": "Routine",
@@ -7730,6 +7962,16 @@
    "id": "9f026df256",
    "inspections": [
     {
+     "date": "2026-10-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
      "date": "2025-10-28",
      "type": "Routine",
      "violations": [
@@ -7991,7 +8233,7 @@
   {
    "address": "1126 Capitol Trail Unit D",
    "city": "Newark",
-   "id": "719007e747",
+   "id": "bb09e07e82",
    "inspections": [
     {
      "date": "2025-09-23",
@@ -8042,7 +8284,7 @@
     }
    ],
    "mobile": false,
-   "name": "House of Biryanis and Kebabs",
+   "name": "House of Biryanis and Kebabs (Closed)",
    "zip": "19711"
   },
   {
@@ -8365,6 +8607,24 @@
    "id": "56b4e37ba9",
    "inspections": [
     {
+     "date": "2026-10-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
      "date": "2025-11-06",
      "type": "Follow-up",
      "violations": []
@@ -8573,6 +8833,29 @@
    "city": "Newark",
    "id": "e9918c234c",
    "inspections": [
+    {
+     "date": "2026-10-19",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2026-10-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      },
+      {
+       "code": "6-501.112",
+       "description": "Removing Dead or Trapped Birds, Insects, Rodents and other Pest"
+      },
+      {
+       "code": "8-404.11",
+       "description": "Ceasing Operations and Reporting"
+      }
+     ]
+    },
     {
      "date": "2025-10-23",
      "type": "Follow-up",
@@ -9150,6 +9433,24 @@
    "city": "Newark",
    "id": "53aaa181a1",
    "inspections": [
+    {
+     "date": "2026-10-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-401.11",
+       "description": "Eating, Drinking, or Using Tobacco"
+      },
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      }
+     ]
+    },
     {
      "date": "2025-08-01",
      "type": "Routine",
@@ -9860,6 +10161,37 @@
    "id": "64b8e67c81",
    "inspections": [
     {
+     "date": "2026-10-26",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2026-10-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-203.12",
+       "description": "Shellstock, Maintaining Identification"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      }
+     ]
+    },
+    {
      "date": "2025-02-20",
      "type": "Routine",
      "violations": [
@@ -9880,6 +10212,20 @@
    "id": "b2e3f2959b",
    "inspections": [
     {
+     "date": "2026-10-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
      "date": "2025-12-17",
      "type": "Routine",
      "violations": [
@@ -9899,9 +10245,9 @@
    "zip": "19713"
   },
   {
-   "address": null,
+   "address": "130 Troubador Way",
    "city": "Newark",
-   "id": "80fa438cea",
+   "id": "c60d55e874",
    "inspections": [
     {
      "date": "2025-07-30",
@@ -9924,9 +10270,9 @@
      ]
     }
    ],
-   "mobile": true,
-   "name": "La Jarochita Mexican Food LLC (MOB)",
-   "zip": null
+   "mobile": false,
+   "name": "La Jarochita Mexican Food LLC",
+   "zip": "19702"
   },
   {
    "address": "1237 Churchmans Rd",
@@ -10117,6 +10463,16 @@
    "city": "Newark",
    "id": "33b648545b",
    "inspections": [
+    {
+     "date": "2026-10-29",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
     {
      "date": "2025-10-14",
      "type": "Follow-up",
@@ -10508,20 +10864,6 @@
       {
        "code": "6-501.14",
        "description": "Cleaning Ventilation Systems, Nuisance and Discharge Prohibition"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-30",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-301.14",
-       "description": "When to Wash"
-      },
-      {
-       "code": "3-501.16",
-       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
       }
      ]
     }
@@ -11027,6 +11369,30 @@
    "zip": "19702"
   },
   {
+   "address": "8 Polly Drummond Ctr",
+   "city": "Newark",
+   "id": "2ea80bc790",
+   "inspections": [
+    {
+     "date": "2026-10-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.19",
+       "description": "Time as a Public Health Control"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "Mcglynns Pub Newark - Ashby INC - #102",
+   "zip": "19711"
+  },
+  {
    "address": "55a S Meadowood Dr",
    "city": "Newark",
    "id": "6a41e09499",
@@ -11034,16 +11400,7 @@
     {
      "date": "2026-10-08",
      "type": "Routine",
-     "violations": [
-      {
-       "code": "5-103.11",
-       "description": "Capacity-Quantity and Availability"
-      },
-      {
-       "code": "5-205.11",
-       "description": "Using a Handwashing Sink-Operation and Maintenance"
-      }
-     ]
+     "violations": []
     },
     {
      "date": "2026-09-25",
@@ -11489,6 +11846,53 @@
    "id": "83bab18a2f",
    "inspections": [
     {
+     "date": "2026-10-26",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2026-10-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-101.11",
+       "description": "Assignment of Responsibility"
+      },
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-303.11",
+       "description": null
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-501.16",
+       "description": "Drying Mops"
+      }
+     ]
+    },
+    {
      "date": "2025-10-23",
      "type": "Follow-up",
      "violations": []
@@ -11511,7 +11915,7 @@
   {
    "address": "34 Robert Oakes Dr",
    "city": "Newark",
-   "id": "58545328de",
+   "id": "70aab28e61",
    "inspections": [
     {
      "date": "2026-10-01",
@@ -11525,7 +11929,7 @@
     }
    ],
    "mobile": false,
-   "name": "Moes Gyro",
+   "name": "Moes Gyro (Closed)",
    "zip": "19713"
   },
   {
@@ -11574,16 +11978,8 @@
        "description": "Temperature Measuring Devices-Functionality"
       },
       {
-       "code": "4-302.14",
-       "description": "Sanitizing Solutions, Testing Devices"
-      },
-      {
        "code": "5-501.17",
        "description": "Toilet Room Receptacle, Covered"
-      },
-      {
-       "code": "8-301.11",
-       "description": "Prerequisite for Operation"
       }
      ]
     },
@@ -11672,7 +12068,7 @@
    "id": "da04d9c8c0",
    "inspections": [
     {
-     "date": "2026-05-18",
+     "date": "2026-10-09",
      "type": "Routine",
      "violations": [
       {
@@ -12017,52 +12413,6 @@
        "description": "Certified Food Protection Manager"
       }
      ]
-    },
-    {
-     "date": "2024-11-01",
-     "type": "Follow-up",
-     "violations": [
-      {
-       "code": "4-602.12",
-       "description": "Cooking and Baking Equipment"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-28",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-302.11",
-       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
-      },
-      {
-       "code": "3-302.11",
-       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
-      },
-      {
-       "code": "4-302.14",
-       "description": "Sanitizing Solutions, Testing Devices"
-      },
-      {
-       "code": "4-602.12",
-       "description": "Cooking and Baking Equipment"
-      },
-      {
-       "code": "6-301.12",
-       "description": "Hand Drying Provision"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-16",
-     "type": "Complaint",
-     "violations": [
-      {
-       "code": "2-402.11",
-       "description": "Effectiveness-Hair Restraints"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -12114,6 +12464,21 @@
    "city": "Newark",
    "id": "334f0291f2",
    "inspections": [
+    {
+     "date": "2026-10-20",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2026-10-19",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
     {
      "date": "2026-01-14",
      "type": "Routine",
@@ -12525,11 +12890,6 @@
        "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
       }
      ]
-    },
-    {
-     "date": "2024-10-25",
-     "type": "Follow-up",
-     "violations": []
     }
    ],
    "mobile": false,
@@ -12542,14 +12902,9 @@
    "id": "fc481a3618",
    "inspections": [
     {
-     "date": "2026-08-27",
+     "date": "2026-10-21",
      "type": "Routine",
-     "violations": [
-      {
-       "code": "4-302.14",
-       "description": "Sanitizing Solutions, Testing Devices"
-      }
-     ]
+     "violations": []
     },
     {
      "date": "2026-08-24",
@@ -13546,6 +13901,30 @@
    "zip": "19711"
   },
   {
+   "address": "230 E Main St Ste 614",
+   "city": "Newark",
+   "id": "c4ea077b42",
+   "inspections": [
+    {
+     "date": "2026-10-26",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "Poke Bros Vi- Newark - Poke Bros DE LLC - #100",
+   "zip": "19711"
+  },
+  {
    "address": "1700 Capitol Trail",
    "city": "Newark",
    "id": "3efe357c36",
@@ -14009,26 +14388,12 @@
    "id": "59909689d4",
    "inspections": [
     {
-     "date": "2026-09-28",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "4-204.112",
-       "description": "Temperature Measuring Devices-Functionality"
-      }
-     ]
-    },
-    {
-     "date": "2026-04-21",
+     "date": "2026-10-22",
      "type": "Routine",
      "violations": [
       {
        "code": "2-301.14",
        "description": "When to Wash"
-      },
-      {
-       "code": "2-501.11",
-       "description": "Clean-up of Vomiting and Diarrheal Events"
       },
       {
        "code": "3-304.14",
@@ -14039,16 +14404,22 @@
        "description": "Ventilation Hood Systems, Drip Prevention"
       },
       {
-       "code": "4-501.112",
-       "description": "Mechanical Warewashing Equipment, Hot Water Sanitization Temperatures"
-      },
-      {
        "code": "5-205.15",
        "description": "System Maintained in Good Repair"
       },
       {
        "code": "7-201.11",
        "description": "Separation-Storage"
+      }
+     ]
+    },
+    {
+     "date": "2026-09-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
       }
      ]
     },
@@ -14361,28 +14732,6 @@
       {
        "code": "8-301.11",
        "description": "Prerequisite for Operation"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-23",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "4-502.11",
-       "description": "Good Repair and Calibration"
-      },
-      {
-       "code": "6-301.12",
-       "description": "Hand Drying Provision"
-      },
-      {
-       "code": "6-501.111",
-       "description": "Controlling Pests"
-      },
-      {
-       "code": "6-501.16",
-       "description": "Drying Mops"
       }
      ]
     }
@@ -16219,11 +16568,6 @@
        "description": "Handwashing Sinks, Installation"
       }
      ]
-    },
-    {
-     "date": "2024-10-24",
-     "type": "Follow-up",
-     "violations": []
     }
    ],
    "mobile": true,
@@ -16274,6 +16618,16 @@
    "city": "Newark",
    "id": "c6e1d62aec",
    "inspections": [
+    {
+     "date": "2026-10-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      }
+     ]
+    },
     {
      "date": "2025-04-15",
      "type": "Routine",
@@ -16558,7 +16912,7 @@
   {
    "address": "108 E Main St",
    "city": "Newark",
-   "id": "b91918e967",
+   "id": "0476053e35",
    "inspections": [
     {
      "date": "2025-09-09",
@@ -16698,7 +17052,7 @@
     }
    ],
    "mobile": false,
-   "name": "Tbaar - Tbaar LLC",
+   "name": "Tbaar - Tbaar LLC (Closed)",
    "zip": "19711"
   },
   {
@@ -16751,6 +17105,24 @@
    "city": "Newark",
    "id": "94219f2fcb",
    "inspections": [
+    {
+     "date": "2026-10-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.19",
+       "description": "Time as a Public Health Control"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      }
+     ]
+    },
     {
      "date": "2025-11-24",
      "type": "Routine",
@@ -17162,6 +17534,20 @@
    "id": "53b8860eb6",
    "inspections": [
     {
+     "date": "2026-10-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      }
+     ]
+    },
+    {
      "date": "2025-10-24",
      "type": "Routine",
      "violations": [
@@ -17185,6 +17571,42 @@
    "city": "Newark",
    "id": "58ef9f407d",
    "inspections": [
+    {
+     "date": "2026-11-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "4-303.11",
+       "description": null
+      },
+      {
+       "code": "4-501.116",
+       "description": "Warewashing Equipment, Determining Chemical Sanitizer Concentration"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "4-303.11",
+       "description": null
+      },
+      {
+       "code": "4-501.116",
+       "description": "Warewashing Equipment, Determining Chemical Sanitizer Concentration"
+      }
+     ]
+    },
     {
      "date": "2025-10-22",
      "type": "Routine",
@@ -18124,16 +18546,6 @@
        "description": "Using a Handwashing Sink-Operation and Maintenance"
       }
      ]
-    },
-    {
-     "date": "2024-10-18",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "5-205.11",
-       "description": "Using a Handwashing Sink-Operation and Maintenance"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -18929,6 +19341,90 @@
    "id": "9bcbd9148d",
    "inspections": [
     {
+     "date": "2026-10-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-401.11",
+       "description": "Eating, Drinking, or Using Tobacco"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-202.13",
+       "description": "Insect Control Devices, Design and Installation"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      },
+      {
+       "code": "6-501.112",
+       "description": "Removing Dead or Trapped Birds, Insects, Rodents and other Pest"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-19",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-401.11",
+       "description": "Eating, Drinking, or Using Tobacco"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-202.13",
+       "description": "Insect Control Devices, Design and Installation"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      },
+      {
+       "code": "6-501.112",
+       "description": "Removing Dead or Trapped Birds, Insects, Rodents and other Pest"
+      }
+     ]
+    },
+    {
      "date": "2025-10-20",
      "type": "Follow-up",
      "violations": [
@@ -18994,9 +19490,33 @@
    "zip": "19711"
   },
   {
+   "address": "Polly Drummond & Linden Hill Roads",
+   "city": "Newark",
+   "id": "aef9c7226e",
+   "inspections": [
+    {
+     "date": "2026-10-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "Zingos - Zingos Pike Creek Inc",
+   "zip": "19711"
+  },
+  {
    "address": "2136 Fashion Center Blvd",
    "city": "Newark",
-   "id": "9fd0cfa6b1",
+   "id": "8e813c764e",
    "inspections": [
     {
      "date": "2026-02-02",
@@ -19039,11 +19559,11 @@
     }
    ],
    "mobile": false,
-   "name": "Zoup! Christiana",
+   "name": "Zoup! Christiana (Closed)",
    "zip": "19702"
   }
  ],
  "slug": "newark",
- "source_updated": "2026-10-30",
+ "source_updated": "2026-11-06",
  "town": "Newark"
 }

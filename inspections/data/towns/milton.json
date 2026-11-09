@@ -281,26 +281,6 @@
    "zip": "19968"
   },
   {
-   "address": "PO Box 129",
-   "city": "Milton",
-   "id": "f4566c211d",
-   "inspections": [
-    {
-     "date": "2024-10-21",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "5-202.13",
-       "description": "Backflow Prevention, Air Gap"
-      }
-     ]
-    }
-   ],
-   "mobile": false,
-   "name": "Eagles Nest Family Worship Ctr",
-   "zip": "19968"
-  },
-  {
    "address": "110 Broadkill Rd",
    "city": "Milton",
    "id": "feb31ff20c",
@@ -568,20 +548,6 @@
        "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
       }
      ]
-    },
-    {
-     "date": "2024-10-18",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "5-103.11",
-       "description": "Capacity-Quantity and Availability"
-      },
-      {
-       "code": "5-205.15",
-       "description": "System Maintained in Good Repair"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -662,16 +628,6 @@
       {
        "code": "4-202.15",
        "description": "Can Openers"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-23",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "5-202.13",
-       "description": "Backflow Prevention, Air Gap"
       }
      ]
     }
@@ -846,6 +802,24 @@
    "city": "Milton",
    "id": "71b511be5a",
    "inspections": [
+    {
+     "date": "2026-10-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
     {
      "date": "2025-10-15",
      "type": "Routine",
@@ -1269,6 +1243,20 @@
    "id": "8f7b42001b",
    "inspections": [
     {
+     "date": "2026-10-27",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-101.16",
+       "description": "Sponges Use Limitation"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
      "date": "2026-05-07",
      "type": "Routine",
      "violations": [
@@ -1409,64 +1397,6 @@
        "description": "Responsibilities of the Permit Holder"
       }
      ]
-    },
-    {
-     "date": "2024-10-23",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-102.12",
-       "description": "Certified Food Protection Manager"
-      },
-      {
-       "code": "2-301.14",
-       "description": "When to Wash"
-      },
-      {
-       "code": "2-303.11",
-       "description": "Prohibition-Jewelry"
-      },
-      {
-       "code": "2-401.11",
-       "description": "Eating, Drinking, or Using Tobacco"
-      },
-      {
-       "code": "2-402.11",
-       "description": "Effectiveness-Hair Restraints"
-      },
-      {
-       "code": "3-301.11",
-       "description": "Preventing Contamination from Hands"
-      },
-      {
-       "code": "3-304.12",
-       "description": "In-Use Utensils, Between-Use Storage"
-      },
-      {
-       "code": "4-101.16",
-       "description": "Sponges Use Limitation"
-      },
-      {
-       "code": "5-202.13",
-       "description": "Backflow Prevention, Air Gap"
-      },
-      {
-       "code": "5-205.11",
-       "description": "Using a Handwashing Sink-Operation and Maintenance"
-      },
-      {
-       "code": "6-301.12",
-       "description": "Hand Drying Provision"
-      },
-      {
-       "code": "6-501.12",
-       "description": "Cleaning, Frequency and Restrictions"
-      },
-      {
-       "code": "6-501.16",
-       "description": "Drying Mops"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -1475,6 +1405,6 @@
   }
  ],
  "slug": "milton",
- "source_updated": "2026-10-30",
+ "source_updated": "2026-11-06",
  "town": "Milton"
 }

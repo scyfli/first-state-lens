@@ -93,34 +93,6 @@
    "zip": "19956"
   },
   {
-   "address": "30759 Sussex Hwy",
-   "city": "Laurel",
-   "id": "1a3034edee",
-   "inspections": [
-    {
-     "date": "2024-10-31",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-307.11",
-       "description": "Miscellaneous Sources of Contamination"
-      },
-      {
-       "code": "6-301.12",
-       "description": "Hand Drying Provision"
-      },
-      {
-       "code": "7-102.11",
-       "description": "Common Name-Working Containers"
-      }
-     ]
-    }
-   ],
-   "mobile": false,
-   "name": "Chesapeake Country Kitchen",
-   "zip": "19956"
-  },
-  {
    "address": "1110 W 6th St",
    "city": "Laurel",
    "id": "fb4d9c1567",
@@ -505,7 +477,7 @@
   {
    "address": "417 N Central Ave",
    "city": "Laurel",
-   "id": "83e31d7ea2",
+   "id": "4f35860d1c",
    "inspections": [
     {
      "date": "2025-08-27",
@@ -533,7 +505,7 @@
     }
    ],
    "mobile": false,
-   "name": "Laurel Pizzeria",
+   "name": "Laurel Pizzeria - Laurel",
    "zip": "19956"
   },
   {
@@ -753,7 +725,7 @@
   {
    "address": "30428 Sussex Hwy",
    "city": "Laurel",
-   "id": "72fcc99d3a",
+   "id": "ec1784888f",
    "inspections": [
     {
      "date": "2026-09-28",
@@ -787,7 +759,7 @@
     }
    ],
    "mobile": false,
-   "name": "Smash N Dash",
+   "name": "Smash N Dash - Laurel",
    "zip": "19956"
   },
   {
@@ -971,6 +943,6 @@
   }
  ],
  "slug": "laurel",
- "source_updated": "2026-10-30",
+ "source_updated": "2026-11-06",
  "town": "Laurel"
 }

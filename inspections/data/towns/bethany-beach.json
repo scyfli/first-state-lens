@@ -1592,11 +1592,6 @@
        "description": "Cleaning, Frequency and Restrictions"
       }
      ]
-    },
-    {
-     "date": "2024-10-16",
-     "type": "Follow-up",
-     "violations": []
     }
    ],
    "mobile": false,
@@ -1989,7 +1984,7 @@
   {
    "address": "8 North Pennsylvania Avenue",
    "city": "Bethany Beach",
-   "id": "4a3118c55a",
+   "id": "7aa1916c1b",
    "inspections": [
     {
      "date": "2025-07-31",
@@ -2011,7 +2006,7 @@
     }
    ],
    "mobile": false,
-   "name": "Juicebox",
+   "name": "Juicebox Bethany",
    "zip": "19930"
   },
   {
@@ -2914,36 +2909,6 @@
       {
        "code": "3-307.11",
        "description": "Miscellaneous Sources of Contamination"
-      }
-     ]
-    },
-    {
-     "date": "2024-11-04",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-203.12",
-       "description": "Shellstock, Maintaining Identification"
-      },
-      {
-       "code": "3-307.11",
-       "description": "Miscellaneous Sources of Contamination"
-      },
-      {
-       "code": "4-302.14",
-       "description": "Sanitizing Solutions, Testing Devices"
-      },
-      {
-       "code": "4-601.11",
-       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
-      },
-      {
-       "code": "5-205.11",
-       "description": "Using a Handwashing Sink-Operation and Maintenance"
-      },
-      {
-       "code": "7-201.11",
-       "description": "Separation-Storage"
       }
      ]
     }
@@ -3967,32 +3932,6 @@
      "date": "2024-11-11",
      "type": "Follow-up",
      "violations": []
-    },
-    {
-     "date": "2024-11-04",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-302.11",
-       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
-      },
-      {
-       "code": "3-501.16",
-       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
-      },
-      {
-       "code": "4-203.12",
-       "description": "Temperature Measuring Devices, Ambient Air and Water-Accuracy"
-      },
-      {
-       "code": "5-205.11",
-       "description": "Using a Handwashing Sink-Operation and Maintenance"
-      },
-      {
-       "code": "7-102.11",
-       "description": "Common Name-Working Containers"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -4428,6 +4367,6 @@
   }
  ],
  "slug": "bethany-beach",
- "source_updated": "2026-10-30",
+ "source_updated": "2026-11-06",
  "town": "Bethany Beach"
 }

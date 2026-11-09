@@ -494,64 +494,6 @@
        "description": "Conveniently Located"
       }
      ]
-    },
-    {
-     "date": "2024-10-17",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-102.12",
-       "description": "Certified Food Protection Manager"
-      },
-      {
-       "code": "2-402.11",
-       "description": "Effectiveness-Hair Restraints"
-      },
-      {
-       "code": "3-302.11",
-       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
-      },
-      {
-       "code": "3-304.12",
-       "description": "In-Use Utensils, Between-Use Storage"
-      },
-      {
-       "code": "3-304.15",
-       "description": "Gloves, Use Limitation"
-      },
-      {
-       "code": "3-501.14",
-       "description": "Cooling"
-      },
-      {
-       "code": "3-501.17",
-       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
-      },
-      {
-       "code": "4-501.114",
-       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
-      },
-      {
-       "code": "4-602.13",
-       "description": "Nonfood Contact Surfaces"
-      },
-      {
-       "code": "6-101.11",
-       "description": "Surface Characteristics-Indoor Areas"
-      },
-      {
-       "code": "6-202.15",
-       "description": "Outer Openings, Protected"
-      },
-      {
-       "code": "6-403.11",
-       "description": "Designated Areas-Employee Accommodations for eating / drinking/smoking"
-      },
-      {
-       "code": "6-501.16",
-       "description": "Drying Mops"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -560,6 +502,6 @@
   }
  ],
  "slug": "marydel",
- "source_updated": "2026-10-30",
+ "source_updated": "2026-11-06",
  "town": "Marydel"
 }

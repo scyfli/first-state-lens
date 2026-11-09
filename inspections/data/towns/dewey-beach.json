@@ -973,16 +973,6 @@
        "description": "Preventing Contamination from Hands"
       }
      ]
-    },
-    {
-     "date": "2024-10-16",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "5-205.15",
-       "description": "System Maintained in Good Repair"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -1001,20 +991,6 @@
       {
        "code": "3-301.11",
        "description": "Preventing Contamination from Hands"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-17",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-202.11",
-       "description": "Temperature"
-      },
-      {
-       "code": "7-102.11",
-       "description": "Common Name-Working Containers"
       }
      ]
     }
@@ -1408,6 +1384,6 @@
   }
  ],
  "slug": "dewey-beach",
- "source_updated": "2026-10-30",
+ "source_updated": "2026-11-06",
  "town": "Dewey Beach"
 }

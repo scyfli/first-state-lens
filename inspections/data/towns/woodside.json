@@ -130,24 +130,6 @@
        "description": "Intensity-Lighting"
       }
      ]
-    },
-    {
-     "date": "2024-10-21",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "4-602.12",
-       "description": "Cooking and Baking Equipment"
-      },
-      {
-       "code": "6-303.11",
-       "description": "Intensity-Lighting"
-      },
-      {
-       "code": "6-501.11",
-       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -194,6 +176,6 @@
   }
  ],
  "slug": "woodside",
- "source_updated": "2026-10-30",
+ "source_updated": "2026-11-06",
  "town": "Woodside"
 }

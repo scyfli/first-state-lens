@@ -62,6 +62,36 @@
    "id": "03d454a4c0",
    "inspections": [
     {
+     "date": "2026-10-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-101.17",
+       "description": "Wood, Use Limitation"
+      },
+      {
+       "code": "7-301.11",
+       "description": "Separation-Storage and Display, Stock and Retail Sale"
+      }
+     ]
+    },
+    {
      "date": "2025-08-12",
      "type": "Routine",
      "violations": [
@@ -95,28 +125,6 @@
      "date": "2024-11-07",
      "type": "Follow-up",
      "violations": [
-      {
-       "code": "6-201.11",
-       "description": "Floors, Walls and Ceilings-Cleanability"
-      },
-      {
-       "code": "6-501.111",
-       "description": "Controlling Pests"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-29",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-302.11",
-       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
-      },
-      {
-       "code": "3-501.16",
-       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
-      },
       {
        "code": "6-201.11",
        "description": "Floors, Walls and Ceilings-Cleanability"
@@ -196,6 +204,6 @@
   }
  ],
  "slug": "stanton",
- "source_updated": "2026-10-30",
+ "source_updated": "2026-11-06",
  "town": "Stanton"
 }

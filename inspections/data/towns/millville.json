@@ -408,6 +408,20 @@
    "id": "db929c19fd",
    "inspections": [
     {
+     "date": "2026-10-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      }
+     ]
+    },
+    {
      "date": "2026-04-23",
      "type": "Routine",
      "violations": [
@@ -884,65 +898,6 @@
    ],
    "mobile": false,
    "name": "Macs Catering",
-   "zip": "19967"
-  },
-  {
-   "address": "35507 Atlantic Avenue",
-   "city": "Millville",
-   "id": "eaccf1c0d1",
-   "inspections": [
-    {
-     "date": "2024-10-21",
-     "type": "Follow-up",
-     "violations": []
-    }
-   ],
-   "mobile": false,
-   "name": "Melissas Dinner & Lounge - GEM Restaurant Group L",
-   "zip": "19967"
-  },
-  {
-   "address": "35554 Atlantic Ave",
-   "city": "Millville",
-   "id": "1d5c12b0ab",
-   "inspections": [
-    {
-     "date": "2024-10-16",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-102.12",
-       "description": "Certified Food Protection Manager"
-      },
-      {
-       "code": "2-201.11",
-       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
-      },
-      {
-       "code": "4-302.14",
-       "description": "Sanitizing Solutions, Testing Devices"
-      },
-      {
-       "code": "4-601.11",
-       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
-      },
-      {
-       "code": "5-205.11",
-       "description": "Using a Handwashing Sink-Operation and Maintenance"
-      },
-      {
-       "code": "6-501.12",
-       "description": "Cleaning, Frequency and Restrictions"
-      },
-      {
-       "code": "7-201.11",
-       "description": "Separation-Storage"
-      }
-     ]
-    }
-   ],
-   "mobile": false,
-   "name": "Millville Vfc",
    "zip": "19967"
   },
   {
@@ -1623,6 +1578,6 @@
   }
  ],
  "slug": "millville",
- "source_updated": "2026-10-30",
+ "source_updated": "2026-11-06",
  "town": "Millville"
 }

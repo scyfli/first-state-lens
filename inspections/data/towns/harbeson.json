@@ -26,36 +26,6 @@
        "description": "Drying Mops"
       }
      ]
-    },
-    {
-     "date": "2024-10-31",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "4-401.11",
-       "description": "Equipment, Clothes Washers, Dryers and Storage Cabinets, Contamination Prevention-Location"
-      },
-      {
-       "code": "5-205.15",
-       "description": "System Maintained in Good Repair"
-      },
-      {
-       "code": "6-202.12",
-       "description": "Heating, Ventilation, Air Conditioning System Vents"
-      },
-      {
-       "code": "6-301.12",
-       "description": "Hand Drying Provision"
-      },
-      {
-       "code": "6-501.114",
-       "description": "Maintaining Premises, Unnecessary Items and Litter"
-      },
-      {
-       "code": "6-501.12",
-       "description": "Cleaning, Frequency and Restrictions"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -96,6 +66,6 @@
   }
  ],
  "slug": "harbeson",
- "source_updated": "2026-10-30",
+ "source_updated": "2026-11-06",
  "town": "Harbeson"
 }

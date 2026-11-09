@@ -685,8 +685,34 @@
   {
    "address": "3 Town Road",
    "city": "Ocean View",
-   "id": "5b594ebceb",
+   "id": "840c02be99",
    "inspections": [
+    {
+     "date": "2026-10-27",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "7-207.11",
+       "description": "Restriction and Storage-Medicines"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
     {
      "date": "2025-07-23",
      "type": "Routine",
@@ -707,7 +733,7 @@
     }
    ],
    "mobile": false,
-   "name": "JUICEBOX",
+   "name": "Juicebox Ocean View",
    "zip": "19970"
   },
   {
@@ -745,16 +771,6 @@
       {
        "code": "6-501.11",
        "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-16",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "5-205.15",
-       "description": "System Maintained in Good Repair"
       }
      ]
     }
@@ -1075,34 +1091,6 @@
    ],
    "mobile": false,
    "name": "Ocean View Brewing Company - Southern Delaware Bre",
-   "zip": "19970"
-  },
-  {
-   "address": "67 Central Ave",
-   "city": "Ocean View",
-   "id": "42f241bb11",
-   "inspections": [
-    {
-     "date": "2024-10-21",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-102.12",
-       "description": "Certified Food Protection Manager"
-      },
-      {
-       "code": "2-201.11",
-       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
-      },
-      {
-       "code": "4-601.11",
-       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
-      }
-     ]
-    }
-   ],
-   "mobile": false,
-   "name": "Ocean View Presbyterian Church",
    "zip": "19970"
   },
   {
@@ -1816,6 +1804,6 @@
   }
  ],
  "slug": "ocean-view",
- "source_updated": "2026-10-30",
+ "source_updated": "2026-11-06",
  "town": "Ocean View"
 }

@@ -590,11 +590,6 @@
        "description": "Prerequisite for Operation"
       }
      ]
-    },
-    {
-     "date": "2024-10-16",
-     "type": "Complaint",
-     "violations": []
     }
    ],
    "mobile": false,
@@ -763,6 +758,21 @@
    "id": "5353f48606",
    "inspections": [
     {
+     "date": "2026-10-16",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2026-10-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
+    {
      "date": "2026-06-05",
      "type": "Routine",
      "violations": [
@@ -813,28 +823,6 @@
        "description": "Nonfood-Contact Surfaces"
       }
      ]
-    },
-    {
-     "date": "2024-10-21",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-102.12",
-       "description": "Certified Food Protection Manager"
-      },
-      {
-       "code": "3-305.11",
-       "description": "Food Storage-Preventing Contamination from the Premises"
-      },
-      {
-       "code": "3-501.16",
-       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
-      },
-      {
-       "code": "8-301.11",
-       "description": "Prerequisite for Operation"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -846,6 +834,32 @@
    "city": "Dover",
    "id": "922d945623",
    "inspections": [
+    {
+     "date": "2026-10-26",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "3-304.14",
+       "description": "Wiping Cloths, Use Limitation"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
     {
      "date": "2026-04-22",
      "type": "Routine",
@@ -1017,13 +1031,31 @@
    "id": "00578928e9",
    "inspections": [
     {
-     "date": "2026-10-14",
+     "date": "2026-10-29",
      "type": "Routine",
      "violations": [
       {
-       "code": "2-201.11",
-       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
       },
+      {
+       "code": "4-501.19",
+       "description": "Manual Warewashing Equipment, Wash Solution Temperature"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-15",
+     "type": "Routine",
+     "violations": [
       {
        "code": "4-302.14",
        "description": "Sanitizing Solutions, Testing Devices"
@@ -1333,62 +1365,9 @@
    "id": "7808b14069",
    "inspections": [
     {
-     "date": "2026-10-02",
+     "date": "2026-10-15",
      "type": "Routine",
-     "violations": [
-      {
-       "code": "2-401.11",
-       "description": "Eating, Drinking, or Using Tobacco"
-      },
-      {
-       "code": "3-302.11",
-       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
-      },
-      {
-       "code": "3-501.16",
-       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
-      },
-      {
-       "code": "3-501.17",
-       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
-      },
-      {
-       "code": "4-101.19",
-       "description": "Nonfood-Contact Surfaces"
-      },
-      {
-       "code": "4-302.14",
-       "description": "Sanitizing Solutions, Testing Devices"
-      },
-      {
-       "code": "4-602.13",
-       "description": "Nonfood Contact Surfaces"
-      },
-      {
-       "code": "5-205.11",
-       "description": "Using a Handwashing Sink-Operation and Maintenance"
-      },
-      {
-       "code": "5-501.17",
-       "description": "Toilet Room Receptacle, Covered"
-      },
-      {
-       "code": "6-202.14",
-       "description": "Toilet Rooms, Enclosed"
-      },
-      {
-       "code": "6-301.11",
-       "description": "Handwashing Cleanser, Availability"
-      },
-      {
-       "code": "6-301.12",
-       "description": "Hand Drying Provision"
-      },
-      {
-       "code": "6-501.19",
-       "description": "Closing Toilet Room Doors"
-      }
-     ]
+     "violations": []
     },
     {
      "date": "2026-09-24",
@@ -1713,7 +1692,7 @@
    "id": "e4909a090e",
    "inspections": [
     {
-     "date": "2026-09-25",
+     "date": "2026-10-30",
      "type": "Routine",
      "violations": [
       {
@@ -1753,16 +1732,74 @@
        "description": "Covering Receptacles"
       },
       {
+       "code": "5-501.114",
+       "description": "Using Drain Plugs"
+      },
+      {
        "code": "6-202.14",
        "description": "Toilet Rooms, Enclosed"
       },
       {
-       "code": "6-301.11",
-       "description": "Handwashing Cleanser, Availability"
-      },
-      {
        "code": "6-301.12",
        "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-501.19",
+       "description": "Closing Toilet Room Doors"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "4-101.19",
+       "description": "Nonfood-Contact Surfaces"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-602.12",
+       "description": "Cooking and Baking Equipment"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "5-501.113",
+       "description": "Covering Receptacles"
+      },
+      {
+       "code": "5-501.114",
+       "description": "Using Drain Plugs"
+      },
+      {
+       "code": "6-202.14",
+       "description": "Toilet Rooms, Enclosed"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
       },
       {
        "code": "6-501.19",
@@ -2060,36 +2097,6 @@
        "description": "Covering Receptacles"
       }
      ]
-    },
-    {
-     "date": "2024-10-16",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-102.12",
-       "description": "Certified Food Protection Manager"
-      },
-      {
-       "code": "2-201.11",
-       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
-      },
-      {
-       "code": "2-401.11",
-       "description": "Eating, Drinking, or Using Tobacco"
-      },
-      {
-       "code": "3-501.18",
-       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Disposition"
-      },
-      {
-       "code": "4-101.16",
-       "description": "Sponges Use Limitation"
-      },
-      {
-       "code": "7-201.11",
-       "description": "Separation-Storage"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -2240,6 +2247,74 @@
    "id": "b9f39ed11d",
    "inspections": [
     {
+     "date": "2026-10-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.12",
+       "description": "Cutting Surfaces"
+      },
+      {
+       "code": "4-501.18",
+       "description": "Warewashing Equipment, Clean Solutions"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "5-202.12",
+       "description": "Handwashing Sinks, Installation"
+      },
+      {
+       "code": "6-303.11",
+       "description": "Intensity-Lighting"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-501.12",
+       "description": "Cutting Surfaces"
+      },
+      {
+       "code": "4-501.17",
+       "description": "Warewashing Equipment, Cleaning Agents"
+      },
+      {
+       "code": "4-501.18",
+       "description": "Warewashing Equipment, Clean Solutions"
+      },
+      {
+       "code": "4-603.16",
+       "description": "Rinsing Procedures"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "5-202.12",
+       "description": "Handwashing Sinks, Installation"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-303.11",
+       "description": "Intensity-Lighting"
+      }
+     ]
+    },
+    {
      "date": "2025-08-28",
      "type": "Follow-up",
      "violations": [
@@ -2343,6 +2418,40 @@
    "city": "Dover",
    "id": "04b1e11e51",
    "inspections": [
+    {
+     "date": "2026-10-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-301.14",
+       "description": "When to Wash"
+      },
+      {
+       "code": "3-305.15",
+       "description": "Food Preparation Sink"
+      },
+      {
+       "code": "3-501.13",
+       "description": "Thawing"
+      },
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-603.16",
+       "description": "Rinsing Procedures"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      }
+     ]
+    },
     {
      "date": "2025-09-15",
      "type": "Routine",
@@ -2570,7 +2679,7 @@
    "id": "f70f5cb340",
    "inspections": [
     {
-     "date": "2026-10-20",
+     "date": "2026-10-26",
      "type": "Routine",
      "violations": [
       {
@@ -2580,18 +2689,6 @@
       {
        "code": "6-303.11",
        "description": "Intensity-Lighting"
-      },
-      {
-       "code": "6-501.111",
-       "description": "Controlling Pests"
-      },
-      {
-       "code": "7-202.12",
-       "description": "Conditions of Use"
-      },
-      {
-       "code": "8-301.11",
-       "description": "Prerequisite for Operation"
       }
      ]
     },
@@ -3496,11 +3593,6 @@
     {
      "date": "2025-02-17",
      "type": "Complaint",
-     "violations": []
-    },
-    {
-     "date": "2024-10-21",
-     "type": "Follow-up",
      "violations": []
     }
    ],
@@ -4479,23 +4571,15 @@
   {
    "address": "1030 Forrest Ave #116",
    "city": "Dover",
-   "id": "f48e7bab51",
+   "id": "819b00f9c7",
    "inspections": [
     {
-     "date": "2026-10-14",
+     "date": "2026-10-16",
      "type": "Routine",
      "violations": [
       {
-       "code": "3-501.16",
-       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
-      },
-      {
        "code": "4-501.11",
        "description": "Good Repair and Proper Adjustment-Equipment"
-      },
-      {
-       "code": "5-202.12",
-       "description": "Handwashing Sinks, Installation"
       }
      ]
     },
@@ -4639,13 +4723,13 @@
     }
    ],
    "mobile": false,
-   "name": "Chaiyo",
+   "name": "Chaiyo Sushi And Thai Cuisine - Forrest Ave Dover",
    "zip": "19904"
   },
   {
    "address": "1151 E Lebanon Rd B&c",
    "city": "Dover",
-   "id": "1d8cf9eda3",
+   "id": "d9f330a238",
    "inspections": [
     {
      "date": "2026-07-24",
@@ -4741,60 +4825,10 @@
        "description": "Designated Areas-Employee Accommodations for eating / drinking/smoking"
       }
      ]
-    },
-    {
-     "date": "2024-10-21",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-301.11",
-       "description": "Preventing Contamination from Hands"
-      },
-      {
-       "code": "3-302.12",
-       "description": "Food Storage Containers Identified with Common Name of Food"
-      },
-      {
-       "code": "3-304.12",
-       "description": "In-Use Utensils, Between-Use Storage"
-      },
-      {
-       "code": "3-305.11",
-       "description": "Food Storage-Preventing Contamination from the Premises"
-      },
-      {
-       "code": "3-401.11",
-       "description": "Raw Animal Foods-Cooking"
-      },
-      {
-       "code": "3-501.16",
-       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
-      },
-      {
-       "code": "5-205.11",
-       "description": "Using a Handwashing Sink-Operation and Maintenance"
-      },
-      {
-       "code": "6-301.12",
-       "description": "Hand Drying Provision"
-      },
-      {
-       "code": "6-403.11",
-       "description": "Designated Areas-Employee Accommodations for eating / drinking/smoking"
-      },
-      {
-       "code": "6-501.12",
-       "description": "Cleaning, Frequency and Restrictions"
-      },
-      {
-       "code": "8-103.12",
-       "description": "Conformance with Approved Procedures"
-      }
-     ]
     }
    ],
    "mobile": false,
-   "name": "Chaiyo Sushi And Thai Cuisine",
+   "name": "Chaiyo Sushi And Thai Cuisine - Lebanon Rd Dover",
    "zip": "19901"
   },
   {
@@ -4802,6 +4836,40 @@
    "city": "Dover",
    "id": "020fe05ee8",
    "inspections": [
+    {
+     "date": "2026-10-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      }
+     ]
+    },
     {
      "date": "2026-04-15",
      "type": "Routine",
@@ -4875,24 +4943,6 @@
       {
        "code": "5-103.11",
        "description": "Capacity-Quantity and Availability"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-24",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-302.12",
-       "description": "Food Storage Containers Identified with Common Name of Food"
-      },
-      {
-       "code": "4-903.11",
-       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
-      },
-      {
-       "code": "6-301.11",
-       "description": "Handwashing Cleanser, Availability"
       }
      ]
     }
@@ -5318,6 +5368,89 @@
    "city": "Dover",
    "id": "381bc2daba",
    "inspections": [
+    {
+     "date": "2026-10-27",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2026-10-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-101.19",
+       "description": "Nonfood-Contact Surfaces"
+      },
+      {
+       "code": "4-101.19",
+       "description": "Nonfood-Contact Surfaces"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-202.13",
+       "description": "Insect Control Devices, Design and Installation"
+      },
+      {
+       "code": "6-202.13",
+       "description": "Insect Control Devices, Design and Installation"
+      },
+      {
+       "code": "6-403.11",
+       "description": "Designated Areas-Employee Accommodations for eating / drinking/smoking"
+      },
+      {
+       "code": "6-403.11",
+       "description": "Designated Areas-Employee Accommodations for eating / drinking/smoking"
+      },
+      {
+       "code": "6-501.112",
+       "description": "Removing Dead or Trapped Birds, Insects, Rodents and other Pest"
+      },
+      {
+       "code": "6-501.112",
+       "description": "Removing Dead or Trapped Birds, Insects, Rodents and other Pest"
+      },
+      {
+       "code": "7-202.12",
+       "description": "Conditions of Use"
+      },
+      {
+       "code": "7-202.12",
+       "description": "Conditions of Use"
+      }
+     ]
+    },
     {
      "date": "2026-03-17",
      "type": "Routine",
@@ -6688,60 +6821,6 @@
        "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
       }
      ]
-    },
-    {
-     "date": "2024-10-24",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-102.12",
-       "description": "Certified Food Protection Manager"
-      },
-      {
-       "code": "2-103.11",
-       "description": "Person-In-Charge-Duties"
-      },
-      {
-       "code": "3-302.11",
-       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
-      },
-      {
-       "code": "3-302.12",
-       "description": "Food Storage Containers Identified with Common Name of Food"
-      },
-      {
-       "code": "3-304.12",
-       "description": "In-Use Utensils, Between-Use Storage"
-      },
-      {
-       "code": "4-101.19",
-       "description": "Nonfood-Contact Surfaces"
-      },
-      {
-       "code": "4-301.12",
-       "description": "Manual Warewashing, Sink Compartment Requirements"
-      },
-      {
-       "code": "4-601.11",
-       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
-      },
-      {
-       "code": "4-601.11",
-       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
-      },
-      {
-       "code": "4-903.11",
-       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
-      },
-      {
-       "code": "5-205.11",
-       "description": "Using a Handwashing Sink-Operation and Maintenance"
-      },
-      {
-       "code": "6-201.13",
-       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -7216,6 +7295,122 @@
    "id": "f1128747bc",
    "inspections": [
     {
+     "date": "2026-10-27",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "2-401.11",
+       "description": "Eating, Drinking, or Using Tobacco"
+      },
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "4-101.19",
+       "description": "Nonfood-Contact Surfaces"
+      },
+      {
+       "code": "4-501.12",
+       "description": "Cutting Surfaces"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      },
+      {
+       "code": "6-202.12",
+       "description": "Heating, Ventilation, Air Conditioning System Vents"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "2-401.11",
+       "description": "Eating, Drinking, or Using Tobacco"
+      },
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "3-501.18",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Disposition"
+      },
+      {
+       "code": "4-101.19",
+       "description": "Nonfood-Contact Surfaces"
+      },
+      {
+       "code": "4-501.12",
+       "description": "Cutting Surfaces"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "6-201.11",
+       "description": "Floors, Walls and Ceilings-Cleanability"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
      "date": "2026-03-12",
      "type": "Routine",
      "violations": [
@@ -7580,52 +7775,6 @@
        "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
       }
      ]
-    },
-    {
-     "date": "2024-11-04",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "4-101.19",
-       "description": "Nonfood-Contact Surfaces"
-      },
-      {
-       "code": "4-302.14",
-       "description": "Sanitizing Solutions, Testing Devices"
-      },
-      {
-       "code": "4-501.11",
-       "description": "Good Repair and Proper Adjustment-Equipment"
-      },
-      {
-       "code": "4-601.11",
-       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
-      },
-      {
-       "code": "5-202.12",
-       "description": "Handwashing Sinks, Installation"
-      },
-      {
-       "code": "6-202.13",
-       "description": "Insect Control Devices, Design and Installation"
-      },
-      {
-       "code": "6-301.14",
-       "description": "Handwashing Signage"
-      },
-      {
-       "code": "6-403.11",
-       "description": "Designated Areas-Employee Accommodations for eating / drinking/smoking"
-      },
-      {
-       "code": "7-207.11",
-       "description": "Restriction and Storage-Medicines"
-      },
-      {
-       "code": "8-301.11",
-       "description": "Prerequisite for Operation"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -7650,20 +7799,6 @@
        "description": "Intensity-Lighting"
       }
      ]
-    },
-    {
-     "date": "2024-10-16",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "4-602.13",
-       "description": "Nonfood Contact Surfaces"
-      },
-      {
-       "code": "6-202.13",
-       "description": "Insect Control Devices, Design and Installation"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -7675,6 +7810,20 @@
    "city": "Dover",
    "id": "f13534cae7",
    "inspections": [
+    {
+     "date": "2026-10-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
     {
      "date": "2026-04-14",
      "type": "Routine",
@@ -7738,20 +7887,6 @@
       {
        "code": "5-501.113",
        "description": "Covering Receptacles"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-16",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-302.12",
-       "description": "Food Storage Containers Identified with Common Name of Food"
-      },
-      {
-       "code": "3-501.17",
-       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
       }
      ]
     }
@@ -7850,16 +7985,12 @@
    "id": "31e49933eb",
    "inspections": [
     {
-     "date": "2026-10-21",
+     "date": "2026-10-12",
      "type": "Routine",
      "violations": [
       {
        "code": "2-102.12",
        "description": "Certified Food Protection Manager"
-      },
-      {
-       "code": "4-302.14",
-       "description": "Sanitizing Solutions, Testing Devices"
       }
      ]
     },
@@ -8596,6 +8727,16 @@
    "id": "163de40bbf",
    "inspections": [
     {
+     "date": "2026-10-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      }
+     ]
+    },
+    {
      "date": "2026-03-13",
      "type": "Routine",
      "violations": [
@@ -8662,6 +8803,16 @@
    "id": "edd8027359",
    "inspections": [
     {
+     "date": "2026-10-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      }
+     ]
+    },
+    {
      "date": "2026-03-31",
      "type": "Routine",
      "violations": [
@@ -8703,6 +8854,36 @@
    "city": "Dover",
    "id": "a217b9d12d",
    "inspections": [
+    {
+     "date": "2026-10-20",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-101.11",
+       "description": "Surface Characteristics-Indoor Areas"
+      },
+      {
+       "code": "6-202.11",
+       "description": "Light Bulbs, Protective Shielding"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-303.11",
+       "description": "Intensity-Lighting"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      }
+     ]
+    },
     {
      "date": "2025-08-06",
      "type": "Follow-up",
@@ -9654,6 +9835,75 @@
    "zip": "19901"
   },
   {
+   "address": "737 North Dupont Highway",
+   "city": "Dover",
+   "id": "488798f7fd",
+   "inspections": [
+    {
+     "date": "2026-10-14",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
+    {
+     "date": "2026-03-16",
+     "type": "Complaint",
+     "violations": []
+    },
+    {
+     "date": "2026-01-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "4-603.16",
+       "description": "Rinsing Procedures"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    },
+    {
+     "date": "2026-01-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-201.11",
+       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
+      },
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "4-603.16",
+       "description": "Rinsing Procedures"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "Dover Tim Hortons (FE)",
+   "zip": "19901"
+  },
+  {
    "address": "1600 South Governors Avenue",
    "city": "Dover",
    "id": "ce78eb2d09",
@@ -9947,10 +10197,6 @@
       {
        "code": "4-501.11",
        "description": "Good Repair and Proper Adjustment-Equipment"
-      },
-      {
-       "code": "5-202.12",
-       "description": "Handwashing Sinks, Installation"
       },
       {
        "code": "6-303.11",
@@ -10333,16 +10579,12 @@
    "id": "671db64b7f",
    "inspections": [
     {
-     "date": "2026-10-16",
+     "date": "2026-10-21",
      "type": "Routine",
      "violations": [
       {
        "code": "2-402.11",
        "description": "Effectiveness-Hair Restraints"
-      },
-      {
-       "code": "5-202.13",
-       "description": "Backflow Prevention, Air Gap"
       },
       {
        "code": "6-501.111",
@@ -10624,16 +10866,6 @@
       {
        "code": "7-202.12",
        "description": "Conditions of Use"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-24",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "5-205.12",
-       "description": "Prohibiting a Cross Connection"
       }
      ]
     }
@@ -10964,16 +11196,6 @@
        "description": "Designated Areas-Employee Accommodations for eating / drinking/smoking"
       }
      ]
-    },
-    {
-     "date": "2024-10-24",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-102.12",
-       "description": "Certified Food Protection Manager"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -11220,32 +11442,16 @@
    "id": "1e6c986641",
    "inspections": [
     {
-     "date": "2026-10-19",
+     "date": "2026-10-28",
      "type": "Routine",
      "violations": [
-      {
-       "code": "2-301.12",
-       "description": "Cleaning Procedure"
-      },
       {
        "code": "3-304.12",
        "description": "In-Use Utensils, Between-Use Storage"
       },
       {
-       "code": "3-602.11",
-       "description": "Food Labels"
-      },
-      {
        "code": "4-101.19",
        "description": "Nonfood-Contact Surfaces"
-      },
-      {
-       "code": "6-301.11",
-       "description": "Handwashing Cleanser, Availability"
-      },
-      {
-       "code": "6-301.12",
-       "description": "Hand Drying Provision"
       },
       {
        "code": "6-501.111",
@@ -11461,52 +11667,6 @@
       {
        "code": "6-301.12",
        "description": "Hand Drying Provision"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-23",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-102.12",
-       "description": "Certified Food Protection Manager"
-      },
-      {
-       "code": "2-201.11",
-       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
-      },
-      {
-       "code": "3-302.11",
-       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
-      },
-      {
-       "code": "3-305.11",
-       "description": "Food Storage-Preventing Contamination from the Premises"
-      },
-      {
-       "code": "4-501.11",
-       "description": "Good Repair and Proper Adjustment-Equipment"
-      },
-      {
-       "code": "4-601.11",
-       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
-      },
-      {
-       "code": "5-202.12",
-       "description": "Handwashing Sinks, Installation"
-      },
-      {
-       "code": "5-501.13",
-       "description": "Receptacles"
-      },
-      {
-       "code": "6-301.12",
-       "description": "Hand Drying Provision"
-      },
-      {
-       "code": "8-304.11",
-       "description": "Responsibilities of the Permit Holder"
       }
      ]
     }
@@ -11970,11 +12130,6 @@
        "description": "Prerequisite for Operation"
       }
      ]
-    },
-    {
-     "date": "2024-10-21",
-     "type": "Follow-up",
-     "violations": []
     }
    ],
    "mobile": false,
@@ -12161,7 +12316,7 @@
    "id": "c4a6927a18",
    "inspections": [
     {
-     "date": "2026-10-05",
+     "date": "2026-10-09",
      "type": "Routine",
      "violations": [
       {
@@ -12169,48 +12324,8 @@
        "description": "Certified Food Protection Manager"
       },
       {
-       "code": "2-201.11",
-       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
-      },
-      {
-       "code": "2-301.14",
-       "description": "When to Wash"
-      },
-      {
-       "code": "3-304.15",
-       "description": "Gloves, Use Limitation"
-      },
-      {
-       "code": "3-305.11",
-       "description": "Food Storage-Preventing Contamination from the Premises"
-      },
-      {
-       "code": "3-305.15",
-       "description": "Food Preparation Sink"
-      },
-      {
-       "code": "3-501.13",
-       "description": "Thawing"
-      },
-      {
-       "code": "4-203.11",
-       "description": "Temperature Measuring Devices, Food-Accuracy"
-      },
-      {
-       "code": "4-204.112",
-       "description": "Temperature Measuring Devices-Functionality"
-      },
-      {
        "code": "4-205.10",
        "description": "Food Equipment, Certification and Classification"
-      },
-      {
-       "code": "4-702.11",
-       "description": "Before Use After Cleaning"
-      },
-      {
-       "code": "6-501.12",
-       "description": "Cleaning, Frequency and Restrictions"
       },
       {
        "code": "8-304.11",
@@ -12579,30 +12694,6 @@
    "mobile": true,
    "name": "Falling of the bone BBQ and Fish Fry (MOB)",
    "zip": null
-  },
-  {
-   "address": "111 Main Street",
-   "city": "Dover",
-   "id": "e691d3607d",
-   "inspections": [
-    {
-     "date": "2026-04-21",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "4-601.11",
-       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
-      },
-      {
-       "code": "6-403.11",
-       "description": "Designated Areas-Employee Accommodations for eating / drinking/smoking"
-      }
-     ]
-    }
-   ],
-   "mobile": false,
-   "name": "FE-2025-0680",
-   "zip": "19901"
   },
   {
    "address": "40 North Dupont Highway",
@@ -13412,16 +13503,6 @@
        "description": "Prerequisite for Operation"
       }
      ]
-    },
-    {
-     "date": "2024-10-21",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-304.12",
-       "description": "In-Use Utensils, Between-Use Storage"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -13705,6 +13786,44 @@
    "city": "Dover",
    "id": "78f5579b04",
    "inspections": [
+    {
+     "date": "2026-10-19",
+     "type": "Complaint",
+     "violations": [
+      {
+       "code": "3-501.13",
+       "description": "Thawing"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-101.19",
+       "description": "Nonfood-Contact Surfaces"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "6-202.14",
+       "description": "Toilet Rooms, Enclosed"
+      },
+      {
+       "code": "6-404.11",
+       "description": "Segregation and Location-Distressed Merchandise"
+      },
+      {
+       "code": "6-501.112",
+       "description": "Removing Dead or Trapped Birds, Insects, Rodents and other Pest"
+      },
+      {
+       "code": "6-501.19",
+       "description": "Closing Toilet Room Doors"
+      }
+     ]
+    },
     {
      "date": "2026-06-01",
      "type": "Routine",
@@ -14108,6 +14227,30 @@
    ],
    "mobile": false,
    "name": "Grotto Pizza #210 - Dough Production Dover",
+   "zip": "19901"
+  },
+  {
+   "address": "1200 North Dupont Highway",
+   "city": "Dover",
+   "id": "20ddfd9052",
+   "inspections": [
+    {
+     "date": "2026-10-27",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "HAASS FAMILY BUTCHER SHOP (CWOP)",
    "zip": "19901"
   },
   {
@@ -14644,7 +14787,7 @@
   {
    "address": "519 Bay Rd",
    "city": "Dover",
-   "id": "86cea7f48e",
+   "id": "ec7fb168e3",
    "inspections": [
     {
      "date": "2026-03-25",
@@ -14749,7 +14892,7 @@
     }
    ],
    "mobile": false,
-   "name": "Hardees of Dover 2 - OTAC Inc",
+   "name": "Hardees of Dover 2 - OTAC Inc (Closed)",
    "zip": "19901"
   },
   {
@@ -14863,16 +15006,6 @@
        "code": "4-302.14",
        "description": "Sanitizing Solutions, Testing Devices"
       },
-      {
-       "code": "4-601.11",
-       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
-      }
-     ]
-    },
-    {
-     "date": "2024-11-04",
-     "type": "Routine",
-     "violations": [
       {
        "code": "4-601.11",
        "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
@@ -15265,6 +15398,58 @@
    "id": "95d2cd14d7",
    "inspections": [
     {
+     "date": "2026-10-26",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "6-301.11",
+       "description": "Handwashing Cleanser, Availability"
+      },
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      },
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
+    {
      "date": "2026-04-21",
      "type": "Routine",
      "violations": [
@@ -15623,40 +15808,6 @@
        "description": "Prerequisite for Operation"
       }
      ]
-    },
-    {
-     "date": "2024-11-04",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-402.11",
-       "description": "Effectiveness-Hair Restraints"
-      },
-      {
-       "code": "4-204.112",
-       "description": "Temperature Measuring Devices-Functionality"
-      },
-      {
-       "code": "4-501.11",
-       "description": "Good Repair and Proper Adjustment-Equipment"
-      },
-      {
-       "code": "4-602.12",
-       "description": "Cooking and Baking Equipment"
-      },
-      {
-       "code": "4-903.11",
-       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
-      },
-      {
-       "code": "6-303.11",
-       "description": "Intensity-Lighting"
-      },
-      {
-       "code": "8-301.11",
-       "description": "Prerequisite for Operation"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -15668,6 +15819,24 @@
    "city": "Dover",
    "id": "cf8658ebea",
    "inspections": [
+    {
+     "date": "2026-10-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "4-501.12",
+       "description": "Cutting Surfaces"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    },
     {
      "date": "2026-09-16",
      "type": "Complaint",
@@ -16395,24 +16564,6 @@
       {
        "code": "6-501.11",
        "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
-      },
-      {
-       "code": "6-501.16",
-       "description": "Drying Mops"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-23",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "4-501.11",
-       "description": "Good Repair and Proper Adjustment-Equipment"
-      },
-      {
-       "code": "4-501.12",
-       "description": "Cutting Surfaces"
       },
       {
        "code": "6-501.16",
@@ -17905,6 +18056,52 @@
    "id": "54c8d5a676",
    "inspections": [
     {
+     "date": "2026-10-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "4-502.11",
+       "description": "Good Repair and Calibration"
+      },
+      {
+       "code": "4-502.11",
+       "description": "Good Repair and Calibration"
+      },
+      {
+       "code": "5-202.12",
+       "description": "Handwashing Sinks, Installation"
+      },
+      {
+       "code": "5-202.12",
+       "description": "Handwashing Sinks, Installation"
+      },
+      {
+       "code": "6-202.15",
+       "description": "Outer Openings, Protected"
+      },
+      {
+       "code": "6-202.15",
+       "description": "Outer Openings, Protected"
+      },
+      {
+       "code": "6-501.19",
+       "description": "Closing Toilet Room Doors"
+      },
+      {
+       "code": "6-501.19",
+       "description": "Closing Toilet Room Doors"
+      }
+     ]
+    },
+    {
      "date": "2026-04-08",
      "type": "Routine",
      "violations": [
@@ -18062,10 +18259,114 @@
    "zip": "19901"
   },
   {
+   "address": "111 Main Street",
+   "city": "Dover",
+   "id": "30123fc7cc",
+   "inspections": [
+    {
+     "date": "2026-10-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-501.113",
+       "description": "Covering Receptacles"
+      }
+     ]
+    },
+    {
+     "date": "2026-04-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-403.11",
+       "description": "Designated Areas-Employee Accommodations for eating / drinking/smoking"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "Little Creek Grill",
+   "zip": "19901"
+  },
+  {
    "address": "902 E Division St",
    "city": "Dover",
    "id": "1ea3005df2",
    "inspections": [
+    {
+     "date": "2026-10-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-305.11",
+       "description": "Food Storage-Preventing Contamination from the Premises"
+      },
+      {
+       "code": "3-305.15",
+       "description": "Food Preparation Sink"
+      },
+      {
+       "code": "4-101.19",
+       "description": "Nonfood-Contact Surfaces"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "4-602.13",
+       "description": "Nonfood Contact Surfaces"
+      },
+      {
+       "code": "5-204.11",
+       "description": "Handwashing Sinks-Location and Placement"
+      },
+      {
+       "code": "5-501.116",
+       "description": "Cleaning Receptacles"
+      },
+      {
+       "code": "6-202.15",
+       "description": "Outer Openings, Protected"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "7-102.11",
+       "description": "Common Name-Working Containers"
+      }
+     ]
+    },
     {
      "date": "2026-04-13",
      "type": "Routine",
@@ -18134,36 +18435,6 @@
       {
        "code": "4-601.11",
        "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-28",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-201.11",
-       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
-      },
-      {
-       "code": "3-305.11",
-       "description": "Food Storage-Preventing Contamination from the Premises"
-      },
-      {
-       "code": "3-501.17",
-       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
-      },
-      {
-       "code": "4-601.11",
-       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
-      },
-      {
-       "code": "4-601.11",
-       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
-      },
-      {
-       "code": "6-301.14",
-       "description": "Handwashing Signage"
       }
      ]
     }
@@ -18600,32 +18871,6 @@
        "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
       }
      ]
-    },
-    {
-     "date": "2024-10-28",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "4-501.114",
-       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
-      },
-      {
-       "code": "4-601.11",
-       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
-      },
-      {
-       "code": "5-501.113",
-       "description": "Covering Receptacles"
-      },
-      {
-       "code": "6-301.11",
-       "description": "Handwashing Cleanser, Availability"
-      },
-      {
-       "code": "8-304.11",
-       "description": "Responsibilities of the Permit Holder"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -18637,6 +18882,24 @@
    "city": "Dover",
    "id": "07155c0e98",
    "inspections": [
+    {
+     "date": "2026-10-27",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-603.16",
+       "description": "Rinsing Procedures"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "8-304.11",
+       "description": "Responsibilities of the Permit Holder"
+      }
+     ]
+    },
     {
      "date": "2026-04-10",
      "type": "Routine",
@@ -18692,20 +18955,6 @@
      "date": "2024-11-19",
      "type": "Complaint",
      "violations": []
-    },
-    {
-     "date": "2024-10-29",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "4-501.11",
-       "description": "Good Repair and Proper Adjustment-Equipment"
-      },
-      {
-       "code": "4-601.11",
-       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -19284,52 +19533,6 @@
        "description": "Hand Drying Provision"
       }
      ]
-    },
-    {
-     "date": "2024-10-29",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-201.11",
-       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
-      },
-      {
-       "code": "3-305.11",
-       "description": "Food Storage-Preventing Contamination from the Premises"
-      },
-      {
-       "code": "3-501.16",
-       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
-      },
-      {
-       "code": "3-501.17",
-       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
-      },
-      {
-       "code": "4-204.112",
-       "description": "Temperature Measuring Devices-Functionality"
-      },
-      {
-       "code": "4-501.11",
-       "description": "Good Repair and Proper Adjustment-Equipment"
-      },
-      {
-       "code": "4-501.114",
-       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
-      },
-      {
-       "code": "5-501.113",
-       "description": "Covering Receptacles"
-      },
-      {
-       "code": "6-202.15",
-       "description": "Outer Openings, Protected"
-      },
-      {
-       "code": "6-301.12",
-       "description": "Hand Drying Provision"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -19728,6 +19931,21 @@
    "city": "Dover",
    "id": "dacb8a02fd",
    "inspections": [
+    {
+     "date": "2026-10-27",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2026-10-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
     {
      "date": "2026-06-11",
      "type": "Routine",
@@ -20711,33 +20929,6 @@
        "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
       }
      ]
-    },
-    {
-     "date": "2024-10-15",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "5-501.113",
-       "description": "Covering Receptacles"
-      },
-      {
-       "code": "5-501.17",
-       "description": "Toilet Room Receptacle, Covered"
-      },
-      {
-       "code": "6-303.11",
-       "description": "Intensity-Lighting"
-      },
-      {
-       "code": "6-501.12",
-       "description": "Cleaning, Frequency and Restrictions"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-15",
-     "type": "Complaint",
-     "violations": []
     }
    ],
    "mobile": false,
@@ -21471,6 +21662,90 @@
    "city": "Dover",
    "id": "127f905007",
    "inspections": [
+    {
+     "date": "2026-11-02",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "6-202.12",
+       "description": "Heating, Ventilation, Air Conditioning System Vents"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "3-602.11",
+       "description": "Food Labels"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-501.11",
+       "description": "Good Repair and Proper Adjustment-Equipment"
+      },
+      {
+       "code": "4-501.17",
+       "description": "Warewashing Equipment, Cleaning Agents"
+      },
+      {
+       "code": "4-603.16",
+       "description": "Rinsing Procedures"
+      },
+      {
+       "code": "4-702.11",
+       "description": "Before Use After Cleaning"
+      },
+      {
+       "code": "6-202.12",
+       "description": "Heating, Ventilation, Air Conditioning System Vents"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
     {
      "date": "2026-04-27",
      "type": "Routine",
@@ -22234,60 +22509,6 @@
       {
        "code": "7-102.11",
        "description": "Common Name-Working Containers"
-      },
-      {
-       "code": "7-207.11",
-       "description": "Restriction and Storage-Medicines"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-29",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-201.11",
-       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
-      },
-      {
-       "code": "3-302.12",
-       "description": "Food Storage Containers Identified with Common Name of Food"
-      },
-      {
-       "code": "3-305.11",
-       "description": "Food Storage-Preventing Contamination from the Premises"
-      },
-      {
-       "code": "3-501.17",
-       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
-      },
-      {
-       "code": "4-601.11",
-       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
-      },
-      {
-       "code": "4-601.11",
-       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
-      },
-      {
-       "code": "5-205.11",
-       "description": "Using a Handwashing Sink-Operation and Maintenance"
-      },
-      {
-       "code": "6-202.13",
-       "description": "Insect Control Devices, Design and Installation"
-      },
-      {
-       "code": "6-301.11",
-       "description": "Handwashing Cleanser, Availability"
-      },
-      {
-       "code": "6-301.12",
-       "description": "Hand Drying Provision"
-      },
-      {
-       "code": "6-403.11",
-       "description": "Designated Areas-Employee Accommodations for eating / drinking/smoking"
       },
       {
        "code": "7-207.11",
@@ -23130,6 +23351,40 @@
    "id": "9ce3768037",
    "inspections": [
     {
+     "date": "2026-10-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-402.11",
+       "description": "Effectiveness-Hair Restraints"
+      },
+      {
+       "code": "5-501.113",
+       "description": "Covering Receptacles"
+      },
+      {
+       "code": "6-101.11",
+       "description": "Surface Characteristics-Indoor Areas"
+      },
+      {
+       "code": "6-201.13",
+       "description": "Floor and Wall Junctures, Coved, and Enclosed or Sealed"
+      },
+      {
+       "code": "6-202.12",
+       "description": "Heating, Ventilation, Air Conditioning System Vents"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
      "date": "2026-04-09",
      "type": "Routine",
      "violations": [
@@ -23200,20 +23455,6 @@
       {
        "code": "6-501.11",
        "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
-      },
-      {
-       "code": "6-501.12",
-       "description": "Cleaning, Frequency and Restrictions"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-22",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "4-601.11",
-       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
       },
       {
        "code": "6-501.12",
@@ -23528,6 +23769,67 @@
    "city": "Dover",
    "id": "84a3ac133c",
    "inspections": [
+    {
+     "date": "2026-10-16",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2026-10-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "7-202.12",
+       "description": "Conditions of Use"
+      },
+      {
+       "code": "8-404.11",
+       "description": "Ceasing Operations and Reporting"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-14",
+     "type": "Complaint",
+     "violations": [
+      {
+       "code": "2-301.15",
+       "description": "Where to Wash"
+      },
+      {
+       "code": "4-101.19",
+       "description": "Nonfood-Contact Surfaces"
+      },
+      {
+       "code": "4-602.11",
+       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
+      },
+      {
+       "code": "4-702.11",
+       "description": "Before Use After Cleaning"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      },
+      {
+       "code": "6-501.112",
+       "description": "Removing Dead or Trapped Birds, Insects, Rodents and other Pest"
+      },
+      {
+       "code": "6-501.114",
+       "description": "Maintaining Premises, Unnecessary Items and Litter"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      },
+      {
+       "code": "8-404.11",
+       "description": "Ceasing Operations and Reporting"
+      }
+     ]
+    },
     {
      "date": "2026-07-29",
      "type": "Routine",
@@ -23898,6 +24200,16 @@
    "id": "544d85a525",
    "inspections": [
     {
+     "date": "2026-10-16",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
+    {
      "date": "2026-04-25",
      "type": "Routine",
      "violations": [
@@ -23948,40 +24260,6 @@
       {
        "code": "4-101.16",
        "description": "Sponges Use Limitation"
-      }
-     ]
-    },
-    {
-     "date": "2024-11-01",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-303.11",
-       "description": "Prohibition-Jewelry"
-      },
-      {
-       "code": "2-402.11",
-       "description": "Effectiveness-Hair Restraints"
-      },
-      {
-       "code": "3-302.12",
-       "description": "Food Storage Containers Identified with Common Name of Food"
-      },
-      {
-       "code": "3-305.11",
-       "description": "Food Storage-Preventing Contamination from the Premises"
-      },
-      {
-       "code": "4-101.16",
-       "description": "Sponges Use Limitation"
-      },
-      {
-       "code": "4-502.13",
-       "description": "Single-Service and Single-Use Articles-Use Limitations"
-      },
-      {
-       "code": "5-205.11",
-       "description": "Using a Handwashing Sink-Operation and Maintenance"
       }
      ]
     }
@@ -24937,64 +25215,6 @@
       {
        "code": "6-501.11",
        "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-25",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-302.11",
-       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
-      },
-      {
-       "code": "3-304.12",
-       "description": "In-Use Utensils, Between-Use Storage"
-      },
-      {
-       "code": "3-501.16",
-       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
-      },
-      {
-       "code": "3-501.17",
-       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
-      },
-      {
-       "code": "4-501.11",
-       "description": "Good Repair and Proper Adjustment-Equipment"
-      },
-      {
-       "code": "4-501.114",
-       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
-      },
-      {
-       "code": "4-603.16",
-       "description": "Rinsing Procedures"
-      },
-      {
-       "code": "4-903.11",
-       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
-      },
-      {
-       "code": "5-205.15",
-       "description": "System Maintained in Good Repair"
-      },
-      {
-       "code": "6-301.11",
-       "description": "Handwashing Cleanser, Availability"
-      },
-      {
-       "code": "6-301.12",
-       "description": "Hand Drying Provision"
-      },
-      {
-       "code": "6-501.111",
-       "description": "Controlling Pests"
-      },
-      {
-       "code": "7-102.11",
-       "description": "Common Name-Working Containers"
       }
      ]
     }
@@ -26517,36 +26737,6 @@
        "description": "Food Preparation Sink"
       }
      ]
-    },
-    {
-     "date": "2024-11-04",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-402.11",
-       "description": "Effectiveness-Hair Restraints"
-      },
-      {
-       "code": "3-302.12",
-       "description": "Food Storage Containers Identified with Common Name of Food"
-      },
-      {
-       "code": "3-304.12",
-       "description": "In-Use Utensils, Between-Use Storage"
-      },
-      {
-       "code": "3-305.15",
-       "description": "Food Preparation Sink"
-      },
-      {
-       "code": "4-101.16",
-       "description": "Sponges Use Limitation"
-      },
-      {
-       "code": "4-204.112",
-       "description": "Temperature Measuring Devices-Functionality"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -27599,20 +27789,6 @@
        "description": "Hand Drying Provision"
       }
      ]
-    },
-    {
-     "date": "2024-11-04",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-305.11",
-       "description": "Food Storage-Preventing Contamination from the Premises"
-      },
-      {
-       "code": "3-501.18",
-       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Disposition"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -27704,28 +27880,6 @@
      "date": "2024-11-27",
      "type": "Complaint",
      "violations": []
-    },
-    {
-     "date": "2024-10-21",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-304.12",
-       "description": "In-Use Utensils, Between-Use Storage"
-      },
-      {
-       "code": "4-101.19",
-       "description": "Nonfood-Contact Surfaces"
-      },
-      {
-       "code": "4-602.13",
-       "description": "Nonfood Contact Surfaces"
-      },
-      {
-       "code": "6-301.14",
-       "description": "Handwashing Signage"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -27980,7 +28134,33 @@
    "id": "f77f1425bf",
    "inspections": [
     {
-     "date": "2026-09-08",
+     "date": "2026-10-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "6-303.11",
+       "description": "Intensity-Lighting"
+      },
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-14",
      "type": "Routine",
      "violations": [
       {
@@ -28600,16 +28780,6 @@
       {
        "code": "8-301.11",
        "description": "Prerequisite for Operation"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-21",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "4-501.11",
-       "description": "Good Repair and Proper Adjustment-Equipment"
       }
      ]
     }
@@ -29904,32 +30074,6 @@
        "description": "Hand Drying Provision"
       }
      ]
-    },
-    {
-     "date": "2024-10-22",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-102.12",
-       "description": "Certified Food Protection Manager"
-      },
-      {
-       "code": "2-201.11",
-       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
-      },
-      {
-       "code": "4-302.12",
-       "description": "Food Temperature Measuring Devices"
-      },
-      {
-       "code": "4-501.11",
-       "description": "Good Repair and Proper Adjustment-Equipment"
-      },
-      {
-       "code": "4-601.11",
-       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -30265,16 +30409,6 @@
     },
     {
      "date": "2025-04-23",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "4-601.11",
-       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-23",
      "type": "Routine",
      "violations": [
       {
@@ -31333,6 +31467,16 @@
    "id": "bd429021aa",
    "inspections": [
     {
+     "date": "2026-10-15",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
+    {
      "date": "2026-06-08",
      "type": "Routine",
      "violations": [
@@ -31440,36 +31584,6 @@
       {
        "code": "4-601.11",
        "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
-      },
-      {
-       "code": "4-601.11",
-       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
-      },
-      {
-       "code": "6-301.11",
-       "description": "Handwashing Cleanser, Availability"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-28",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-102.12",
-       "description": "Certified Food Protection Manager"
-      },
-      {
-       "code": "2-201.11",
-       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
-      },
-      {
-       "code": "3-501.17",
-       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
-      },
-      {
-       "code": "4-101.19",
-       "description": "Nonfood-Contact Surfaces"
       },
       {
        "code": "4-601.11",
@@ -32214,65 +32328,6 @@
    "zip": "19904"
   },
   {
-   "address": "737 North Dupont Highway",
-   "city": "Dover",
-   "id": "b6d25dd982",
-   "inspections": [
-    {
-     "date": "2026-03-16",
-     "type": "Complaint",
-     "violations": []
-    },
-    {
-     "date": "2026-01-16",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-201.11",
-       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
-      },
-      {
-       "code": "2-402.11",
-       "description": "Effectiveness-Hair Restraints"
-      },
-      {
-       "code": "4-603.16",
-       "description": "Rinsing Procedures"
-      },
-      {
-       "code": "5-205.11",
-       "description": "Using a Handwashing Sink-Operation and Maintenance"
-      }
-     ]
-    },
-    {
-     "date": "2026-01-12",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-201.11",
-       "description": "Responsibility of Permit Holder, Person in Charge, and Conditional Employees"
-      },
-      {
-       "code": "2-402.11",
-       "description": "Effectiveness-Hair Restraints"
-      },
-      {
-       "code": "4-603.16",
-       "description": "Rinsing Procedures"
-      },
-      {
-       "code": "5-205.11",
-       "description": "Using a Handwashing Sink-Operation and Maintenance"
-      }
-     ]
-    }
-   ],
-   "mobile": false,
-   "name": "Tim Hortons",
-   "zip": "19901"
-  },
-  {
    "address": "1466 East Lebanon Road",
    "city": "Dover",
    "id": "95c7619719",
@@ -32809,11 +32864,6 @@
        "description": "Intensity-Lighting"
       }
      ]
-    },
-    {
-     "date": "2024-10-24",
-     "type": "Follow-up",
-     "violations": []
     }
    ],
    "mobile": false,
@@ -32836,28 +32886,6 @@
       {
        "code": "3-305.11",
        "description": "Food Storage-Preventing Contamination from the Premises"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-30",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-102.12",
-       "description": "Certified Food Protection Manager"
-      },
-      {
-       "code": "3-305.11",
-       "description": "Food Storage-Preventing Contamination from the Premises"
-      },
-      {
-       "code": "4-501.11",
-       "description": "Good Repair and Proper Adjustment-Equipment"
-      },
-      {
-       "code": "6-501.112",
-       "description": "Removing Dead or Trapped Birds, Insects, Rodents and other Pest"
       }
      ]
     }
@@ -33068,6 +33096,112 @@
    ],
    "mobile": false,
    "name": "Tropical Delight Caf LLC",
+   "zip": "19901"
+  },
+  {
+   "address": "1156 S Bay Road",
+   "city": "Dover",
+   "id": "97cd4b2326",
+   "inspections": [
+    {
+     "date": "2026-10-27",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-101.19",
+       "description": "Nonfood-Contact Surfaces"
+      },
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      },
+      {
+       "code": "4-501.12",
+       "description": "Cutting Surfaces"
+      },
+      {
+       "code": "4-602.12",
+       "description": "Cooking and Baking Equipment"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-501.11",
+       "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
+      },
+      {
+       "code": "6-501.114",
+       "description": "Maintaining Premises, Unnecessary Items and Litter"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "3-501.13",
+       "description": "Thawing"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "3-501.18",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Disposition"
+      },
+      {
+       "code": "4-101.19",
+       "description": "Nonfood-Contact Surfaces"
+      },
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "4-501.12",
+       "description": "Cutting Surfaces"
+      },
+      {
+       "code": "4-501.17",
+       "description": "Warewashing Equipment, Cleaning Agents"
+      },
+      {
+       "code": "4-602.12",
+       "description": "Cooking and Baking Equipment"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-302.11",
+       "description": "Toilet Tissue, Availability"
+      }
+     ]
+    }
+   ],
+   "mobile": false,
+   "name": "Tropical Delight Caf+ LLC",
    "zip": "19901"
   },
   {
@@ -33363,6 +33497,72 @@
    "id": "d27bf76df9",
    "inspections": [
     {
+     "date": "2026-10-28",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-101.19",
+       "description": "Nonfood-Contact Surfaces"
+      },
+      {
+       "code": "8-404.11",
+       "description": "Ceasing Operations and Reporting"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-22",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-101.19",
+       "description": "Nonfood-Contact Surfaces"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-205.15",
+       "description": "System Maintained in Good Repair"
+      },
+      {
+       "code": "6-202.15",
+       "description": "Outer Openings, Protected"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      },
+      {
+       "code": "6-501.112",
+       "description": "Removing Dead or Trapped Birds, Insects, Rodents and other Pest"
+      },
+      {
+       "code": "7-206.11",
+       "description": "Restricted Use Pesticides, Criteria"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-19",
+     "type": "Complaint",
+     "violations": [
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      },
+      {
+       "code": "6-501.112",
+       "description": "Removing Dead or Trapped Birds, Insects, Rodents and other Pest"
+      },
+      {
+       "code": "8-404.11",
+       "description": "Ceasing Operations and Reporting"
+      }
+     ]
+    },
+    {
      "date": "2026-07-10",
      "type": "Routine",
      "violations": [
@@ -33371,32 +33571,16 @@
        "description": "Eating, Drinking, or Using Tobacco"
       },
       {
-       "code": "3-203.12",
-       "description": "Shellstock, Maintaining Identification"
-      },
-      {
-       "code": "3-302.12",
-       "description": "Food Storage Containers Identified with Common Name of Food"
-      },
-      {
        "code": "3-304.12",
        "description": "In-Use Utensils, Between-Use Storage"
-      },
-      {
-       "code": "3-402.11",
-       "description": "Parasite Destruction"
-      },
-      {
-       "code": "3-501.17",
-       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
       },
       {
        "code": "4-101.19",
        "description": "Nonfood-Contact Surfaces"
       },
       {
-       "code": "4-601.11",
-       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+       "code": "4-202.18",
+       "description": "Ventilation Hood Systems, Filters"
       },
       {
        "code": "5-501.13",
@@ -33411,12 +33595,12 @@
        "description": "Cleaning, Frequency and Restrictions"
       },
       {
-       "code": "7-201.11",
-       "description": "Separation-Storage"
+       "code": "6-501.14",
+       "description": "Cleaning Ventilation Systems, Nuisance and Discharge Prohibition"
       },
       {
-       "code": "8-103.12",
-       "description": "Conformance with Approved Procedures"
+       "code": "6-501.16",
+       "description": "Drying Mops"
       }
      ]
     },
@@ -33768,113 +33952,6 @@
        "description": "Handwashing Signage"
       }
      ]
-    },
-    {
-     "date": "2024-11-01",
-     "type": "Follow-up",
-     "violations": [
-      {
-       "code": "2-102.12",
-       "description": "Certified Food Protection Manager"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-18",
-     "type": "Follow-up",
-     "violations": [
-      {
-       "code": "2-102.11",
-       "description": "Demonstration of Knowledge"
-      },
-      {
-       "code": "2-102.12",
-       "description": "Certified Food Protection Manager"
-      },
-      {
-       "code": "2-301.14",
-       "description": "When to Wash"
-      },
-      {
-       "code": "3-203.12",
-       "description": "Shellstock, Maintaining Identification"
-      },
-      {
-       "code": "3-402.11",
-       "description": "Parasite Destruction"
-      },
-      {
-       "code": "4-302.14",
-       "description": "Sanitizing Solutions, Testing Devices"
-      },
-      {
-       "code": "8-404.11",
-       "description": "Ceasing Operations and Reporting"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-16",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "2-102.12",
-       "description": "Certified Food Protection Manager"
-      },
-      {
-       "code": "2-401.11",
-       "description": "Eating, Drinking, or Using Tobacco"
-      },
-      {
-       "code": "3-302.11",
-       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
-      },
-      {
-       "code": "3-304.11",
-       "description": "Food Contact with Equipment, Utensils, and Linens"
-      },
-      {
-       "code": "3-501.16",
-       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
-      },
-      {
-       "code": "3-501.16",
-       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
-      },
-      {
-       "code": "3-501.17",
-       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
-      },
-      {
-       "code": "4-501.114",
-       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
-      },
-      {
-       "code": "4-601.11",
-       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
-      },
-      {
-       "code": "5-205.11",
-       "description": "Using a Handwashing Sink-Operation and Maintenance"
-      },
-      {
-       "code": "6-301.12",
-       "description": "Hand Drying Provision"
-      },
-      {
-       "code": "7-102.11",
-       "description": "Common Name-Working Containers"
-      },
-      {
-       "code": "7.202.11",
-       "description": "Restriction-Presence and Use"
-      }
-     ]
-    },
-    {
-     "date": "2024-10-16",
-     "type": "Complaint",
-     "violations": []
     }
    ],
    "mobile": false,
@@ -33886,6 +33963,122 @@
    "city": "Dover",
    "id": "2bdc2081aa",
    "inspections": [
+    {
+     "date": "2026-10-30",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-301.14",
+       "description": "When to Wash"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-602.11",
+       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
+      },
+      {
+       "code": "4-602.11",
+       "description": "Equipment Food-Contact Surfaces and Utensils-Frequency"
+      },
+      {
+       "code": "5-501.113",
+       "description": "Covering Receptacles"
+      },
+      {
+       "code": "5-501.115",
+       "description": "Maintaining Refuse Areas and Enclosures"
+      },
+      {
+       "code": "6-202.14",
+       "description": "Toilet Rooms, Enclosed"
+      },
+      {
+       "code": "6-501.111",
+       "description": "Controlling Pests"
+      },
+      {
+       "code": "6-501.19",
+       "description": "Closing Toilet Room Doors"
+      },
+      {
+       "code": "7-206.11",
+       "description": "Restricted Use Pesticides, Criteria"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-301.14",
+       "description": "When to Wash"
+      },
+      {
+       "code": "3-302.11",
+       "description": "Packaged and Unpackaged Food-Separation, Packaging, and Segregation"
+      },
+      {
+       "code": "3-304.12",
+       "description": "In-Use Utensils, Between-Use Storage"
+      },
+      {
+       "code": "3-304.15",
+       "description": "Gloves, Use Limitation"
+      },
+      {
+       "code": "3-501.16",
+       "description": "Time/Temperature Control for Safety Food, Hot and Cold Holding"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "4-903.11",
+       "description": "Equipment, Utensils, Linens and Single-Service and Single-Use Articles Storing"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "5-501.113",
+       "description": "Covering Receptacles"
+      },
+      {
+       "code": "6-202.14",
+       "description": "Toilet Rooms, Enclosed"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-501.19",
+       "description": "Closing Toilet Room Doors"
+      }
+     ]
+    },
     {
      "date": "2026-07-20",
      "type": "Complaint",
@@ -34126,6 +34319,32 @@
    "city": "Dover",
    "id": "0db2ba2fe0",
    "inspections": [
+    {
+     "date": "2026-10-13",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.18",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Disposition"
+      },
+      {
+       "code": "4-501.114",
+       "description": "Manual and Mechanical Warewashing Equipment, Chemical Sanitization-Temperature, pH, Concentration and Hardness"
+      },
+      {
+       "code": "5-205.11",
+       "description": "Using a Handwashing Sink-Operation and Maintenance"
+      },
+      {
+       "code": "6-301.12",
+       "description": "Hand Drying Provision"
+      },
+      {
+       "code": "6-501.12",
+       "description": "Cleaning, Frequency and Restrictions"
+      }
+     ]
+    },
     {
      "date": "2026-05-05",
      "type": "Routine",
@@ -34864,16 +35083,6 @@
        "description": "Handwashing Sinks, Installation"
       }
      ]
-    },
-    {
-     "date": "2024-11-04",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "8-301.11",
-       "description": "Prerequisite for Operation"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -35349,16 +35558,6 @@
        "description": "Repairing-Premises, Structures, Attachments, and Fixtures-Methods"
       }
      ]
-    },
-    {
-     "date": "2024-10-30",
-     "type": "Routine",
-     "violations": [
-      {
-       "code": "3-501.18",
-       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Disposition"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -35513,16 +35712,6 @@
        "description": "Manual Warewashing Equipment, Wash Solution Temperature"
       }
      ]
-    },
-    {
-     "date": "2024-10-24",
-     "type": "Follow-up",
-     "violations": [
-      {
-       "code": "4-501.19",
-       "description": "Manual Warewashing Equipment, Wash Solution Temperature"
-      }
-     ]
     }
    ],
    "mobile": false,
@@ -35534,6 +35723,21 @@
    "city": "Dover",
    "id": "2b5a8cb660",
    "inspections": [
+    {
+     "date": "2026-10-26",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2026-10-23",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "8-301.11",
+       "description": "Prerequisite for Operation"
+      }
+     ]
+    },
     {
      "date": "2026-08-06",
      "type": "Routine",
@@ -35812,11 +36016,6 @@
        "description": "Conveying Sewage"
       }
      ]
-    },
-    {
-     "date": "2024-10-21",
-     "type": "Follow-up",
-     "violations": []
     }
    ],
    "mobile": false,
@@ -36558,6 +36757,6 @@
   }
  ],
  "slug": "dover",
- "source_updated": "2026-10-30",
+ "source_updated": "2026-11-06",
  "town": "Dover"
 }

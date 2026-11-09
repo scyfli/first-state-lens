@@ -51,7 +51,7 @@
   {
    "address": "86 Sorrento Drive",
    "city": "Clayton",
-   "id": "25fff90c7d",
+   "id": "83460cf72f",
    "inspections": [
     {
      "date": "2026-03-25",
@@ -79,7 +79,7 @@
     }
    ],
    "mobile": false,
-   "name": "Clayton Intermediate School",
+   "name": "Clayton Middle School",
    "zip": "19938"
   },
   {
@@ -115,6 +115,25 @@
    "city": "Clayton",
    "id": "6bf50f0fe2",
    "inspections": [
+    {
+     "date": "2026-10-27",
+     "type": "Routine",
+     "violations": []
+    },
+    {
+     "date": "2026-10-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "6-301.14",
+       "description": "Handwashing Signage"
+      }
+     ]
+    },
     {
      "date": "2025-09-23",
      "type": "Routine",
@@ -392,6 +411,30 @@
    "id": "29335ac94f",
    "inspections": [
     {
+     "date": "2026-11-04",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "5-202.12",
+       "description": "Handwashing Sinks, Installation"
+      }
+     ]
+    },
+    {
+     "date": "2026-10-21",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-202.12",
+       "description": "Handwashing Sinks, Installation"
+      }
+     ]
+    },
+    {
      "date": "2025-09-23",
      "type": "Routine",
      "violations": [
@@ -538,6 +581,6 @@
   }
  ],
  "slug": "clayton",
- "source_updated": "2026-10-30",
+ "source_updated": "2026-11-06",
  "town": "Clayton"
 }
