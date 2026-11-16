@@ -4018,6 +4018,16 @@
    "id": "7f1032ca5c",
    "inspections": [
     {
+     "date": "2026-11-12",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-602.12",
+       "description": "Other Forms of Information"
+      }
+     ]
+    },
+    {
      "date": "2026-10-29",
      "type": "Routine",
      "violations": [
@@ -7548,6 +7558,6 @@
   }
  ],
  "slug": "middletown",
- "source_updated": "2026-11-06",
+ "source_updated": "2026-11-13",
  "town": "Middletown"
 }

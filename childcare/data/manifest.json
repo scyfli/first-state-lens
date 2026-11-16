@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T19:42:11Z",
+  "generated_at": "2026-11-16T19:31:43Z",
   "dashboard": "childcare-access",
   "sources": {
     "providers": {
@@ -14,9 +14,9 @@
     }
   },
   "row_counts": {
-    "providers": 1186,
-    "mapped_points": 1186,
-    "total_capacity": 67111,
+    "providers": 1187,
+    "mapped_points": 1187,
+    "total_capacity": 67117,
     "total_children_under_6": 66258
   }
 }

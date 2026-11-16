@@ -215,6 +215,16 @@
    "id": "74a51c11d0",
    "inspections": [
     {
+     "date": "2026-11-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
      "date": "2026-10-29",
      "type": "Routine",
      "violations": [
@@ -1607,6 +1617,20 @@
    "id": "6e4a954e42",
    "inspections": [
     {
+     "date": "2026-11-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
+    {
      "date": "2026-10-28",
      "type": "Routine",
      "violations": [
@@ -2502,6 +2526,20 @@
    "id": "89a8c7b9f0",
    "inspections": [
     {
+     "date": "2026-11-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    },
+    {
      "date": "2026-10-26",
      "type": "Routine",
      "violations": [
@@ -3023,6 +3061,32 @@
    "city": "Newark",
    "id": "6c70b8670b",
    "inspections": [
+    {
+     "date": "2026-11-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-103.11",
+       "description": "Person-In-Charge-Duties"
+      },
+      {
+       "code": "2-501.11",
+       "description": "Clean-up of Vomiting and Diarrheal Events"
+      },
+      {
+       "code": "3-302.12",
+       "description": "Food Storage Containers Identified with Common Name of Food"
+      },
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
     {
      "date": "2026-10-28",
      "type": "Routine",
@@ -5093,6 +5157,20 @@
    "city": "Newark",
    "id": "4f67e6dde7",
    "inspections": [
+    {
+     "date": "2026-11-09",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "2-102.12",
+       "description": "Certified Food Protection Manager"
+      },
+      {
+       "code": "4-302.14",
+       "description": "Sanitizing Solutions, Testing Devices"
+      }
+     ]
+    },
     {
      "date": "2026-10-29",
      "type": "Routine",
@@ -8606,6 +8684,20 @@
    "city": "Newark",
    "id": "56b4e37ba9",
    "inspections": [
+    {
+     "date": "2026-11-10",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      }
+     ]
+    },
     {
      "date": "2026-10-28",
      "type": "Routine",
@@ -19564,6 +19656,6 @@
   }
  ],
  "slug": "newark",
- "source_updated": "2026-11-06",
+ "source_updated": "2026-11-13",
  "town": "Newark"
 }

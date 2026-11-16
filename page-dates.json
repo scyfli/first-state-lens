@@ -8,8 +8,8 @@
     "hash": "b71c3299f639318fe03500b1b202ec6f773a7c51c3ab9a4abf88deacdaa9624c"
   },
   "/campaign-finance/": {
-    "date": "2026-11-09",
-    "hash": "60d17fca16dc846acae39ccf09721b2b724e90e6ac812af88a7a0a3c0911cb28"
+    "date": "2026-11-16",
+    "hash": "254c66e265b287b92c26a44fd67300db8e9eedfe741eb2b4b38cf5a8ff67338b"
   },
   "/candidates/": {
     "date": "2026-10-31",
@@ -20,20 +20,20 @@
     "hash": "3f8df301baaa2351da452a8d0b6af3dcb19582b1fc0e1644e0cbd6a3b40365d9"
   },
   "/childcare/": {
-    "date": "2026-11-09",
-    "hash": "5a7b429aec720b5faf7bcf0a4cf76be825b396e0e662e486ee00951f26669263"
+    "date": "2026-11-16",
+    "hash": "dc445281458c27ab5775239dbda940c70aed65b4261a9d87bab6501e67c95ab0"
   },
   "/dgi-food-access/": {
     "date": "2026-07-05",
     "hash": "4825785c91cd70b4c35bdbc5367f8a038621ea40e3503ab1582df62b49b1ac96"
   },
   "/federal/": {
-    "date": "2026-11-09",
-    "hash": "412c868ad98819093e41667b89a7dd3d18f5e111069d766f1a81889c319f8ef5"
+    "date": "2026-11-16",
+    "hash": "56696de85a7f581ca95695aa191090e733870f4ee6ec7010510a107c7d491391"
   },
   "/inspections/": {
-    "date": "2026-11-09",
-    "hash": "c7ed11abd364c9a0c2d643c3068e47f36de3412f661c62fe4baea0f0be5adadb"
+    "date": "2026-11-16",
+    "hash": "f373556f331e211ece888f57e1cf9222ee06e4fe60b55b89bae8a8091e03c02c"
   },
   "/my-delaware/": {
     "date": "2026-10-14",
@@ -44,8 +44,8 @@
     "hash": "0fb22ad531b0298183ef7c5977a9d865a923035bbb5afae9dea5abfececd2fed"
   },
   "/reassessment/": {
-    "date": "2026-11-09",
-    "hash": "c0292f4d2e89439a64fb662bd219037e8e87ec6d816cc573c4216a84b7b61e8f"
+    "date": "2026-11-16",
+    "hash": "b897f79414e9d1929df38464a82aad9372ca511ea835c8dd7164a5a14163a7e4"
   },
   "/road-safety/": {
     "date": "2026-10-14",
@@ -56,8 +56,8 @@
     "hash": "d8c1d9186460c4eb77ae5581d9ac00b2a50a1393e4e64fcc447a14361161f759"
   },
   "/spending/": {
-    "date": "2026-10-19",
-    "hash": "310382e5641cc7074554945956e52ae3eccaffd1aba12b0fb13bbc7ea5df8195"
+    "date": "2026-11-16",
+    "hash": "e509f10f7267211e0f172f7671fcae057fb43d7eb01b31f2d48ee0430500d007"
   },
   "/vote/": {
     "date": "2026-10-05",

@@ -7150,6 +7150,24 @@
    "id": "025988fa90",
    "inspections": [
     {
+     "date": "2026-11-07",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "4-204.112",
+       "description": "Temperature Measuring Devices-Functionality"
+      },
+      {
+       "code": "4-601.11",
+       "description": "Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils"
+      },
+      {
+       "code": "5-501.17",
+       "description": "Toilet Room Receptacle, Covered"
+      }
+     ]
+    },
+    {
      "date": "2026-10-28",
      "type": "Routine",
      "violations": [
@@ -9907,6 +9925,16 @@
    "city": "New Castle",
    "id": "62f1689235",
    "inspections": [
+    {
+     "date": "2026-11-08",
+     "type": "Routine",
+     "violations": [
+      {
+       "code": "3-501.17",
+       "description": "Ready-To-Eat Time/Temperature Control for Safety Food, Date Marking"
+      }
+     ]
+    },
     {
      "date": "2026-10-29",
      "type": "Routine",
@@ -13876,6 +13904,6 @@
   }
  ],
  "slug": "new-castle",
- "source_updated": "2026-11-06",
+ "source_updated": "2026-11-13",
  "town": "New Castle"
 }

@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-09T19:42:10Z",
+  "generated_at": "2026-11-16T19:31:41Z",
   "fiscal_year": 2026,
   "scope": "place_of_performance=DE",
   "scope_note": "Money spent in Delaware (place of performance), not money to Delaware-based recipients.",
   "counts": {
-    "contracts": 3640,
-    "grants": 2054,
+    "contracts": 3644,
+    "grants": 2094,
     "direct_payments": 3062,
     "loans": 880,
     "idvs": 0,
-    "other": 521
+    "other": 539
   },
-  "total_awards": 10157,
+  "total_awards": 10219,
   "top_contracts": [
     {
       "recipient": "AGATE CONSTRUCTION COMPANY, INC.",
@@ -68,12 +68,6 @@
       "type": "\u2014"
     },
     {
-      "recipient": "PHASE SENSITIVE INNOVATIONS INC",
-      "amount": 18234426.0,
-      "agency": "Department of Defense",
-      "type": "\u2014"
-    },
-    {
       "recipient": "HERMAN/JCG CO JV",
       "amount": 17730490.68,
       "agency": "Department of Defense",
@@ -100,6 +94,12 @@
     {
       "recipient": "CAESAR RODNEY SCHOOL DISTRICT",
       "amount": 15007444.4,
+      "agency": "Department of Defense",
+      "type": "\u2014"
+    },
+    {
+      "recipient": "CAESAR RODNEY SCHOOL DISTRICT",
+      "amount": 11977355.82,
       "agency": "Department of Defense",
       "type": "\u2014"
     }
